@@ -1,0 +1,17 @@
+{
+  "format": "domcq/1",
+  "set": "Invalid fixture",
+  "questions": [
+    {
+      "options": [
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Neptune"
+      ],
+      "answer": "B",
+      "explanation": "Saturn has the largest number of confirmed moons.",
+      "topic": "Astronomy"
+    }
+  ]
+}

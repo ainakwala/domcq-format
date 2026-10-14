@@ -1,0 +1,13 @@
+{
+  "format": "domcq/1",
+  "set": "Minimal",
+  "questions": [
+    {
+      "stem": "Water boils at 100 °C at sea level.",
+      "options": ["True", "False"],
+      "answer": "A",
+      "explanation": "At standard atmospheric pressure the boiling point of water is 100 °C.",
+      "topic": "Physics"
+    }
+  ]
+}

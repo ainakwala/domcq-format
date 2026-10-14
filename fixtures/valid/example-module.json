@@ -1,0 +1,54 @@
+{
+  "format": "domcq/1",
+  "exam": "example",
+  "set": "Execution – team leadership",
+  "questions": [
+    {
+      "stem": "Two senior developers disagree publicly about the architecture during a sprint review. The project manager should FIRST:",
+      "options": [
+        "Escalate to the sponsor for a decision.",
+        "Meet both developers privately to understand the underlying concerns.",
+        "Choose the architecture proposed by the more experienced developer.",
+        "Add the item to the risk register and continue the review."
+      ],
+      "answer": "B",
+      "explanation": "Conflict is addressed early, directly and collaboratively. Understanding each party's concerns comes before any decision or escalation.",
+      "rationales": {
+        "A": "Escalating first skips the project manager's own responsibility to manage team conflict.",
+        "C": "Seniority is not a basis for resolving a technical disagreement.",
+        "D": "Logging a risk does not address an active conflict."
+      },
+      "topic": "Execution",
+      "subtopic": "Team leadership",
+      "difficulty": "medium",
+      "source": "Example Exam Content Outline v1, Execution, task 1"
+    },
+    {
+      "stem": "A key stakeholder has stopped attending status meetings and is not answering emails. Which of the following is the MOST likely cause the project manager should investigate first?",
+      "options": [
+        "The stakeholder's engagement level has changed since the stakeholder register was last updated.",
+        "The meeting invitations are being sent to the wrong address.",
+        "The stakeholder has left the organisation.",
+        "The project has been cancelled without notice."
+      ],
+      "answer": "A",
+      "explanation": "A change in engagement is the common case and is what the stakeholder engagement plan exists to detect and manage; the other options are possible but far less likely and would be discovered on the way.",
+      "topic": "execution",
+      "subtopic": "Stakeholder communication",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "The final deliverable has been accepted by the customer. What should the project manager do NEXT?",
+      "options": [
+        "Release the project team immediately.",
+        "Archive project documents and capture lessons learned.",
+        "Start planning the next project.",
+        "Request additional budget for warranty support."
+      ],
+      "answer": "B",
+      "explanation": "Closing activities follow acceptance: documents are archived, lessons learned are captured and only then are resources released.",
+      "topic": "Closing",
+      "subtopic": "Administrative closure"
+    }
+  ]
+}

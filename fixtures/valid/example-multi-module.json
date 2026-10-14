@@ -1,0 +1,36 @@
+{
+  "format": "domcq/1",
+  "exam": "example-multi",
+  "set": "Security – identity and encryption",
+  "questions": [
+    {
+      "stem": "A company wants application servers to read objects from a storage bucket without embedding long-lived credentials in the application. Which TWO actions together meet this requirement?",
+      "options": [
+        "Attach an identity role to the server instances that grants read access to the bucket.",
+        "Store an access key in a configuration file on each server.",
+        "Grant the bucket's read permission to the role rather than to a user.",
+        "Make the bucket publicly readable.",
+        "Rotate the embedded access key every 90 days."
+      ],
+      "answer": "AC",
+      "explanation": "Instance roles provide short-lived credentials automatically; granting the bucket permission to that role completes the design. Embedded keys, even rotated, are what the requirement rules out, and a public bucket exposes the data to everyone.",
+      "topic": "Security",
+      "subtopic": "Identity",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "Which of the following encrypts data at rest in block storage with the LEAST operational effort?",
+      "options": [
+        "Provider-managed encryption enabled on the volume.",
+        "Application-level encryption of every file before write.",
+        "A third-party encryption appliance in front of the volume.",
+        "Manual encryption of snapshots after they are taken."
+      ],
+      "answer": "A",
+      "explanation": "Provider-managed volume encryption is a single setting with no key handling in the application or operations path.",
+      "topic": "Storage",
+      "subtopic": "Block storage",
+      "difficulty": "easy"
+    }
+  ]
+}

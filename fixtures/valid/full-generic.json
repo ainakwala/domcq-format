@@ -1,0 +1,55 @@
+{
+  "format": "domcq/1",
+  "set": "Cell biology – membranes and transport",
+  "questions": [
+    {
+      "stem": "Which of the following processes moves molecules across a cell membrane against their concentration gradient?",
+      "options": [
+        "Simple diffusion",
+        "Facilitated diffusion",
+        "Active transport",
+        "Osmosis"
+      ],
+      "answer": "C",
+      "explanation": "Active transport uses energy, usually from ATP, to move molecules from a region of lower concentration to one of higher concentration. The other three are passive and move molecules down their gradient.",
+      "rationales": {
+        "A": "Simple diffusion is passive and moves molecules down their gradient.",
+        "B": "Facilitated diffusion uses carrier or channel proteins but is still passive.",
+        "D": "Osmosis is the passive movement of water across a membrane."
+      },
+      "topic": "Cell biology",
+      "subtopic": "Membrane transport",
+      "difficulty": "easy",
+      "source": "Chapter 5, section 5.3"
+    },
+    {
+      "stem": "Which TWO of the following are components of the fluid mosaic model of the plasma membrane?",
+      "options": [
+        "A phospholipid bilayer",
+        "A rigid cellulose lattice",
+        "Peptidoglycan cross-links",
+        "Embedded and peripheral proteins",
+        "A continuous sheet of cholesterol"
+      ],
+      "answer": "AD",
+      "explanation": "The fluid mosaic model describes a phospholipid bilayer in which proteins are embedded or attached, free to move laterally. Cellulose and peptidoglycan belong to cell walls, not membranes, and cholesterol is interspersed, not a sheet.",
+      "topic": "Cell biology",
+      "subtopic": "Membrane structure",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A red blood cell is placed in a hypertonic solution. What is MOST likely to happen?",
+      "options": [
+        "It swells and may burst.",
+        "It shrinks as water leaves the cell.",
+        "It stays the same size."
+      ],
+      "answer": "B",
+      "explanation": "In a hypertonic solution the external solute concentration is higher, so water moves out of the cell by osmosis and the cell crenates.",
+      "topic": "Cell biology",
+      "subtopic": "Osmosis",
+      "difficulty": "hard",
+      "source": "Chapter 5, worked example 2"
+    }
+  ]
+}

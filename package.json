@@ -1,0 +1,61 @@
+{
+  "name": "domcq-format",
+  "version": "1.0.0",
+  "description": "The domcq/1 question-set format: specification, JSON Schema and a strict, deterministic TypeScript validator with module rules.",
+  "license": "MIT",
+  "author": "DoMcq (https://domcq.com)",
+  "homepage": "https://github.com/ainakwala/domcq-format",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ainakwala/domcq-format.git"
+  },
+  "keywords": [
+    "domcq",
+    "exam",
+    "mcq",
+    "multiple-choice",
+    "practice-questions",
+    "json-schema",
+    "zod",
+    "validator"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./schema/v1.json": "./schema/v1.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "schema",
+    "SPEC.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "schema": "tsx scripts/gen-schema.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "check": "npm run typecheck && npm run test && npm run schema && git diff --exit-code -- schema/v1.json"
+  },
+  "dependencies": {
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^5.0.0"
+  }
+}

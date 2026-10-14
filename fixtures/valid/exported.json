@@ -1,0 +1,31 @@
+{
+  "format": "domcq/1",
+  "exam": "example",
+  "set": "Planning – scope and schedule",
+  "exported_at": "2026-10-14T09:30:00Z",
+  "questions": [
+    {
+      "id": "q_01J9ZK3M8R4T2V6X",
+      "stem": "A sponsor asks for a feature that is not in the approved scope statement. The project manager should FIRST:",
+      "options": [
+        "Add the feature, since the sponsor funds the project.",
+        "Refuse the request, since the scope is baselined.",
+        "Submit a change request for impact analysis.",
+        "Ask the team to estimate the feature informally."
+      ],
+      "answer": "C",
+      "explanation": "Any change to a baselined scope goes through change control so its impact on schedule, cost and quality is assessed before a decision.",
+      "topic": "Planning",
+      "subtopic": "Scope"
+    },
+    {
+      "id": "q_01J9ZK3M8R4T2V6Y",
+      "stem": "Which schedule compression technique adds resources to critical-path activities at additional cost?",
+      "options": ["Crashing", "Fast tracking", "Resource levelling", "Rolling-wave planning"],
+      "answer": "A",
+      "explanation": "Crashing shortens the schedule by adding resources to critical-path activities; fast tracking overlaps activities instead.",
+      "topic": "Planning",
+      "subtopic": "Schedule"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "example-multi",
+  "display_name": "Example Cloud Associate",
+  "body": "Example Cloud (fictional)",
+  "disclaimer": "Example Cloud Associate is a fictional exam used only to demonstrate module rules.",
+  "taxonomy": {
+    "Networking": ["Virtual networks", "Load balancing", "DNS"],
+    "Storage": ["Object storage", "Block storage"],
+    "Security": ["Identity", "Encryption"]
+  },
+  "weights": { "Networking": 30, "Storage": 30, "Security": 40 },
+  "options": { "min": 4, "max": 5 },
+  "multi_select": true,
+  "banned_option_text": ["all of the above"],
+  "exam_mode": { "questions": 65, "minutes": 130 },
+  "verified_outline": "Example Cloud Associate Exam Guide v1 (fictional)",
+  "verified_on": "2026-10-14",
+  "next_review": "2027-04-14"
+}

@@ -1,0 +1,41 @@
+{
+  "format": "domcq/1",
+  "set": "Invalid fixture",
+  "questions": [
+    {
+      "stem": "Moons?",
+      "options": [
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Neptune"
+      ],
+      "answer": "b",
+      "explanation": "Saturn has the largest number of confirmed moons.",
+      "topic": "Astronomy"
+    },
+    {
+      "stem": "Which gas makes up the largest share of Earth's atmosphere by volume?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Argon",
+        "Carbon dioxide"
+      ],
+      "answer": "B",
+      "explanation": "Nitrogen is about 78% of the atmosphere by volume.",
+      "topic": "Earth science"
+    },
+    {
+      "stem": "Which planet in the Solar System has the most known moons?",
+      "options": [
+        "Jupiter",
+        "Saturn"
+      ],
+      "answer": "AB",
+      "explanation": "Saturn has the largest number of confirmed moons.",
+      "topic": "Astronomy",
+      "extra": true
+    }
+  ]
+}

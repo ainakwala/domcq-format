@@ -1,0 +1,21 @@
+{
+  "id": "example",
+  "display_name": "Example Exam",
+  "body": "Example Certification Board (fictional)",
+  "disclaimer": "Example Exam is a fictional exam used only to demonstrate module rules. It is not affiliated with, or endorsed by, any exam body.",
+  "taxonomy": {
+    "Planning": ["Scope", "Schedule", "Budget"],
+    "Execution": ["Team leadership", "Stakeholder communication", "Quality"],
+    "Closing": []
+  },
+  "weights": { "Planning": 40, "Execution": 45, "Closing": 15 },
+  "options": { "min": 4, "max": 4 },
+  "multi_select": false,
+  "banned_option_text": ["all of the above", "none of the above"],
+  "stem_hints": ["The project manager should FIRST", "Which of the following is MOST likely"],
+  "uncovered_item_types": ["drag-and-drop", "hotspot"],
+  "exam_mode": { "questions": 60, "minutes": 75 },
+  "verified_outline": "Example Exam Content Outline v1 (fictional)",
+  "verified_on": "2026-10-14",
+  "next_review": "2027-10-14"
+}

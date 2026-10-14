@@ -1,0 +1,22 @@
+{
+  "format": "domcq/1",
+  "set": "Invalid fixture",
+  "questions": [
+    {
+      "stem": "Which planet in the Solar System has the most known moons?",
+      "options": [
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Neptune"
+      ],
+      "answer": "B",
+      "explanation": "Saturn has the largest number of confirmed moons.",
+      "topic": "Astronomy",
+      "rationales": {
+        "A": "Jupiter has fewer.",
+        "F": "There is no option F."
+      }
+    }
+  ]
+}
