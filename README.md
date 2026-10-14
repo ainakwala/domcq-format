@@ -40,7 +40,7 @@ Full rules: [SPEC.md](SPEC.md).
 ## Using the validator
 
 ```sh
-npm install github:ainakwala/domcq-format
+npm install github:ainakwala/domcq-format   # builds dist/ on install via the prepare script
 ```
 
 ```ts
@@ -108,7 +108,7 @@ A module is a data file: the rails for one exam, no questions. See [fixtures/mod
 
 ## JSON Schema
 
-[`schema/v1.json`](schema/v1.json) is generated from the Zod schema (`npm run schema`) and served at `https://domcq.com/schema/v1`. It carries the structural rules. The rules a schema checker cannot express (answer letters within range, unique options, module rules) are listed in [SPEC.md §3–4](SPEC.md#3-rules-the-schema-cannot-express) and enforced by the validator.
+[`schema/v1.json`](schema/v1.json) is generated from the Zod schema (`npm run schema`) and served at `https://domcq.com/schema/v1`. It carries the structural rules and describes a file *after* the validator's trimming step (SPEC.md §5.4), so a bare schema checker is slightly stricter about surrounding whitespace than `validate()`. The rules a schema checker cannot express at all (answer letters within range, unique options, module rules) are listed in [SPEC.md §3–4](SPEC.md#3-rules-the-schema-cannot-express) and enforced by the validator.
 
 ## Fixtures
 

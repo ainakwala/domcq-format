@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { normaliseText } from "./duplicates.js";
 
 /**
  * A module is a data file: rails, no questions. It declares the shape a
@@ -83,6 +84,15 @@ export function parseModuleConfig(input: unknown): ModuleConfig {
   const module = moduleConfigSchema.parse(input);
   if (module.options.min > module.options.max) {
     throw new Error(`Module "${module.id}": options.min (${module.options.min}) exceeds options.max (${module.options.max}).`);
+  }
+  if (module.taxonomy) {
+    const seen = new Map<string, string>();
+    for (const topic of Object.keys(module.taxonomy)) {
+      const key = normaliseText(topic);
+      const clash = seen.get(key);
+      if (clash !== undefined) throw new Error(`Module "${module.id}": taxonomy topics "${clash}" and "${topic}" are the same once case and spacing are ignored.`);
+      seen.set(key, topic);
+    }
   }
   if (module.weights && module.taxonomy) {
     const topics = new Set(Object.keys(module.taxonomy));

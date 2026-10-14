@@ -1,0 +1,20 @@
+{
+  "format": "domcq/1",
+  "set": "Example Exam fixture",
+  "exam": "example",
+  "questions": [
+    {
+      "stem": "A sponsor asks for a feature that is not in the approved scope statement. The project manager should FIRST:",
+      "options": [
+        "Add the feature, since the sponsor funds the project.",
+        "Refuse the request, since the scope is baselined.",
+        "Submit a change request for impact analysis."
+      ],
+      "answer": "C",
+      "explanation": "Changes to a baselined scope go through change control before any decision.",
+      "topic": "Procurement",
+      "subtopic": "Scope",
+      "difficulty": "expert"
+    }
+  ]
+}

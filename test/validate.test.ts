@@ -1,3 +1,5 @@
+import { readFileSync } from "node:fs";
+import { resolve } from "node:path";
 import { describe, expect, it } from "vitest";
 import {
   validate,
@@ -128,10 +130,50 @@ describe("validate()", () => {
     expect(codes(withFn.warnings)).toEqual(["W001"]);
   });
 
-  it("does not apply module rules to a structurally broken question", () => {
+  it("still applies module and cross-field rules to the valid fields of a broken question", () => {
     const m: ModuleConfig = { id: "m", display_name: "M", options: { min: 3, max: 3 }, multi_select: false };
-    const r = validate(file([question({ stem: "Short" })], { exam: "m" }), { modules: { generic, m } });
+    const r = validate(file([question({ stem: "Short", answer: "BD" })], { exam: "m" }), { modules: { generic, m } });
+    expect(codes(r.errors)).toEqual(["E103", "E201", "E202"]);
+    // ...but not to the field that failed: a non-string `options` yields E104 alone, no E201/E108.
+    const r2 = validate(file([question({ options: "Saturn", answer: "E" })], { exam: "m" }), { modules: { generic, m } });
+    expect(codes(r2.errors)).toEqual(["E104"]);
+  });
+
+  it("accepts exam \"generic\" explicitly even when the registry omits it", () => {
+    const m: ModuleConfig = { id: "m", display_name: "M", options: { min: 2, max: 6 }, multi_select: true };
+    const r = validate(file([question()], { exam: "generic" }), { modules: { m } });
+    expect(r.ok).toBe(true);
+    if (r.ok) expect(r.module.id).toBe("generic");
+  });
+
+  it("reports one error per field even when Zod raises several issues on it", () => {
+    const r = validate(file([question()], { exam: "" }));
+    expect(codes(r.errors)).toEqual(["E008"]);
+  });
+
+  it("sorts file-level errors before a fatal stop", () => {
+    const r = validate(JSON.stringify({ format: "domcq/1", set: "x", questions: {}, foo: 1 }));
+    expect(codes(r.errors)).toEqual(["E005", "E007"]);
+  });
+
+  it("keeps the JSON parser's message on one line", () => {
+    const r = validate("{\n  \"format\": \"domcq/1\",\n  \"set\": \"x\",\n  \"questions\": [],\n}");
+    expect(codes(r.errors)).toEqual(["E002"]);
+    expect(r.errors[0]?.message).not.toContain("\n");
+  });
+
+  it("treats a __proto__ key as an ordinary unknown field", () => {
+    const r = validate('{"format":"domcq/1","set":"x","__proto__":{"polluted":true},"questions":[]}');
+    expect(codes(r.errors)).toEqual(["E005", "E007"]);
+    expect(r.errors[0]?.message).toContain("`__proto__`");
+    expect(({} as Record<string, unknown>)["polluted"]).toBeUndefined();
+  });
+
+  it("counts lengths in Unicode code points, in checks and in messages alike", () => {
+    const r = validate(file([question({ stem: "😀😀😀😀😀😀😀😀😀" })]));
     expect(codes(r.errors)).toEqual(["E103"]);
+    expect(r.errors[0]?.message).toContain("a string of 9 characters");
+    expect(validate(file([question({ stem: "😀😀😀😀😀😀😀😀😀😀" })])).ok).toBe(true);
   });
 
   it("keeps validating questions when the envelope has non-fatal errors", () => {
@@ -150,16 +192,17 @@ describe("validate()", () => {
     expect(r.errors[0]?.message).toContain('"generic"');
   });
 
-  it("reports repeated rationale keys out of range and duplicate ids with the earlier question number", () => {
+  it("reports rationale keys out of range and duplicate ids with the earlier question number, in one pass", () => {
     const r = validate(file([question({ id: "a" }), question({ id: "a", stem: "A different stem of adequate length?", rationales: { E: "no such option" } })]));
     expect(r.ok).toBe(false);
     if (r.ok) return;
     expect(r.errors.map((e) => [e.code, e.question])).toEqual([
       ["E116", 2],
+      ["E119", 2],
     ]);
-    // Duplicate ids are only checked across structurally valid questions; fix the rationale and the id clash appears.
-    const r2 = validate(file([question({ id: "a" }), question({ id: "a", stem: "A different stem of adequate length?" })]));
-    expect(r2.errors.map((e) => e.message)).toEqual(['Question 2: `id` "a" is the same as question 1\'s. Ids must be unique within a file.']);
+    expect(r.errors[1]?.message).toBe(
+      'Question 2: `id` "a" is the same as question 1\'s. Ids must be unique within a file; they are set by an exporter, so remove both if you wrote them yourself.',
+    );
   });
 
   it("the Zod file schema agrees with validate() on a valid file", () => {
@@ -222,6 +265,15 @@ describe("catalogue", () => {
     expect(text).toContain("1. Question 2:");
     expect(text).toContain("complete corrected file");
     expect(text).toContain("https://domcq.com/schema/v1");
+  });
+
+  it("the SPEC.md error table matches the catalogue word for word", () => {
+    const spec = readFileSync(resolve(import.meta.dirname, "..", "SPEC.md"), "utf8").split("\n");
+    for (const [code, text] of Object.entries(catalogue)) {
+      const line = spec.find((l) => l.startsWith(`| ${code} |`));
+      const cell = line?.split("|")[2]?.trim().replace(/^\*\(warning\)\* /, "");
+      expect(cell, code).toBe(text);
+    }
   });
 
   it("limits are the frozen v1 numbers", () => {

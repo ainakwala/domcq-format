@@ -4,9 +4,11 @@ import { normaliseText } from "./duplicates.js";
 import { messages, type ValidationError, type ValidationWarning } from "./errors.js";
 
 /**
- * The module-rules layer. Runs on a structurally valid question against the
- * module the file belongs to. Everything here is data-driven from the module
- * config; nothing is specific to any exam.
+ * The module-rules layer. Runs against the module the file belongs to, on
+ * whichever fields of a question passed their structural check (a question
+ * with a bad `difficulty` still has its option count and topic checked).
+ * Everything here is data-driven from the module config; nothing is specific
+ * to any exam.
  */
 
 /** Option text comparison for bans: normalised, trailing punctuation dropped. */
@@ -23,39 +25,40 @@ export function matchTopic(topic: string, module: ModuleConfig): string | undefi
 }
 
 /** Module-rule errors for one question. */
-export function moduleErrors(n: number, question: Question, module: ModuleConfig): ValidationError[] {
+export function moduleErrors(n: number, question: Partial<Question>, module: ModuleConfig): ValidationError[] {
   const errors: ValidationError[] = [];
-  const count = question.options.length;
 
-  if (count < module.options.min || count > module.options.max) {
-    errors.push({ code: "E201", question: n, field: "options", message: messages.E201(n, count, module) });
+  if (question.options !== undefined) {
+    const count = question.options.length;
+    if (count < module.options.min || count > module.options.max) {
+      errors.push({ code: "E201", question: n, field: "options", message: messages.E201(n, count, module) });
+    }
+    const banned = (module.banned_option_text ?? []).map(bannable);
+    if (banned.length > 0) {
+      question.options.forEach((option, i) => {
+        if (banned.includes(bannable(option))) {
+          errors.push({ code: "E204", question: n, field: `options[${i}]`, message: messages.E204(n, i, option, module) });
+        }
+      });
+    }
   }
 
-  if (!module.multi_select && question.answer.length > 1) {
+  if (question.answer !== undefined && !module.multi_select && question.answer.length > 1) {
     errors.push({ code: "E202", question: n, field: "answer", message: messages.E202(n, question.answer, module) });
   }
 
   const hasTaxonomy = module.taxonomy !== undefined && Object.keys(module.taxonomy).length > 0;
-  if (hasTaxonomy && matchTopic(question.topic, module) === undefined) {
+  if (question.topic !== undefined && hasTaxonomy && matchTopic(question.topic, module) === undefined) {
     errors.push({ code: "E203", question: n, field: "topic", message: messages.E203(n, question.topic, module) });
-  }
-
-  const banned = (module.banned_option_text ?? []).map(bannable);
-  if (banned.length > 0) {
-    question.options.forEach((option, i) => {
-      if (banned.includes(bannable(option))) {
-        errors.push({ code: "E204", question: n, field: `options[${i}]`, message: messages.E204(n, i, option, module) });
-      }
-    });
   }
 
   return errors;
 }
 
 /** Module-rule warnings for one question: things kept as written but worth flagging. */
-export function moduleWarnings(n: number, question: Question, module: ModuleConfig): ValidationWarning[] {
+export function moduleWarnings(n: number, question: Partial<Question>, module: ModuleConfig): ValidationWarning[] {
   const warnings: ValidationWarning[] = [];
-  if (question.subtopic === undefined) return warnings;
+  if (question.subtopic === undefined || question.topic === undefined) return warnings;
 
   const topic = matchTopic(question.topic, module);
   if (topic === undefined) return warnings;

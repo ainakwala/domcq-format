@@ -28,7 +28,9 @@ export function parseText(text: string): ParseResult {
   try {
     return { ok: true, value: JSON.parse(body), fenced };
   } catch (err) {
-    return { ok: false, reason: "not_json", detail: err instanceof Error ? err.message : String(err) };
+    // The parser's own message, on one line. Its wording varies by JavaScript engine.
+    const detail = (err instanceof Error ? err.message : String(err)).replace(/\s+/g, " ").trim();
+    return { ok: false, reason: "not_json", detail };
   }
 }
 
@@ -42,7 +44,10 @@ export function trimStrings(value: unknown): unknown {
   if (Array.isArray(value)) return value.map(trimStrings);
   if (value !== null && typeof value === "object") {
     const out: Record<string, unknown> = {};
-    for (const [k, v] of Object.entries(value as Record<string, unknown>)) out[k] = trimStrings(v);
+    for (const [k, v] of Object.entries(value as Record<string, unknown>)) {
+      // defineProperty so a key spelled "__proto__" stays an own key (and is then reported as unknown).
+      Object.defineProperty(out, k, { value: trimStrings(v), enumerable: true, writable: true, configurable: true });
+    }
     return out;
   }
   return value;

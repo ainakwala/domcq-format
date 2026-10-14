@@ -46,14 +46,19 @@ export interface ValidationFailure {
 
 export type ValidationResult = ValidationSuccess | ValidationFailure;
 
+/** A question whose fields are present only where they passed their own structural check. */
+export type PartialQuestion = Partial<Question>;
+
 type Issue = z.core.$ZodIssue;
 
 /**
- * Validate pasted text as a domcq/1 file. Deterministic: the same input and
- * options always give the same result. Reports every error it can find in one
- * pass so the student makes one round trip to their AI, not ten.
+ * Validate pasted text (or an already-parsed value) as a domcq/1 file.
+ * Deterministic: the same input and options always give the same result.
+ * Reports every error it can find in one pass so the student makes one round
+ * trip to their AI, not ten: a question with a broken `difficulty` still has
+ * its `answer`, `topic` and module rules checked.
  */
-export function validate(input: string | unknown, options: ValidateOptions = {}): ValidationResult {
+export function validate(input: unknown, options: ValidateOptions = {}): ValidationResult {
   const modules = options.modules ?? defaultModules;
   const errors: ValidationError[] = [];
   const warnings: ValidationWarning[] = [];
@@ -81,13 +86,12 @@ export function validate(input: string | unknown, options: ValidateOptions = {})
   const envelope = envelopeSchema.safeParse(value);
   let fatal = false;
   if (!envelope.success) {
-    for (const issue of envelope.error.issues) {
-      const mapped = mapEnvelopeIssue(issue, value);
+    for (const mapped of dedupe(envelope.error.issues.map((issue) => mapEnvelopeIssue(issue, value)))) {
       errors.push(mapped);
       if (mapped.code === "E003" || mapped.code === "E007") fatal = true;
     }
   }
-  const obj = (value !== null && typeof value === "object" && !Array.isArray(value) ? value : {}) as Record<string, unknown>;
+  const obj = asObject(value);
 
   // 3. Resolve the module. Unknown module: report it, keep going without module rules.
   let module: ModuleConfig | undefined;
@@ -95,69 +99,59 @@ export function validate(input: string | unknown, options: ValidateOptions = {})
   if (exam === undefined) {
     module = modules["generic"] ?? generic;
   } else if (typeof exam === "string" && !errors.some((e) => e.code === "E008")) {
-    module = modules[exam];
+    module = modules[exam] ?? (exam === "generic" ? generic : undefined);
     if (module === undefined) {
       errors.push({ code: "E009", field: "exam", message: messages.E009(exam, Object.keys(modules)) });
     }
   }
 
-  if (fatal) return fail(errors, warnings, module, fenced);
+  if (fatal) return fail(sorted(errors), sorted(warnings), module, fenced);
 
-  // 4. Each question: structure, cross-field rules, module rules.
+  // 4. Each question: structure, then every rule whose inputs are structurally valid.
   const rawQuestions = obj["questions"] as unknown[];
   const questions: (Question | undefined)[] = [];
+  const partials: PartialQuestion[] = [];
   rawQuestions.forEach((rawQuestion, i) => {
     const n = i + 1;
     const parsed = questionSchema.safeParse(rawQuestion);
-    if (!parsed.success) {
-      const seen = new Set<string>();
-      for (const issue of parsed.error.issues) {
-        const mapped = mapQuestionIssue(n, issue, rawQuestion);
-        const key = `${mapped.code}:${mapped.field ?? ""}`;
-        if (!seen.has(key)) {
-          seen.add(key);
-          errors.push(mapped);
-        }
-      }
+    let partial: PartialQuestion;
+    if (parsed.success) {
+      partial = parsed.data;
+      questions.push(parsed.data);
+    } else {
+      errors.push(...dedupe(parsed.error.issues.map((issue) => mapQuestionIssue(n, issue, rawQuestion))));
+      partial = salvage(rawQuestion);
       questions.push(undefined);
-      return;
     }
+    partials.push(partial);
 
-    const question = parsed.data;
-    const before = errors.length;
-    errors.push(...crossFieldErrors(n, question));
-    if (errors.length > before) {
-      questions.push(undefined);
-      return;
-    }
-
+    errors.push(...crossFieldErrors(n, partial));
     if (module) {
-      errors.push(...moduleErrors(n, question, module));
-      warnings.push(...moduleWarnings(n, question, module));
+      errors.push(...moduleErrors(n, partial, module));
+      warnings.push(...moduleWarnings(n, partial, module));
     }
-    questions.push(question);
   });
 
-  // 5. Duplicates, across structurally valid questions only.
+  // 5. Duplicates, on every question whose stem and options (or id) are valid.
   const fingerprints: string[] = [];
   const seenIds = new Map<string, number>();
   const seenFingerprints = new Map<string, number>();
   const existing = toPredicate(options.existingFingerprints);
-  questions.forEach((question, i) => {
-    if (!question) {
+  partials.forEach((q, i) => {
+    const n = i + 1;
+    if (q.id !== undefined) {
+      const earlier = seenIds.get(q.id);
+      if (earlier !== undefined) {
+        errors.push({ code: "E119", question: n, field: "id", message: messages.E119(n, earlier, q.id) });
+      } else {
+        seenIds.set(q.id, n);
+      }
+    }
+    if (q.stem === undefined || q.options === undefined) {
       fingerprints.push("");
       return;
     }
-    const n = i + 1;
-    if (question.id !== undefined) {
-      const earlier = seenIds.get(question.id);
-      if (earlier !== undefined) {
-        errors.push({ code: "E119", question: n, field: "id", message: messages.E119(n, earlier, question.id) });
-      } else {
-        seenIds.set(question.id, n);
-      }
-    }
-    const fp = fingerprintOf(question);
+    const fp = fingerprintOf({ stem: q.stem, options: q.options });
     fingerprints.push(fp);
     const earlier = seenFingerprints.get(fp);
     if (earlier !== undefined) {
@@ -168,8 +162,8 @@ export function validate(input: string | unknown, options: ValidateOptions = {})
     }
   });
 
-  sortByQuestion(errors);
-  sortByQuestion(warnings);
+  sorted(errors);
+  sorted(warnings);
 
   if (errors.length > 0 || !envelope.success || module === undefined) {
     return fail(errors, warnings, module, fenced);
@@ -192,6 +186,10 @@ function fail(errors: ValidationError[], warnings: ValidationWarning[], module: 
   return result;
 }
 
+function asObject(value: unknown): Record<string, unknown> {
+  return (value !== null && typeof value === "object" && !Array.isArray(value) ? value : {}) as Record<string, unknown>;
+}
+
 function toPredicate(existing: ValidateOptions["existingFingerprints"]): (fp: string) => boolean {
   if (existing === undefined) return () => false;
   if (typeof existing === "function") return existing;
@@ -199,43 +197,74 @@ function toPredicate(existing: ValidateOptions["existingFingerprints"]): (fp: st
   return (fp) => set.has(fp);
 }
 
-function sortByQuestion<T extends { question?: number; code: string }>(items: T[]): void {
-  items.sort((a, b) => (a.question ?? 0) - (b.question ?? 0) || a.code.localeCompare(b.code));
+function sorted<T extends { question?: number; code: string }>(items: T[]): T[] {
+  return items.sort((a, b) => (a.question ?? 0) - (b.question ?? 0) || a.code.localeCompare(b.code));
+}
+
+/** One error per code and field; Zod can report the same field twice (min and pattern, say). */
+function dedupe(items: ValidationError[]): ValidationError[] {
+  const seen = new Set<string>();
+  return items.filter((e) => {
+    const key = `${e.code}:${e.question ?? ""}:${e.field ?? ""}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+/**
+ * From a question that failed as a whole, keep each field that passes its own
+ * check, so the remaining rules can still run on it. Unknown fields and the
+ * fields with issues are left out.
+ */
+function salvage(raw: unknown): PartialQuestion {
+  const obj = asObject(raw);
+  const partial: Record<string, unknown> = {};
+  for (const [key, fieldSchema] of Object.entries(questionSchema.shape)) {
+    if (!(key in obj)) continue;
+    const parsed = fieldSchema.safeParse(obj[key]);
+    if (parsed.success && parsed.data !== undefined) partial[key] = parsed.data;
+  }
+  return partial as PartialQuestion;
 }
 
 /** Rules the schema cannot express: letters against the option count, uniqueness. */
-function crossFieldErrors(n: number, q: Question): ValidationError[] {
+function crossFieldErrors(n: number, q: PartialQuestion): ValidationError[] {
   const errors: ValidationError[] = [];
-  const count = q.options.length;
+  const options = q.options;
+  if (options === undefined) return errors;
+  const count = options.length;
 
   // Options must differ (compared normalised, so "True" and "true" clash).
   const seen = new Map<string, number>();
-  q.options.forEach((option, i) => {
+  options.forEach((option, i) => {
     const key = normaliseText(option);
     const first = seen.get(key);
     if (first !== undefined) {
-      errors.push({ code: "E106", question: n, field: `options[${i}]`, message: messages.E106(n, first, i, option) });
+      errors.push({ code: "E106", question: n, field: `options[${i}]`, message: messages.E106(n, first, i, options[first] as string, option) });
     } else {
       seen.set(key, i);
     }
   });
 
   // Answer letters: ascending, no repeats, within range, not all of them.
-  const letters = q.answer.split("");
-  const ascending = letters.every((l, i) => i === 0 || l > (letters[i - 1] as string));
-  if (!ascending) {
-    errors.push({ code: "E107", question: n, field: "answer", message: messages.E107(n, q.answer) });
-  } else {
-    const outOfRange = letters.find((l) => LETTERS.indexOf(l as (typeof LETTERS)[number]) >= count);
-    if (outOfRange !== undefined) {
-      errors.push({ code: "E108", question: n, field: "answer", message: messages.E108(n, q.answer, outOfRange, count) });
-    } else if (letters.length >= count) {
-      errors.push({ code: "E109", question: n, field: "answer", message: messages.E109(n, q.answer) });
+  if (q.answer !== undefined) {
+    const letters = q.answer.split("");
+    const ascending = letters.every((l, i) => i === 0 || l > (letters[i - 1] as string));
+    if (!ascending) {
+      errors.push({ code: "E107", question: n, field: "answer", message: messages.E107(n, q.answer) });
+    } else {
+      const outOfRange = letters.find((l) => LETTERS.indexOf(l as (typeof LETTERS)[number]) >= count);
+      if (outOfRange !== undefined) {
+        errors.push({ code: "E108", question: n, field: "answer", message: messages.E108(n, q.answer, outOfRange, count) });
+      } else if (letters.length >= count) {
+        errors.push({ code: "E109", question: n, field: "answer", message: messages.E109(n, q.answer) });
+      }
     }
   }
 
   // Rationale keys must name existing options.
-  if (q.rationales) {
+  if (q.rationales !== undefined) {
     for (const key of Object.keys(q.rationales)) {
       if (LETTERS.indexOf(key as (typeof LETTERS)[number]) >= count) {
         errors.push({ code: "E116", question: n, field: `rationales.${key}`, message: messages.E116(n, key, count) });
@@ -247,7 +276,7 @@ function crossFieldErrors(n: number, q: Question): ValidationError[] {
 }
 
 function mapEnvelopeIssue(issue: Issue, value: unknown): ValidationError {
-  const obj = (value !== null && typeof value === "object" && !Array.isArray(value) ? value : {}) as Record<string, unknown>;
+  const obj = asObject(value);
   const head = issue.path[0];
   if (issue.path.length === 0) {
     if (issue.code === "unrecognized_keys") return { code: "E005", message: messages.E005(issue.keys) };
@@ -270,7 +299,7 @@ function mapEnvelopeIssue(issue: Issue, value: unknown): ValidationError {
 }
 
 function mapQuestionIssue(n: number, issue: Issue, raw: unknown): ValidationError {
-  const obj = (raw !== null && typeof raw === "object" && !Array.isArray(raw) ? raw : {}) as Record<string, unknown>;
+  const obj = asObject(raw);
   const [head, second] = issue.path;
 
   if (issue.path.length === 0) {
@@ -304,8 +333,8 @@ function mapQuestionIssue(n: number, issue: Issue, raw: unknown): ValidationErro
       return { code: "E114", question: n, field: "source", message: messages.E114(n, obj["source"]) };
     case "rationales": {
       if (typeof second === "string") {
-        const rationales = obj["rationales"] as Record<string, unknown> | undefined;
-        return { code: "E117", question: n, field: `rationales.${second}`, message: messages.E117(n, second, rationales?.[second]) };
+        const rationales = asObject(obj["rationales"]);
+        return { code: "E117", question: n, field: `rationales.${second}`, message: messages.E117(n, second, rationales[second]) };
       }
       const badKeys = issue.code === "unrecognized_keys" ? issue.keys : [];
       return { code: "E115", question: n, field: "rationales", message: messages.E115(n, obj["rationales"], badKeys) };

@@ -38,7 +38,7 @@
 
 ## 2. Fields
 
-All strings are trimmed before any check (section 5). Lengths are counted in characters after trimming.
+All strings are trimmed before any check (section 5). Lengths are counted in Unicode code points after trimming (an emoji is one character, as in JSON Schema's `minLength`/`maxLength`).
 
 ### Top level
 
@@ -48,7 +48,7 @@ All strings are trimmed before any check (section 5). Lengths are counted in cha
 | `exam` | no | A module id: lowercase letters, digits and single hyphens, 1–40 characters (`pmp`, `cfa-l1`, `aws-saa`). When absent, the Generic module's rules apply. When present, that module's rules apply (section 4). An id the validator does not know is an error. |
 | `set` | yes | 1–120 characters. The name the set is shown under. |
 | `questions` | yes | An array of 1–500 questions. |
-| `exported_at` | no | ISO 8601 date (`2026-10-14`) or date-time (`2026-10-14T09:30:00Z`). Written by an exporter; an import may omit it. |
+| `exported_at` | no | ISO 8601 date (`2026-10-14`) or date-time with a `Z` or `±hh:mm` offset (`2026-10-14T09:30:00Z`, `2026-10-14T11:30:00+02:00`). Written by an exporter; an import may omit it. |
 
 No other top-level field is allowed.
 
@@ -57,11 +57,11 @@ No other top-level field is allowed.
 | Field | Required | Rule |
 |---|---|---|
 | `stem` | yes | 10–2000 characters. The question text, including any vignette. |
-| `options` | yes | An array of 2–6 strings, each 1–500 characters, all different from one another (compared case-insensitively with whitespace collapsed). Modules may narrow the count. |
+| `options` | yes | An array of 2–6 strings, each 1–500 characters, all different from one another (compared after the normalisation in section 6). Modules may narrow the count. |
 | `answer` | yes | One or more capital letters `A`–`F`, in ascending order, no repeats, each naming a correct option by position (`A` is the first option): `"B"`, `"BD"`. Every letter must name an existing option. At least one option must remain incorrect. Modules may forbid more than one letter. |
 | `explanation` | yes | 1–3000 characters. Why the correct answer is correct. |
 | `rationales` | no | An object keyed by option letter (`A`–`F`), any subset of the question's letters, each value 1–1000 characters: why that option is right or wrong. `{"A": "...", "C": "..."}`. |
-| `topic` | yes | 1–80 characters. With `exam` set, must name a topic in that module's taxonomy (compared case-insensitively with whitespace collapsed; the student's text is kept as written). Without `exam`, free text. |
+| `topic` | yes | 1–80 characters. With `exam` set, must name a topic in that module's taxonomy (compared after the normalisation in section 6; the student's text is kept as written). Without `exam`, free text. |
 | `subtopic` | no | 1–120 characters. Free text. Modules that list subtopics may warn when it is not among them; it is never an error. |
 | `difficulty` | no | One of `easy`, `medium`, `hard`. |
 | `source` | no | 1–200 characters. A reference the student can check in their own materials. |
@@ -90,7 +90,7 @@ A module is a data file, not code. It describes the shape of one exam and contai
 | `options.min`, `options.max` | Allowed option count, inclusive, within 2–6. |
 | `multi_select` | When `false`, `answer` must be a single letter. |
 | `taxonomy` | Topic → subtopics. When present and non-empty, `topic` must match a topic. When absent or empty, topics are free text. |
-| `banned_option_text` | Option texts rejected outright, compared case-insensitively with trailing `.`, `!`, `?` ignored (for example `"all of the above"`). |
+| `banned_option_text` | Option texts rejected outright: the whole option, after the normalisation in section 6 and with trailing `.`, `!`, `?` removed, equals a banned phrase (for example `"all of the above"`). |
 
 The **Generic** module is always available and is used when `exam` is absent: no taxonomy, 2–6 options, multi-select allowed, nothing banned. The full module config schema (timing, weights, disclaimer, outline verification and so on) is in `src/module.ts`; only the fields above affect validation.
 
@@ -103,9 +103,9 @@ The validator is deterministic. No AI, no heuristics, no repair.
 1. A leading UTF-8 byte-order mark is removed.
 2. One surrounding Markdown code fence (` ``` ` or ` ```json `, on its own lines) is removed, because every AI emits one. Nothing else is tolerated: text before or after the JSON, two fences, a fence that is not closed, or a trailing comma all fail as "not valid JSON".
 3. The remainder must parse as JSON and be an object.
-4. Every string value is trimmed; keys are not. Length checks apply to the trimmed value, so a value of spaces is empty.
+4. Every string value is trimmed; keys are not. Length checks apply to the trimmed value, so a value of spaces is empty. The JSON Schema describes the file *after* this step: `" B "` passes the validator and is stored as `"B"`, while a bare JSON Schema checker would reject it.
 5. Unknown fields are rejected, not ignored, at the top level and in questions. This stops a drifting prompt from silently producing data the practice system never sees.
-6. All errors are reported in one pass, file-level first, then in question order, so the student makes one round trip to their AI.
+6. All errors are reported in one pass, file-level first, then in question order, so the student makes one round trip to their AI. Every rule runs on whichever fields passed their own structural check: a question with a bad `difficulty` still has its `answer`, `topic`, module rules and duplicates checked. A rule whose input failed structurally (an `answer` check when `options` is not an array) is skipped for that question, since it could only produce a misleading second error.
 
 ## 6. Duplicate detection
 
@@ -115,20 +115,20 @@ Two questions are the same question when their **canonical key** matches:
 normalise(stem) + "\n" + sorted(normalise(option) for option in options).join("\n")
 ```
 
-where `normalise` is Unicode NFC, lower-case, whitespace runs collapsed to one space, trimmed. Option order, casing and spacing do not matter; the explanation and the answer do not take part.
+where `normalise` is Unicode NFC, lower-case (`toLowerCase`), whitespace runs collapsed to one space, trimmed, and `sorted` orders the normalised options by UTF-16 code units (JavaScript's default `Array.prototype.sort`). The same normalisation is used wherever this specification says two texts are compared: option uniqueness, taxonomy matching, banned option text. Option order, casing and spacing do not matter to the key; the explanation and the answer do not take part.
 
 The **fingerprint** is the SHA-256 of the canonical key, as 64 lowercase hex characters. It is what a practice system stores per question and compares on import. Within a file a duplicate is an error; against the student's existing questions it is a warning, so the import can skip the duplicate and carry on.
 
 ## 7. Errors
 
-Errors are coded and numbered by question, and each message is one sentence written so that a student can paste it straight back to their AI: it names the field, what was found and what is required. The reference validator also produces a **fix request**, a block listing every error and asking the AI to return the complete corrected file, with no commentary, as a single JSON object in one code fence.
+Errors are coded and numbered by question, and each message is one or two sentences written so that a student can paste it straight back to their AI: it names the field, what was found and what is required. The reference validator also produces a **fix request**, a block listing every error and asking the AI to return the complete corrected file, with no commentary, as a single JSON object in one code fence. (E002 quotes the JSON parser's own message, which is the one part of any message that varies by browser.)
 
 | Code | Meaning |
 |---|---|
 | E001 | The input is empty. |
 | E002 | The input is not valid JSON. |
 | E003 | The top level is not a JSON object. |
-| E004 | `format` is missing or is not `"domcq/1"`. |
+| E004 | `format` is missing or is not "domcq/1". |
 | E005 | Unknown top-level field. |
 | E006 | `set` is missing or has the wrong length. |
 | E007 | `questions` is missing, not an array, empty, or has more than 500 items. |
@@ -158,11 +158,11 @@ Errors are coded and numbered by question, and each message is one sentence writ
 | E201 | The question's option count is outside the module's allowed range. |
 | E202 | The question has more than one correct answer in a single-answer module. |
 | E203 | `topic` is not in the module's taxonomy. |
-| E204 | An option uses text the module bans. |
+| E204 | An option uses text the module bans (for example "all of the above"). |
 | W001 | *(warning)* The question duplicates one already in the student's account. |
 | W201 | *(warning)* `subtopic` is not in the module's taxonomy for that topic. |
 
-Module-rule checks (E2xx, W2xx) and duplicate checks run only on questions that passed the structural checks (E1xx), so a question is never reported against rules that cannot be evaluated for it.
+A code is reported at most once per field per question. E1xx, E2xx, W2xx and duplicate checks all run in the same pass (section 5, rule 6).
 
 ## 8. Export
 

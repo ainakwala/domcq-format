@@ -81,12 +81,16 @@ const q = (n: number) => `Question ${n}:`;
 const quote = (s: string) => `"${s.length > 80 ? s.slice(0, 77) + "..." : s}"`;
 const range = (lim: { min: number; max: number }, unit = "characters") => `${lim.min}–${lim.max} ${unit}`;
 
-/** How a value was found: the type word used in messages. */
+/** How a value was found: the type word used in messages. Lengths count Unicode code points, as the limits do. */
 function found(value: unknown): string {
   if (value === undefined) return "missing";
   if (value === null) return "null";
   if (Array.isArray(value)) return `an array of ${value.length}`;
-  if (typeof value === "string") return `a string of ${value.length} characters`;
+  if (typeof value === "string") {
+    const length = [...value].length;
+    return length === 0 ? "empty (or only whitespace)" : `a string of ${length} characters`;
+  }
+  if (typeof value === "object") return "an object";
   return `a ${typeof value}`;
 }
 
@@ -124,8 +128,8 @@ export const messages = {
     `${q(n)} \`options\` is ${found(value)} but must be an array of ${range(LIMITS.options, "strings")}.`,
   E105: (n: number, index: number, value: unknown): string =>
     `${q(n)} option ${letterAt(index)} is ${found(value)} but every option must be a non-empty string of at most ${LIMITS.option.max} characters.`,
-  E106: (n: number, first: number, second: number, text: string): string =>
-    `${q(n)} options ${letterAt(first)} and ${letterAt(second)} are both ${quote(text)}. Every option must be different.`,
+  E106: (n: number, first: number, second: number, firstText: string, secondText: string): string =>
+    `${q(n)} options ${letterAt(first)} ${quote(firstText)} and ${letterAt(second)} ${quote(secondText)} are the same once case and spacing are ignored. Every option must be different.`,
   E107: (n: number, value: unknown): string =>
     `${q(n)} \`answer\` is ${typeof value === "string" ? quote(value) : found(value)} but must be one or more capital letters A–F in ascending order without repeats, each naming a correct option: "B" or "BD".`,
   E108: (n: number, value: string, letter: string, count: number): string =>
@@ -153,7 +157,7 @@ export const messages = {
   E118: (n: number, value: unknown): string =>
     `${q(n)} \`id\` is ${typeof value === "string" ? quote(value) : found(value)} but must be a string of ${range(LIMITS.id)} using letters, digits, "_", "-", "." or ":". Ids are set by an exporter; remove it if you wrote it yourself.`,
   E119: (n: number, earlier: number, id: string): string =>
-    `${q(n)} \`id\` ${quote(id)} is the same as question ${earlier}'s. Ids must be unique within a file.`,
+    `${q(n)} \`id\` ${quote(id)} is the same as question ${earlier}'s. Ids must be unique within a file; they are set by an exporter, so remove both if you wrote them yourself.`,
   E120: (n: number, earlier: number): string =>
     `${q(n)} duplicate of question ${earlier} (same stem and options). Remove one of them, or change the stem so the two questions differ.`,
 
@@ -167,7 +171,7 @@ export const messages = {
     `${q(n)} option ${letterAt(index)} is ${quote(text)}, which ${module.display_name} questions must not use. Replace it with a specific, plausible option.`,
 
   W001: (n: number): string =>
-    `${q(n)} is the same as a question already in your account (same stem and options). It will be skipped unless you choose to import it again.`,
+    `${q(n)} matches a question already in your account (same stem and options). It will be skipped unless you choose to import it again.`,
   W201: (n: number, value: string, topic: string, module: ModuleConfig): string =>
     `${q(n)} \`subtopic\` ${quote(value)} is not listed under "${topic}" in the ${module.display_name} taxonomy. It will be kept as written; expected subtopics: ${(module.taxonomy?.[topic] ?? []).map((s) => `"${s}"`).join(", ")}.`,
 } as const;
