@@ -40,7 +40,7 @@ Full rules: [SPEC.md](SPEC.md).
 ## Using the validator
 
 ```sh
-npm install github:ainakwala/domcq-format   # builds dist/ on install via the prepare script
+npm install github:kamranrashid-com/domcq-format   # builds dist/ on install via the prepare script
 ```
 
 ```ts

@@ -16,7 +16,7 @@ const schema = {
   $id: "https://domcq.com/schema/v1",
   title: "domcq/1 question set",
   description:
-    "A set of multiple-choice questions in the domcq/1 format, as produced by a student's own AI from the DoMcq prompt and imported into DoMcq (https://domcq.com). Structural rules only; see https://github.com/ainakwala/domcq-format/blob/main/SPEC.md for the cross-field and module rules the reference validator also applies.",
+    "A set of multiple-choice questions in the domcq/1 format, as produced by a student's own AI from the DoMcq prompt and imported into DoMcq (https://domcq.com). Structural rules only; see https://github.com/kamranrashid-com/domcq-format/blob/main/SPEC.md for the cross-field and module rules the reference validator also applies.",
   ...stripSchemaKey(generated),
 };
 
