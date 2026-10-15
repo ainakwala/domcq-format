@@ -1,0 +1,309 @@
+{
+  "format": "domcq/1",
+  "set": "Pharmacology: Drug Absorption, Metabolism, and Adverse Reactions",
+  "questions": [
+    {
+      "stem": "Which pharmacokinetic term describes the fraction of an administered dose of unchanged drug that reaches the systemic circulation?",
+      "options": [
+        "Bioavailability",
+        "Apparent volume of distribution",
+        "Systemic clearance",
+        "Elimination half-life"
+      ],
+      "answer": "A",
+      "explanation": "Bioavailability quantifies both the rate and extent to which an active drug moiety accesses the systemic circulation. Intravenous injection provides 100% bioavailability by definition, whereas oral bioavailability is often diminished by incomplete intestinal absorption or first-pass hepatic extraction. Clearance and volume of distribution characterize drug elimination and tissue distribution rather than initial systemic entry.",
+      "topic": "drug absorption",
+      "subtopic": "Bioavailability",
+      "difficulty": "easy",
+      "source": "Basic & Clinical Pharmacology: Pharmacokinetics - Bioavailability"
+    },
+    {
+      "stem": "Which route of administration completely bypasses first-pass hepatic metabolism by draining directly into the systemic venous circulation via the superior vena cava?",
+      "options": [
+        "Oral ingestion",
+        "Intragastric gavage",
+        "Proximal rectal administration",
+        "Sublingual administration"
+      ],
+      "answer": "D",
+      "explanation": "Sublingual administration allows a drug to diffuse directly into the venous capillary plexus of the oral mucosa, which drains into the superior vena cava and enters the systemic circulation without traversing the portal system. In contrast, standard oral administration passes through mesenteric vessels directly into the liver via the portal vein. Proximal rectal administration drains primarily into the superior rectal veins, which also feed the hepatic portal system.",
+      "topic": "drug absorption",
+      "subtopic": "Routes of Administration",
+      "difficulty": "easy",
+      "source": "Goodman & Gilman's: General Principles of Pharmacokinetics - Routes of Administration"
+    },
+    {
+      "stem": "A weak organic acid with a pKa of 3.4 is administered orally. In which physiological environment will this compound have the highest fraction of molecules in the non-ionized, lipid-soluble state?",
+      "options": [
+        "Blood plasma (pH 7.4)",
+        "Gastric lumen (pH 1.4)",
+        "Proximal jejunum (pH 6.4)",
+        "Distal ileum (pH 7.4)"
+      ],
+      "answer": "B",
+      "explanation": "According to the Henderson-Hasselbalch relationship, weak acids exist predominantly in their non-ionized (protonated) form when ambient pH is well below their pKa. In the highly acidic gastric lumen (pH 1.4), the surrounding pH is two units lower than the drug's pKa of 3.4, keeping roughly 99% of the molecules non-ionized and lipophilic. In higher-pH environments like the small intestine and plasma, weak acids lose protons and exist overwhelmingly as charged, membrane-impermeant conjugate bases.",
+      "topic": "drug absorption",
+      "subtopic": "Ionization and Passive Diffusion",
+      "difficulty": "medium",
+      "source": "Basic & Clinical Pharmacology: Drug Absorption - Ionization of Weak Acids and Bases"
+    },
+    {
+      "stem": "P-glycoprotein (MDR1) located on the apical brush-border membrane of intestinal enterocytes primarily influences drug disposition by performing which action?",
+      "options": [
+        "Conjugating lipophilic molecules with glucuronic acid within the mucosal cytosol",
+        "Facilitating carrier-mediated active uptake from the lumen into mesenteric blood",
+        "Actively extruding absorbed drug molecules back into the intestinal lumen",
+        "Hydrolyzing ester bonds in xenobiotics during transcellular transport"
+      ],
+      "answer": "C",
+      "explanation": "P-glycoprotein is an ATP-dependent efflux transporter situated on the apical membrane of intestinal enterocytes. It pumps absorbed substrate molecules out of the enterocyte cytoplasm back into the gut lumen, directly counteracting absorption and limiting oral bioavailability. Co-administration of P-glycoprotein inhibitors can substantially elevate the systemic exposure of substrate drugs.",
+      "topic": "drug absorption",
+      "subtopic": "Efflux Transporters",
+      "difficulty": "medium",
+      "source": "Goodman & Gilman's: Membrane Transporters in Drug Disposition"
+    },
+    {
+      "stem": "Which two factors significantly decrease the oral bioavailability of a lipophilic drug? Choose TWO.",
+      "options": [
+        "Extensive first-pass extraction by hepatic and intestinal enzymes",
+        "High affinity for apical efflux transporters such as P-glycoprotein",
+        "Concurrent intake of a potent irreversible intestinal CYP3A4 inhibitor",
+        "High transcellular passive permeability across intestinal epithelial bilayers",
+        "Formulation as a rapidly dissolving oral liquid solution"
+      ],
+      "answer": "AB",
+      "explanation": "Oral bioavailability is restricted by presystemic elimination, where active drug is metabolized by enzymes in the intestinal wall and liver prior to reaching systemic vessels. In parallel, apical efflux pumps such as P-glycoprotein actively transport absorbed molecules back into the digestive tract lumen, reducing net absorption. Inhibiting gut-wall CYP3A4 increases bioavailability, while high membrane permeability and rapid dissolution enhance absorption rate and extent.",
+      "topic": "drug absorption",
+      "subtopic": "Bioavailability and Presystemic Elimination",
+      "difficulty": "medium",
+      "source": "Basic & Clinical Pharmacology: Pharmacokinetics - Bioavailability"
+    },
+    {
+      "stem": "A patient presenting with an overdose of phenobarbital (a weak acid, pKa 7.4) is treated with intravenous sodium bicarbonate to alkalinize the urine to pH 8.4. Which mechanism explains the resulting increase in drug excretion?",
+      "options": [
+        "Alkalinization converts phenobarbital into its non-ionized form to block active reabsorption",
+        "Alkalinization increases the ionized fraction of the drug, trapping it within the tubular lumen",
+        "Sodium bicarbonate directly displaces phenobarbital from plasma albumin binding sites",
+        "Alkaline tubular fluid stimulates organic anion secretory transporters in the loop of Henle"
+      ],
+      "answer": "B",
+      "explanation": "Alkalinizing the urine to pH 8.4 shifts the equilibrium of phenobarbital (pKa 7.4) toward its conjugate base, converting approximately 90% of the luminal drug into its ionized form. Because biological membranes are relatively impermeable to charged molecules, the ionized drug cannot passively diffuse back across the tubular epithelium into peritubular capillaries, resulting in urinary ion trapping and accelerated elimination. Conversely, non-ionized molecules cross cellular membranes readily.",
+      "topic": "drug absorption",
+      "subtopic": "Ion Trapping and Membrane Permeability",
+      "difficulty": "hard",
+      "source": "Goodman & Gilman's: Renal Excretion and Ion Trapping"
+    },
+    {
+      "stem": "According to Fick's law of diffusion, which change results in a reduced rate of passive transcellular drug absorption across the gastrointestinal tract?",
+      "options": [
+        "An increase in the total absorptive surface area of the intestinal mucosa",
+        "A steeper concentration gradient across the apical membrane",
+        "An increase in the lipid-water partition coefficient of the permeating molecule",
+        "An increase in the physical thickness of the epithelial diffusion barrier"
+      ],
+      "answer": "D",
+      "explanation": "Fick's law states that the rate of passive diffusion is inversely proportional to the thickness of the barrier membrane. Increasing membrane thickness increases the diffusion distance, which directly slows the rate of drug transfer. Conversely, expanding the surface area, steepening the concentration gradient, or increasing lipid solubility (partition coefficient) all increase the rate of passive transcellular flux.",
+      "topic": "drug absorption",
+      "subtopic": "Mechanisms of Absorption",
+      "difficulty": "easy",
+      "source": "Basic & Clinical Pharmacology: Passage of Drugs Across Cellular Membranes"
+    },
+    {
+      "stem": "What is the primary biochemical role of Phase I drug biotransformation reactions?",
+      "options": [
+        "Introducing or unmasking a polar functional group to facilitate clearance or subsequent conjugation",
+        "Attaching an endogenous hydrophilic molecule like glucuronic acid to promote immediate excretion",
+        "Increasing overall molecular lipophilicity to encourage sustained tissue distribution",
+        "Covalently binding xenobiotics to circulating albumin to prevent glomerular filtration"
+      ],
+      "answer": "A",
+      "explanation": "Phase I reactions (oxidation, reduction, and hydrolysis) convert parent lipophilic drugs into more polar metabolites by introducing or unmasking functional groups such as hydroxyl, carboxyl, or amino moieties. These modified metabolites can either be excreted directly or serve as reactive handles for Phase II synthetic conjugation reactions. Conjugating large endogenous polar groups directly onto molecules is the defining role of Phase II metabolism.",
+      "topic": "drug metabolism",
+      "subtopic": "Phase I Reactions",
+      "difficulty": "easy",
+      "source": "Basic & Clinical Pharmacology: Drug Biotransformation - Phase I Reactions"
+    },
+    {
+      "stem": "Which activated endogenous cofactor acts as the essential donor molecule in glucuronidation reactions catalyzed by UDP-glucuronosyltransferases (UGTs)?",
+      "options": [
+        "3'-Phosphoadenosine-5'-phosphosulfate",
+        "S-Adenosylmethionine",
+        "Uridine 5'-diphospho-glucuronic acid",
+        "Reduced nicotinamide adenine dinucleotide phosphate"
+      ],
+      "answer": "C",
+      "explanation": "Microsomal UDP-glucuronosyltransferases transfer a glucuronic acid group from the activated high-energy donor cofactor uridine 5'-diphospho-glucuronic acid (UDP-GA) to functional groups on target substrates. This Phase II conjugation substantially increases water solubility and facilitates renal or biliary clearance. 3'-Phosphoadenosine-5'-phosphosulfate serves as the sulfate donor in sulfation, S-adenosylmethionine donates methyl groups, and NADPH provides reducing equivalents for Phase I cytochrome P450 oxidations.",
+      "topic": "drug metabolism",
+      "subtopic": "Phase II Conjugation",
+      "difficulty": "medium",
+      "source": "Goodman & Gilman's: Drug Metabolism - Glucuronidation"
+    },
+    {
+      "stem": "Which two therapeutic agents are classic, potent inducers of hepatic cytochrome P450 enzymes such as CYP3A4? Choose TWO.",
+      "options": [
+        "Rifampin",
+        "Cimetidine",
+        "Carbamazepine",
+        "Clarithromycin",
+        "Ketoconazole"
+      ],
+      "answer": "AC",
+      "explanation": "Rifampin and carbamazepine are potent inducers of hepatic microsomal enzymes, primarily acting through nuclear receptors like the pregnane X receptor (PXR) to upregulate transcription of CYP3A4 and other isoforms. This enhanced enzyme synthesis accelerates the metabolism of co-administered substrates and can precipitate therapeutic failure. In contrast, cimetidine, clarithromycin, and ketoconazole are well-established CYP enzyme inhibitors.",
+      "topic": "drug metabolism",
+      "subtopic": "Cytochrome P450 Induction and Inhibition",
+      "difficulty": "medium",
+      "source": "Basic & Clinical Pharmacology: Drug Biotransformation - Enzyme Induction"
+    },
+    {
+      "stem": "Clopidogrel is an antiplatelet prodrug requiring bioactivation by hepatic CYP2C19. What clinical consequence is expected in a patient who is genetically classified as a CYP2C19 poor metabolizer?",
+      "options": [
+        "Marked elevation in active metabolite levels causing severe spontaneous hemorrhage",
+        "Accumulation of toxic reactive electrophilic intermediates causing acute hepatitis",
+        "Significantly accelerated systemic clearance of the unchanged parent prodrug",
+        "Diminished active metabolite formation resulting in inadequate antiplatelet protection"
+      ],
+      "answer": "D",
+      "explanation": "Because clopidogrel is an inactive parent compound, therapeutic platelet inhibition depends on its metabolic conversion into an active thiol metabolite by hepatic CYP enzymes, especially CYP2C19. Individuals with loss-of-function CYP2C19 alleles cannot bioactivate the prodrug efficiently, resulting in lower circulating levels of the active antiplatelet compound. This leads to reduced platelet inhibition and an increased risk of adverse cardiovascular thrombotic events.",
+      "topic": "drug metabolism",
+      "subtopic": "Prodrug Activation and Pharmacogenomics",
+      "difficulty": "medium",
+      "source": "Basic & Clinical Pharmacology: Pharmacogenomics - Drug Metabolism Polymorphisms"
+    },
+    {
+      "stem": "During an acute overdose of acetaminophen, saturation of Phase II pathways directs excess drug through CYP-mediated oxidation. What biochemical process directly precipitates centrilobular hepatic necrosis in this setting?",
+      "options": [
+        "Accumulation of reactive N-acetyl-p-benzoquinone imine (NAPQI) after glutathione stores are exhausted",
+        "Direct inhibition of hepatocyte nuclear transcription factors by unchanged parent molecules",
+        "Precipitation of insoluble glucuronide salts inside intrahepatic bile canaliculi",
+        "Widespread lactic acidosis caused by non-specific uncoupling of oxidative phosphorylation"
+      ],
+      "answer": "A",
+      "explanation": "When therapeutic glucuronidation and sulfation pathways become saturated, an increased fraction of acetaminophen is oxidized by CYP2E1 into the electrophilic intermediate N-acetyl-p-benzoquinone imine (NAPQI). Under normal conditions, NAPQI is detoxified by conjugation with endogenous glutathione, but toxic doses exhaust hepatic glutathione stores. Unconjugated NAPQI then binds covalently to sulfhydryl groups on essential hepatocellular proteins, inducing oxidative stress, mitochondrial injury, and centrilobular necrosis.",
+      "topic": "drug metabolism",
+      "subtopic": "Toxic Metabolites and Hepatotoxicity",
+      "difficulty": "hard",
+      "source": "Goodman & Gilman's: Hepatotoxicity of Acetaminophen"
+    },
+    {
+      "stem": "Which anatomical organ is quantitatively the primary and most comprehensive site of drug biotransformation in the human body?",
+      "options": [
+        "Small intestine",
+        "Liver",
+        "Kidneys",
+        "Lungs"
+      ],
+      "answer": "B",
+      "explanation": "The liver is quantitatively the dominant organ for xenobiotic biotransformation due to its large mass, abundant blood flow, and concentrated expression of Phase I (endoplasmic reticulum cytochrome P450s) and Phase II enzymes. While the intestinal mucosa, kidneys, and lungs exhibit metabolic activity toward specific compounds, their overall enzymatic capacity is considerably smaller. The portal venous architecture also ensures that the liver is the first major organ to process orally absorbed compounds.",
+      "topic": "drug metabolism",
+      "subtopic": "Sites of Biotransformation",
+      "difficulty": "easy",
+      "source": "Basic & Clinical Pharmacology: Drug Biotransformation - Sites of Drug Biotransformation"
+    },
+    {
+      "stem": "When a therapeutic drug is eliminated through linear, first-order metabolic kinetics, which statement accurately reflects its clearance behavior?",
+      "options": [
+        "A constant mass of drug is eliminated per unit of time regardless of plasma concentration",
+        "The elimination half-life increases progressively as the circulating drug concentration rises",
+        "The rate of drug elimination is directly proportional to the circulating plasma drug concentration",
+        "Total systemic clearance varies inversely with the area under the concentration-time curve"
+      ],
+      "answer": "C",
+      "explanation": "In first-order kinetics, metabolic enzymes operate well below saturation, meaning a constant fraction of drug is removed per unit time and the instantaneous rate of elimination is directly proportional to plasma concentration. As a result, both systemic clearance and the elimination half-life remain constant across the therapeutic dose range. Zero-order kinetics occurs when clearance pathways are saturated, causing a constant amount of drug to be removed per unit time.",
+      "topic": "drug metabolism",
+      "subtopic": "Kinetics of Metabolism",
+      "difficulty": "medium",
+      "source": "Goodman & Gilman's: Pharmacokinetics - First-Order vs Zero-Order Kinetics"
+    },
+    {
+      "stem": "Under the Rawlins and Thompson classification of adverse drug reactions, which feature correctly distinguishes Type A reactions from Type B reactions?",
+      "options": [
+        "Type A reactions are unpredictable, idiosyncratic events that occur independently of dose",
+        "Type A reactions are mediated primarily by acquired cellular or humoral immune hypersensitivity",
+        "Type A reactions manifest exclusively as delayed teratogenesis or secondary carcinogenesis",
+        "Type A reactions are predictable, dose-dependent exaggerations of known pharmacological actions"
+      ],
+      "answer": "D",
+      "explanation": "Type A ('Augmented') adverse drug reactions represent predictable extensions of a drug's known pharmacology, such as hypoglycemia from an antidiabetic agent or hypotension from an antihypertensive. They are dose-dependent, exhibit high incidence, and can typically be managed by dose titration. Type B ('Bizarre') reactions are unpredictable, dose-independent, low-incidence events that typically arise from immune-mediated hypersensitivity or idiosyncratic host genetics.",
+      "topic": "adverse reactions",
+      "subtopic": "Classification Systems (Rawlins and Thompson)",
+      "difficulty": "easy",
+      "source": "Basic & Clinical Pharmacology: Introduction to Toxicology - Types of Drug Toxicity"
+    },
+    {
+      "stem": "A patient develops generalized urticaria, facial angioedema, and acute bronchospasm within ten minutes of receiving intravenous ampicillin. Which mechanism mediates this reaction?",
+      "options": [
+        "Deposition of circulating drug-antibody immune complexes in small vessel walls",
+        "Antigen-induced cross-linking of drug-specific IgE antibodies bound to mast cells",
+        "Complement-mediated cellular lysis directed by circulating IgG and IgM antibodies",
+        "Delayed recruitment and cytotoxic activation of sensitized CD4+ and CD8+ T cells"
+      ],
+      "answer": "B",
+      "explanation": "This event is a Type I (immediate) hypersensitivity reaction triggered by beta-lactam-specific IgE antibodies bound to high-affinity Fc receptors on mast cells and basophils. Re-exposure to the drug cross-links adjacent IgE molecules, triggering rapid degranulation and the systemic release of histamine, leukotrienes, and other vasoactive mediators. Type II reactions involve cytotoxic antibody-mediated lysis, Type III involves immune-complex vasculitis, and Type IV is delayed T-cell-mediated hypersensitivity.",
+      "topic": "adverse reactions",
+      "subtopic": "Drug Hypersensitivity",
+      "difficulty": "medium",
+      "source": "Goodman & Gilman's: Drug Toxicity - Immunological Drug Reactions"
+    },
+    {
+      "stem": "During which developmental phase is the human conceptus most vulnerable to drug-induced disruption of major structural organ formation (classical teratogenesis)?",
+      "options": [
+        "Pre-differentiation blastocyst cleavage stage prior to implantation (weeks 1 to 2)",
+        "Late fetal maturation and physiologic growth period (weeks 9 to 38)",
+        "Active organogenesis and tissue differentiation window (weeks 3 to 8)",
+        "Immediate postpartum transitional adaptation period following delivery"
+      ],
+      "answer": "C",
+      "explanation": "The period of organogenesis (gestational weeks 3 through 8 post-conception) represents the critical window of peak susceptibility to structural teratogens because primary organ systems, limbs, and facial structures are actively forming. Toxic insult during weeks 1 to 2 typically produces an 'all-or-none' outcome (resorption/spontaneous abortion or complete recovery). Exposure after week 8 (the fetal period) primarily results in functional deficits, growth retardation, or minor cellular alterations rather than major anatomical malformations.",
+      "topic": "adverse reactions",
+      "subtopic": "Teratogenicity",
+      "difficulty": "hard",
+      "source": "Basic & Clinical Pharmacology: Special Aspects of Perinatal & Pediatric Pharmacology"
+    },
+    {
+      "stem": "Which mathematical ratio defines the therapeutic index (TI) of a pharmaceutical agent in preclinical pharmacology?",
+      "options": [
+        "Median toxic or lethal dose divided by the median effective dose",
+        "Maximum tolerated plasma concentration multiplied by total body clearance",
+        "Median effective dose divided by the minimum therapeutic concentration",
+        "Area under the plasma concentration-time curve divided by distribution volume"
+      ],
+      "answer": "A",
+      "explanation": "The therapeutic index is an index of a drug's relative safety margin, defined as the ratio of the median toxic dose (or lethal dose in animal assays) to the median effective dose: TI = TD50 / ED50. A higher therapeutic index reflects a wider safety margin between efficacious and toxic doses. Drugs with a narrow therapeutic index (such as digoxin, warfarin, or lithium) require careful dose titration and therapeutic drug monitoring because small dose increases can induce toxicity.",
+      "topic": "adverse reactions",
+      "subtopic": "Therapeutic Index and Safety Margin",
+      "difficulty": "medium",
+      "source": "Basic & Clinical Pharmacology: Drug Receptors & Pharmacodynamics - Therapeutic Index"
+    },
+    {
+      "stem": "Which two clinical presentations represent idiosyncratic adverse drug reactions caused by specific inherited enzyme deficiencies? Choose TWO.",
+      "options": [
+        "Renal tubular dysfunction following protracted high-dose aminoglycoside therapy",
+        "Acute hemolytic anemia provoked by rasburicase in glucose-6-phosphate dehydrogenase deficiency",
+        "Orthostatic hypotension occurring after standard alpha-adrenergic receptor blockade",
+        "Prolonged neuromuscular paralysis following succinylcholine in pseudocholinesterase deficiency",
+        "Excessive central nervous system sedation resulting from standard benzodiazepine dosing"
+      ],
+      "answer": "BD",
+      "explanation": "Idiosyncratic adverse reactions are unexpected, genetically determined responses that do not follow standard pharmacological dose-response curves. In glucose-6-phosphate dehydrogenase (G6PD) deficiency, erythrocytes lack sufficient NADPH to maintain reduced glutathione, leading to acute oxidative hemolysis upon exposure to drugs like rasburicase or primaquine. In plasma pseudocholinesterase (butyrylcholinesterase) deficiency, patients cannot rapidly hydrolyze succinylcholine, precipitating prolonged skeletal muscle flaccidity and apnea. The other choices represent predictable Type A pharmacological effects.",
+      "topic": "adverse reactions",
+      "subtopic": "Idiosyncratic and Pharmacogenetic Reactions",
+      "difficulty": "hard",
+      "source": "Goodman & Gilman's: Pharmacogenetics - Inherited Variations in Drug Response"
+    },
+    {
+      "stem": "Under the Rawlins and Thompson classification, which clinical adverse event exemplifies a Type D (delayed) adverse drug reaction?",
+      "options": [
+        "Sudden anaphylactic collapse developing within minutes of an intravenous penicillin dose",
+        "Profound hypokalemia following aggressive intravenous loop diuretic administration",
+        "Rebound hypertension developing twenty-four hours after the abrupt cessation of clonidine",
+        "Secondary acute myeloid leukemia diagnosed several years after alkylating chemotherapy"
+      ],
+      "answer": "D",
+      "explanation": "Type D ('Delayed') adverse drug reactions encompass toxic effects that become clinically apparent months to years after drug exposure, characteristically including delayed carcinogenesis, teratogenesis, and late-onset organ toxicity. Secondary leukemias emerging years after alkylating chemotherapy are classic examples. In contrast, acute anaphylaxis is a Type B (hypersensitivity) reaction, diuretic-induced hypokalemia is a Type A (pharmacological) reaction, and withdrawal rebound hypertension is classified as a Type E ('End of use') reaction.",
+      "topic": "adverse reactions",
+      "subtopic": "Classification Systems (Rawlins and Thompson)",
+      "difficulty": "medium",
+      "source": "Basic & Clinical Pharmacology: Introduction to Toxicology - Types of Drug Toxicity"
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "format": "domcq/1",
+  "set": "Pharmacology: Drug Absorption, Metabolism and Adverse Reactions",
+  "questions": [
+    {
+      "stem": "A patient receives a medication by intravenous injection. What is the absolute bioavailability of the administered drug?",
+      "options": [
+        "Approximately 50%",
+        "Exactly 100%",
+        "Approximately 75%",
+        "Dependent on gastric emptying"
+      ],
+      "answer": "B",
+      "explanation": "Intravenous administration delivers the entire administered dose directly into the systemic circulation, giving an absolute bioavailability of 100%. Other routes may have lower bioavailability because of incomplete absorption or presystemic elimination.",
+      "topic": "drug absorption",
+      "subtopic": "Absolute bioavailability",
+      "difficulty": "easy",
+      "source": "General Pharmacology: Pharmacokinetics - Bioavailability"
+    },
+    {
+      "stem": "A drug undergoes glucuronidation in the liver, producing a more water-soluble metabolite that can be eliminated in urine. Which category of metabolic reaction does glucuronidation represent?",
+      "options": [
+        "Phase I oxidation",
+        "Phase I hydrolysis",
+        "Phase I reduction",
+        "Phase II conjugation"
+      ],
+      "answer": "D",
+      "explanation": "Glucuronidation is a Phase II conjugation reaction in which glucuronic acid is attached to a drug or its metabolite. This generally increases water solubility and facilitates elimination through urine or bile.",
+      "topic": "drug metabolism",
+      "subtopic": "Phase II metabolism",
+      "difficulty": "medium",
+      "source": "General Pharmacology: Drug Biotransformation - Phase II Reactions"
+    },
+    {
+      "stem": "A patient taking an antihypertensive drug develops excessive hypotension after the prescribed dose is increased. The reaction is predictable from the drug's known pharmacological action. How should this adverse drug reaction be classified?",
+      "options": [
+        "Type A (augmented) reaction",
+        "Type B (bizarre) reaction",
+        "Type C (chronic) reaction",
+        "Type D (delayed) reaction"
+      ],
+      "answer": "A",
+      "explanation": "Type A adverse drug reactions are predictable consequences of a drug's pharmacological effects and are commonly dose-related. Excessive blood-pressure reduction following an increased antihypertensive dose is a typical example.",
+      "topic": "adverse reactions",
+      "subtopic": "Classification of adverse drug reactions",
+      "difficulty": "easy",
+      "source": "Adverse Drug Reactions: Type A and Type B Classification"
+    },
+    {
+      "stem": "A drug is completely absorbed from the intestine but undergoes extensive metabolism in the intestinal wall and liver before reaching the systemic circulation. What is the principal consequence of this presystemic metabolism?",
+      "options": [
+        "Increased renal clearance of unchanged drug",
+        "Increased binding of drug to plasma proteins",
+        "Reduced systemic bioavailability of the parent drug",
+        "Reduced absorption across the intestinal epithelium"
+      ],
+      "answer": "C",
+      "explanation": "First-pass metabolism removes part of the absorbed parent drug before it reaches systemic circulation. This lowers the oral bioavailability of the unchanged drug even when intestinal absorption is complete.",
+      "topic": "drug absorption",
+      "subtopic": "First-pass metabolism",
+      "difficulty": "medium",
+      "source": "General Pharmacology: Pharmacokinetics - First-Pass Effect"
+    },
+    {
+      "stem": "A patient receiving a stable dose of an active drug metabolized by CYP3A4 begins taking a strong CYP3A4 inducer. The drug has no active metabolites, and its clearance depends mainly on this enzyme. What change is most likely after enzyme induction is established?",
+      "options": [
+        "Increased elimination half-life of the active drug",
+        "Decreased plasma exposure to the active drug",
+        "Increased plasma exposure to the active drug",
+        "Decreased hepatic metabolism of the active drug"
+      ],
+      "answer": "B",
+      "explanation": "Enzyme induction increases the capacity of the relevant metabolic pathway and generally increases clearance of an active substrate. Consequently, plasma exposure may fall, potentially reducing therapeutic efficacy.",
+      "topic": "drug metabolism",
+      "subtopic": "Cytochrome P450 enzyme induction",
+      "difficulty": "medium",
+      "source": "Drug Metabolism: Enzyme Induction and Drug Interactions"
+    },
+    {
+      "stem": "A patient previously sensitized to penicillin develops sudden urticaria, bronchospasm and hypotension within minutes of receiving penicillin again. Which mechanism best explains this reaction?",
+      "options": [
+        "Predictable toxicity caused by cumulative drug exposure",
+        "Direct tissue injury caused by excessive drug concentration",
+        "Progressive toxicity caused by impaired renal elimination",
+        "Immediate hypersensitivity mediated by drug-specific IgE"
+      ],
+      "answer": "D",
+      "explanation": "IgE-mediated immediate hypersensitivity can cause rapid mast-cell activation following re-exposure to an allergen. The resulting mediator release can produce urticaria, bronchospasm and potentially life-threatening anaphylaxis.",
+      "topic": "adverse reactions",
+      "subtopic": "Type I hypersensitivity",
+      "difficulty": "easy",
+      "source": "Adverse Drug Reactions: Immunologically Mediated Drug Hypersensitivity"
+    },
+    {
+      "stem": "An uncharged, lipid-soluble drug crosses intestinal epithelial membranes mainly by passive diffusion. Assuming membrane properties, surface area and all other conditions remain constant, which TWO changes would directly increase its rate of passive diffusion? Choose TWO.",
+      "options": [
+        "An increased concentration gradient across the membrane",
+        "An increased thickness of the epithelial membrane",
+        "An increased lipid permeability of the membrane to the drug",
+        "A decreased effective surface area available for diffusion",
+        "An increased molecular diffusion distance through the membrane"
+      ],
+      "answer": "AC",
+      "explanation": "Fick's law indicates that passive diffusion increases with a larger concentration gradient and greater membrane permeability. Greater diffusion distance or reduced surface area decreases the diffusion rate. These relationships help explain how physicochemical properties affect membrane transport.",
+      "topic": "drug absorption",
+      "subtopic": "Passive diffusion and Fick's law",
+      "difficulty": "hard",
+      "source": "General Pharmacology: Drug Absorption - Passive Diffusion and Fick's Law"
+    },
+    {
+      "stem": "A patient takes a drug that is primarily cleared by CYP2D6-mediated metabolism. A potent CYP2D6 inhibitor is added, and the parent drug itself produces the therapeutic effect. Assuming no compensatory clearance pathway, what is the expected result?",
+      "options": [
+        "Increased exposure to the active parent drug",
+        "Decreased exposure to the active parent drug",
+        "Increased conversion to inactive metabolites",
+        "Decreased elimination half-life of the parent drug"
+      ],
+      "answer": "A",
+      "explanation": "Inhibition of a major drug-metabolizing enzyme reduces metabolic clearance of its substrate. For an active parent drug, this commonly raises systemic exposure and may increase the risk of concentration-dependent toxicity.",
+      "topic": "drug metabolism",
+      "subtopic": "Cytochrome P450 enzyme inhibition",
+      "difficulty": "medium",
+      "source": "Drug Metabolism: Enzyme Inhibition and Drug Interactions"
+    },
+    {
+      "stem": "A patient repeatedly develops a sharply demarcated, round, reddish-purple skin patch at exactly the same location after taking a particular medication. The lesion resolves with residual hyperpigmentation after the medication is stopped. Which adverse drug reaction is most likely?",
+      "options": [
+        "Acute generalized exanthematous pustulosis",
+        "Stevens-Johnson syndrome",
+        "Fixed drug eruption",
+        "Drug-induced urticaria"
+      ],
+      "answer": "C",
+      "explanation": "Fixed drug eruption characteristically recurs at the same anatomical site following re-exposure to the causative medication. The lesions are often well defined and commonly leave post-inflammatory hyperpigmentation after resolution.",
+      "topic": "adverse reactions",
+      "subtopic": "Cutaneous adverse drug reactions",
+      "difficulty": "medium",
+      "source": "Adverse Drug Reactions: Drug-Induced Skin Eruptions"
+    },
+    {
+      "stem": "For most orally administered drugs absorbed through the gastrointestinal epithelium, which anatomical region provides the largest effective surface area for absorption?",
+      "options": [
+        "Esophagus",
+        "Stomach",
+        "Large intestine",
+        "Small intestine"
+      ],
+      "answer": "D",
+      "explanation": "The small intestine is the principal absorption site for most orally administered drugs because its folds, villi and microvilli create an extensive absorptive surface. Its blood supply and epithelial characteristics also favor drug uptake.",
+      "topic": "drug absorption",
+      "subtopic": "Sites of gastrointestinal absorption",
+      "difficulty": "easy",
+      "source": "General Pharmacology: Drug Absorption - Gastrointestinal Absorption"
+    },
+    {
+      "stem": "An orally administered prodrug has negligible intrinsic activity and must be converted by CYP2C19 into its active metabolite. A potent CYP2C19 inhibitor is introduced. Assume this is the dominant activation pathway and that no alternative pathway compensates. Which TWO changes are expected? Choose TWO.",
+      "options": [
+        "Increased formation of the active metabolite",
+        "Decreased exposure to the active metabolite",
+        "Increased metabolic conversion of the prodrug",
+        "Increased exposure to the unchanged prodrug",
+        "Increased clearance of the unchanged prodrug"
+      ],
+      "answer": "BD",
+      "explanation": "Inhibiting the enzyme responsible for prodrug activation reduces formation of the active metabolite and may reduce therapeutic efficacy. Because less prodrug is converted, exposure to the unchanged parent compound can increase when that pathway dominates its clearance.",
+      "topic": "drug metabolism",
+      "subtopic": "Prodrug activation and metabolic inhibition",
+      "difficulty": "hard",
+      "source": "Drug Metabolism: Prodrugs and Pharmacogenetic Drug Interactions"
+    },
+    {
+      "stem": "A patient develops a widespread painful rash, oral mucosal erosions, fever and epidermal detachment several days after starting a new medication. Stevens-Johnson syndrome is suspected. What is the most appropriate immediate management?",
+      "options": [
+        "Continue treatment while adding an oral antihistamine",
+        "Stop the suspected drug and arrange emergency hospital assessment",
+        "Reduce the medication dose and monitor the rash at home",
+        "Continue the medication and apply a topical corticosteroid"
+      ],
+      "answer": "B",
+      "explanation": "Stevens-Johnson syndrome is a potentially life-threatening severe cutaneous adverse reaction involving skin and mucous membranes. The suspected causative drug must be stopped immediately, and urgent hospital assessment and supportive management are required.",
+      "topic": "adverse reactions",
+      "subtopic": "Severe cutaneous adverse reactions",
+      "difficulty": "medium",
+      "source": "Adverse Drug Reactions: Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis"
+    },
+    {
+      "stem": "A patient taking oral tetracycline begins taking a calcium supplement at the same time as each antibiotic dose. What is the most likely effect on tetracycline absorption?",
+      "options": [
+        "Reduced absorption due to formation of poorly absorbed complexes",
+        "Increased absorption due to enhanced intestinal transport",
+        "Unchanged absorption because calcium acts only in the colon",
+        "Increased absorption due to reduced hepatic first-pass metabolism"
+      ],
+      "answer": "A",
+      "explanation": "Calcium ions can form poorly absorbed chelate complexes with tetracyclines in the gastrointestinal tract. This reduces the amount of antibiotic available for absorption and can compromise treatment effectiveness.",
+      "topic": "drug absorption",
+      "subtopic": "Drug-food and drug-mineral interactions",
+      "difficulty": "medium",
+      "source": "Drug Absorption: Chelation and Interactions with Divalent Cations"
+    },
+    {
+      "stem": "A drug undergoes oxidation by hepatic cytochrome P450 enzymes. Which category of drug metabolism includes this reaction?",
+      "options": [
+        "Phase II acetylation",
+        "Phase II glucuronidation",
+        "Phase I functionalization",
+        "Phase II sulfation"
+      ],
+      "answer": "C",
+      "explanation": "Oxidation is a Phase I functionalization reaction that chemically modifies a drug molecule, often by introducing or exposing a functional group. These reactions may alter pharmacological activity or prepare a compound for subsequent conjugation.",
+      "topic": "drug metabolism",
+      "subtopic": "Phase I metabolism",
+      "difficulty": "easy",
+      "source": "General Pharmacology: Drug Biotransformation - Phase I Reactions"
+    },
+    {
+      "stem": "A patient with documented penicillin-specific IgE experiences an immediate allergic response after accidental re-exposure. Which TWO clinical findings are characteristic of IgE-mediated immediate hypersensitivity? Choose TWO.",
+      "options": [
+        "Rapid-onset urticaria",
+        "Progressive liver fibrosis developing over several years",
+        "Acute bronchospasm",
+        "Cumulative peripheral neuropathy after months of treatment",
+        "Delayed bone marrow suppression caused by cytotoxicity"
+      ],
+      "answer": "AC",
+      "explanation": "Immediate IgE-mediated hypersensitivity triggers mast-cell degranulation, producing manifestations such as urticaria, angioedema and bronchospasm. These symptoms can develop within minutes and may progress to systemic anaphylaxis. Chronic fibrosis and cumulative toxicities are not characteristic immediate IgE-mediated effects.",
+      "topic": "adverse reactions",
+      "subtopic": "Recognition of immediate drug hypersensitivity",
+      "difficulty": "hard",
+      "source": "Adverse Drug Reactions: Type I Immediate Hypersensitivity"
+    },
+    {
+      "stem": "Two oral formulations contain the same dose of a drug. One is immediate-release and the other is extended-release. Both have equal total bioavailability, but the extended-release product releases the drug more gradually. Which concentration-time profile is generally expected for the extended-release formulation?",
+      "options": [
+        "An earlier Tmax with a higher Cmax",
+        "A later Tmax with a lower Cmax",
+        "An earlier Tmax with a lower Cmax",
+        "A later Tmax with a higher Cmax"
+      ],
+      "answer": "B",
+      "explanation": "Extended-release formulations generally slow the rate at which drug enters systemic circulation, producing a later time to peak concentration (Tmax) and a lower peak concentration (Cmax). When total bioavailability is equal, the overall exposure measured by AUC can remain similar despite differences in peak and timing.",
+      "topic": "drug absorption",
+      "subtopic": "Modified-release formulations and absorption kinetics",
+      "difficulty": "medium",
+      "source": "Biopharmaceutics: Immediate-Release and Extended-Release Dosage Forms"
+    },
+    {
+      "stem": "In an adult with normal physiology, which organ is the principal site of metabolism for most drugs that undergo extensive enzymatic biotransformation?",
+      "options": [
+        "Spleen",
+        "Pancreas",
+        "Thyroid gland",
+        "Liver"
+      ],
+      "answer": "D",
+      "explanation": "The liver is the major site of drug biotransformation because hepatocytes contain numerous metabolizing enzymes, including cytochrome P450 systems and conjugation enzymes. Drug metabolism can also occur in extrahepatic tissues, including the intestine and kidneys.",
+      "topic": "drug metabolism",
+      "subtopic": "Organs involved in drug metabolism",
+      "difficulty": "easy",
+      "source": "General Pharmacology: Drug Metabolism - Hepatic and Extrahepatic Metabolism"
+    },
+    {
+      "stem": "A national pharmacovigilance system receives spontaneous reports of suspected adverse reactions to a newly marketed drug. Why can these reports alone not establish the true population incidence of the reaction?",
+      "options": [
+        "The total exposed population and completeness of reporting are unknown",
+        "The reports contain only reactions confirmed by controlled clinical trials",
+        "The system records only reactions associated with excessive doses",
+        "The reports exclude reactions occurring after drug discontinuation"
+      ],
+      "answer": "A",
+      "explanation": "Spontaneous reporting systems are valuable for detecting potential safety signals but are affected by underreporting, selective reporting and uncertain exposure denominators. Without reliable numbers of exposed patients and all occurring events, the true incidence cannot be calculated from reports alone.",
+      "topic": "adverse reactions",
+      "subtopic": "Pharmacovigilance and spontaneous reporting",
+      "difficulty": "medium",
+      "source": "Pharmacovigilance: Spontaneous Reporting Systems and Their Limitations"
+    },
+    {
+      "stem": "A patient develops acute liver injury after a large acetaminophen (paracetamol) overdose. Excess production of the reactive metabolite NAPQI is involved. Which TWO biochemical changes are central to the development of hepatotoxicity? Choose TWO.",
+      "options": [
+        "Increased detoxification of NAPQI by unlimited glucuronidation",
+        "Depletion of hepatic glutathione needed to neutralize NAPQI",
+        "Accumulation of NAPQI that reacts with cellular proteins",
+        "Complete inhibition of acetaminophen absorption in the intestine",
+        "Conversion of NAPQI into a harmless metabolite without a cofactor"
+      ],
+      "answer": "BC",
+      "explanation": "During acetaminophen overdose, normal conjugation pathways become insufficient to handle the full dose, and increased amounts of the toxic metabolite NAPQI are formed. Hepatic glutathione stores become depleted, allowing NAPQI to bind cellular proteins and cause hepatocellular injury. N-acetylcysteine helps restore glutathione-dependent detoxification.",
+      "topic": "drug metabolism",
+      "subtopic": "Toxic metabolites and acetaminophen hepatotoxicity",
+      "difficulty": "hard",
+      "source": "Drug Metabolism and Toxicology: Acetaminophen Biotransformation and Overdose"
+    },
+    {
+      "stem": "A weakly acidic drug has a pKa of 4.0. The drug is present in gastric fluid at pH 2.0 and intestinal fluid at pH 6.0. Assuming acid-base equilibrium, which statement correctly describes the relative ionization of the drug?",
+      "options": [
+        "It is predominantly ionized at pH 2.0 and unionized at pH 6.0",
+        "It is approximately equally ionized at both pH values",
+        "It is predominantly unionized at pH 2.0 and ionized at pH 6.0",
+        "It remains predominantly unionized at both pH values"
+      ],
+      "answer": "C",
+      "explanation": "Weak acids are predominantly protonated and unionized when environmental pH is below their pKa. When pH rises above their pKa, they lose protons and become predominantly ionized. Although the unionized form generally crosses lipid membranes more readily, actual gastrointestinal absorption also depends on surface area, permeability and other factors.",
+      "topic": "drug absorption",
+      "subtopic": "pH partition and Henderson-Hasselbalch principle",
+      "difficulty": "medium",
+      "source": "General Pharmacology: Drug Absorption - pKa, Ionization and pH Partition"
+    }
+  ]
+}
