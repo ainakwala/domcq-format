@@ -1,0 +1,75 @@
+{
+  "id": "pmp",
+  "display_name": "Project Management Professional (PMP)",
+  "body": "PMI",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, endorsed by or sponsored by the Project Management Institute (PMI). PMP and Project Management Professional are registered marks of the Project Management Institute, Inc.",
+  "taxonomy": {
+    "People": [
+      "Develop a common vision",
+      "Manage conflicts",
+      "Lead the project team",
+      "Engage stakeholders",
+      "Align stakeholder expectations",
+      "Manage stakeholder expectations",
+      "Help ensure knowledge transfer",
+      "Plan and manage communication"
+    ],
+    "Process": [
+      "Develop an integrated project management plan and plan delivery",
+      "Develop and manage project scope",
+      "Help ensure value-based delivery",
+      "Plan and manage resources",
+      "Plan and manage procurement",
+      "Plan and manage finance",
+      "Plan and optimize quality of products/deliverables",
+      "Plan and manage schedule",
+      "Evaluate project status",
+      "Manage project closure"
+    ],
+    "Business Environment": [
+      "Define and establish project governance",
+      "Plan and manage project compliance",
+      "Manage and control changes",
+      "Remove impediments and manage issues",
+      "Plan and manage risk",
+      "Continuous improvement",
+      "Support organizational change",
+      "Evaluate external business environment changes"
+    ]
+  },
+  "weights": {
+    "People": 33,
+    "Process": 41,
+    "Business Environment": 26
+  },
+  "options": {
+    "min": 4,
+    "max": 6
+  },
+  "multi_select": true,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [
+    "What should the project manager do FIRST?",
+    "What should the project manager do NEXT?",
+    "What is the BEST course of action?"
+  ],
+  "uncovered_item_types": [
+    "case study",
+    "graphic-based",
+    "matching",
+    "enhanced matching",
+    "point and click",
+    "pull-down list"
+  ],
+  "exam_mode": {
+    "questions": 180,
+    "minutes": 240,
+    "sections": 3
+  },
+  "verified_outline": "PMP Examination Content Outline, July 2026",
+  "verified_on": "2026-10-15",
+  "next_review": "2027-10-15"
+}

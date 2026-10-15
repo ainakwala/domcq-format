@@ -1,6 +1,6 @@
 {
   "description": "Every fixture with the error and warning codes the validator must report for it (unique codes, sorted). Validated against the modules listed, plus Generic.",
-  "modules": ["modules/example.json", "modules/example-multi.json"],
+  "modules": ["modules/example.json", "modules/example-multi.json", "modules/pmp.json"],
   "cases": [
     { "file": "valid/minimal-generic.json", "errors": [] },
     { "file": "valid/full-generic.json", "errors": [] },
@@ -10,6 +10,11 @@
     { "file": "valid/exported.json", "errors": [] },
     { "file": "valid/generic-chatgpt-1.json", "errors": [] },
     { "file": "valid/generic-gemini-1.json", "errors": [] },
+    { "file": "valid/pmp-claude-1.md", "errors": [], "fenced": true },
+    { "file": "valid/pmp-claude-2.md", "errors": [], "fenced": true },
+    { "file": "valid/pmp-claude-3.md", "errors": [], "fenced": true },
+    { "file": "valid/pmp-claude-4.md", "errors": [], "fenced": true },
+    { "file": "valid/pmp-chatgpt-1.json", "errors": [] },
 
     { "file": "invalid/empty.txt", "errors": ["E001"] },
     { "file": "invalid/not-json.txt", "errors": ["E002"] },
