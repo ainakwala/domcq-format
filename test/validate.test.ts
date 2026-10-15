@@ -14,6 +14,8 @@ import {
   LIMITS,
   generic,
   domcqFileSchema,
+  parseModuleConfig,
+  weightRange,
   type ModuleConfig,
 } from "../src/index.js";
 
@@ -280,5 +282,21 @@ describe("catalogue", () => {
     expect(LIMITS.questionsPerFile.max).toBe(500);
     expect(LIMITS.options).toEqual({ min: 2, max: 6 });
     expect(LIMITS.stem).toEqual({ min: 10, max: 2000 });
+  });
+});
+
+describe("module weights", () => {
+  const base = { id: "w", display_name: "Weights", taxonomy: { A: [], B: [] }, options: { min: 4, max: 4 }, multi_select: false };
+
+  it("accepts a number or a min–max range and reads both as a range", () => {
+    const m = parseModuleConfig({ ...base, weights: { A: 40, B: { min: 5, max: 8 } } });
+    expect(weightRange(m.weights!.A!)).toEqual({ min: 40, max: 40 });
+    expect(weightRange(m.weights!.B!)).toEqual({ min: 5, max: 8 });
+  });
+
+  it("rejects a range with min above max, a value over 100, and a weight for an unknown topic", () => {
+    expect(() => parseModuleConfig({ ...base, weights: { A: { min: 9, max: 8 } } })).toThrow(/min \(9\) above max \(8\)/);
+    expect(() => parseModuleConfig({ ...base, weights: { A: 101 } })).toThrow();
+    expect(() => parseModuleConfig({ ...base, weights: { C: 10 } })).toThrow(/no matching taxonomy topic/);
   });
 });

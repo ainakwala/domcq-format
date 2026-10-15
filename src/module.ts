@@ -8,6 +8,18 @@ import { normaliseText } from "./duplicates.js";
  * `banned_option_text`; the remaining fields are carried for the app
  * (coverage dashboard, exam mode, module page) and validated for shape only.
  */
+const percent = z.number().min(0).max(100);
+
+/** One topic's weight: a percentage, or the min–max range the exam body publishes. */
+export const weightSchema = z.union([percent, z.strictObject({ min: percent, max: percent })]);
+
+export type Weight = z.infer<typeof weightSchema>;
+
+/** A weight as a range: a plain number is a range of width zero. */
+export function weightRange(weight: Weight): { min: number; max: number } {
+  return typeof weight === "number" ? { min: weight, max: weight } : { min: weight.min, max: weight.max };
+}
+
 export const moduleConfigSchema = z.strictObject({
   /** Lowercase id used in the `exam` field of a domcq/1 file: `pmp`, `cfa-l1`. */
   id: z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/).min(1).max(40),
@@ -23,8 +35,13 @@ export const moduleConfigSchema = z.strictObject({
    * A topic with an empty subtopic list accepts any subtopic.
    */
   taxonomy: z.record(z.string().min(1).max(80), z.array(z.string().min(1).max(120))).optional(),
-  /** Official weight per topic, in percent. Keys must be taxonomy topics. */
-  weights: z.record(z.string(), z.number().min(0).max(100)).optional(),
+  /**
+   * Official weight per topic, in percent: a single number (`40`) or the range
+   * the exam body publishes (`{ "min": 5, "max": 8 }`). Keys must be taxonomy
+   * topics. The range is carried exactly as published for the app's coverage
+   * dashboard; the validator does not use weights.
+   */
+  weights: z.record(z.string(), weightSchema).optional(),
   /** Allowed number of options per question, inclusive. Within 2–6. */
   options: z.strictObject({
     min: z.number().int().min(2).max(6),
@@ -94,10 +111,12 @@ export function parseModuleConfig(input: unknown): ModuleConfig {
       seen.set(key, topic);
     }
   }
-  if (module.weights && module.taxonomy) {
-    const topics = new Set(Object.keys(module.taxonomy));
-    for (const key of Object.keys(module.weights)) {
+  if (module.weights) {
+    const topics = new Set(Object.keys(module.taxonomy ?? {}));
+    for (const [key, weight] of Object.entries(module.weights)) {
       if (!topics.has(key)) throw new Error(`Module "${module.id}": weight for "${key}" has no matching taxonomy topic.`);
+      const { min, max } = weightRange(weight);
+      if (min > max) throw new Error(`Module "${module.id}": weight range for "${key}" has min (${min}) above max (${max}).`);
     }
   }
   return module;
