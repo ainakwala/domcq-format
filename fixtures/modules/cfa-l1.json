@@ -1,0 +1,206 @@
+{
+  "id": "cfa-l1",
+  "display_name": "CFA Program Level I",
+  "body": "CFA Institute",
+  "disclaimer": "DoMcq is an independent practice tool. It is not affiliated with, endorsed by or sponsored by CFA Institute, and CFA Institute does not endorse, promote or warrant the accuracy or quality of DoMcq. CFA® and Chartered Financial Analyst® are registered trademarks owned by CFA Institute.",
+  "taxonomy": {
+    "Ethical and Professional Standards": [
+      "Ethics and Trust in the Investment Profession",
+      "Code of Ethics and Standards of Professional Conduct",
+      "Guidance for Standard I: Professionalism",
+      "Guidance for Standard II: Integrity of Capital Markets",
+      "Guidance for Standard III: Duties to Clients",
+      "Guidance for Standard IV: Duties to Employers",
+      "Guidance for Standard V: Investment Analysis, Recommendations, and Actions",
+      "Guidance for Standard VI: Conflicts of Interest",
+      "Guidance for Standard VII: Responsibilities as a CFA Institute Member or CFA Candidate",
+      "Application of the Code and Standards: Level I"
+    ],
+    "Quantitative Methods": [
+      "Returns of Financial Assets and Instruments",
+      "Types of Financial Returns",
+      "Benchmarking Returns",
+      "The Time Value of Money in Finance",
+      "Statistical Characteristics of Asset Returns",
+      "Statistical Distributions for Financial Asset Prices and Returns",
+      "Estimation and Hypothesis Testing",
+      "The Return and Risk of a Financial Portfolio",
+      "Simulation of Financial Asset Prices and Returns",
+      "Applications of Simple Linear Regression in Finance",
+      "Introduction to Financial Data Science"
+    ],
+    "Economics": [
+      "The Firm and Market Structures",
+      "Understanding Business Cycles",
+      "Fiscal Policy",
+      "Monetary Policy",
+      "Introduction to Geopolitics",
+      "International Trade",
+      "Capital Flows and the FX Market",
+      "Exchange Rate Calculations"
+    ],
+    "Financial Statement Analysis": [
+      "Introduction to Financial Statement Analysis",
+      "Analyzing Income Statements",
+      "Analyzing Balance Sheets",
+      "Analyzing Statements of Cash Flows I",
+      "Analyzing Statements of Cash Flows II",
+      "Analysis of Inventories",
+      "Analysis of Long-Term Assets",
+      "Topics in Long-Term Liabilities and Equity",
+      "Analysis of Income Taxes",
+      "Financial Reporting Quality",
+      "Financial Analysis Techniques",
+      "Introduction to Financial Statement Modeling"
+    ],
+    "Corporate Finance": [
+      "Organizational Forms, Corporate Issuer Features, and Ownership",
+      "Investors and Other Stakeholders",
+      "Corporate Governance: Conflicts, Mechanisms, Risks, and Benefits",
+      "Working Capital and Liquidity",
+      "Capital Investments and Capital Allocation",
+      "Capital Structure",
+      "Business Models"
+    ],
+    "Equities": [
+      "Equity Instrument Features",
+      "Equity Jurisdictions, Classes, and the Voting Process",
+      "Equity Issuance and Trading",
+      "Sources of Equity Returns",
+      "Introduction to Equity Valuation",
+      "Discounted Cash Flow (DCF) and Growth Models",
+      "Relative Value Equity Valuation Approaches",
+      "Financial Statement Forecasting in Equity Valuation",
+      "Industry and Competitive Analysis",
+      "Company Analysis: Past, Present, and Future",
+      "Equity Analyst Research Reports",
+      "The Capital Asset Pricing Model, Market Model, and Other Factor-Based Equity Models"
+    ],
+    "Fixed Income": [
+      "Fixed-Income Instrument Features",
+      "Fixed-Income Cash Flows and Types",
+      "Fixed-Income Issuance and Trading",
+      "Fixed-Income Markets for Corporate Issuers",
+      "Fixed-Income Markets for Government Issuers",
+      "Fixed-Income Bond Valuation: Prices and Yields",
+      "Yield and Yield Spread Measures for Fixed-Rate Bonds",
+      "Yield and Yield Spread Measures for Floating-Rate Instruments",
+      "The Term Structure of Interest Rates: Spot, Par, and Forward Curves",
+      "Interest Rate Risk and Return",
+      "Yield-Based Bond Duration Measures and Properties",
+      "Yield-Based Bond Convexity and Portfolio Properties",
+      "Curve-Based and Empirical Fixed-Income Risk Measures",
+      "Credit Risk",
+      "Credit Analysis for Government Issuers",
+      "Credit Analysis for Corporate Issuers",
+      "Fixed-Income Securitization",
+      "Asset-Backed Security (ABS) Instrument and Market Features",
+      "Mortgage-Backed Security (MBS) Instrument and Market Features"
+    ],
+    "Derivatives and Risk Management": [
+      "Derivative Instrument and Derivative Market Features",
+      "Forward Commitment and Contingent Claim Features and Instruments",
+      "Derivative Benefits, Risks, and Issuer and Investor Uses",
+      "Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives",
+      "Pricing and Valuation of Forward Contracts and for an Underlying with Varying Maturities",
+      "Pricing and Valuation of Futures Contracts",
+      "Pricing and Valuation of Interest Rate and Other Swaps",
+      "Pricing and Valuation of Options",
+      "Option Replication Using Put–Call Parity",
+      "Valuing a Derivative Using a One-Period Binomial Model"
+    ],
+    "Alternative Investments": [
+      "Alternative Investment Features, Methods, and Structures",
+      "Alternative Investment Performance and Returns",
+      "Investments in Private Capital: Equity and Debt",
+      "Real Estate and Infrastructure",
+      "Natural Resources",
+      "Hedge Funds",
+      "Introduction to Digital Assets"
+    ],
+    "Portfolio Construction": [
+      "Portfolio Risk and Return: Part I",
+      "Portfolio Risk and Return: Part II",
+      "Portfolio Management: An Overview",
+      "Basics of Portfolio Planning and Construction",
+      "The Behavioral Biases of Individuals",
+      "Introduction to Risk Management"
+    ]
+  },
+  "weights": {
+    "Ethical and Professional Standards": {
+      "min": 10,
+      "max": 15
+    },
+    "Quantitative Methods": {
+      "min": 11,
+      "max": 14
+    },
+    "Economics": {
+      "min": 6,
+      "max": 9
+    },
+    "Financial Statement Analysis": {
+      "min": 11,
+      "max": 14
+    },
+    "Corporate Finance": {
+      "min": 6,
+      "max": 9
+    },
+    "Equities": {
+      "min": 11,
+      "max": 14
+    },
+    "Fixed Income": {
+      "min": 11,
+      "max": 14
+    },
+    "Derivatives and Risk Management": {
+      "min": 6,
+      "max": 9
+    },
+    "Alternative Investments": {
+      "min": 6,
+      "max": 9
+    },
+    "Portfolio Construction": {
+      "min": 8,
+      "max": 12
+    }
+  },
+  "options": {
+    "min": 3,
+    "max": 3
+  },
+  "multi_select": false,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above",
+    "A and B only",
+    "B and C only",
+    "A and C only",
+    "cannot determine",
+    "cannot calculate",
+    "not enough information to determine"
+  ],
+  "stem_hints": [
+    "most likely",
+    "least likely",
+    "closest to",
+    "best described",
+    "most appropriate",
+    "most accurate",
+    "least appropriate",
+    "least accurate"
+  ],
+  "uncovered_item_types": [],
+  "exam_mode": {
+    "questions": 180,
+    "minutes": 270,
+    "sections": 2
+  },
+  "verified_outline": "CFA Program Level I, 2027 curriculum (exams from February 2027)",
+  "verified_on": "2026-10-15",
+  "next_review": "2027-10-15"
+}

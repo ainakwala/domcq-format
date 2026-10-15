@@ -1,0 +1,287 @@
+{
+  "format": "domcq/1",
+  "exam": "cfa-l1",
+  "set": "CFA Program Level I Practice – Comprehensive Set 01",
+  "questions": [
+    {
+      "stem": "An investment analyst receives material nonpublic information about a publicly traded company from a corporate executive. The analyst confirms that the information is accurate but has not yet been publicly disclosed. According to the CFA Institute Standards of Professional Conduct, the analyst's most appropriate action is to:",
+      "options": [
+        "Refrain from trading or making recommendations based on the information until it becomes public.",
+        "Trade on the information only for discretionary accounts that permit active management.",
+        "Share the information with existing clients before making any investment recommendations."
+      ],
+      "answer": "A",
+      "explanation": "Standard II(A), Material Nonpublic Information, prohibits members and candidates from acting or causing others to act on information that is both material and nonpublic. Confirming the information's accuracy does not make it public. The analyst must refrain from using the information until it has been disseminated to the market.",
+      "topic": "Ethical and Professional Standards",
+      "subtopic": "Guidance for Standard II: Integrity of Capital Markets",
+      "difficulty": "easy",
+      "source": "CFA Institute Standards of Professional Conduct, Standard II(A): Material Nonpublic Information"
+    },
+    {
+      "stem": "An investment manager is responsible for three client accounts with similar investment objectives. A newly issued security is suitable for all three accounts, but the available allocation is insufficient to satisfy all purchase requests. According to the CFA Institute Standards of Professional Conduct, the manager should most appropriately:",
+      "options": [
+        "Allocate the securities first to clients with the longest relationships with the firm.",
+        "Allocate the securities according to a fair and consistently applied allocation policy.",
+        "Allocate the securities first to clients who generate the highest management fees."
+      ],
+      "answer": "B",
+      "explanation": "Standard III(B), Fair Dealing, requires members and candidates to deal fairly and objectively with all clients when taking investment actions. A documented allocation policy applied consistently helps prevent preferential treatment. Fair dealing does not necessarily require equal allocations, but allocations must be equitable and consistent with client circumstances.",
+      "topic": "Ethical and Professional Standards",
+      "subtopic": "Guidance for Standard III: Duties to Clients",
+      "difficulty": "medium",
+      "source": "CFA Institute Standards of Professional Conduct, Standard III(B): Fair Dealing"
+    },
+    {
+      "stem": "An investor purchases a security for $100 and receives a $4 cash distribution at the end of the first year. The security's market value at year-end is $108. The investor reinvests the distribution elsewhere and sells the security for $112 at the end of the second year. No additional distributions are received. The annualized time-weighted return over the two-year period is closest to:",
+      "options": [
+        "7.85%",
+        "7.92%",
+        "8.00%"
+      ],
+      "answer": "C",
+      "explanation": "The first-year holding period return is (108 - 100 + 4) / 100 = 12%. The second-year return is (112 - 108) / 108 = 3.7037%. The annualized time-weighted return is [(1.12)(1.037037)]^(1/2) - 1 = 7.78%, so 8.00% is the closest choice.",
+      "topic": "Quantitative Methods",
+      "subtopic": "Returns of Financial Assets and Instruments",
+      "difficulty": "hard",
+      "source": "Quantitative Methods: Returns of Financial Assets and Instruments – Time-Weighted Rates of Return"
+    },
+    {
+      "stem": "A researcher tests the null hypothesis that the population mean return equals 5% against the two-sided alternative that it differs from 5%. The researcher obtains a p-value of 0.03. At a significance level of 5%, the most appropriate conclusion is to:",
+      "options": [
+        "Reject the null hypothesis because the p-value is less than the significance level.",
+        "Fail to reject the null hypothesis because the p-value is greater than zero.",
+        "Accept the alternative hypothesis as true with a probability of 97%."
+      ],
+      "answer": "A",
+      "explanation": "A p-value of 0.03 is below the specified significance level of 0.05, so the researcher rejects the null hypothesis. The p-value represents the probability, assuming the null hypothesis is true, of observing a test statistic at least as extreme as the one obtained. It does not measure the probability that either hypothesis is true.",
+      "topic": "Quantitative Methods",
+      "subtopic": "Estimation and Hypothesis Testing",
+      "difficulty": "medium",
+      "source": "Quantitative Methods: Estimation and Hypothesis Testing – Hypothesis Testing and p-Values"
+    },
+    {
+      "stem": "An economy experiences declining real GDP, rising unemployment, and reduced private investment. The government responds by increasing infrastructure spending without raising taxes. The government's action is best described as:",
+      "options": [
+        "Contractionary fiscal policy intended to reduce aggregate demand.",
+        "Expansionary fiscal policy intended to increase aggregate demand.",
+        "Expansionary monetary policy intended to increase bank reserves."
+      ],
+      "answer": "B",
+      "explanation": "An increase in government spending, holding taxes constant, is an expansionary fiscal policy measure. It directly increases aggregate demand and may stimulate employment and output during an economic downturn. Monetary policy, in contrast, is conducted primarily through central bank actions affecting interest rates, liquidity, and monetary conditions.",
+      "topic": "Economics",
+      "subtopic": "Fiscal Policy",
+      "difficulty": "easy",
+      "source": "Economics: Fiscal Policy – Fiscal Policy Tools and Their Macroeconomic Effects"
+    },
+    {
+      "stem": "A foreign exchange dealer quotes USD/EUR at 1.1000 and USD/GBP at 1.3200, where each quote represents the number of US dollars per unit of the foreign currency. The implied GBP/EUR exchange rate, expressed as euros per pound sterling, is closest to:",
+      "options": [
+        "0.8333",
+        "1.1000",
+        "1.2000"
+      ],
+      "answer": "C",
+      "explanation": "The cross rate is calculated by dividing the US dollar price of one pound by the US dollar price of one euro: 1.3200 / 1.1000 = 1.2000 EUR per GBP. Because both original exchange rates use USD as the price currency, dividing them eliminates USD. One pound therefore exchanges for 1.20 euros.",
+      "topic": "Economics",
+      "subtopic": "Exchange Rate Calculations",
+      "difficulty": "medium",
+      "source": "Economics: Exchange Rate Calculations – Cross Exchange Rates"
+    },
+    {
+      "stem": "During a period of rising inventory purchase prices, a company using FIFO reports financial statements under IFRS. Compared with an otherwise identical company using weighted average cost, the FIFO company will most likely report:",
+      "options": [
+        "Lower cost of goods sold and higher ending inventory.",
+        "Higher cost of goods sold and lower ending inventory.",
+        "Lower cost of goods sold and lower ending inventory."
+      ],
+      "answer": "A",
+      "explanation": "Under FIFO, the earliest and generally lower acquisition costs are assigned to cost of goods sold during rising-price periods. The more recent and higher acquisition costs remain in ending inventory. Consequently, FIFO generally produces lower cost of goods sold, higher gross profit, and higher ending inventory than weighted average cost.",
+      "topic": "Financial Statement Analysis",
+      "subtopic": "Analysis of Inventories",
+      "difficulty": "medium",
+      "source": "Financial Statement Analysis: Analysis of Inventories – FIFO and Weighted Average Cost"
+    },
+    {
+      "stem": "A company reports profit before tax of $500,000 and taxable income of $420,000. The difference arises entirely from tax depreciation exceeding accounting depreciation during the year. The applicable tax rate is 25%, and there are no permanent differences or beginning deferred tax balances. The company's deferred tax liability at year-end is closest to:",
+      "options": [
+        "$0",
+        "$20,000",
+        "$105,000"
+      ],
+      "answer": "B",
+      "explanation": "The temporary difference is $500,000 - $420,000 = $80,000. Because tax depreciation exceeds accounting depreciation, the company pays less tax currently but will generally pay more tax when the temporary difference reverses. The resulting deferred tax liability is $80,000 × 25% = $20,000.",
+      "topic": "Financial Statement Analysis",
+      "subtopic": "Analysis of Income Taxes",
+      "difficulty": "medium",
+      "source": "Financial Statement Analysis: Analysis of Income Taxes – Temporary Differences and Deferred Tax Liabilities"
+    },
+    {
+      "stem": "A company is evaluating a capital investment requiring an initial outlay of $100,000. The project is expected to generate annual after-tax cash inflows of $40,000 for three years, with no terminal value. The required rate of return is 10%. The project's net present value is closest to:",
+      "options": [
+        "$0",
+        "$9,474",
+        "-$526"
+      ],
+      "answer": "C",
+      "explanation": "The present value of the expected cash inflows is $40,000 × [1 - (1.10)^(-3)] / 0.10 = $99,474 approximately. Subtracting the initial investment gives an NPV of approximately -$526. Because the NPV is negative, the project does not meet the required rate of return.",
+      "topic": "Corporate Finance",
+      "subtopic": "Capital Investments and Capital Allocation",
+      "difficulty": "medium",
+      "source": "Corporate Finance: Capital Investments and Capital Allocation – Net Present Value"
+    },
+    {
+      "stem": "A corporation introduces a compensation plan that links senior executives' bonuses to long-term shareholder returns rather than annual revenue growth. The compensation plan is primarily intended to reduce:",
+      "options": [
+        "Principal-agent conflicts between shareholders and management.",
+        "Conflicts between secured creditors and unsecured creditors.",
+        "Information differences between customers and suppliers."
+      ],
+      "answer": "A",
+      "explanation": "Shareholders delegate decision-making authority to management, creating a principal-agent relationship. Executives may pursue objectives that increase their own compensation without maximizing shareholder wealth. Linking compensation to long-term shareholder outcomes can improve incentive alignment, although the effectiveness depends on the plan's design.",
+      "topic": "Corporate Finance",
+      "subtopic": "Corporate Governance: Conflicts, Mechanisms, Risks, and Benefits",
+      "difficulty": "easy",
+      "source": "Corporate Finance: Corporate Governance – Principal-Agent Conflicts and Governance Mechanisms"
+    },
+    {
+      "stem": "A company is expected to pay a dividend of $3.00 per share one year from today. Dividends are expected to grow at a constant annual rate of 4%, and shareholders require a return of 10%. Using the Gordon growth model, the estimated intrinsic value per share is closest to:",
+      "options": [
+        "$48.00",
+        "$50.00",
+        "$52.00"
+      ],
+      "answer": "B",
+      "explanation": "The Gordon growth model values a share as V0 = D1 / (r - g). Using the expected dividend of $3.00, required return of 10%, and growth rate of 4%, the intrinsic value is $3.00 / (0.10 - 0.04) = $50.00. The model assumes perpetual constant dividend growth at a rate below the required return.",
+      "topic": "Equities",
+      "subtopic": "Discounted Cash Flow (DCF) and Growth Models",
+      "difficulty": "easy",
+      "source": "Equities: Discounted Cash Flow (DCF) and Growth Models – Gordon Growth Model"
+    },
+    {
+      "stem": "An equity analyst estimates a stock's beta at 1.30, the risk-free rate at 3%, and the expected market return at 9%. The stock's forecast return is 12%. Based on the capital asset pricing model, the stock is most likely:",
+      "options": [
+        "Overvalued because its forecast return is below the required return.",
+        "Fairly valued because its forecast return equals the required return.",
+        "Undervalued because its forecast return exceeds the required return."
+      ],
+      "answer": "C",
+      "explanation": "The CAPM required return is 3% + 1.30 × (9% - 3%) = 10.8%. The forecast return of 12% exceeds the required return by 1.2 percentage points, producing positive expected alpha. Assuming the forecasts are reliable, the security appears undervalued relative to its systematic risk.",
+      "topic": "Equities",
+      "subtopic": "The Capital Asset Pricing Model, Market Model, and Other Factor-Based Equity Models",
+      "difficulty": "medium",
+      "source": "Equities: The Capital Asset Pricing Model, Market Model, and Other Factor-Based Equity Models – CAPM and Expected Alpha"
+    },
+    {
+      "stem": "A bond has a modified duration of 6.0 and convexity of 50, with convexity defined using the standard second-derivative price formula. If its yield increases by 100 basis points, the percentage change in the bond's price, using both duration and convexity, is closest to:",
+      "options": [
+        "-5.75%",
+        "-6.00%",
+        "-6.25%"
+      ],
+      "answer": "A",
+      "explanation": "The duration-convexity approximation is percentage price change ≈ -Modified Duration × change in yield + 0.5 × Convexity × (change in yield)^2. Substituting the values gives -6(0.01) + 0.5(50)(0.01)^2 = -0.0575, or -5.75%. Positive convexity partially offsets the price decline predicted by duration alone.",
+      "topic": "Fixed Income",
+      "subtopic": "Yield-Based Bond Convexity and Portfolio Properties",
+      "difficulty": "hard",
+      "source": "Fixed Income: Yield-Based Bond Convexity and Portfolio Properties – Duration-Convexity Price Approximation"
+    },
+    {
+      "stem": "A three-year bond pays an annual coupon of 5% on a face value of $1,000. The annual spot rates for years one, two, and three are 3%, 4%, and 5%, respectively, expressed as effective annual rates. The bond's arbitrage-free price is closest to:",
+      "options": [
+        "$994.65",
+        "$1,000.00",
+        "$1,002.82"
+      ],
+      "answer": "C",
+      "explanation": "Each cash flow is discounted at the spot rate corresponding to its payment date. The price is $50/1.03 + $50/(1.04)^2 + $1,050/(1.05)^3 = approximately $1,001.79. Of the available choices, $1,002.82 is closest; using spot rates rather than a single yield reflects the term structure of interest rates.",
+      "topic": "Fixed Income",
+      "subtopic": "The Term Structure of Interest Rates: Spot, Par, and Forward Curves",
+      "difficulty": "hard",
+      "source": "Fixed Income: The Term Structure of Interest Rates – Arbitrage-Free Valuation Using Spot Rates"
+    },
+    {
+      "stem": "A European call option and a European put option have the same underlying non-dividend-paying stock, strike price, and expiration date. The stock price is $100, the strike price is $95, the present value of the strike price is $92, and the call option price is $12. Based on put-call parity, the put option price is closest to:",
+      "options": [
+        "$4",
+        "$7",
+        "$9"
+      ],
+      "answer": "A",
+      "explanation": "For European options on a non-dividend-paying stock, put-call parity is C + PV(X) = P + S0. Rearranging gives P = C + PV(X) - S0 = 12 + 92 - 100 = $4. This relationship follows from the equivalence of the terminal payoffs of appropriately constructed option and underlying-asset portfolios.",
+      "topic": "Derivatives and Risk Management",
+      "subtopic": "Option Replication Using Put–Call Parity",
+      "difficulty": "medium",
+      "source": "Derivatives and Risk Management: Option Replication Using Put–Call Parity"
+    },
+    {
+      "stem": "A company enters into a forward contract to purchase a non-dividend-paying stock in one year. The current stock price is $80, and the continuously compounded risk-free interest rate is 5% per year. Ignoring transaction costs, the no-arbitrage forward price is closest to:",
+      "options": [
+        "$80.00",
+        "$84.10",
+        "$88.41"
+      ],
+      "answer": "B",
+      "explanation": "The no-arbitrage forward price for a non-dividend-paying stock is F0 = S0 × e^(rT). Therefore, F0 = 80 × e^(0.05 × 1) = approximately $84.10. The forward price incorporates the financing cost of holding the underlying asset until the contract's delivery date.",
+      "topic": "Derivatives and Risk Management",
+      "subtopic": "Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives",
+      "difficulty": "easy",
+      "source": "Derivatives and Risk Management: Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives"
+    },
+    {
+      "stem": "A private equity fund has committed capital of $200 million and has called $120 million from its limited partners. The fund has distributed $30 million to investors and reports a remaining net asset value of $150 million. Based on the reported values, the fund's total value to paid-in capital multiple (TVPI) is closest to:",
+      "options": [
+        "1.25",
+        "1.50",
+        "1.75"
+      ],
+      "answer": "B",
+      "explanation": "TVPI measures the total value generated relative to contributed capital and equals (cumulative distributions + remaining net asset value) / paid-in capital. In this case, TVPI = ($30 million + $150 million) / $120 million = 1.50. Committed capital is not used as the denominator because not all committed funds have been called.",
+      "topic": "Alternative Investments",
+      "subtopic": "Alternative Investment Performance and Returns",
+      "difficulty": "medium",
+      "source": "Alternative Investments: Alternative Investment Performance and Returns – TVPI"
+    },
+    {
+      "stem": "A hedge fund uses a market-neutral equity strategy involving simultaneous long and short positions. The strategy is designed to generate returns from relative security mispricing while minimizing broad equity market exposure. The strategy is most accurately classified as:",
+      "options": [
+        "An event-driven merger arbitrage strategy.",
+        "A discretionary global macro strategy.",
+        "An equity market-neutral strategy."
+      ],
+      "answer": "C",
+      "explanation": "Equity market-neutral strategies combine long and short equity positions to exploit relative valuation differences while seeking to limit overall market exposure. Their performance depends primarily on security selection and the effectiveness of the hedging structure. Such strategies can still experience factor, liquidity, short-selling, and model risks.",
+      "topic": "Alternative Investments",
+      "subtopic": "Hedge Funds",
+      "difficulty": "easy",
+      "source": "Alternative Investments: Hedge Funds – Equity Hedge and Market-Neutral Strategies"
+    },
+    {
+      "stem": "A portfolio consists of two assets with weights of 60% and 40%. Their annual return standard deviations are 20% and 10%, respectively, and the correlation between their returns is -0.50. The portfolio's annual return standard deviation is closest to:",
+      "options": [
+        "10.58%",
+        "12.65%",
+        "16.00%"
+      ],
+      "answer": "A",
+      "explanation": "Portfolio variance is w1^2 × sigma1^2 + w2^2 × sigma2^2 + 2w1w2sigma1sigma2rho. Substituting gives 0.6^2(0.20^2) + 0.4^2(0.10^2) + 2(0.6)(0.4)(0.20)(0.10)(-0.50) = 0.0112. The standard deviation is the square root of 0.0112, or approximately 10.58%, demonstrating the diversification benefit of negative correlation.",
+      "topic": "Portfolio Construction",
+      "subtopic": "Portfolio Risk and Return: Part I",
+      "difficulty": "hard",
+      "source": "Portfolio Construction: Portfolio Risk and Return: Part I – Two-Asset Portfolio Variance"
+    },
+    {
+      "stem": "An investment adviser is preparing an investment policy statement for a client who has a high willingness to accept investment risk but limited financial resources and significant near-term spending obligations. The adviser's most appropriate assessment of the client's overall risk tolerance is that it is:",
+      "options": [
+        "High because willingness to accept risk dominates financial constraints.",
+        "Low because the client's financial ability to bear losses is limited.",
+        "Moderate because willingness and ability to accept risk should be averaged."
+      ],
+      "answer": "B",
+      "explanation": "Risk tolerance depends on both willingness and ability to take risk. When the client's ability to withstand financial losses is low, the overall risk tolerance should generally be assessed as low even if the client expresses a high willingness to take risk. Significant near-term financial obligations constrain the client's capacity to accept portfolio volatility and losses.",
+      "topic": "Portfolio Construction",
+      "subtopic": "Basics of Portfolio Planning and Construction",
+      "difficulty": "medium",
+      "source": "Portfolio Construction: Basics of Portfolio Planning and Construction – Risk Objectives and Investment Policy Statements"
+    }
+  ]
+}
