@@ -8,6 +8,8 @@
     { "file": "valid/example-module.json", "errors": [] },
     { "file": "valid/example-multi-module.json", "errors": [] },
     { "file": "valid/exported.json", "errors": [] },
+    { "file": "valid/generic-chatgpt-1.json", "errors": [] },
+    { "file": "valid/generic-gemini-1.json", "errors": [] },
 
     { "file": "invalid/empty.txt", "errors": ["E001"] },
     { "file": "invalid/not-json.txt", "errors": ["E002"] },
