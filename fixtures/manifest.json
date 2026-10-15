@@ -14,6 +14,7 @@
     { "file": "valid/pmp-claude-2.md", "errors": [], "fenced": true },
     { "file": "valid/pmp-claude-3.md", "errors": [], "fenced": true },
     { "file": "valid/pmp-claude-4.md", "errors": [], "fenced": true },
+    { "file": "valid/pmp-chatgpt-1.json", "errors": [] },
 
     { "file": "invalid/empty.txt", "errors": ["E001"] },
     { "file": "invalid/not-json.txt", "errors": ["E002"] },
