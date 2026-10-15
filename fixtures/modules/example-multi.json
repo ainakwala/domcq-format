@@ -8,7 +8,7 @@
     "Storage": ["Object storage", "Block storage"],
     "Security": ["Identity", "Encryption"]
   },
-  "weights": { "Networking": 30, "Storage": 30, "Security": 40 },
+  "weights": { "Networking": { "min": 25, "max": 35 }, "Storage": 30, "Security": { "min": 35, "max": 45 } },
   "options": { "min": 4, "max": 5 },
   "multi_select": true,
   "banned_option_text": ["all of the above"],

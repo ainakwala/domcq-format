@@ -22,7 +22,7 @@ export {
   type Question,
   type Letter,
 } from "./schema.js";
-export { moduleConfigSchema, parseModuleConfig, generic, defaultModules, type ModuleConfig, type ModuleRegistry } from "./module.js";
+export { moduleConfigSchema, parseModuleConfig, weightSchema, weightRange, generic, defaultModules, type ModuleConfig, type ModuleRegistry, type Weight } from "./module.js";
 export { catalogue, messages, letterAt, type ErrorCode, type WarningCode, type ValidationError, type ValidationWarning } from "./errors.js";
 export { fixRequest } from "./fix-request.js";
 export { parseText, stripFence, trimStrings, type ParseResult } from "./parse.js";
