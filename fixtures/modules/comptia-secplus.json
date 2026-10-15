@@ -1,0 +1,80 @@
+{
+  "id": "comptia-secplus",
+  "display_name": "CompTIA Security+",
+  "body": "CompTIA",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, endorsed by or sponsored by CompTIA. CompTIA and Security+ are trademarks or registered trademarks of CompTIA, Inc.",
+  "taxonomy": {
+    "General Security Concepts": [
+      "Compare and contrast various types of security controls",
+      "Summarize fundamental security concepts",
+      "Explain the importance of change management processes and the impact to security",
+      "Explain the importance of using appropriate cryptographic solutions"
+    ],
+    "Threats, Vulnerabilities, and Mitigations": [
+      "Compare and contrast common threat actors and motivations",
+      "Explain common threat vectors and attack surfaces",
+      "Explain various types of vulnerabilities",
+      "Given a scenario, analyze indicators of malicious activity",
+      "Explain the purpose of mitigation techniques used to secure the enterprise"
+    ],
+    "Security Architecture": [
+      "Compare and contrast security implications of different architecture models",
+      "Given a scenario, apply security principles to secure enterprise infrastructure",
+      "Compare and contrast concepts and strategies to protect data",
+      "Explain the importance of resilience and recovery in security architecture"
+    ],
+    "Security Operations": [
+      "Given a scenario, apply common security techniques to computing resources",
+      "Explain the security implications of proper hardware, software, and data asset management",
+      "Explain various activities associated with vulnerability management",
+      "Explain security alerting and monitoring concepts and tools",
+      "Given a scenario, modify enterprise capabilities to enhance security",
+      "Given a scenario, implement and maintain identity and access management",
+      "Explain the importance of automation and orchestration related to secure operations",
+      "Explain appropriate incident response activities",
+      "Given a scenario, use data sources to support an investigation"
+    ],
+    "Security Program Management and Oversight": [
+      "Summarize elements of effective security governance",
+      "Explain elements of the risk management process",
+      "Explain the processes associated with third-party risk assessment and management",
+      "Summarize elements of effective security compliance",
+      "Explain types and purposes of audits and assessments",
+      "Given a scenario, implement security awareness practices"
+    ]
+  },
+  "weights": {
+    "General Security Concepts": 12,
+    "Threats, Vulnerabilities, and Mitigations": 22,
+    "Security Architecture": 18,
+    "Security Operations": 28,
+    "Security Program Management and Oversight": 20
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": true,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [
+    "Which of the following best describes",
+    "Which of the following is the most likely",
+    "Which of the following would be the most helpful",
+    "Which of the following attacks is the company facing?",
+    "Which of the following is the administrator trying to accomplish?"
+  ],
+  "uncovered_item_types": [
+    "performance-based",
+    "drag-and-drop"
+  ],
+  "exam_mode": {
+    "questions": 90,
+    "minutes": 90
+  },
+  "verified_outline": "CompTIA Security+ Certification Exam Objectives, SY0-701 V7 (Document Version 7.0)",
+  "verified_on": "2026-10-15",
+  "next_review": "2026-11-17"
+}
