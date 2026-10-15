@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "mbe",
+  "set": "Multistate Bar Examination (MBE) practice – Seven Subjects Mixed Review",
+  "questions": [
+    {
+      "stem": "A citizen of State A filed a negligence action against a citizen of State B in a federal district court located in State A. The complaint sought $100,000 in compensatory damages. The defendant filed a timely motion to dismiss for lack of subject matter jurisdiction, arguing that the accident occurred in State B and that the case involved no question of federal law. Is the court likely to grant the motion?",
+      "options": [
+        "No, because the parties are citizens of different states and the amount in controversy exceeds $75,000.",
+        "No, because federal courts have jurisdiction over every negligence action involving an interstate accident.",
+        "Yes, because federal jurisdiction requires a substantial question arising under federal law.",
+        "Yes, because diversity jurisdiction is available only when the accident occurred in the forum state."
+      ],
+      "answer": "A",
+      "explanation": "Federal diversity jurisdiction exists when the amount in controversy exceeds $75,000, exclusive of interest and costs, and the opposing parties are completely diverse in citizenship. Both requirements are satisfied here. The absence of a federal question and the location of the accident do not defeat diversity subject matter jurisdiction.",
+      "topic": "Civil Procedure",
+      "subtopic": "Jurisdiction and venue",
+      "difficulty": "easy",
+      "source": "NCBE MBE Civil Procedure Content Outline — Jurisdiction and venue; 28 U.S.C. § 1332."
+    },
+    {
+      "stem": "A plaintiff brought a diversity action in federal court against a manufacturer for injuries caused by an allegedly defective product. The forum state's highest court has held that compliance with a particular safety regulation creates a rebuttable presumption that a product is not defective. The Federal Rules of Civil Procedure contain no provision addressing that presumption. The plaintiff argues that the federal court should disregard the presumption because it affects the presentation of evidence. The presumption is directed at an element of the state-law product liability claim. Should the federal court apply the state-law presumption?",
+      "options": [
+        "No, because all evidentiary presumptions in federal court are governed exclusively by federal law.",
+        "Yes, because state law supplies the rule of decision and the presumption concerns an element of the state-law claim.",
+        "No, because a federal court exercising diversity jurisdiction may disregard any state rule involving evidence.",
+        "Yes, but only if both parties expressly consent to application of the state-law presumption."
+      ],
+      "answer": "B",
+      "explanation": "Under Federal Rule of Evidence 302, state law governs the effect of a presumption regarding a claim or defense for which state law supplies the rule of decision. Because the presumption concerns an element of the state-law product liability claim, the federal court must apply the state rule. The Erie doctrine also generally requires federal diversity courts to apply substantive state law.",
+      "topic": "Civil Procedure",
+      "subtopic": "Law applied by federal courts",
+      "difficulty": "hard",
+      "source": "NCBE MBE Civil Procedure Content Outline — Law applied by federal courts; Erie doctrine; Federal Rule of Evidence 302."
+    },
+    {
+      "stem": "A federal district court entered final judgment against a plaintiff after a jury trial. The plaintiff filed a notice of appeal 45 days after entry of judgment. No party was the United States or a federal officer or agency, no posttrial motion had been filed, and the defendant had not requested or obtained an extension of the appeal period. The defendant moved to dismiss the appeal as untimely. Should the court of appeals grant the motion?",
+      "options": [
+        "No, because a party ordinarily has 60 days to appeal a final judgment in a civil action.",
+        "No, because a notice of appeal is timely whenever filed within 90 days after judgment.",
+        "Yes, because the plaintiff failed to file the notice of appeal within the applicable 30-day period.",
+        "Yes, because the plaintiff was required to obtain district court permission before filing any appeal."
+      ],
+      "answer": "C",
+      "explanation": "In an ordinary federal civil action, a notice of appeal must generally be filed within 30 days after entry of the judgment or order appealed from. The 60-day deadline applies in specified cases involving the United States and certain federal parties. No extension or tolling circumstance exists here, making the notice untimely.",
+      "topic": "Civil Procedure",
+      "subtopic": "Appealability and review",
+      "difficulty": "easy",
+      "source": "NCBE MBE Civil Procedure Content Outline — Appealability and review; Federal Rule of Appellate Procedure 4(a)(1)."
+    },
+    {
+      "stem": "A state enacted a statute prohibiting residents from purchasing agricultural equipment manufactured outside the state unless they first paid a substantial special tax. Equipment manufactured within the state was exempt. The legislature stated that the statute was intended to protect local manufacturers from competition. Congress has enacted no legislation authorizing the discriminatory treatment. An out-of-state manufacturer challenged the statute. Is the challenge likely to succeed?",
+      "options": [
+        "No, because states retain unrestricted authority to regulate sales occurring within their borders.",
+        "No, because congressional silence constitutes approval of state measures protecting local businesses.",
+        "Yes, because every state tax affecting interstate commerce is categorically unconstitutional.",
+        "Yes, because the statute facially discriminates against interstate commerce for an economic protectionist purpose."
+      ],
+      "answer": "D",
+      "explanation": "The dormant Commerce Clause generally prohibits state laws that discriminate against interstate commerce to favor in-state economic interests. Facially discriminatory measures are ordinarily invalid unless the state can establish a legitimate local purpose that cannot be adequately served by reasonable nondiscriminatory alternatives. Protecting local manufacturers from interstate competition is not a permissible justification.",
+      "topic": "Constitutional Law",
+      "subtopic": "The relation of nation and states in a federal system",
+      "difficulty": "medium",
+      "source": "NCBE MBE Constitutional Law Content Outline — Federalism; Commerce Clause; dormant Commerce Clause."
+    },
+    {
+      "stem": "A city ordinance required individuals to obtain a permit before distributing political leaflets on public sidewalks. The ordinance authorized officials to deny permits whenever they concluded that the proposed message would be offensive to a substantial portion of the community. A political activist was denied a permit because officials considered her criticism of city government offensive. She challenged the ordinance under the First Amendment. Is she likely to prevail?",
+      "options": [
+        "Yes, because the ordinance authorizes viewpoint-based restrictions on protected political expression.",
+        "Yes, because governments may never require permits for any activity conducted on public sidewalks.",
+        "No, because a city may suppress political messages that are offensive to community standards.",
+        "No, because distributing political leaflets is conduct rather than expression protected by the First Amendment."
+      ],
+      "answer": "A",
+      "explanation": "Political expression on traditional public forums such as sidewalks receives strong First Amendment protection. Government regulations discriminating against a speaker's viewpoint are presumptively unconstitutional, and offense to listeners is not an adequate justification for suppression. The activist is therefore likely to succeed.",
+      "topic": "Constitutional Law",
+      "subtopic": "Individual rights",
+      "difficulty": "easy",
+      "source": "NCBE MBE Constitutional Law Content Outline — Individual rights; freedom of expression; public forum doctrine."
+    },
+    {
+      "stem": "Congress enacted a statute requiring state legislatures to pass laws mandating that residents purchase federally approved emergency supplies. States failing to enact the required laws would be subject to civil penalties paid from their general revenues. Congress justified the statute as necessary to improve interstate emergency preparedness. A state challenged the requirement. Is the state likely to prevail?",
+      "options": [
+        "No, because the Commerce Clause permits Congress to require states to enact laws regulating private conduct.",
+        "Yes, because Congress generally may not compel state legislatures to enact federal regulatory programs.",
+        "No, because states must implement any federal policy reasonably connected to interstate commerce.",
+        "Yes, because Congress lacks authority to enact any national legislation concerning emergency preparedness."
+      ],
+      "answer": "B",
+      "explanation": "The anti-commandeering doctrine prevents Congress from directly compelling state legislatures to enact or administer federal regulatory programs. Congress may regulate individuals directly within its enumerated powers and may sometimes encourage state cooperation through lawful conditional spending. It cannot impose the legislative command described here.",
+      "topic": "Constitutional Law",
+      "subtopic": "The separation of powers",
+      "difficulty": "hard",
+      "source": "NCBE MBE Constitutional Law Content Outline — Federalism; Tenth Amendment; anti-commandeering doctrine; New York v. United States."
+    },
+    {
+      "stem": "A buyer signed a written contract to purchase 500 identical commercial chairs from a seller for $50 each, with delivery scheduled for June 1. Before delivery, the buyer learned that another supplier offered similar chairs at a lower price. The buyer informed the seller that the agreement was unenforceable because the buyer had received no separate payment or benefit for promising to purchase the chairs. The seller had promised to deliver the chairs in exchange for the buyer's promise to pay. Is the buyer's argument valid?",
+      "options": [
+        "Yes, because a promise to purchase goods must be supported by consideration separate from the seller's promise.",
+        "Yes, because consideration is absent unless payment is made when the contract is signed.",
+        "No, because the parties' mutually binding promises provide sufficient consideration.",
+        "No, because all written agreements for the sale of goods are enforceable without consideration."
+      ],
+      "answer": "C",
+      "explanation": "An exchange of mutually binding promises constitutes consideration because each party undertakes a legal obligation in return for the other's promise. The seller's commitment to deliver the chairs and the buyer's commitment to pay are sufficient. No additional payment or benefit at formation is required.",
+      "topic": "Contracts",
+      "subtopic": "Formation of contracts",
+      "difficulty": "easy",
+      "source": "NCBE MBE Contracts Content Outline — Formation of contracts; consideration and mutuality of obligation."
+    },
+    {
+      "stem": "A homeowner hired a contractor to renovate a kitchen for $40,000. The written contract required completion by August 1 and specified that time was not of the essence. The contractor completed all work on August 5. The renovation conformed to the contractual specifications, the delay caused no measurable loss, and the homeowner accepted and used the completed kitchen. The homeowner refused to pay anything, arguing that completion after August 1 constituted a breach. The contractor sued for the contract price. Is the contractor likely to prevail?",
+      "options": [
+        "No, because any deviation from an express completion date automatically excuses the homeowner's entire payment obligation.",
+        "No, because a contractor may recover only restitution whenever performance occurs after the stated deadline.",
+        "Yes, because acceptance of late performance automatically eliminates every possible claim for damages.",
+        "Yes, because the delay was not a material breach excusing payment, and the homeowner suffered no proven loss."
+      ],
+      "answer": "D",
+      "explanation": "Under common-law substantial performance principles, an immaterial breach generally does not discharge the other party's duty to perform. Because time was not of the essence, the four-day delay caused no measurable loss, and the work otherwise conformed to the contract, the contractor can recover the contract price. A material or harmful delay could produce a different result.",
+      "topic": "Contracts",
+      "subtopic": "Performance, breach, and discharge",
+      "difficulty": "medium",
+      "source": "NCBE MBE Contracts Content Outline — Performance, breach, and discharge; substantial performance and material breach."
+    },
+    {
+      "stem": "A merchant agreed in a signed writing to sell a retailer 1,000 specially manufactured display units for $80 each. The units were custom-designed for the retailer and unsuitable for sale to the merchant's other customers. After receiving the order, the merchant began manufacturing the units and completed 300 before the retailer repudiated. The retailer raised the Statute of Frauds as a defense. The retailer admits that the units were specially designed and that manufacturing had begun before repudiation. Can the merchant enforce the agreement despite the absence of a writing signed by the retailer?",
+      "options": [
+        "Yes, because the goods were specially manufactured and the merchant made a substantial beginning before repudiation.",
+        "Yes, because the Statute of Frauds never applies when the seller is a merchant.",
+        "No, because a sale of goods priced above $500 requires a writing signed by the buyer without exception.",
+        "No, because the merchant must complete all 1,000 units before invoking any Statute of Frauds exception."
+      ],
+      "answer": "A",
+      "explanation": "UCC § 2-201(3)(a) establishes an exception for specially manufactured goods unsuitable for sale to others in the seller's ordinary course of business. The exception applies when the seller has substantially begun manufacture or made commitments for procurement before receiving notice of repudiation, under circumstances reasonably indicating that the goods are for the buyer. Those conditions are satisfied here, so the contract is not barred by the Statute of Frauds.",
+      "topic": "Contracts",
+      "subtopic": "Defenses to enforceability",
+      "difficulty": "hard",
+      "source": "NCBE MBE Contracts Content Outline — Defenses to enforceability; UCC § 2-201(3)(a), specially manufactured goods."
+    },
+    {
+      "stem": "A defendant intentionally fired a handgun at a rival, intending to kill him. The bullet missed the rival and struck a pedestrian, killing her. The defendant did not know the pedestrian was present. The jurisdiction follows traditional common-law homicide principles, including transferred intent. Of what offense involving the pedestrian may the defendant properly be convicted?",
+      "options": [
+        "Involuntary manslaughter, because the pedestrian was not the intended victim.",
+        "Murder, because the intent to kill the rival transfers to the actual victim.",
+        "Criminal negligence, because intent to kill cannot apply to an unintended victim.",
+        "No homicide offense, because the defendant did not intend to harm the pedestrian."
+      ],
+      "answer": "B",
+      "explanation": "Under the doctrine of transferred intent, an intent to kill one person can satisfy the intent element of murder when the defendant instead kills another. The defendant's intent to kill the rival therefore transfers to the pedestrian. The pedestrian's unintended identity does not prevent a murder conviction.",
+      "topic": "Criminal Law and Procedure",
+      "subtopic": "Homicide",
+      "difficulty": "easy",
+      "source": "NCBE MBE Criminal Law and Procedure Content Outline — Homicide; common-law murder and transferred intent."
+    },
+    {
+      "stem": "A defendant was arrested on suspicion of robbery and taken to a police station. Before questioning began, officers read the defendant the required Miranda warnings. The defendant stated unequivocally, 'I want a lawyer before I answer any questions.' Two hours later, without counsel present and without any new request from the defendant to speak, officers resumed questioning about the same robbery and obtained a confession. The defendant moved to suppress the confession from the prosecution's case-in-chief. Should the court grant the motion?",
+      "options": [
+        "No, because receiving Miranda warnings before the initial questioning permits all later custodial interrogation.",
+        "No, because officers may resume questioning after two hours regardless of an earlier request for counsel.",
+        "Yes, because officers initiated further custodial interrogation after the defendant unequivocally requested counsel.",
+        "Yes, because every confession obtained at a police station requires prior approval from a judge."
+      ],
+      "answer": "C",
+      "explanation": "Under Edwards v. Arizona, once a suspect in custody unequivocally invokes the Miranda right to counsel, police generally cannot initiate further custodial interrogation until counsel is available, unless the suspect initiates further communication or a recognized exception applies. A two-hour pause in continuous custody does not terminate that protection. The confession is inadmissible in the prosecution's case-in-chief.",
+      "topic": "Criminal Law and Procedure",
+      "subtopic": "Constitutional protection of accused persons",
+      "difficulty": "medium",
+      "source": "NCBE MBE Criminal Law and Procedure Content Outline — Constitutional protection of accused persons; Miranda v. Arizona; Edwards v. Arizona."
+    },
+    {
+      "stem": "A defendant agreed with an accomplice to burglarize a closed jewelry store at midnight. Before the planned burglary, the defendant purchased a crowbar and drove the accomplice to a parking lot near the store. The accomplice entered the store while the defendant remained in the car. Police arrested both participants before any property was removed. The jurisdiction follows the majority rule requiring an overt act for conspiracy. Which statement most accurately describes the defendant's potential conspiracy liability?",
+      "options": [
+        "The defendant cannot be convicted because the planned burglary was not completed.",
+        "The defendant cannot be convicted because purchasing tools is never relevant to conspiracy.",
+        "The defendant cannot be convicted because the defendant did not personally enter the store.",
+        "The defendant can be convicted because an agreement and an overt act in furtherance of it occurred."
+      ],
+      "answer": "D",
+      "explanation": "Conspiracy generally requires an agreement to commit a crime, the requisite intent, and, in jurisdictions requiring one, an overt act in furtherance of the agreement. The defendant's purchase of the crowbar and transportation of the accomplice satisfy the overt-act requirement. Completion of the planned burglary is unnecessary for conspiracy liability.",
+      "topic": "Criminal Law and Procedure",
+      "subtopic": "Inchoate crimes; parties",
+      "difficulty": "medium",
+      "source": "NCBE MBE Criminal Law and Procedure Content Outline — Inchoate crimes; conspiracy; overt-act requirement."
+    },
+    {
+      "stem": "During a personal injury trial, the plaintiff sought to introduce evidence that the defendant had repaired a broken stairway two days after the plaintiff fell on it. The evidence was offered solely to prove that the defendant had been negligent in maintaining the stairway before the accident. The defendant objected. Is evidence of the repair admissible for the stated purpose?",
+      "options": [
+        "Yes, because subsequent repairs constitute admissions that the original condition was negligent.",
+        "No, because subsequent remedial measures generally cannot be used to prove negligence.",
+        "Yes, because repairs made shortly after an accident are automatically admissible.",
+        "No, because evidence of events occurring after an accident is never relevant in a civil action."
+      ],
+      "answer": "B",
+      "explanation": "Federal Rule of Evidence 407 generally excludes evidence of subsequent remedial measures when offered to prove negligence or other specified forms of culpability. The rule encourages parties to make safety improvements without having those improvements used as proof of prior wrongdoing. Such evidence may be admissible for another permissible purpose, but the plaintiff offers it only to prove negligence.",
+      "topic": "Evidence",
+      "subtopic": "Relevancy and reasons for excluding relevant evidence",
+      "difficulty": "easy",
+      "source": "NCBE MBE Evidence Content Outline — Relevancy and reasons for excluding relevant evidence; Federal Rule of Evidence 407."
+    },
+    {
+      "stem": "A defendant charged with armed robbery asserted that he had been attending a family gathering when the robbery occurred. At trial, the prosecution called a witness who testified that she had seen the defendant outside the bank immediately before the robbery. On cross-examination, defense counsel asked whether the witness had previously been convicted of felony tax evasion punishable by three years in prison. The conviction occurred four years earlier, and the witness had completed her sentence. The witness was not the criminal defendant. The prosecutor objected solely on the ground that the conviction did not involve a dishonest statement or false representation. Assuming the probative value of the conviction is not substantially outweighed by its prejudicial effect, should the court allow the question?",
+      "options": [
+        "Yes, because a qualifying felony conviction may be used to impeach a nondefendant witness subject to Rule 403 balancing.",
+        "Yes, because every prior conviction is automatically admissible to prove a witness's untruthful character.",
+        "No, because felony convictions are admissible for impeachment only when they involve false statements.",
+        "No, because convictions unrelated to the charged crime are categorically inadmissible for impeachment."
+      ],
+      "answer": "A",
+      "explanation": "Under Federal Rule of Evidence 609(a)(1), a nondefendant witness's conviction of a crime punishable by death or imprisonment for more than one year is generally admissible for impeachment, subject to Rule 403. The crime need not involve a dishonest act or false statement to qualify under this provision. Because the conviction is recent and the stipulated balancing favors admission, the objection should be overruled.",
+      "topic": "Evidence",
+      "subtopic": "Presentation of evidence",
+      "difficulty": "medium",
+      "source": "NCBE MBE Evidence Content Outline — Presentation of evidence; impeachment by criminal conviction; Federal Rule of Evidence 609."
+    },
+    {
+      "stem": "A pedestrian sued a delivery company after being struck by its truck. The pedestrian offered a report prepared by the company's operations manager immediately after the accident. The manager interviewed the driver, recorded the driver's explanation, and prepared the report as part of the company's regular accident-investigation procedures. The report included the driver's statement that he had been looking at his phone when the collision occurred. The driver was employed by the company, was making deliveries when the collision occurred, and was describing his conduct during that assignment. The pedestrian offered the report against the company. Assuming the operations manager had a business duty to prepare accurate reports, which statement is most accurate?",
+      "options": [
+        "The report is inadmissible because a business record may never include information supplied by another employee.",
+        "The report is admissible only if the driver personally testifies and repeats the statement.",
+        "The report may be admitted because the record qualifies as a business record and the driver's statement qualifies as an opposing-party statement.",
+        "The report is inadmissible because an employee's statement can bind a company only when expressly authorized by its board."
+      ],
+      "answer": "C",
+      "explanation": "Hearsay within hearsay is admissible when each layer is covered by an exclusion or exception. The manager's regularly prepared report may qualify under the business-records exception, assuming the other foundational requirements and trustworthiness are established. The driver's statement concerns a matter within the scope of his employment while that relationship existed and therefore qualifies as an opposing-party statement when offered against the employer.",
+      "topic": "Evidence",
+      "subtopic": "Hearsay and circumstances of its admissibility",
+      "difficulty": "hard",
+      "source": "NCBE MBE Evidence Content Outline — Hearsay and circumstances of its admissibility; Federal Rules of Evidence 801(d)(2)(D), 803(6), and 805."
+    },
+    {
+      "stem": "A landowner conveyed a parcel of land 'to Alice for life, then to Bob and his heirs.' Alice took possession and later died. Bob was alive when Alice died. No other conveyances had occurred. Under traditional property law, who is entitled to possession of the land immediately after Alice's death?",
+      "options": [
+        "Alice's heirs, because a life estate automatically passes to the life tenant's descendants.",
+        "The original landowner, because the land reverts when a life tenant dies.",
+        "Alice's estate, because possession continues until the estate has been administered.",
+        "Bob, because he holds a vested remainder in fee simple that becomes possessory upon Alice's death."
+      ],
+      "answer": "D",
+      "explanation": "The conveyance gives Alice a life estate and Bob a vested remainder in fee simple absolute. Bob is an ascertained person with no condition precedent to his taking possession other than the natural termination of Alice's life estate. When Alice dies, Bob becomes entitled to possession.",
+      "topic": "Real Property",
+      "subtopic": "Ownership of real property",
+      "difficulty": "medium",
+      "source": "NCBE MBE Real Property Content Outline — Ownership of real property; present estates and future interests."
+    },
+    {
+      "stem": "A landowner conveyed a valid recorded easement over a narrow strip of her property to a neighboring landowner for access to a public highway. Years later, the servient property was sold to a purchaser who knew about the recorded easement. The purchaser erected a fence blocking the easement route. The easement had not been abandoned, released, or terminated. The neighboring landowner sued to remove the obstruction. Is the neighboring landowner likely to prevail?",
+      "options": [
+        "Yes, because a valid easement generally binds subsequent owners of the servient estate.",
+        "Yes, because all owners of neighboring properties automatically have unrestricted access across each other's land.",
+        "No, because an easement terminates whenever the servient estate is sold to a new owner.",
+        "No, because a purchaser may extinguish an easement by constructing a permanent obstruction."
+      ],
+      "answer": "A",
+      "explanation": "An easement is a nonpossessory interest in land that generally continues to burden the servient estate after a conveyance. The purchaser acquired the property subject to the recorded easement and cannot unilaterally obstruct its authorized use. The neighboring landowner may seek appropriate relief to protect access.",
+      "topic": "Real Property",
+      "subtopic": "Rights in real property",
+      "difficulty": "medium",
+      "source": "NCBE MBE Real Property Content Outline — Rights in real property; easements and servitudes."
+    },
+    {
+      "stem": "A homeowner borrowed $200,000 from a bank and executed a mortgage on her house. The bank promptly recorded its mortgage. Two years later, the homeowner borrowed $50,000 from another lender and granted that lender a second mortgage, which was also promptly recorded. The homeowner defaulted on the second loan, and the second lender initiated a proper judicial foreclosure, joining the homeowner and the bank. The foreclosure sale did not produce enough money to satisfy the second loan, and the first mortgage had not been paid or released. The jurisdiction follows traditional mortgage priority rules. What is the effect of the second lender's foreclosure on the bank's first mortgage?",
+      "options": [
+        "The first mortgage is extinguished because all mortgage liens terminate in any judicial foreclosure sale.",
+        "The first mortgage remains attached to the property because foreclosure of a junior mortgage does not eliminate a senior lien.",
+        "The first mortgage becomes subordinate to the second mortgage because the second lender commenced foreclosure first.",
+        "The first mortgage is converted into an unsecured claim against the original homeowner."
+      ],
+      "answer": "B",
+      "explanation": "Foreclosure of a junior mortgage ordinarily extinguishes the foreclosing mortgage and interests subordinate to it, but it does not eliminate senior liens. The purchaser at the foreclosure sale takes the property subject to the bank's first mortgage. Joining the senior lender in the proceeding does not itself change this priority rule.",
+      "topic": "Real Property",
+      "subtopic": "Mortgages/security devices",
+      "difficulty": "medium",
+      "source": "NCBE MBE Real Property Content Outline — Mortgages/security devices; lien priorities and effects of foreclosure."
+    },
+    {
+      "stem": "A driver was traveling on a city street at 20 miles per hour, below the posted speed limit. The driver noticed a pedestrian waiting beside a marked crosswalk. Despite having sufficient time to stop, the driver continued without reducing speed as the pedestrian entered the crosswalk. The driver struck the pedestrian, causing serious injuries. A statute required motorists to yield to pedestrians already within marked crosswalks. The pedestrian sued for negligence. Which statement most accurately describes the driver's potential liability?",
+      "options": [
+        "The driver is not negligent because traveling below the speed limit conclusively establishes reasonable care.",
+        "The driver is not negligent because pedestrians assume the risk of crossing any public street.",
+        "The driver may be negligent because failing to yield violated a safety statute intended to protect pedestrians from this type of harm.",
+        "The driver is strictly liable for any injury caused by a vehicle regardless of the driver's conduct."
+      ],
+      "answer": "C",
+      "explanation": "Violation of an applicable safety statute can establish negligence per se when the plaintiff belongs to the protected class and suffers the kind of harm the statute was designed to prevent, absent a recognized excuse. The pedestrian was within the crosswalk, and the resulting collision is precisely the danger the yield requirement addresses. Driving below the speed limit does not excuse violation of an independent duty to yield.",
+      "topic": "Torts",
+      "subtopic": "Negligence",
+      "difficulty": "medium",
+      "source": "NCBE MBE Torts Content Outline — Negligence; standard of care; statutory standards and negligence per se."
+    },
+    {
+      "stem": "A company manufactured electric kettles. A customer purchased a new kettle from a retailer and used it exactly as instructed. Due to a manufacturing error, the kettle's heating element had been improperly installed, causing the kettle to overheat and explode during normal use. The customer suffered burns and sued the manufacturer under strict products liability. The product reached the customer without substantial alteration, and the manufacturing defect existed when it left the manufacturer's control. Is the customer likely to prevail?",
+      "options": [
+        "No, because strict products liability requires proof that the manufacturer knew of the particular defect.",
+        "No, because a manufacturer is liable only when the injured person purchased the product directly from it.",
+        "Yes, because injury from a product conclusively proves liability regardless of whether any defect existed.",
+        "Yes, because a manufacturing defect made the product unreasonably dangerous and caused injury during foreseeable use."
+      ],
+      "answer": "D",
+      "explanation": "Strict products liability generally applies when a commercial seller supplies a defective product that is unreasonably dangerous and the defect causes injury while the product is used in a reasonably foreseeable manner. A manufacturing defect exists when an individual product departs from its intended design. The customer need not prove that the manufacturer knew about the defect or sold the product directly to the customer.",
+      "topic": "Torts",
+      "subtopic": "Strict liability and products liability",
+      "difficulty": "medium",
+      "source": "NCBE MBE Torts Content Outline — Strict liability and products liability; manufacturing defects; Restatement (Second) of Torts § 402A."
+    }
+  ]
+}
