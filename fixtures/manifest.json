@@ -1,6 +1,6 @@
 {
   "description": "Every fixture with the error and warning codes the validator must report for it (unique codes, sorted). Validated against the modules listed, plus Generic.",
-  "modules": ["modules/example.json", "modules/example-multi.json", "modules/pmp.json", "modules/cfa-l1.json", "modules/mbe.json", "modules/aws-saa.json", "modules/frm-p1.json", "modules/comptia-secplus.json", "modules/cpa-aud.json"],
+  "modules": ["modules/example.json", "modules/example-multi.json", "modules/pmp.json", "modules/cfa-l1.json", "modules/mbe.json", "modules/aws-saa.json", "modules/frm-p1.json", "modules/comptia-secplus.json", "modules/cpa-aud.json", "modules/usmle-step1.json"],
   "cases": [
     { "file": "valid/minimal-generic.json", "errors": [] },
     { "file": "valid/full-generic.json", "errors": [] },
@@ -43,6 +43,11 @@
     { "file": "valid/cpa-aud-claude-3.md", "errors": [], "fenced": true },
     { "file": "valid/cpa-aud-claude-4.md", "errors": [], "fenced": true },
     { "file": "valid/cpa-aud-chatgpt-1.json", "errors": [], "warnings": ["W201"] },
+    { "file": "valid/usmle-step1-claude-1.md", "errors": [], "fenced": true },
+    { "file": "valid/usmle-step1-claude-2.md", "errors": [], "fenced": true },
+    { "file": "valid/usmle-step1-claude-3.md", "errors": [], "fenced": true },
+    { "file": "valid/usmle-step1-claude-4.md", "errors": [], "fenced": true },
+    { "file": "valid/usmle-step1-chatgpt-1.json", "errors": [] },
 
     { "file": "invalid/empty.txt", "errors": ["E001"] },
     { "file": "invalid/not-json.txt", "errors": ["E002"] },
