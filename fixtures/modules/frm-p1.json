@@ -1,0 +1,86 @@
+{
+  "id": "frm-p1",
+  "display_name": "FRM Exam Part I",
+  "body": "GARP",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, endorsed by or sponsored by the Global Association of Risk Professionals (GARP). FRM® is a trademark owned by the Global Association of Risk Professionals, Inc.",
+  "taxonomy": {
+    "Foundations of Risk Management": [
+      "Basic risk types, measurement, and management tools",
+      "Creating value with risk management",
+      "Risk governance and corporate governance",
+      "Credit risk transfer mechanisms",
+      "The Capital Asset Pricing Model (CAPM)",
+      "Risk-adjusted performance measurement",
+      "Multifactor models",
+      "Data aggregation and risk reporting",
+      "Financial disasters and risk management failures",
+      "Ethics and the GARP Code of Conduct",
+      "Enterprise risk management (ERM)"
+    ],
+    "Quantitative Analysis": [
+      "Discrete and continuous probability distributions",
+      "Estimating the parameters of distributions",
+      "Population and sample statistics",
+      "Bayesian analysis",
+      "Statistical inference and hypothesis testing",
+      "Measures of correlation",
+      "Linear regression with single and multiple regressors",
+      "Time series analysis and forecasting",
+      "Simulation methods",
+      "Machine learning"
+    ],
+    "Financial Markets and Products": [
+      "Structures and functions of financial institutions",
+      "Structure and mechanics of over-the-counter (OTC) and exchange markets",
+      "Structure, mechanics, and valuation of forwards, futures, swaps, and options",
+      "Hedging with derivatives",
+      "Interest rates and measures of interest rate sensitivity",
+      "Foreign exchange risk",
+      "Corporate bonds",
+      "Mortgage-backed securities (MBS)"
+    ],
+    "Valuation and Risk Models": [
+      "Value-at-risk (VaR)",
+      "Expected shortfall (ES)",
+      "Estimating volatility and correlation",
+      "Economic and regulatory capital",
+      "Stress testing and scenario analysis",
+      "Option valuation",
+      "Fixed-income valuation",
+      "Hedging",
+      "Country and sovereign risk models and management",
+      "External and internal credit ratings",
+      "Expected and unexpected losses",
+      "Operational risk"
+    ]
+  },
+  "weights": {
+    "Foundations of Risk Management": 20,
+    "Quantitative Analysis": 20,
+    "Financial Markets and Products": 30,
+    "Valuation and Risk Models": 30
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": false,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [
+    "Which of the following statements is correct?",
+    "most likely",
+    "closest to",
+    "most appropriate"
+  ],
+  "uncovered_item_types": [],
+  "exam_mode": {
+    "questions": 100,
+    "minutes": 240
+  },
+  "verified_outline": "GARP 2026 FRM Study Guide, FRM Exam Part I",
+  "verified_on": "2026-10-15",
+  "next_review": "2026-12-01"
+}

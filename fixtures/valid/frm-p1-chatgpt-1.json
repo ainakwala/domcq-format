@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "frm-p1",
+  "set": "FRM Exam Part I practice – Risk Management Essentials",
+  "questions": [
+    {
+      "stem": "A bank experiences a substantial financial loss after an employee deliberately bypasses internal controls and transfers funds to an unauthorized account. Which of the following risk categories most appropriately describes this loss?",
+      "options": [
+        "Market risk",
+        "Operational risk",
+        "Credit risk",
+        "Liquidity risk"
+      ],
+      "answer": "B",
+      "explanation": "Operational risk includes losses resulting from inadequate or failed internal processes, people, systems, or external events. Employee fraud is an example of an internal operational risk event because the loss arises from misconduct and a failure of internal controls rather than movements in market prices or a counterparty's inability to pay.",
+      "topic": "Foundations of Risk Management",
+      "subtopic": "Basic risk types, measurement, and management tools",
+      "difficulty": "easy",
+      "source": "GARP FRM Part I 2026 – Foundations of Risk Management: Basic Risk Types, Measurement, and Management Tools"
+    },
+    {
+      "stem": "A portfolio manager reports an annualized portfolio return of 13%, a risk-free rate of 3%, and an annualized portfolio return standard deviation of 20%. Which of the following is closest to the portfolio's Sharpe ratio?",
+      "options": [
+        "0.65",
+        "0.80",
+        "0.35",
+        "0.50"
+      ],
+      "answer": "D",
+      "explanation": "The Sharpe ratio is calculated as the portfolio's excess return over the risk-free rate divided by its total return standard deviation. Therefore, the Sharpe ratio equals (0.13 - 0.03) / 0.20 = 0.50. It measures excess return earned per unit of total risk.",
+      "topic": "Foundations of Risk Management",
+      "subtopic": "Risk-adjusted performance measurement",
+      "difficulty": "easy",
+      "source": "GARP FRM Part I 2026 – Foundations of Risk Management: Risk-Adjusted Performance Measurement"
+    },
+    {
+      "stem": "A risk manager uses the Capital Asset Pricing Model to estimate the expected return on a stock. The risk-free rate is 3%, the expected market return is 9%, and the stock's beta is 1.4. Which of the following is closest to the stock's expected return under CAPM?",
+      "options": [
+        "11.4%",
+        "12.6%",
+        "8.4%",
+        "15.6%"
+      ],
+      "answer": "A",
+      "explanation": "CAPM specifies that expected return equals the risk-free rate plus beta multiplied by the expected market risk premium. Therefore, E(R) = 3% + 1.4(9% - 3%) = 11.4%. Beta measures the asset's exposure to systematic market risk.",
+      "topic": "Foundations of Risk Management",
+      "subtopic": "The Capital Asset Pricing Model (CAPM)",
+      "difficulty": "medium",
+      "source": "GARP FRM Part I 2026 – Foundations of Risk Management: The Capital Asset Pricing Model"
+    },
+    {
+      "stem": "A global bank expands rapidly into structured credit products. Its risk committee receives consolidated exposure reports only once per quarter, while trading desks use different counterparty identifiers and inconsistent valuation assumptions. During a market disruption, senior management cannot determine the bank's total exposure to a major counterparty. Which of the following actions would most effectively address the underlying risk management weakness?",
+      "options": [
+        "Increase trading limits while maintaining quarterly risk reporting",
+        "Delegate counterparty exposure measurement entirely to trading desks",
+        "Standardize risk data definitions and aggregate exposures across businesses",
+        "Replace consolidated exposure reports with individual trader profit reports"
+      ],
+      "answer": "C",
+      "explanation": "Effective risk data aggregation requires consistent identifiers, common data definitions, and the ability to consolidate exposures across legal entities and business lines. Without these capabilities, correlated or concentrated risks can remain hidden from senior management. Standardized, timely reporting improves the institution's ability to make decisions during stressed conditions.",
+      "topic": "Foundations of Risk Management",
+      "subtopic": "Data aggregation and risk reporting",
+      "difficulty": "hard",
+      "source": "GARP FRM Part I 2026 – Foundations of Risk Management: Data Aggregation and Risk Reporting"
+    },
+    {
+      "stem": "A financial analyst estimates that the probability of a corporate bond defaulting within one year is 4%. Which of the following is the probability that the bond does not default during that year?",
+      "options": [
+        "4%",
+        "96%",
+        "25%",
+        "104%"
+      ],
+      "answer": "B",
+      "explanation": "The probability of an event not occurring is one minus the probability that it occurs. Therefore, the probability of no default is 1 - 0.04 = 0.96, or 96%. Default and no default are complementary events for the specified period.",
+      "topic": "Quantitative Analysis",
+      "subtopic": "Discrete and continuous probability distributions",
+      "difficulty": "easy",
+      "source": "GARP FRM Part I 2026 – Quantitative Analysis: Discrete and Continuous Probability Distributions"
+    },
+    {
+      "stem": "A bank's fraud detection system identifies 90% of fraudulent transactions as suspicious and incorrectly flags 5% of legitimate transactions. Historically, 2% of transactions are fraudulent. If a transaction is flagged as suspicious, which of the following is closest to the probability that it is actually fraudulent?",
+      "options": [
+        "90.0%",
+        "64.3%",
+        "26.9%",
+        "73.1%"
+      ],
+      "answer": "C",
+      "explanation": "Bayes' theorem gives P(Fraud | Flag) = P(Flag | Fraud)P(Fraud) / P(Flag). The numerator is 0.90 × 0.02 = 0.018, while the total probability of a flag is 0.018 + (0.05 × 0.98) = 0.067. Therefore, the posterior probability is 0.018 / 0.067 = 26.9%, illustrating the importance of the base rate.",
+      "topic": "Quantitative Analysis",
+      "subtopic": "Bayesian analysis",
+      "difficulty": "medium",
+      "source": "GARP FRM Part I 2026 – Quantitative Analysis: Bayesian Analysis"
+    },
+    {
+      "stem": "A risk analyst estimates a simple linear regression of a bond portfolio's monthly returns on monthly market returns using 60 observations. The estimated slope coefficient is 1.20, with a standard error of 0.30. Assuming the standard regression conditions hold, which of the following is closest to the t-statistic for testing the null hypothesis that the slope coefficient equals zero?",
+      "options": [
+        "4.00",
+        "0.25",
+        "1.50",
+        "3.00"
+      ],
+      "answer": "A",
+      "explanation": "The t-statistic for a regression coefficient equals the estimated coefficient minus its hypothesized value, divided by the coefficient's standard error. Here, t = (1.20 - 0) / 0.30 = 4.00. Under the standard assumptions, this provides strong evidence against a zero slope coefficient.",
+      "topic": "Quantitative Analysis",
+      "subtopic": "Linear regression with single and multiple regressors",
+      "difficulty": "medium",
+      "source": "GARP FRM Part I 2026 – Quantitative Analysis: Linear Regression with Single and Multiple Regressors"
+    },
+    {
+      "stem": "A risk analyst models daily portfolio losses using an autoregressive process, L(t) = 0.4 + 0.8L(t-1) + e(t), where e(t) is a zero-mean white-noise innovation and losses are measured in USD millions. Assuming the process is stationary, which of the following is closest to its unconditional mean daily loss?",
+      "options": [
+        "0.4 million",
+        "0.8 million",
+        "1.2 million",
+        "2.0 million"
+      ],
+      "answer": "D",
+      "explanation": "For a stationary AR(1) process with intercept c and autoregressive coefficient phi, the unconditional mean is c / (1 - phi). Substituting the values gives 0.4 / (1 - 0.8) = 2.0 million. Stationarity requires the absolute value of the autoregressive coefficient to be less than one.",
+      "topic": "Quantitative Analysis",
+      "subtopic": "Time series analysis and forecasting",
+      "difficulty": "hard",
+      "source": "GARP FRM Part I 2026 – Quantitative Analysis: Time Series Analysis and Forecasting"
+    },
+    {
+      "stem": "An investor holds a long position in a futures contract on an equity index. The index futures price increases by 2% during the trading day. Assuming all other factors are unchanged, which of the following best describes the effect of daily settlement on the investor's margin account?",
+      "options": [
+        "The margin account is debited for the futures gain",
+        "The margin account is unchanged until contract expiration",
+        "The margin account is credited for the futures gain",
+        "The margin account receives only the initial margin back"
+      ],
+      "answer": "C",
+      "explanation": "Exchange-traded futures are generally marked to market daily, with gains and losses settled through margin accounts. A long futures position benefits when the futures price rises, so the investor receives a variation-margin credit. This daily settlement limits the accumulation of unsettled counterparty exposures.",
+      "topic": "Financial Markets and Products",
+      "subtopic": "Structure, mechanics, and valuation of forwards, futures, swaps, and options",
+      "difficulty": "easy",
+      "source": "GARP FRM Part I 2026 – Financial Markets and Products: Futures Markets and Daily Settlement"
+    },
+    {
+      "stem": "A non-dividend-paying stock currently trades at USD 100. The continuously compounded risk-free rate is 5% per year, and a forward contract on the stock expires in six months. Assuming no transaction costs and no arbitrage opportunities, which of the following is closest to the theoretical forward price?",
+      "options": [
+        "USD 97.53",
+        "USD 102.53",
+        "USD 105.13",
+        "USD 110.25"
+      ],
+      "answer": "B",
+      "explanation": "The theoretical forward price of a non-dividend-paying stock is F = S0 × exp(rT), where r is the continuously compounded risk-free rate. Therefore, F = 100 × exp(0.05 × 0.5) = approximately USD 102.53. The forward price reflects the financing cost of carrying the underlying asset to settlement.",
+      "topic": "Financial Markets and Products",
+      "subtopic": "Structure, mechanics, and valuation of forwards, futures, swaps, and options",
+      "difficulty": "medium",
+      "source": "GARP FRM Part I 2026 – Financial Markets and Products: Forward Contracts and No-Arbitrage Pricing"
+    },
+    {
+      "stem": "A bank holds a portfolio of fixed-rate bonds and is concerned that market interest rates will increase over the next year. The bank wishes to reduce its interest rate exposure using a plain-vanilla interest rate swap. Which of the following swap positions would most appropriately hedge this exposure?",
+      "options": [
+        "Pay fixed interest and receive floating interest",
+        "Receive fixed interest and pay floating interest",
+        "Receive fixed interest and receive floating interest",
+        "Pay fixed interest and pay floating interest"
+      ],
+      "answer": "A",
+      "explanation": "A fixed-rate bond portfolio generally loses value when market interest rates rise. A pay-fixed, receive-floating swap can help offset this exposure because the swap tends to gain value for the fixed-rate payer when interest rates increase. The hedge reduces the portfolio's effective interest rate sensitivity.",
+      "topic": "Financial Markets and Products",
+      "subtopic": "Hedging with derivatives",
+      "difficulty": "medium",
+      "source": "GARP FRM Part I 2026 – Financial Markets and Products: Interest Rate Swaps and Hedging"
+    },
+    {
+      "stem": "A European call option on a non-dividend-paying stock has a strike price of USD 50 and expires in three months. At expiration, the underlying stock price is USD 58. Ignoring the option's initial purchase cost, which of the following is the payoff to the holder of one call option on one share?",
+      "options": [
+        "USD 0",
+        "USD 50",
+        "USD 58",
+        "USD 8"
+      ],
+      "answer": "D",
+      "explanation": "The payoff of a European call option at expiration is max(S(T) - K, 0). With a stock price of USD 58 and a strike price of USD 50, the payoff equals USD 8. The option premium must be considered to calculate the investor's overall profit, but it does not affect the expiration payoff.",
+      "topic": "Financial Markets and Products",
+      "subtopic": "Structure, mechanics, and valuation of forwards, futures, swaps, and options",
+      "difficulty": "easy",
+      "source": "GARP FRM Part I 2026 – Financial Markets and Products: Options Markets and Payoff Functions"
+    },
+    {
+      "stem": "A USD-based investor has agreed to purchase EUR 2 million in six months and wants to lock in the dollar cost using a forward contract. The current spot exchange rate is USD 1.10 per EUR, the six-month continuously compounded USD interest rate is 4%, and the corresponding EUR interest rate is 2%. Assuming covered interest rate parity and no transaction costs, which of the following is closest to the six-month forward exchange rate in USD per EUR?",
+      "options": [
+        "1.0782",
+        "1.1000",
+        "1.1111",
+        "1.1222"
+      ],
+      "answer": "C",
+      "explanation": "Covered interest rate parity implies F = S0 × exp[(rUSD - rEUR)T] when the exchange rate is quoted in USD per EUR. Therefore, F = 1.10 × exp[(0.04 - 0.02) × 0.5] = approximately 1.1111 USD per EUR. Because USD interest rates exceed EUR interest rates, the EUR trades at a forward premium in this quotation.",
+      "topic": "Financial Markets and Products",
+      "subtopic": "Foreign exchange risk",
+      "difficulty": "medium",
+      "source": "GARP FRM Part I 2026 – Financial Markets and Products: Foreign Exchange Markets and Covered Interest Rate Parity"
+    },
+    {
+      "stem": "A mortgage-backed security is backed by a pool of fixed-rate residential mortgages. Market interest rates decline substantially, and borrowers can refinance their mortgages without significant prepayment penalties. Which of the following effects is most likely for investors in the mortgage-backed security?",
+      "options": [
+        "Slower prepayments and greater reinvestment income",
+        "Faster prepayments and reduced price appreciation",
+        "Unchanged prepayments and higher coupon payments",
+        "Longer average maturity and reduced reinvestment risk"
+      ],
+      "answer": "B",
+      "explanation": "When mortgage rates fall, borrowers have an incentive to refinance, accelerating mortgage prepayments. Investors receive principal sooner and may have to reinvest it at lower interest rates. This prepayment option creates negative convexity and can limit the price appreciation of mortgage-backed securities when yields decline.",
+      "topic": "Financial Markets and Products",
+      "subtopic": "Mortgage-backed securities (MBS)",
+      "difficulty": "hard",
+      "source": "GARP FRM Part I 2026 – Financial Markets and Products: Mortgage-Backed Securities and Prepayment Risk"
+    },
+    {
+      "stem": "A risk manager estimates that a portfolio has a one-day 99% value-at-risk of USD 5 million. Assuming the VaR model is correctly calibrated, which of the following statements most accurately interprets this estimate?",
+      "options": [
+        "There is a 99% probability that the portfolio will earn USD 5 million",
+        "There is a 1% probability that the portfolio will lose exactly USD 5 million",
+        "There is a 99% probability that the portfolio's maximum possible loss is USD 5 million",
+        "There is a 1% probability that the portfolio will lose more than USD 5 million"
+      ],
+      "answer": "D",
+      "explanation": "A one-day 99% VaR of USD 5 million means that the probability of a loss exceeding USD 5 million over one day is 1%, assuming a continuous loss distribution and a correctly calibrated model. VaR identifies a loss quantile, not the maximum possible loss. It does not indicate the magnitude of losses beyond the specified threshold.",
+      "topic": "Valuation and Risk Models",
+      "subtopic": "Value-at-risk (VaR)",
+      "difficulty": "easy",
+      "source": "GARP FRM Part I 2026 – Valuation and Risk Models: Value-at-Risk"
+    },
+    {
+      "stem": "A portfolio has normally distributed daily profit and loss with a mean of zero and a standard deviation of USD 2 million. Assuming a one-tailed 99% standard normal critical value of 2.326, which of the following is closest to the portfolio's one-day 99% parametric VaR?",
+      "options": [
+        "USD 4.65 million",
+        "USD 3.29 million",
+        "USD 2.33 million",
+        "USD 6.58 million"
+      ],
+      "answer": "A",
+      "explanation": "For normally distributed profit and loss with a zero mean, parametric VaR is the relevant standard normal quantile multiplied by portfolio volatility. Hence, VaR = 2.326 × USD 2 million = USD 4.652 million. This calculation assumes the normal distribution adequately describes the portfolio's profit and loss.",
+      "topic": "Valuation and Risk Models",
+      "subtopic": "Value-at-risk (VaR)",
+      "difficulty": "medium",
+      "source": "GARP FRM Part I 2026 – Valuation and Risk Models: Parametric VaR and the Variance-Covariance Method"
+    },
+    {
+      "stem": "A trading portfolio has the following discrete daily loss distribution: a USD 1 million loss with probability 95%, a USD 4 million loss with probability 3%, and a USD 10 million loss with probability 2%. Define 95% expected shortfall as the average loss in the worst 5% of outcomes. Which of the following is closest to the portfolio's 95% expected shortfall?",
+      "options": [
+        "USD 4.0 million",
+        "USD 5.2 million",
+        "USD 6.4 million",
+        "USD 10.0 million"
+      ],
+      "answer": "C",
+      "explanation": "The worst 5% of outcomes consists of the 2% probability of losing USD 10 million and the 3% probability of losing USD 4 million. Expected shortfall is therefore [(0.02 × 10) + (0.03 × 4)] / 0.05 = USD 6.4 million. Expected shortfall captures the average severity of tail losses rather than only identifying a loss threshold.",
+      "topic": "Valuation and Risk Models",
+      "subtopic": "Expected shortfall (ES)",
+      "difficulty": "medium",
+      "source": "GARP FRM Part I 2026 – Valuation and Risk Models: Expected Shortfall"
+    },
+    {
+      "stem": "A risk manager uses an exponentially weighted moving average (EWMA) model to forecast daily variance. The previous day's variance estimate is 0.0004, yesterday's observed return is -3%, and the decay factor is 0.94. Which of the following is closest to the updated daily variance estimate?",
+      "options": [
+        "0.000376",
+        "0.000430",
+        "0.000454",
+        "0.000900"
+      ],
+      "answer": "B",
+      "explanation": "The EWMA variance update is sigma(t)^2 = lambda × sigma(t-1)^2 + (1 - lambda) × r(t-1)^2. Substituting gives 0.94 × 0.0004 + 0.06 × (-0.03)^2 = 0.000376 + 0.000054 = 0.000430. EWMA gives more weight to recent observations while retaining information from earlier volatility estimates.",
+      "topic": "Valuation and Risk Models",
+      "subtopic": "Estimating volatility and correlation",
+      "difficulty": "medium",
+      "source": "GARP FRM Part I 2026 – Valuation and Risk Models: Volatility Estimation Using EWMA"
+    },
+    {
+      "stem": "A bank has a corporate loan exposure of USD 20 million. The borrower's one-year probability of default is estimated at 2%, and the expected recovery rate in the event of default is 40%. Assuming exposure at default equals USD 20 million, which of the following is closest to the one-year expected credit loss?",
+      "options": [
+        "USD 160,000",
+        "USD 200,000",
+        "USD 400,000",
+        "USD 240,000"
+      ],
+      "answer": "D",
+      "explanation": "Expected credit loss equals probability of default multiplied by loss given default and exposure at default. With a recovery rate of 40%, loss given default is 60%, so expected loss = 0.02 × 0.60 × USD 20 million = USD 240,000. Expected loss is the average anticipated credit loss, while unexpected loss reflects uncertainty around that average.",
+      "topic": "Valuation and Risk Models",
+      "subtopic": "Expected and unexpected losses",
+      "difficulty": "medium",
+      "source": "GARP FRM Part I 2026 – Valuation and Risk Models: Expected Loss and Unexpected Loss"
+    },
+    {
+      "stem": "A bank must hedge the interest rate sensitivity of a bond portfolio worth USD 100 million with a modified duration of 6.0 years. It uses Treasury bond futures with a quoted futures price of USD 110 per USD 100 of notional principal, a contract notional of USD 100,000, and a modified duration of 7.5 years for the cheapest-to-deliver bond. The conversion factor for this bond is 0.90, and the duration-based hedge assumes parallel yield shifts and negligible basis risk. Which of the following is closest to the number of futures contracts the bank should sell?",
+      "options": [
+        "589 contracts",
+        "727 contracts",
+        "655 contracts",
+        "808 contracts"
+      ],
+      "answer": "C",
+      "explanation": "A duration-based hedge equates the portfolio's dollar duration with the futures position's dollar duration. The portfolio's dollar duration is USD 100 million × 6 = USD 600 million-years, while the futures contract's approximate duration exposure is (USD 110,000 × 7.5) / 0.90 = USD 916,667-years. The required short position is approximately 600,000,000 / 916,667 = 655 contracts, rounded to the nearest whole contract.",
+      "topic": "Valuation and Risk Models",
+      "subtopic": "Hedging",
+      "difficulty": "hard",
+      "source": "GARP FRM Part I 2026 – Valuation and Risk Models: Fixed-Income Hedging with Treasury Bond Futures"
+    }
+  ]
+}
