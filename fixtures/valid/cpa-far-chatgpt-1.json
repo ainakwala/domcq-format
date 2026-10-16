@@ -1,0 +1,427 @@
+{
+  "format": "domcq/1",
+  "exam": "cpa-far",
+  "set": "Uniform CPA Examination: FAR Practice – Financial Reporting and Transactions",
+  "questions": [
+    {
+      "stem": "During the year ended December 31, Year 1, Apex Corporation reported net income of $250,000, depreciation expense of $40,000, an increase in accounts receivable of $25,000, and a decrease in accounts payable of $15,000. There were no other adjustments to reconcile net income to operating cash flows. Under the indirect method, what amount should Apex report as net cash provided by operating activities?",
+      "options": [
+        "$275,000",
+        "$250,000",
+        "$280,000",
+        "$300,000"
+      ],
+      "answer": "B",
+      "explanation": "Under the indirect method, depreciation is added back to net income because it is a noncash expense. An increase in accounts receivable and a decrease in accounts payable both reduce operating cash flows. Net cash provided by operating activities is $250,000 + $40,000 - $25,000 - $15,000 = $250,000.",
+      "rationales": {
+        "A": "Incorrect; this amount does not incorporate all working capital adjustments correctly.",
+        "B": "Correct; $250,000 + $40,000 - $25,000 - $15,000 = $250,000.",
+        "C": "Incorrect; this amount does not properly account for the decrease in accounts payable.",
+        "D": "Incorrect; this amount overstates operating cash flow by $50,000."
+      },
+      "topic": "Financial Reporting",
+      "subtopic": "General-Purpose Financial Reporting: For-Profit Business Entities",
+      "difficulty": "medium",
+      "source": "AICPA FAR Blueprint, Financial Reporting; ASC 230, Statement of Cash Flows"
+    },
+    {
+      "stem": "A nongovernmental not-for-profit organization receives a $200,000 cash contribution from a donor who specifies that the money must be used to purchase laboratory equipment. At year-end, the organization has not purchased the equipment, and the contribution is unconditional. How should the contribution be classified in the organization's statement of activities?",
+      "options": [
+        "Revenue without donor restrictions",
+        "A refundable advance liability",
+        "A reduction of operating expenses",
+        "Revenue with donor restrictions"
+      ],
+      "answer": "D",
+      "explanation": "An unconditional contribution subject to a donor-imposed purpose restriction is recognized as revenue with donor restrictions. Because the equipment has not been purchased, the restriction has not yet been satisfied. The contribution is not a liability because the donor did not impose a condition requiring satisfaction before entitlement.",
+      "rationales": {
+        "A": "Incorrect; the donor's equipment requirement creates a purpose restriction.",
+        "B": "Incorrect; the contribution is unconditional and is not a refundable advance.",
+        "C": "Incorrect; contributions are recognized as support rather than expense reductions.",
+        "D": "Correct; the unsatisfied donor-imposed purpose restriction requires this classification."
+      },
+      "topic": "Financial Reporting",
+      "subtopic": "General-Purpose Financial Reporting: Nongovernmental Not-for-Profit Entities",
+      "difficulty": "easy",
+      "source": "ASC 958-605, Not-for-Profit Entities: Revenue Recognition"
+    },
+    {
+      "stem": "A city government prepares its governmental fund financial statements using the modified accrual basis of accounting. Which measurement focus applies to these financial statements?",
+      "options": [
+        "Current financial resources",
+        "Total economic resources",
+        "Future budgetary resources",
+        "Long-term capital resources"
+      ],
+      "answer": "A",
+      "explanation": "Governmental fund financial statements use the current financial resources measurement focus and modified accrual accounting. They emphasize resources available to finance current-period expenditures. Government-wide statements, by contrast, use the economic resources measurement focus and accrual accounting.",
+      "rationales": {
+        "A": "Correct; governmental funds focus on current financial resources.",
+        "B": "Incorrect; the economic resources focus applies to government-wide statements.",
+        "C": "Incorrect; future budgetary resources are not the prescribed measurement focus.",
+        "D": "Incorrect; long-term capital resources are not the focus of governmental funds."
+      },
+      "topic": "Financial Reporting",
+      "subtopic": "State and Local Government Concepts",
+      "difficulty": "easy",
+      "source": "GASB Codification, Governmental Fund Accounting and Measurement Focus"
+    },
+    {
+      "stem": "For the year ended December 31, Year 1, a publicly traded corporation reported net income of $900,000 and cumulative preferred dividends of $100,000. The corporation had 400,000 common shares outstanding on January 1 and issued an additional 100,000 common shares on July 1. There were no other changes in common shares or potentially dilutive securities. What is basic earnings per share for Year 1?",
+      "options": [
+        "$1.60",
+        "$1.80",
+        "$1.78",
+        "$2.00"
+      ],
+      "answer": "C",
+      "explanation": "Basic earnings per share equals net income available to common shareholders divided by weighted-average common shares outstanding. The numerator is $900,000 - $100,000 = $800,000, and the denominator is 400,000 + (100,000 × 6/12) = 450,000 shares. Basic EPS is $800,000 / 450,000 = $1.78, rounded to the nearest cent.",
+      "rationales": {
+        "A": "Incorrect; this uses 500,000 shares rather than the weighted-average share count.",
+        "B": "Incorrect; this does not correctly incorporate the preferred dividend adjustment.",
+        "C": "Correct; $800,000 divided by 450,000 weighted-average shares equals $1.78.",
+        "D": "Incorrect; this uses 400,000 shares and ignores the midyear issuance."
+      },
+      "topic": "Financial Reporting",
+      "subtopic": "Public Company Reporting Topics",
+      "difficulty": "medium",
+      "source": "ASC 260, Earnings Per Share"
+    },
+    {
+      "stem": "A small business prepares financial statements using the cash basis of accounting rather than U.S. GAAP. During December, the business performs services worth $30,000 but does not collect payment until January of the following year. When should the business recognize this revenue under the cash basis?",
+      "options": [
+        "In December when the services are completed",
+        "In January when the cash is received",
+        "In December when the invoice is issued",
+        "Equally in December and January"
+      ],
+      "answer": "B",
+      "explanation": "Under the cash basis of accounting, revenue generally is recognized when cash is received rather than when it is earned. Because the customer pays in January, the business recognizes the $30,000 as revenue in January. This differs from accrual accounting, which ordinarily recognizes service revenue when the services are performed.",
+      "rationales": {
+        "A": "Incorrect; this follows the accrual basis rather than the cash basis.",
+        "B": "Correct; cash-basis revenue is recognized when payment is received.",
+        "C": "Incorrect; invoicing alone does not trigger cash-basis revenue recognition.",
+        "D": "Incorrect; the cash basis does not allocate this revenue across both months."
+      },
+      "topic": "Financial Reporting",
+      "subtopic": "Special Purpose Frameworks",
+      "difficulty": "easy",
+      "source": "AICPA FAR Blueprint, Special Purpose Frameworks: Cash Basis of Accounting"
+    },
+    {
+      "stem": "At December 31, a corporation reports current assets of $600,000, including inventory of $180,000 and prepaid expenses of $20,000. Current liabilities total $250,000. The corporation has no other current asset classifications requiring exclusion from quick assets. What is its quick ratio?",
+      "options": [
+        "2.40",
+        "1.68",
+        "1.52",
+        "1.60"
+      ],
+      "answer": "D",
+      "explanation": "The quick ratio measures the ability to satisfy current liabilities using highly liquid assets. Quick assets exclude inventory and prepaid expenses, leaving $600,000 - $180,000 - $20,000 = $400,000. Dividing by current liabilities of $250,000 produces a quick ratio of 1.60.",
+      "rationales": {
+        "A": "Incorrect; 2.40 is the current ratio, which includes inventory and prepaid expenses.",
+        "B": "Incorrect; 1.68 excludes inventory but incorrectly includes prepaid expenses.",
+        "C": "Incorrect; this is not the result of the appropriate quick-asset calculation.",
+        "D": "Correct; quick assets of $400,000 divided by $250,000 equal 1.60."
+      },
+      "topic": "Financial Reporting",
+      "subtopic": "Financial Statement Ratios and Performance Metrics",
+      "difficulty": "medium",
+      "source": "AICPA FAR Blueprint, Financial Statement Ratios and Performance Metrics: Liquidity Ratios"
+    },
+    {
+      "stem": "On January 1, Year 1, Delta Corporation purchased debt securities for $500,000 and classified them as available-for-sale. At December 31, Year 1, the securities have a fair value of $524,000 and an amortized cost of $500,000. The change in fair value is unrelated to credit losses. Delta's enacted income tax rate is 25%, and there are no other comprehensive income items. What amount should Delta report in other comprehensive income for Year 1, net of tax?",
+      "options": [
+        "$18,000 gain",
+        "$24,000 gain",
+        "$6,000 gain",
+        "$18,000 loss"
+      ],
+      "answer": "A",
+      "explanation": "Available-for-sale debt securities are generally measured at fair value, with unrealized gains and losses unrelated to credit losses recognized in other comprehensive income. The unrealized gain is $524,000 - $500,000 = $24,000. After the 25% tax effect of $6,000, the net amount reported in OCI is an $18,000 gain.",
+      "rationales": {
+        "A": "Correct; the $24,000 unrealized gain less $6,000 of tax equals $18,000.",
+        "B": "Incorrect; $24,000 is the pretax unrealized gain.",
+        "C": "Incorrect; $6,000 represents the income tax effect rather than the net gain.",
+        "D": "Incorrect; the increase in fair value creates a gain rather than a loss."
+      },
+      "topic": "Financial Reporting",
+      "subtopic": "General-Purpose Financial Reporting: For-Profit Business Entities",
+      "difficulty": "hard",
+      "source": "ASC 320, Investments: Debt Securities; ASC 220, Comprehensive Income"
+    },
+    {
+      "stem": "A company's bank statement shows a balance of $82,000 at month-end. Outstanding checks total $15,000, and deposits in transit total $9,000. No bank errors or other reconciling items exist. What is the adjusted bank balance?",
+      "options": [
+        "$88,000",
+        "$106,000",
+        "$76,000",
+        "$58,000"
+      ],
+      "answer": "C",
+      "explanation": "In a bank reconciliation, deposits in transit are added to the bank statement balance because they have not yet been recorded by the bank. Outstanding checks are deducted because the bank has not yet processed them. The adjusted bank balance is $82,000 + $9,000 - $15,000 = $76,000.",
+      "rationales": {
+        "A": "Incorrect; this reflects the net reconciliation adjustment in the wrong direction.",
+        "B": "Incorrect; this adds both reconciling items instead of deducting outstanding checks.",
+        "C": "Correct; $82,000 + $9,000 - $15,000 equals $76,000.",
+        "D": "Incorrect; this deducts both reconciling items from the bank statement balance."
+      },
+      "topic": "Select Balance Sheet Accounts",
+      "subtopic": "Cash and cash equivalents",
+      "difficulty": "easy",
+      "source": "AICPA FAR Blueprint, Cash and Cash Equivalents: Bank Reconciliations"
+    },
+    {
+      "stem": "At December 31, Year 1, Horizon Company has gross accounts receivable of $500,000 and an existing credit balance of $8,000 in its allowance for credit losses. Based on its expected credit loss analysis, the required ending allowance is $30,000. What amount of credit loss expense should Horizon recognize for Year 1?",
+      "options": [
+        "$30,000",
+        "$22,000",
+        "$38,000",
+        "$8,000"
+      ],
+      "answer": "B",
+      "explanation": "The required credit loss expense equals the adjustment needed to bring the allowance account to its estimated ending balance. Because the allowance already has an $8,000 credit balance and requires a $30,000 credit balance, the expense is $22,000. The adjusting entry debits credit loss expense and credits the allowance for credit losses.",
+      "rationales": {
+        "A": "Incorrect; $30,000 is the required ending allowance, not the adjustment.",
+        "B": "Correct; $30,000 less the existing $8,000 credit balance equals $22,000.",
+        "C": "Incorrect; this adds the existing credit balance instead of subtracting it.",
+        "D": "Incorrect; $8,000 is the allowance balance before adjustment."
+      },
+      "topic": "Select Balance Sheet Accounts",
+      "subtopic": "Trade receivables",
+      "difficulty": "medium",
+      "source": "ASC 326, Financial Instruments: Credit Losses"
+    },
+    {
+      "stem": "A company using a periodic inventory system purchased 100 units at $10 each on January 5 and 150 units at $12 each on January 20. During January, it sold 180 units. The company uses the FIFO inventory cost flow assumption. What is the cost of ending inventory at January 31?",
+      "options": [
+        "$700",
+        "$770",
+        "$800",
+        "$840"
+      ],
+      "answer": "D",
+      "explanation": "Under FIFO, the earliest purchased units are assumed to be sold first, leaving the most recent purchases in ending inventory. Total units available are 250, and after selling 180 units, 70 units remain. Those units come from the January 20 purchase at $12 each, producing ending inventory of $840.",
+      "rationales": {
+        "A": "Incorrect; this values the 70 remaining units at the earliest purchase price.",
+        "B": "Incorrect; this uses $11 per unit rather than the FIFO ending layer.",
+        "C": "Incorrect; this does not correctly value the remaining 70 units under FIFO.",
+        "D": "Correct; 70 remaining units at $12 each equal $840."
+      },
+      "topic": "Select Balance Sheet Accounts",
+      "subtopic": "Inventory",
+      "difficulty": "medium",
+      "source": "ASC 330, Inventory: Cost Flow Assumptions"
+    },
+    {
+      "stem": "On January 1, Year 1, a company purchases equipment for $120,000. The equipment has an estimated useful life of five years, an estimated residual value of $20,000, and is depreciated using the straight-line method. What depreciation expense should the company recognize for Year 1?",
+      "options": [
+        "$20,000",
+        "$24,000",
+        "$28,000",
+        "$16,000"
+      ],
+      "answer": "A",
+      "explanation": "Straight-line depreciation allocates the depreciable cost of an asset evenly over its useful life. The depreciable cost is $120,000 - $20,000 = $100,000. Dividing by the five-year useful life produces annual depreciation expense of $20,000.",
+      "rationales": {
+        "A": "Correct; ($120,000 - $20,000) / 5 equals $20,000.",
+        "B": "Incorrect; this depreciates the entire purchase price without deducting residual value.",
+        "C": "Incorrect; this exceeds the annual straight-line depreciation amount.",
+        "D": "Incorrect; this understates the annual depreciation expense."
+      },
+      "topic": "Select Balance Sheet Accounts",
+      "subtopic": "Property, plant and equipment",
+      "difficulty": "easy",
+      "source": "ASC 360, Property, Plant, and Equipment: Depreciation"
+    },
+    {
+      "stem": "On January 1, Year 1, a corporation issues a three-year, $1,000,000 face-value bond for $950,000. The bond pays annual interest of 6% each December 31, and its effective annual interest rate at issuance is 8%. The corporation uses the effective interest method. What is the bond's carrying amount immediately after the December 31, Year 1 interest payment?",
+      "options": [
+        "$934,000",
+        "$950,000",
+        "$966,000",
+        "$976,000"
+      ],
+      "answer": "C",
+      "explanation": "Under the effective interest method, interest expense is calculated using the beginning carrying amount multiplied by the effective interest rate. Year 1 interest expense is $950,000 × 8% = $76,000, while the cash interest payment is $1,000,000 × 6% = $60,000. The $16,000 discount amortization increases the bond's carrying amount to $966,000.",
+      "rationales": {
+        "A": "Incorrect; a bond discount increases rather than decreases the carrying amount as it amortizes.",
+        "B": "Incorrect; the bond's carrying amount must increase by the discount amortization.",
+        "C": "Correct; $950,000 + ($76,000 - $60,000) equals $966,000.",
+        "D": "Incorrect; $26,000 is not the appropriate discount amortization for Year 1."
+      },
+      "topic": "Select Balance Sheet Accounts",
+      "subtopic": "Debt (financial liabilities)",
+      "difficulty": "hard",
+      "source": "ASC 835-30, Imputation of Interest; Effective Interest Method"
+    },
+    {
+      "stem": "On January 1, Year 1, Investor Corporation purchases a 30% interest in Associate Company for $600,000 and obtains significant influence over Associate's operating and financial policies. During Year 1, Associate reports net income of $200,000 and pays total dividends of $80,000. There are no basis differences or impairment losses. What is Investor's carrying amount for this investment at December 31, Year 1?",
+      "options": [
+        "$660,000",
+        "$636,000",
+        "$624,000",
+        "$684,000"
+      ],
+      "answer": "B",
+      "explanation": "Because Investor has significant influence, it uses the equity method. The investment increases by 30% of Associate's net income, or $60,000, and decreases by 30% of dividends, or $24,000. The ending carrying amount is $600,000 + $60,000 - $24,000 = $636,000.",
+      "rationales": {
+        "A": "Incorrect; this recognizes the equity-method earnings but does not deduct dividends.",
+        "B": "Correct; the original cost plus earnings less dividends equals $636,000.",
+        "C": "Incorrect; this deducts dividends without recognizing the investor's share of income.",
+        "D": "Incorrect; dividends reduce rather than increase the investment balance."
+      },
+      "topic": "Select Balance Sheet Accounts",
+      "subtopic": "Investments",
+      "difficulty": "medium",
+      "source": "ASC 323, Investments: Equity Method and Joint Ventures"
+    },
+    {
+      "stem": "A company acquires a patent for $240,000 on January 1, Year 1. The patent has a remaining legal life of 15 years, but management estimates that it will provide economic benefits for only eight years. The patent has no residual value, no impairment indicators exist, and the company uses straight-line amortization. What is the patent's carrying amount at December 31, Year 3?",
+      "options": [
+        "$192,000",
+        "$210,000",
+        "$180,000",
+        "$150,000"
+      ],
+      "answer": "D",
+      "explanation": "A finite-lived intangible asset is amortized over its estimated useful life, which cannot exceed its legal life. Because the expected economic life is eight years, annual amortization is $240,000 / 8 = $30,000. After three years of amortization totaling $90,000, the carrying amount is $150,000.",
+      "rationales": {
+        "A": "Incorrect; this uses the 15-year legal life rather than the shorter economic life.",
+        "B": "Incorrect; this reflects only one year of amortization.",
+        "C": "Incorrect; this reflects only two years of amortization.",
+        "D": "Correct; $240,000 less three years of $30,000 amortization equals $150,000."
+      },
+      "topic": "Select Balance Sheet Accounts",
+      "subtopic": "Intangible assets",
+      "difficulty": "medium",
+      "source": "ASC 350, Intangibles: Goodwill and Other"
+    },
+    {
+      "stem": "A corporation purchases 5,000 shares of its own common stock for $25 per share and records the purchase using the cost method of treasury stock accounting. The corporation subsequently reissues 2,000 of these shares for $30 per share. There were no other treasury stock transactions. What amount should be credited to additional paid-in capital from treasury stock upon reissuance?",
+      "options": [
+        "$10,000",
+        "$50,000",
+        "$60,000",
+        "$15,000"
+      ],
+      "answer": "A",
+      "explanation": "Under the cost method, treasury shares are recorded at their repurchase cost. When 2,000 shares are reissued, treasury stock is credited for $50,000, and cash is debited for the $60,000 proceeds. The $10,000 excess is credited to additional paid-in capital from treasury stock rather than recognized as a gain in net income.",
+      "rationales": {
+        "A": "Correct; 2,000 shares multiplied by the $5 excess over cost equals $10,000.",
+        "B": "Incorrect; $50,000 is the cost of the reissued treasury shares.",
+        "C": "Incorrect; $60,000 represents the total cash proceeds.",
+        "D": "Incorrect; $15,000 is not the difference between proceeds and cost."
+      },
+      "topic": "Select Balance Sheet Accounts",
+      "subtopic": "Equity",
+      "difficulty": "medium",
+      "source": "AICPA FAR Blueprint, Equity: Treasury Stock Transactions"
+    },
+    {
+      "stem": "During Year 3, before issuing comparative financial statements for Years 2 and 3, management discovers that equipment purchased for $100,000 on January 1, Year 2 was incorrectly charged entirely to expense in Year 2. The equipment has a five-year useful life, no residual value, and is depreciated using the straight-line method. Ignore income taxes. By what amount should the company increase beginning retained earnings for Year 3 to correct this error?",
+      "options": [
+        "$100,000",
+        "$20,000",
+        "$60,000",
+        "$80,000"
+      ],
+      "answer": "D",
+      "explanation": "The equipment should have been capitalized in Year 2, with $20,000 of depreciation recognized for that year. Expensing the entire $100,000 understated Year 2 income and ending retained earnings by $80,000. The prior-period error correction therefore increases beginning Year 3 retained earnings by $80,000, with the comparative Year 2 statements restated.",
+      "rationales": {
+        "A": "Incorrect; this ignores the depreciation expense properly attributable to Year 2.",
+        "B": "Incorrect; $20,000 is the annual depreciation, not the retained earnings adjustment.",
+        "C": "Incorrect; this deducts two years of depreciation rather than one.",
+        "D": "Correct; $100,000 capitalized cost less $20,000 depreciation equals $80,000."
+      },
+      "topic": "Select Transactions",
+      "subtopic": "Accounting changes and error corrections",
+      "difficulty": "medium",
+      "source": "ASC 250, Accounting Changes and Error Corrections"
+    },
+    {
+      "stem": "At December 31, Year 1, a company is defending a lawsuit arising from an incident during Year 1. Its legal counsel concludes that a loss is probable and estimates the loss at $150,000. The estimate is reliable, and the case remains unresolved when the Year 1 financial statements are prepared. How should the company account for the lawsuit in its Year 1 financial statements?",
+      "options": [
+        "Disclose the lawsuit without recognizing a liability",
+        "Recognize a $150,000 loss and a liability",
+        "Recognize a liability only when payment occurs",
+        "Omit the lawsuit until the court issues a judgment"
+      ],
+      "answer": "B",
+      "explanation": "Under U.S. GAAP, a loss contingency is accrued when it is probable that a liability has been incurred and the loss can be reasonably estimated. Both recognition conditions are satisfied in this scenario. The company therefore records a $150,000 loss and corresponding liability in Year 1.",
+      "rationales": {
+        "A": "Incorrect; disclosure alone is insufficient when the loss is probable and estimable.",
+        "B": "Correct; the loss meets both conditions for accrual under ASC 450.",
+        "C": "Incorrect; accrual accounting does not require cash payment before recognition.",
+        "D": "Incorrect; a final court judgment is not necessary to accrue a qualifying loss."
+      },
+      "topic": "Select Transactions",
+      "subtopic": "Contingencies and commitments",
+      "difficulty": "easy",
+      "source": "ASC 450-20, Contingencies: Loss Contingencies"
+    },
+    {
+      "stem": "On January 1, Year 1, a consulting firm enters into a contract to provide a single performance obligation consisting of services throughout Year 1 for fixed consideration of $400,000 plus a potential performance bonus of $100,000. Management estimates a 70% probability of earning the entire bonus and a 30% probability of earning no bonus. The firm has concluded that the expected value method best predicts the variable consideration and that the entire estimated variable consideration may be included without violating the revenue constraint. The services are fully completed in Year 1. What total revenue should the firm recognize for Year 1?",
+      "options": [
+        "$400,000",
+        "$430,000",
+        "$470,000",
+        "$500,000"
+      ],
+      "answer": "C",
+      "explanation": "ASC 606 permits an entity to estimate variable consideration using the expected value method when that method best predicts the amount of consideration. The expected bonus is (70% × $100,000) + (30% × $0) = $70,000. Because the scenario specifies that the constraint does not reduce this estimate, total revenue is $400,000 + $70,000 = $470,000.",
+      "rationales": {
+        "A": "Incorrect; this excludes the variable consideration despite the stated constraint assessment.",
+        "B": "Incorrect; this uses the 30% probability rather than the 70% probability of earning the bonus.",
+        "C": "Correct; fixed consideration of $400,000 plus a $70,000 expected bonus equals $470,000.",
+        "D": "Incorrect; this recognizes the entire bonus rather than the expected value estimate."
+      },
+      "topic": "Select Transactions",
+      "subtopic": "Revenue recognition",
+      "difficulty": "hard",
+      "source": "ASC 606-10-32, Revenue from Contracts with Customers: Variable Consideration"
+    },
+    {
+      "stem": "At December 31, Year 1, a corporation has a $12,000 deferred tax asset related entirely to accrued warranty expenses that will be deductible for tax purposes when paid. During Year 2, the underlying deductible temporary difference increases, and at December 31, Year 2 it totals $100,000. The enacted tax rate applicable to all future reversals is 30%, unchanged from Year 1. No valuation allowance is necessary, and there are no other temporary differences. What deferred income tax benefit should the corporation recognize in Year 2?",
+      "options": [
+        "$18,000",
+        "$30,000",
+        "$12,000",
+        "$42,000"
+      ],
+      "answer": "A",
+      "explanation": "Warranty costs accrued for financial reporting but deductible when paid create a deductible temporary difference and therefore a deferred tax asset. The required ending deferred tax asset is $100,000 × 30% = $30,000. Since the beginning deferred tax asset is $12,000, its increase of $18,000 is recognized as a deferred income tax benefit in Year 2.",
+      "rationales": {
+        "A": "Correct; the deferred tax asset increases from $12,000 to $30,000, creating an $18,000 benefit.",
+        "B": "Incorrect; $30,000 is the required ending deferred tax asset, not the current-year benefit.",
+        "C": "Incorrect; $12,000 is the beginning deferred tax asset.",
+        "D": "Incorrect; this adds the beginning balance to the required ending balance."
+      },
+      "topic": "Select Transactions",
+      "subtopic": "Accounting for income taxes",
+      "difficulty": "hard",
+      "source": "ASC 740, Income Taxes: Deferred Tax Assets and Temporary Differences"
+    },
+    {
+      "stem": "On January 1, Year 1, a company enters into a lease of office equipment requiring three annual payments of $40,000, with the first payment due on December 31, Year 1. The lease is classified as an operating lease, and the company uses an annual discount rate of 5%. The present value of the three payments at commencement is $108,930, rounded to the nearest dollar. There are no initial direct costs, prepaid lease payments, lease incentives, or other adjustments. What amount should the lessee initially recognize as its operating lease liability?",
+      "options": [
+        "$120,000",
+        "$40,000",
+        "$114,377",
+        "$108,930"
+      ],
+      "answer": "D",
+      "explanation": "Under ASC 842, an operating lease liability is initially measured at the present value of unpaid lease payments at the commencement date. All three payments are due after commencement, and their present value is given as $108,930. The lessee therefore initially recognizes a lease liability of $108,930, together with an equal right-of-use asset under the stated assumptions.",
+      "rationales": {
+        "A": "Incorrect; $120,000 is the undiscounted sum of the lease payments.",
+        "B": "Incorrect; $40,000 represents only one annual payment.",
+        "C": "Incorrect; this amount does not equal the present value of the three required payments.",
+        "D": "Correct; the lease liability initially equals the $108,930 present value of unpaid payments."
+      },
+      "topic": "Select Transactions",
+      "subtopic": "Lessee accounting",
+      "difficulty": "medium",
+      "source": "ASC 842-20, Leases: Lessee Initial Measurement"
+    }
+  ]
+}
