@@ -1,0 +1,84 @@
+{
+  "id": "cpa-reg",
+  "display_name": "Uniform CPA Examination: Taxation and Regulation (REG)",
+  "body": "AICPA",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, endorsed by or sponsored by the American Institute of Certified Public Accountants (AICPA) or the National Association of State Boards of Accountancy (NASBA). Uniform CPA Examination is a registered trademark of the AICPA. All trademarks belong to their owners.",
+  "taxonomy": {
+    "Ethics, Professional Responsibilities and Federal Tax Procedures": [
+      "Ethics and responsibilities in tax practice",
+      "Licensing and disciplinary systems",
+      "Federal tax procedures",
+      "Legal duties and responsibilities"
+    ],
+    "Business Law": [
+      "Agency",
+      "Contracts",
+      "Debtor-creditor relationships",
+      "Federal laws and regulations",
+      "Business structure"
+    ],
+    "Federal Taxation of Property Transactions": [
+      "Basis of assets",
+      "Cost recovery (depreciation and amortization)"
+    ],
+    "Federal Taxation of Individuals": [
+      "Gross income (inclusions and exclusions)",
+      "Reporting of items from pass-through entities",
+      "Adjustments and deductions to arrive at adjusted gross income and taxable income",
+      "Loss limitations",
+      "Filing status",
+      "Computation of tax and credits"
+    ],
+    "Federal Taxation of Entities (including tax preparation)": [
+      "Differences between book and tax income (loss)",
+      "C corporations",
+      "S corporations",
+      "Partnerships",
+      "Limited liability companies",
+      "Tax-exempt organizations"
+    ]
+  },
+  "weights": {
+    "Ethics, Professional Responsibilities and Federal Tax Procedures": {
+      "min": 10,
+      "max": 20
+    },
+    "Business Law": {
+      "min": 15,
+      "max": 25
+    },
+    "Federal Taxation of Property Transactions": {
+      "min": 5,
+      "max": 15
+    },
+    "Federal Taxation of Individuals": {
+      "min": 22,
+      "max": 32
+    },
+    "Federal Taxation of Entities (including tax preparation)": {
+      "min": 23,
+      "max": 33
+    }
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": false,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [],
+  "uncovered_item_types": [
+    "task-based simulation"
+  ],
+  "exam_mode": {
+    "questions": 72,
+    "minutes": 120,
+    "sections": 2
+  },
+  "verified_outline": "Uniform CPA Examination Blueprints, effective January 2026 (REG section)",
+  "verified_on": "2026-10-16",
+  "next_review": "2027-01-01"
+}
