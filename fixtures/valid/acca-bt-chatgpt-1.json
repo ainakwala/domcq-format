@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "acca-bt",
+  "set": "Business and Technology (BT) practice – Applied Business Scenarios",
+  "questions": [
+    {
+      "stem": "Gad Co is considering whether to close one of its factories. Stefan is the manager of the factory and is responsible for its daily operations. He has strongly opposed the closure and has direct access to the board of directors. As far as Gad Co is concerned, how should Stefan be categorised under Mendelow's power-interest matrix?",
+      "options": [
+        "High power, low interest",
+        "High power, high interest",
+        "Low power, high interest",
+        "Low power, low interest"
+      ],
+      "answer": "B",
+      "explanation": "Stefan has high interest because the proposed closure directly affects the factory he manages. His direct access to the board and ability to influence its decisions indicate high power. Under Mendelow's framework, stakeholders with high power and high interest should be managed closely.",
+      "topic": "The business organisation and its external environment",
+      "subtopic": "Stakeholders in business organisations",
+      "difficulty": "medium",
+      "source": "ACCA BT syllabus A2 – Stakeholders in business organisations; Mendelow's power-interest matrix"
+    },
+    {
+      "stem": "The government of a country increases its spending on public infrastructure while leaving tax rates unchanged. Which form of economic policy is the government using?",
+      "options": [
+        "Monetary policy",
+        "Competition policy",
+        "Exchange rate policy",
+        "Fiscal policy"
+      ],
+      "answer": "D",
+      "explanation": "Fiscal policy involves government decisions concerning taxation and public expenditure. Increasing infrastructure spending is an expansionary fiscal measure intended to stimulate aggregate demand. Monetary policy instead primarily involves interest rates and monetary conditions.",
+      "topic": "The business organisation and its external environment",
+      "subtopic": "Macroeconomic factors",
+      "difficulty": "easy",
+      "source": "ACCA BT syllabus A4 – Macroeconomic factors; fiscal and monetary policy"
+    },
+    {
+      "stem": "A manufacturer produces 10,000 units of a product and sells each unit for $25. Following a price reduction to $20, annual sales increase to 13,000 units. Using the original price and quantity as the base, what is the price elasticity of demand over this change?",
+      "options": [
+        "-1.5",
+        "-0.67",
+        "-0.3",
+        "-2.0"
+      ],
+      "answer": "A",
+      "explanation": "Quantity demanded increases by 30%, while price decreases by 20%. Price elasticity of demand is the percentage change in quantity demanded divided by the percentage change in price, giving 30% divided by -20% = -1.5. The absolute value exceeding one indicates elastic demand over this price change.",
+      "topic": "The business organisation and its external environment",
+      "subtopic": "Microeconomic factors",
+      "difficulty": "medium",
+      "source": "ACCA BT syllabus A5 – Microeconomic factors; price elasticity of demand"
+    },
+    {
+      "stem": "Mira Co is assessing the environmental effects of its manufacturing operations. Which TWO measures would most directly help the company reduce its environmental impact? Choose TWO.",
+      "options": [
+        "Increasing the proportion of production funded by retained earnings",
+        "Reducing the number of management reporting levels",
+        "Installing equipment that reduces energy consumption per unit",
+        "Reusing manufacturing materials that would otherwise become waste"
+      ],
+      "answer": "CD",
+      "explanation": "Lower energy consumption per unit reduces the resources required for production and can reduce associated emissions. Reusing manufacturing materials reduces waste and the demand for new raw materials. Financing decisions and management hierarchy changes do not directly establish an environmental improvement.",
+      "topic": "The business organisation and its external environment",
+      "subtopic": "Environmental and sustainability factors",
+      "difficulty": "easy",
+      "source": "ACCA BT syllabus A8 – Environmental and sustainability factors"
+    },
+    {
+      "stem": "A large international business divides its operations into separate units for Europe, Asia and the Americas. Each unit has its own marketing, production and finance departments and is accountable for its regional performance. Which organisational structure is being used?",
+      "options": [
+        "Functional structure",
+        "Divisional structure",
+        "Matrix structure",
+        "Entrepreneurial structure"
+      ],
+      "answer": "B",
+      "explanation": "A divisional structure groups activities according to products, customers or geographical markets. Each geographical division contains the functions needed to manage its operations. A functional structure would instead group employees primarily by specialist activity across the organisation.",
+      "topic": "Organisational structure, culture, governance and sustainability",
+      "subtopic": "Business organisational structure",
+      "difficulty": "easy",
+      "source": "ACCA BT syllabus B2 – Business organisational structure; divisional organisations"
+    },
+    {
+      "stem": "An organisation has very few management layers and a wide span of control. Senior management proposes adding several supervisory levels without changing the number of operational employees. Which consequence is most likely?",
+      "options": [
+        "A shorter scalar chain",
+        "A wider span of control",
+        "A reduction in hierarchy levels",
+        "A longer chain of communication"
+      ],
+      "answer": "D",
+      "explanation": "Adding management layers creates a taller organisational structure and increases the number of hierarchical levels through which information may pass. This can lengthen communication routes and slow decisions requiring approval. A flat structure generally has fewer management layers and wider spans of control.",
+      "topic": "Organisational structure, culture, governance and sustainability",
+      "subtopic": "Business organisational structure",
+      "difficulty": "medium",
+      "source": "ACCA BT syllabus B2 – Business organisational structure; tall and flat structures, span of control and scalar chain"
+    },
+    {
+      "stem": "The board of Pallas Co is reviewing its corporate governance arrangements. The chief executive currently determines the remuneration of all executive directors, including their own remuneration. Which change would most directly address the governance weakness?",
+      "options": [
+        "Establishing a remuneration committee consisting of independent non-executive directors",
+        "Delegating executive remuneration decisions to the chief financial officer",
+        "Allowing the chief executive to approve remuneration after consulting employees",
+        "Requiring the internal audit team to determine executive remuneration"
+      ],
+      "answer": "A",
+      "explanation": "Executive directors should not have unrestricted authority to determine their own remuneration because this creates a conflict of interest. An independent remuneration committee provides oversight and helps align executive rewards with the organisation's interests. Transferring the decision to another executive does not adequately resolve the independence problem.",
+      "topic": "Organisational structure, culture, governance and sustainability",
+      "subtopic": "Governance in business organisations",
+      "difficulty": "medium",
+      "source": "ACCA BT syllabus B4 – Governance in business organisations; non-executive directors and remuneration committees"
+    },
+    {
+      "stem": "A multinational company publishes a commitment to reduce carbon emissions, but the performance bonuses of its production managers are calculated solely on output volume and production cost. Managers consistently reject low-carbon projects because they would reduce their bonuses in the short term. Which TWO actions would most directly help embed sustainability into operational decision-making? Choose TWO.",
+      "options": [
+        "Transferring responsibility for sustainability reporting exclusively to the public relations department",
+        "Including measurable emissions-reduction targets in management performance assessments",
+        "Linking part of management remuneration to independently verified environmental performance",
+        "Removing environmental performance information from operational management reports"
+      ],
+      "answer": "BC",
+      "explanation": "Including sustainability targets in performance assessments makes environmental objectives part of managers' operational responsibilities. Linking remuneration to verified environmental outcomes helps align personal incentives with the company's stated commitments. Reporting arrangements alone cannot correct incentives that encourage environmentally damaging decisions.",
+      "topic": "Organisational structure, culture, governance and sustainability",
+      "subtopic": "Sustainable business practices",
+      "difficulty": "hard",
+      "source": "ACCA BT syllabus B5 – Sustainable business practices; corporate social responsibility objectives"
+    },
+    {
+      "stem": "The purchasing department of Rex Co wants to know whether the company can afford a large inventory order. Which information would the finance function most appropriately provide?",
+      "options": [
+        "A customer satisfaction survey",
+        "A forecast of competitor advertising",
+        "A schedule of employee training",
+        "A short-term cash flow forecast"
+      ],
+      "answer": "D",
+      "explanation": "A short-term cash flow forecast identifies expected cash receipts, payments and available liquidity. It helps purchasing managers determine whether sufficient cash will be available to pay suppliers when required. The other information may assist different decisions but does not directly establish the company's ability to fund the purchase.",
+      "topic": "Business functions, regulation and technology",
+      "subtopic": "The relationship between accounting and other business functions",
+      "difficulty": "easy",
+      "source": "ACCA BT syllabus C1 – The relationship between accounting and other business functions"
+    },
+    {
+      "stem": "At Nera Co, one employee is responsible for creating suppliers in the accounting system, authorising supplier invoices and processing payments. Which internal control weakness is most clearly demonstrated?",
+      "options": [
+        "Inadequate segregation of duties",
+        "Inadequate physical inventory security",
+        "Inadequate management budgeting",
+        "Inadequate staff performance appraisal"
+      ],
+      "answer": "A",
+      "explanation": "Segregation of duties separates responsibilities for authorisation, recording and custody or payment to reduce opportunities for error and fraud. One employee controlling supplier creation, invoice approval and payments could create fictitious suppliers and make unauthorised payments. Independent authorisation and review would reduce this risk.",
+      "topic": "Business functions, regulation and technology",
+      "subtopic": "Internal controls",
+      "difficulty": "medium",
+      "source": "ACCA BT syllabus C6 – Internal controls; segregation of duties"
+    },
+    {
+      "stem": "A company uses cloud-based accounting software rather than maintaining its accounting applications on servers located at its own premises. Which TWO statements describe potential benefits of this arrangement? Choose TWO.",
+      "options": [
+        "It removes the need to manage access permissions for accounting data",
+        "It guarantees that accounting information can never be lost",
+        "It enables authorised staff to access accounting applications from different locations",
+        "It can reduce the need to purchase and maintain on-premises server infrastructure"
+      ],
+      "answer": "CD",
+      "explanation": "Cloud-based accounting applications can support remote access and reduce the requirement for an organisation to operate its own servers. However, organisations remain responsible for appropriate access controls, data security and continuity arrangements. Cloud services do not eliminate the possibility of data loss or security incidents.",
+      "topic": "Business functions, regulation and technology",
+      "subtopic": "Financial systems and technology",
+      "difficulty": "medium",
+      "source": "ACCA BT syllabus C5 – Financial systems and technology; cloud computing"
+    },
+    {
+      "stem": "A finance employee at Vela Co notices that a customer has made several cash payments just below the amount at which the organisation normally requests additional verification. The employee suspects that the payments are deliberately structured to conceal the origin of funds. What is the most appropriate action?",
+      "options": [
+        "Informing the customer that the transactions have been identified as suspicious",
+        "Reporting the suspicion promptly through the organisation's designated anti-money-laundering reporting procedure",
+        "Rejecting all future payments without informing anyone inside the organisation",
+        "Waiting until the customer has made a payment above the verification threshold"
+      ],
+      "answer": "B",
+      "explanation": "Deliberately splitting transactions into smaller payments can be an indicator of money laundering. Employees should follow their organisation's reporting procedure when they have a relevant suspicion, rather than waiting for proof or a larger transaction. Alerting the customer could also create a risk of prohibited tipping off.",
+      "topic": "Business functions, regulation and technology",
+      "subtopic": "Regulation and financial crime",
+      "difficulty": "hard",
+      "source": "ACCA BT syllabus C3 – Regulation and financial crime; money laundering and reporting responsibilities"
+    },
+    {
+      "stem": "A newly appointed manager believes employees naturally avoid work, require close supervision and must be threatened with punishment to achieve organisational objectives. Which management theory is most consistent with this belief?",
+      "options": [
+        "McGregor's Theory Y",
+        "Herzberg's two-factor theory",
+        "McGregor's Theory X",
+        "Maslow's hierarchy of needs"
+      ],
+      "answer": "C",
+      "explanation": "McGregor's Theory X assumes that employees generally dislike work and require direction, control or coercion. Theory Y assumes that employees can exercise self-direction and accept responsibility under appropriate conditions. These theories describe contrasting managerial assumptions about human behaviour.",
+      "topic": "Leadership and management",
+      "subtopic": "Leadership, management and supervision",
+      "difficulty": "easy",
+      "source": "ACCA BT syllabus D1 – Leadership, management and supervision; McGregor's Theory X and Theory Y"
+    },
+    {
+      "stem": "A newly formed project team has begun challenging its leader, disputing individual responsibilities and arguing about how tasks should be performed. Members have not yet established consistent ways of working. According to Tuckman's model, which stage of team development is the team experiencing?",
+      "options": [
+        "Storming",
+        "Norming",
+        "Performing",
+        "Adjourning"
+      ],
+      "answer": "A",
+      "explanation": "The storming stage is characterised by disagreements, challenges to authority and conflict over team roles or working methods. In the norming stage, members begin to establish agreed expectations and stronger working relationships. Recognising the stage helps the leader address conflict and clarify responsibilities.",
+      "topic": "Leadership and management",
+      "subtopic": "Team formation, development and management",
+      "difficulty": "medium",
+      "source": "ACCA BT syllabus D3 – Team formation, development and management; Tuckman's team development model"
+    },
+    {
+      "stem": "At Orion Co, employees complain that salary administration is poor and working conditions are uncomfortable. Management improves pay administration and working conditions, and employee complaints decline. However, employees continue to report limited job satisfaction because their work provides little responsibility or recognition. According to Herzberg's two-factor theory, which explanation is most appropriate?",
+      "options": [
+        "The improvements increased employees' need for affiliation without affecting their need for power",
+        "The improvements satisfied employees' highest-level needs and removed the need for recognition",
+        "The improvements provided intrinsic motivators but left hygiene factors unchanged",
+        "The improvements reduced dissatisfaction but did not adequately address motivational factors"
+      ],
+      "answer": "D",
+      "explanation": "Herzberg distinguishes hygiene factors, such as working conditions and pay administration, from motivators, such as achievement, responsibility and recognition. Improving hygiene factors can reduce dissatisfaction without creating strong positive job satisfaction. Management should also address the content of work and opportunities for achievement.",
+      "topic": "Leadership and management",
+      "subtopic": "Motivating individuals and teams",
+      "difficulty": "medium",
+      "source": "ACCA BT syllabus D4 – Motivating individuals and teams; Herzberg's two-factor theory"
+    },
+    {
+      "stem": "A customer service manager wants to assess the performance of employees whose work involves meeting customers' needs, cooperating with colleagues and responding to supervisory guidance. The manager proposes collecting structured feedback from customers, peers, direct supervisors and the employees themselves. Which TWO characteristics are associated with this appraisal approach? Choose TWO.",
+      "options": [
+        "It evaluates employees exclusively against financial performance indicators",
+        "It can provide a broader perspective on behaviour than feedback from one supervisor",
+        "It can be affected by inconsistent judgments from different feedback providers",
+        "It eliminates the need to establish performance expectations before the appraisal"
+      ],
+      "answer": "BC",
+      "explanation": "This is a form of 360-degree appraisal, which gathers feedback from several groups that interact with an employee. Multiple perspectives can provide a more rounded assessment, although subjective judgments and inconsistent standards can affect reliability. Clear performance criteria and appropriate feedback management remain important.",
+      "topic": "Leadership and management",
+      "subtopic": "Review and appraisal of individual performance",
+      "difficulty": "hard",
+      "source": "ACCA BT syllabus D6 – Review and appraisal of individual performance; 360-degree feedback"
+    },
+    {
+      "stem": "Shireen regularly misses deadlines because she begins low-priority tasks immediately, repeatedly checks incoming messages and rarely estimates how long important assignments will take. Which TWO barriers to effective time management are shown in her behaviour? Choose TWO.",
+      "options": [
+        "Poor prioritisation of activities",
+        "Excessive delegation of responsibilities",
+        "Overreliance on formal performance appraisal",
+        "Frequent interruptions and distractions"
+      ],
+      "answer": "AD",
+      "explanation": "Starting low-priority tasks without considering their importance indicates poor prioritisation. Repeatedly checking messages disrupts concentration and creates avoidable interruptions. Effective time management requires identifying important work, estimating task durations and protecting time for activities that require sustained attention.",
+      "topic": "Personal effectiveness and communication in business",
+      "subtopic": "Personal effectiveness",
+      "difficulty": "easy",
+      "source": "ACCA BT syllabus E1 – Personal effectiveness; time management"
+    },
+    {
+      "stem": "Two department managers disagree about how a limited training budget should be allocated. Both departments have legitimate needs and each manager wants to preserve a positive working relationship. They agree to discuss their underlying requirements and develop a solution that satisfies both departments' most important needs. Which conflict-resolution approach does this illustrate?",
+      "options": [
+        "Avoidance",
+        "Competition",
+        "Collaboration",
+        "Accommodation"
+      ],
+      "answer": "C",
+      "explanation": "Collaboration seeks a solution that addresses the underlying interests of all parties, rather than simply splitting differences or conceding to one side. It is particularly suitable when both the quality of the decision and the continuing relationship matter. Competition prioritises one party's position, while avoidance postpones dealing with the conflict.",
+      "topic": "Personal effectiveness and communication in business",
+      "subtopic": "Sources of conflict and techniques for conflict resolution",
+      "difficulty": "medium",
+      "source": "ACCA BT syllabus E4 – Sources of conflict and techniques for conflict resolution"
+    },
+    {
+      "stem": "The finance director of Bex Co is preparing a presentation for operational managers who have limited accounting knowledge. The presentation concerns a significant deterioration in working capital. Which communication approach would be most effective?",
+      "options": [
+        "Using detailed technical terminology to demonstrate the complexity of the analysis",
+        "Using clear language and relevant examples while retaining the key financial information",
+        "Presenting the complete accounting ledger without explanatory commentary",
+        "Providing only the final recommendation without explaining the supporting evidence"
+      ],
+      "answer": "B",
+      "explanation": "Effective communication should be adapted to the knowledge and information needs of the intended audience. Clear language, relevant examples and sufficient supporting information help non-specialists understand financial issues and make informed decisions. Unexplained technical detail or unsupported recommendations can create communication barriers.",
+      "topic": "Personal effectiveness and communication in business",
+      "subtopic": "Communicating in business",
+      "difficulty": "medium",
+      "source": "ACCA BT syllabus E5 – Communicating in business; communication methods and barriers"
+    },
+    {
+      "stem": "An accountant at Solis Co is asked by the managing director to exclude a known liability from the financial statements so that the company can meet a bank covenant. The director warns that refusal could affect the accountant's promotion. The accountant also has a substantial performance bonus linked to the company's reported profits. Which TWO threats to compliance with the fundamental ethical principles are most clearly present? Choose TWO.",
+      "options": [
+        "Familiarity threat",
+        "Advocacy threat",
+        "Self-interest threat",
+        "Intimidation threat"
+      ],
+      "answer": "CD",
+      "explanation": "The performance bonus creates a self-interest threat because the accountant could benefit financially from overstated profits. The director's warning creates an intimidation threat because pressure over career prospects may influence professional judgment. The accountant should not knowingly participate in misleading financial reporting and should use appropriate organisational or professional safeguards.",
+      "topic": "Professional ethics",
+      "subtopic": "Ethical conflicts and dilemmas",
+      "difficulty": "hard",
+      "source": "ACCA BT syllabus F4 – Ethical conflicts and dilemmas; threats and safeguards; ACCA Code of Ethics and Conduct"
+    }
+  ]
+}
