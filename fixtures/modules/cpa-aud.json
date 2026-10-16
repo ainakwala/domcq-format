@@ -1,0 +1,82 @@
+{
+  "id": "cpa-aud",
+  "display_name": "Uniform CPA Examination: Auditing and Attestation (AUD)",
+  "body": "AICPA",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, endorsed by or sponsored by the American Institute of Certified Public Accountants (AICPA) or the National Association of State Boards of Accountancy (NASBA). Uniform CPA Examination is a registered trademark of the AICPA. All trademarks belong to their owners.",
+  "taxonomy": {
+    "Ethics, Professional Responsibilities and General Principles": [
+      "Ethics, independence and professional responsibilities",
+      "Professional skepticism and professional judgment",
+      "Nature and scope",
+      "Terms of engagement",
+      "Requirements for engagement documentation",
+      "Communication with management and those charged with governance",
+      "Audit and assurance quality"
+    ],
+    "Assessing Risk and Developing a Planned Response": [
+      "Planning an engagement",
+      "Understanding an entity and its environment",
+      "Understanding an entity’s control environment and business processes, including information technology (IT) systems",
+      "Materiality",
+      "Assessing and responding to risks of material misstatement, whether due to fraud or error",
+      "Planning for and using the work of others",
+      "Specific areas of engagement risk"
+    ],
+    "Performing Further Procedures and Obtaining Evidence": [
+      "Use of data and information",
+      "Sufficient appropriate evidence",
+      "Sampling techniques",
+      "Procedures to obtain sufficient appropriate evidence",
+      "Specific matters that require special consideration",
+      "Misstatements and internal control deficiencies",
+      "Written representations",
+      "Subsequent events and subsequently discovered facts"
+    ],
+    "Forming Conclusions and Reporting": [
+      "Reporting on audit engagements",
+      "Reporting on attestation engagements",
+      "Accounting and review service engagements",
+      "Reporting on compliance",
+      "Other reporting considerations"
+    ]
+  },
+  "weights": {
+    "Ethics, Professional Responsibilities and General Principles": {
+      "min": 15,
+      "max": 25
+    },
+    "Assessing Risk and Developing a Planned Response": {
+      "min": 25,
+      "max": 35
+    },
+    "Performing Further Procedures and Obtaining Evidence": {
+      "min": 30,
+      "max": 40
+    },
+    "Forming Conclusions and Reporting": {
+      "min": 10,
+      "max": 20
+    }
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": false,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [],
+  "uncovered_item_types": [
+    "task-based simulation"
+  ],
+  "exam_mode": {
+    "questions": 78,
+    "minutes": 120,
+    "sections": 2
+  },
+  "verified_outline": "Uniform CPA Examination Blueprints, effective January 2026 (AUD section)",
+  "verified_on": "2026-10-16",
+  "next_review": "2027-01-01"
+}

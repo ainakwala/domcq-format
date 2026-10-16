@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "cpa-aud",
+  "set": "Uniform CPA Examination: Auditing and Attestation (AUD) practice – Balanced Exam Set 1",
+  "questions": [
+    {
+      "stem": "An audit firm is engaged to audit the financial statements of a nonissuer. A member of the audit engagement team owns shares of the client's common stock through a personal brokerage account. Under the AICPA independence rules, which action is required for the individual to remain on the engagement team?",
+      "options": [
+        "Disclose the investment to the engagement partner before beginning audit procedures.",
+        "Dispose of the investment before participating in the audit engagement.",
+        "Exclude the investment from consideration if its value is immaterial.",
+        "Obtain written approval from the client's audit committee to retain the investment."
+      ],
+      "answer": "B",
+      "explanation": "A direct financial interest in an attest client impairs independence for a covered member regardless of the investment's materiality. The team member must dispose of the financial interest before participating in the engagement or otherwise be removed from the engagement team. Disclosure or client approval does not eliminate this independence impairment.",
+      "topic": "Ethics, Professional Responsibilities and General Principles",
+      "subtopic": "Ethics, independence and professional responsibilities",
+      "difficulty": "easy",
+      "source": "AICPA Code of Professional Conduct, ET Section 1.240, Financial Interests"
+    },
+    {
+      "stem": "During an audit of a nonissuer, management provides an explanation for an unexpected increase in gross profit margin. The explanation conflicts with information obtained from an independent industry report. Which action best demonstrates the auditor's exercise of professional skepticism?",
+      "options": [
+        "Accept management's explanation because management is responsible for financial reporting.",
+        "Reduce the extent of testing because the industry report is not part of the client's accounting records.",
+        "Request a written representation confirming management's explanation and end the investigation.",
+        "Investigate the inconsistency and obtain additional evidence to evaluate management's explanation."
+      ],
+      "answer": "D",
+      "explanation": "Professional skepticism requires a questioning mind and critical assessment of audit evidence, particularly when information from different sources conflicts. The auditor should investigate the inconsistency and obtain sufficient appropriate evidence before reaching a conclusion. A management representation alone does not resolve contradictory evidence.",
+      "topic": "Ethics, Professional Responsibilities and General Principles",
+      "subtopic": "Professional skepticism and professional judgment",
+      "difficulty": "medium",
+      "source": "AU-C Section 200, Overall Objectives of the Independent Auditor and the Conduct of an Audit in Accordance With Generally Accepted Auditing Standards"
+    },
+    {
+      "stem": "Before accepting an initial financial statement audit engagement of a nonissuer, an auditor evaluates whether the preconditions for an audit are present. Which condition must be established before accepting the engagement?",
+      "options": [
+        "Management acknowledges responsibility for preparing the financial statements and providing necessary information and access.",
+        "Management agrees to eliminate all identified internal control deficiencies before fieldwork begins.",
+        "The auditor establishes that the entity has no significant risk of material misstatement.",
+        "Those charged with governance guarantee that the auditor will issue an unmodified opinion."
+      ],
+      "answer": "A",
+      "explanation": "Audit preconditions include management's acknowledgment of its responsibility for preparing the financial statements, maintaining necessary internal control, and providing the auditor with relevant information and unrestricted access to necessary persons. An audit does not require the absence of significant risks or a guarantee of an unmodified opinion.",
+      "topic": "Ethics, Professional Responsibilities and General Principles",
+      "subtopic": "Terms of engagement",
+      "difficulty": "easy",
+      "source": "AU-C Section 210, Terms of Engagement"
+    },
+    {
+      "stem": "An audit firm is establishing policies under the AICPA's Statements on Quality Management Standards. The firm identifies that its existing engagement review procedures may not adequately address risks to audit quality. Which response is most consistent with a risk-based system of quality management?",
+      "options": [
+        "Apply the same additional review procedures to every engagement without evaluating the identified risks.",
+        "Transfer responsibility for audit quality from engagement partners to the firm's administrative personnel.",
+        "Design and implement responses that address the identified quality risks and evaluate whether those responses operate effectively.",
+        "Rely exclusively on periodic external inspections to determine whether the firm's engagement reviews are adequate."
+      ],
+      "answer": "C",
+      "explanation": "A risk-based system of quality management requires the firm to establish quality objectives, identify and assess quality risks, and design responses to address those risks. The firm must also monitor and remediate deficiencies in its system. Applying undifferentiated procedures or relying exclusively on external inspections does not satisfy these responsibilities.",
+      "topic": "Ethics, Professional Responsibilities and General Principles",
+      "subtopic": "Audit and assurance quality",
+      "difficulty": "medium",
+      "source": "SQMS No. 1, A Firm's System of Quality Management"
+    },
+    {
+      "stem": "An auditor is planning a financial statement audit of a nonissuer. Which procedure is specifically required as part of the auditor's initial risk assessment procedures?",
+      "options": [
+        "Confirm all significant accounts receivable balances with customers.",
+        "Perform analytical procedures to identify unusual relationships that may indicate risks of material misstatement.",
+        "Test every significant control to determine whether it operated effectively throughout the year.",
+        "Inspect every journal entry recorded during the final month of the reporting period."
+      ],
+      "answer": "B",
+      "explanation": "Analytical procedures are required during risk assessment to help identify unusual transactions, trends, and relationships that may indicate risks of material misstatement. These procedures contribute to understanding the entity and developing the audit plan. Detailed confirmations and tests of controls are not universally required during initial risk assessment.",
+      "topic": "Assessing Risk and Developing a Planned Response",
+      "subtopic": "Planning an engagement",
+      "difficulty": "easy",
+      "source": "AU-C Section 315, Understanding the Entity and Its Environment and Assessing the Risks of Material Misstatement"
+    },
+    {
+      "stem": "A manufacturer implements a new enterprise resource planning system that automatically records sales transactions and updates its inventory records. The auditor determines that the system uses automated application controls dependent on programmed configurations. Which procedure would most directly help the auditor evaluate the reliability of those application controls?",
+      "options": [
+        "Evaluate relevant IT general controls over program changes and logical access.",
+        "Compare current-year gross profit margins with those of competing manufacturers.",
+        "Obtain a written representation that all system transactions were recorded accurately.",
+        "Inspect the company's organizational chart for approval of the new system."
+      ],
+      "answer": "A",
+      "explanation": "Automated application controls may depend on effective IT general controls, particularly those governing program changes and logical access. Unauthorized changes to programs or configurations could compromise the consistency and reliability of automated processing. Evaluating relevant IT general controls helps determine whether the auditor can rely on the application's controls.",
+      "topic": "Assessing Risk and Developing a Planned Response",
+      "subtopic": "Understanding an entity's control environment and business processes, including information technology (IT) systems",
+      "difficulty": "medium",
+      "source": "AU-C Section 315, Identifying and Assessing Risks Arising From the Use of IT"
+    },
+    {
+      "stem": "An auditor establishes overall materiality at $500,000 for a financial statement audit. The auditor then establishes performance materiality at $300,000. What is the primary purpose of setting performance materiality below overall materiality?",
+      "options": [
+        "To establish the maximum amount of misstatement that management is legally permitted to record.",
+        "To ensure that every individually immaterial misstatement is corrected before the audit opinion is issued.",
+        "To eliminate the need to reassess materiality when audit circumstances change.",
+        "To reduce the probability that aggregate uncorrected and undetected misstatements exceed overall materiality."
+      ],
+      "answer": "D",
+      "explanation": "Performance materiality is set below overall materiality to reduce to an appropriately low level the probability that aggregate uncorrected and undetected misstatements exceed materiality for the financial statements as a whole. It provides a margin when designing and performing audit procedures. It does not establish a legal threshold or eliminate reassessment.",
+      "topic": "Assessing Risk and Developing a Planned Response",
+      "subtopic": "Materiality",
+      "difficulty": "easy",
+      "source": "AU-C Section 320, Materiality in Planning and Performing an Audit"
+    },
+    {
+      "stem": "During the planning of a nonissuer's audit, the auditor identifies a significant fraud risk involving management's potential manipulation of revenue recognition. Which planned response is most appropriate?",
+      "options": [
+        "Rely exclusively on analytical procedures because revenue is already subject to management review.",
+        "Decrease substantive testing if prior-year audits did not identify revenue misstatements.",
+        "Design substantive procedures specifically responsive to the assessed fraud risk in revenue recognition.",
+        "Restrict fraud-related procedures to inquiries of management about the accounting policies used."
+      ],
+      "answer": "C",
+      "explanation": "An assessed significant fraud risk requires audit procedures specifically responsive to that risk. The auditor should design and perform substantive procedures addressing the relevant assertions, such as occurrence or cutoff, depending on the identified fraud scheme. Management inquiries or prior-year results alone are insufficient responses.",
+      "topic": "Assessing Risk and Developing a Planned Response",
+      "subtopic": "Assessing and responding to risks of material misstatement, whether due to fraud or error",
+      "difficulty": "medium",
+      "source": "AU-C Sections 240 and 330, Consideration of Fraud and Performing Audit Procedures in Response to Assessed Risks"
+    },
+    {
+      "stem": "An audit team plans to use the work of a valuation specialist to evaluate the fair value of a complex financial instrument. The specialist is employed by the audit firm. Which consideration is most important when determining whether the specialist's work can be used as audit evidence?",
+      "options": [
+        "Whether the specialist has previously worked with the client's management team.",
+        "Whether the specialist has the necessary competence, capabilities, and objectivity for the work.",
+        "Whether the specialist agrees with the financial instrument's valuation before examining the assumptions.",
+        "Whether the specialist's involvement eliminates the engagement partner's responsibility for the audit opinion."
+      ],
+      "answer": "B",
+      "explanation": "When using an auditor's expert, the auditor must evaluate the expert's competence, capabilities, and objectivity, as applicable, and assess the adequacy of the expert's work for the auditor's purposes. The engagement partner retains responsibility for the audit opinion. The specialist's conclusions must be evaluated rather than accepted without sufficient consideration.",
+      "topic": "Assessing Risk and Developing a Planned Response",
+      "subtopic": "Planning for and using the work of others",
+      "difficulty": "medium",
+      "source": "AU-C Section 620, Using the Work of an Auditor's Specialist"
+    },
+    {
+      "stem": "An auditor is planning an audit of a nonissuer whose largest customer entered bankruptcy proceedings shortly after year-end. Evidence indicates that the customer had severe financial difficulties before the balance sheet date. The receivable represents 18% of total assets. Which planning response is most appropriate?",
+      "options": [
+        "Treat the bankruptcy solely as a subsequent-period event requiring no additional audit consideration.",
+        "Assume the receivable is fully collectible because the customer had not filed for bankruptcy at year-end.",
+        "Reduce the assessed risk because the bankruptcy filing occurred after the reporting date.",
+        "Identify a heightened risk related to receivable valuation and plan procedures addressing recoverability at year-end."
+      ],
+      "answer": "D",
+      "explanation": "Evidence of financial difficulties existing before year-end can indicate that a receivable was impaired as of the financial statement date. The auditor should assess the related valuation risk and plan procedures addressing collectibility, including the implications of subsequent evidence. The bankruptcy filing date alone does not determine whether an adjustment is necessary.",
+      "topic": "Assessing Risk and Developing a Planned Response",
+      "subtopic": "Specific areas of engagement risk",
+      "difficulty": "hard",
+      "source": "AU-C Sections 315, 330, and 560, Risk Assessment, Responses to Assessed Risks, and Subsequent Events"
+    },
+    {
+      "stem": "An auditor obtains a year-end bank confirmation directly from a client's bank and compares the confirmed balance with the client's bank reconciliation. Why is the bank confirmation generally considered more reliable than an internally prepared cash balance report?",
+      "options": [
+        "It is obtained directly from an independent external source.",
+        "It has been approved by the client's chief financial officer.",
+        "It includes information previously entered into the general ledger.",
+        "It eliminates the possibility of any misstatement in the cash account."
+      ],
+      "answer": "A",
+      "explanation": "Audit evidence obtained directly from an independent external source is generally more reliable than evidence generated internally. A bank confirmation provides independent evidence about information maintained by the bank. It does not, by itself, prove that all cash transactions or reconciling items are correctly recorded.",
+      "topic": "Performing Further Procedures and Obtaining Evidence",
+      "subtopic": "Sufficient appropriate evidence",
+      "difficulty": "easy",
+      "source": "AU-C Section 500, Audit Evidence"
+    },
+    {
+      "stem": "An auditor is testing whether a nonissuer's control requiring supervisory approval of purchase orders operated effectively throughout the year. The auditor selects a sample of purchase orders and checks each for evidence of approval. Which sampling approach is most appropriate for this objective?",
+      "options": [
+        "Monetary-unit sampling to estimate the total dollar amount of unrecorded purchase orders.",
+        "Variables sampling to estimate the average purchase order value.",
+        "Attribute sampling to estimate the rate of deviations from the approval control.",
+        "Classical variables sampling to estimate the recorded accounts payable balance."
+      ],
+      "answer": "C",
+      "explanation": "Attribute sampling is used in tests of controls to estimate the frequency with which a specified control attribute is present or absent. Here, the relevant attribute is evidence of supervisory approval. Variables sampling techniques are generally used to estimate monetary amounts rather than control deviation rates.",
+      "topic": "Performing Further Procedures and Obtaining Evidence",
+      "subtopic": "Sampling techniques",
+      "difficulty": "medium",
+      "source": "AU-C Section 530, Audit Sampling"
+    },
+    {
+      "stem": "An auditor of a retailer selects recorded inventory items from the perpetual inventory records and locates the corresponding physical goods during a year-end inventory count. Which financial statement assertion is most directly tested by this procedure?",
+      "options": [
+        "Completeness of the inventory balance.",
+        "Existence of the recorded inventory.",
+        "Valuation of inventory at the lower of cost and net realizable value.",
+        "Rights and obligations relating to goods held on consignment."
+      ],
+      "answer": "B",
+      "explanation": "Tracing from recorded inventory items to the physical goods primarily tests whether the recorded assets actually exist. To test completeness, the auditor would generally select physical items and trace them back to the inventory records. Valuation and ownership require different audit evidence.",
+      "topic": "Performing Further Procedures and Obtaining Evidence",
+      "subtopic": "Procedures to obtain sufficient appropriate evidence",
+      "difficulty": "easy",
+      "source": "AU-C Section 501, Audit Evidence—Specific Considerations for Selected Items"
+    },
+    {
+      "stem": "An auditor uses generalized audit software to identify duplicate vendor payments in a population of 250,000 disbursements. The analysis identifies 400 potentially duplicated transactions. Which procedure best addresses the reliability of the data before the auditor draws conclusions from the analysis?",
+      "options": [
+        "Assume the extracted population is complete because the software processed all records it received.",
+        "Accept the results if the total number of exceptions represents less than 1% of transactions.",
+        "Rely on management's assertion that the accounting system normally processes transactions accurately.",
+        "Evaluate the completeness and accuracy of the extracted disbursement data, including reconciling relevant totals to the accounting records."
+      ],
+      "answer": "D",
+      "explanation": "Audit data analytics depend on the relevance and reliability of the underlying information. Before relying on the results, the auditor should evaluate whether the extracted population is complete and accurate, including appropriate reconciliation and validation procedures. A small exception rate does not establish data reliability.",
+      "topic": "Performing Further Procedures and Obtaining Evidence",
+      "subtopic": "Use of data and information",
+      "difficulty": "medium",
+      "source": "AU-C Section 500, Audit Evidence—Information to Be Used as Audit Evidence"
+    },
+    {
+      "stem": "During the audit of a nonissuer, the auditor identifies a deficiency in internal control that is less severe than a material weakness but important enough to merit attention by those charged with governance. How should the auditor classify this deficiency?",
+      "options": [
+        "As an immaterial misstatement.",
+        "As an inherent limitation of the audit.",
+        "As a significant deficiency.",
+        "As a material weakness."
+      ],
+      "answer": "C",
+      "explanation": "A significant deficiency is a deficiency or combination of deficiencies in internal control that is less severe than a material weakness but sufficiently important to merit the attention of those charged with governance. A material weakness involves a reasonable possibility that a material misstatement will not be prevented, or detected and corrected, on a timely basis. Classification depends on the likelihood and magnitude of potential misstatements.",
+      "topic": "Performing Further Procedures and Obtaining Evidence",
+      "subtopic": "Misstatements and internal control deficiencies",
+      "difficulty": "medium",
+      "source": "AU-C Section 265, Communicating Internal Control Related Matters Identified in an Audit"
+    },
+    {
+      "stem": "An auditor uses monetary-unit sampling to test the existence of accounts receivable. The population has a recorded value of $5,000,000, a sampling interval of $50,000, and a sampling risk allowance of 5% for the purposes of the sample evaluation. One selected account has a recorded balance of $40,000 but an audited value of $30,000. Assuming the account is smaller than the sampling interval and is the only detected misstatement, what is the projected misstatement attributable to this account using the monetary-unit sampling tainting method?",
+      "options": [
+        "$12,500",
+        "$10,000",
+        "$50,000",
+        "$40,000"
+      ],
+      "answer": "A",
+      "explanation": "The misstatement is $10,000, representing a tainting percentage of 25% ($10,000 divided by $40,000). For a selected item smaller than the sampling interval, the projected misstatement is the tainting percentage multiplied by the $50,000 sampling interval, giving $12,500. The sampling risk allowance is considered separately when evaluating the upper misstatement limit.",
+      "topic": "Performing Further Procedures and Obtaining Evidence",
+      "subtopic": "Sampling techniques",
+      "difficulty": "hard",
+      "source": "AU-C Section 530, Audit Sampling—Monetary-Unit Sampling and Evaluation of Sample Results"
+    },
+    {
+      "stem": "An auditor is auditing the December 31 financial statements of a nonissuer. On February 10, before the auditor's report date, a major customer declares bankruptcy. The auditor obtains evidence that the customer had substantial financial difficulties at December 31. Management refuses to adjust a material receivable balance. The misstatement is material but not pervasive. Which action is most appropriate?",
+      "options": [
+        "Issue an unmodified opinion because the bankruptcy occurred after the balance sheet date.",
+        "Express a qualified opinion if management continues to refuse the necessary adjustment.",
+        "Disclaim an opinion because the subsequent bankruptcy prevents sufficient audit evidence from being obtained.",
+        "Issue an adverse opinion because every material uncorrected misstatement requires an adverse opinion."
+      ],
+      "answer": "B",
+      "explanation": "The bankruptcy provides evidence about conditions existing at the balance sheet date, making it an adjusting subsequent event. If the resulting uncorrected misstatement is material but not pervasive, a qualified opinion is appropriate. An adverse opinion would require the misstatement to be both material and pervasive.",
+      "topic": "Performing Further Procedures and Obtaining Evidence",
+      "subtopic": "Subsequent events and subsequently discovered facts",
+      "difficulty": "hard",
+      "source": "AU-C Sections 560 and 705, Subsequent Events and Modifications to the Opinion"
+    },
+    {
+      "stem": "An auditor of a nonissuer concludes that the financial statements contain a departure from the applicable financial reporting framework. Management refuses to correct the departure, and the auditor determines that the misstatement is both material and pervasive. Which audit opinion is appropriate?",
+      "options": [
+        "A qualified opinion because the misstatement is material.",
+        "A disclaimer of opinion because management refuses to make corrections.",
+        "An unmodified opinion with an emphasis-of-matter paragraph.",
+        "An adverse opinion because the misstatement is material and pervasive."
+      ],
+      "answer": "D",
+      "explanation": "An adverse opinion is appropriate when the auditor has obtained sufficient appropriate evidence and concludes that misstatements, individually or in the aggregate, are both material and pervasive. A qualified opinion is appropriate when a material misstatement is not pervasive. A disclaimer addresses an inability to obtain sufficient appropriate evidence rather than an established pervasive misstatement.",
+      "topic": "Forming Conclusions and Reporting",
+      "subtopic": "Reporting on audit engagements",
+      "difficulty": "medium",
+      "source": "AU-C Section 705, Modifications to the Opinion in the Independent Auditor's Report"
+    },
+    {
+      "stem": "A CPA is engaged to perform a review of a nonissuer's annual financial statements under SSARS. Management asks whether the review will provide reasonable assurance that the financial statements are free from material misstatement. Which response correctly describes the assurance provided by the engagement?",
+      "options": [
+        "The review provides reasonable assurance because analytical procedures are required.",
+        "The review provides no assurance because the CPA does not perform audit procedures.",
+        "The review provides limited assurance based primarily on inquiry and analytical procedures.",
+        "The review provides absolute assurance over financial statement accuracy except for fraud."
+      ],
+      "answer": "C",
+      "explanation": "A financial statement review under SSARS provides limited assurance, expressed in a conclusion that the accountant is not aware of material modifications necessary for the statements to conform to the applicable reporting framework. Review procedures primarily consist of inquiries and analytical procedures, supplemented when necessary. A review does not provide the reasonable assurance associated with an audit.",
+      "topic": "Forming Conclusions and Reporting",
+      "subtopic": "Accounting and review service engagements",
+      "difficulty": "medium",
+      "source": "AR-C Section 90, Review of Financial Statements"
+    },
+    {
+      "stem": "An independent auditor audits a nonissuer's financial statements in accordance with both generally accepted auditing standards and Government Auditing Standards. During the audit, the auditor identifies no significant deficiencies or material weaknesses and no reportable instances of noncompliance. Which reporting approach is appropriate under Government Auditing Standards?",
+      "options": [
+        "Issue the required report on internal control over financial reporting and on compliance and other matters, even though no reportable findings were identified.",
+        "Omit reporting on internal control and compliance because no significant findings were identified.",
+        "Express an unmodified opinion on the effectiveness of internal control in the financial statement audit report.",
+        "Provide an internal control effectiveness opinion only to management because the audit found no reportable deficiencies."
+      ],
+      "answer": "A",
+      "explanation": "For a financial audit conducted under Government Auditing Standards, the auditor must report on internal control over financial reporting and on compliance and other matters, even when no significant deficiencies, material weaknesses, or reportable noncompliance are identified. This reporting describes the scope and results of the work performed and ordinarily does not express an opinion on internal control effectiveness. The required reporting may be presented separately or in a combined report with the financial statement audit report.",
+      "topic": "Forming Conclusions and Reporting",
+      "subtopic": "Reporting on compliance",
+      "difficulty": "hard",
+      "source": "GAO Government Auditing Standards (Yellow Book), Reporting Standards for Financial Audits"
+    }
+  ]
+}
