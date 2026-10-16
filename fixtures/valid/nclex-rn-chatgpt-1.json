@@ -1,0 +1,313 @@
+{
+  "format": "domcq/1",
+  "exam": "nclex-rn",
+  "set": "NCLEX-RN Practice – Clinical Judgment and Safe Nursing Care",
+  "questions": [
+    {
+      "stem": "The charge nurse on a medical-surgical unit is assigning care to a licensed practical/vocational nurse (LPN/VN). Which of the following clients would be most appropriate to assign to the LPN/VN?",
+      "options": [
+        "A client admitted 30 minutes ago with chest pain who requires an initial assessment",
+        "A client with stable heart failure who requires scheduled oral medications and routine monitoring",
+        "A client who developed sudden confusion and unilateral weakness 15 minutes ago",
+        "A client receiving a first blood transfusion who requires assessment during initiation"
+      ],
+      "answer": "B",
+      "explanation": "An LPN/VN can generally provide routine care, administer permitted medications, and monitor clients with stable, predictable conditions under appropriate supervision. Initial comprehensive assessments, evaluation of acute neurological changes, and responsibilities requiring RN-level assessment and clinical judgment should remain with the RN. Delegation must also comply with the applicable nurse practice act and institutional policy.",
+      "topic": "Management of Care",
+      "subtopic": "Assignment, Delegation and Supervision",
+      "difficulty": "medium",
+      "source": "NCSBN 2026 NCLEX-RN Test Plan: Management of Care – Assignment, Delegation and Supervision"
+    },
+    {
+      "stem": "A client scheduled for a laparoscopic cholecystectomy tells the nurse, \"I signed the consent form, but I still do not understand why the surgery is necessary.\" Which of the following actions should the nurse take?",
+      "options": [
+        "Explain the surgical procedure and obtain a second signed consent form",
+        "Document that the client signed the consent form and continue preparation",
+        "Ask a family member to explain the reason for surgery to the client",
+        "Notify the surgeon that the client needs additional information before surgery"
+      ],
+      "answer": "D",
+      "explanation": "The provider performing the procedure is responsible for explaining its purpose, risks, benefits, and alternatives so the client can make an informed decision. The nurse should advocate for the client by notifying the surgeon when the client expresses inadequate understanding. A signature alone does not establish informed consent.",
+      "topic": "Management of Care",
+      "subtopic": "Informed Consent",
+      "difficulty": "easy",
+      "source": "NCSBN 2026 NCLEX-RN Test Plan: Management of Care – Informed Consent"
+    },
+    {
+      "stem": "The nurse receives reports on four clients at the beginning of the shift. Which client should the nurse assess first?",
+      "options": [
+        "A client 2 hours after thyroidectomy who has new inspiratory stridor",
+        "A client with chronic obstructive pulmonary disease whose oxygen saturation is 91% at the prescribed oxygen flow",
+        "A client with a urinary tract infection who reports burning during urination",
+        "A client 1 day after knee replacement who reports incisional pain rated 6 out of 10"
+      ],
+      "answer": "A",
+      "explanation": "New inspiratory stridor after thyroidectomy suggests potentially life-threatening upper airway obstruction from swelling or a hematoma. Immediate airway assessment and emergency intervention take priority. The other clients require care but do not present the same immediate threat to airway patency.",
+      "topic": "Management of Care",
+      "subtopic": "Establishing Priorities",
+      "difficulty": "medium",
+      "source": "NCSBN 2026 NCLEX-RN Test Plan: Management of Care – Establishing Priorities"
+    },
+    {
+      "stem": "An alert, competent adult client with end-stage kidney disease tells the nurse that the client wishes to discontinue dialysis despite understanding that death is likely to occur sooner. The client's family insists that treatment continue. Which of the following actions should the nurse take?",
+      "options": [
+        "Continue dialysis until the family members reach a unanimous decision",
+        "Request a psychiatric evaluation before discussing treatment withdrawal",
+        "Support the client's decision and notify the health care team of the client's wishes",
+        "Ask the ethics committee to authorize discontinuation before informing the provider"
+      ],
+      "answer": "C",
+      "explanation": "A decisionally capable adult has the right to refuse or withdraw treatment, even when that decision may shorten life. The nurse should respect the client's autonomy, ensure the decision is communicated to the health care team, and facilitate appropriate discussions about goals of care and symptom management. Family disagreement does not override the capable client's treatment decision.",
+      "topic": "Management of Care",
+      "subtopic": "Advance Directives/Self-Determination/Life Planning",
+      "difficulty": "hard",
+      "source": "NCSBN 2026 NCLEX-RN Test Plan: Management of Care – Client Rights and Advance Directives/Self-Determination/Life Planning"
+    },
+    {
+      "stem": "A client is admitted with suspected pulmonary tuberculosis and has a persistent cough, night sweats, and an abnormal chest radiograph. Which infection prevention measures should the nurse implement? Select all that apply.",
+      "options": [
+        "Place the client in an airborne infection isolation room with negative pressure",
+        "Wear a fit-tested N95 respirator or higher-level respiratory protection when entering the room",
+        "Place a surgical mask on the client when transport outside the room is necessary",
+        "Use a positive-pressure protective environment room for routine isolation",
+        "Keep the room door closed except when entering or leaving",
+        "Require routine use of sterile gloves for all interactions with the client"
+      ],
+      "answer": "ABCE",
+      "explanation": "Suspected pulmonary tuberculosis requires airborne precautions, including an appropriate negative-pressure isolation room and respiratory protection for staff. The client should wear a surgical mask during necessary transport, and the isolation room door should remain closed. Positive-pressure rooms protect selected immunocompromised clients, while sterile gloves are not routinely necessary for tuberculosis precautions.",
+      "topic": "Safety and Infection Prevention and Control",
+      "subtopic": "Standard Precautions/Transmission-Based Precautions/Surgical Asepsis",
+      "difficulty": "medium",
+      "source": "NCSBN 2026 NCLEX-RN Test Plan: Safety and Infection Prevention and Control – Transmission-Based Precautions; CDC Guideline for Isolation Precautions"
+    },
+    {
+      "stem": "The nurse discovers that a hospitalized client received 10 units of rapid-acting insulin instead of the prescribed 6 units. The client is awake and has no symptoms. Which action should the nurse take first?",
+      "options": [
+        "Complete an institutional medication incident report",
+        "Inform the prescribing provider of the administration error",
+        "Document the error and its circumstances in the medical record",
+        "Check the client's blood glucose level immediately"
+      ],
+      "answer": "D",
+      "explanation": "Following an insulin administration error, the nurse's immediate priority is assessing the client for potential harm, including hypoglycemia. Blood glucose measurement guides urgent treatment and monitoring. Provider notification, documentation, and incident reporting are also necessary but follow the immediate safety assessment.",
+      "topic": "Safety and Infection Prevention and Control",
+      "subtopic": "Accident/Error/Injury Prevention",
+      "difficulty": "medium",
+      "source": "NCSBN 2026 NCLEX-RN Test Plan: Safety and Infection Prevention and Control – Accident/Error/Injury Prevention"
+    },
+    {
+      "stem": "A nurse is teaching a pregnant client at 28 weeks of gestation about warning signs that require immediate evaluation. Which client statement indicates correct understanding?",
+      "options": [
+        "I should seek immediate evaluation if I develop a severe headache with blurred vision",
+        "I should expect persistent swelling of my face and hands during the third trimester",
+        "I should reduce my water intake if I begin experiencing intermittent leg cramps",
+        "I should wait until my next appointment if I notice a sudden decrease in fetal movements"
+      ],
+      "answer": "A",
+      "explanation": "A severe headache with visual disturbances after 20 weeks of gestation can indicate preeclampsia with severe features and requires prompt evaluation. Sudden facial or hand swelling and decreased fetal movements also warrant assessment rather than routine reassurance. Recognizing these warning signs supports early identification of potentially serious maternal or fetal complications.",
+      "topic": "Health Promotion and Maintenance",
+      "subtopic": "Ante-/Intra-/Postpartum and Newborn Care",
+      "difficulty": "easy",
+      "source": "NCSBN 2026 NCLEX-RN Test Plan: Health Promotion and Maintenance – Ante-/Intra-/Postpartum Care; ACOG Guidance on Preeclampsia"
+    },
+    {
+      "stem": "During a routine health visit, the nurse assesses a healthy 9-month-old infant born at term. Which developmental finding should the nurse expect?",
+      "options": [
+        "Walking independently across the examination room",
+        "Sitting without support and transferring objects between hands",
+        "Using three-word sentences to request familiar objects",
+        "Drawing a circle after watching an adult demonstrate"
+      ],
+      "answer": "B",
+      "explanation": "By approximately 9 months, most infants can sit without support and move objects between their hands. Independent walking, multiword sentences, and copying geometric shapes are developmental achievements expected at later ages. Assessment of milestones helps identify children who may need further developmental evaluation.",
+      "topic": "Health Promotion and Maintenance",
+      "subtopic": "Developmental Stages and Transitions",
+      "difficulty": "easy",
+      "source": "NCSBN 2026 NCLEX-RN Test Plan: Health Promotion and Maintenance – Developmental Stages and Transitions; CDC Developmental Milestones"
+    },
+    {
+      "stem": "A client hospitalized after a suicide attempt tells the nurse, \"I have been thinking about ending my life again, and I know how I would do it.\" Which of the following actions should the nurse take first?",
+      "options": [
+        "Encourage the client to write about the thoughts in a journal",
+        "Ask the client to identify positive events from the past week",
+        "Remain with the client and initiate the facility's immediate suicide safety precautions",
+        "Suggest that the client discuss these feelings during the next therapy session"
+      ],
+      "answer": "C",
+      "explanation": "Current suicidal thoughts accompanied by a method or plan indicate significant immediate safety risk. The nurse should remain with the client, ensure close observation, reduce access to dangerous objects, and arrange urgent assessment according to facility protocol. Supportive discussions are appropriate after immediate safety is established.",
+      "topic": "Psychosocial Integrity",
+      "subtopic": "Crisis Intervention",
+      "difficulty": "medium",
+      "source": "NCSBN 2026 NCLEX-RN Test Plan: Psychosocial Integrity – Crisis Intervention and Mental Health Concepts"
+    },
+    {
+      "stem": "A client whose spouse died 2 days ago tells the nurse, \"I cannot imagine living in our house without my spouse.\" Which response by the nurse is most therapeutic?",
+      "options": [
+        "You will probably feel much better once you return to your usual activities.",
+        "You should consider moving to a smaller home after the funeral.",
+        "Your spouse would likely want you to focus on the positive memories.",
+        "Tell me what you think will be most difficult about returning home."
+      ],
+      "answer": "D",
+      "explanation": "An open-ended invitation encourages the grieving client to express feelings and identify specific concerns. Therapeutic communication focuses on listening, acknowledging the loss, and exploring the client's experience without imposing solutions. Premature reassurance or advice can interfere with emotional expression.",
+      "topic": "Psychosocial Integrity",
+      "subtopic": "Therapeutic Communication",
+      "difficulty": "easy",
+      "source": "NCSBN 2026 NCLEX-RN Test Plan: Psychosocial Integrity – Therapeutic Communication and Grief and Loss"
+    },
+    {
+      "stem": "A nurse is planning care for an older adult with limited mobility who is at high risk for pressure injuries. Which interventions should the nurse include in the care plan? Select all that apply.",
+      "options": [
+        "Reposition the client at intervals individualized to the client's condition and support surface",
+        "Massage reddened areas over bony prominences to stimulate circulation",
+        "Keep the head of the bed elevated to 45 degrees continuously",
+        "Use a pressure-redistributing support surface appropriate to the client's risk",
+        "Keep the skin clean and dry while managing moisture associated with incontinence",
+        "Assess nutritional status and address inadequate protein and calorie intake"
+      ],
+      "answer": "ADEF",
+      "explanation": "Pressure injury prevention includes individualized repositioning, suitable support surfaces, moisture management, and adequate nutrition. Massaging reddened bony areas may damage vulnerable tissue. Prolonged unnecessary head-of-bed elevation increases shear and should be avoided when not clinically indicated.",
+      "topic": "Basic Care and Comfort",
+      "subtopic": "Mobility/Immobility",
+      "difficulty": "medium",
+      "source": "NCSBN 2026 NCLEX-RN Test Plan: Basic Care and Comfort – Mobility/Immobility; International Guideline for Prevention and Treatment of Pressure Ulcers/Injuries"
+    },
+    {
+      "stem": "The nurse is teaching a client who recently began using a cane because of weakness in the left leg. Which instruction should the nurse provide?",
+      "options": [
+        "Hold the cane in the left hand and move it after advancing the right leg",
+        "Hold the cane in the right hand and advance it with the left leg",
+        "Hold the cane in the left hand and advance it with the left leg",
+        "Hold the cane in the right hand and advance it with the right leg"
+      ],
+      "answer": "B",
+      "explanation": "A cane is generally held on the side opposite the weaker or affected leg. Moving the cane forward with the weaker leg increases the base of support and reduces weight-bearing demands on that leg. The stronger leg then advances to complete the walking sequence.",
+      "topic": "Basic Care and Comfort",
+      "subtopic": "Assistive Devices",
+      "difficulty": "easy",
+      "source": "NCSBN 2026 NCLEX-RN Test Plan: Basic Care and Comfort – Assistive Devices"
+    },
+    {
+      "stem": "A client with atrial fibrillation takes warfarin daily. The nurse reviews the client's laboratory results and finds an INR of 5.8. The client has no evidence of active bleeding. Which action should the nurse take?",
+      "options": [
+        "Withhold the scheduled warfarin dose and notify the prescribing provider",
+        "Administer the scheduled warfarin dose with additional oral fluids",
+        "Prepare to administer intravenous protamine sulfate immediately",
+        "Encourage the client to increase intake of aspirin-containing medications"
+      ],
+      "answer": "A",
+      "explanation": "An INR of 5.8 is substantially above the usual therapeutic range for atrial fibrillation and increases bleeding risk. The nurse should withhold the scheduled dose and notify the prescriber for further management and INR monitoring. Protamine reverses heparin rather than warfarin, and aspirin further increases bleeding risk.",
+      "topic": "Pharmacological and Parenteral Therapies",
+      "subtopic": "Adverse Effects/Contraindications/Side Effects/Interactions",
+      "difficulty": "medium",
+      "source": "NCSBN 2026 NCLEX-RN Test Plan: Pharmacological and Parenteral Therapies – Adverse Effects and Medication Administration; ACCP Guidance on Management of Elevated INR"
+    },
+    {
+      "stem": "A client receiving packed red blood cells develops chills, flank pain, fever, and hypotension 15 minutes after the transfusion begins. Which of the following actions should the nurse take first?",
+      "options": [
+        "Decrease the transfusion rate and reassess the client's vital signs",
+        "Administer acetaminophen and continue the transfusion slowly",
+        "Stop the transfusion immediately and maintain intravenous access with normal saline using new tubing",
+        "Flush the remaining blood through the existing tubing to clear the intravenous line"
+      ],
+      "answer": "C",
+      "explanation": "These findings suggest an acute hemolytic transfusion reaction, which may rapidly cause shock, kidney injury, and death. The nurse must immediately stop the transfusion and maintain intravenous access with normal saline through new tubing. The nurse should then notify the provider and blood bank and follow the transfusion reaction protocol.",
+      "topic": "Pharmacological and Parenteral Therapies",
+      "subtopic": "Blood and Blood Products",
+      "difficulty": "medium",
+      "source": "NCSBN 2026 NCLEX-RN Test Plan: Pharmacological and Parenteral Therapies – Blood and Blood Products"
+    },
+    {
+      "stem": "A client receiving total parenteral nutrition (TPN) through a central venous catheter has the infusion unexpectedly interrupted because the solution bag is empty. A replacement bag is not immediately available. The client has no fluid restriction or contraindication to dextrose-containing fluids. Which action should the nurse anticipate while obtaining the replacement TPN?",
+      "options": [
+        "Infuse 0.9% sodium chloride at the previous TPN infusion rate",
+        "Leave the central catheter capped until the replacement TPN arrives",
+        "Administer a rapid intravenous bolus of regular insulin",
+        "Infuse 10% dextrose in water at the prescribed temporary replacement rate"
+      ],
+      "answer": "D",
+      "explanation": "Abrupt interruption of TPN can cause hypoglycemia, particularly in clients receiving substantial amounts of dextrose. A temporary infusion of 10% dextrose, according to the prescribed or institutional protocol, helps prevent a sudden reduction in glucose delivery. The nurse should also monitor blood glucose and resume TPN when available.",
+      "topic": "Pharmacological and Parenteral Therapies",
+      "subtopic": "Total Parenteral Nutrition",
+      "difficulty": "hard",
+      "source": "NCSBN 2026 NCLEX-RN Test Plan: Pharmacological and Parenteral Therapies – Total Parenteral Nutrition"
+    },
+    {
+      "stem": "A client with a serum potassium level of 6.7 mEq/L (6.7 mmol/L) is being assessed by the nurse. Which electrocardiographic finding is most strongly associated with this electrolyte abnormality?",
+      "options": [
+        "Prominent U waves following the T waves",
+        "Tall, narrow, peaked T waves in multiple leads",
+        "Flattened T waves with ST-segment depression",
+        "Prolonged QT interval with a clearly visible U wave"
+      ],
+      "answer": "B",
+      "explanation": "Hyperkalemia commonly produces tall, peaked T waves and can progress to PR prolongation, QRS widening, and life-threatening arrhythmias. A potassium level of 6.7 mEq/L is severe and warrants immediate cardiac monitoring and urgent treatment. Prominent U waves and flattened T waves are more characteristic of hypokalemia.",
+      "topic": "Reduction of Risk Potential",
+      "subtopic": "Laboratory Values",
+      "difficulty": "medium",
+      "source": "NCSBN 2026 NCLEX-RN Test Plan: Reduction of Risk Potential – Laboratory Values and System-Specific Assessments"
+    },
+    {
+      "stem": "A client underwent a femoral arterial cardiac catheterization 1 hour ago. The nurse observes a rapidly expanding hematoma at the femoral access site, and the client's blood pressure has decreased from 128/76 mm Hg to 92/58 mm Hg. Which action should the nurse take first?",
+      "options": [
+        "Apply firm manual pressure directly over the access site and activate emergency assistance",
+        "Elevate the affected leg above heart level and reassess the site in 15 minutes",
+        "Assist the client to ambulate to promote circulation in the affected extremity",
+        "Apply a warm compress to the hematoma and document the findings"
+      ],
+      "answer": "A",
+      "explanation": "An expanding femoral hematoma accompanied by hypotension suggests significant arterial bleeding. Immediate firm pressure at the access site helps control hemorrhage while emergency assistance and further treatment are arranged. Delaying intervention can result in substantial blood loss and hemodynamic instability.",
+      "topic": "Reduction of Risk Potential",
+      "subtopic": "Potential for Complications of Diagnostic Tests/Treatments/Procedures",
+      "difficulty": "hard",
+      "source": "NCSBN 2026 NCLEX-RN Test Plan: Reduction of Risk Potential – Potential for Complications of Diagnostic Tests/Treatments/Procedures"
+    },
+    {
+      "stem": "A client with type 1 diabetes mellitus presents with diabetic ketoacidosis. Laboratory results show a blood glucose of 485 mg/dL (26.9 mmol/L), arterial pH of 7.18, and serum potassium of 3.0 mEq/L (3.0 mmol/L). The provider prescribes intravenous regular insulin and potassium replacement. Which action should the nurse anticipate as the immediate priority before beginning the insulin infusion?",
+      "options": [
+        "Administer intravenous sodium bicarbonate to normalize the arterial pH",
+        "Begin the insulin infusion immediately to reduce circulating glucose",
+        "Replace potassium while continuing appropriate intravenous fluid therapy",
+        "Restrict intravenous fluids until blood glucose falls below 250 mg/dL"
+      ],
+      "answer": "C",
+      "explanation": "Insulin moves potassium into cells and can worsen existing hypokalemia, potentially precipitating dangerous cardiac arrhythmias. With a potassium level of 3.0 mEq/L, potassium replacement must begin and insulin should be delayed until potassium is above the recommended safety threshold, generally 3.5 mEq/L under current adult DKA guidance. Fluid resuscitation and close electrolyte monitoring remain essential.",
+      "topic": "Physiological Adaptation",
+      "subtopic": "Fluid and Electrolyte Imbalances",
+      "difficulty": "hard",
+      "source": "NCSBN 2026 NCLEX-RN Test Plan: Physiological Adaptation – Fluid and Electrolyte Imbalances; Hyperglycemic Crises in Adults With Diabetes Consensus Report (2024)"
+    },
+    {
+      "stem": "A client with a history of asthma is admitted with severe wheezing and shortness of breath. After receiving nebulized bronchodilator treatment, the nurse finds that the client is becoming drowsy, has markedly diminished breath sounds, and has an oxygen saturation of 86% despite supplemental oxygen. Which action should the nurse take first?",
+      "options": [
+        "Encourage the client to use pursed-lip breathing and reassess in 20 minutes",
+        "Activate the rapid response team and prepare for emergency airway support",
+        "Ask the client to demonstrate correct use of a metered-dose inhaler",
+        "Obtain a routine peak expiratory flow measurement before contacting the provider"
+      ],
+      "answer": "B",
+      "explanation": "Drowsiness, severely diminished breath sounds, and persistent hypoxemia in acute asthma indicate impending respiratory failure. The nurse should urgently activate emergency assistance and prepare for advanced airway and ventilatory support. These findings are more concerning than audible wheezing because they may indicate critically reduced airflow and respiratory muscle fatigue.",
+      "topic": "Physiological Adaptation",
+      "subtopic": "Medical Emergencies",
+      "difficulty": "medium",
+      "source": "NCSBN 2026 NCLEX-RN Test Plan: Physiological Adaptation – Medical Emergencies; Global Initiative for Asthma (GINA) Strategy Report"
+    },
+    {
+      "stem": "A client with acute pancreatitis has received intravenous fluid resuscitation and prescribed analgesia. Which findings should the nurse recognize as possible evidence of worsening systemic complications? Select all that apply.",
+      "options": [
+        "Blood pressure of 84/50 mm Hg with a heart rate of 124/min",
+        "Urine output averaging 45 mL/hr in an adult weighing 70 kg",
+        "Oxygen saturation of 88% on room air with increasing respiratory effort",
+        "New confusion accompanied by cool, mottled extremities",
+        "Temperature of 38.9 degrees Celsius (102 degrees Fahrenheit) with increasing tachycardia",
+        "Decreasing abdominal pain after prescribed analgesic administration"
+      ],
+      "answer": "ACDE",
+      "explanation": "Acute pancreatitis can cause systemic inflammation, capillary leakage, shock, respiratory failure, and organ dysfunction. Hypotension with tachycardia, hypoxemia, altered mental status with poor peripheral perfusion, and fever with worsening tachycardia require prompt reassessment for serious complications. Urine output of 45 mL/hr in a 70-kg adult exceeds the usual minimum target of 0.5 mL/kg/hr, while pain relief after analgesia is generally an expected therapeutic response.",
+      "topic": "Physiological Adaptation",
+      "subtopic": "Alterations in Body Systems",
+      "difficulty": "medium",
+      "source": "NCSBN 2026 NCLEX-RN Test Plan: Physiological Adaptation – Alterations in Body Systems; American College of Gastroenterology Guideline on Management of Acute Pancreatitis"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "description": "Every fixture with the error and warning codes the validator must report for it (unique codes, sorted). Validated against the modules listed, plus Generic.",
-  "modules": ["modules/example.json", "modules/example-multi.json", "modules/pmp.json", "modules/cfa-l1.json", "modules/mbe.json", "modules/aws-saa.json", "modules/frm-p1.json", "modules/comptia-secplus.json", "modules/cpa-aud.json", "modules/usmle-step1.json", "modules/acca-bt.json", "modules/cpa-far.json", "modules/usmle-step2-ck.json"],
+  "modules": ["modules/example.json", "modules/example-multi.json", "modules/pmp.json", "modules/cfa-l1.json", "modules/mbe.json", "modules/aws-saa.json", "modules/frm-p1.json", "modules/comptia-secplus.json", "modules/cpa-aud.json", "modules/usmle-step1.json", "modules/acca-bt.json", "modules/cpa-far.json", "modules/usmle-step2-ck.json", "modules/nclex-rn.json"],
   "cases": [
     { "file": "valid/minimal-generic.json", "errors": [] },
     { "file": "valid/full-generic.json", "errors": [] },
@@ -66,6 +66,15 @@
     { "file": "valid/usmle-step2-ck-claude-3.md", "errors": [], "fenced": true },
     { "file": "valid/usmle-step2-ck-claude-4.md", "errors": [], "fenced": true },
     { "file": "valid/usmle-step2-ck-chatgpt-1.json", "errors": [] },
+    { "file": "valid/nclex-rn-claude-1.md", "errors": [], "fenced": true },
+    { "file": "valid/nclex-rn-claude-2.md", "errors": [], "fenced": true },
+    { "file": "valid/nclex-rn-claude-3.md", "errors": [], "fenced": true },
+    { "file": "valid/nclex-rn-claude-4.md", "errors": [], "fenced": true },
+    { "file": "valid/nclex-rn-chatgpt-1.json", "errors": [] },
+    { "file": "valid/nclex-rn-claude-5.md", "errors": [], "fenced": true },
+    { "file": "valid/nclex-rn-claude-6.md", "errors": [], "fenced": true },
+    { "file": "valid/nclex-rn-claude-7.md", "errors": [], "fenced": true },
+    { "file": "valid/nclex-rn-gemini-1.json", "errors": [] },
 
     { "file": "invalid/empty.txt", "errors": ["E001"] },
     { "file": "invalid/not-json.txt", "errors": ["E002"] },
@@ -119,6 +128,7 @@
     { "file": "invalid/module-topic-not-in-taxonomy.json", "errors": ["E203"] },
     { "file": "invalid/module-banned-option-text.json", "errors": ["E204"] },
     { "file": "invalid/module-several-rules.json", "errors": ["E201", "E202", "E203", "E204"] },
+    { "file": "invalid/nclex-rn-claude-8.md", "errors": ["E114"], "fenced": true },
 
     { "file": "warnings/subtopic-not-in-taxonomy.json", "errors": [], "warnings": ["W201"] }
   ]

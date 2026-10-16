@@ -1,0 +1,314 @@
+{
+  "format": "domcq/1",
+  "exam": "nclex-rn",
+  "set": "NCLEX-RN practice – Comprehensive Clinical Examination Review",
+  "questions": [
+    {
+      "stem": "A registered nurse is planning client assignments for the shift. Which task is appropriate to delegate to an unlicensed assistive personnel (UAP)?",
+      "options": [
+        "Assessing a client's wound drainage after a dressing change",
+        "Teaching a newly diagnosed diabetic client how to inject insulin",
+        "Assisting a stable postoperative client to ambulate in the hallway",
+        "Evaluating a client's response to an administered intravenous pain medication"
+      ],
+      "answer": "C",
+      "explanation": "The registered nurse cannot delegate nursing process activities such as assessment, teaching, clinical judgment, or evaluation to unlicensed assistive personnel (UAP). Assisting a stable client with ambulation falls within the scope of routine activities of daily living that UAPs are trained and authorized to perform. The remaining options require clinical judgment and professional nursing evaluation.",
+      "topic": "Management of Care",
+      "subtopic": "Assignment, Delegation and Supervision",
+      "difficulty": "easy",
+      "source": "NCSBN NCLEX-RN Test Plan: Management of Care – Assignment, Delegation and Supervision"
+    },
+    {
+      "stem": "A client scheduled for an elective laparoscopic cholecystectomy expresses uncertainty to the nurse about why the surgery is necessary and asks about alternative treatments. Which action should the nurse take first?",
+      "options": [
+        "Reassure the client that laparoscopic cholecystectomy is a routine, low-risk procedure",
+        "Notify the operating surgeon that the client has questions about the procedure and alternatives",
+        "Provide the hospital's educational brochure describing gallbladder anatomy and surgical options",
+        "Ask the client to sign the consent form now and discuss questions with the anesthesiologist"
+      ],
+      "answer": "B",
+      "explanation": "It is the primary legal and professional responsibility of the healthcare provider performing the procedure to explain the diagnosis, procedure, risks, benefits, and alternatives to obtain informed consent. The nurse's role is to advocate for the client and witness the signature, not to provide the initial surgical explanation or obtain informed consent. When a client expresses doubt or lack of understanding, the nurse must notify the provider before proceeding with consent signing.",
+      "topic": "Management of Care",
+      "subtopic": "Informed Consent",
+      "difficulty": "medium",
+      "source": "NCSBN NCLEX-RN Test Plan: Management of Care – Informed Consent"
+    },
+    {
+      "stem": "The medical-surgical nurse receives report on four clients. Which client should the nurse assess first?",
+      "options": [
+        "A client 1 day postoperative abdominal aortic aneurysm repair reporting sudden, tearing lower back pain",
+        "A client with chronic obstructive pulmonary disease who has an oxygen saturation of 90% on 2 L/min nasal cannula",
+        "A client with a deep vein thrombosis who has 2+ pitting edema and warmth in the left calf",
+        "A client 2 days postoperative knee arthroplasty requesting oral pain medication for a pain rating of 6 out of 10"
+      ],
+      "answer": "A",
+      "explanation": "Sudden, tearing lower back or abdominal pain in a client following abdominal aortic aneurysm repair is a classic sign of graft leakage, rupture, or retroperitoneal hemorrhage, representing an acute life-threatening emergency. The client with chronic obstructive pulmonary disease has an expected oxygen saturation target (88% to 92%), and calf edema/warmth is an expected baseline finding for deep vein thrombosis. Postoperative knee pain is expected and can be addressed after evaluating the client at imminent risk of circulatory collapse.",
+      "topic": "Management of Care",
+      "subtopic": "Establishing Priorities",
+      "difficulty": "hard",
+      "source": "NCSBN NCLEX-RN Test Plan: Management of Care – Establishing Priorities"
+    },
+    {
+      "stem": "A nurse is admitting an alert and oriented older adult client to the hospital unit. Which statements by the nurse accurately describe advance directives? Select all that apply.",
+      "options": [
+        "\"You must appoint an immediate family member as your designated healthcare proxy rather than a close friend.\"",
+        "\"A living will allows you to specify medical treatments you desire or refuse if you become terminally ill.\"",
+        "\"Your advance directives become permanently binding and cannot be altered once placed in your chart.\"",
+        "\"A durable power of attorney for healthcare designates a person to make decisions if you lose decision-making capacity.\"",
+        "\"You may choose to decline completing an advance directive and still receive full medical treatment.\""
+      ],
+      "answer": "BDE",
+      "explanation": "Under the Patient Self-Determination Act, clients must be informed of their right to formulate advance directives, but completing them is completely voluntary. A living will specifies specific medical interventions a client desires or refuses when terminally ill, while a durable power of attorney for healthcare designates an agent to make decisions whenever the client lacks decision-making capacity. Clients may select any competent adult as a surrogate and may revoke or modify advance directives at any time while competent.",
+      "topic": "Management of Care",
+      "subtopic": "Advance Directives / Self-Determination",
+      "difficulty": "medium",
+      "source": "NCSBN NCLEX-RN Test Plan: Management of Care – Advance Directives / Self-Determination"
+    },
+    {
+      "stem": "A nurse is preparing to enter the room of a client with suspected active pulmonary tuberculosis. Which personal protective equipment must the nurse wear?",
+      "options": [
+        "Clean examination gloves and a moisture-resistant isolation gown",
+        "Standard surgical mask and protective splash eye goggles",
+        "Impermeable fluid shield mask with protective shoe covers",
+        "Appropriately fitted N95 or higher-level particulate respirator"
+      ],
+      "answer": "D",
+      "explanation": "Mycobacterium tuberculosis is transmitted via droplet nuclei that remain suspended in the air; therefore, airborne precautions are required. Healthcare personnel entering the room must wear a NIOSH-approved, fit-tested N95 or higher-level particulate respirator. Gloves and gowns are used for standard precautions or contact with body fluids, but an N95 respirator is the mandatory respiratory protection for airborne transmission.",
+      "topic": "Safety and Infection Prevention and Control",
+      "subtopic": "Transmission-Based Precautions",
+      "difficulty": "easy",
+      "source": "NCSBN NCLEX-RN Test Plan: Safety and Infection Prevention and Control – Transmission-Based Precautions"
+    },
+    {
+      "stem": "A nurse is caring for an older adult client with moderate cognitive impairment who is identified as a high fall risk. Which interventions should the nurse include in the client's plan of care? Select all that apply.",
+      "options": [
+        "Keep the hospital bed in the lowest position with the wheels locked",
+        "Raise all four side rails on the hospital bed continuously while the client rests",
+        "Place the client's call light and essential personal items within direct reach",
+        "Administer an evening sedative to ensure uninterrupted sleep throughout the night",
+        "Provide non-skid footwear whenever the client is out of bed"
+      ],
+      "answer": "ACE",
+      "explanation": "Effective fall prevention strategies include maintaining the bed in its lowest position with wheels locked, ensuring non-skid footwear is worn during ambulation, and keeping essential items and the call light easily accessible. Raising all four side rails constitutes a physical restraint and paradoxically increases injury risk if the client attempts to climb over them. Sedatives contribute to central nervous system depression, ataxia, and delirium, which substantially increase fall hazards.",
+      "topic": "Safety and Infection Prevention and Control",
+      "subtopic": "Accident and Injury Prevention",
+      "difficulty": "medium",
+      "source": "NCSBN NCLEX-RN Test Plan: Safety and Infection Prevention and Control – Accident and Injury Prevention"
+    },
+    {
+      "stem": "A nurse is assessing a pregnant client at 34 weeks of gestation during a routine prenatal visit. Which finding requires immediate further evaluation by the healthcare provider?",
+      "options": [
+        "Hyperpigmentation along the midline of the abdomen",
+        "Bilateral dependent ankle edema present at the end of the day",
+        "Persistent frontal headache accompanied by blurred vision",
+        "Occasional painless uterine contractions that resolve with rest"
+      ],
+      "answer": "C",
+      "explanation": "Persistent frontal headache and visual disturbances such as blurred vision or scotomata at 34 weeks of gestation are classic neurological signs of severe preeclampsia caused by cerebral vasospasm. Linea nigra and mild dependent pedal edema at the end of the day are benign, common physiological adaptations of late pregnancy due to hormonal changes and venous compression. Painless, irregular uterine contractions that resolve with rest represent benign Braxton Hicks contractions.",
+      "topic": "Health Promotion and Maintenance",
+      "subtopic": "Ante/Intra/Postpartum and Newborn Care",
+      "difficulty": "medium",
+      "source": "NCSBN NCLEX-RN Test Plan: Health Promotion and Maintenance – Ante/Intra/Postpartum and Newborn Care"
+    },
+    {
+      "stem": "A nurse is performing an initial physical assessment on a full-term newborn 2 hours after an uncomplicated vaginal birth. Which finding should the nurse recognize as an expected physiological variation?",
+      "options": [
+        "Bluish discoloration limited to the hands and feet",
+        "Expiratory grunting audible without a stethoscope",
+        "Persistent intercostal retractions during quiet breathing",
+        "Sustained heart rate of 80 beats per minute during rest"
+      ],
+      "answer": "A",
+      "explanation": "Acrocyanosis, characterized by bluish discoloration of the hands and feet with pink mucous membranes and trunk, is a normal physiological finding in the first 24 to 48 hours of life resulting from immature peripheral circulation. Expiratory grunting and intercostal retractions are signs of respiratory distress that warrant immediate intervention. A sustained heart rate of 80 beats per minute indicates newborn bradycardia, as the normal resting newborn heart rate ranges between 110 and 160 beats per minute.",
+      "topic": "Health Promotion and Maintenance",
+      "subtopic": "Newborn Assessment",
+      "difficulty": "easy",
+      "source": "NCSBN NCLEX-RN Test Plan: Health Promotion and Maintenance – Newborn Assessment"
+    },
+    {
+      "stem": "A client admitted with major depressive disorder sits quietly in the dayroom and says, \"There is no point in trying anymore. Everyone would be much better off without me.\" Which response by the nurse is most therapeutic?",
+      "options": [
+        "\"You should not feel that way because your family cares deeply about you.\"",
+        "\"Are you thinking about killing yourself or ending your life?\"",
+        "\"Things always seem darkest right now, but tomorrow will be a brighter day.\"",
+        "\"Why do you believe that your family would be better off without you?\""
+      ],
+      "answer": "B",
+      "explanation": "When a client verbalizes feelings of worthlessness, hopelessness, or burdensomeness, the nurse must immediately and directly assess for suicidal ideation, intent, and plan. Direct, clear questioning does not plant suicidal thoughts; instead, it establishes safety and allows for timely life-saving intervention. False reassurance, arguing with feelings, or asking 'why' questions tends to evoke defensiveness and minimizes the client's psychological distress.",
+      "topic": "Psychosocial Integrity",
+      "subtopic": "Crisis Intervention / Suicide Risk Assessment",
+      "difficulty": "easy",
+      "source": "NCSBN NCLEX-RN Test Plan: Psychosocial Integrity – Crisis Intervention / Suicide Risk Assessment"
+    },
+    {
+      "stem": "A nurse is assessing a client admitted 36 hours ago who has a history of heavy daily alcohol consumption. Which assessment findings indicate that the client is experiencing acute alcohol withdrawal syndrome? Select all that apply.",
+      "options": [
+        "Fine tremors in both outstretched hands",
+        "Tachycardia and elevated blood pressure",
+        "Constricted pupils and bradypnea",
+        "Diaphoresis and psychomotor agitation",
+        "Hypoactive bowel sounds and somnolence",
+        "Auditory and visual hallucinations"
+      ],
+      "answer": "ABDF",
+      "explanation": "Abrupt cessation of heavy alcohol intake removes chronic gamma-aminobutyric acid (GABA) receptor stimulation and produces central nervous system and autonomic hyperarousal. Key manifestations of acute alcohol withdrawal include tremors, tachycardia, hypertension, diaphoresis, restlessness, anxiety, and transient hallucinations. In contrast, miosis, bradypnea, and somnolence are clinical signs of central nervous system depressant or opioid overdose rather than withdrawal.",
+      "topic": "Psychosocial Integrity",
+      "subtopic": "Chemical and Other Dependencies / Substance Use Disorders",
+      "difficulty": "hard",
+      "source": "NCSBN NCLEX-RN Test Plan: Psychosocial Integrity – Substance Use Disorders / Alcohol Withdrawal"
+    },
+    {
+      "stem": "A nurse is developing a plan of care to prevent pressure injuries in an immobilized, bed-bound client. Which nursing action should be included?",
+      "options": [
+        "Massage reddened bony prominences using circular motions during skin inspection",
+        "Keep the head of the bed elevated at 60 degrees throughout the day",
+        "Place a doughnut-shaped rubber ring beneath the client's sacral area",
+        "Reposition the client at least every 2 hours using a 30-degree lateral tilt"
+      ],
+      "answer": "D",
+      "explanation": "Repositioning a bed-bound client at least every 2 hours relieves localized tissue ischemia, and placing the client in a 30-degree lateral tilted position prevents direct pressure over the greater trochanter and sacrum. Massaging reddened areas causes deep tissue trauma and worsens capillary breakdown. Keeping the head of the bed elevated above 30 degrees increases shear and friction forces across the sacrum, while doughnut rings impair venous return and concentrate pressure on surrounding tissues.",
+      "topic": "Basic Care and Comfort",
+      "subtopic": "Mobility / Skin Integrity",
+      "difficulty": "medium",
+      "source": "NCSBN NCLEX-RN Test Plan: Basic Care and Comfort – Mobility / Skin Integrity"
+    },
+    {
+      "stem": "A nurse is feeding a client who has oropharyngeal dysphagia following a left hemispheric ischemic stroke. Which intervention should the nurse implement to minimize the risk of aspiration?",
+      "options": [
+        "Instruct the client to flex the neck slightly downward toward the chest when swallowing",
+        "Offer thin water through a narrow drinking straw between each bite of food",
+        "Maintain the client in a semi-Fowler's position angled at 30 degrees during meals",
+        "Encourage the client to converse and talk continuously throughout the feeding session"
+      ],
+      "answer": "A",
+      "explanation": "The chin-tuck maneuver (flexing the neck slightly downward toward the chest while swallowing) widens the vallecular space and facilitates posterior movement of the epiglottis, protecting the airway against aspiration. Clients with dysphagia should be seated upright at 90 degrees (high Fowler's) during and for at least 30 minutes after eating. Drinking straws accelerate fluid velocity and impair swallow coordination, and talking while chewing or swallowing leaves the vocal cords open, increasing aspiration risk.",
+      "topic": "Basic Care and Comfort",
+      "subtopic": "Nutrition and Oral Hydration",
+      "difficulty": "medium",
+      "source": "NCSBN NCLEX-RN Test Plan: Basic Care and Comfort – Nutrition and Oral Hydration"
+    },
+    {
+      "stem": "A nurse is preparing to administer the daily morning dose of oral digoxin to a client with heart failure. Which laboratory value should the nurse identify as significantly increasing the client's risk for digoxin toxicity?",
+      "options": [
+        "Serum sodium of 138 mEq/L",
+        "Serum calcium of 9.2 mg/dL",
+        "Serum potassium of 3.0 mEq/L",
+        "Serum magnesium of 2.0 mg/dL"
+      ],
+      "answer": "C",
+      "explanation": "Hypokalemia (serum potassium less than 3.5 mEq/L) enhances the myocardial binding of digoxin to the sodium-potassium ATPase pump, substantially increasing the risk of life-threatening digitalis toxicity and dysrhythmias even at therapeutic drug levels. The nurse should withhold the medication and notify the healthcare provider when hypokalemia is identified. The sodium, calcium, and magnesium values listed are all within normal reference ranges.",
+      "topic": "Pharmacological and Parenteral Therapies",
+      "subtopic": "Adverse Effects / Contraindications / Toxicity",
+      "difficulty": "easy",
+      "source": "NCSBN NCLEX-RN Test Plan: Pharmacological and Parenteral Therapies – Adverse Effects / Toxicity"
+    },
+    {
+      "stem": "A nurse is preparing to administer intravenous potassium chloride to a client with severe hypokalemia. Which nursing actions are required for safe administration? Select all that apply.",
+      "options": [
+        "Verify that the medication is infused via an electronic infusion control pump",
+        "Administer the prescribed dose as a rapid intravenous bolus injection over 3 minutes",
+        "Confirm that the client has adequate urine output of at least 30 mL per hour",
+        "Maintain continuous cardiac telemetry monitoring throughout the infusion",
+        "Dilute the potassium chloride using sterile water for direct intravenous push"
+      ],
+      "answer": "ACD",
+      "explanation": "Intravenous potassium chloride must always be diluted and administered via an electronic infusion pump to prevent inadvertent rapid infusion that can trigger fatal cardiac arrest. Because potassium is excreted primarily by the kidneys, the nurse must ensure adequate renal function and urine output (at least 30 mL/hr) prior to and during administration, alongside continuous cardiac monitoring. Potassium chloride is never administered via intravenous push or rapid bolus under any circumstances.",
+      "topic": "Pharmacological and Parenteral Therapies",
+      "subtopic": "Parenteral Therapies / High-Alert Medications",
+      "difficulty": "medium",
+      "source": "NCSBN NCLEX-RN Test Plan: Pharmacological and Parenteral Therapies – Parenteral Therapies"
+    },
+    {
+      "stem": "Ten minutes after the nurse initiates a transfusion of packed red blood cells, the client reports sudden lower back pain, chills, and shortness of breath. Which action should the nurse take first?",
+      "options": [
+        "Slow the infusion rate to a keep-vein-open rate and obtain vital signs",
+        "Stop the blood transfusion immediately and disconnect the tubing from the catheter hub",
+        "Administer 50 mg of intravenous diphenhydramine as prescribed for allergic reactions",
+        "Collect a clean-catch urine specimen to send to the laboratory for free hemoglobin"
+      ],
+      "answer": "B",
+      "explanation": "Chills, dyspnea, and sudden flank or lower back pain are cardinal indicators of an acute hemolytic transfusion reaction, an ABO-incompatibility emergency that can cause acute kidney injury, disseminated intravascular coagulation, and death. The priority nursing action is to immediately stop the blood transfusion and disconnect the tubing at the vascular access hub to prevent any further infusion of incompatible blood. After stopping the transfusion and maintaining vascular access with normal saline using new IV tubing, the nurse assesses vitals, notifies the provider, and initiates laboratory follow-up.",
+      "topic": "Pharmacological and Parenteral Therapies",
+      "subtopic": "Blood and Blood Products",
+      "difficulty": "hard",
+      "source": "NCSBN NCLEX-RN Test Plan: Pharmacological and Parenteral Therapies – Blood and Blood Products"
+    },
+    {
+      "stem": "A nurse reviews the laboratory results for a client diagnosed with bipolar disorder who has been receiving oral lithium carbonate therapy for 3 weeks. The morning trough serum lithium level is 2.2 mEq/L. Which action should the nurse take first?",
+      "options": [
+        "Administer the scheduled morning dose of lithium with a full glass of water",
+        "Encourage the client to restrict dietary sodium intake to lower lithium excretion",
+        "Document the finding in the medical record as within the therapeutic maintenance range",
+        "Withhold the scheduled lithium dose and notify the healthcare provider immediately"
+      ],
+      "answer": "D",
+      "explanation": "The standard therapeutic serum lithium range is 0.6 to 1.2 mEq/L for maintenance therapy. A serum level of 2.2 mEq/L represents moderate-to-severe lithium toxicity, presenting with symptoms such as coarse tremors, confusion, ataxia, persistent gastrointestinal upset, and arrhythmias. The nurse must withhold subsequent doses, assess the client for signs of toxicity, and immediately notify the provider to initiate safety interventions and possible fluid diuresis.",
+      "topic": "Reduction of Risk Potential",
+      "subtopic": "Laboratory Values / Therapeutic Drug Monitoring",
+      "difficulty": "medium",
+      "source": "NCSBN NCLEX-RN Test Plan: Reduction of Risk Potential – Laboratory Values"
+    },
+    {
+      "stem": "A nurse is caring for a client who just returned to the unit following a percutaneous coronary intervention via the right femoral artery. Which post-procedure nursing interventions are essential? Select all that apply.",
+      "options": [
+        "Keep the right lower extremity flexed at a 45-degree angle during bed rest",
+        "Assess right pedal pulses and compare them with the contralateral limb",
+        "Instruct the client to maintain strict flat bed rest for the prescribed duration",
+        "Remove the femoral groin pressure dressing 30 minutes after arrival to inspect the site",
+        "Monitor the femoral puncture site frequently for active bleeding or hematoma formation"
+      ],
+      "answer": "BCE",
+      "explanation": "Following femoral arterial puncture for cardiac catheterization, the cannulated extremity must remain straight with the client on bed rest to prevent arterial re-bleeding or pseudoaneurysm formation. Frequent neurovascular checks—including assessing pedal pulses, capillary refill, color, and temperature—are essential to detect downstream arterial compromise. The insertion site must be inspected frequently for hematoma or active hemorrhage, while the initial pressure dressing is kept intact per protocol to maintain mechanical hemostasis.",
+      "topic": "Reduction of Risk Potential",
+      "subtopic": "Diagnostic Tests and Post-Procedure Monitoring",
+      "difficulty": "medium",
+      "source": "NCSBN NCLEX-RN Test Plan: Reduction of Risk Potential – Diagnostic Tests and Procedures"
+    },
+    {
+      "stem": "A nurse is assessing a client who underwent a total thyroidectomy 24 hours ago. When inflating a blood pressure cuff on the client's upper arm above systolic pressure, the nurse observes involuntary carpal spasm. How should the nurse document and interpret this finding?",
+      "options": [
+        "Positive Trousseau's sign, indicating acute hypocalcemia",
+        "Positive Chvostek's sign, indicating acute hyperkalemia",
+        "Negative Babinski reflex, indicating intact motor function",
+        "Normal vascular vasomotor response to cuff occlusion"
+      ],
+      "answer": "A",
+      "explanation": "Inadvertent damage to or devascularization of the parathyroid glands during total thyroidectomy leads to hypoparathyroidism and acute hypocalcemia. Trousseau's sign—carpopedal spasm elicited by inflating a blood pressure cuff above systolic blood pressure for 3 minutes—reflects increased neuromuscular excitability from low extracellular ionized calcium. Chvostek's sign refers to facial muscle twitching elicited by tapping the facial nerve anterior to the ear, not cuff inflation.",
+      "topic": "Physiological Adaptation",
+      "subtopic": "Fluid and Electrolyte Imbalances",
+      "difficulty": "medium",
+      "source": "NCSBN NCLEX-RN Test Plan: Physiological Adaptation – Fluid and Electrolyte Imbalances"
+    },
+    {
+      "stem": "A client with a complete spinal cord injury at the level of T4 suddenly reports a throbbing frontal headache and nasal stuffiness. The nurse assesses severe diaphoresis on the forehead, flushed skin above the injury, and a blood pressure of 210/110 mm Hg. Which action should the nurse perform first?",
+      "options": [
+        "Perform a digital rectal examination to check for an impaction",
+        "Catheterize the client immediately using a sterile straight catheter",
+        "Raise the head of the bed to a high Fowler's position of 90 degrees",
+        "Administer prescribed sublingual nifedipine for severe hypertension"
+      ],
+      "answer": "C",
+      "explanation": "The client is exhibiting classic manifestations of autonomic dysreflexia, an uninhibited sympathetic response to a noxious stimulus below the spinal lesion occurring in injuries at T6 or above. The immediate first action is to elevate the head of the bed to 90 degrees (high Fowler's) and lower the legs, which utilizes gravity to promote orthostatic venous pooling and rapidly lower dangerously high cerebral blood pressure. Once the client is upright, the nurse rapidly investigates and removes the noxious trigger, typically starting with relieving bladder distension or catheter obstruction.",
+      "topic": "Physiological Adaptation",
+      "subtopic": "Medical Emergencies",
+      "difficulty": "hard",
+      "source": "NCSBN NCLEX-RN Test Plan: Physiological Adaptation – Medical Emergencies"
+    },
+    {
+      "stem": "A nurse in the emergency department is assessing a client with newly diagnosed type 1 diabetes mellitus who presents in suspected diabetic ketoacidosis. Which clinical manifestations should the nurse expect to find? Select all that apply.",
+      "options": [
+        "Deep, rapid respirations with a fruity breath odor",
+        "Serum blood glucose level of 45 mg/dL",
+        "Severe peripheral edema and fluid volume overload",
+        "Elevated ketones present in the urine and blood",
+        "Nausea, vomiting, and generalized abdominal pain"
+      ],
+      "answer": "ADE",
+      "explanation": "Diabetic ketoacidosis is characterized by profound insulin deficiency, leading to hyperglycemia, osmotic diuresis, ketosis, and metabolic acidosis. Hallmark clinical manifestations include Kussmaul respirations (rapid, deep breathing to blow off excess carbon dioxide), a fruity breath odor from acetone, ketonemia, ketonuria, dehydration, and gastrointestinal symptoms like nausea, vomiting, and abdominal pain. Hypoglycemia and fluid overload are contradictory to the pathophysiology of diabetic ketoacidosis.",
+      "topic": "Physiological Adaptation",
+      "subtopic": "Alterations in Body Systems",
+      "difficulty": "easy",
+      "source": "NCSBN NCLEX-RN Test Plan: Physiological Adaptation – Alterations in Body Systems"
+    }
+  ]
+}
