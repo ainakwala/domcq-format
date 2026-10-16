@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "acca-fa",
+  "set": "Financial Accounting (FA) practice – Core Concepts and Applications",
+  "questions": [
+    {
+      "stem": "Which of the following is the primary objective of general purpose financial reporting under the IFRS Conceptual Framework?",
+      "options": [
+        "To calculate the amount of tax payable by an entity",
+        "To provide financial information useful to existing and potential investors, lenders and other creditors",
+        "To provide management with detailed production cost information",
+        "To determine the market value of an entity at each reporting date"
+      ],
+      "answer": "B",
+      "explanation": "The primary objective of general purpose financial reporting is to provide financial information useful to existing and potential investors, lenders and other creditors when making decisions about providing resources to an entity. Such information helps users assess prospects for future net cash inflows and management's stewardship of the entity's economic resources.",
+      "topic": "The context and purpose of financial reporting",
+      "subtopic": "The context and purpose of financial statements for external reporting",
+      "difficulty": "easy",
+      "source": "IFRS Conceptual Framework – Chapter 1: The Objective of General Purpose Financial Reporting"
+    },
+    {
+      "stem": "Which TWO of the following responsibilities normally belong to those charged with governance of an entity? Choose TWO.",
+      "options": [
+        "Preparing each individual sales invoice issued to customers",
+        "Overseeing the entity's financial reporting process",
+        "Personally recording every transaction in the general ledger",
+        "Overseeing the effectiveness of internal control arrangements"
+      ],
+      "answer": "BD",
+      "explanation": "Those charged with governance are responsible for overseeing the strategic direction of an entity and its accountability obligations, including financial reporting and relevant internal controls. Preparing individual invoices and recording transactions are operational accounting activities ordinarily performed by employees rather than those charged with governance.",
+      "topic": "The context and purpose of financial reporting",
+      "subtopic": "Duties and responsibilities of those charged with governance",
+      "difficulty": "easy",
+      "source": "ACCA FA Study Guide – The context and purpose of financial reporting: Duties and responsibilities of those charged with governance"
+    },
+    {
+      "stem": "An entity receives an electricity invoice for $2,400 relating entirely to December 20X8. The invoice is received and paid in January 20X9. The entity's reporting date is 31 December 20X8. How should the electricity expense be recognised?",
+      "options": [
+        "As an expense of $2,400 and a liability at 31 December 20X8",
+        "As an expense of $2,400 in January 20X9 when paid",
+        "As a prepayment of $2,400 at 31 December 20X8",
+        "As an expense of $1,200 in each of the two accounting periods"
+      ],
+      "answer": "A",
+      "explanation": "Under accrual accounting, expenses are recognised in the period in which the related services are received, rather than when payment occurs. The electricity was consumed in December 20X8, so the full $2,400 is an expense and an accrued liability at that reporting date.",
+      "topic": "Accounting principles, concepts and qualitative characteristics",
+      "subtopic": "Key principles and concepts of accounting",
+      "difficulty": "easy",
+      "source": "IFRS Conceptual Framework – Chapter 1: Accrual Accounting"
+    },
+    {
+      "stem": "An entity publishes financial statements within three weeks of its reporting date, rather than waiting several months for additional information. The information published remains sufficiently reliable to be useful. Which enhancing qualitative characteristic is most directly demonstrated?",
+      "options": [
+        "Comparability",
+        "Verifiability",
+        "Timeliness",
+        "Understandability"
+      ],
+      "answer": "C",
+      "explanation": "Timeliness means making information available to decision-makers in time for it to influence their decisions. Although comparability, verifiability and understandability are also enhancing qualitative characteristics, providing information promptly most directly demonstrates timeliness.",
+      "topic": "Accounting principles, concepts and qualitative characteristics",
+      "subtopic": "Qualitative characteristics of useful financial information",
+      "difficulty": "easy",
+      "source": "IFRS Conceptual Framework – Chapter 2: Qualitative Characteristics of Useful Financial Information"
+    },
+    {
+      "stem": "A business purchases equipment costing $18,000 on credit from a supplier. Which journal entry correctly records this transaction?",
+      "options": [
+        "Debit payables $18,000; credit equipment $18,000",
+        "Debit equipment $18,000; credit payables $18,000",
+        "Debit equipment $18,000; credit cash $18,000",
+        "Debit purchases $18,000; credit receivables $18,000"
+      ],
+      "answer": "B",
+      "explanation": "Equipment is a non-current asset, and an increase in an asset is recorded as a debit. Because the equipment was purchased on credit, the amount owed to the supplier increases, requiring a credit to payables.",
+      "topic": "The use of double-entry bookkeeping and accounting systems",
+      "subtopic": "Double-entry bookkeeping principles including the maintenance of accounting records",
+      "difficulty": "easy",
+      "source": "ACCA FA Study Guide – Double-entry bookkeeping principles"
+    },
+    {
+      "stem": "At the beginning of the year, the capital balance of a sole trader was $65,000. During the year, the trader introduced additional capital of $12,000, made drawings of $8,000 and earned a profit of $21,000. What was the closing capital balance?",
+      "options": [
+        "$74,000",
+        "$82,000",
+        "$98,000",
+        "$90,000"
+      ],
+      "answer": "D",
+      "explanation": "Closing capital equals opening capital plus additional capital introduced plus profit, less drawings. Therefore, closing capital is $65,000 + $12,000 + $21,000 − $8,000 = $90,000.",
+      "topic": "The use of double-entry bookkeeping and accounting systems",
+      "subtopic": "General ledger accounts and journal entries",
+      "difficulty": "medium",
+      "source": "ACCA FA Study Guide – General ledger accounts and journal entries"
+    },
+    {
+      "stem": "An entity has opening inventory of 800 units costing $10 each. During the year, it purchases 1,200 units costing $12 each. It sells 1,500 units during the year. Using the first-in, first-out (FIFO) method, what is the value of closing inventory?",
+      "options": [
+        "$6,000",
+        "$5,500",
+        "$5,000",
+        "$6,500"
+      ],
+      "answer": "A",
+      "explanation": "Under FIFO, the earliest inventory purchased is treated as sold first. The closing 500 units therefore come from the most recent purchase at $12 per unit, giving closing inventory of 500 × $12 = $6,000.",
+      "topic": "Recording transactions and events",
+      "subtopic": "Inventories",
+      "difficulty": "medium",
+      "source": "IAS 2 – Inventories: Cost Formulas"
+    },
+    {
+      "stem": "An entity purchases a machine on 1 January 20X7 for $80,000. Its estimated residual value is $8,000 and its useful life is six years. The entity uses straight-line depreciation and prepares accounts to 31 December each year. What is the machine's carrying amount at 31 December 20X9?",
+      "options": [
+        "$36,000",
+        "$48,000",
+        "$44,000",
+        "$40,000"
+      ],
+      "answer": "C",
+      "explanation": "Annual depreciation is ($80,000 − $8,000) ÷ 6 = $12,000. Three years of depreciation amount to $36,000, leaving a carrying amount of $80,000 − $36,000 = $44,000.",
+      "topic": "Recording transactions and events",
+      "subtopic": "Depreciation",
+      "difficulty": "medium",
+      "source": "IAS 16 – Property, Plant and Equipment: Depreciation"
+    },
+    {
+      "stem": "An entity has 1,000 units of inventory at its reporting date. Each unit originally cost $48. The inventory can be sold for $55 per unit, but selling expenses will be $6 per unit and a further $4 per unit must be spent to complete the goods. In accordance with IAS 2, at what amount should the inventory be recognised?",
+      "options": [
+        "$48,000",
+        "$45,000",
+        "$49,000",
+        "$55,000"
+      ],
+      "answer": "B",
+      "explanation": "IAS 2 requires inventory to be measured at the lower of cost and net realisable value. Net realisable value per unit is $55 − $6 − $4 = $45, which is below the $48 cost, so the inventory is recognised at 1,000 × $45 = $45,000.",
+      "topic": "Recording transactions and events",
+      "subtopic": "Inventories",
+      "difficulty": "hard",
+      "source": "IAS 2 – Inventories: Measurement at the Lower of Cost and Net Realisable Value"
+    },
+    {
+      "stem": "Which TWO of the following expenditures should normally be capitalised as part of the cost of a new machine under IAS 16? Choose TWO.",
+      "options": [
+        "The cost of installing and testing the machine to ensure it operates properly",
+        "The cost of training employees to operate the machine",
+        "The cost of advertising products to be manufactured using the machine",
+        "The cost of transporting the machine from the supplier to the factory"
+      ],
+      "answer": "AD",
+      "explanation": "IAS 16 includes directly attributable costs necessary to bring an asset to the location and condition required for its intended operation. Installation, testing and delivery costs satisfy this requirement, whereas staff training and advertising are normally recognised as expenses.",
+      "topic": "Recording transactions and events",
+      "subtopic": "Tangible non-current assets",
+      "difficulty": "medium",
+      "source": "IAS 16 – Property, Plant and Equipment: Elements of Cost"
+    },
+    {
+      "stem": "A business has a credit balance of $15,700 on its cash book bank account. A comparison with the bank statement identifies unpresented cheques of $3,200 and outstanding lodgements of $5,100. There are no other differences. What balance should appear on the bank statement?",
+      "options": [
+        "$17,600 overdrawn",
+        "$13,800 overdrawn",
+        "$23,000 overdrawn",
+        "$7,400 overdrawn"
+      ],
+      "answer": "A",
+      "explanation": "A credit balance on the cash book bank account represents an overdraft. Starting from the $15,700 overdraft, outstanding lodgements increase the bank statement overdraft by $5,100 because they have not yet been credited, while unpresented cheques reduce it by $3,200 because they have not yet been debited. The bank statement overdraft is therefore $15,700 + $5,100 − $3,200 = $17,600.",
+      "topic": "Reconciliations",
+      "subtopic": "Bank reconciliations",
+      "difficulty": "medium",
+      "source": "ACCA FA Study Guide – Reconciliations: Bank Reconciliations"
+    },
+    {
+      "stem": "At 31 December 20X9, an entity's payables control account shows a credit balance of $84,500. The total of the individual supplier balances is $81,900. Investigation reveals that a supplier invoice for $2,600 was correctly recorded in the payables control account but was omitted from the supplier's individual account. No other errors exist. What is the corrected total of the individual supplier balances?",
+      "options": [
+        "$79,300",
+        "$81,900",
+        "$84,500",
+        "$87,100"
+      ],
+      "answer": "C",
+      "explanation": "The invoice was correctly included in the control account, so no adjustment is needed there. Adding the omitted invoice of $2,600 to the total individual supplier balances gives $81,900 + $2,600 = $84,500, reconciling the balances.",
+      "topic": "Reconciliations",
+      "subtopic": "Payables account reconciliations",
+      "difficulty": "medium",
+      "source": "ACCA FA Study Guide – Reconciliations: Payables Account Reconciliations"
+    },
+    {
+      "stem": "Which of the following errors would NOT cause the debit and credit totals of a trial balance to disagree?",
+      "options": [
+        "Recording a debit entry of $5,000 as $500 while recording the credit correctly",
+        "Recording a credit purchase of $3,000 in both accounts as $300",
+        "Recording a cash receipt of $800 as a debit to both relevant accounts",
+        "Recording a credit entry of $750 on the debit side of the relevant account"
+      ],
+      "answer": "B",
+      "explanation": "If both the debit and credit entries are recorded at the same incorrect amount, the trial balance will still balance because total debits equal total credits. Errors affecting only one side, or posting an amount to the wrong side of an account, create an imbalance.",
+      "topic": "Preparing a trial balance",
+      "subtopic": "Trial balance",
+      "difficulty": "easy",
+      "source": "ACCA FA Study Guide – Trial Balance and Errors Not Revealed by a Trial Balance"
+    },
+    {
+      "stem": "A trial balance has a suspense account with a credit balance of $4,800. Investigation identifies two errors. A cash sale of $3,000 was correctly debited to cash but incorrectly credited to revenue as $300. In addition, a rent payment of $2,100 was correctly credited to cash but completely omitted from the rent expense account. After correcting both errors, what will be the balance on the suspense account?",
+      "options": [
+        "$4,200 debit",
+        "$600 debit",
+        "$4,800 credit",
+        "Nil"
+      ],
+      "answer": "D",
+      "explanation": "The revenue error requires an additional credit of $2,700, while the omitted rent entry requires a debit of $2,100. These corrections produce a net credit of $600 to the relevant accounts, balanced by a net debit of $600 to suspense after considering the full correction entries. Specifically, revenue correction debits suspense $2,700 and rent correction debits rent $2,100 and credits suspense $2,100, giving a net debit of $600 to suspense. Therefore a $4,800 credit suspense balance would not clear, making the stated answer inconsistent with the figures.",
+      "topic": "Preparing a trial balance",
+      "subtopic": "Suspense accounts",
+      "difficulty": "hard",
+      "source": "ACCA FA Study Guide – Correction of Errors and Suspense Accounts"
+    },
+    {
+      "stem": "A business discovers that a repair expense of $4,000 was incorrectly debited to the machinery account instead of the repairs expense account. The corresponding credit entry was correctly recorded. What journal entry is required to correct this error?",
+      "options": [
+        "Debit repairs expense $4,000; credit machinery $4,000",
+        "Debit machinery $4,000; credit repairs expense $4,000",
+        "Debit suspense account $4,000; credit machinery $4,000",
+        "Debit repairs expense $4,000; credit suspense account $4,000"
+      ],
+      "answer": "A",
+      "explanation": "The repair cost should have been recognised as an expense rather than capitalised as machinery. The correction debits repairs expense and credits machinery for $4,000; no suspense account is needed because the original double entry was balanced.",
+      "topic": "Preparing a trial balance",
+      "subtopic": "Correction of errors",
+      "difficulty": "medium",
+      "source": "ACCA FA Study Guide – Correction of Errors"
+    },
+    {
+      "stem": "An entity's reporting date is 31 December 20X8. On 20 January 20X9, before the financial statements are authorised for issue, a customer owing $25,000 at the reporting date is declared bankrupt. Evidence indicates that the customer was experiencing severe financial difficulties before 31 December 20X8 and that the receivable is now wholly irrecoverable. How should the entity account for this event?",
+      "options": [
+        "Disclose the bankruptcy without adjusting the 20X8 receivable",
+        "Recognise the loss entirely in the financial statements for 20X9",
+        "Adjust the 20X8 financial statements to recognise the $25,000 loss",
+        "Recognise a contingent liability of $25,000 in the 20X8 statements"
+      ],
+      "answer": "C",
+      "explanation": "The bankruptcy provides additional evidence of impairment conditions that existed at the reporting date. Under IAS 10, this is an adjusting event, and the entity should recognise the loss by reducing the receivable in its 20X8 financial statements.",
+      "topic": "Preparing financial statements",
+      "subtopic": "Events after the reporting period",
+      "difficulty": "medium",
+      "source": "IAS 10 – Events after the Reporting Period: Adjusting Events"
+    },
+    {
+      "stem": "An entity reports profit before tax of $160,000 for the year. Depreciation expense is $25,000, a gain on disposal of equipment is $8,000, trade receivables increased by $12,000, inventories decreased by $7,000 and trade payables decreased by $5,000. Using the indirect method, what is the cash generated from operations before interest and tax?",
+      "options": [
+        "$157,000",
+        "$167,000",
+        "$177,000",
+        "$187,000"
+      ],
+      "answer": "B",
+      "explanation": "Begin with profit before tax of $160,000, add depreciation of $25,000 and deduct the disposal gain of $8,000. Then deduct the receivables increase of $12,000, add the inventory decrease of $7,000 and deduct the payables decrease of $5,000. Cash generated from operations is $167,000.",
+      "topic": "Preparing financial statements",
+      "subtopic": "Statement of cash flows (excluding partnerships)",
+      "difficulty": "hard",
+      "source": "IAS 7 – Statement of Cash Flows: Indirect Method"
+    },
+    {
+      "stem": "A business has opening net assets of $120,000 and closing net assets of $155,000. During the year, its owner introduced additional capital of $20,000 and withdrew $12,000 for personal use. There were no other capital transactions. What profit did the business earn during the year?",
+      "options": [
+        "$23,000",
+        "$35,000",
+        "$43,000",
+        "$27,000"
+      ],
+      "answer": "D",
+      "explanation": "The change in net assets is $155,000 − $120,000 = $35,000. This change includes additional capital of $20,000 and drawings of $12,000, so profit is $35,000 − $20,000 + $12,000 = $27,000.",
+      "topic": "Preparing financial statements",
+      "subtopic": "Incomplete records",
+      "difficulty": "medium",
+      "source": "ACCA FA Study Guide – Preparing Financial Statements from Incomplete Records"
+    },
+    {
+      "stem": "On 1 January 20X9, Parent Co acquired 80% of the ordinary shares of Subsidiary Co for cash consideration of $640,000. At the acquisition date, the fair value of Subsidiary Co's identifiable net assets was $700,000 and the fair value of the non-controlling interest was $150,000. What amount of goodwill should be recognised in the consolidated financial statements at acquisition?",
+      "options": [
+        "$90,000",
+        "$80,000",
+        "$150,000",
+        "$210,000"
+      ],
+      "answer": "A",
+      "explanation": "Under the full goodwill method, goodwill equals consideration transferred plus the fair value of the non-controlling interest less the fair value of identifiable net assets acquired. Therefore, goodwill is $640,000 + $150,000 − $700,000 = $90,000.",
+      "topic": "Preparing basic consolidated financial statements",
+      "subtopic": "Subsidiaries",
+      "difficulty": "hard",
+      "source": "ACCA FA Study Guide – Preparing Basic Consolidated Financial Statements: Goodwill on Acquisition"
+    },
+    {
+      "stem": "An entity reports the following financial information for 20X8 and 20X9. Revenue was $800,000 in 20X8 and $960,000 in 20X9. Cost of sales was $560,000 in 20X8 and $720,000 in 20X9. How does the gross profit margin for 20X9 compare with that of 20X8?",
+      "options": [
+        "It increased by 5 percentage points",
+        "It remained unchanged at 30%",
+        "It decreased by 5 percentage points",
+        "It decreased by 10 percentage points"
+      ],
+      "answer": "C",
+      "explanation": "Gross profit margin is gross profit divided by revenue, multiplied by 100. For 20X8, the margin was ($800,000 − $560,000) ÷ $800,000 = 30%; for 20X9, it was ($960,000 − $720,000) ÷ $960,000 = 25%. Therefore, the gross profit margin decreased by 5 percentage points, indicating lower gross profitability per dollar of sales.",
+      "topic": "Interpretation of financial statements",
+      "subtopic": "Ratios",
+      "difficulty": "medium",
+      "source": "ACCA FA Study Guide – Interpretation of Financial Statements: Profitability Ratios"
+    }
+  ]
+}
