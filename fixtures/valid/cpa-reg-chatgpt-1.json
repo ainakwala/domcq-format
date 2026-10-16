@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "cpa-reg",
+  "set": "Uniform CPA Examination: Taxation and Regulation (REG) practice – Comprehensive Set 1",
+  "questions": [
+    {
+      "stem": "A CPA prepares a client's federal income tax return. The client provides information about a deductible business expense, but the CPA notices that the amount is unusually large compared with the client's prior-year expenses. Under Treasury Circular 230, what should the CPA do?",
+      "options": [
+        "Accept the amount because the client is responsible for the return",
+        "Make reasonable inquiries about the amount before relying on it",
+        "Disallow the expense unless the client provides an audited statement",
+        "Report the expense to the IRS before preparing the return"
+      ],
+      "answer": "B",
+      "explanation": "Circular 230 permits practitioners to rely in good faith on information furnished by clients, but they must make reasonable inquiries when information appears incorrect, inconsistent, or incomplete. An unusually large expense may warrant additional investigation. The practitioner is not automatically required to audit the client's records.",
+      "topic": "Ethics, Professional Responsibilities and Federal Tax Procedures",
+      "subtopic": "Ethics and responsibilities in tax practice",
+      "difficulty": "easy",
+      "source": "Treasury Circular 230, Section 10.22, Diligence as to Accuracy"
+    },
+    {
+      "stem": "A taxpayer files a timely federal income tax return on April 15, 2026, for the 2025 tax year. The return contains no fraud, no substantial omission of gross income, and no other circumstance extending the normal assessment period. By what date must the IRS generally assess additional income tax?",
+      "options": [
+        "April 15, 2027",
+        "April 15, 2028",
+        "April 15, 2030",
+        "April 15, 2029"
+      ],
+      "answer": "D",
+      "explanation": "The IRS generally has three years from the date a return is filed to assess additional tax. A return filed on its original due date of April 15, 2026, ordinarily has an assessment deadline of April 15, 2029. Fraud, certain substantial omissions, and other statutory exceptions can extend or eliminate this limitation period.",
+      "topic": "Ethics, Professional Responsibilities and Federal Tax Procedures",
+      "subtopic": "Federal tax procedures",
+      "difficulty": "medium",
+      "source": "IRC Section 6501(a), Limitations on Assessment and Collection"
+    },
+    {
+      "stem": "A paid tax return preparer receives a client's federal tax return information. The preparer wants to disclose the information to an unrelated marketing company to promote financial products. No statutory exception applies. What must the preparer generally obtain before making the disclosure?",
+      "options": [
+        "The taxpayer's informed written consent meeting applicable IRS requirements",
+        "Verbal permission from the taxpayer during a telephone conversation",
+        "Approval from the preparer's supervising CPA or firm manager",
+        "Written authorization from the IRS examination division"
+      ],
+      "answer": "A",
+      "explanation": "IRC Section 7216 generally prohibits unauthorized disclosure or use of tax return information by tax return preparers. Disclosure to an unrelated marketing company normally requires the taxpayer's consent in the form and manner prescribed by applicable regulations. Internal approval alone does not satisfy this requirement.",
+      "topic": "Ethics, Professional Responsibilities and Federal Tax Procedures",
+      "subtopic": "Legal duties and responsibilities",
+      "difficulty": "medium",
+      "source": "IRC Section 7216; Treasury Regulations Sections 301.7216-2 and 301.7216-3"
+    },
+    {
+      "stem": "A company authorizes its purchasing agent to order office equipment costing up to $15,000. The agent orders equipment costing $12,000 from a supplier while acting within that authority and clearly identifying the company as the principal. Who is generally contractually liable to the supplier?",
+      "options": [
+        "The agent alone because the agent negotiated the transaction",
+        "The agent and the company as jointly liable purchasers",
+        "The company because the agent acted for a disclosed principal",
+        "The supplier because it accepted the purchase order"
+      ],
+      "answer": "C",
+      "explanation": "When an agent acts with actual authority on behalf of a disclosed principal, the principal is generally bound by the resulting contract. The agent normally is not personally liable unless the agent separately agrees to be liable or an exception applies.",
+      "topic": "Business Law",
+      "subtopic": "Agency",
+      "difficulty": "easy",
+      "source": "Restatement (Third) of Agency, Sections 6.01 and 2.01"
+    },
+    {
+      "stem": "A manufacturer offers to sell 100 machines to a retailer for $50,000. Before the retailer accepts, the manufacturer communicates that the offer is withdrawn. The retailer subsequently attempts to accept the original offer. Assume the offer was not irrevocable and no option contract existed. What is the legal effect of the retailer's attempted acceptance?",
+      "options": [
+        "It creates an enforceable contract at the original price",
+        "It does not create a contract because the offer was revoked",
+        "It creates a contract only if the retailer immediately pays cash",
+        "It requires the manufacturer to provide a reasonable substitute"
+      ],
+      "answer": "B",
+      "explanation": "An ordinary revocable offer may be withdrawn before acceptance if the revocation is effectively communicated to the offeree. Once revoked, the offer can no longer be accepted. The attempted acceptance therefore does not form a contract.",
+      "topic": "Business Law",
+      "subtopic": "Contracts",
+      "difficulty": "medium",
+      "source": "Restatement (Second) of Contracts, Sections 42 and 36, Revocation and Termination of Offers"
+    },
+    {
+      "stem": "A corporation borrows $200,000 from a bank. Its president signs a written guaranty promising to pay the corporation's debt if the corporation defaults. The corporation subsequently defaults, and the bank seeks payment from the president under the valid guaranty. Which statement best describes the president's obligation?",
+      "options": [
+        "The president becomes the primary borrower under the original loan",
+        "The president is released because the corporation is a separate entity",
+        "The president is liable only if the bank first obtains a bankruptcy order",
+        "The president has a secondary obligation under the guaranty"
+      ],
+      "answer": "D",
+      "explanation": "A guarantor generally undertakes a secondary obligation to satisfy another party's debt upon default. A corporation's separate legal identity does not eliminate an officer's voluntarily assumed personal guaranty. The specific terms of the guaranty determine the creditor's enforcement rights.",
+      "topic": "Business Law",
+      "subtopic": "Debtor-creditor relationships",
+      "difficulty": "medium",
+      "source": "Restatement (Third) of Suretyship and Guaranty, Secondary Obligations"
+    },
+    {
+      "stem": "A lender advances $80,000 to a business and claims a security interest in the business's existing manufacturing equipment. The debtor owns the equipment, and the lender has given value. The debtor has not signed or otherwise authenticated a security agreement, and the lender does not possess or control the equipment. Under UCC Article 9, which additional action would ordinarily establish attachment of the security interest?",
+      "options": [
+        "The debtor authenticates a security agreement reasonably describing the equipment",
+        "The lender sends an informal notice of its claim to another creditor",
+        "The lender records the loan amount in its internal accounting records",
+        "The debtor orally acknowledges the loan during a management meeting"
+      ],
+      "answer": "A",
+      "explanation": "Under UCC Article 9, attachment generally requires value to be given, the debtor to have rights in the collateral, and an applicable evidentiary requirement to be satisfied. When the secured party lacks possession or control, an authenticated security agreement reasonably describing the collateral ordinarily satisfies the third requirement. Attachment is distinct from perfection, which generally determines priority against third parties.",
+      "topic": "Business Law",
+      "subtopic": "Debtor-creditor relationships",
+      "difficulty": "hard",
+      "source": "Uniform Commercial Code, Sections 9-203 and 9-108"
+    },
+    {
+      "stem": "An individual inherits an investment property from a deceased parent. The parent's adjusted basis immediately before death was $120,000. The property's fair market value on the date of death was $300,000. The estate does not elect an alternate valuation date, and no special basis adjustment rule applies. The individual later sells the property for $325,000 and incurs no selling expenses. What is the individual's recognized gain?",
+      "options": [
+        "$205,000",
+        "$300,000",
+        "$25,000",
+        "$325,000"
+      ],
+      "answer": "C",
+      "explanation": "Inherited property generally receives an income tax basis equal to its fair market value on the decedent's date of death. The beneficiary's basis is therefore $300,000 rather than the parent's $120,000 adjusted basis. The recognized gain is $325,000 minus $300,000, or $25,000.",
+      "topic": "Federal Taxation of Property Transactions",
+      "subtopic": "Basis of assets",
+      "difficulty": "medium",
+      "source": "IRC Section 1014, Basis of Property Acquired from a Decedent"
+    },
+    {
+      "stem": "A corporation purchased manufacturing equipment for $90,000 and used it exclusively in its business. Before selling the equipment, the corporation claimed $50,000 of allowable depreciation deductions. The corporation sells the equipment for $65,000 with no selling expenses. Assume the equipment is Section 1245 property and no special exceptions apply. How much of the recognized gain is ordinary income under Section 1245?",
+      "options": [
+        "$15,000",
+        "$25,000",
+        "$40,000",
+        "$50,000"
+      ],
+      "answer": "B",
+      "explanation": "The equipment's adjusted basis is $40,000, producing a recognized gain of $25,000. Section 1245 generally recharacterizes gain as ordinary income to the extent of depreciation previously allowed or allowable, limited to the gain recognized. Because prior depreciation of $50,000 exceeds the $25,000 gain, the entire gain is ordinary income.",
+      "topic": "Federal Taxation of Property Transactions",
+      "subtopic": "Cost recovery (depreciation and amortization)",
+      "difficulty": "hard",
+      "source": "IRC Section 1245, Gain from Dispositions of Certain Depreciable Property"
+    },
+    {
+      "stem": "During 2026, a single taxpayer receives $2,400 of interest from a personal savings account at a commercial bank and $1,600 of interest from qualifying bonds issued by a state government. Neither investment is held through a tax-advantaged account. How much of this interest must generally be included in federal gross income?",
+      "options": [
+        "$0",
+        "$1,600",
+        "$4,000",
+        "$2,400"
+      ],
+      "answer": "D",
+      "explanation": "Interest earned on a commercial bank savings account is generally included in federal gross income. Interest on qualifying state or local government obligations is generally excluded from federal gross income under Section 103. Consequently, only the $2,400 bank interest is taxable.",
+      "topic": "Federal Taxation of Individuals",
+      "subtopic": "Gross income (inclusions and exclusions)",
+      "difficulty": "easy",
+      "source": "IRC Sections 61(a)(4) and 103(a), Interest Income and State or Local Bond Interest"
+    },
+    {
+      "stem": "An individual owns a 25% interest in a calendar-year partnership. The partnership reports $120,000 of ordinary business income for 2026 and makes no distributions during the year. The partnership agreement allocates income according to ownership percentages. Ignoring any other partnership items, how much ordinary business income must the individual generally report for 2026?",
+      "options": [
+        "$30,000",
+        "$0",
+        "$60,000",
+        "$120,000"
+      ],
+      "answer": "A",
+      "explanation": "Partnerships generally pass through their income, deductions, and other tax items to their partners. Each partner reports the distributive share of partnership income whether or not cash is distributed. A 25% share of $120,000 equals $30,000.",
+      "topic": "Federal Taxation of Individuals",
+      "subtopic": "Reporting of items from pass-through entities",
+      "difficulty": "medium",
+      "source": "IRC Sections 701 and 702, Partners Rather Than Partnership Subject to Tax"
+    },
+    {
+      "stem": "A self-employed individual reports $100,000 of net earnings from self-employment for 2026. The individual's calculated self-employment tax is $14,130. Assume the individual qualifies for the full deduction for one-half of self-employment tax and no other limitations apply. What amount may the individual deduct in determining adjusted gross income?",
+      "options": [
+        "$14,130",
+        "$10,598",
+        "$7,065",
+        "$3,533"
+      ],
+      "answer": "C",
+      "explanation": "An eligible self-employed taxpayer may generally deduct the employer-equivalent portion of self-employment tax when calculating adjusted gross income. This deduction equals one-half of the calculated self-employment tax. Therefore, the deduction is $14,130 multiplied by 50%, or $7,065.",
+      "topic": "Federal Taxation of Individuals",
+      "subtopic": "Adjustments and deductions to arrive at adjusted gross income and taxable income",
+      "difficulty": "medium",
+      "source": "IRC Section 164(f), Deduction for One-Half of Self-Employment Tax"
+    },
+    {
+      "stem": "An individual taxpayer owns a passive limited partnership interest that generates an $18,000 ordinary loss during 2026. The taxpayer also receives $7,000 of passive income from an unrelated passive business activity. The taxpayer has sufficient tax basis and satisfies the at-risk rules. There are no prior suspended passive losses, no dispositions, and no applicable special allowances. How much of the $18,000 passive loss is deductible in 2026?",
+      "options": [
+        "$0",
+        "$7,000",
+        "$11,000",
+        "$18,000"
+      ],
+      "answer": "B",
+      "explanation": "The passive activity loss rules generally prevent individuals from deducting passive losses against nonpassive income. The taxpayer may offset the $7,000 of passive income with an equal amount of passive loss. The remaining $11,000 is suspended and carried forward, subject to the applicable rules.",
+      "topic": "Federal Taxation of Individuals",
+      "subtopic": "Loss limitations",
+      "difficulty": "hard",
+      "source": "IRC Section 469, Passive Activity Losses and Credits Limited"
+    },
+    {
+      "stem": "A taxpayer is unmarried on December 31, 2026, and pays 70% of the cost of maintaining a home for the entire year. The taxpayer's unmarried qualifying child, age 12, lives in the home throughout the year, and the taxpayer is entitled to claim the child as a dependent. The taxpayer does not qualify as a surviving spouse. Which federal income tax filing status is generally most appropriate?",
+      "options": [
+        "Single",
+        "Married filing separately",
+        "Married filing jointly",
+        "Head of household"
+      ],
+      "answer": "D",
+      "explanation": "An unmarried taxpayer may qualify as head of household by paying more than half the cost of maintaining a home that is the principal residence of a qualifying person for the required period. The taxpayer satisfies both conditions. Head of household is therefore the appropriate filing status.",
+      "topic": "Federal Taxation of Individuals",
+      "subtopic": "Filing status",
+      "difficulty": "medium",
+      "source": "IRC Section 2(b), Definition of Head of Household"
+    },
+    {
+      "stem": "A domestic C corporation has $200,000 of federal taxable income for 2026. The amount is determined after all applicable deductions and does not include any income subject to a separate tax regime. The corporation is not subject to the corporate alternative minimum tax. What is its regular federal corporate income tax liability before credits?",
+      "options": [
+        "$42,000",
+        "$30,000",
+        "$50,000",
+        "$70,000"
+      ],
+      "answer": "A",
+      "explanation": "Domestic C corporations generally pay federal income tax at a flat rate of 21% on taxable income. Applying this rate to $200,000 produces a regular tax liability of $42,000. Tax credits and separately applicable tax regimes are excluded by the facts of the question.",
+      "topic": "Federal Taxation of Entities (including tax preparation)",
+      "subtopic": "C corporations",
+      "difficulty": "easy",
+      "source": "IRC Section 11(b), Corporate Income Tax Rate"
+    },
+    {
+      "stem": "A calendar-year C corporation reports $500,000 of pretax financial accounting income for 2026. Included in expenses is a $20,000 fine paid to a government for violating a law. The fine is nondeductible for federal income tax purposes. All other book income and expense items are treated identically for tax purposes, and no tax-specific deductions or credits apply. What is the corporation's federal taxable income?",
+      "options": [
+        "$480,000",
+        "$500,000",
+        "$520,000",
+        "$540,000"
+      ],
+      "answer": "C",
+      "explanation": "A nondeductible government fine reduces financial accounting income but generally cannot reduce federal taxable income. The corporation must therefore add the $20,000 expense back to pretax book income. Taxable income is $500,000 plus $20,000, or $520,000, representing a permanent book-tax difference.",
+      "topic": "Federal Taxation of Entities (including tax preparation)",
+      "subtopic": "Differences between book and tax income (loss)",
+      "difficulty": "medium",
+      "source": "IRC Section 162(f), Fines and Penalties; Schedule M-1, Reconciliation of Income"
+    },
+    {
+      "stem": "An individual is the sole shareholder of an S corporation. At the beginning of 2026, the shareholder has $20,000 of adjusted stock basis and $10,000 of adjusted basis in a bona fide direct loan made to the corporation. During 2026, the shareholder is allocated a $38,000 ordinary business loss. There are no distributions, capital contributions, debt repayments, other basis adjustments, or prior suspended losses. Assume the at-risk and passive activity rules do not further restrict the deduction. What is the maximum loss deductible by the shareholder for 2026?",
+      "options": [
+        "$20,000",
+        "$30,000",
+        "$38,000",
+        "$10,000"
+      ],
+      "answer": "B",
+      "explanation": "An S corporation shareholder's deductible pass-through losses are generally limited to adjusted stock basis plus adjusted basis in qualifying indebtedness owed directly to the shareholder. Here, the combined basis is $20,000 plus $10,000, or $30,000. The remaining $8,000 loss is suspended under the basis limitation rules.",
+      "topic": "Federal Taxation of Entities (including tax preparation)",
+      "subtopic": "S corporations",
+      "difficulty": "hard",
+      "source": "IRC Section 1366(d), Limitation on Deduction of Pass-Through Losses"
+    },
+    {
+      "stem": "An individual contributes land with an adjusted tax basis of $40,000 and a fair market value of $65,000 to a newly formed partnership in exchange for a partnership interest. The land has no liabilities, and the contribution is not a disguised sale or an investment company transaction. What is the partnership's initial tax basis in the contributed land?",
+      "options": [
+        "$25,000",
+        "$65,000",
+        "$105,000",
+        "$40,000"
+      ],
+      "answer": "D",
+      "explanation": "When property is contributed to a partnership in a qualifying Section 721 transaction, the partnership generally takes a carryover basis in the property. Its basis is therefore the contributing partner's adjusted basis of $40,000, not the fair market value. The built-in appreciation is generally preserved for future tax allocation purposes.",
+      "topic": "Federal Taxation of Entities (including tax preparation)",
+      "subtopic": "Partnerships",
+      "difficulty": "easy",
+      "source": "IRC Sections 721 and 723, Contributions to a Partnership and Basis of Contributed Property"
+    },
+    {
+      "stem": "A domestic corporation has 60 shareholders, all of whom are U.S. resident individuals. It has only one class of stock outstanding. The corporation wants to elect S corporation status, and all shareholders consent. The corporation is not an ineligible corporation under federal tax law. Which conclusion is correct?",
+      "options": [
+        "The corporation may generally elect S corporation status",
+        "The corporation cannot elect because it has more than 50 shareholders",
+        "The corporation cannot elect unless its shareholders are employees",
+        "The corporation must first convert into a general partnership"
+      ],
+      "answer": "A",
+      "explanation": "A qualifying small business corporation may elect S corporation status if it satisfies the shareholder, ownership, and single-class-of-stock requirements. A corporation with 60 eligible shareholders is within the statutory limit of 100 shareholders. Shareholders are not required to be employees, and conversion to a partnership is unnecessary.",
+      "topic": "Federal Taxation of Entities (including tax preparation)",
+      "subtopic": "S corporations",
+      "difficulty": "medium",
+      "source": "IRC Sections 1361(b) and 1362(a), Small Business Corporation Requirements and Election"
+    },
+    {
+      "stem": "A tax-exempt educational museum regularly operates a commercial car wash open to the general public. The car wash is run by paid employees throughout the year and has no substantial relationship to the museum's educational purpose other than generating revenue. Which statement best describes the federal income tax treatment of the car wash's net income?",
+      "options": [
+        "It is automatically exempt because the museum owns the business",
+        "It is excluded from tax because its profits support education",
+        "It is generally subject to unrelated business income tax",
+        "It is treated as a tax-free charitable contribution to the museum"
+      ],
+      "answer": "C",
+      "explanation": "A tax-exempt organization may owe unrelated business income tax on income from a regularly conducted trade or business that is not substantially related to its exempt purpose. The commercial car wash meets these conditions, and merely using its profits to support educational activities does not make the business substantially related. Its net income is therefore generally subject to unrelated business income tax.",
+      "topic": "Federal Taxation of Entities (including tax preparation)",
+      "subtopic": "Tax-exempt organizations",
+      "difficulty": "easy",
+      "source": "IRC Sections 511 through 513, Tax on Unrelated Business Income and Definition of Unrelated Trade or Business"
+    }
+  ]
+}

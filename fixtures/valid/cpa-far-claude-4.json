@@ -1,0 +1,427 @@
+{
+  "format": "domcq/1",
+  "exam": "cpa-far",
+  "set": "Uniform CPA Examination: Financial Accounting and Reporting (FAR) practice – Mixed Topics Set 1",
+  "questions": [
+    {
+      "stem": "Kerr Corp. uses the indirect method to prepare its statement of cash flows. For the current year, Kerr reported net income of $500,000, depreciation expense of $80,000, and a $15,000 gain on the sale of equipment. During the year, accounts receivable increased by $30,000, inventory decreased by $20,000, and accounts payable increased by $10,000. Kerr also paid cash dividends of $40,000. What amount should Kerr report as net cash provided by operating activities?",
+      "options": [
+        "$505,000",
+        "$525,000",
+        "$545,000",
+        "$565,000"
+      ],
+      "answer": "D",
+      "explanation": "Under the indirect method, start with net income, add back noncash expenses such as depreciation, and remove gains on investing transactions because the full sale proceeds are reported in investing activities. Then adjust for changes in operating working capital: an increase in receivables is subtracted, while a decrease in inventory and an increase in payables are added. $500,000 + $80,000 − $15,000 − $30,000 + $20,000 + $10,000 = $565,000. Dividends paid are a financing outflow and do not affect operating cash flow.",
+      "rationales": {
+        "A": "Reverses the inventory and accounts payable adjustments; a decrease in inventory and an increase in payables both add to operating cash.",
+        "B": "Deducts the $40,000 dividend, but dividends paid are a financing outflow under U.S. GAAP, not an operating item.",
+        "C": "Reverses the accounts payable adjustment; an increase in payables means less cash was paid, so it is added.",
+        "D": "Correct: $500,000 + $80,000 − $15,000 − $30,000 + $20,000 + $10,000 = $565,000."
+      },
+      "topic": "Financial Reporting",
+      "subtopic": "General-Purpose Financial Reporting: For-Profit Business Entities",
+      "difficulty": "medium",
+      "source": "ASC 230, Statement of Cash Flows — indirect method reconciliation of operating activities"
+    },
+    {
+      "stem": "Under GASB standards, which measurement focus and basis of accounting are used to prepare a state or local government's government-wide financial statements?",
+      "options": [
+        "Economic resources measurement focus and accrual basis",
+        "Current financial resources measurement focus and modified accrual basis",
+        "Current financial resources measurement focus and accrual basis",
+        "Economic resources measurement focus and modified accrual basis"
+      ],
+      "answer": "A",
+      "explanation": "The government-wide statements (statement of net position and statement of activities) report all of the government's economic resources, including capital assets and long-term liabilities, so they use the economic resources measurement focus and the full accrual basis. The current financial resources measurement focus and modified accrual basis are used only in the governmental fund statements. This difference is why a reconciliation between the governmental fund statements and the government-wide statements is required.",
+      "rationales": {
+        "A": "Correct: government-wide statements report all economic resources, including capital assets and long-term debt, on the full accrual basis.",
+        "B": "This combination applies to governmental fund statements, not to the government-wide statements.",
+        "C": "The current financial resources focus is paired with modified accrual in governmental funds; it is not used government-wide.",
+        "D": "The economic resources focus is paired with full accrual, not modified accrual, under GASB standards."
+      },
+      "topic": "Financial Reporting",
+      "subtopic": "State and Local Government Concepts",
+      "difficulty": "easy",
+      "source": "GASB Statement No. 34 — government-wide financial statements: measurement focus and basis of accounting"
+    },
+    {
+      "stem": "Hope Shelter, a nongovernmental not-for-profit organization, received the following services without charge during the year: a licensed electrician rewired Hope's building (fair value $12,000); volunteers staffed a fundraising phone bank (fair value $8,000); and a CPA firm performed Hope's annual audit (fair value $15,000), which Hope would otherwise have purchased. What amount should Hope recognize as contributed services revenue for the year?",
+      "options": [
+        "$12,000",
+        "$15,000",
+        "$20,000",
+        "$27,000"
+      ],
+      "answer": "D",
+      "explanation": "Contributed services are recognized only if they (1) create or enhance nonfinancial assets, or (2) require specialized skills, are provided by individuals possessing those skills, and would typically need to be purchased if not donated. The electrician's work enhances a nonfinancial asset (the building), and the audit requires specialized skills Hope would otherwise buy, so both qualify: $12,000 + $15,000 = $27,000. The phone bank volunteers meet neither criterion, so their time is not recognized.",
+      "rationales": {
+        "A": "Recognizes only the electrician's work; the donated audit also qualifies because it requires specialized skills Hope would otherwise purchase.",
+        "B": "Recognizes only the audit; the rewiring enhances a nonfinancial asset (the building) and also qualifies.",
+        "C": "Includes the phone bank volunteers, who lack specialized skills and create no nonfinancial asset, and omits the audit.",
+        "D": "Correct: the rewiring ($12,000) and the audit ($15,000) meet the recognition criteria; the phone bank does not."
+      },
+      "topic": "Financial Reporting",
+      "subtopic": "General-Purpose Financial Reporting: Nongovernmental Not-for-Profit Entities",
+      "difficulty": "medium",
+      "source": "ASC 958-605, Not-for-Profit Entities — Revenue Recognition: contributed services"
+    },
+    {
+      "stem": "A city's governmental funds reported a total net change in fund balances of $1,200,000 for the year. During the year, the governmental funds reported capital outlay expenditures of $900,000 (all capitalizable), reported $1,000,000 of proceeds from issuing general obligation bonds as an other financing source, and repaid $200,000 of long-term debt principal. Depreciation on governmental capital assets was $350,000. Ignoring any other reconciling items, what is the change in net position of governmental activities in the government-wide statement of activities?",
+      "options": [
+        "$950,000",
+        "$1,300,000",
+        "$1,750,000",
+        "$1,950,000"
+      ],
+      "answer": "A",
+      "explanation": "Moving from the governmental funds (current financial resources focus) to governmental activities (economic resources focus) requires reversing items that are treated differently under the two measurement focuses. Capital outlays are added back because they are capitalized government-wide, and depreciation is subtracted because it is an expense there but not a fund expenditure. Bond proceeds are subtracted because they increase a liability rather than net position, and principal repayments are added back because they reduce a liability rather than being an expense: $1,200,000 + $900,000 − $350,000 − $1,000,000 + $200,000 = $950,000.",
+      "rationales": {
+        "A": "Correct: $1,200,000 + $900,000 − $350,000 − $1,000,000 + $200,000 = $950,000.",
+        "B": "Omits depreciation, which is an expense in the statement of activities even though it is not a fund expenditure.",
+        "C": "Ignores the debt items; bond proceeds must be removed and principal repayments added back on the accrual basis.",
+        "D": "Adds back the principal repayment but fails to remove the bond proceeds, which increase a liability, not net position."
+      },
+      "topic": "Financial Reporting",
+      "subtopic": "State and Local Government Concepts",
+      "difficulty": "hard",
+      "source": "GASB Statement No. 34 — reconciliation of governmental fund statements to government-wide statements"
+    },
+    {
+      "stem": "Before a transaction, Moss Co. had a current ratio of 1.5 and a quick ratio of 0.8. Moss then paid part of its accounts payable in cash. What was the effect of this payment on Moss's current ratio and quick ratio?",
+      "options": [
+        "The current ratio increased and the quick ratio increased",
+        "The current ratio increased and the quick ratio decreased",
+        "The current ratio decreased and the quick ratio decreased",
+        "The current ratio decreased and the quick ratio increased"
+      ],
+      "answer": "B",
+      "explanation": "Paying a payable with cash reduces the numerator (cash is both a current and a quick asset) and the denominator (current liabilities) of both ratios by the same amount. Subtracting equal amounts from both parts of a ratio pushes it further from 1: a ratio above 1 increases and a ratio below 1 decreases. For example, with current assets of $150, quick assets of $80 and current liabilities of $100, paying $20 changes the current ratio to 130/80 = 1.625 and the quick ratio to 60/80 = 0.75.",
+      "rationales": {
+        "A": "The quick ratio is below 1, so removing equal amounts from quick assets and current liabilities lowers it.",
+        "B": "Correct: equal reductions to both parts raise a ratio above 1 (current ratio) and lower a ratio below 1 (quick ratio).",
+        "C": "The current ratio is above 1, so removing equal amounts from current assets and current liabilities raises it.",
+        "D": "This reverses both effects; equal reductions push a ratio above 1 higher and a ratio below 1 lower."
+      },
+      "topic": "Financial Reporting",
+      "subtopic": "Financial Statement Ratios and Performance Metrics",
+      "difficulty": "medium",
+      "source": "Financial statement ratios — liquidity measures (current ratio and quick ratio)"
+    },
+    {
+      "stem": "On January 1, Ross Corp., a public company, had 200,000 shares of common stock outstanding. It issued 60,000 additional common shares for cash on April 1 and distributed a 10% stock dividend on October 1. Ross also has outstanding cumulative preferred stock with an annual dividend of $100,000; no preferred dividends were declared this year. Net income for the year was $900,000. What is Ross's basic earnings per share for the year, rounded to the nearest cent?",
+      "options": [
+        "$2.97",
+        "$3.18",
+        "$3.27",
+        "$3.34"
+      ],
+      "answer": "A",
+      "explanation": "For basic EPS, the current-year dividend on cumulative preferred stock is deducted from net income whether or not it was declared, leaving income available to common shareholders of $800,000. A stock dividend is applied retroactively to all shares outstanding before it, as if those additional shares had been outstanding for the whole period: 200,000 × 1.10 × 12/12 = 220,000 plus 60,000 × 1.10 × 9/12 = 49,500, for a weighted average of 269,500 shares. $800,000 ÷ 269,500 = $2.97.",
+      "rationales": {
+        "A": "Correct: ($900,000 − $100,000) ÷ 269,500 weighted shares, with the stock dividend applied retroactively, = $2.97.",
+        "B": "Weights the 26,000 stock dividend shares from October 1; stock dividends are applied retroactively, not from the distribution date.",
+        "C": "Ignores the stock dividend entirely, using 245,000 weighted shares instead of 269,500.",
+        "D": "Fails to deduct the $100,000 cumulative preferred dividend, which reduces income available to common even if undeclared."
+      },
+      "topic": "Financial Reporting",
+      "subtopic": "Public Company Reporting Topics",
+      "difficulty": "hard",
+      "source": "ASC 260, Earnings per Share — basic EPS, weighted-average shares and stock dividends"
+    },
+    {
+      "stem": "Under AICPA guidance, which of the following is a special purpose framework rather than a general purpose financial reporting framework?",
+      "options": [
+        "IFRS as issued by the International Accounting Standards Board",
+        "U.S. GAAP including Private Company Council accounting alternatives",
+        "GASB standards for state and local governmental entities",
+        "The basis of accounting the entity uses to file its income tax return"
+      ],
+      "answer": "D",
+      "explanation": "AICPA standards identify special purpose frameworks as the cash basis, the tax basis, a regulatory basis, a contractual basis, and other bases with substantial support such as FRF for SMEs. The tax basis is the basis the entity uses, or expects to use, to file its income tax return. U.S. GAAP (including PCC alternatives), IFRS and GASB standards are all general purpose frameworks designed for a broad range of users.",
+      "rationales": {
+        "A": "IFRS is a general purpose framework designed to meet the common needs of a wide range of users.",
+        "B": "PCC alternatives are part of U.S. GAAP, which is a general purpose framework.",
+        "C": "GASB standards are U.S. GAAP for state and local governments, a general purpose framework.",
+        "D": "Correct: the tax basis is a special purpose framework, alongside the cash, regulatory and contractual bases."
+      },
+      "topic": "Financial Reporting",
+      "subtopic": "Special Purpose Frameworks",
+      "difficulty": "easy",
+      "source": "AICPA AU-C 800 — financial statements prepared in accordance with special purpose frameworks"
+    },
+    {
+      "stem": "At December 31, Year 1, Pell Co. had the following balances: checking account at First Bank, $50,000; petty cash, $1,000; a U.S. Treasury bill purchased December 1, Year 1, maturing February 28, Year 2, $30,000; a certificate of deposit purchased November 1, Year 1, maturing April 30, Year 2, $20,000; and an overdraft of $5,000 in a separate account at Second Bank. What amount should Pell report as cash and cash equivalents on its December 31, Year 1 balance sheet?",
+      "options": [
+        "$51,000",
+        "$76,000",
+        "$81,000",
+        "$101,000"
+      ],
+      "answer": "C",
+      "explanation": "Cash equivalents are short-term, highly liquid investments with an original maturity to the holder of three months or less. The Treasury bill qualifies because Pell bought it within three months of maturity, but the six-month certificate of deposit does not and is reported as a short-term investment. An overdraft at a different bank cannot be offset against balances elsewhere and is reported as a current liability, so cash and cash equivalents are $50,000 + $1,000 + $30,000 = $81,000.",
+      "rationales": {
+        "A": "Excludes the Treasury bill, which is a cash equivalent because its original maturity to Pell is three months or less.",
+        "B": "Nets the Second Bank overdraft; an overdraft at a different bank is reported as a current liability, not offset.",
+        "C": "Correct: checking $50,000 + petty cash $1,000 + Treasury bill $30,000 = $81,000.",
+        "D": "Includes the certificate of deposit, whose six-month original maturity exceeds the three-month limit."
+      },
+      "topic": "Select Balance Sheet Accounts",
+      "subtopic": "Cash and cash equivalents",
+      "difficulty": "easy",
+      "source": "ASC 230 and ASC 305 — definition and presentation of cash and cash equivalents"
+    },
+    {
+      "stem": "Gray Co. uses the FIFO cost flow method. At year-end, one inventory item has a cost of $50 per unit, a replacement cost of $42 per unit, an estimated selling price of $60 per unit, estimated costs to complete and sell of $15 per unit, and a normal profit margin of $5 per unit. At what amount per unit should Gray report this item on its year-end balance sheet?",
+      "options": [
+        "$42",
+        "$45",
+        "$50",
+        "$55"
+      ],
+      "answer": "B",
+      "explanation": "Entities using FIFO or average cost measure inventory at the lower of cost and net realizable value. Net realizable value is the estimated selling price less reasonably predictable costs of completion and disposal: $60 − $15 = $45. Because $45 is below the $50 cost, the item is written down to $45. Replacement cost and the normal profit margin are used only in the lower-of-cost-or-market test that applies to LIFO and the retail inventory method.",
+      "rationales": {
+        "A": "Replacement cost is used in the lower-of-cost-or-market test for LIFO or the retail method, not LCNRV for FIFO.",
+        "B": "Correct: NRV is $60 − $15 = $45, which is below cost, so the item is reported at $45.",
+        "C": "Cost is not the lower amount; NRV of $45 is below the $50 cost, so a write-down is required.",
+        "D": "Deducts the normal profit margin instead of the costs to complete and sell; NRV deducts completion and disposal costs."
+      },
+      "topic": "Select Balance Sheet Accounts",
+      "subtopic": "Inventory",
+      "difficulty": "medium",
+      "source": "ASC 330-10-35, Inventory — lower of cost and net realizable value (ASU 2015-11)"
+    },
+    {
+      "stem": "Dunn Co. estimates its allowance for credit losses on trade receivables using an aging schedule. At year-end, receivables 0–30 days old total $200,000 (expected loss rate 1%), receivables 31–60 days old total $80,000 (5%), and receivables over 60 days old total $20,000 (20%). Before adjustment, the allowance for credit losses has a $1,500 debit balance. What amount should Dunn recognize as credit loss expense for the year?",
+      "options": [
+        "$4,500",
+        "$8,500",
+        "$10,000",
+        "$11,500"
+      ],
+      "answer": "D",
+      "explanation": "An aging schedule is a balance sheet approach: it determines the required ending allowance, and the expense is whatever adjustment brings the allowance to that balance. The required allowance is $2,000 + $4,000 + $4,000 = $10,000. Because the allowance currently has a $1,500 debit balance (write-offs exceeded prior estimates), the adjustment must eliminate that deficit and establish the required credit balance: $10,000 + $1,500 = $11,500.",
+      "rationales": {
+        "A": "Applies the 1% rate to all $300,000 of receivables; each aging category must use its own expected loss rate.",
+        "B": "Treats the $1,500 debit balance as a credit balance, subtracting it instead of adding it.",
+        "C": "This is the required ending allowance, not the expense; the existing $1,500 debit balance must also be eliminated.",
+        "D": "Correct: required allowance of $10,000 plus the $1,500 debit balance to be eliminated = $11,500 expense."
+      },
+      "topic": "Select Balance Sheet Accounts",
+      "subtopic": "Trade receivables",
+      "difficulty": "medium",
+      "source": "ASC 326-20, Financial Instruments — Credit Losses: allowance for trade receivables using an aging schedule"
+    },
+    {
+      "stem": "Hart Co. bought a machine with a purchase price of $100,000. Hart also paid sales tax of $6,000, freight to deliver the machine of $2,000, and installation and testing costs of $4,000. While being unloaded, the machine was dropped, and repairs cost $1,500. After the machine was placed in service, Hart paid $1,200 for one year of insurance on it. What amount should Hart capitalize as the cost of the machine?",
+      "options": [
+        "$112,000",
+        "$113,200",
+        "$113,500",
+        "$114,700"
+      ],
+      "answer": "A",
+      "explanation": "The cost of property, plant and equipment includes all costs necessary to acquire the asset and get it ready for its intended use, such as the purchase price, sales tax, freight and installation and testing: $100,000 + $6,000 + $2,000 + $4,000 = $112,000. Repairs of damage caused during unloading are not necessary to prepare the asset for use, so they are expensed. Insurance covering the period after the machine is in service is an operating cost of that period.",
+      "rationales": {
+        "A": "Correct: price, sales tax, freight and installation are needed to get the machine ready for use, totaling $112,000.",
+        "B": "Capitalizes the insurance, which relates to the period after the machine is placed in service and is expensed over that period.",
+        "C": "Capitalizes the repair of damage caused while unloading; this cost is not necessary to prepare the asset for use.",
+        "D": "Capitalizes both the avoidable repair and the post-service insurance; neither is part of acquisition cost."
+      },
+      "topic": "Select Balance Sheet Accounts",
+      "subtopic": "Property, plant and equipment",
+      "difficulty": "easy",
+      "source": "ASC 360-10, Property, Plant, and Equipment — initial measurement at historical cost"
+    },
+    {
+      "stem": "On January 1, Year 1, Pike Co. paid $600,000 for 30% of Lake Co.'s outstanding common stock, giving Pike significant influence. The purchase price exceeded Pike's share of Lake's book value by $50,000, all attributable to equipment with a remaining useful life of five years. For Year 1, Lake reported net income of $200,000 and paid cash dividends of $50,000. What is the carrying amount of Pike's investment in Lake at December 31, Year 1?",
+      "options": [
+        "$595,000",
+        "$600,000",
+        "$635,000",
+        "$645,000"
+      ],
+      "answer": "C",
+      "explanation": "Under the equity method, the investment increases by the investor's share of investee income ($200,000 × 30% = $60,000) and decreases by its share of dividends ($50,000 × 30% = $15,000), because dividends are a return of the investment. The excess of cost over book value assigned to equipment is depreciated over the equipment's remaining life ($50,000 ÷ 5 = $10,000), which reduces both equity income and the investment. $600,000 + $60,000 − $15,000 − $10,000 = $635,000.",
+      "rationales": {
+        "A": "Amortizes the entire $50,000 excess in Year 1; it should be spread over the equipment's five-year remaining life.",
+        "B": "Leaves the investment at its purchase price; with significant influence, Pike must apply the equity method.",
+        "C": "Correct: $600,000 + $60,000 share of income − $15,000 dividends − $10,000 excess depreciation = $635,000.",
+        "D": "Omits the $10,000 annual depreciation of the excess cost assigned to the equipment."
+      },
+      "topic": "Select Balance Sheet Accounts",
+      "subtopic": "Investments",
+      "difficulty": "medium",
+      "source": "ASC 323, Investments — Equity Method and Joint Ventures"
+    },
+    {
+      "stem": "On January 1, Year 1, Vail Corp. issued $1,000,000 of 8% bonds due in five years, with interest paid each December 31. The bonds were issued for $924,184 to yield a market rate of 10%. Vail uses the effective interest method. What is the carrying amount of the bonds at December 31, Year 1, after the interest payment?",
+      "options": [
+        "$911,766",
+        "$936,602",
+        "$939,347",
+        "$944,184"
+      ],
+      "answer": "B",
+      "explanation": "Under the effective interest method, interest expense equals the bonds' carrying amount times the market rate at issuance: $924,184 × 10% = $92,418. The cash payment is $1,000,000 × 8% = $80,000, and the $12,418 difference is discount amortization, which increases the carrying amount to $924,184 + $12,418 = $936,602. The carrying amount of bonds issued at a discount rises toward face value over the bond term.",
+      "rationales": {
+        "A": "Subtracts the $12,418 discount amortization; amortizing a discount increases the carrying amount toward face value.",
+        "B": "Correct: interest expense $92,418 − cash interest $80,000 = $12,418 amortization; $924,184 + $12,418 = $936,602.",
+        "C": "Uses straight-line amortization ($75,816 ÷ 5 = $15,163) rather than the effective interest method Vail applies.",
+        "D": "Computes interest expense on face value ($100,000) instead of on the bonds' carrying amount."
+      },
+      "topic": "Select Balance Sheet Accounts",
+      "subtopic": "Debt (financial liabilities)",
+      "difficulty": "medium",
+      "source": "ASC 835-30, Interest — Imputation of Interest: effective interest method for bond discounts"
+    },
+    {
+      "stem": "Ames Corp. had no treasury stock transactions before the current year. This year, using the cost method, Ames reacquired 5,000 shares of its own common stock at $30 per share. It later reissued 3,000 of these shares at $35 per share, and then reissued the remaining 2,000 shares at $22 per share. In addition to the debit to cash, which debits are required to record the reissuance of the 2,000 shares?",
+      "options": [
+        "Loss on reissuance of treasury stock, $16,000, reported in net income",
+        "Retained earnings, $16,000, with no entry to paid-in capital",
+        "Additional paid-in capital from treasury stock, $16,000 in total",
+        "Additional paid-in capital from treasury stock, $15,000, and retained earnings, $1,000"
+      ],
+      "answer": "D",
+      "explanation": "Under the cost method, treasury stock is carried at its $30 cost per share. The first reissuance at $35 created $15,000 (3,000 × $5) of additional paid-in capital from treasury stock. The second reissuance at $22 falls short of cost by $16,000 (2,000 × $8); the shortfall is charged first against the existing APIC from treasury stock ($15,000) and the remaining $1,000 against retained earnings. A company never recognizes gains or losses in net income on transactions in its own stock.",
+      "rationales": {
+        "A": "Gains and losses on treasury stock transactions are equity transactions and are never reported in net income.",
+        "B": "The shortfall is charged first against existing APIC from treasury stock; retained earnings absorbs only the excess.",
+        "C": "Only $15,000 of APIC from treasury stock exists, so it cannot absorb the full $16,000 shortfall.",
+        "D": "Correct: the $16,000 shortfall uses the $15,000 APIC from the earlier $35 reissuance, and the remaining $1,000 reduces retained earnings."
+      },
+      "topic": "Select Balance Sheet Accounts",
+      "subtopic": "Equity",
+      "difficulty": "medium",
+      "source": "ASC 505-30, Equity — Treasury Stock (cost method)"
+    },
+    {
+      "stem": "On January 1, Year 1, Ford Co. purchased equipment for $500,000 and began depreciating it on a straight-line basis over 10 years with no salvage value. At the beginning of Year 5, Ford determined that the equipment's remaining useful life was four years and that it would have a salvage value of $20,000. What amount of depreciation expense should Ford record for Year 5?",
+      "options": [
+        "$50,000",
+        "$60,000",
+        "$70,000",
+        "$75,000"
+      ],
+      "answer": "C",
+      "explanation": "A change in an asset's useful life or salvage value is a change in accounting estimate, which is accounted for prospectively in the current and future periods with no restatement of prior years. The carrying amount at the start of Year 5 is $500,000 − (4 × $50,000) = $300,000. That amount, less the new salvage value, is spread over the remaining life: ($300,000 − $20,000) ÷ 4 = $70,000.",
+      "rationales": {
+        "A": "Continues the original depreciation; the revised estimates must be reflected prospectively starting in Year 5.",
+        "B": "Recomputes from original cost over the revised total life (($500,000 − $20,000) ÷ 8), as if applying the change retrospectively.",
+        "C": "Correct: (carrying amount $300,000 − salvage $20,000) ÷ 4 remaining years = $70,000.",
+        "D": "Ignores the new $20,000 salvage value when spreading the remaining carrying amount over four years."
+      },
+      "topic": "Select Transactions",
+      "subtopic": "Accounting changes and error corrections",
+      "difficulty": "medium",
+      "source": "ASC 250-10-45, Accounting Changes and Error Corrections — change in accounting estimate"
+    },
+    {
+      "stem": "At year-end, Bell Co. is the defendant in a lawsuit. Legal counsel believes it is probable that Bell will lose and estimates the loss will be between $200,000 and $500,000, with no amount within that range a better estimate than any other. Under U.S. GAAP, what amount should Bell accrue as a loss liability?",
+      "options": [
+        "$0",
+        "$200,000",
+        "$350,000",
+        "$500,000"
+      ],
+      "answer": "B",
+      "explanation": "A loss contingency is accrued when the loss is probable and the amount can be reasonably estimated. When the estimate is a range and no amount within it is a better estimate than any other, U.S. GAAP requires accrual of the minimum amount in the range, $200,000. Bell must also disclose the nature of the contingency and the reasonably possible additional loss of up to $300,000.",
+      "rationales": {
+        "A": "Accrual is required because the loss is probable and reasonably estimable; disclosure alone is not sufficient.",
+        "B": "Correct: with no best estimate in the range, U.S. GAAP requires accruing the minimum, $200,000, and disclosing the rest.",
+        "C": "Using the midpoint of a range of equally likely outcomes is the IFRS (IAS 37) approach, not U.S. GAAP.",
+        "D": "Accruing the maximum overstates the liability; U.S. GAAP uses the minimum when no amount in the range is better."
+      },
+      "topic": "Select Transactions",
+      "subtopic": "Contingencies and commitments",
+      "difficulty": "easy",
+      "source": "ASC 450-20, Contingencies — Loss Contingencies: accrual when the estimate is a range"
+    },
+    {
+      "stem": "In its first year of operations, Cole Corp. reported pretax financial income of $500,000. This amount included $20,000 of interest income on municipal bonds, which is never taxable. Tax depreciation exceeded book depreciation by $60,000, a difference that will reverse in future years. The enacted income tax rate is 25% for all years. What amount should Cole report as total income tax expense for the year?",
+      "options": [
+        "$90,000",
+        "$105,000",
+        "$120,000",
+        "$125,000"
+      ],
+      "answer": "C",
+      "explanation": "Total income tax expense is current tax expense plus deferred tax expense. Current tax is based on taxable income: ($500,000 − $20,000 − $60,000) × 25% = $105,000. The $60,000 temporary difference creates a deferred tax liability and deferred tax expense of $15,000, so total expense is $120,000. Equivalently, total expense is 25% of pretax income after removing the permanent difference: ($500,000 − $20,000) × 25%.",
+      "rationales": {
+        "A": "Treats the depreciation difference as a deferred tax benefit; excess tax depreciation creates a deferred tax liability and expense.",
+        "B": "This is only current tax expense; the $15,000 deferred tax expense on the depreciation difference must be added.",
+        "C": "Correct: current tax expense $105,000 + deferred tax expense $15,000 = $120,000.",
+        "D": "Taxes the municipal bond interest; a permanent difference never creates deferred taxes and is excluded from tax expense."
+      },
+      "topic": "Select Transactions",
+      "subtopic": "Accounting for income taxes",
+      "difficulty": "medium",
+      "source": "ASC 740, Income Taxes — current and deferred tax expense; temporary vs. permanent differences"
+    },
+    {
+      "stem": "Wade Co.'s fiscal year ends December 31, and its financial statements will be issued in March. Which of the following events, each occurring in January, requires Wade to adjust the amounts reported in its December 31 financial statements?",
+      "options": [
+        "A major customer declared bankruptcy because of a financial decline that began well before year-end",
+        "A fire destroyed one of Wade's warehouses and the inventory stored in it",
+        "Wade issued $5 million of bonds to finance an expansion of its plant",
+        "The fair value of Wade's investments in equity securities dropped sharply"
+      ],
+      "answer": "A",
+      "explanation": "Recognized subsequent events provide additional evidence about conditions that existed at the balance sheet date, and they require adjustment of the financial statements. The customer's bankruptcy confirms that its receivable was already impaired at year-end, so Wade should adjust its allowance for credit losses. The fire, the bond issuance and the market decline arise from conditions that did not exist at year-end; they are nonrecognized events that may require disclosure but not adjustment.",
+      "rationales": {
+        "A": "Correct: the bankruptcy confirms a condition, the customer's deteriorating finances, that existed at the balance sheet date.",
+        "B": "A fire after year-end is a new condition; it is a nonrecognized event that may need disclosure, not adjustment.",
+        "C": "Issuing bonds after year-end is a nonrecognized event; it may be disclosed but does not change year-end balances.",
+        "D": "A decline in fair value after year-end reflects new market conditions; it is disclosed if material, not recognized."
+      },
+      "topic": "Select Transactions",
+      "subtopic": "Subsequent events",
+      "difficulty": "easy",
+      "source": "ASC 855, Subsequent Events — recognized and nonrecognized subsequent events"
+    },
+    {
+      "stem": "On January 1, Year 1, Rand Co. entered into a five-year lease of equipment, which it properly classified as an operating lease. Annual payments of $50,000 are due each December 31, beginning December 31, Year 1. The present value of the lease payments at Rand's incremental borrowing rate of 6% is $210,618. There were no initial direct costs, lease incentives or prepaid rent. What is the carrying amount of Rand's right-of-use asset at December 31, Year 1?",
+      "options": [
+        "$160,618",
+        "$168,494",
+        "$173,255",
+        "$210,618"
+      ],
+      "answer": "C",
+      "explanation": "For an operating lease, the lessee recognizes a single straight-line lease cost ($50,000 per year), and the right-of-use asset is amortized by the difference between that cost and the interest accreted on the lease liability. Year 1 interest is $210,618 × 6% = $12,637, so ROU amortization is $50,000 − $12,637 = $37,363, leaving an ROU asset of $173,255. With no initial direct costs, incentives or prepaid rent, the operating lease ROU asset equals the lease liability ($210,618 + $12,637 − $50,000 = $173,255).",
+      "rationales": {
+        "A": "Reduces the ROU asset by the full $50,000 payment; only the excess of straight-line cost over liability interest is amortized.",
+        "B": "Applies straight-line amortization ($210,618 ÷ 5 = $42,124), the finance lease method, rather than the operating lease method.",
+        "C": "Correct: $210,618 − ($50,000 straight-line cost − $12,637 interest) = $173,255, equal to the lease liability.",
+        "D": "The ROU asset is amortized each year; it does not remain at its initial measurement."
+      },
+      "topic": "Select Transactions",
+      "subtopic": "Lessee accounting",
+      "difficulty": "hard",
+      "source": "ASC 842-20, Leases — Lessee: subsequent measurement of operating leases"
+    },
+    {
+      "stem": "On October 1, Year 1, Tate Co. signed a contract to provide a customer with equipment, installation services, and one year of maintenance beginning October 1, for a total price of $90,000. Each is a distinct performance obligation. Standalone selling prices are $80,000 for the equipment, $20,000 for installation and $20,000 for the maintenance. Tate delivered and installed the equipment on October 1, and the maintenance is a stand-ready obligation satisfied evenly over the year. How much revenue should Tate recognize from this contract for the year ended December 31, Year 1?",
+      "options": [
+        "$75,000",
+        "$78,750",
+        "$80,000",
+        "$90,000"
+      ],
+      "answer": "B",
+      "explanation": "The transaction price is allocated to the performance obligations based on their relative standalone selling prices. Total standalone selling prices are $120,000, so each obligation receives 75% of its standalone price: equipment $60,000, installation $15,000 and maintenance $15,000. The equipment and installation obligations were satisfied on October 1, and three months of maintenance has been provided ($15,000 × 3/12 = $3,750), so revenue is $60,000 + $15,000 + $3,750 = $78,750.",
+      "rationales": {
+        "A": "Omits the maintenance revenue earned from October to December; three months of the allocated $15,000 has been satisfied.",
+        "B": "Correct: $60,000 equipment + $15,000 installation + $3,750 (3/12 of the $15,000 allocated to maintenance) = $78,750.",
+        "C": "Uses the maintenance standalone price ($20,000 × 3/12 = $5,000) rather than its allocated price of $15,000.",
+        "D": "Recognizes the entire price; the maintenance obligation is satisfied over time and is mostly unperformed at year-end."
+      },
+      "topic": "Select Transactions",
+      "subtopic": "Revenue recognition",
+      "difficulty": "hard",
+      "source": "ASC 606-10-32 and 606-10-25, Revenue from Contracts with Customers — allocating the transaction price and satisfying performance obligations"
+    }
+  ]
+}
