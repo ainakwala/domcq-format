@@ -1,0 +1,306 @@
+{
+  "format": "domcq/1",
+  "set": "Pharmacology – Drug Absorption, Metabolism, and Adverse Reactions",
+  "questions": [
+    {
+      "stem": "Which physicochemical property most significantly increases the passive transcellular diffusion of a drug across intestinal epithelial cell membranes?",
+      "options": [
+        "High degree of lipid solubility",
+        "High molecular weight exceeding 1000 Da",
+        "Permanent net positive or negative ionic charge",
+        "Presence of multiple polar hydrogen-bonding groups"
+      ],
+      "answer": "A",
+      "explanation": "Passive transcellular diffusion depends directly on lipid solubility, allowing nonpolar molecules to partition across the hydrophobic interior of the lipid bilayer according to Fick's law. In contrast, large molecular size, permanent charges, and abundant polar groups impede movement through lipid membranes. Therefore, uncharged, lipophilic drugs permeate intestinal epithelial barriers much more rapidly than polar or charged species.",
+      "topic": "Drug absorption",
+      "subtopic": "Mechanisms of drug permeation",
+      "difficulty": "easy",
+      "source": "Basic and Clinical Pharmacology: Pharmacokinetics - Drug Permeation and Absorption"
+    },
+    {
+      "stem": "A patient is switched from an intravenous formulation of a drug to an oral tablet of the same drug. If the oral bioavailability of the drug is 50%, how should the oral dose compare to the intravenous dose to achieve equivalent systemic exposure?",
+      "options": [
+        "The oral dose should be half of the intravenous dose",
+        "The oral dose should be identical to the intravenous dose",
+        "The oral dose should be double the intravenous dose",
+        "The oral dose should be four times the intravenous dose"
+      ],
+      "answer": "C",
+      "explanation": "Bioavailability represents the fraction of an administered dose that reaches systemic circulation in active form. Because oral bioavailability is 50% (F = 0.5), half of the ingested drug is lost before reaching systemic circulation, primarily due to incomplete absorption or first-pass hepatic metabolism. Doubling the oral dose compensates for this 50% loss to achieve an equivalent systemic area under the curve (AUC).",
+      "topic": "Drug absorption",
+      "subtopic": "Bioavailability and first-pass hepatic metabolism",
+      "difficulty": "easy",
+      "source": "Goodman and Gilman's The Pharmacological Basis of Therapeutics: Pharmacokinetics - Bioavailability"
+    },
+    {
+      "stem": "A weak acid drug has a pKa of 3.5. In the stomach at a gastric pH of 1.5, what is the predominant ionization state of this drug and its direct implication for lipid membrane permeability?",
+      "options": [
+        "Predominantly ionized and restricted from crossing lipid membranes",
+        "Predominantly non-ionized and favored for passive lipid permeation",
+        "Predominantly ionized and actively transported by enterocyte carriers",
+        "Predominantly non-ionized and restricted to paracellular fluid channels"
+      ],
+      "answer": "B",
+      "explanation": "According to the Henderson-Hasselbalch principle, when the ambient pH (1.5) is two units below the pKa of a weak acid (3.5), the drug exists predominantly in its protonated, uncharged (non-ionized) form. Non-ionized molecules possess higher lipid solubility, allowing them to cross cell membranes by passive diffusion more readily than their charged counterparts. Although total absorption is often limited by the stomach's smaller surface area compared to the small intestine, this non-ionized state physically favors passive lipid permeation.",
+      "topic": "Drug absorption",
+      "subtopic": "Influence of pH and ionization",
+      "difficulty": "medium",
+      "source": "Katzung Basic and Clinical Pharmacology: Pharmacokinetics - Ion Trapping and Henderson-Hasselbalch"
+    },
+    {
+      "stem": "Nitroglycerin is commonly administered sublingually rather than swallowed as a standard oral tablet primarily to exploit which pharmacokinetic advantage?",
+      "options": [
+        "Delayed sustained release that prolongs the therapeutic duration of action",
+        "Active transport mediated by high-density sublingual peptide carriers",
+        "Rapid neutralization of gastric acid to protect the drug from hydrolytic degradation",
+        "Direct drainage into the superior vena cava bypassing initial hepatic first-pass metabolism"
+      ],
+      "answer": "D",
+      "explanation": "Venous drainage from the oral sublingual mucosa enters the systemic venous system via the superior vena cava, completely bypassing the portal circulation and the liver. Because nitroglycerin undergoes extensive first-pass hepatic metabolism exceeding 90%, sublingual administration preserves systemic drug delivery and produces rapid therapeutic onset. Oral swallowed formulations would undergo near-complete hepatic clearance before reaching the coronary and systemic circulation.",
+      "topic": "Drug absorption",
+      "subtopic": "Routes of administration and first-pass bypass",
+      "difficulty": "medium",
+      "source": "Rang and Dale's Pharmacology: Absorption and Routes of Administration"
+    },
+    {
+      "stem": "Co-administration of a potent inhibitor of intestinal P-glycoprotein (ABCB1) alongside an oral substrate drug with low baseline bioavailability is most likely to produce which pharmacokinetic change?",
+      "options": [
+        "Increased oral bioavailability and higher peak plasma concentrations of the substrate drug",
+        "Decreased maximum plasma concentration (Cmax) of the substrate drug due to mucosal trapping",
+        "Enhanced biliary clearance with lower systemic drug exposure over time",
+        "Accelerated fecal elimination caused by enhanced apical enterocyte secretion"
+      ],
+      "answer": "A",
+      "explanation": "P-glycoprotein is an ATP-dependent efflux pump located on the apical membrane of intestinal enterocytes that actively pumps absorbed drug molecules back into the intestinal lumen. When this transporter is inhibited, apical efflux is diminished, allowing a greater fraction of the absorbed substrate to enter mesenteric capillaries and reach systemic circulation. Consequently, the oral bioavailability (AUC) and peak concentration (Cmax) of the substrate drug increase significantly.",
+      "topic": "Drug absorption",
+      "subtopic": "Efflux transporters",
+      "difficulty": "hard",
+      "source": "Goodman and Gilman's The Pharmacological Basis of Therapeutics: Drug Transporters in Pharmacokinetics"
+    },
+    {
+      "stem": "When regulatory agencies evaluate whether a generic oral drug formulation is bioequivalent to an innovator reference product, which two primary pharmacokinetic parameters must demonstrate equivalent rates and extents of absorption?",
+      "options": [
+        "Steady-state volume of distribution (Vd) and total renal clearance rate (CLr)",
+        "Elimination half-life (t1/2) and minimum effective concentration (MEC)",
+        "Plasma protein binding percentage and therapeutic index (TI)",
+        "Area under the plasma concentration-time curve (AUC) and maximum plasma concentration (Cmax)"
+      ],
+      "answer": "D",
+      "explanation": "Bioequivalence testing assesses whether two formulations deliver the same active moiety at the same rate and extent to the systemic circulation. The area under the plasma concentration-time curve (AUC) reflects the total extent of drug absorption, while the maximum plasma concentration (Cmax) reflects both the rate and extent of absorption. Demonstrating that the 90% confidence intervals for AUC and Cmax ratios fall within established bioequivalence limits (typically 80% to 125%) is required for generic substitution.",
+      "topic": "Drug absorption",
+      "subtopic": "Bioequivalence parameters",
+      "difficulty": "medium",
+      "source": "FDA Guidance for Industry: Bioequivalence Studies with Pharmacokinetic Endpoints"
+    },
+    {
+      "stem": "How does co-administration of an anticholinergic medication that significantly delays gastric emptying time most commonly affect the absorption profile of an orally administered, rapidly dissolving analgesic?",
+      "options": [
+        "Decreases the time to peak concentration (Tmax) without altering the total area under the curve",
+        "Prolongs the time to peak concentration (Tmax) and often reduces the maximum concentration (Cmax)",
+        "Substantially enhances the overall bioavailability by extending gastric mucosal contact time",
+        "Completely abolishes drug absorption by precipitating the compound in acidic gastric fluid"
+      ],
+      "answer": "B",
+      "explanation": "Because the small intestine possesses an exponentially greater absorptive surface area than the stomach, most oral drugs are absorbed predominantly upon reaching the duodenum and jejunum. Delayed gastric emptying slows the transit of the drug into the small intestine, leading to a longer time to reach peak concentration (increased Tmax) and a flattened, lower peak plasma concentration (decreased Cmax). The total systemic extent of absorption (AUC) may remain relatively unchanged if the drug is stable and completely absorbed downstream.",
+      "topic": "Drug absorption",
+      "subtopic": "Gastrointestinal motility and absorption kinetics",
+      "difficulty": "hard",
+      "source": "Katzung Basic and Clinical Pharmacology: Pharmacokinetics - Gastrointestinal Absorption Factors"
+    },
+    {
+      "stem": "Which biotransformation reaction is classified as a Phase II conjugation reaction rather than a Phase I functionalization reaction?",
+      "options": [
+        "Aliphatic hydroxylation catalyzed by cytochrome P450 monooxygenases",
+        "Oxidative deamination catalyzed by mitochondrial monoamine oxidase",
+        "Glucuronidation catalyzed by UDP-glucuronosyltransferases",
+        "Ester hydrolysis catalyzed by circulating plasma carboxylesterases"
+      ],
+      "answer": "C",
+      "explanation": "Phase II reactions involve conjugation, where an endogenous polar substrate (such as glucuronic acid, sulfate, glutathione, or acetate) is covalently linked to a parent drug or a Phase I metabolite to form a hydrophilic conjugate suitable for excretion. Glucuronidation catalyzed by UDP-glucuronosyltransferases (UGTs) is the most common Phase II conjugation pathway. In contrast, oxidations, reductions, and hydrolyses are Phase I reactions that introduce or unmask reactive polar functional groups.",
+      "topic": "Drug metabolism",
+      "subtopic": "Phase I versus Phase II biotransformation",
+      "difficulty": "easy",
+      "source": "Katzung Basic and Clinical Pharmacology: Drug Biotransformation - Phase I and Phase II Reactions"
+    },
+    {
+      "stem": "A patient maintained on a stable therapeutic dose of warfarin begins taking rifampin for tuberculosis. What pharmacokinetic mechanism explains the resulting sharp decrease in warfarin's anticoagulant efficacy?",
+      "options": [
+        "Induction of hepatic CYP2C9 and CYP3A4 enzymes accelerating warfarin metabolic clearance",
+        "Direct competitive displacement of warfarin from plasma albumin binding sites",
+        "Chemical chelation in the gastrointestinal tract preventing warfarin enterocyte absorption",
+        "Inhibition of renal tubular organic anion transporters impairing warfarin reabsorption"
+      ],
+      "answer": "A",
+      "explanation": "Rifampin is a potent transcriptional inducer of hepatic cytochrome P450 enzymes, particularly CYP2C9 (which metabolizes the potent S-enantiomer of warfarin) and CYP3A4. Induction leads to increased de novo synthesis of these enzymes over several days to weeks, substantially accelerating warfarin clearance and reducing its circulating plasma concentrations. Consequently, the international normalized ratio (INR) drops, necessitating a marked increase in warfarin dosage to maintain therapeutic anticoagulation.",
+      "topic": "Drug metabolism",
+      "subtopic": "Hepatic enzyme induction",
+      "difficulty": "medium",
+      "source": "Goodman and Gilman's The Pharmacological Basis of Therapeutics: Hepatic Drug Metabolism and Drug Interactions"
+    },
+    {
+      "stem": "Unlike enzyme induction, which requires time for de novo protein synthesis, competitive reversible inhibition of cytochrome P450 enzymes typically exhibits which temporal characteristic?",
+      "options": [
+        "Delayed onset requiring several weeks to reverse transcriptional down-regulation",
+        "Gradual onset that only becomes clinically detectable after complete depletion of cofactors",
+        "Immediate onset that begins as soon as inhibitory drug concentrations reach the active site",
+        "Irreversible persistence that lasts indefinitely regardless of inhibitor drug elimination"
+      ],
+      "answer": "C",
+      "explanation": "Competitive enzyme inhibition involves direct, reversible binding of the inhibitor to the catalytic site of the cytochrome P450 enzyme, preventing the normal substrate from binding. This process occurs almost immediately once adequate free concentrations of the inhibitor reach the hepatic intracellular compartment. The effect resolves promptly as the inhibitor is eliminated, in sharp contrast to enzyme induction or mechanism-based suicide inhibition which require protein synthesis or turnover.",
+      "topic": "Drug metabolism",
+      "subtopic": "Hepatic enzyme inhibition",
+      "difficulty": "medium",
+      "source": "Rang and Dale's Pharmacology: Drug Elimination and Metabolism - Enzyme Inhibition"
+    },
+    {
+      "stem": "A patient identified as a CYP2D6 poor metabolizer receives standard oral doses of codeine for post-surgical pain but reports virtually no analgesia. What is the pharmacological basis for this therapeutic failure?",
+      "options": [
+        "Rapid hepatic conversion of codeine to an inactive toxic metabolite",
+        "Up-regulated renal excretion of codeine by organic cation transporters",
+        "Excessive Phase II glucuronidation clearing the parent compound before opioid receptor binding",
+        "Inability to bioactivate codeine into morphine via CYP2D6-mediated O-demethylation"
+      ],
+      "answer": "D",
+      "explanation": "Codeine is a prodrug with weak intrinsic mu-opioid receptor affinity that relies on CYP2D6-mediated O-demethylation to produce morphine, which is responsible for the predominant analgesic effect. In individuals who inherit two nonfunctional CYP2D6 alleles (poor metabolizers), this metabolic conversion is severely compromised. As a result, therapeutic circulating levels of morphine are not generated, resulting in inadequate pain relief despite standard codeine dosing.",
+      "topic": "Drug metabolism",
+      "subtopic": "Pharmacogenomics of prodrug bioactivation",
+      "difficulty": "medium",
+      "source": "Katzung Basic and Clinical Pharmacology: Pharmacogenomics - Genetic Polymorphisms in CYP2D6"
+    },
+    {
+      "stem": "Patients classified as slow acetylators due to genetic polymorphisms in N-acetyltransferase 2 (NAT2) are at increased risk of peripheral neuropathy when treated with which antimicrobial agent?",
+      "options": [
+        "Gentamicin",
+        "Isoniazid",
+        "Ciprofloxacin",
+        "Amoxicillin"
+      ],
+      "answer": "B",
+      "explanation": "Isoniazid is primarily metabolized in the liver by N-acetyltransferase 2 (NAT2). Individuals with inherited slow-acetylator phenotypes have reduced NAT2 activity, leading to prolonged drug half-life and elevated systemic accumulation of isoniazid. This accumulation promotes the depletion of pyridoxine (vitamin B6) through formation of isoniazid-pyridoxine hydrazones and inhibition of pyridoxal kinase, precipitating peripheral neuropathy unless prophylactic vitamin B6 is co-administered.",
+      "topic": "Drug metabolism",
+      "subtopic": "Acetylation polymorphisms",
+      "difficulty": "easy",
+      "source": "Goodman and Gilman's The Pharmacological Basis of Therapeutics: Pharmacogenetics - N-Acetyltransferase"
+    },
+    {
+      "stem": "For a high-extraction-ratio drug whose systemic clearance is primarily flow-limited (such as propranolol or lidocaine), which physiological variable is the primary determinant of hepatic clearance?",
+      "options": [
+        "Hepatic blood flow rate",
+        "Fraction of drug unbound in plasma (free fraction)",
+        "Intrinsic metabolic enzyme capacity (Vmax)",
+        "Glomerular filtration rate and urine pH"
+      ],
+      "answer": "A",
+      "explanation": "For high-extraction-ratio drugs (extraction ratio greater than 0.7), the liver possesses an enormous metabolic capacity relative to delivery, clearing nearly all drug delivered to it in a single pass through hepatic sinusoids. Mathematically, hepatic clearance approximates hepatic blood flow. Consequently, variations in liver blood perfusion (caused by heart failure, beta-blockade, or cirrhosis) directly alter the systemic clearance of high-extraction drugs, whereas changes in plasma protein binding or enzyme activity have comparatively minor effects.",
+      "topic": "Drug metabolism",
+      "subtopic": "Hepatic extraction ratio and clearance kinetics",
+      "difficulty": "hard",
+      "source": "Katzung Basic and Clinical Pharmacology: Pharmacokinetics - Hepatic Clearance and Extraction Ratio"
+    },
+    {
+      "stem": "During an acute acetaminophen overdose, which endogenous protective substance is depleted in hepatocytes, triggering centrilobular necrosis mediated by the reactive electrophilic intermediate NAPQI?",
+      "options": [
+        "UDP-glucuronic acid",
+        "S-adenosylmethionine",
+        "Reduced glutathione (GSH)",
+        "Superoxide dismutase"
+      ],
+      "answer": "C",
+      "explanation": "In therapeutic doses, acetaminophen is mostly metabolized via glucuronidation and sulfation, with a minor fraction oxidized by CYP2E1 into the toxic intermediate NAPQI, which is rapidly detoxified by covalent conjugation with reduced glutathione (GSH). In an overdose, normal glucuronide and sulfate pathways saturate, shunting more drug to CYP2E1 and rapidly depleting intrahepatic glutathione reserves. Once glutathione is depleted by more than 70%, NAPQI binds covalently to vital hepatic cellular proteins and mitochondrial membranes, triggering acute centrilobular hepatic necrosis.",
+      "topic": "Drug metabolism",
+      "subtopic": "Toxic metabolite generation and detoxification",
+      "difficulty": "medium",
+      "source": "Rang and Dale's Pharmacology: Adverse Drug Reactions - Hepatotoxicity and Paracetamol"
+    },
+    {
+      "stem": "According to the Rawlins and Thompson classification of adverse drug reactions, what is the defining characteristic of a Type A (augmented) reaction?",
+      "options": [
+        "Unpredictable, dose-independent, and mediated by idiosyncratic immune responses",
+        "Predictable, dose-dependent, and related to the known pharmacology of the drug",
+        "Associated with long-term cumulative drug exposure developing over months to years",
+        "Manifesting primarily as delayed withdrawal symptoms following abrupt discontinuation"
+      ],
+      "answer": "B",
+      "explanation": "Type A (augmented) adverse reactions represent predictable extensions of the primary or secondary pharmacological actions of a drug. Because they depend on drug concentration at the site of action, they are strictly dose-dependent and can generally be prevented or managed by dose reduction. Examples include orthostatic hypotension from alpha-blockers or hypoglycemia from insulin, distinct from unpredictable, dose-independent Type B (bizarre) hypersensitivity or idiosyncratic reactions.",
+      "topic": "Adverse reactions",
+      "subtopic": "Classification of adverse drug reactions",
+      "difficulty": "easy",
+      "source": "Edwards and Aronson: Adverse drug reactions - Definitions, diagnosis, and management"
+    },
+    {
+      "stem": "A patient develops acute urticaria, bronchospasm, and hypotension within ten minutes of receiving intravenous penicillin. What immunologic mechanism mediates this clinical presentation?",
+      "options": [
+        "Cytotoxic IgG antibodies targeting circulating peripheral blood cells (Type II)",
+        "Immune complex deposition activating classical complement pathways (Type III)",
+        "Sensitized CD4+ and CD8+ T-lymphocyte cytokine release and recruitment (Type IV)",
+        "IgE cross-linking on mast cells and basophils triggering mediator release (Type I)"
+      ],
+      "answer": "D",
+      "explanation": "Immediate acute allergic reactions occurring within minutes of drug exposure are classic Type I (anaphylactic) hypersensitivity reactions. In a previously sensitized individual, drug-hapten complexes cross-link specific preformed IgE antibodies bound to high-affinity Fc receptors on tissue mast cells and circulating basophils. This cross-linking stimulates immediate degranulation, releasing vasoactive mediators such as histamine, leukotrienes, and prostaglandins that cause vasodilation, smooth muscle contraction, and tissue edema.",
+      "topic": "Adverse reactions",
+      "subtopic": "Type I hypersensitivity reactions",
+      "difficulty": "easy",
+      "source": "Katzung Basic and Clinical Pharmacology: Introduction to Autonomic Pharmacology and Drug Allergy"
+    },
+    {
+      "stem": "Pharmacological prolongation of the QT interval on an electrocardiogram increases the risk of Torsades de Pointes primarily through drug-mediated blockade of which cardiac ion channel?",
+      "options": [
+        "Voltage-gated L-type calcium channels (Cav1.2)",
+        "Inward fast voltage-gated sodium channels (Nav1.5)",
+        "Rapid delayed rectifier potassium channels (IKr / hERG)",
+        "Inward rectifier potassium channels (IK1 / Kir2.1)"
+      ],
+      "answer": "C",
+      "explanation": "Acquired drug-induced prolongation of the QT interval results predominantly from pharmacological inhibition of the inward-rectifying hERG-encoded potassium channel mediating the rapid delayed rectifier current (IKr). Inhibiting this repolarizing potassium efflux delays ventricular repolarization (prolonging Phase 3 and the QT interval on surface ECG). This prolongation permits early afterdepolarizations to trigger potentially fatal polymorphic ventricular tachycardia, classically recognized as Torsades de Pointes.",
+      "topic": "Adverse reactions",
+      "subtopic": "Drug-induced QT prolongation and arrhythmogenesis",
+      "difficulty": "medium",
+      "source": "Goodman and Gilman's The Pharmacological Basis of Therapeutics: Antiarrhythmic Drugs and Cardiac Electrophysiology"
+    },
+    {
+      "stem": "Prior to initiating therapy with the antiretroviral agent abacavir, genetic testing for which human leukocyte antigen (HLA) allele is recommended to avoid a life-threatening, multi-organ hypersensitivity reaction?",
+      "options": [
+        "HLA-B*5701",
+        "HLA-B*1502",
+        "HLA-B*2705",
+        "HLA-DRB1*1501"
+      ],
+      "answer": "A",
+      "explanation": "Abacavir hypersensitivity is an immune-mediated Type IV reaction strongly linked to the major histocompatibility complex class I allele HLA-B*5701. The abacavir molecule fits directly into the antigen-binding groove of the HLA-B*5701 protein, altering the shape of the peptide-binding cleft and inducing an autoimmune-like polyclonal CD8+ T-cell activation. Screening patients for HLA-B*5701 and excluding carriers from abacavir therapy has virtually eliminated this severe and potentially fatal multi-system adverse reaction.",
+      "topic": "Adverse reactions",
+      "subtopic": "Pharmacogenetics of severe hypersensitivity",
+      "difficulty": "hard",
+      "source": "Clinical Pharmacogenetics Implementation Consortium (CPIC) Guidelines for Abacavir and HLA-B"
+    },
+    {
+      "stem": "Administration of angiotensin-converting enzyme (ACE) inhibitors during the second and third trimesters of pregnancy is contraindicated primarily because it causes which pattern of fetal toxicity?",
+      "options": [
+        "Craniofacial clefting and neural tube defects",
+        "Fetal renal dysgenesis leading to oligohydramnios and pulmonary hypoplasia",
+        "Phocomelia and long bone reduction deformities",
+        "Ebstein anomaly of the tricuspid cardiac valve"
+      ],
+      "answer": "B",
+      "explanation": "Fetal glomerular filtration in the second and third trimesters depends critically on angiotensin II-mediated efferent arteriolar vasoconstriction to maintain adequate intraglomerular perfusion pressure. When ACE inhibitors block angiotensin II production, fetal renal perfusion fails, causing fetal renal tubular dysgenesis, anuria, and severe oligohydramnios. In turn, lack of amniotic fluid leads to Potter sequence manifestations, including hypoplastic fetal lung development, limb contractures, and craniofacial malformations.",
+      "topic": "Adverse reactions",
+      "subtopic": "Teratogenicity and fetotoxicity",
+      "difficulty": "medium",
+      "source": "Goodman and Gilman's The Pharmacological Basis of Therapeutics: Renin-Angiotensin System and Teratology"
+    },
+    {
+      "stem": "Stevens-Johnson syndrome (SJS) and toxic epidermal necrolysis (TEN) are life-threatening adverse drug reactions characterized immunologically as which type of mechanism?",
+      "options": [
+        "Immediate IgE-mediated degranulation of dermal mast cells and basophils",
+        "Soluble circulating immune-complex deposition within dermal capillary beds",
+        "Complement-fixing autoantibodies directed against epidermal desmosomes",
+        "Cytotoxic T-lymphocyte- and natural killer cell-mediated keratinocyte apoptosis"
+      ],
+      "answer": "D",
+      "explanation": "Stevens-Johnson syndrome (SJS) and toxic epidermal necrolysis (TEN) are delayed Type IVc cell-mediated hypersensitivity reactions. Cytotoxic CD8+ T lymphocytes and natural killer (NK) cells recognize drug-presented antigens on keratinocytes, triggering extensive apoptosis via the secretion of granulysin, perforin/granzyme B, and Fas-Fas ligand interactions. This targeted destruction of the epidermal layer results in full-thickness epidermal detachment, blistering, and life-threatening mucosal desquamation.",
+      "topic": "Adverse reactions",
+      "subtopic": "Severe cutaneous adverse reactions",
+      "difficulty": "medium",
+      "source": "Rang and Dale's Pharmacology: Adverse Drug Reactions - Severe Cutaneous Reactions"
+    }
+  ]
+}

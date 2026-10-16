@@ -1,0 +1,289 @@
+{
+  "format": "domcq/1",
+  "exam": "pmp",
+  "set": "Project Management Professional (PMP) – PMP study group – mock test 2",
+  "questions": [
+    {
+      "stem": "A project team is developing a digital healthcare platform. During a planning workshop, the sponsor emphasizes reducing operating costs, while the product owner emphasizes improving patient access. Team members are uncertain which objective should guide their decisions. What should the project manager do FIRST?",
+      "options": [
+        "Ask the sponsor to identify the objective that should take priority over all others.",
+        "Facilitate a discussion with key stakeholders to establish a shared vision and agreed success outcomes.",
+        "Direct the team to prioritize requirements that offer the largest immediate cost savings.",
+        "Document both objectives separately and allow functional teams to select their preferred priorities."
+      ],
+      "answer": "B",
+      "explanation": "A shared vision provides a common direction for project decisions and helps reconcile different stakeholder priorities. The project manager should facilitate alignment on desired outcomes before allowing conflicting interpretations to influence execution. The resulting vision should be communicated and revisited as the project evolves.",
+      "topic": "People",
+      "subtopic": "Develop a common vision",
+      "source": "PMP study group – mock test 2, Q1"
+    },
+    {
+      "stem": "Two senior engineers disagree about the architecture of a critical system. Their arguments have become personal, and other team members have stopped participating in design meetings. The project manager has confirmed that both technical approaches are feasible. What should the project manager do NEXT?",
+      "options": [
+        "Select the architecture recommended by the engineer with more organizational experience.",
+        "Request that the functional managers resolve the disagreement outside the project team.",
+        "Separate the engineers and assign independent work packages until the next milestone.",
+        "Facilitate a discussion to identify the underlying concerns and agree on objective decision criteria."
+      ],
+      "answer": "D",
+      "explanation": "Collaborative conflict resolution focuses on the underlying interests rather than the personalities involved. Establishing objective criteria enables the team to evaluate feasible alternatives and develop an agreed resolution. This also helps restore constructive participation and reinforce team ground rules.",
+      "topic": "People",
+      "subtopic": "Manage conflicts",
+      "source": "PMP study group – mock test 2, Q2"
+    },
+    {
+      "stem": "An agile development team consistently completes its committed work, but team members wait for the project manager to approve every technical decision. This dependency is slowing delivery. What is the BEST action for the project manager?",
+      "options": [
+        "Clarify decision boundaries and empower the team to make technical decisions within those boundaries.",
+        "Introduce additional management checkpoints to improve the consistency of technical decisions.",
+        "Assign all technical approvals to the most experienced developer on the team.",
+        "Request that the sponsor authorize each major technical decision during sprint reviews."
+      ],
+      "answer": "A",
+      "explanation": "Effective project leadership promotes team autonomy while maintaining clear accountability and appropriate decision boundaries. Empowering qualified team members reduces unnecessary dependencies and accelerates decisions. Escalation should remain available for decisions outside the team's authority.",
+      "topic": "People",
+      "subtopic": "Lead the project team",
+      "source": "PMP study group – mock test 2, Q3"
+    },
+    {
+      "stem": "A project manager is leading an international infrastructure project. A newly appointed government representative has significant influence over permit approvals but has not attended previous engagement meetings. Construction activities requiring those permits will begin in six weeks. What should the project manager do FIRST?",
+      "options": [
+        "Escalate the representative's absence to the sponsor and request immediate intervention.",
+        "Continue sending existing project reports until the representative requests additional information.",
+        "Assess the representative's interests, influence, information needs, and preferred engagement approach.",
+        "Delay permit-related construction work until the representative attends a formal steering committee meeting."
+      ],
+      "answer": "C",
+      "explanation": "New stakeholders must be analyzed to understand their interests, influence, expectations, and communication needs. The project manager can then tailor engagement activities to build an effective working relationship and support timely approvals. Escalation or schedule changes may be considered later if an actual issue emerges.",
+      "topic": "People",
+      "subtopic": "Engage stakeholders",
+      "source": "PMP study group – mock test 2, Q4"
+    },
+    {
+      "stem": "A hybrid project is developing a customer service platform. During a demonstration, a regional director states that the system must support five languages at launch. The approved release objectives specify two languages, and the product owner believes the additional languages can be delivered later. The director considers all five essential. What should the project manager do NEXT?",
+      "options": [
+        "Accept the regional director's requirement because customer-facing stakeholders determine project success.",
+        "Facilitate alignment among the director, product owner, and relevant decision-makers on launch expectations and priorities.",
+        "Reject the additional languages because requirements outside the initial release objectives cannot be considered.",
+        "Ask the development team to include all five languages without changing the planned release date."
+      ],
+      "answer": "B",
+      "explanation": "Stakeholder expectations should be identified, discussed, and aligned with agreed project objectives. Facilitating a decision about release priorities establishes a common understanding before commitments are changed. Any resulting scope or release change should then follow the project's applicable decision and change processes.",
+      "topic": "People",
+      "subtopic": "Align stakeholder expectations",
+      "source": "PMP study group – mock test 2, Q5"
+    },
+    {
+      "stem": "A specialist who designed a complex integration will leave the organization in two weeks. The integration documentation is incomplete, and the remaining team members have limited experience maintaining it. Which TWO actions should the project manager take to reduce the risk of knowledge loss? Choose TWO.",
+      "options": [
+        "Schedule structured knowledge-sharing sessions and practical walkthroughs with the remaining team.",
+        "Postpone knowledge transfer until the integration experiences its first production incident.",
+        "Ask the specialist to provide a high-level presentation without documenting critical procedures.",
+        "Identify critical operational knowledge and capture it in accessible project documentation.",
+        "Transfer maintenance responsibility to the vendor without evaluating the vendor's capabilities."
+      ],
+      "answer": "AD",
+      "explanation": "Effective knowledge transfer requires identifying critical knowledge and making it usable by the people who will need it. Practical walkthroughs support the transfer of tacit knowledge, while accessible documentation preserves explicit procedures and technical decisions. Together, these activities reduce dependence on a departing specialist.",
+      "topic": "People",
+      "subtopic": "Help ensure knowledge transfer",
+      "source": "PMP study group – mock test 2, Q6"
+    },
+    {
+      "stem": "A geographically distributed project has 12 stakeholder groups. The sponsor wants concise monthly financial summaries, operational managers need weekly dependency reports, and an external regulator requires formal milestone notifications. Despite frequent project-wide emails, several stakeholders say important information reaches them too late. What should the project manager do FIRST?",
+      "options": [
+        "Increase the frequency of project-wide emails and require recipients to acknowledge every message.",
+        "Create a single executive dashboard and provide the same information to every stakeholder group.",
+        "Ask all stakeholders to attend weekly project status meetings regardless of their responsibilities.",
+        "Review stakeholder information requirements and revise the communication strategy, channels, timing, and feedback mechanisms."
+      ],
+      "answer": "D",
+      "explanation": "Communication effectiveness depends on delivering relevant information through appropriate channels at the required time. The project manager should tailor communication to stakeholder needs and reporting obligations rather than simply increasing message volume. Feedback mechanisms help confirm whether the revised approach is working.",
+      "topic": "People",
+      "subtopic": "Plan and manage communication",
+      "source": "PMP study group – mock test 2, Q7"
+    },
+    {
+      "stem": "A company is launching a project to replace an aging billing platform. Regulatory reporting requirements are fixed, but customer-facing features are expected to evolve through frequent user feedback. The organization requires a formal approval process for regulatory deliverables. Which project delivery approach is MOST appropriate?",
+      "options": [
+        "Use a predictive approach for every deliverable to ensure all requirements are approved before execution.",
+        "Use an adaptive approach for every deliverable and postpone regulatory validation until the final release.",
+        "Use a hybrid approach combining planned regulatory milestones with iterative development of customer-facing features.",
+        "Use separate projects for regulatory and customer-facing features without coordinating their dependencies."
+      ],
+      "answer": "C",
+      "explanation": "A hybrid approach accommodates different levels of uncertainty within the same project. Predictive planning supports fixed regulatory requirements, while iterative development enables evolving customer features to benefit from regular feedback. Integration planning remains essential because the two workstreams may share dependencies.",
+      "topic": "Process",
+      "subtopic": "Develop an integrated project management plan and plan delivery",
+      "source": "PMP study group – mock test 2, Q8"
+    },
+    {
+      "stem": "A project manager is preparing a work breakdown structure for a predictive construction project. The scope statement and major deliverables have already been approved. What should the project manager do NEXT to support detailed planning?",
+      "options": [
+        "Decompose the approved deliverables into manageable work packages.",
+        "Assign a fixed duration to every deliverable before identifying the underlying work.",
+        "Begin procuring materials for all deliverables using preliminary estimates.",
+        "Request final acceptance of the construction project from the customer."
+      ],
+      "answer": "A",
+      "explanation": "A work breakdown structure decomposes the approved scope into smaller, manageable components that support estimating, assigning responsibility, and controlling scope. Work packages provide a practical basis for further planning. Detailed activity durations and procurement commitments should be developed using appropriately defined work.",
+      "topic": "Process",
+      "subtopic": "Develop and manage project scope",
+      "source": "PMP study group – mock test 2, Q9"
+    },
+    {
+      "stem": "A product team has completed three iterations of a subscription platform. All planned stories have been accepted, but trial users are abandoning registration before completing their first purchase. The product owner proposes continuing with the existing backlog because it was previously approved. What is the BEST course of action?",
+      "options": [
+        "Continue implementing approved backlog items to preserve the original delivery commitment.",
+        "Ask the team to increase development velocity so that more features can be released sooner.",
+        "Wait until the entire platform is complete before assessing business outcomes.",
+        "Analyze user behavior and feedback, then reprioritize backlog work toward improving conversion outcomes."
+      ],
+      "answer": "D",
+      "explanation": "Value-based delivery focuses on measurable benefits rather than merely completing planned work. Low conversion indicates that accepted features may not be producing the desired business outcome. The team should use evidence and stakeholder feedback to prioritize improvements that increase realized value.",
+      "topic": "Process",
+      "subtopic": "Help ensure value-based delivery",
+      "source": "PMP study group – mock test 2, Q10"
+    },
+    {
+      "stem": "A project manager is coordinating three teams that share a specialized testing laboratory. The laboratory is available for only two weeks each month, and two project activities currently require it during the same period. Both activities have scheduling flexibility. What should the project manager do FIRST?",
+      "options": [
+        "Request additional laboratory capacity without assessing the existing schedules.",
+        "Analyze resource demand, activity dependencies, and scheduling flexibility to resolve the conflict.",
+        "Give the laboratory to the activity with the larger budget allocation.",
+        "Require both teams to reduce their testing duration by the same percentage."
+      ],
+      "answer": "B",
+      "explanation": "Resource optimization begins with understanding availability, demand, dependencies, and scheduling flexibility. Resource leveling or smoothing may resolve a conflict without additional spending or unacceptable schedule impacts. The project manager should evaluate these options before committing to a resource allocation decision.",
+      "topic": "Process",
+      "subtopic": "Plan and manage resources",
+      "source": "PMP study group – mock test 2, Q11"
+    },
+    {
+      "stem": "A project requires the development of a customized industrial monitoring system. The technical requirements are incomplete, and the buyer expects substantial design changes as prototypes are evaluated. The buyer wants to reimburse allowable supplier costs while providing a financial incentive for meeting agreed performance targets. Which contract type is MOST suitable?",
+      "options": [
+        "Firm-fixed-price contract with all technical requirements fixed before development.",
+        "Time-and-materials contract without an agreed incentive tied to performance.",
+        "Cost-plus-incentive-fee contract with defined cost and performance incentive terms.",
+        "Fixed-price contract with an economic price adjustment based only on inflation."
+      ],
+      "answer": "C",
+      "explanation": "A cost-plus-incentive-fee contract is appropriate when substantial technical uncertainty makes reliable fixed pricing difficult and the buyer wants to motivate performance. Allowable costs are reimbursed under agreed terms, while incentives are linked to predefined targets. The buyer must still establish cost controls, oversight, and clear incentive calculations.",
+      "topic": "Process",
+      "subtopic": "Plan and manage procurement",
+      "source": "PMP study group – mock test 2, Q12"
+    },
+    {
+      "stem": "A predictive project has a budget at completion (BAC) of $1,000,000. At the reporting date, the earned value (EV) is $400,000 and the actual cost (AC) is $500,000. The project manager expects the current cost efficiency to continue for the remaining work. What is the BEST estimate at completion (EAC)?",
+      "options": [
+        "$1,250,000",
+        "$1,100,000",
+        "$900,000",
+        "$800,000"
+      ],
+      "answer": "A",
+      "explanation": "The cost performance index is CPI = EV / AC = 400,000 / 500,000 = 0.80. If this cost efficiency is expected to continue, EAC = BAC / CPI = 1,000,000 / 0.80 = $1,250,000. This forecasts a $250,000 cost overrun relative to the original budget.",
+      "topic": "Process",
+      "subtopic": "Plan and manage finance",
+      "source": "PMP study group – mock test 2, Q13"
+    },
+    {
+      "stem": "During production of medical equipment, a quality review identifies repeated assembly defects. Inspection and rework currently prevent defective units from reaching customers, but the same defects continue appearing. What should the project manager do NEXT?",
+      "options": [
+        "Increase final inspection frequency while continuing the existing assembly process.",
+        "Accept the rework costs because the delivered products satisfy acceptance criteria.",
+        "Reduce the number of inspections after the team becomes more familiar with the equipment.",
+        "Work with the team to identify the root causes and implement preventive process improvements."
+      ],
+      "answer": "D",
+      "explanation": "Inspection and rework detect or correct defects but do not necessarily prevent recurrence. Root cause analysis identifies the factors creating the defects, enabling effective preventive improvements. Reducing repeated failures can improve quality and lower the overall cost of quality.",
+      "topic": "Process",
+      "subtopic": "Plan and optimize quality of products/deliverables",
+      "source": "PMP study group – mock test 2, Q14"
+    },
+    {
+      "stem": "A predictive project is scheduled to finish in 20 weeks. Two parallel paths have been identified: Path A requires 20 weeks and Path B requires 17 weeks. An activity on Path B is delayed by two weeks, and no other dependencies change. What should the project manager conclude?",
+      "options": [
+        "The overall project finish will be delayed by two weeks.",
+        "Path B has one week of remaining total float, and the planned project finish is unchanged.",
+        "Path B becomes the critical path, requiring an immediate revision of the completion date.",
+        "The project will finish one week earlier because the paths are executed in parallel."
+      ],
+      "answer": "B",
+      "explanation": "Before the delay, Path B has three weeks of total float because the longest path requires 20 weeks. A two-week delay consumes two weeks of that float, leaving one week. Assuming no other changes, Path A remains critical and the planned project finish remains at 20 weeks.",
+      "topic": "Process",
+      "subtopic": "Plan and manage schedule",
+      "source": "PMP study group – mock test 2, Q15"
+    },
+    {
+      "stem": "A multinational organization has approved a project involving customer information from several countries. The sponsor proposes allowing individual teams to determine reporting and approval procedures as work progresses. Corporate policy, however, requires centralized oversight of privacy-sensitive projects. What should the project manager do FIRST?",
+      "options": [
+        "Allow teams to establish separate approval arrangements because they understand local requirements.",
+        "Use the sponsor's preferred reporting approach and defer governance decisions until implementation.",
+        "Establish governance roles, decision authorities, reporting requirements, and escalation procedures consistent with organizational policy.",
+        "Assign governance responsibility entirely to the project team and avoid involving organizational oversight functions."
+      ],
+      "answer": "C",
+      "explanation": "Project governance establishes who can make decisions, how performance and compliance are overseen, and how issues are escalated. The governance structure must be consistent with applicable organizational policies and the project's risk profile. Clear authorities and controls should be established before execution creates conflicting practices.",
+      "topic": "Business Environment",
+      "subtopic": "Define and establish project governance",
+      "source": "PMP study group – mock test 2, Q16"
+    },
+    {
+      "stem": "A software project uses an AI-based service to process customer information. During development, the compliance officer identifies a newly applicable regulation requiring additional transparency about automated decisions. The planned release is eight weeks away. Which TWO actions should the project manager take NEXT? Choose TWO.",
+      "options": [
+        "Assess the regulation's applicability and determine its impact on project deliverables and controls.",
+        "Continue development unchanged because compliance is evaluated only after deployment.",
+        "Ask the AI supplier to assume all regulatory obligations without reviewing contractual responsibilities.",
+        "Remove all AI functionality immediately without evaluating compliant alternatives.",
+        "Collaborate with compliance specialists and relevant stakeholders to plan the required adjustments."
+      ],
+      "answer": "AE",
+      "explanation": "New compliance obligations must first be evaluated for applicability, impact, and required controls. Collaboration with specialists and stakeholders supports an appropriate response, including changes to requirements, testing, and release plans where necessary. Neither supplier involvement nor an approaching deadline removes the project's compliance responsibilities.",
+      "topic": "Business Environment",
+      "subtopic": "Plan and manage project compliance",
+      "source": "PMP study group – mock test 2, Q17"
+    },
+    {
+      "stem": "During execution of a predictive construction project, the customer requests an additional safety monitoring system. The request would change the approved scope, budget, and completion date. The project manager believes the system could improve operational safety. What should the project manager do NEXT?",
+      "options": [
+        "Evaluate the request's impacts and submit it through the established change control process.",
+        "Authorize installation immediately because safety improvements should bypass change control.",
+        "Reject the request because the project scope baseline has already been approved.",
+        "Ask the contractor to install the system and document its financial impact during closure."
+      ],
+      "answer": "A",
+      "explanation": "A potentially beneficial change must still be assessed for its impacts and handled through the project's authorized change control process. This enables decision-makers to evaluate scope, schedule, cost, risk, and benefits before approving or rejecting the request. Work affecting controlled baselines should not be authorized without the required approval.",
+      "topic": "Business Environment",
+      "subtopic": "Manage and control changes",
+      "source": "PMP study group – mock test 2, Q18"
+    },
+    {
+      "stem": "A hybrid project is upgrading a public transport ticketing system. The project team discovers that an external certification laboratory has suspended testing for four weeks due to an equipment failure. Certification is mandatory before deployment, and the delay threatens a major launch milestone. What should the project manager do FIRST?",
+      "options": [
+        "Remove certification from the release acceptance criteria to preserve the launch date.",
+        "Instruct the development team to increase its velocity to compensate for the laboratory delay.",
+        "Report the milestone as completed because the technical solution is ready for testing.",
+        "Record and assess the issue, investigate feasible alternatives, and engage the responsible parties to resolve the impediment."
+      ],
+      "answer": "D",
+      "explanation": "A confirmed external disruption is an issue that requires assessment and active resolution. The project manager should determine its impact, identify available options such as an alternative accredited facility, and coordinate with the appropriate decision-makers. Mandatory certification cannot simply be omitted to protect the schedule.",
+      "topic": "Business Environment",
+      "subtopic": "Remove impediments and manage issues",
+      "source": "PMP study group – mock test 2, Q19"
+    },
+    {
+      "stem": "A renewable energy project faces a potential import restriction on a specialized component. There is a 30% probability that the restriction will occur, in which case the project would incur an additional cost of $400,000. A qualified local alternative is available at a guaranteed additional cost of $90,000 and would eliminate this particular restriction risk without introducing material new risks. The project objective is to minimize expected cost. What is the BEST response?",
+      "options": [
+        "Accept the import risk because its probability is below 50%.",
+        "Select the local alternative because its certain additional cost is lower than the expected impact of the import risk.",
+        "Retain the imported component and allocate the full $400,000 as the expected cost of the risk.",
+        "Postpone the sourcing decision until the restriction is formally announced."
+      ],
+      "answer": "B",
+      "explanation": "The expected monetary value of the import risk is 0.30 × $400,000 = $120,000. The local alternative eliminates that risk for a certain $90,000 additional cost, making it preferable under the stated expected-cost objective. This comparison is valid because the scenario establishes that the alternative does not introduce material offsetting risks.",
+      "topic": "Business Environment",
+      "subtopic": "Plan and manage risk",
+      "source": "PMP study group – mock test 2, Q20"
+    }
+  ]
+}

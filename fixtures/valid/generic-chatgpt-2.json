@@ -1,0 +1,306 @@
+{
+  "format": "domcq/1",
+  "set": "Pharmacology – Absorption, Metabolism and Adverse Reactions",
+  "questions": [
+    {
+      "stem": "A patient takes an oral medication that must cross the intestinal epithelial cell membrane by passive diffusion. Which property generally favors absorption of the drug through the lipid membrane?",
+      "options": [
+        "High lipid solubility in its unionized form",
+        "High molecular charge at intestinal pH",
+        "High affinity for plasma albumin",
+        "High rate of elimination by the kidneys"
+      ],
+      "answer": "A",
+      "explanation": "Passive diffusion across lipid membranes generally favors drugs that are sufficiently lipid-soluble and unionized. Charged molecules usually cross the lipid bilayer less readily without transport mechanisms. Drug dissolution and aqueous solubility are also important for overall oral absorption.",
+      "topic": "Drug absorption",
+      "subtopic": "Passive diffusion",
+      "difficulty": "easy",
+      "source": "Drug absorption – Passive diffusion and physicochemical properties"
+    },
+    {
+      "stem": "A patient receives a medication intravenously. What is the absolute bioavailability of the administered dose?",
+      "options": [
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+      ],
+      "answer": "D",
+      "explanation": "Intravenous administration delivers the entire administered dose directly into systemic circulation. Therefore, intravenous bioavailability is 100% by definition. Other routes may have lower bioavailability because of incomplete absorption or presystemic elimination.",
+      "topic": "Drug absorption",
+      "subtopic": "Bioavailability",
+      "difficulty": "easy",
+      "source": "Drug absorption – Absolute bioavailability"
+    },
+    {
+      "stem": "A patient takes an enteric-coated tablet designed to resist gastric acid and release its contents in the small intestine. What is the primary purpose of the enteric coating?",
+      "options": [
+        "To increase elimination of the drug through urine",
+        "To prevent release of the drug in the stomach",
+        "To increase binding of the drug to plasma proteins",
+        "To prevent metabolism of the drug in the liver"
+      ],
+      "answer": "B",
+      "explanation": "Enteric coatings are formulated to remain intact in the acidic stomach and dissolve at a higher intestinal pH. They may protect acid-sensitive drugs or reduce direct gastric irritation from certain medicines. They do not necessarily prevent hepatic first-pass metabolism.",
+      "topic": "Drug absorption",
+      "subtopic": "Dosage forms and drug release",
+      "difficulty": "easy",
+      "source": "Drug absorption – Enteric-coated formulations"
+    },
+    {
+      "stem": "A drug is extensively metabolized in the intestinal wall and liver before reaching systemic circulation after oral administration. What is this presystemic elimination called?",
+      "options": [
+        "Renal tubular secretion",
+        "Enterohepatic recycling",
+        "First-pass metabolism",
+        "Plasma protein binding"
+      ],
+      "answer": "C",
+      "explanation": "First-pass metabolism occurs when a drug is metabolized in the intestinal wall or liver before reaching systemic circulation. It can substantially reduce oral bioavailability. Routes that avoid the portal circulation initially may reduce this effect.",
+      "topic": "Drug metabolism",
+      "subtopic": "First-pass metabolism",
+      "difficulty": "easy",
+      "source": "Drug metabolism – Presystemic and first-pass metabolism"
+    },
+    {
+      "stem": "Which enzyme family is responsible for the oxidative metabolism of many commonly prescribed medications?",
+      "options": [
+        "Pancreatic lipases",
+        "Cytochrome P450 enzymes",
+        "Plasma cholinesterases",
+        "Digestive peptidases"
+      ],
+      "answer": "B",
+      "explanation": "Cytochrome P450 enzymes catalyze oxidative reactions involved in the metabolism of numerous drugs. These enzymes are especially important in the liver and intestinal wall. Differences in enzyme activity can influence drug concentrations, interactions and therapeutic responses.",
+      "topic": "Drug metabolism",
+      "subtopic": "Cytochrome P450 enzymes",
+      "difficulty": "easy",
+      "source": "Drug metabolism – Phase I reactions and CYP enzymes"
+    },
+    {
+      "stem": "A patient develops urticaria, wheezing and hypotension within minutes of receiving penicillin. Which adverse reaction mechanism most strongly explains these findings?",
+      "options": [
+        "Dose-dependent renal toxicity",
+        "Delayed T-cell-mediated hypersensitivity",
+        "Predictable gastrointestinal intolerance",
+        "Immediate IgE-mediated hypersensitivity"
+      ],
+      "answer": "D",
+      "explanation": "Rapid onset of urticaria, respiratory symptoms and hypotension following drug exposure is characteristic of anaphylaxis. A classic mechanism involves drug-specific IgE triggering mast-cell and basophil activation. This is a potentially life-threatening adverse drug reaction.",
+      "topic": "Adverse reactions",
+      "subtopic": "Type I hypersensitivity",
+      "difficulty": "easy",
+      "source": "Adverse reactions – Immediate hypersensitivity and anaphylaxis"
+    },
+    {
+      "stem": "A weakly acidic drug has a pKa of 4.0 and is present in a solution with a pH of 2.0. According to the Henderson-Hasselbalch relationship, approximately what percentage of the drug is unionized?",
+      "options": [
+        "1%",
+        "10%",
+        "99%",
+        "50%"
+      ],
+      "answer": "C",
+      "explanation": "For a weak acid, pH = pKa + log([ionized]/[unionized]). At pH 2.0 and pKa 4.0, the ionized-to-unionized ratio is 0.01, making approximately 99% unionized. This predicts ionization state, although total gastrointestinal absorption also depends on surface area, dissolution and other factors.",
+      "topic": "Drug absorption",
+      "subtopic": "pH partition and ionization",
+      "difficulty": "medium",
+      "source": "Drug absorption – Henderson-Hasselbalch equation"
+    },
+    {
+      "stem": "A patient takes an oral tetracycline antibiotic together with a calcium-containing antacid. The antibiotic's systemic exposure is substantially reduced. Which mechanism best explains this interaction?",
+      "options": [
+        "Chelation forming poorly absorbable complexes",
+        "Induction of hepatic drug-metabolizing enzymes",
+        "Inhibition of renal tubular drug secretion",
+        "Displacement of the antibiotic from albumin"
+      ],
+      "answer": "A",
+      "explanation": "Calcium and other polyvalent metal ions can bind tetracyclines to form complexes that are poorly absorbed from the gastrointestinal tract. This reduces the amount of active drug reaching systemic circulation. Separating administration times can help minimize this absorption interaction.",
+      "topic": "Drug absorption",
+      "subtopic": "Drug-food and drug-antacid interactions",
+      "difficulty": "medium",
+      "source": "Drug absorption – Chelation and gastrointestinal interactions"
+    },
+    {
+      "stem": "A pharmacokinetic study compares equal 100 mg intravenous and oral doses of the same drug. The intravenous AUC is 200 mg·h/L, while the oral AUC is 120 mg·h/L. Assuming linear pharmacokinetics, what is the absolute oral bioavailability?",
+      "options": [
+        "40%",
+        "50%",
+        "80%",
+        "60%"
+      ],
+      "answer": "D",
+      "explanation": "Absolute bioavailability is calculated as (AUC oral/AUC intravenous) multiplied by (intravenous dose/oral dose). Because the doses are equal, F = 120/200 = 0.60, or 60%. The AUC comparison estimates the fraction of the oral dose reaching systemic circulation.",
+      "topic": "Drug absorption",
+      "subtopic": "Calculating absolute bioavailability",
+      "difficulty": "medium",
+      "source": "Drug absorption – AUC and absolute bioavailability"
+    },
+    {
+      "stem": "A patient begins treatment with a medication that strongly induces hepatic CYP3A4. A second medication is primarily cleared by CYP3A4 and has no active metabolites. What is the most likely effect on exposure to the second medication after full enzyme induction develops?",
+      "options": [
+        "Its plasma exposure will increase because clearance falls",
+        "Its plasma exposure will decrease because clearance rises",
+        "Its plasma exposure will remain unchanged despite induction",
+        "Its plasma exposure will increase because excretion stops"
+      ],
+      "answer": "B",
+      "explanation": "CYP3A4 induction increases the metabolic capacity for drugs cleared through that enzyme. This generally raises clearance and reduces systemic exposure when dosing remains unchanged. Enzyme induction usually develops over several days rather than immediately.",
+      "topic": "Drug metabolism",
+      "subtopic": "Enzyme induction",
+      "difficulty": "medium",
+      "source": "Drug metabolism – CYP induction and drug interactions"
+    },
+    {
+      "stem": "A patient is prescribed codeine for pain relief. Codeine undergoes CYP2D6-mediated conversion to morphine, which contributes substantially to its analgesic effect. What is the expected response in a CYP2D6 poor metabolizer?",
+      "options": [
+        "Increased morphine production and increased analgesia",
+        "Unchanged morphine production and unchanged analgesia",
+        "Reduced morphine production and reduced analgesia",
+        "Increased morphine elimination and increased analgesia"
+      ],
+      "answer": "C",
+      "explanation": "Codeine requires CYP2D6-mediated O-demethylation to form morphine, an important contributor to its analgesic action. Poor metabolizers have reduced capacity to perform this conversion and may experience inadequate pain relief. This illustrates how pharmacogenetic variation affects the response to a prodrug.",
+      "topic": "Drug metabolism",
+      "subtopic": "Pharmacogenetics and prodrug activation",
+      "difficulty": "medium",
+      "source": "Drug metabolism – CYP2D6 polymorphism and codeine"
+    },
+    {
+      "stem": "A drug undergoes glucuronidation, in which glucuronic acid is attached to the parent molecule. How is this metabolic reaction classified?",
+      "options": [
+        "Phase II conjugation",
+        "Phase I oxidation",
+        "Phase I reduction",
+        "Phase I hydrolysis"
+      ],
+      "answer": "A",
+      "explanation": "Glucuronidation is a Phase II conjugation reaction catalyzed by UDP-glucuronosyltransferase enzymes. It commonly increases drug water solubility and facilitates elimination through urine or bile. However, not all glucuronide metabolites are pharmacologically inactive.",
+      "topic": "Drug metabolism",
+      "subtopic": "Phase II glucuronidation",
+      "difficulty": "medium",
+      "source": "Drug metabolism – Phase II conjugation reactions"
+    },
+    {
+      "stem": "A patient develops a severe bleeding episode while taking warfarin, and laboratory testing shows a markedly elevated INR. Which classification best describes this adverse drug reaction?",
+      "options": [
+        "Type B, because it is unrelated to pharmacological activity",
+        "Type D, because it must occur years after exposure",
+        "Type E, because it occurs only after drug withdrawal",
+        "Type A, because it is an exaggerated pharmacological effect"
+      ],
+      "answer": "D",
+      "explanation": "Type A adverse drug reactions are generally predictable from the known pharmacological actions of a drug and are often dose-related. Excessive anticoagulation and bleeding with warfarin illustrate this category. Type A reactions are distinguished from unpredictable reactions such as certain hypersensitivity responses.",
+      "topic": "Adverse reactions",
+      "subtopic": "Type A adverse drug reactions",
+      "difficulty": "medium",
+      "source": "Adverse reactions – Type A and Type B classification"
+    },
+    {
+      "stem": "A patient receiving gentamicin develops kidney injury after several days of therapy. Which strategy is most appropriate for reducing the risk of this concentration- and exposure-related toxicity?",
+      "options": [
+        "Increase dosing frequency without assessing renal function",
+        "Monitor renal function and adjust dosing using drug levels",
+        "Combine treatment with another potentially nephrotoxic drug",
+        "Continue the same dose regardless of declining kidney function"
+      ],
+      "answer": "B",
+      "explanation": "Aminoglycosides such as gentamicin can cause nephrotoxicity, particularly with excessive or prolonged exposure. Monitoring renal function and applying appropriate therapeutic drug monitoring helps guide individualized dosing. Avoiding unnecessary concurrent nephrotoxins further reduces the risk.",
+      "topic": "Adverse reactions",
+      "subtopic": "Aminoglycoside nephrotoxicity",
+      "difficulty": "medium",
+      "source": "Adverse reactions – Dose-related nephrotoxicity and drug monitoring"
+    },
+    {
+      "stem": "A patient experiences a persistent dry cough after starting an angiotensin-converting enzyme (ACE) inhibitor. Which mechanism is primarily responsible for this adverse effect?",
+      "options": [
+        "Increased degradation of pulmonary bradykinin",
+        "Enhanced activation of pulmonary beta receptors",
+        "Reduced breakdown of bradykinin and related peptides",
+        "Increased production of acetylcholine at nerve endings"
+      ],
+      "answer": "C",
+      "explanation": "ACE normally contributes to the degradation of bradykinin and other peptides. ACE inhibition allows these mediators to accumulate, contributing to the characteristic dry cough in susceptible patients. Switching to an angiotensin receptor blocker may resolve the cough because ARBs do not directly inhibit ACE.",
+      "topic": "Adverse reactions",
+      "subtopic": "ACE inhibitor adverse effects",
+      "difficulty": "medium",
+      "source": "Adverse reactions – Bradykinin-mediated drug effects"
+    },
+    {
+      "stem": "A patient develops a widespread maculopapular rash approximately 10 days after starting an antibiotic. There is no wheezing, hypotension or immediate reaction. Which immune mechanism most commonly underlies a delayed T-cell-mediated drug eruption?",
+      "options": [
+        "Immediate IgE-mediated mast-cell degranulation",
+        "Immune complex deposition within small vessels",
+        "Antibody-mediated destruction of circulating red cells",
+        "Delayed Type IV hypersensitivity involving T lymphocytes"
+      ],
+      "answer": "D",
+      "explanation": "Many delayed maculopapular drug eruptions are mediated by drug-reactive T lymphocytes and are classified as Type IV hypersensitivity reactions. They usually develop days after initial exposure rather than within minutes. The timing and clinical presentation help distinguish them from immediate IgE-mediated reactions.",
+      "topic": "Adverse reactions",
+      "subtopic": "Delayed hypersensitivity reactions",
+      "difficulty": "medium",
+      "source": "Adverse reactions – Type IV drug hypersensitivity"
+    },
+    {
+      "stem": "A highly permeable oral drug is not metabolized in the intestinal wall. Its fraction absorbed from the gut is 0.80, and its hepatic extraction ratio during first-pass passage is 0.75. Assuming these fractions remain constant, what is its predicted absolute oral bioavailability?",
+      "options": [
+        "20%",
+        "25%",
+        "60%",
+        "80%"
+      ],
+      "answer": "A",
+      "explanation": "Oral bioavailability can be expressed as F = Fa × Fg × Fh, where Fa is the absorbed fraction, Fg is intestinal availability and Fh is hepatic availability. Here Fg = 1 and Fh = 1 − 0.75 = 0.25. Therefore F = 0.80 × 1 × 0.25 = 0.20, or 20%.",
+      "topic": "Drug absorption",
+      "subtopic": "Intestinal and hepatic contributions to bioavailability",
+      "difficulty": "hard",
+      "source": "Drug absorption – Fa, Fg, Fh and first-pass extraction"
+    },
+    {
+      "stem": "A patient with markedly reduced hepatic blood flow receives an intravenously administered drug with a very high hepatic extraction ratio. The drug follows the well-stirred hepatic clearance model, and its intrinsic clearance and plasma protein binding remain unchanged. Which change is most likely?",
+      "options": [
+        "Hepatic clearance becomes independent of liver blood flow",
+        "Hepatic clearance falls approximately with hepatic blood flow",
+        "Hepatic clearance increases as hepatic blood flow declines",
+        "Hepatic clearance becomes equal to renal filtration clearance"
+      ],
+      "answer": "B",
+      "explanation": "For a high-extraction drug, hepatic clearance is primarily limited by the rate of blood delivery to the liver. In the well-stirred model, hepatic clearance approaches hepatic blood flow when intrinsic metabolic capacity is much greater than blood flow. Therefore, a substantial reduction in hepatic blood flow generally reduces clearance.",
+      "topic": "Drug metabolism",
+      "subtopic": "High-extraction drugs and hepatic clearance",
+      "difficulty": "hard",
+      "source": "Drug metabolism – Well-stirred model of hepatic clearance"
+    },
+    {
+      "stem": "A patient chronically taking carbamazepine is prescribed another drug that is primarily cleared by CYP3A4. Carbamazepine is subsequently discontinued, while the dose of the second drug remains unchanged. Assuming carbamazepine had induced CYP3A4, what change is expected over the following days to weeks?",
+      "options": [
+        "The second drug's exposure will fall because enzyme activity rises",
+        "The second drug's exposure will remain constant after withdrawal",
+        "The second drug's exposure will rise as enzyme induction resolves",
+        "The second drug's exposure will immediately become zero"
+      ],
+      "answer": "C",
+      "explanation": "Carbamazepine induces CYP3A4, increasing the metabolism of many substrate drugs. Following discontinuation, the induced enzyme activity gradually returns toward baseline as enzyme turnover occurs. The substrate drug's clearance may decrease, increasing systemic exposure and potentially causing toxicity without an appropriate dose adjustment.",
+      "topic": "Drug metabolism",
+      "subtopic": "Enzyme deinduction and delayed interactions",
+      "difficulty": "hard",
+      "source": "Drug metabolism – Enzyme induction and deinduction kinetics"
+    },
+    {
+      "stem": "A patient of Han Chinese ancestry is being evaluated for carbamazepine therapy. Genetic testing identifies the HLA-B*15:02 allele. Which clinical implication is most important when selecting treatment?",
+      "options": [
+        "The allele predicts rapid renal elimination of carbamazepine",
+        "The allele guarantees that carbamazepine will be ineffective",
+        "The allele prevents formation of all active drug metabolites",
+        "The allele indicates increased risk of severe cutaneous reactions"
+      ],
+      "answer": "D",
+      "explanation": "HLA-B*15:02 is strongly associated with carbamazepine-induced Stevens-Johnson syndrome and toxic epidermal necrolysis, particularly in populations where the allele is more prevalent. Pharmacogenetic guidance generally recommends avoiding carbamazepine in carbamazepine-naive patients who test positive when alternatives are available. This association concerns severe immune-mediated skin toxicity rather than drug clearance.",
+      "topic": "Adverse reactions",
+      "subtopic": "Pharmacogenetics of severe cutaneous adverse reactions",
+      "difficulty": "hard",
+      "source": "Adverse reactions – HLA-B*15:02 and carbamazepine hypersensitivity"
+    }
+  ]
+}
