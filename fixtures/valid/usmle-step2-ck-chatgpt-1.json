@@ -1,0 +1,327 @@
+{
+  "format": "domcq/1",
+  "exam": "usmle-step2-ck",
+  "set": "USMLE Step 2 CK Practice – Integrated Clinical Decision-Making",
+  "questions": [
+    {
+      "stem": "A 67-year-old man is admitted for community-acquired pneumonia. During morning rounds, the physician notices that the patient received twice the prescribed dose of intravenous ceftriaxone the previous evening because of a medication administration error. The patient has normal renal function, remains clinically stable, and has experienced no apparent adverse effects. The patient is unaware of the error. Which of the following is the most appropriate action by the physician?",
+      "options": [
+        "Document the error without informing the patient because no harm occurred",
+        "Disclose the error to the patient, assess for harm, and report it through the institutional safety system",
+        "Ask the administering nurse to determine whether disclosure is necessary",
+        "Wait until discharge to disclose the error if laboratory abnormalities develop",
+        "Report the error to hospital administration without documenting it in the medical record"
+      ],
+      "answer": "B",
+      "explanation": "Clinically significant medical errors should be disclosed honestly and promptly, even when no harm is apparent. The physician should explain what happened, assess for consequences, describe appropriate monitoring, and use the institutional reporting system to support patient safety and quality improvement. Disclosure promotes transparency and maintains trust.",
+      "topic": "Social Sciences",
+      "subtopic": "Systems-based Practice & Patient Safety",
+      "difficulty": "easy",
+      "source": "USMLE Step 2 CK Content Outline – Social Sciences: Patient Safety, Medical Errors, and Quality Improvement"
+    },
+    {
+      "stem": "A 43-year-old woman with metastatic ovarian cancer is hospitalized for management of severe abdominal pain. She is alert, oriented, and demonstrates an understanding of her diagnosis, prognosis, and available treatment options. She tells her physician that she does not want further chemotherapy and prefers comfort-focused care. Her husband insists that chemotherapy continue because he believes she is making an emotional decision. Which of the following is the most appropriate next step in management?",
+      "options": [
+        "Continue chemotherapy until the family reaches a unanimous decision",
+        "Request a psychiatric evaluation before accepting any treatment refusal",
+        "Ask the hospital ethics committee to authorize chemotherapy over the patient's objection",
+        "Respect the patient's informed refusal and discuss a comfort-focused treatment plan",
+        "Allow the husband to make treatment decisions because the disease is terminal"
+      ],
+      "answer": "D",
+      "explanation": "An adult patient with decision-making capacity has the right to refuse recommended medical treatment, including potentially life-prolonging therapy. Family disagreement does not override an informed patient's autonomous decision. The physician should respect the refusal and offer appropriate palliative care.",
+      "topic": "Social Sciences",
+      "subtopic": "Professionalism",
+      "difficulty": "medium",
+      "source": "USMLE Step 2 CK Content Outline – Social Sciences: Informed Consent, Patient Autonomy, and Treatment Refusal"
+    },
+    {
+      "stem": "A 29-year-old woman comes to the emergency department with sudden severe left-sided flank pain radiating to the groin, nausea, and microscopic hematuria. Noncontrast CT shows a 4-mm calculus in the distal left ureter with mild hydronephrosis. Her temperature is 36.9°C (98.4°F), blood pressure is 122/76 mm Hg, and serum creatinine is 0.8 mg/dL. Her pain is controlled after intravenous ketorolac. She has no evidence of urinary tract infection and can tolerate oral fluids. Which of the following is the most appropriate next step in management?",
+      "options": [
+        "Discharge with analgesia, observation for stone passage, and outpatient follow-up",
+        "Perform immediate percutaneous nephrostomy",
+        "Schedule urgent extracorporeal shock wave lithotripsy",
+        "Begin intravenous antibiotics and hospitalize for observation",
+        "Perform immediate ureteroscopy with stone extraction"
+      ],
+      "answer": "A",
+      "explanation": "A small distal ureteral stone in a stable patient without infection, renal dysfunction, or uncontrolled pain has a high likelihood of spontaneous passage. Conservative outpatient management with analgesia, hydration according to thirst, return precautions, and follow-up is appropriate. Urgent decompression is indicated for infected obstruction or other serious complications.",
+      "topic": "Renal & Urinary System & Reproductive Systems",
+      "subtopic": "Patient Care: Mixed Management",
+      "difficulty": "easy",
+      "source": "USMLE Step 2 CK Content Outline – Urinary System: Urolithiasis and Obstructive Uropathy"
+    },
+    {
+      "stem": "A 25-year-old sexually active woman presents with 2 days of fever, chills, dysuria, and right flank pain. Her temperature is 39.1°C (102.4°F), pulse is 112/min, and blood pressure is 108/68 mm Hg. Physical examination reveals right costovertebral angle tenderness. Urinalysis shows numerous leukocytes, positive nitrites, and bacteria. Her serum creatinine is normal, and a pregnancy test is negative. She is hospitalized because of persistent vomiting and inability to tolerate oral medication. Blood and urine cultures are obtained. Which of the following is the most appropriate initial antimicrobial treatment?",
+      "options": [
+        "Oral nitrofurantoin",
+        "Oral fosfomycin",
+        "Intravenous ceftriaxone",
+        "Oral phenazopyridine",
+        "Intravenous fluconazole"
+      ],
+      "answer": "C",
+      "explanation": "Acute pyelonephritis with systemic symptoms and inability to tolerate oral therapy warrants parenteral antibiotics. Intravenous ceftriaxone is an appropriate empiric option for a hospitalized, noncritically ill patient without specific risk factors for resistant organisms, pending culture results. Nitrofurantoin and fosfomycin do not achieve adequate renal parenchymal concentrations for treating pyelonephritis.",
+      "topic": "Renal & Urinary System & Reproductive Systems",
+      "subtopic": "Patient Care: Pharmacotherapy",
+      "difficulty": "medium",
+      "source": "USMLE Step 2 CK Content Outline – Urinary System: Urinary Tract Infection and Acute Pyelonephritis"
+    },
+    {
+      "stem": "A 59-year-old man presents to the emergency department 45 minutes after the onset of severe substernal chest pressure accompanied by diaphoresis and nausea. His blood pressure is 138/84 mm Hg, pulse is 96/min, and oxygen saturation is 97% on room air. Electrocardiography shows 3-mm ST-segment elevations in leads II, III, and aVF with reciprocal ST-segment depressions in leads I and aVL. Aspirin has been administered. A cardiac catheterization laboratory is available, and primary percutaneous coronary intervention can begin within 60 minutes. Which of the following is the most appropriate next step in management?",
+      "options": [
+        "Obtain serial troponin measurements before initiating reperfusion",
+        "Administer intravenous fibrinolytic therapy instead of catheterization",
+        "Perform exercise stress testing to evaluate coronary ischemia",
+        "Begin therapeutic anticoagulation alone and reassess after 24 hours",
+        "Proceed with emergency coronary angiography and primary percutaneous coronary intervention"
+      ],
+      "answer": "E",
+      "explanation": "ST-segment elevation myocardial infarction requires immediate reperfusion. Primary percutaneous coronary intervention is preferred when it can be performed promptly by an experienced team. Reperfusion should not be delayed while awaiting troponin results when the electrocardiogram is diagnostic.",
+      "topic": "Cardiovascular System",
+      "subtopic": "Patient Care: Clinical Interventions",
+      "difficulty": "easy",
+      "source": "USMLE Step 2 CK Content Outline – Cardiovascular System: Acute Coronary Syndromes and Myocardial Infarction; AHA/ACC Guideline for Acute Coronary Syndromes"
+    },
+    {
+      "stem": "A 72-year-old woman with hypertension and type 2 diabetes mellitus presents with palpitations. Electrocardiography shows atrial fibrillation with a ventricular rate of 92/min. Echocardiography demonstrates a left ventricular ejection fraction of 60%, no significant valvular disease, and no intracardiac thrombus. She has no history of major bleeding, stroke, or transient ischemic attack. Her renal function is normal. Her CHA2DS2-VASc score is 4. Which of the following is the most appropriate intervention to reduce her risk of ischemic stroke?",
+      "options": [
+        "Begin daily aspirin monotherapy",
+        "Begin oral anticoagulation with apixaban",
+        "Perform catheter ablation before starting antithrombotic therapy",
+        "Begin clopidogrel monotherapy",
+        "Observe without antithrombotic therapy because ventricular rate is controlled"
+      ],
+      "answer": "B",
+      "explanation": "This patient has an elevated thromboembolic risk due to age, hypertension, diabetes, and female sex. Oral anticoagulation is indicated, and a direct oral anticoagulant such as apixaban is preferred over warfarin in eligible patients without mechanical heart valves or moderate-to-severe mitral stenosis. Aspirin or clopidogrel alone does not provide adequate stroke prevention in atrial fibrillation.",
+      "topic": "Cardiovascular System",
+      "subtopic": "Patient Care: Health Maintenance/Disease Prevention",
+      "difficulty": "medium",
+      "source": "USMLE Step 2 CK Content Outline – Cardiovascular System: Atrial Fibrillation and Prevention of Thromboembolism"
+    },
+    {
+      "stem": "A 64-year-old man with diabetes mellitus presents with 3 days of progressively worsening pain, swelling, and redness of his right lower leg. His temperature is 39.2°C (102.6°F), blood pressure is 88/54 mm Hg, and pulse is 124/min. Examination reveals extensive edema, violaceous discoloration, hemorrhagic bullae, and severe tenderness extending beyond the visible erythema. Crepitus is present along the medial calf. Broad-spectrum intravenous antibiotics and fluid resuscitation are initiated. Which of the following is the most appropriate next step in management?",
+      "options": [
+        "Apply compression dressings and reassess in 12 hours",
+        "Perform needle aspiration to confirm bacterial infection",
+        "Obtain MRI before making a surgical decision",
+        "Arrange immediate surgical exploration and debridement",
+        "Begin systemic corticosteroids to reduce tissue inflammation"
+      ],
+      "answer": "D",
+      "explanation": "Disproportionate pain, systemic toxicity, bullae, crepitus, and rapidly progressive soft-tissue changes strongly suggest necrotizing fasciitis. Immediate surgical exploration and debridement are essential for source control and should not be delayed for imaging. Broad-spectrum antibiotics and hemodynamic resuscitation are necessary concurrent treatments.",
+      "topic": "Musculoskeletal System/Skin & Subcutaneous Tissue",
+      "subtopic": "Patient Care: Clinical Interventions",
+      "difficulty": "medium",
+      "source": "USMLE Step 2 CK Content Outline – Skin and Subcutaneous Tissue: Necrotizing Soft-Tissue Infections"
+    },
+    {
+      "stem": "A 46-year-old man comes to the emergency department because of sudden severe pain and swelling in his right knee. He has a history of gout but has not experienced an attack for several years. His temperature is 38.4°C (101.1°F), and the knee is warm, markedly swollen, and painful with passive motion. He is unable to bear weight. His white blood cell count is 15,800/mm3. Radiographs show a joint effusion without fracture. Which of the following is the most appropriate next step in diagnosis?",
+      "options": [
+        "Measure serum uric acid concentration",
+        "Obtain magnetic resonance imaging of the knee",
+        "Perform arthrocentesis with synovial fluid analysis and culture",
+        "Order rheumatoid factor and anti-CCP antibody testing",
+        "Measure erythrocyte sedimentation rate and repeat examination the next day"
+      ],
+      "answer": "C",
+      "explanation": "Acute febrile monoarthritis requires prompt evaluation for septic arthritis, even in a patient with known gout. Arthrocentesis with synovial fluid cell count, differential, crystal analysis, Gram stain, and culture is essential. Finding crystals does not exclude a concurrent joint infection.",
+      "topic": "Musculoskeletal System/Skin & Subcutaneous Tissue",
+      "subtopic": "Patient Care: Laboratory/Diagnostic Studies",
+      "difficulty": "medium",
+      "source": "USMLE Step 2 CK Content Outline – Musculoskeletal System: Acute Monoarthritis, Gout, and Septic Arthritis"
+    },
+    {
+      "stem": "A 32-year-old woman presents with 6 weeks of depressed mood, anhedonia, insomnia, decreased appetite, fatigue, impaired concentration, and feelings of worthlessness. She has missed several days of work because of her symptoms. She denies suicidal ideation, hallucinations, and substance use. She has never experienced episodes of abnormally elevated mood, increased energy, or decreased need for sleep. Physical examination and thyroid function testing are normal. Which of the following is the most likely diagnosis?",
+      "options": [
+        "Major depressive disorder",
+        "Persistent depressive disorder",
+        "Adjustment disorder with depressed mood",
+        "Bipolar II disorder",
+        "Cyclothymic disorder"
+      ],
+      "answer": "A",
+      "explanation": "Major depressive disorder requires at least 2 weeks of depressive symptoms, including depressed mood or anhedonia, along with sufficient associated symptoms and clinically significant impairment. This patient meets the criteria for a major depressive episode without evidence of mania or hypomania. Persistent depressive disorder requires a much longer duration of symptoms.",
+      "topic": "Behavioral Health",
+      "subtopic": "Patient Care: Diagnosis",
+      "difficulty": "easy",
+      "source": "USMLE Step 2 CK Content Outline – Behavioral Health: Depressive Disorders and Diagnostic Criteria"
+    },
+    {
+      "stem": "A 38-year-old man with bipolar I disorder is brought to the emergency department by his family. He has slept less than 2 hours nightly for 6 days, has spent thousands of dollars impulsively, and claims to have been selected by a government agency to lead an international mission. He is loud, agitated, and difficult to redirect. He is medically stable, urine toxicology is negative, and thyroid function is normal. He has no known contraindications to antipsychotic medication. His symptoms are severe enough to require psychiatric hospitalization. Which of the following is the most appropriate initial pharmacologic treatment?",
+      "options": [
+        "Fluoxetine monotherapy",
+        "Buspirone monotherapy",
+        "Methylphenidate monotherapy",
+        "Bupropion monotherapy",
+        "Olanzapine"
+      ],
+      "answer": "E",
+      "explanation": "This patient has acute severe mania with psychotic features, impaired judgment, and marked behavioral disturbance. An antipsychotic such as olanzapine provides relatively rapid control of manic agitation and psychosis; a mood stabilizer may also be added. Antidepressants and stimulants can exacerbate manic symptoms.",
+      "topic": "Behavioral Health",
+      "subtopic": "Patient Care: Pharmacotherapy",
+      "difficulty": "medium",
+      "source": "USMLE Step 2 CK Content Outline – Behavioral Health: Bipolar and Related Disorders, Acute Mania Management"
+    },
+    {
+      "stem": "A 28-year-old woman presents with fatigue, exertional dyspnea, and heavy menstrual bleeding. Her hemoglobin is 8.9 g/dL, mean corpuscular volume is 68 fL, and reticulocyte count is 0.6%. Peripheral blood smear shows microcytic, hypochromic erythrocytes and increased variation in red blood cell size. She has no history of chronic inflammatory disease or hemoglobinopathy. Which of the following iron study patterns is most consistent with her condition?",
+      "options": [
+        "Increased ferritin, decreased total iron-binding capacity, and decreased serum iron",
+        "Decreased ferritin, increased total iron-binding capacity, and decreased transferrin saturation",
+        "Normal ferritin, normal total iron-binding capacity, and increased transferrin saturation",
+        "Increased ferritin, decreased total iron-binding capacity, and increased transferrin saturation",
+        "Normal ferritin, decreased total iron-binding capacity, and normal transferrin saturation"
+      ],
+      "answer": "B",
+      "explanation": "Chronic menstrual blood loss commonly causes iron deficiency anemia, characterized by depleted iron stores and microcytosis. Ferritin and transferrin saturation decrease, while total iron-binding capacity generally increases because the liver produces more transferrin. Anemia of chronic inflammation more often has normal or increased ferritin with decreased total iron-binding capacity.",
+      "topic": "Blood & Lymphoreticular/Immune Systems",
+      "subtopic": "Patient Care: Laboratory/Diagnostic Studies",
+      "difficulty": "easy",
+      "source": "USMLE Step 2 CK Content Outline – Blood and Lymphoreticular System: Microcytic Anemia and Iron Metabolism"
+    },
+    {
+      "stem": "A 41-year-old woman presents with confusion, fatigue, and petechiae. Laboratory studies show hemoglobin of 8.2 g/dL, platelet count of 18,000/mm3, creatinine of 1.8 mg/dL, and elevated lactate dehydrogenase. Peripheral blood smear demonstrates numerous schistocytes. Prothrombin time and activated partial thromboplastin time are normal. Direct antiglobulin testing is negative. The patient has no history of recent diarrhea or exposure to medications associated with thrombotic microangiopathy. Blood is drawn for ADAMTS13 testing, but results will not be available for 48 hours. Which of the following is the most appropriate next step in management?",
+      "options": [
+        "Administer platelet transfusions as the primary treatment",
+        "Begin iron replacement and reassess the platelet count",
+        "Start therapeutic anticoagulation with unfractionated heparin",
+        "Initiate emergency therapeutic plasma exchange with corticosteroids",
+        "Delay treatment until ADAMTS13 activity is confirmed"
+      ],
+      "answer": "D",
+      "explanation": "Microangiopathic hemolytic anemia, severe thrombocytopenia, and neurologic abnormalities strongly suggest thrombotic thrombocytopenic purpura. Treatment must begin immediately with therapeutic plasma exchange and immunosuppression because untreated disease has a high mortality rate. ADAMTS13 testing should be obtained before treatment when feasible, but therapy must not await its results.",
+      "topic": "Blood & Lymphoreticular/Immune Systems",
+      "subtopic": "Patient Care: Mixed Management",
+      "difficulty": "hard",
+      "source": "USMLE Step 2 CK Content Outline – Blood and Immune Systems: Thrombotic Microangiopathies and Thrombotic Thrombocytopenic Purpura"
+    },
+    {
+      "stem": "A 48-year-old woman presents with 12 hours of persistent right upper quadrant abdominal pain, fever, and nausea. She has experienced several brief episodes of similar pain after fatty meals during the previous year. Her temperature is 38.3°C (100.9°F), and examination reveals right upper quadrant tenderness with inspiratory arrest during deep palpation. Laboratory studies show leukocytosis, mildly elevated alanine aminotransferase, and normal total bilirubin. Right upper quadrant ultrasonography shows multiple gallstones, gallbladder wall thickening, pericholecystic fluid, and no dilation of the common bile duct. Intravenous fluids and antibiotics are initiated. She is hemodynamically stable and has no prohibitive surgical risk. Which of the following is the most appropriate definitive treatment?",
+      "options": [
+        "Elective cholecystectomy after 8 weeks of observation",
+        "Endoscopic retrograde cholangiopancreatography with sphincterotomy",
+        "Early laparoscopic cholecystectomy during the current admission",
+        "Long-term oral ursodeoxycholic acid therapy",
+        "Percutaneous cholecystostomy as the preferred definitive intervention"
+      ],
+      "answer": "C",
+      "explanation": "This patient has acute calculous cholecystitis, supported by persistent right upper quadrant pain, fever, Murphy sign, and characteristic ultrasound findings. Early laparoscopic cholecystectomy is the preferred definitive treatment in a stable, operable patient. Percutaneous gallbladder drainage is generally reserved for selected patients who are poor operative candidates.",
+      "topic": "Gastrointestinal System",
+      "subtopic": "Patient Care: Clinical Interventions",
+      "difficulty": "medium",
+      "source": "USMLE Step 2 CK Content Outline – Gastrointestinal System: Gallbladder Disease and Acute Cholecystitis"
+    },
+    {
+      "stem": "A 69-year-old man is brought to the emergency department 90 minutes after sudden onset of right-sided weakness and inability to speak. He has a history of hypertension and hyperlipidemia but takes no anticoagulants. Blood pressure is 168/92 mm Hg, and the National Institutes of Health Stroke Scale score is 12. Noncontrast head CT shows no intracranial hemorrhage or extensive established infarction. CT angiography demonstrates no large-vessel occlusion. Serum glucose is 112 mg/dL, and platelet count and coagulation studies are normal. He has no recent surgery, active bleeding, or other contraindication to thrombolytic therapy. Which of the following is the most appropriate next step in management?",
+      "options": [
+        "Administer intravenous thrombolytic therapy",
+        "Begin therapeutic intravenous heparin",
+        "Administer aspirin and defer reperfusion therapy",
+        "Perform mechanical thrombectomy without additional vascular findings",
+        "Observe for spontaneous neurologic recovery before initiating treatment"
+      ],
+      "answer": "A",
+      "explanation": "This patient has an acute disabling ischemic stroke within the recommended intravenous thrombolysis treatment window. With hemorrhage excluded and no contraindications present, intravenous thrombolytic therapy is indicated. Antiplatelet therapy alone is not the preferred immediate intervention for an otherwise eligible patient with disabling acute ischemic stroke.",
+      "topic": "Nervous System & Special Senses",
+      "subtopic": "Patient Care: Clinical Interventions",
+      "difficulty": "hard",
+      "source": "USMLE Step 2 CK Content Outline – Nervous System: Acute Ischemic Stroke and Reperfusion Therapy"
+    },
+    {
+      "stem": "A 66-year-old man with severe chronic obstructive pulmonary disease presents with increasing dyspnea, productive cough, and wheezing. His respiratory rate is 30/min, and he is using accessory muscles. He is alert and cooperative. Arterial blood gas analysis obtained while receiving controlled supplemental oxygen shows pH 7.28, PaCO2 68 mm Hg, and PaO2 65 mm Hg. Chest radiography shows hyperinflation without infiltrates or pneumothorax. He has received inhaled short-acting bronchodilators and systemic corticosteroids but continues to have significant respiratory distress. There are no contraindications to mask ventilation. Which of the following is the most appropriate next step in management?",
+      "options": [
+        "Discontinue supplemental oxygen to increase respiratory drive",
+        "Administer a loop diuretic as the primary respiratory intervention",
+        "Perform immediate endotracheal intubation despite preserved airway protection",
+        "Begin noninvasive positive-pressure ventilation",
+        "Administer a respiratory stimulant instead of ventilatory support"
+      ],
+      "answer": "D",
+      "explanation": "An acute COPD exacerbation with hypercapnic respiratory acidosis and persistent respiratory distress is an indication for noninvasive positive-pressure ventilation when the patient can cooperate and protect the airway. This therapy reduces the work of breathing and improves gas exchange while decreasing the need for intubation. Invasive ventilation is appropriate if noninvasive treatment fails or contraindications develop.",
+      "topic": "Respiratory System",
+      "subtopic": "Patient Care: Mixed Management",
+      "difficulty": "medium",
+      "source": "USMLE Step 2 CK Content Outline – Respiratory System: COPD Exacerbation and Acute Hypercapnic Respiratory Failure"
+    },
+    {
+      "stem": "A 34-year-old man is brought to the emergency department after a high-speed motor vehicle collision. He is confused and complains of severe pelvic pain. Blood pressure is 78/42 mm Hg, pulse is 138/min, and respiratory rate is 28/min. The abdomen is mildly tender without rigidity. Pelvic radiography shows an open-book pelvic fracture with marked pubic symphysis diastasis. A focused assessment with sonography for trauma examination shows no intraperitoneal free fluid. Massive transfusion is initiated, and a pelvic binder is correctly positioned. Despite resuscitation, the patient remains hypotensive. The hospital has an immediately available interventional radiology team. Which of the following is the most appropriate next step to control the suspected ongoing source of hemorrhage?",
+      "options": [
+        "Perform diagnostic peritoneal lavage before any further intervention",
+        "Proceed with urgent pelvic angiography and embolization",
+        "Observe until the patient's blood pressure normalizes spontaneously",
+        "Remove the pelvic binder to avoid prolonged compression",
+        "Perform isolated exploratory laparotomy for presumed intraperitoneal bleeding"
+      ],
+      "answer": "B",
+      "explanation": "A mechanically unstable pelvic fracture can cause life-threatening retroperitoneal hemorrhage. Continued hemodynamic instability despite transfusion and pelvic stabilization, with no evidence of intraperitoneal bleeding, warrants urgent hemorrhage control; angiography with embolization is appropriate when rapidly available and arterial bleeding is suspected. In centers where pelvic packing is faster or angiography is unavailable, preperitoneal packing is another important hemorrhage-control strategy.",
+      "topic": "Multisystem Processes & Disorders",
+      "subtopic": "Patient Care: Mixed Management",
+      "difficulty": "hard",
+      "source": "USMLE Step 2 CK Content Outline – Multisystem Processes: Trauma, Hemorrhagic Shock, and Pelvic Fracture Management"
+    },
+    {
+      "stem": "A 21-year-old woman with type 1 diabetes mellitus presents with vomiting, abdominal pain, and rapid breathing. She has missed several insulin doses. Her blood pressure is 108/68 mm Hg, pulse is 118/min, and mucous membranes are dry. Laboratory studies show glucose 480 mg/dL, sodium 132 mEq/L, potassium 2.9 mEq/L, bicarbonate 10 mEq/L, anion gap 24 mEq/L, and elevated serum beta-hydroxybutyrate. Intravenous isotonic fluids have been started, and she has adequate urine output. Which of the following is the most appropriate next step in management?",
+      "options": [
+        "Begin intravenous insulin immediately without potassium replacement",
+        "Administer intravenous sodium bicarbonate before further treatment",
+        "Switch to oral rehydration and subcutaneous insulin",
+        "Administer intravenous calcium gluconate as the primary electrolyte treatment",
+        "Begin intravenous potassium replacement and delay insulin until potassium is above 3.5 mEq/L"
+      ],
+      "answer": "E",
+      "explanation": "Diabetic ketoacidosis causes substantial total-body potassium depletion, even when the initial serum potassium is normal or elevated. With a potassium concentration below 3.5 mEq/L, insulin should be temporarily withheld while potassium is replaced because insulin can precipitate dangerous hypokalemia and arrhythmias. Intravenous fluids and close electrolyte monitoring should continue during correction.",
+      "topic": "Endocrine System",
+      "subtopic": "Patient Care: Mixed Management",
+      "difficulty": "medium",
+      "source": "USMLE Step 2 CK Content Outline – Endocrine System: Diabetic Ketoacidosis and Electrolyte Management"
+    },
+    {
+      "stem": "A 31-year-old primigravida at 35 weeks of gestation presents with a severe headache, visual disturbances, and right upper quadrant pain. Her blood pressure is 176/114 mm Hg on repeated measurements. Urinalysis shows proteinuria, platelet count is 88,000/mm3, and serum aspartate aminotransferase is 145 U/L. Fetal monitoring is reassuring. Intravenous antihypertensive treatment and magnesium sulfate are initiated. The patient is clinically stabilized. Which of the following is the most appropriate next step in management?",
+      "options": [
+        "Continue pregnancy until 39 weeks with weekly outpatient monitoring",
+        "Discontinue magnesium sulfate once the blood pressure decreases",
+        "Proceed with delivery after maternal stabilization",
+        "Administer a tocolytic agent to delay delivery until 37 weeks",
+        "Recommend bed rest and repeat laboratory testing in 72 hours"
+      ],
+      "answer": "C",
+      "explanation": "Severe hypertension, neurologic symptoms, thrombocytopenia, and hepatic involvement indicate preeclampsia with severe features, potentially with HELLP syndrome. Delivery is recommended after maternal stabilization when severe features occur at or beyond 34 weeks of gestation. Magnesium sulfate reduces seizure risk, while antihypertensive therapy treats severe blood pressure elevations.",
+      "topic": "Pregnancy, Childbirth & the Puerperium",
+      "subtopic": "Patient Care: Mixed Management",
+      "difficulty": "medium",
+      "source": "USMLE Step 2 CK Content Outline – Pregnancy and Childbirth: Hypertensive Disorders of Pregnancy and Preeclampsia"
+    },
+    {
+      "stem": "Investigators conduct a randomized controlled trial comparing a new antihypertensive medication with standard therapy in 2,000 high-risk adults. Participants are followed for 5 years to assess the incidence of stroke. Stroke occurs in 60 of 1,000 patients receiving the new medication and 100 of 1,000 patients receiving standard therapy. There is no loss to follow-up, and the difference is statistically significant. Assuming the treatment effect is causal and constant over the study period, which of the following is the number needed to treat over 5 years to prevent one additional stroke?",
+      "options": [
+        "25",
+        "10",
+        "15",
+        "40",
+        "50"
+      ],
+      "answer": "A",
+      "explanation": "The control event rate is 10%, and the treatment event rate is 6%, giving an absolute risk reduction of 4 percentage points (0.04). Number needed to treat is the reciprocal of absolute risk reduction: 1/0.04 = 25. Therefore, 25 patients must receive the new treatment for 5 years to prevent one additional stroke.",
+      "topic": "Biostatistics & Epidemiology/Population Health/Medical Literature",
+      "subtopic": "Practice-based Learning & Improvement",
+      "difficulty": "medium",
+      "source": "USMLE Step 2 CK Content Outline – Biostatistics and Epidemiology: Clinical Trials, Absolute Risk Reduction, and Number Needed to Treat"
+    },
+    {
+      "stem": "A 78-year-old woman is brought to her primary care physician because of an 8-month history of gradually worsening gait difficulty. She reports that walking has become slow and requires considerable effort, particularly when initiating steps. Her daughter has noticed increasing forgetfulness and several episodes of urinary urgency with incontinence. The patient has no tremor, rigidity, or focal weakness. Neurologic examination demonstrates a broad-based, short-stepped gait with difficulty lifting the feet from the floor. Brain MRI shows ventriculomegaly disproportionate to cortical sulcal enlargement. Which of the following is the most appropriate next step in evaluating whether the patient may benefit from definitive treatment?",
+      "options": [
+        "Begin carbidopa-levodopa and assess for improvement in walking",
+        "Measure serum vitamin B12 and begin supplementation regardless of results",
+        "Initiate an antimuscarinic medication for urinary symptoms",
+        "Perform a large-volume lumbar puncture with preprocedure and postprocedure gait assessment",
+        "Start donepezil and repeat cognitive testing after 6 months"
+      ],
+      "answer": "D",
+      "explanation": "Gait disturbance, cognitive decline, urinary symptoms, and disproportionate ventriculomegaly suggest normal pressure hydrocephalus. A large-volume cerebrospinal fluid removal test with standardized gait assessment can help predict improvement after cerebrospinal fluid shunting. Gait dysfunction is frequently the earliest and most responsive symptom.",
+      "topic": "Human Development",
+      "subtopic": "Patient Care: Laboratory/Diagnostic Studies",
+      "difficulty": "hard",
+      "source": "USMLE Step 2 CK Content Outline – Human Development: Aging and Geriatric Assessment; Nervous System: Normal Pressure Hydrocephalus"
+    }
+  ]
+}
