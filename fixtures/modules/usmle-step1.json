@@ -1,0 +1,224 @@
+{
+  "id": "usmle-step1",
+  "display_name": "USMLE Step 1",
+  "body": "FSMB and NBME",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, endorsed by or sponsored by the United States Medical Licensing Examination (USMLE) program, the Federation of State Medical Boards (FSMB) or NBME. All trademarks belong to their owners.",
+  "taxonomy": {
+    "Human Development": [
+      "Pathology",
+      "Physiology",
+      "Nutrition",
+      "Gross Anatomy & Embryology",
+      "Microbiology",
+      "Pharmacology",
+      "Behavioral Sciences",
+      "Biochemistry",
+      "Histology & Cell Biology",
+      "Immunology",
+      "Genetics"
+    ],
+    "Blood & Lymphoreticular/Immune Systems": [
+      "Pathology",
+      "Physiology",
+      "Nutrition",
+      "Gross Anatomy & Embryology",
+      "Microbiology",
+      "Pharmacology",
+      "Behavioral Sciences",
+      "Biochemistry",
+      "Histology & Cell Biology",
+      "Immunology",
+      "Genetics"
+    ],
+    "Behavioral Health & Nervous Systems/Special Senses": [
+      "Pathology",
+      "Physiology",
+      "Nutrition",
+      "Gross Anatomy & Embryology",
+      "Microbiology",
+      "Pharmacology",
+      "Behavioral Sciences",
+      "Biochemistry",
+      "Histology & Cell Biology",
+      "Immunology",
+      "Genetics"
+    ],
+    "Musculoskeletal, Skin & Subcutaneous Tissue": [
+      "Pathology",
+      "Physiology",
+      "Nutrition",
+      "Gross Anatomy & Embryology",
+      "Microbiology",
+      "Pharmacology",
+      "Behavioral Sciences",
+      "Biochemistry",
+      "Histology & Cell Biology",
+      "Immunology",
+      "Genetics"
+    ],
+    "Cardiovascular System": [
+      "Pathology",
+      "Physiology",
+      "Nutrition",
+      "Gross Anatomy & Embryology",
+      "Microbiology",
+      "Pharmacology",
+      "Behavioral Sciences",
+      "Biochemistry",
+      "Histology & Cell Biology",
+      "Immunology",
+      "Genetics"
+    ],
+    "Respiratory & Renal/Urinary Systems": [
+      "Pathology",
+      "Physiology",
+      "Nutrition",
+      "Gross Anatomy & Embryology",
+      "Microbiology",
+      "Pharmacology",
+      "Behavioral Sciences",
+      "Biochemistry",
+      "Histology & Cell Biology",
+      "Immunology",
+      "Genetics"
+    ],
+    "Gastrointestinal System": [
+      "Pathology",
+      "Physiology",
+      "Nutrition",
+      "Gross Anatomy & Embryology",
+      "Microbiology",
+      "Pharmacology",
+      "Behavioral Sciences",
+      "Biochemistry",
+      "Histology & Cell Biology",
+      "Immunology",
+      "Genetics"
+    ],
+    "Reproductive & Endocrine Systems": [
+      "Pathology",
+      "Physiology",
+      "Nutrition",
+      "Gross Anatomy & Embryology",
+      "Microbiology",
+      "Pharmacology",
+      "Behavioral Sciences",
+      "Biochemistry",
+      "Histology & Cell Biology",
+      "Immunology",
+      "Genetics"
+    ],
+    "Multisystem Processes & Disorders": [
+      "Pathology",
+      "Physiology",
+      "Nutrition",
+      "Gross Anatomy & Embryology",
+      "Microbiology",
+      "Pharmacology",
+      "Behavioral Sciences",
+      "Biochemistry",
+      "Histology & Cell Biology",
+      "Immunology",
+      "Genetics"
+    ],
+    "Biostatistics & Epidemiology/Population Health": [
+      "Pathology",
+      "Physiology",
+      "Nutrition",
+      "Gross Anatomy & Embryology",
+      "Microbiology",
+      "Pharmacology",
+      "Behavioral Sciences",
+      "Biochemistry",
+      "Histology & Cell Biology",
+      "Immunology",
+      "Genetics"
+    ],
+    "Social Sciences: Communication and Interpersonal Skills": [
+      "Pathology",
+      "Physiology",
+      "Nutrition",
+      "Gross Anatomy & Embryology",
+      "Microbiology",
+      "Pharmacology",
+      "Behavioral Sciences",
+      "Biochemistry",
+      "Histology & Cell Biology",
+      "Immunology",
+      "Genetics"
+    ]
+  },
+  "weights": {
+    "Human Development": {
+      "min": 1,
+      "max": 3
+    },
+    "Blood & Lymphoreticular/Immune Systems": {
+      "min": 9,
+      "max": 13
+    },
+    "Behavioral Health & Nervous Systems/Special Senses": {
+      "min": 10,
+      "max": 14
+    },
+    "Musculoskeletal, Skin & Subcutaneous Tissue": {
+      "min": 8,
+      "max": 12
+    },
+    "Cardiovascular System": {
+      "min": 7,
+      "max": 11
+    },
+    "Respiratory & Renal/Urinary Systems": {
+      "min": 11,
+      "max": 15
+    },
+    "Gastrointestinal System": {
+      "min": 6,
+      "max": 10
+    },
+    "Reproductive & Endocrine Systems": {
+      "min": 12,
+      "max": 16
+    },
+    "Multisystem Processes & Disorders": {
+      "min": 8,
+      "max": 12
+    },
+    "Biostatistics & Epidemiology/Population Health": {
+      "min": 4,
+      "max": 6
+    },
+    "Social Sciences: Communication and Interpersonal Skills": {
+      "min": 6,
+      "max": 9
+    }
+  },
+  "options": {
+    "min": 4,
+    "max": 6
+  },
+  "multi_select": false,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [
+    "Which of the following is the most likely diagnosis?",
+    "Which of the following is the most likely underlying cause of this patient's condition?",
+    "Which of the following is the most appropriate initial response by the physician?",
+    "Which of the following infectious agents is the most likely cause of these findings?"
+  ],
+  "uncovered_item_types": [
+    "image-based",
+    "audio",
+    "long-list (7 or more options)"
+  ],
+  "exam_mode": {
+    "questions": 280,
+    "minutes": 420
+  },
+  "verified_outline": "USMLE Content Outline (2026) and Step 1 test specifications",
+  "verified_on": "2026-10-16",
+  "next_review": "2027-10-16"
+}

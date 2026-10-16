@@ -1,0 +1,327 @@
+{
+  "format": "domcq/1",
+  "exam": "usmle-step1",
+  "set": "USMLE Step 1 practice – Integrated Basic Sciences Set 1",
+  "questions": [
+    {
+      "stem": "A 7-year-old boy is brought to the physician because of fatigue, pallor, and intermittent jaundice. His mother reports that he has experienced similar episodes since early childhood. Physical examination shows splenomegaly. Laboratory studies reveal hemoglobin of 9.2 g/dL, increased mean corpuscular hemoglobin concentration, elevated reticulocyte count, and a negative direct antiglobulin test. A peripheral blood smear shows numerous spherocytes. Which of the following abnormalities is the most likely underlying cause of this patient's condition?",
+      "options": [
+        "Deficient synthesis of the beta-globin chain",
+        "Defective anchoring of the erythrocyte membrane skeleton",
+        "Reduced activity of glucose-6-phosphate dehydrogenase",
+        "Deficient synthesis of phosphatidylinositol glycan anchors",
+        "Autoantibody-mediated destruction of erythrocytes"
+      ],
+      "answer": "B",
+      "explanation": "Hereditary spherocytosis results from defects in erythrocyte membrane proteins such as ankyrin, spectrin, band 3, or protein 4.2. These abnormalities destabilize the membrane skeleton, causing membrane loss, decreased surface-area-to-volume ratio, and formation of spherocytes. The abnormal erythrocytes are preferentially destroyed in the spleen, producing extravascular hemolysis.",
+      "topic": "Blood & Lymphoreticular/Immune Systems",
+      "subtopic": "Pathology",
+      "difficulty": "easy",
+      "source": "USMLE Step 1 Content Outline – Blood and Lymphoreticular System: Hereditary Hemolytic Anemias"
+    },
+    {
+      "stem": "A 19-year-old man develops recurrent episodes of pneumonia caused by encapsulated bacteria. He also has a history of chronic sinusitis and intermittent diarrhea. Laboratory studies show markedly decreased serum IgG, IgA, and IgM concentrations. Flow cytometry demonstrates normal numbers of circulating CD19-positive B lymphocytes. Immunization with a protein antigen produces minimal antibody response. Which of the following diagnoses is most likely?",
+      "options": [
+        "X-linked agammaglobulinemia",
+        "Selective IgA deficiency",
+        "Severe combined immunodeficiency",
+        "Common variable immunodeficiency",
+        "Chronic granulomatous disease"
+      ],
+      "answer": "D",
+      "explanation": "Common variable immunodeficiency is characterized by defective B-cell differentiation into antibody-secreting plasma cells, producing low immunoglobulin concentrations and impaired vaccine responses. Unlike X-linked agammaglobulinemia, circulating B lymphocytes are usually present. Patients commonly develop recurrent sinopulmonary infections, gastrointestinal disorders, and autoimmune complications.",
+      "topic": "Blood & Lymphoreticular/Immune Systems",
+      "subtopic": "Immunology",
+      "difficulty": "medium",
+      "source": "USMLE Step 1 Content Outline – Immune System: Primary Immunodeficiency Disorders"
+    },
+    {
+      "stem": "A 68-year-old man is brought to the emergency department because of sudden weakness of his right arm and leg and difficulty speaking. Examination shows right-sided facial weakness involving the lower half of the face, right-sided hemiparesis, and impaired language production. He understands spoken commands but speaks in short, effortful phrases. Which of the following cerebral arteries is most likely occluded?",
+      "options": [
+        "Left middle cerebral artery, superior division",
+        "Right middle cerebral artery, superior division",
+        "Left anterior cerebral artery",
+        "Right posterior cerebral artery",
+        "Basilar artery"
+      ],
+      "answer": "A",
+      "explanation": "Occlusion of the superior division of the dominant middle cerebral artery can produce contralateral face and arm weakness and Broca aphasia. Broca aphasia is characterized by nonfluent speech with relatively preserved comprehension. The combination of right-sided motor deficits and expressive language impairment localizes the lesion to the left frontal region.",
+      "topic": "Behavioral Health & Nervous Systems/Special Senses",
+      "subtopic": "Gross Anatomy & Embryology",
+      "difficulty": "easy",
+      "source": "USMLE Step 1 Content Outline – Nervous System: Cerebrovascular Disorders and Functional Neuroanatomy"
+    },
+    {
+      "stem": "A 27-year-old woman is evaluated for recurrent episodes of blurred vision and numbness in her left leg. Two years ago, she experienced temporary loss of vision in her right eye that resolved over several weeks. Neurologic examination shows hyperreflexia in both lower extremities and an extensor plantar response on the left. MRI demonstrates multiple periventricular white matter lesions. Cerebrospinal fluid analysis reveals oligoclonal IgG bands. Which of the following cellular structures is primarily targeted by the disease process?",
+      "options": [
+        "Schwann cell myelin in peripheral nerves",
+        "Anterior horn motor neuron cell bodies",
+        "Postsynaptic acetylcholine receptors",
+        "Presynaptic voltage-gated calcium channels",
+        "Oligodendrocyte-produced myelin in the central nervous system"
+      ],
+      "answer": "E",
+      "explanation": "Multiple sclerosis is an immune-mediated demyelinating disorder involving the central nervous system. Inflammatory injury damages myelin produced by oligodendrocytes, impairing saltatory conduction along affected axons. Neurologic deficits separated in time and anatomical location, together with characteristic MRI lesions and cerebrospinal fluid oligoclonal bands, support the diagnosis.",
+      "topic": "Behavioral Health & Nervous Systems/Special Senses",
+      "subtopic": "Pathology",
+      "difficulty": "medium",
+      "source": "USMLE Step 1 Content Outline – Nervous System: Demyelinating Diseases"
+    },
+    {
+      "stem": "A 6-year-old boy is evaluated for progressive difficulty running and climbing stairs. His parents report frequent falls, and he uses his hands to push himself upright when rising from the floor. Examination reveals calf pseudohypertrophy and proximal muscle weakness. Serum creatine kinase concentration is markedly elevated. Genetic testing identifies a deletion in the DMD gene that disrupts the reading frame. Which of the following mechanisms most directly explains the progressive destruction of skeletal muscle fibers?",
+      "options": [
+        "Accumulation of glycogen within lysosomes",
+        "Failure of acetylcholine release at motor end plates",
+        "Loss of membrane stabilization during muscle contraction",
+        "Impaired mitochondrial oxidative phosphorylation",
+        "Autoantibody-mediated destruction of muscle capillaries"
+      ],
+      "answer": "C",
+      "explanation": "Duchenne muscular dystrophy results from mutations that eliminate functional dystrophin, a protein connecting the intracellular actin cytoskeleton to the dystrophin-associated protein complex at the sarcolemma. Without dystrophin, muscle membranes become susceptible to contraction-induced injury, calcium influx, and myofiber necrosis. Over time, damaged muscle is replaced by fibrous and fatty tissue.",
+      "topic": "Musculoskeletal, Skin & Subcutaneous Tissue",
+      "subtopic": "Genetics",
+      "difficulty": "hard",
+      "source": "USMLE Step 1 Content Outline – Musculoskeletal System: Inherited Muscular Dystrophies"
+    },
+    {
+      "stem": "A 22-year-old woman presents with a 4-month history of painful swelling of the metacarpophalangeal and proximal interphalangeal joints of both hands. She reports morning stiffness lasting approximately 90 minutes that improves with activity. Examination reveals symmetric joint swelling and tenderness. Laboratory studies demonstrate positive anti-cyclic citrullinated peptide antibodies. Which of the following pathological processes most directly causes the progressive joint destruction associated with this condition?",
+      "options": [
+        "Deposition of monosodium urate crystals",
+        "Formation of invasive inflammatory synovial pannus",
+        "Degeneration of cartilage without synovial inflammation",
+        "Deposition of calcium pyrophosphate crystals",
+        "Bacterial invasion of the synovial fluid"
+      ],
+      "answer": "B",
+      "explanation": "Rheumatoid arthritis is a chronic autoimmune inflammatory disease characterized by synovial proliferation and formation of pannus. Pannus contains inflammatory cells and proliferating synovial tissue that invade cartilage and adjacent bone, producing erosions and deformity. Symmetric small-joint involvement, prolonged morning stiffness, and anti-CCP antibodies strongly support the diagnosis.",
+      "topic": "Musculoskeletal, Skin & Subcutaneous Tissue",
+      "subtopic": "Pathology",
+      "difficulty": "easy",
+      "source": "USMLE Step 1 Content Outline – Musculoskeletal System: Inflammatory Arthritides"
+    },
+    {
+      "stem": "A 59-year-old man with long-standing hypertension experiences sudden tearing chest pain radiating to his back. His blood pressure is 185/105 mm Hg, and a new early diastolic murmur is audible. CT angiography demonstrates an intimal flap involving the ascending aorta. Histologic examination of the affected aortic wall would most likely show which of the following abnormalities?",
+      "options": [
+        "Granulomatous inflammation with multinucleated giant cells",
+        "Lipid-filled macrophages forming a fibrous plaque",
+        "Neutrophilic inflammation involving all vessel layers",
+        "Immune complex deposition in small vessel walls",
+        "Fragmentation of elastic fibers with mucoid extracellular matrix accumulation"
+      ],
+      "answer": "E",
+      "explanation": "Aortic dissection is associated with degeneration of the aortic media, including elastic fiber fragmentation and accumulation of mucoid extracellular matrix. These changes weaken the wall and facilitate blood penetration through an intimal tear. Chronic hypertension is an important predisposing factor, particularly in proximal aortic dissections.",
+      "topic": "Cardiovascular System",
+      "subtopic": "Pathology",
+      "difficulty": "medium",
+      "source": "USMLE Step 1 Content Outline – Cardiovascular System: Aortic Dissection and Diseases of the Aorta"
+    },
+    {
+      "stem": "A 64-year-old man with a history of anterior myocardial infarction is started on lisinopril for heart failure with reduced ejection fraction. Two weeks later, he develops a persistent dry cough without fever or respiratory distress. Chest examination is normal. Which of the following biochemical changes is most directly responsible for this adverse effect?",
+      "options": [
+        "Increased production of angiotensin II",
+        "Increased synthesis of aldosterone",
+        "Reduced release of atrial natriuretic peptide",
+        "Decreased degradation of bradykinin",
+        "Increased activation of beta-2 adrenergic receptors"
+      ],
+      "answer": "D",
+      "explanation": "Angiotensin-converting enzyme normally converts angiotensin I into angiotensin II and contributes to the degradation of bradykinin. ACE inhibitors therefore increase bradykinin concentrations, which can stimulate airway sensory nerves and produce a persistent dry cough. Angiotensin receptor blockers do not directly inhibit bradykinin breakdown and are less likely to cause this adverse effect.",
+      "topic": "Cardiovascular System",
+      "subtopic": "Pharmacology",
+      "difficulty": "medium",
+      "source": "USMLE Step 1 Content Outline – Cardiovascular System: Renin-Angiotensin-Aldosterone System and ACE Inhibitors"
+    },
+    {
+      "stem": "A 24-year-old man presents with recurrent episodes of wheezing, cough, and chest tightness after exposure to dust. Pulmonary function testing demonstrates an FEV1/FVC ratio of 0.62 that increases to 0.79 after administration of inhaled albuterol. Which of the following physiological changes best explains the improvement in airflow?",
+      "options": [
+        "Relaxation of bronchial smooth muscle through increased cyclic AMP",
+        "Suppression of bronchial mucus production through muscarinic activation",
+        "Decreased pulmonary surfactant synthesis in type II pneumocytes",
+        "Increased bronchial smooth muscle contraction through calcium release",
+        "Inhibition of leukotriene synthesis through cyclooxygenase blockade"
+      ],
+      "answer": "A",
+      "explanation": "Albuterol activates beta-2 adrenergic receptors on bronchial smooth muscle, stimulating Gs proteins and adenylyl cyclase. Increased intracellular cyclic AMP activates protein kinase A and promotes smooth muscle relaxation, resulting in bronchodilation. Reversible airflow obstruction is a characteristic physiological feature of asthma.",
+      "topic": "Respiratory & Renal/Urinary Systems",
+      "subtopic": "Physiology",
+      "difficulty": "easy",
+      "source": "USMLE Step 1 Content Outline – Respiratory System: Asthma, Pulmonary Function Testing, and Bronchodilator Physiology"
+    },
+    {
+      "stem": "A 46-year-old man with chronic alcohol use is admitted for confusion and severe weakness after several days of vomiting and minimal food intake. Blood tests reveal serum sodium of 142 mEq/L, potassium of 2.8 mEq/L, chloride of 85 mEq/L, and bicarbonate of 39 mEq/L. Arterial blood gas analysis shows a pH of 7.55 and PCO2 of 49 mm Hg. Urine chloride concentration is 6 mEq/L. Which of the following mechanisms most directly accounts for the persistence of this patient's acid-base disturbance?",
+      "options": [
+        "Increased renal bicarbonate excretion caused by extracellular fluid expansion",
+        "Increased renal ammonium excretion caused by excessive dietary protein",
+        "Renal bicarbonate retention promoted by volume and chloride depletion",
+        "Reduced renal hydrogen ion secretion caused by aldosterone deficiency",
+        "Reduced proximal tubular bicarbonate reabsorption caused by carbonic anhydrase inhibition"
+      ],
+      "answer": "C",
+      "explanation": "Prolonged vomiting causes loss of gastric hydrochloric acid, generating metabolic alkalosis. Extracellular volume contraction, chloride depletion, and hypokalemia enhance renal bicarbonate reabsorption and impair bicarbonate excretion, maintaining the alkalosis. A low urine chloride concentration supports chloride-responsive metabolic alkalosis due to gastrointestinal losses or remote diuretic exposure.",
+      "topic": "Respiratory & Renal/Urinary Systems",
+      "subtopic": "Physiology",
+      "difficulty": "hard",
+      "source": "USMLE Step 1 Content Outline – Renal and Urinary System: Metabolic Alkalosis and Renal Acid-Base Regulation"
+    },
+    {
+      "stem": "A 34-year-old woman presents with progressive lower-extremity edema and frothy urine. Laboratory studies show serum albumin of 2.1 g/dL, urine protein excretion of 6.2 g/day, and normal serum complement concentrations. Renal biopsy demonstrates normal-appearing glomeruli on light microscopy and diffuse podocyte foot process effacement on electron microscopy. Which of the following diagnoses is most likely?",
+      "options": [
+        "Membranoproliferative glomerulonephritis",
+        "Poststreptococcal glomerulonephritis",
+        "IgA nephropathy",
+        "Minimal change disease",
+        "Membranous nephropathy"
+      ],
+      "answer": "D",
+      "explanation": "Minimal change disease is characterized by nephrotic-range proteinuria, usually normal glomerular appearance on light microscopy, and diffuse podocyte foot process effacement on electron microscopy. Podocyte injury disrupts the glomerular filtration barrier, allowing excessive urinary protein loss. In adults, minimal change disease may be idiopathic or associated with medications, malignancy, or immune dysregulation.",
+      "topic": "Respiratory & Renal/Urinary Systems",
+      "subtopic": "Pathology",
+      "difficulty": "medium",
+      "source": "USMLE Step 1 Content Outline – Renal and Urinary System: Nephrotic Syndrome and Glomerular Diseases"
+    },
+    {
+      "stem": "A 42-year-old woman presents with intermittent right upper quadrant abdominal pain after eating fatty meals. Ultrasonography demonstrates multiple gallstones without evidence of acute inflammation. The stones are subsequently removed and found to consist predominantly of cholesterol. Which of the following changes most directly promotes the formation of these stones?",
+      "options": [
+        "Increased conjugation of bilirubin in hepatocytes",
+        "Supersaturation of bile with cholesterol relative to its solubilizing capacity",
+        "Increased pancreatic secretion of bicarbonate",
+        "Reduced intestinal absorption of dietary triglycerides",
+        "Increased hepatic synthesis of albumin"
+      ],
+      "answer": "B",
+      "explanation": "Cholesterol gallstones form when bile becomes supersaturated with cholesterol relative to the capacity of bile salts and phospholipids to maintain cholesterol in solution. Cholesterol crystals can then nucleate and aggregate, particularly in the setting of gallbladder hypomotility. Female sex, obesity, pregnancy, and estrogen exposure are important risk factors.",
+      "topic": "Gastrointestinal System",
+      "subtopic": "Biochemistry",
+      "difficulty": "easy",
+      "source": "USMLE Step 1 Content Outline – Gastrointestinal System: Gallstone Disease and Bile Composition"
+    },
+    {
+      "stem": "A 29-year-old man presents with chronic diarrhea, abdominal pain, and an 8-kg weight loss over 6 months. Colonoscopy shows discontinuous regions of inflammation involving the terminal ileum and ascending colon, with intervening areas of normal mucosa. Biopsy demonstrates transmural inflammation and noncaseating granulomas. Which of the following complications is this patient at greatest risk of developing as a direct consequence of the characteristic depth of intestinal inflammation?",
+      "options": [
+        "Acute pancreatic necrosis",
+        "Esophageal variceal hemorrhage",
+        "Gastric outlet obstruction from peptic ulceration",
+        "Perforation of a colonic diverticulum",
+        "Enteroenteric fistula formation"
+      ],
+      "answer": "E",
+      "explanation": "Crohn disease produces discontinuous, transmural inflammation that may affect any segment of the gastrointestinal tract. Extension of inflammation through the full intestinal wall can create fistulas, abscesses, and fibrotic strictures. Skip lesions, terminal ileal involvement, and noncaseating granulomas are characteristic findings.",
+      "topic": "Gastrointestinal System",
+      "subtopic": "Pathology",
+      "difficulty": "medium",
+      "source": "USMLE Step 1 Content Outline – Gastrointestinal System: Inflammatory Bowel Disease and Crohn Disease"
+    },
+    {
+      "stem": "A 26-year-old woman presents with irregular menstrual periods, weight gain, and progressive facial hair growth. Examination reveals acne and acanthosis nigricans. Laboratory studies show elevated free testosterone, increased fasting insulin, and normal prolactin and thyroid-stimulating hormone concentrations. Pelvic ultrasonography demonstrates bilaterally enlarged ovaries containing numerous small peripheral follicles. Which of the following mechanisms most directly contributes to increased ovarian androgen synthesis in this patient?",
+      "options": [
+        "Increased insulin-mediated stimulation of ovarian theca cells",
+        "Decreased luteinizing hormone stimulation of ovarian theca cells",
+        "Increased follicle-stimulating hormone stimulation of granulosa cells",
+        "Reduced adrenal secretion of dehydroepiandrosterone",
+        "Increased aromatase activity in ovarian granulosa cells"
+      ],
+      "answer": "A",
+      "explanation": "Polycystic ovary syndrome is commonly associated with insulin resistance and compensatory hyperinsulinemia. Insulin acts with luteinizing hormone to promote ovarian theca-cell androgen production, while also reducing hepatic sex hormone-binding globulin synthesis and increasing free androgen concentrations. Hyperandrogenism and disrupted follicular maturation contribute to hirsutism and chronic anovulation.",
+      "topic": "Reproductive & Endocrine Systems",
+      "subtopic": "Physiology",
+      "difficulty": "medium",
+      "source": "USMLE Step 1 Content Outline – Reproductive System: Polycystic Ovary Syndrome and Ovarian Hormone Regulation"
+    },
+    {
+      "stem": "A 38-year-old woman presents with episodic palpitations, sweating, and severe headaches. During an episode, her blood pressure is 210/115 mm Hg and heart rate is 126/min. Plasma free metanephrine and normetanephrine concentrations are markedly elevated. Imaging reveals a unilateral adrenal medullary mass. The patient undergoes preoperative medical preparation. Which of the following treatments should be initiated before beta-adrenergic blockade to prevent a potentially dangerous increase in blood pressure?",
+      "options": [
+        "Propranolol",
+        "Metoprolol",
+        "Phenoxybenzamine",
+        "Dobutamine",
+        "Clonidine"
+      ],
+      "answer": "C",
+      "explanation": "Pheochromocytomas secrete excessive catecholamines, causing episodic hypertension, headache, sweating, and palpitations. Phenoxybenzamine produces irreversible alpha-adrenergic receptor blockade, reducing catecholamine-induced vasoconstriction before surgery. Beta blockade must not precede adequate alpha blockade because blocking beta-2-mediated vasodilation can worsen unopposed alpha-mediated vasoconstriction.",
+      "topic": "Reproductive & Endocrine Systems",
+      "subtopic": "Pharmacology",
+      "difficulty": "hard",
+      "source": "USMLE Step 1 Content Outline – Endocrine System: Pheochromocytoma and Adrenergic Pharmacology"
+    },
+    {
+      "stem": "A 32-year-old woman presents with fatigue, weight gain, constipation, and cold intolerance. Examination reveals dry skin, bradycardia, and delayed relaxation of the Achilles tendon reflex. Laboratory studies show elevated thyroid-stimulating hormone, reduced free thyroxine, and positive anti-thyroid peroxidase antibodies. Which of the following histopathological findings is most likely in the affected gland?",
+      "options": [
+        "Follicular hyperplasia with scalloped colloid",
+        "Amyloid deposition derived from calcitonin",
+        "Granulomatous inflammation with multinucleated giant cells",
+        "Dense lymphocytic infiltration with germinal centers and Hurthle cells",
+        "Malignant follicles containing nuclear grooves and inclusions"
+      ],
+      "answer": "D",
+      "explanation": "Hashimoto thyroiditis is an autoimmune disease in which lymphocytic destruction of thyroid follicles causes progressive primary hypothyroidism. Histology typically demonstrates lymphoid aggregates with germinal centers and Hurthle-cell metaplasia of follicular epithelium. Elevated TSH, low free thyroxine, and anti-thyroid peroxidase antibodies support the diagnosis.",
+      "topic": "Reproductive & Endocrine Systems",
+      "subtopic": "Pathology",
+      "difficulty": "medium",
+      "source": "USMLE Step 1 Content Outline – Endocrine System: Autoimmune Thyroiditis and Hypothyroidism"
+    },
+    {
+      "stem": "A 4-year-old boy presents with recurrent bacterial infections, failure to thrive, and chronic diarrhea. Examination shows partial albinism with silvery-gray hair, pale skin, and hepatosplenomegaly. Peripheral blood smear reveals unusually large cytoplasmic granules within neutrophils. Which of the following cellular processes is defective in this patient?",
+      "options": [
+        "Synthesis of NADPH by the pentose phosphate pathway",
+        "Lysosomal trafficking and fusion with phagosomes",
+        "Formation of neutrophil extracellular traps",
+        "Complement-mediated opsonization of bacteria",
+        "Oxidation of hydrogen peroxide by myeloperoxidase"
+      ],
+      "answer": "B",
+      "explanation": "Chediak-Higashi syndrome results from biallelic defects in the LYST gene, which regulates lysosomal trafficking and organelle size. Impaired lysosomal transport and phagolysosome function cause recurrent pyogenic infections, while abnormal melanosome distribution produces partial albinism. Giant granules in granulocytes are a characteristic diagnostic finding.",
+      "topic": "Multisystem Processes & Disorders",
+      "subtopic": "Genetics",
+      "difficulty": "easy",
+      "source": "USMLE Step 1 Content Outline – Multisystem Processes: Inherited Disorders of Intracellular Trafficking"
+    },
+    {
+      "stem": "A 57-year-old man is admitted with fever, confusion, hypotension, and decreased urine output. He has a history of an untreated urinary tract infection. Laboratory studies show elevated serum lactate, thrombocytopenia, prolonged prothrombin time, prolonged activated partial thromboplastin time, and reduced fibrinogen concentration. Blood cultures grow Escherichia coli. Which of the following mechanisms is most likely responsible for the patient's coagulation abnormalities?",
+      "options": [
+        "Reduced hepatic production of vitamin K-dependent factors alone",
+        "Autoantibody inhibition of coagulation factor VIII",
+        "Inherited deficiency of von Willebrand factor",
+        "Selective activation of the fibrinolytic pathway without coagulation",
+        "Systemic tissue factor-mediated activation of coagulation with factor consumption"
+      ],
+      "answer": "E",
+      "explanation": "Severe sepsis can trigger disseminated intravascular coagulation through inflammatory induction of tissue factor expression and widespread thrombin generation. Extensive microvascular fibrin formation consumes platelets and clotting factors, producing thrombocytopenia, prolonged coagulation tests, and low fibrinogen. Simultaneous activation of fibrinolysis contributes to elevated D-dimer concentrations.",
+      "topic": "Multisystem Processes & Disorders",
+      "subtopic": "Pathology",
+      "difficulty": "medium",
+      "source": "USMLE Step 1 Content Outline – Multisystem Processes: Sepsis and Disseminated Intravascular Coagulation"
+    },
+    {
+      "stem": "Investigators conduct a randomized controlled trial comparing a new antihypertensive drug with placebo in 2,000 patients followed for 5 years. Of 1,000 participants receiving the drug, 80 experience a myocardial infarction. Of 1,000 participants receiving placebo, 120 experience a myocardial infarction. Assuming complete follow-up, which of the following is the number needed to treat over 5 years to prevent one additional myocardial infarction?",
+      "options": [
+        "8",
+        "12",
+        "20",
+        "25",
+        "40"
+      ],
+      "answer": "D",
+      "explanation": "The control event rate is 120/1,000 = 12%, and the treatment event rate is 80/1,000 = 8%. The absolute risk reduction is 12% - 8% = 4%, or 0.04. The number needed to treat is the reciprocal of the absolute risk reduction, giving 1/0.04 = 25 patients.",
+      "topic": "Biostatistics & Epidemiology/Population Health",
+      "subtopic": "Behavioral Sciences",
+      "difficulty": "hard",
+      "source": "USMLE Step 1 Content Outline – Biostatistics and Epidemiology: Absolute Risk Reduction and Number Needed to Treat"
+    },
+    {
+      "stem": "A 45-year-old woman with a newly diagnosed breast malignancy meets with her physician to discuss treatment options. After the physician explains the diagnosis, the patient begins crying and says, \"My mother died of breast cancer. I am terrified that the same thing will happen to me.\" The physician has not yet discussed the treatment plan. Which of the following is the most appropriate initial response by the physician?",
+      "options": [
+        "I can see how frightening this is, especially given what happened to your mother. Can you tell me more about your concerns?",
+        "Breast cancer treatments have improved significantly, so you should try to remain optimistic.",
+        "Your mother's illness does not determine your prognosis, so we should focus on your treatment.",
+        "I will arrange a referral to psychiatry because this diagnosis is causing considerable distress.",
+        "We need to discuss surgery and chemotherapy now so that you can make an informed decision."
+      ],
+      "answer": "A",
+      "explanation": "The most appropriate initial response acknowledges the patient's emotion, demonstrates empathy, and invites further discussion of her concerns. This approach helps establish trust and allows the physician to identify the specific fears influencing the patient's understanding and decisions. Premature reassurance, redirection to treatment, or immediate psychiatric referral may prevent meaningful emotional disclosure.",
+      "topic": "Social Sciences: Communication and Interpersonal Skills",
+      "subtopic": "Behavioral Sciences",
+      "difficulty": "medium",
+      "source": "USMLE Step 1 Content Outline – Social Sciences: Patient-Centered Communication, Empathy, and Responding to Emotion"
+    }
+  ]
+}
