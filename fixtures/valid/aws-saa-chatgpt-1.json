@@ -1,0 +1,309 @@
+{
+  "format": "domcq/1",
+  "exam": "aws-saa",
+  "set": "AWS Certified Solutions Architect - Associate practice – Architecture Essentials",
+  "questions": [
+    {
+      "stem": "A company runs an application on Amazon EC2 instances. The application must read objects from an Amazon S3 bucket. The company wants to avoid storing long-term AWS access keys on the instances. Which solution meets these requirements with the LEAST operational overhead?",
+      "options": [
+        "Create an IAM user with S3 read permissions and store its access keys in AWS Secrets Manager.",
+        "Create an IAM role with S3 read permissions and attach it to the EC2 instances through an instance profile.",
+        "Create an IAM user with S3 read permissions and store its access keys in encrypted EC2 user data.",
+        "Create an IAM group with S3 read permissions and associate the group with the EC2 instances."
+      ],
+      "answer": "B",
+      "explanation": "An IAM role attached through an EC2 instance profile provides temporary security credentials that are automatically delivered and rotated. This removes the need to distribute and manage long-term access keys. IAM groups cannot be attached directly to EC2 instances.",
+      "topic": "Design Secure Architectures",
+      "subtopic": "Design secure access to AWS resources",
+      "difficulty": "easy",
+      "source": "AWS SAA-C03 Exam Guide, Task 1.1; IAM roles for Amazon EC2"
+    },
+    {
+      "stem": "A company has separate AWS accounts for development and production. Developers authenticate in the development account and occasionally need read-only access to an Amazon S3 bucket in the production account. The company wants developers to use temporary credentials without maintaining additional IAM users in production. Which approach should a solutions architect recommend?",
+      "options": [
+        "Create an IAM user in the production account for each developer and distribute access keys.",
+        "Enable public read access on the production S3 bucket and restrict access using object prefixes.",
+        "Create an IAM group in the development account and attach the production account's bucket policy to it.",
+        "Create an IAM role in the production account that trusts an authorized development account role and grants read-only S3 permissions."
+      ],
+      "answer": "D",
+      "explanation": "Cross-account IAM role assumption allows authorized principals in one AWS account to obtain temporary credentials for resources in another account. The production role requires an appropriate trust policy and permissions policy, while the development principal must be permitted to assume the role. This avoids creating duplicate IAM users and distributing permanent credentials.",
+      "topic": "Design Secure Architectures",
+      "subtopic": "Design secure access to AWS resources",
+      "difficulty": "medium",
+      "source": "AWS SAA-C03 Exam Guide, Task 1.1; IAM cross-account access using roles"
+    },
+    {
+      "stem": "A company hosts a public web application behind an Application Load Balancer. The application has experienced SQL injection attempts and HTTP requests containing common malicious payloads. The company wants to block these requests before they reach the application servers, with minimal custom security code. Which solution meets these requirements?",
+      "options": [
+        "Associate an AWS WAF web ACL with the Application Load Balancer and enable appropriate managed rule groups.",
+        "Enable Amazon GuardDuty and configure findings to automatically reject malicious HTTP requests.",
+        "Configure an EC2 security group to block requests containing SQL injection patterns.",
+        "Enable AWS Shield Advanced and use its default protections to inspect SQL injection payloads."
+      ],
+      "answer": "A",
+      "explanation": "AWS WAF inspects HTTP and HTTPS requests and can block common application-layer attacks using managed rule groups, including protections against SQL injection. GuardDuty detects suspicious activity but does not directly filter incoming web requests. Security groups operate at the network level, and Shield primarily addresses DDoS protection.",
+      "topic": "Design Secure Architectures",
+      "subtopic": "Design secure workloads and applications",
+      "difficulty": "easy",
+      "source": "AWS SAA-C03 Exam Guide, Task 1.2; AWS WAF web ACLs and managed rules"
+    },
+    {
+      "stem": "A financial services company stores confidential transaction records in an Amazon S3 bucket. The company must prevent accidental deletion or modification of records during a seven-year retention period. Compliance administrators must not be able to shorten an established retention period. Which solution meets these requirements?",
+      "options": [
+        "Enable S3 Versioning and restrict DeleteObject permissions to the compliance administrators.",
+        "Enable S3 server-side encryption with AWS KMS keys and disable automatic key rotation.",
+        "Enable S3 Object Lock in compliance mode and apply a seven-year retention period to the records.",
+        "Enable S3 Cross-Region Replication and configure a lifecycle rule to retain replicas for seven years."
+      ],
+      "answer": "C",
+      "explanation": "S3 Object Lock in compliance mode provides write-once-read-many protection for retained object versions. A protected object version cannot be overwritten or deleted before its retention period expires, and its retention period cannot be shortened, even by the root user. Versioning and replication alone do not provide equivalent immutable retention guarantees.",
+      "topic": "Design Secure Architectures",
+      "subtopic": "Determine appropriate data security controls",
+      "difficulty": "medium",
+      "source": "AWS SAA-C03 Exam Guide, Task 1.3; Amazon S3 Object Lock retention modes"
+    },
+    {
+      "stem": "A company uses a customer managed AWS KMS key to encrypt objects in an Amazon S3 bucket in Account A. An application running in Account B must read these encrypted objects. The S3 bucket policy already permits the application role to retrieve the objects. However, the application receives an access denied error when attempting to decrypt them. Which TWO actions are required to provide the necessary cross-account decryption access? (Choose TWO.)",
+      "options": [
+        "Enable default SSE-S3 encryption on the destination application's account.",
+        "Add the application role in Account B as an authorized principal in the KMS key policy in Account A.",
+        "Configure S3 Block Public Access to allow access from Account B.",
+        "Grant the application role in Account B the required kms:Decrypt permission for the KMS key.",
+        "Enable anonymous access to the encrypted S3 objects through an access point."
+      ],
+      "answer": "BD",
+      "explanation": "Cross-account use of a customer managed KMS key requires authorization from the key-owning account through the key policy and an appropriate IAM permission in the consuming account. Both sides must permit the required cryptographic operation, such as kms:Decrypt. S3 bucket permissions alone do not grant access to the KMS key.",
+      "topic": "Design Secure Architectures",
+      "subtopic": "Determine appropriate data security controls",
+      "difficulty": "hard",
+      "source": "AWS SAA-C03 Exam Guide, Task 1.3; AWS KMS cross-account key access"
+    },
+    {
+      "stem": "A company operates Amazon EC2 instances in private subnets. The instances must download software artifacts from an Amazon S3 bucket in the same AWS Region. Security requirements prohibit routing this traffic through the public internet, and the company wants to avoid hourly endpoint charges. Which solution should a solutions architect recommend?",
+      "options": [
+        "Deploy a NAT gateway in each Availability Zone and route S3 traffic through the NAT gateways.",
+        "Create an interface VPC endpoint for Amazon S3 and configure private DNS.",
+        "Attach an internet gateway to the VPC and allow outbound HTTPS traffic from the private subnets.",
+        "Create a gateway VPC endpoint for Amazon S3 and associate it with the private subnet route tables."
+      ],
+      "answer": "D",
+      "explanation": "An Amazon S3 gateway VPC endpoint enables private routing to S3 without an internet gateway or NAT gateway. Gateway endpoints have no additional hourly endpoint or data processing charges. Associating the endpoint with the relevant route tables enables the EC2 instances to reach S3 privately.",
+      "topic": "Design Secure Architectures",
+      "subtopic": "Design secure workloads and applications",
+      "difficulty": "medium",
+      "source": "AWS SAA-C03 Exam Guide, Task 1.2; Gateway endpoints for Amazon S3"
+    },
+    {
+      "stem": "A company runs a stateless web application on Amazon EC2 instances. Traffic varies significantly throughout the day, and the application must remain available if one Availability Zone fails. Which architecture provides the required availability and elasticity?",
+      "options": [
+        "Deploy the instances in one Availability Zone behind an Application Load Balancer and configure scheduled scaling.",
+        "Deploy the instances across multiple Availability Zones in an Auto Scaling group behind an Application Load Balancer.",
+        "Deploy one large EC2 instance with enhanced networking and configure automatic EBS snapshots.",
+        "Deploy instances in one Availability Zone and use Amazon CloudFront to cache all application responses."
+      ],
+      "answer": "B",
+      "explanation": "An Auto Scaling group spanning multiple Availability Zones can adjust compute capacity and replace unhealthy instances. An Application Load Balancer distributes requests across healthy targets in enabled Availability Zones. This combination supports both variable traffic and resilience to an Availability Zone failure.",
+      "topic": "Design Resilient Architectures",
+      "subtopic": "Design highly available and/or fault-tolerant architectures",
+      "difficulty": "easy",
+      "source": "AWS SAA-C03 Exam Guide, Task 2.2; EC2 Auto Scaling and Application Load Balancers"
+    },
+    {
+      "stem": "An online retailer processes customer orders through a payment application hosted on Amazon EC2 instances. During traffic spikes, the order submission rate can exceed the application's processing capacity. The company must retain orders until they are processed and allow processing instances to scale independently of the website. Which solution meets these requirements?",
+      "options": [
+        "Send orders to an Amazon SQS queue and configure processing instances to retrieve messages from the queue.",
+        "Publish orders directly to an Amazon SNS topic with only email subscriptions.",
+        "Store incoming orders in an Application Load Balancer target group until workers become available.",
+        "Use an Amazon EventBridge scheduled rule to invoke the processing instances once per day."
+      ],
+      "answer": "A",
+      "explanation": "Amazon SQS provides durable message queuing that decouples order submission from processing. Workers can retrieve messages at their own pace and scale according to backlog. This buffers traffic spikes without requiring the website and processing tiers to scale together.",
+      "topic": "Design Resilient Architectures",
+      "subtopic": "Design scalable and loosely coupled architectures",
+      "difficulty": "easy",
+      "source": "AWS SAA-C03 Exam Guide, Task 2.1; Amazon SQS and decoupled architectures"
+    },
+    {
+      "stem": "A company runs a production application using an Amazon RDS for PostgreSQL DB instance. The database must remain available after an Availability Zone infrastructure failure, with automatic failover and minimal administrative effort. The application does not require additional read throughput. Which solution meets these requirements?",
+      "options": [
+        "Create an RDS read replica in another Availability Zone and configure the application to use it automatically for writes.",
+        "Enable automated backups and restore the most recent snapshot into another Availability Zone after a failure.",
+        "Configure a Multi-AZ DB instance deployment for the existing RDS database.",
+        "Export database snapshots to Amazon S3 and restore them when the primary instance becomes unavailable."
+      ],
+      "answer": "C",
+      "explanation": "An RDS Multi-AZ DB instance deployment maintains a synchronous standby in another Availability Zone and supports automatic failover. A traditional read replica uses asynchronous replication and does not provide the same managed automatic failover capability. Backups and snapshots support recovery but require restoration time.",
+      "topic": "Design Resilient Architectures",
+      "subtopic": "Design highly available and/or fault-tolerant architectures",
+      "difficulty": "medium",
+      "source": "AWS SAA-C03 Exam Guide, Task 2.2; Amazon RDS Multi-AZ DB instance deployments"
+    },
+    {
+      "stem": "A company stores compliance reports in an Amazon S3 bucket in us-east-1. New reports must be automatically copied to an S3 bucket in eu-west-1 for disaster recovery. The company also requires replication of 99.9% of new objects within 15 minutes, supported by an AWS service-level agreement. Which solution meets these requirements?",
+      "options": [
+        "Configure S3 Cross-Region Replication without replication time control.",
+        "Configure S3 Same-Region Replication with an S3 lifecycle transition rule.",
+        "Configure AWS Backup to copy daily S3 recovery points to the destination Region.",
+        "Configure S3 Cross-Region Replication with S3 Replication Time Control enabled."
+      ],
+      "answer": "D",
+      "explanation": "S3 Cross-Region Replication automatically replicates eligible objects between buckets in different AWS Regions. S3 Replication Time Control adds an SLA-backed target for replicating 99.9% of new objects within 15 minutes. Standard replication alone does not provide the same replication-time SLA.",
+      "topic": "Design Resilient Architectures",
+      "subtopic": "Design highly available and/or fault-tolerant architectures",
+      "difficulty": "hard",
+      "source": "AWS SAA-C03 Exam Guide, Task 2.2; Amazon S3 Replication Time Control"
+    },
+    {
+      "stem": "A company uses Amazon SQS to deliver payment processing tasks to AWS Lambda functions. A task might be delivered more than once, and duplicate processing could result in duplicate charges. The application must tolerate retries without performing the same payment twice. Which approach should a solutions architect recommend?",
+      "options": [
+        "Increase the SQS visibility timeout so that every message is guaranteed to be delivered exactly once.",
+        "Implement idempotent payment processing using a unique transaction identifier and an atomic conditional write to track completed transactions.",
+        "Increase the Lambda reserved concurrency so that duplicate messages are processed at the same time.",
+        "Delete each message from the SQS queue before the Lambda function starts the payment operation."
+      ],
+      "answer": "B",
+      "explanation": "SQS standard queues provide at-least-once delivery, so consumers must tolerate duplicate messages. An idempotency mechanism can use a unique transaction identifier and an atomic conditional write to prevent multiple workers from claiming the same transaction. The payment workflow must also handle retries and uncertain payment-provider responses safely.",
+      "topic": "Design Resilient Architectures",
+      "subtopic": "Design scalable and loosely coupled architectures",
+      "difficulty": "hard",
+      "source": "AWS SAA-C03 Exam Guide, Task 2.1; Amazon SQS at-least-once delivery and idempotent consumers"
+    },
+    {
+      "stem": "A company has Linux applications running on multiple Amazon EC2 instances across different Availability Zones. All instances must simultaneously read and write files in a shared directory using standard POSIX file system operations. The solution must scale storage automatically without provisioning capacity. Which AWS storage service meets these requirements?",
+      "options": [
+        "Amazon Elastic File System (Amazon EFS)",
+        "Amazon Elastic Block Store (Amazon EBS)",
+        "Amazon S3 Glacier Flexible Retrieval",
+        "Amazon EC2 instance store"
+      ],
+      "answer": "A",
+      "explanation": "Amazon EFS provides a managed, elastic NFS file system that supports concurrent access from multiple Linux instances across Availability Zones. It offers shared POSIX-compatible file access and automatically scales storage capacity as files are added or removed. EBS and instance store are block storage rather than managed regional shared file systems.",
+      "topic": "Design High-Performing Architectures",
+      "subtopic": "Determine high-performing and/or scalable storage solutions",
+      "difficulty": "easy",
+      "source": "AWS SAA-C03 Exam Guide, Task 3.1; Amazon EFS shared file storage"
+    },
+    {
+      "stem": "An ecommerce application uses Amazon RDS for MySQL. Database CPU usage is consistently high because reporting queries perform large numbers of SELECT operations. Transactional writes must continue to use the primary database, and the company wants to increase read capacity without migrating to a different database engine. Which solution should a solutions architect recommend?",
+      "options": [
+        "Enable RDS Multi-AZ standby replication and direct reporting queries to the standby DB instance.",
+        "Increase the database backup retention period and execute reporting queries against the automated backups.",
+        "Create one or more RDS read replicas and direct reporting queries to those replicas.",
+        "Enable RDS storage autoscaling to distribute SELECT queries across additional storage volumes."
+      ],
+      "answer": "C",
+      "explanation": "RDS read replicas support read-heavy workloads by allowing SELECT queries to run on separate database instances. They use asynchronous replication and can reduce query load on the primary database. A traditional Multi-AZ standby is intended for failover rather than serving application read queries.",
+      "topic": "Design High-Performing Architectures",
+      "subtopic": "Determine high-performing database solutions",
+      "difficulty": "medium",
+      "source": "AWS SAA-C03 Exam Guide, Task 3.3; Amazon RDS read replicas"
+    },
+    {
+      "stem": "A company is building an image-processing application. Users upload images to an Amazon S3 bucket, and each image must be processed shortly after upload. Processing time varies from a few seconds to two minutes, and upload volume changes substantially throughout the day. The company wants automatic scaling with minimal infrastructure management. Which TWO components should a solutions architect use? (Choose TWO.)",
+      "options": [
+        "An Amazon EC2 Dedicated Host that continuously polls the bucket",
+        "An AWS Batch compute environment with a fixed minimum of 20 EC2 instances",
+        "An Amazon RDS database trigger that executes image-processing code",
+        "An AWS Lambda function that performs image processing",
+        "An Amazon S3 event notification that invokes processing when a new image is created"
+      ],
+      "answer": "DE",
+      "explanation": "S3 event notifications can invoke Lambda functions in response to object creation events. Lambda automatically scales execution capacity and is appropriate for processing tasks that fit within its execution limits, including tasks lasting up to 15 minutes. This event-driven solution eliminates the need to maintain continuously running processing servers.",
+      "topic": "Design High-Performing Architectures",
+      "subtopic": "Design high-performing and elastic compute solutions",
+      "difficulty": "medium",
+      "source": "AWS SAA-C03 Exam Guide, Task 3.2; AWS Lambda and Amazon S3 event notifications"
+    },
+    {
+      "stem": "A global media company serves a website containing images, CSS files, JavaScript files, and downloadable videos from an Amazon S3 bucket in one AWS Region. Users in distant locations experience high latency. The company wants to reduce content delivery latency and requests reaching the origin, without replicating the content manually to multiple Regions. Which solution meets these requirements?",
+      "options": [
+        "Use Amazon Route 53 weighted routing to distribute requests among multiple DNS records pointing to the same S3 bucket.",
+        "Create an Amazon CloudFront distribution with the S3 bucket as its origin and cache eligible content at edge locations.",
+        "Place an Application Load Balancer in front of the S3 bucket and enable cross-zone load balancing.",
+        "Use AWS Direct Connect to establish dedicated connections from the S3 bucket to every user location."
+      ],
+      "answer": "B",
+      "explanation": "Amazon CloudFront caches content at geographically distributed edge locations, reducing latency for users far from the origin. Cached responses also reduce the number of requests made to the S3 bucket. CloudFront provides managed global content delivery without requiring the company to deploy regional copies of the application.",
+      "topic": "Design High-Performing Architectures",
+      "subtopic": "Determine high-performing and/or scalable network architectures",
+      "difficulty": "easy",
+      "source": "AWS SAA-C03 Exam Guide, Task 3.4; Amazon CloudFront content delivery"
+    },
+    {
+      "stem": "A company receives hundreds of thousands of telemetry events per second from connected devices. The company needs to collect the events, buffer them, and continuously convert JSON records into Apache Parquet format before storing them in Amazon S3 for analytics. Event volume changes throughout the day. The company wants a managed ingestion and delivery solution with minimal custom processing code. Which solution meets these requirements?",
+      "options": [
+        "Send the events to Amazon SQS and configure a lifecycle policy to convert queued messages into Parquet files.",
+        "Publish events to Amazon SNS and use message filtering to write Parquet objects directly to Amazon S3.",
+        "Send the events directly to Amazon EBS volumes and run scheduled EC2 scripts to convert the records.",
+        "Ingest the events using Amazon Data Firehose and configure record format conversion to Parquet with Amazon S3 as the destination."
+      ],
+      "answer": "D",
+      "explanation": "Amazon Data Firehose provides managed streaming data delivery and supports converting JSON records into columnar formats such as Apache Parquet before delivery to S3. It handles buffering and scales ingestion capacity for supported streaming sources and quotas. This reduces the need for custom data delivery infrastructure.",
+      "topic": "Design High-Performing Architectures",
+      "subtopic": "Determine high-performing data ingestion and transformation solutions",
+      "difficulty": "hard",
+      "source": "AWS SAA-C03 Exam Guide, Task 3.5; Amazon Data Firehose record format conversion"
+    },
+    {
+      "stem": "A company stores large analytical datasets in Amazon S3. The objects are several megabytes each, and access patterns are unpredictable. Some objects are accessed frequently for several weeks and then remain unused for months. The company requires millisecond retrieval without manually managing lifecycle rules. Which S3 storage class should a solutions architect choose to optimize costs?",
+      "options": [
+        "S3 Intelligent-Tiering",
+        "S3 Standard",
+        "S3 One Zone-Infrequent Access",
+        "S3 Glacier Deep Archive"
+      ],
+      "answer": "A",
+      "explanation": "S3 Intelligent-Tiering automatically moves eligible objects between access tiers according to observed access patterns. Its low-latency tiers support millisecond retrieval while reducing storage costs when objects become less frequently accessed. It is well suited to unpredictable access patterns, although monitoring and automation charges apply to eligible objects.",
+      "topic": "Design Cost-Optimized Architectures",
+      "subtopic": "Design cost-optimized storage solutions",
+      "difficulty": "easy",
+      "source": "AWS SAA-C03 Exam Guide, Task 4.1; Amazon S3 Intelligent-Tiering"
+    },
+    {
+      "stem": "A company runs a data analysis workload on Amazon EC2. Each analysis job can be interrupted and restarted from checkpoints stored in Amazon S3. Jobs run for several hours and do not have strict completion deadlines. The company wants to minimize compute costs while using otherwise unused EC2 capacity. Which purchasing option should a solutions architect recommend?",
+      "options": [
+        "On-Demand Instances",
+        "Dedicated Hosts",
+        "EC2 Spot Instances",
+        "Compute Savings Plans"
+      ],
+      "answer": "C",
+      "explanation": "EC2 Spot Instances provide discounted access to unused EC2 capacity but can be interrupted when AWS reclaims that capacity. Checkpointing allows the application to resume work after interruptions, making Spot Instances a suitable choice for flexible batch processing. On-Demand Instances and Dedicated Hosts do not provide the same opportunity to reduce costs through interruptible capacity.",
+      "topic": "Design Cost-Optimized Architectures",
+      "subtopic": "Design cost-optimized compute solutions",
+      "difficulty": "medium",
+      "source": "AWS SAA-C03 Exam Guide, Task 4.2; Amazon EC2 Spot Instances"
+    },
+    {
+      "stem": "A company operates a development environment using Amazon RDS for PostgreSQL. The database is required only from 8:00 AM to 6:00 PM on weekdays. It is not part of a production workload, and developers can tolerate a short database startup delay each morning. The company wants to reduce compute charges outside working hours with minimal architectural changes. Which approach should a solutions architect recommend?",
+      "options": [
+        "Convert the database to an RDS Multi-AZ deployment and configure automated backups during nonworking hours.",
+        "Automate stopping the RDS DB instance after working hours and starting it before developers begin work, accounting for the seven-day automatic restart limit.",
+        "Create an RDS read replica and stop the primary database outside working hours.",
+        "Increase the database instance size during working hours and reduce allocated storage during nonworking hours."
+      ],
+      "answer": "B",
+      "explanation": "Stopping a supported RDS DB instance suspends its DB instance-hour charges while it is stopped, although storage and certain other charges continue. Automated start and stop schedules can reduce costs for development environments that do not require continuous availability. RDS automatically restarts a stopped DB instance after seven consecutive days, so scheduling must account for that limit.",
+      "topic": "Design Cost-Optimized Architectures",
+      "subtopic": "Design cost-optimized database solutions",
+      "difficulty": "medium",
+      "source": "AWS SAA-C03 Exam Guide, Task 4.3; Stopping and starting an Amazon RDS DB instance"
+    },
+    {
+      "stem": "A company operates a web application in a VPC containing three private subnets, each in a different Availability Zone. Instances in all three subnets require outbound internet access to download software updates. The company currently operates one NAT gateway in each Availability Zone for high availability. Cost analysis shows that NAT gateway data processing charges are high because the instances frequently download large software packages from Amazon S3 in the same AWS Region. The company must preserve internet access and NAT gateway availability while minimizing additional networking costs. Which approach meets these requirements?",
+      "options": [
+        "Replace the three NAT gateways with one NAT gateway in a single Availability Zone and route all traffic through it.",
+        "Deploy three additional NAT gateways and use route tables to distribute S3 traffic across six gateways.",
+        "Replace each NAT gateway with an internet gateway attached directly to its private subnet.",
+        "Create an S3 gateway VPC endpoint, associate it with all three private subnet route tables, and retain the existing NAT gateways for other internet traffic."
+      ],
+      "answer": "D",
+      "explanation": "An S3 gateway VPC endpoint allows traffic to S3 in the same Region to bypass NAT gateways, avoiding NAT gateway data processing charges for that traffic. Gateway endpoints have no additional hourly or data processing charges. Keeping the three NAT gateways preserves the existing Availability Zone-level outbound internet architecture for other destinations.",
+      "topic": "Design Cost-Optimized Architectures",
+      "subtopic": "Design cost-optimized network architectures",
+      "difficulty": "medium",
+      "source": "AWS SAA-C03 Exam Guide, Task 4.4; Amazon S3 gateway VPC endpoints and NAT gateway pricing"
+    }
+  ]
+}

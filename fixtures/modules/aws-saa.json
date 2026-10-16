@@ -1,0 +1,45 @@
+{
+  "id": "aws-saa",
+  "display_name": "AWS Certified Solutions Architect - Associate",
+  "body": "AWS",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, endorsed by or sponsored by Amazon Web Services, Inc. or its affiliates. Amazon Web Services and AWS are trademarks of Amazon.com, Inc. or its affiliates.",
+  "taxonomy": {
+    "Design Secure Architectures": [
+      "Design secure access to AWS resources",
+      "Design secure workloads and applications",
+      "Determine appropriate data security controls"
+    ],
+    "Design Resilient Architectures": [
+      "Design scalable and loosely coupled architectures",
+      "Design highly available and/or fault-tolerant architectures"
+    ],
+    "Design High-Performing Architectures": [
+      "Determine high-performing and/or scalable storage solutions",
+      "Design high-performing and elastic compute solutions",
+      "Determine high-performing database solutions",
+      "Determine high-performing and/or scalable network architectures",
+      "Determine high-performing data ingestion and transformation solutions"
+    ],
+    "Design Cost-Optimized Architectures": [
+      "Design cost-optimized storage solutions",
+      "Design cost-optimized compute solutions",
+      "Design cost-optimized database solutions",
+      "Design cost-optimized network architectures"
+    ]
+  },
+  "weights": {
+    "Design Secure Architectures": 30,
+    "Design Resilient Architectures": 26,
+    "Design High-Performing Architectures": 24,
+    "Design Cost-Optimized Architectures": 20
+  },
+  "options": { "min": 4, "max": 6 },
+  "multi_select": true,
+  "banned_option_text": ["all of the above", "none of the above"],
+  "stem_hints": ["Which solution meets these requirements?", "Which approach will meet these requirements?", "What should a solutions architect do to accomplish this?"],
+  "uncovered_item_types": [],
+  "exam_mode": { "questions": 65, "minutes": 130 },
+  "verified_outline": "AWS Certified Solutions Architect - Associate (SAA-C03) Exam Guide",
+  "verified_on": "2026-10-15",
+  "next_review": "2027-10-15"
+}
