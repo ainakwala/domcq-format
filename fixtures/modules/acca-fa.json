@@ -4,59 +4,15 @@
   "body": "ACCA",
   "disclaimer": "DoMcq is an independent practice tool and is not associated with, approved by or endorsed by ACCA (the Association of Chartered Certified Accountants). ACCA is a registered trademark of the Association of Chartered Certified Accountants.",
   "taxonomy": {
-    "The context and purpose of financial reporting": [
-      "The context and purpose of financial statements for external reporting",
-      "Stakeholders’ needs",
-      "The main elements of financial statements",
-      "The regulatory framework",
-      "Duties and responsibilities of those charged with governance"
-    ],
-    "Accounting principles, concepts and qualitative characteristics": [
-      "Key principles and concepts of accounting",
-      "Qualitative characteristics of useful financial information"
-    ],
-    "The use of double-entry bookkeeping and accounting systems": [
-      "Double-entry bookkeeping principles including the maintenance of accounting records",
-      "General ledger accounts and journal entries"
-    ],
-    "Recording transactions and events": [
-      "Sales and purchases",
-      "Cash",
-      "Inventories",
-      "Tangible non-current assets",
-      "Depreciation",
-      "Intangible non-current assets and amortisation",
-      "Accrued expenses (accruals), prepaid expenses (prepayments), accrued income, and deferred income",
-      "Receivables and payables",
-      "Provisions and contingencies",
-      "Capital structure and finance costs"
-    ],
-    "Reconciliations": [
-      "Bank reconciliations",
-      "Payables account reconciliations"
-    ],
-    "Preparing a trial balance": [
-      "Trial balance",
-      "Correction of errors",
-      "Suspense accounts"
-    ],
-    "Preparing financial statements": [
-      "Statement of financial position",
-      "Statement of profit or loss and other comprehensive income",
-      "Disclosure notes",
-      "Events after the reporting period",
-      "Statement of cash flows (excluding partnerships)",
-      "Incomplete records"
-    ],
-    "Preparing basic consolidated financial statements": [
-      "Subsidiaries",
-      "Associates"
-    ],
-    "Interpretation of financial statements": [
-      "Importance and purpose of analysis of financial statements",
-      "Ratios",
-      "Analysis of financial statements"
-    ]
+    "The context and purpose of financial reporting": [],
+    "Accounting principles, concepts and qualitative characteristics": [],
+    "The use of double-entry bookkeeping and accounting systems": [],
+    "Recording transactions and events": [],
+    "Reconciliations": [],
+    "Preparing a trial balance": [],
+    "Preparing financial statements": [],
+    "Preparing basic consolidated financial statements": [],
+    "Interpretation of financial statements": []
   },
   "options": { "min": 4, "max": 4 },
   "multi_select": true,
