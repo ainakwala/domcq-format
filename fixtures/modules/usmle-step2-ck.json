@@ -1,0 +1,262 @@
+{
+  "id": "usmle-step2-ck",
+  "display_name": "USMLE Step 2 Clinical Knowledge (CK)",
+  "body": "FSMB and NBME",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, endorsed by or sponsored by the United States Medical Licensing Examination (USMLE) program, the Federation of State Medical Boards (FSMB) or NBME. All trademarks belong to their owners.",
+  "taxonomy": {
+    "Social Sciences": [
+      "Patient Care: Diagnosis",
+      "Patient Care: Laboratory/Diagnostic Studies",
+      "Patient Care: Mixed Management",
+      "Patient Care: Pharmacotherapy",
+      "Patient Care: Clinical Interventions",
+      "Patient Care: Health Maintenance/Disease Prevention",
+      "Patient Care: Prognosis/Outcome",
+      "Systems-based Practice & Patient Safety",
+      "Professionalism",
+      "Practice-based Learning & Improvement"
+    ],
+    "Renal & Urinary System & Reproductive Systems": [
+      "Patient Care: Diagnosis",
+      "Patient Care: Laboratory/Diagnostic Studies",
+      "Patient Care: Mixed Management",
+      "Patient Care: Pharmacotherapy",
+      "Patient Care: Clinical Interventions",
+      "Patient Care: Health Maintenance/Disease Prevention",
+      "Patient Care: Prognosis/Outcome",
+      "Systems-based Practice & Patient Safety",
+      "Professionalism",
+      "Practice-based Learning & Improvement"
+    ],
+    "Cardiovascular System": [
+      "Patient Care: Diagnosis",
+      "Patient Care: Laboratory/Diagnostic Studies",
+      "Patient Care: Mixed Management",
+      "Patient Care: Pharmacotherapy",
+      "Patient Care: Clinical Interventions",
+      "Patient Care: Health Maintenance/Disease Prevention",
+      "Patient Care: Prognosis/Outcome",
+      "Systems-based Practice & Patient Safety",
+      "Professionalism",
+      "Practice-based Learning & Improvement"
+    ],
+    "Musculoskeletal System/Skin & Subcutaneous Tissue": [
+      "Patient Care: Diagnosis",
+      "Patient Care: Laboratory/Diagnostic Studies",
+      "Patient Care: Mixed Management",
+      "Patient Care: Pharmacotherapy",
+      "Patient Care: Clinical Interventions",
+      "Patient Care: Health Maintenance/Disease Prevention",
+      "Patient Care: Prognosis/Outcome",
+      "Systems-based Practice & Patient Safety",
+      "Professionalism",
+      "Practice-based Learning & Improvement"
+    ],
+    "Behavioral Health": [
+      "Patient Care: Diagnosis",
+      "Patient Care: Laboratory/Diagnostic Studies",
+      "Patient Care: Mixed Management",
+      "Patient Care: Pharmacotherapy",
+      "Patient Care: Clinical Interventions",
+      "Patient Care: Health Maintenance/Disease Prevention",
+      "Patient Care: Prognosis/Outcome",
+      "Systems-based Practice & Patient Safety",
+      "Professionalism",
+      "Practice-based Learning & Improvement"
+    ],
+    "Blood & Lymphoreticular/Immune Systems": [
+      "Patient Care: Diagnosis",
+      "Patient Care: Laboratory/Diagnostic Studies",
+      "Patient Care: Mixed Management",
+      "Patient Care: Pharmacotherapy",
+      "Patient Care: Clinical Interventions",
+      "Patient Care: Health Maintenance/Disease Prevention",
+      "Patient Care: Prognosis/Outcome",
+      "Systems-based Practice & Patient Safety",
+      "Professionalism",
+      "Practice-based Learning & Improvement"
+    ],
+    "Gastrointestinal System": [
+      "Patient Care: Diagnosis",
+      "Patient Care: Laboratory/Diagnostic Studies",
+      "Patient Care: Mixed Management",
+      "Patient Care: Pharmacotherapy",
+      "Patient Care: Clinical Interventions",
+      "Patient Care: Health Maintenance/Disease Prevention",
+      "Patient Care: Prognosis/Outcome",
+      "Systems-based Practice & Patient Safety",
+      "Professionalism",
+      "Practice-based Learning & Improvement"
+    ],
+    "Nervous System & Special Senses": [
+      "Patient Care: Diagnosis",
+      "Patient Care: Laboratory/Diagnostic Studies",
+      "Patient Care: Mixed Management",
+      "Patient Care: Pharmacotherapy",
+      "Patient Care: Clinical Interventions",
+      "Patient Care: Health Maintenance/Disease Prevention",
+      "Patient Care: Prognosis/Outcome",
+      "Systems-based Practice & Patient Safety",
+      "Professionalism",
+      "Practice-based Learning & Improvement"
+    ],
+    "Respiratory System": [
+      "Patient Care: Diagnosis",
+      "Patient Care: Laboratory/Diagnostic Studies",
+      "Patient Care: Mixed Management",
+      "Patient Care: Pharmacotherapy",
+      "Patient Care: Clinical Interventions",
+      "Patient Care: Health Maintenance/Disease Prevention",
+      "Patient Care: Prognosis/Outcome",
+      "Systems-based Practice & Patient Safety",
+      "Professionalism",
+      "Practice-based Learning & Improvement"
+    ],
+    "Multisystem Processes & Disorders": [
+      "Patient Care: Diagnosis",
+      "Patient Care: Laboratory/Diagnostic Studies",
+      "Patient Care: Mixed Management",
+      "Patient Care: Pharmacotherapy",
+      "Patient Care: Clinical Interventions",
+      "Patient Care: Health Maintenance/Disease Prevention",
+      "Patient Care: Prognosis/Outcome",
+      "Systems-based Practice & Patient Safety",
+      "Professionalism",
+      "Practice-based Learning & Improvement"
+    ],
+    "Endocrine System": [
+      "Patient Care: Diagnosis",
+      "Patient Care: Laboratory/Diagnostic Studies",
+      "Patient Care: Mixed Management",
+      "Patient Care: Pharmacotherapy",
+      "Patient Care: Clinical Interventions",
+      "Patient Care: Health Maintenance/Disease Prevention",
+      "Patient Care: Prognosis/Outcome",
+      "Systems-based Practice & Patient Safety",
+      "Professionalism",
+      "Practice-based Learning & Improvement"
+    ],
+    "Pregnancy, Childbirth & the Puerperium": [
+      "Patient Care: Diagnosis",
+      "Patient Care: Laboratory/Diagnostic Studies",
+      "Patient Care: Mixed Management",
+      "Patient Care: Pharmacotherapy",
+      "Patient Care: Clinical Interventions",
+      "Patient Care: Health Maintenance/Disease Prevention",
+      "Patient Care: Prognosis/Outcome",
+      "Systems-based Practice & Patient Safety",
+      "Professionalism",
+      "Practice-based Learning & Improvement"
+    ],
+    "Biostatistics & Epidemiology/Population Health/Medical Literature": [
+      "Patient Care: Diagnosis",
+      "Patient Care: Laboratory/Diagnostic Studies",
+      "Patient Care: Mixed Management",
+      "Patient Care: Pharmacotherapy",
+      "Patient Care: Clinical Interventions",
+      "Patient Care: Health Maintenance/Disease Prevention",
+      "Patient Care: Prognosis/Outcome",
+      "Systems-based Practice & Patient Safety",
+      "Professionalism",
+      "Practice-based Learning & Improvement"
+    ],
+    "Human Development": [
+      "Patient Care: Diagnosis",
+      "Patient Care: Laboratory/Diagnostic Studies",
+      "Patient Care: Mixed Management",
+      "Patient Care: Pharmacotherapy",
+      "Patient Care: Clinical Interventions",
+      "Patient Care: Health Maintenance/Disease Prevention",
+      "Patient Care: Prognosis/Outcome",
+      "Systems-based Practice & Patient Safety",
+      "Professionalism",
+      "Practice-based Learning & Improvement"
+    ]
+  },
+  "weights": {
+    "Social Sciences": {
+      "min": 10,
+      "max": 15
+    },
+    "Renal & Urinary System & Reproductive Systems": {
+      "min": 7,
+      "max": 13
+    },
+    "Cardiovascular System": {
+      "min": 6,
+      "max": 12
+    },
+    "Musculoskeletal System/Skin & Subcutaneous Tissue": {
+      "min": 6,
+      "max": 12
+    },
+    "Behavioral Health": {
+      "min": 5,
+      "max": 10
+    },
+    "Blood & Lymphoreticular/Immune Systems": {
+      "min": 5,
+      "max": 10
+    },
+    "Gastrointestinal System": {
+      "min": 5,
+      "max": 10
+    },
+    "Nervous System & Special Senses": {
+      "min": 5,
+      "max": 10
+    },
+    "Respiratory System": {
+      "min": 5,
+      "max": 10
+    },
+    "Multisystem Processes & Disorders": {
+      "min": 4,
+      "max": 8
+    },
+    "Endocrine System": {
+      "min": 3,
+      "max": 7
+    },
+    "Pregnancy, Childbirth & the Puerperium": {
+      "min": 3,
+      "max": 7
+    },
+    "Biostatistics & Epidemiology/Population Health/Medical Literature": {
+      "min": 3,
+      "max": 5
+    },
+    "Human Development": {
+      "min": 2,
+      "max": 4
+    }
+  },
+  "options": {
+    "min": 4,
+    "max": 6
+  },
+  "multi_select": false,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [
+    "Which of the following is the most appropriate next step in management?",
+    "Which of the following is the most likely diagnosis?",
+    "Which of the following is the most appropriate next step in diagnosis?"
+  ],
+  "uncovered_item_types": [
+    "sequential item set",
+    "abstract format",
+    "image-based",
+    "audio or video",
+    "long-list (7 or more options)"
+  ],
+  "exam_mode": {
+    "questions": 316,
+    "minutes": 480
+  },
+  "verified_outline": "USMLE Content Outline (2026) and Step 2 CK test specifications",
+  "verified_on": "2026-10-16",
+  "next_review": "2027-10-16"
+}
