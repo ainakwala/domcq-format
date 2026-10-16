@@ -1,0 +1,57 @@
+{
+  "id": "acca-ma",
+  "display_name": "Management Accounting (MA)",
+  "body": "ACCA",
+  "disclaimer": "DoMcq is an independent practice tool and is not associated with, approved by or endorsed by ACCA (the Association of Chartered Certified Accountants). ACCA is a registered trademark of the Association of Chartered Certified Accountants.",
+  "taxonomy": {
+    "The nature, source and purpose of management information": [
+      "Accounting for management",
+      "Sources of data",
+      "Cost classification",
+      "Presenting information"
+    ],
+    "Data analysis and statistical techniques": [
+      "Sampling methods",
+      "Analytical techniques in budgeting and forecasting",
+      "Summarising and analysing data",
+      "Spreadsheets"
+    ],
+    "Cost accounting techniques": [
+      "Accounting for material, labour and overheads",
+      "Absorption and marginal costing",
+      "Cost accounting methods",
+      "Alternative cost accounting principles"
+    ],
+    "Budgeting": [
+      "Nature and purpose of budgeting",
+      "Budget preparation",
+      "Flexible budgets",
+      "Asset budgeting and investment appraisal",
+      "Budgetary control and reporting",
+      "Behavioural aspects of budgeting"
+    ],
+    "Standard costing": [
+      "Standard costing",
+      "Variance calculations and analysis",
+      "Reconciliation of budgeted and actual profit"
+    ],
+    "Performance measurement": [
+      "Performance measurement - overview",
+      "Performance measurement - application",
+      "Cost reductions and value enhancement",
+      "Monitoring performance and reporting"
+    ]
+  },
+  "options": { "min": 4, "max": 4 },
+  "multi_select": true,
+  "banned_option_text": ["all of the above", "none of the above"],
+  "stem_hints": [
+    "Which of the following statements about marginal costing is correct?",
+    "Which of the following would be a PROBLEM when measuring the performance of a nonprofit seeking, publicly funded hospital that does not charge for its services at the point of consumption?"
+  ],
+  "uncovered_item_types": ["multiple response matching", "number entry", "multi-task questions (Section B)"],
+  "exam_mode": { "questions": 35, "minutes": 84 },
+  "verified_outline": "ACCA Management Accounting (MA/FMA) Syllabus and study guide, September 2026 to June 2027",
+  "verified_on": "2026-10-16",
+  "next_review": "2027-07-01"
+}

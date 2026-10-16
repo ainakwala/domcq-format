@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "acca-ma",
+  "set": "Management Accounting (MA) practice – Syllabus 2026–27 Mixed Challenge",
+  "questions": [
+    {
+      "stem": "Which of the following is a characteristic of management accounting information?",
+      "options": [
+        "It must be prepared in accordance with financial reporting standards.",
+        "It may include financial and non-financial information for internal decisions.",
+        "It must be published annually for shareholders and other external users.",
+        "It must report only transactions that have already taken place."
+      ],
+      "answer": "B",
+      "explanation": "Management accounting provides information to support internal planning, decision-making and control. It can incorporate financial and non-financial measures, historical results and forecasts. Unlike financial accounting, it is not generally required to follow external financial reporting standards.",
+      "topic": "The nature, source and purpose of management information",
+      "subtopic": "Accounting for management",
+      "difficulty": "easy",
+      "source": "ACCA MA syllabus A1 – Accounting for management"
+    },
+    {
+      "stem": "A manufacturer pays a supervisor a fixed monthly salary of $3,500 to oversee a production department. How should this salary normally be classified?",
+      "options": [
+        "Direct labour cost and variable production cost",
+        "Direct labour cost and fixed production cost",
+        "Indirect labour cost and variable production cost",
+        "Indirect labour cost and fixed production cost"
+      ],
+      "answer": "D",
+      "explanation": "A production supervisor's salary is indirect labour because it cannot normally be traced directly to individual units of output. The salary remains unchanged within the relevant range of production activity, making it a fixed production overhead.",
+      "topic": "The nature, source and purpose of management information",
+      "subtopic": "Cost classification",
+      "difficulty": "easy",
+      "source": "ACCA MA syllabus A3 – Cost classification"
+    },
+    {
+      "stem": "A company requires 1,000 components for a special order. It can manufacture them at a variable cost of $12 per component or purchase them for $14 each. Manufacturing would use capacity that could otherwise generate a contribution of $4,000. Fixed production overheads would remain unchanged under either alternative. Which decision would maximise short-term profit?",
+      "options": [
+        "Purchase the components, saving $2,000.",
+        "Manufacture the components, saving $2,000.",
+        "Purchase the components, saving $4,000.",
+        "Manufacture the components, saving $4,000."
+      ],
+      "answer": "A",
+      "explanation": "The relevant manufacturing cost is $12,000 in variable costs plus $4,000 in opportunity cost, giving $16,000. Purchasing costs $14,000, so buying saves $2,000. Unavoidable fixed overheads are irrelevant because they do not change between the alternatives.",
+      "topic": "The nature, source and purpose of management information",
+      "subtopic": "Cost classification",
+      "difficulty": "medium",
+      "source": "ACCA MA syllabus A3 – Cost classification: relevant costs"
+    },
+    {
+      "stem": "An auditor selects every 25th transaction from an ordered list of purchase invoices, beginning at a randomly selected position among the first 25 transactions. Which sampling method is being used?",
+      "options": [
+        "Simple random sampling",
+        "Stratified random sampling",
+        "Systematic sampling",
+        "Quota sampling"
+      ],
+      "answer": "C",
+      "explanation": "Systematic sampling selects items at a fixed interval after choosing a starting point, ideally at random. A systematic sample may be biased if the ordering of the population contains a pattern related to the sampling interval.",
+      "topic": "Data analysis and statistical techniques",
+      "subtopic": "Sampling methods",
+      "difficulty": "easy",
+      "source": "ACCA MA syllabus B1 – Sampling methods"
+    },
+    {
+      "stem": "A retailer recorded sales of 420, 480, 450 and 510 units in January, February, March and April respectively. Using a three-month moving average, what is the sales forecast for May?",
+      "options": [
+        "450 units",
+        "480 units",
+        "465 units",
+        "495 units"
+      ],
+      "answer": "B",
+      "explanation": "A three-month moving average uses the three most recent actual observations. Therefore, the May forecast is (480 + 450 + 510) / 3 = 480 units. January is excluded because it falls outside the latest three-month period.",
+      "topic": "Data analysis and statistical techniques",
+      "subtopic": "Analytical techniques in budgeting and forecasting",
+      "difficulty": "medium",
+      "source": "ACCA MA syllabus B2 – Analytical techniques in budgeting and forecasting: moving averages"
+    },
+    {
+      "stem": "A company's monthly sales follow the trend equation Y = 2,400 + 150t, where t = 1 represents January and increases by one each month. The multiplicative seasonal index for September is 1.20. What is the forecast sales volume for September using the trend and seasonal adjustment?",
+      "options": [
+        "3,750 units",
+        "3,900 units",
+        "4,320 units",
+        "4,500 units"
+      ],
+      "answer": "D",
+      "explanation": "September corresponds to t = 9, so trend sales are 2,400 + (150 × 9) = 3,750 units. Under a multiplicative seasonal model, the forecast is 3,750 × 1.20 = 4,500 units. The seasonal index indicates that September sales are expected to be 20% above the underlying trend.",
+      "topic": "Data analysis and statistical techniques",
+      "subtopic": "Analytical techniques in budgeting and forecasting",
+      "difficulty": "hard",
+      "source": "ACCA MA syllabus B2 – Analytical techniques in budgeting and forecasting: trend and seasonal variations"
+    },
+    {
+      "stem": "A furniture manufacturer produces upholstered office chairs. Which TWO of the following would normally be classified as direct materials in manufacturing the chairs? Choose TWO.",
+      "options": [
+        "Lubricating oil used to maintain production machinery",
+        "Wooden panels incorporated into each finished chair",
+        "Cleaning chemicals used throughout the production area",
+        "Upholstery fabric incorporated into each finished chair"
+      ],
+      "answer": "BD",
+      "explanation": "Wooden panels and upholstery fabric are physically incorporated into finished chairs and can be directly traced to the products. Lubricating oil and production-area cleaning chemicals support manufacturing but are normally treated as indirect materials within production overheads.",
+      "topic": "Cost accounting techniques",
+      "subtopic": "Accounting for material, labour and overheads",
+      "difficulty": "medium",
+      "source": "ACCA MA syllabus C1 – Accounting for material, labour and overheads"
+    },
+    {
+      "stem": "A manufacturing company budgets production overheads of $240,000 and 30,000 machine hours for the year. It absorbs overheads using a predetermined machine-hour rate. How much overhead should be absorbed by a job requiring 125 machine hours?",
+      "options": [
+        "$1,000",
+        "$960",
+        "$1,200",
+        "$1,250"
+      ],
+      "answer": "A",
+      "explanation": "The budgeted overhead absorption rate is $240,000 / 30,000 = $8 per machine hour. A job using 125 machine hours absorbs 125 × $8 = $1,000. Predetermined rates are based on budgeted overhead expenditure and budgeted activity.",
+      "topic": "Cost accounting techniques",
+      "subtopic": "Accounting for material, labour and overheads",
+      "difficulty": "medium",
+      "source": "ACCA MA syllabus C1 – Accounting for material, labour and overheads: overhead absorption"
+    },
+    {
+      "stem": "A company produces 12,000 units and sells 10,000 units during its first accounting period. Fixed production overhead is absorbed at $6 per unit, and actual fixed production overhead equals the budgeted amount. There is no opening inventory. How does profit calculated using absorption costing compare with profit calculated using marginal costing?",
+      "options": [
+        "Absorption costing profit is $12,000 lower.",
+        "Both methods report the same profit.",
+        "Absorption costing profit is $12,000 higher.",
+        "Absorption costing profit is $72,000 higher."
+      ],
+      "answer": "C",
+      "explanation": "Closing inventory increases by 2,000 units, each carrying $6 of fixed production overhead under absorption costing. Consequently, $12,000 of fixed overhead is included in closing inventory rather than charged against current-period profit. Marginal costing expenses all fixed production overhead in the period, so its profit is $12,000 lower.",
+      "topic": "Cost accounting techniques",
+      "subtopic": "Absorption and marginal costing",
+      "difficulty": "hard",
+      "source": "ACCA MA syllabus C2 – Absorption and marginal costing: profit reconciliation"
+    },
+    {
+      "stem": "A process receives 10,000 units of input at a total cost of $45,000. Normal process loss is 10% of input, with no scrap value. Actual output is 9,000 completed units, with no work in progress. What is the cost per completed unit?",
+      "options": [
+        "$4.05",
+        "$4.50",
+        "$5.50",
+        "$5.00"
+      ],
+      "answer": "D",
+      "explanation": "Expected good output is 10,000 × 90% = 9,000 units. With no scrap proceeds and no work in progress, the full input cost of $45,000 is spread across expected good output, giving $5 per unit. Normal losses are therefore reflected in the unit cost of good production.",
+      "topic": "Cost accounting techniques",
+      "subtopic": "Cost accounting methods",
+      "difficulty": "medium",
+      "source": "ACCA MA syllabus C3 – Cost accounting methods: process costing and normal loss"
+    },
+    {
+      "stem": "Which of the following is a principal purpose of preparing budgets in an organisation?",
+      "options": [
+        "To coordinate activities and establish financial and operational targets",
+        "To eliminate uncertainty about future costs and revenues",
+        "To ensure actual results always equal planned results",
+        "To replace the need for management supervision and control"
+      ],
+      "answer": "A",
+      "explanation": "Budgets translate organisational plans into measurable targets and help coordinate the activities of different departments. They also support resource allocation, communication, motivation and control. Budgets cannot eliminate uncertainty or guarantee that actual performance will match planned performance.",
+      "topic": "Budgeting",
+      "subtopic": "Nature and purpose of budgeting",
+      "difficulty": "easy",
+      "source": "ACCA MA syllabus D1 – Nature and purpose of budgeting"
+    },
+    {
+      "stem": "A company budgets variable production costs of $8 per unit and fixed production costs of $30,000 per month. Its original budget was based on 5,000 units, but actual production was 5,800 units. What is the total flexible budget production cost for actual output?",
+      "options": [
+        "$70,000",
+        "$76,400",
+        "$80,400",
+        "$86,400"
+      ],
+      "answer": "B",
+      "explanation": "The flexible budget adjusts variable costs to actual activity while keeping fixed costs unchanged within the relevant range. Variable cost is 5,800 × $8 = $46,400, and adding fixed costs of $30,000 gives $76,400. This provides an appropriate benchmark for assessing actual production costs.",
+      "topic": "Budgeting",
+      "subtopic": "Flexible budgets",
+      "difficulty": "medium",
+      "source": "ACCA MA syllabus D3 – Flexible budgets"
+    },
+    {
+      "stem": "A machine requires an initial investment of $90,000 and is expected to generate net cash inflows of $20,000 in Year 1, $30,000 in Year 2, $25,000 in Year 3 and $30,000 in Year 4. Assuming cash flows arise evenly throughout each year, what is the payback period?",
+      "options": [
+        "3.00 years",
+        "3.25 years",
+        "3.50 years",
+        "3.75 years"
+      ],
+      "answer": "C",
+      "explanation": "Cumulative cash inflows after three years are $20,000 + $30,000 + $25,000 = $75,000, leaving $15,000 to recover. Year 4 generates $30,000, so the remaining investment is recovered halfway through that year. The payback period is therefore 3.5 years.",
+      "topic": "Budgeting",
+      "subtopic": "Asset budgeting and investment appraisal",
+      "difficulty": "medium",
+      "source": "ACCA MA syllabus D4 – Asset budgeting and investment appraisal: payback method"
+    },
+    {
+      "stem": "A manufacturer budgets sales of 8,500 finished units for November. Opening finished goods inventory is 1,400 units, and the required closing finished goods inventory is 1,900 units. Each unit manufactured requires 3 kg of raw material. Opening raw material inventory is 4,000 kg, and the required closing raw material inventory is 5,000 kg. What quantity of raw material should be purchased for November?",
+      "options": [
+        "25,500 kg",
+        "26,000 kg",
+        "27,000 kg",
+        "28,000 kg"
+      ],
+      "answer": "D",
+      "explanation": "Budgeted production is sales plus closing finished goods inventory less opening finished goods inventory: 8,500 + 1,900 − 1,400 = 9,000 units. Material needed for production is 9,000 × 3 = 27,000 kg. Purchases must also allow for the increase in raw material inventory, giving 27,000 + 5,000 − 4,000 = 28,000 kg.",
+      "topic": "Budgeting",
+      "subtopic": "Budget preparation",
+      "difficulty": "hard",
+      "source": "ACCA MA syllabus D2 – Budget preparation: production and material purchases budgets"
+    },
+    {
+      "stem": "Which of the following best describes a standard cost?",
+      "options": [
+        "A predetermined cost for a unit of output under specified operating conditions",
+        "The average actual cost incurred for a unit during the previous year",
+        "The maximum cost that can legally be charged for a manufactured product",
+        "The total cost recorded after production has been completed"
+      ],
+      "answer": "A",
+      "explanation": "A standard cost is established in advance for materials, labour or overheads under defined operating conditions. It provides a benchmark against which actual costs can be compared, allowing managers to identify and investigate variances.",
+      "topic": "Standard costing",
+      "subtopic": "Standard costing",
+      "difficulty": "easy",
+      "source": "ACCA MA syllabus E1 – Standard costing system"
+    },
+    {
+      "stem": "Which TWO of the following statements about standard cost variances are correct? Choose TWO.",
+      "options": [
+        "A favourable material price variance arises when actual purchase price exceeds standard price.",
+        "An adverse labour rate variance arises when actual hourly pay exceeds the standard hourly rate.",
+        "A favourable material usage variance arises when actual material quantity is below the standard quantity allowed for actual output.",
+        "An adverse labour efficiency variance arises when actual hours are fewer than standard hours for actual output."
+      ],
+      "answer": "BC",
+      "explanation": "Paying a higher hourly wage than the standard rate produces an adverse labour rate variance. Using less material than the standard allowance for actual output produces a favourable material usage variance. A higher material purchase price is adverse, while using fewer labour hours than standard is favourable.",
+      "topic": "Standard costing",
+      "subtopic": "Variance calculations and analysis",
+      "difficulty": "medium",
+      "source": "ACCA MA syllabus E2 – Variance calculations and analysis"
+    },
+    {
+      "stem": "A company using a marginal costing system reports a budgeted profit of $50,000. The following variances have been calculated: sales volume contribution variance $6,000 adverse; sales price variance $4,000 favourable; material price variance $3,000 adverse; and labour efficiency variance $2,000 favourable. Assuming these are the only differences between budgeted and actual profit, what is actual profit?",
+      "options": [
+        "$43,000",
+        "$45,000",
+        "$49,000",
+        "$47,000"
+      ],
+      "answer": "D",
+      "explanation": "Start with budgeted profit and add favourable variances while deducting adverse variances. Actual profit is $50,000 − $6,000 + $4,000 − $3,000 + $2,000 = $47,000. Under marginal costing, the sales volume contribution variance measures the profit effect of selling a different quantity from that budgeted.",
+      "topic": "Standard costing",
+      "subtopic": "Reconciliation of budgeted and actual profit",
+      "difficulty": "hard",
+      "source": "ACCA MA syllabus E3 – Reconciliation of budgeted and actual profit"
+    },
+    {
+      "stem": "A division earns controllable profit of $120,000 from average controllable capital employed of $800,000. What is the division's return on investment (ROI), using controllable profit and controllable capital employed?",
+      "options": [
+        "15%",
+        "12%",
+        "18%",
+        "20%"
+      ],
+      "answer": "A",
+      "explanation": "ROI is calculated as profit divided by capital employed, multiplied by 100. Therefore, ROI is $120,000 / $800,000 × 100 = 15%. ROI measures the profit generated in relation to the capital invested in the division.",
+      "topic": "Performance measurement",
+      "subtopic": "Performance measurement - application",
+      "difficulty": "easy",
+      "source": "ACCA MA syllabus F2 – Performance measurement - application: return on investment"
+    },
+    {
+      "stem": "Which of the following would be a particular PROBLEM when measuring the performance of a publicly funded, not-for-profit hospital that does not charge patients at the point of treatment?",
+      "options": [
+        "Measuring the number of patients treated during a reporting period",
+        "Assigning a monetary value to the outcomes and benefits of patient care",
+        "Calculating the average cost per occupied hospital bed",
+        "Measuring average waiting times for outpatient appointments"
+      ],
+      "answer": "B",
+      "explanation": "A major difficulty in not-for-profit performance measurement is assigning monetary values to benefits such as improved health, reduced suffering and patient wellbeing. Activity levels, unit costs and waiting times can be measured directly, although none alone provides a complete assessment of hospital performance. Consequently, public service performance generally requires multiple measures of economy, efficiency and effectiveness.",
+      "topic": "Performance measurement",
+      "subtopic": "Performance measurement - application",
+      "difficulty": "medium",
+      "source": "ACCA MA syllabus F2 – Performance measurement - application: not-for-profit organisations"
+    },
+    {
+      "stem": "A factory has a standard labour time of 2.5 hours per unit at a standard rate of $12 per hour. During a period, it produces 1,200 units using 3,200 actual labour hours. What is the direct labour efficiency variance?",
+      "options": [
+        "$2,400 favourable",
+        "$4,800 adverse",
+        "$2,400 adverse",
+        "$4,800 favourable"
+      ],
+      "answer": "C",
+      "explanation": "Standard hours for actual output are 1,200 × 2.5 = 3,000 hours. Actual hours exceed standard hours by 200, so the labour efficiency variance is 200 × $12 = $2,400 adverse. The variance is adverse because production required more labour time than the standard allowance.",
+      "topic": "Standard costing",
+      "subtopic": "Variance calculations and analysis",
+      "difficulty": "medium",
+      "source": "ACCA MA syllabus E2 – Variance calculations and analysis: labour efficiency variance"
+    }
+  ]
+}
