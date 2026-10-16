@@ -1,0 +1,83 @@
+{
+  "id": "nclex-rn",
+  "display_name": "NCLEX-RN",
+  "body": "NCSBN",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, endorsed by or sponsored by the National Council of State Boards of Nursing, Inc. (NCSBN). NCLEX®, NCLEX-RN® and NCSBN® are registered trademarks of NCSBN.",
+  "taxonomy": {
+    "Management of Care": [],
+    "Safety and Infection Prevention and Control": [],
+    "Health Promotion and Maintenance": [],
+    "Psychosocial Integrity": [],
+    "Basic Care and Comfort": [],
+    "Pharmacological and Parenteral Therapies": [],
+    "Reduction of Risk Potential": [],
+    "Physiological Adaptation": []
+  },
+  "weights": {
+    "Management of Care": {
+      "min": 15,
+      "max": 21
+    },
+    "Safety and Infection Prevention and Control": {
+      "min": 10,
+      "max": 16
+    },
+    "Health Promotion and Maintenance": {
+      "min": 6,
+      "max": 12
+    },
+    "Psychosocial Integrity": {
+      "min": 6,
+      "max": 12
+    },
+    "Basic Care and Comfort": {
+      "min": 6,
+      "max": 12
+    },
+    "Pharmacological and Parenteral Therapies": {
+      "min": 13,
+      "max": 19
+    },
+    "Reduction of Risk Potential": {
+      "min": 9,
+      "max": 15
+    },
+    "Physiological Adaptation": {
+      "min": 11,
+      "max": 17
+    }
+  },
+  "options": {
+    "min": 4,
+    "max": 6
+  },
+  "multi_select": true,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "uncovered_item_types": [
+    "case studies",
+    "bow-tie",
+    "trend",
+    "matrix/grid",
+    "multiple response grouping",
+    "drag-and-drop",
+    "drop-down (cloze)",
+    "highlight",
+    "ordered response",
+    "fill-in-the-blank calculation",
+    "hot spot",
+    "exhibit",
+    "audio",
+    "graphic"
+  ],
+  "exam_mode": {
+    "questions": 85,
+    "minutes": 170
+  },
+  "verified_outline": "2026 NCLEX-RN Test Plan (effective April 2026)",
+  "verified_on": "2026-10-16",
+  "next_review": "2029-04-01",
+  "prompt_template": "@options\nGive each question between 4 and 6 options. Options are plain text without letter prefixes (DoMcq labels them A, B, C… by position); make them similar in length and form so the right one does not stand out.\nWrite the real exam's two kinds of item. Most are multiple choice: exactly 4 options and exactly one correct, so `answer` is a single letter. Some are select all that apply: 5 or 6 options, two or more of them correct and at least one incorrect, and the stem ends \"Select all that apply.\" without ever saying how many are correct; `answer` lists every correct letter in ascending order (\"ACE\").\nNever use these as an option: \"all of the above\", \"none of the above\". Avoid \"both A and B\" style options too."
+}
