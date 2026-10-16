@@ -1,6 +1,6 @@
 {
   "description": "Every fixture with the error and warning codes the validator must report for it (unique codes, sorted). Validated against the modules listed, plus Generic.",
-  "modules": ["modules/example.json", "modules/example-multi.json", "modules/pmp.json", "modules/cfa-l1.json", "modules/mbe.json", "modules/aws-saa.json"],
+  "modules": ["modules/example.json", "modules/example-multi.json", "modules/pmp.json", "modules/cfa-l1.json", "modules/mbe.json", "modules/aws-saa.json", "modules/frm-p1.json"],
   "cases": [
     { "file": "valid/minimal-generic.json", "errors": [] },
     { "file": "valid/full-generic.json", "errors": [] },
@@ -30,6 +30,11 @@
     { "file": "valid/aws-saa-claude-3.md", "errors": [], "fenced": true },
     { "file": "valid/aws-saa-claude-4.md", "errors": [], "fenced": true },
     { "file": "valid/aws-saa-chatgpt-1.json", "errors": [] },
+    { "file": "valid/frm-p1-claude-1.md", "errors": [], "fenced": true },
+    { "file": "valid/frm-p1-claude-2.md", "errors": [], "fenced": true },
+    { "file": "valid/frm-p1-claude-3.md", "errors": [], "fenced": true },
+    { "file": "valid/frm-p1-claude-4.md", "errors": [], "fenced": true },
+    { "file": "valid/frm-p1-chatgpt-1.json", "errors": [] },
 
     { "file": "invalid/empty.txt", "errors": ["E001"] },
     { "file": "invalid/not-json.txt", "errors": ["E002"] },
