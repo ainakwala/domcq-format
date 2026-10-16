@@ -4,54 +4,12 @@
   "body": "ACCA",
   "disclaimer": "DoMcq is an independent practice tool and is not associated with, approved by or endorsed by ACCA (the Association of Chartered Certified Accountants). ACCA is a registered trademark of the Association of Chartered Certified Accountants.",
   "taxonomy": {
-    "The business organisation and its external environment": [
-      "The purpose and types of business organisation",
-      "Stakeholders in business organisations",
-      "Political and legal factors affecting business",
-      "Macroeconomic factors",
-      "Microeconomic factors",
-      "Social and demographic factors",
-      "Technological factors",
-      "Environmental and sustainability factors",
-      "Competitive factors"
-    ],
-    "Organisational structure, culture, governance and sustainability": [
-      "The formal and informal business organisation",
-      "Business organisational structure",
-      "Organisational culture",
-      "Governance in business organisations",
-      "Sustainable business practices"
-    ],
-    "Business functions, regulation and technology": [
-      "The relationship between accounting and other business functions",
-      "Accounting and finance functions within business organisations",
-      "Regulation and financial crime",
-      "Financial information provided by business",
-      "Financial systems and technology",
-      "Internal controls",
-      "The impact of advances in technology"
-    ],
-    "Leadership and management": [
-      "Leadership, management and supervision",
-      "Individual and group behaviour in business organisations",
-      "Team formation, development and management",
-      "Motivating individuals and teams",
-      "Learning and training at work",
-      "Review and appraisal of individual performance"
-    ],
-    "Personal effectiveness and communication in business": [
-      "Personal effectiveness",
-      "Consequences of ineffectiveness at work",
-      "Competence frameworks and personal development",
-      "Sources of conflict and techniques for conflict resolution",
-      "Communicating in business"
-    ],
-    "Professional ethics": [
-      "Fundamental principles of ethical behaviour",
-      "The role of regulatory and professional bodies in promoting ethical and professional standards",
-      "Corporate codes of ethics",
-      "Ethical conflicts and dilemmas"
-    ]
+    "The business organisation and its external environment": [],
+    "Organisational structure, culture, governance and sustainability": [],
+    "Business functions, regulation and technology": [],
+    "Leadership and management": [],
+    "Personal effectiveness and communication in business": [],
+    "Professional ethics": []
   },
   "options": { "min": 2, "max": 4 },
   "multi_select": true,

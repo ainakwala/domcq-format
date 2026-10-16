@@ -4,43 +4,12 @@
   "body": "ACCA",
   "disclaimer": "DoMcq is an independent practice tool and is not associated with, approved by or endorsed by ACCA (the Association of Chartered Certified Accountants). ACCA is a registered trademark of the Association of Chartered Certified Accountants.",
   "taxonomy": {
-    "The nature, source and purpose of management information": [
-      "Accounting for management",
-      "Sources of data",
-      "Cost classification",
-      "Presenting information"
-    ],
-    "Data analysis and statistical techniques": [
-      "Sampling methods",
-      "Analytical techniques in budgeting and forecasting",
-      "Summarising and analysing data",
-      "Spreadsheets"
-    ],
-    "Cost accounting techniques": [
-      "Accounting for material, labour and overheads",
-      "Absorption and marginal costing",
-      "Cost accounting methods",
-      "Alternative cost accounting principles"
-    ],
-    "Budgeting": [
-      "Nature and purpose of budgeting",
-      "Budget preparation",
-      "Flexible budgets",
-      "Asset budgeting and investment appraisal",
-      "Budgetary control and reporting",
-      "Behavioural aspects of budgeting"
-    ],
-    "Standard costing": [
-      "Standard costing",
-      "Variance calculations and analysis",
-      "Reconciliation of budgeted and actual profit"
-    ],
-    "Performance measurement": [
-      "Performance measurement - overview",
-      "Performance measurement - application",
-      "Cost reductions and value enhancement",
-      "Monitoring performance and reporting"
-    ]
+    "The nature, source and purpose of management information": [],
+    "Data analysis and statistical techniques": [],
+    "Cost accounting techniques": [],
+    "Budgeting": [],
+    "Standard costing": [],
+    "Performance measurement": []
   },
   "options": { "min": 4, "max": 4 },
   "multi_select": true,
