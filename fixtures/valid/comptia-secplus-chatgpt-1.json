@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "comptia-secplus",
+  "set": "CompTIA Security+ Practice – Enterprise Security Scenarios",
+  "questions": [
+    {
+      "stem": "A company installs security cameras in its data center to discourage unauthorized personnel from entering restricted areas. Which of the following BEST describes the primary function of these cameras?",
+      "options": [
+        "Preventive physical control",
+        "Deterrent physical control",
+        "Corrective technical control",
+        "Directive administrative control"
+      ],
+      "answer": "B",
+      "explanation": "Security cameras used primarily to discourage unauthorized behavior function as deterrent controls. Although cameras can also provide detective capabilities by recording activity, their stated purpose in this scenario is to discourage intrusion. The intended function determines the most appropriate control classification.",
+      "topic": "General Security Concepts",
+      "subtopic": "Compare and contrast various types of security controls",
+      "difficulty": "easy",
+      "source": "CompTIA Security+ SY0-701 Objective 1.1 – Security control categories and types"
+    },
+    {
+      "stem": "An organization needs to verify that a software update downloaded from a vendor has not been modified during transmission. The vendor publishes a SHA-256 hash of the original update. Which of the following should the administrator do to verify the update's integrity?",
+      "options": [
+        "Encrypt the downloaded file using AES-256",
+        "Sign the downloaded file with a new private key",
+        "Compress the downloaded file before installation",
+        "Calculate the file's SHA-256 hash and compare it with the published value"
+      ],
+      "answer": "D",
+      "explanation": "A cryptographic hash produces a fixed-length digest that changes with overwhelming probability when the file's contents change. Comparing the downloaded file's hash with a trusted vendor-provided value helps detect accidental corruption or unauthorized modification. The published hash must itself come from a trusted source because an attacker could otherwise replace both the file and the hash.",
+      "topic": "General Security Concepts",
+      "subtopic": "Explain the importance of using appropriate cryptographic solutions",
+      "difficulty": "easy",
+      "source": "CompTIA Security+ SY0-701 Objective 1.4 – Hashing and data integrity"
+    },
+    {
+      "stem": "A security analyst discovers that employees are receiving emails that appear to come from the company's payroll department. The emails direct recipients to a counterfeit payroll website to enter their credentials. Which of the following attacks is the company MOST likely facing?",
+      "options": [
+        "Phishing",
+        "Tailgating",
+        "DNS poisoning",
+        "Password spraying"
+      ],
+      "answer": "A",
+      "explanation": "Phishing uses deceptive communications to convince recipients to disclose sensitive information or perform harmful actions. In this scenario, attackers impersonate the payroll department and use a fraudulent website to collect credentials. The trusted organizational identity and credential-harvesting objective are characteristic of phishing.",
+      "topic": "Threats, Vulnerabilities, and Mitigations",
+      "subtopic": "Explain common threat vectors and attack surfaces",
+      "difficulty": "easy",
+      "source": "CompTIA Security+ SY0-701 Objective 2.2 – Social engineering and phishing"
+    },
+    {
+      "stem": "An application's login page constructs database queries by directly concatenating user-supplied input into SQL statements. During testing, an attacker enters specially crafted characters and successfully retrieves records belonging to other users. Which of the following vulnerabilities is MOST likely being exploited?",
+      "options": [
+        "Cross-site scripting",
+        "Directory traversal",
+        "SQL injection",
+        "Buffer overflow"
+      ],
+      "answer": "C",
+      "explanation": "SQL injection occurs when untrusted input is interpreted as part of a database query rather than treated strictly as data. Direct string concatenation can allow attackers to alter SQL logic and access unauthorized records. Parameterized queries, supported by appropriate input validation and least-privilege database permissions, help mitigate this vulnerability.",
+      "topic": "Threats, Vulnerabilities, and Mitigations",
+      "subtopic": "Explain various types of vulnerabilities",
+      "difficulty": "medium",
+      "source": "CompTIA Security+ SY0-701 Objective 2.3 – Application vulnerabilities and injection attacks"
+    },
+    {
+      "stem": "A security analyst investigates a workstation suspected of ransomware activity. The analyst must identify indicators that support the suspicion. Which TWO of the following observations would provide the STRONGEST evidence of active ransomware? Choose TWO.",
+      "options": [
+        "An increase in unsuccessful VPN authentication attempts",
+        "A process rapidly rewriting hundreds of user documents into unreadable files",
+        "A routine operating system update requiring a restart",
+        "A new ransom message appearing in directories containing encrypted documents"
+      ],
+      "answer": "BD",
+      "explanation": "Rapidly transforming user documents into unreadable files is consistent with ransomware encryption activity. Ransom messages placed alongside affected files provide additional strong evidence of ransomware. Failed VPN logins or routine software updates may warrant investigation but do not directly establish that ransomware is operating.",
+      "topic": "Threats, Vulnerabilities, and Mitigations",
+      "subtopic": "Given a scenario, analyze indicators of malicious activity",
+      "difficulty": "medium",
+      "source": "CompTIA Security+ SY0-701 Objective 2.4 – Indicators of malicious activity and ransomware"
+    },
+    {
+      "stem": "A company publishes a web application that uses an open-source library with a newly disclosed critical vulnerability. The vulnerable library is loaded by the application at runtime, and attackers have begun exploiting the vulnerability publicly. A patched version of the library is available. Which of the following actions would BEST provide a permanent remediation?",
+      "options": [
+        "Increase the application's logging retention period",
+        "Disable user access to the application's audit logs",
+        "Move the application to a different network subnet",
+        "Update the vulnerable library and deploy the tested application"
+      ],
+      "answer": "D",
+      "explanation": "Updating the vulnerable dependency to a patched version removes the known vulnerable code from the application, provided the application is rebuilt or redeployed as necessary. Testing before deployment helps identify compatibility problems introduced by the update. Logging and network changes may support detection or risk reduction but do not directly remediate the vulnerable dependency.",
+      "topic": "Threats, Vulnerabilities, and Mitigations",
+      "subtopic": "Explain the purpose of mitigation techniques used to secure the enterprise",
+      "difficulty": "medium",
+      "source": "CompTIA Security+ SY0-701 Objective 2.5 – Patching and mitigation techniques"
+    },
+    {
+      "stem": "A company is migrating an internal application to a cloud service. The company wants to manage its applications and data without maintaining the underlying operating systems or runtime environments. Which of the following cloud service models BEST meets this requirement?",
+      "options": [
+        "Platform as a Service",
+        "Infrastructure as a Service",
+        "Software as a Service",
+        "On-premises virtualization"
+      ],
+      "answer": "A",
+      "explanation": "Platform as a Service (PaaS) allows customers to deploy and manage applications while the cloud provider manages the underlying operating systems, runtime platforms, and infrastructure. Infrastructure as a Service generally leaves operating system management with the customer. Software as a Service provides a completed application rather than a platform for deploying the customer's own application.",
+      "topic": "Security Architecture",
+      "subtopic": "Compare and contrast security implications of different architecture models",
+      "difficulty": "easy",
+      "source": "CompTIA Security+ SY0-701 Objective 3.1 – Cloud computing and service models"
+    },
+    {
+      "stem": "A company has placed its publicly accessible web servers and internal financial database servers on the same unrestricted network segment. Management wants to reduce the possibility that a compromised web server could directly access the financial database. Which of the following would BEST address this concern?",
+      "options": [
+        "Implement centralized logging for all application servers",
+        "Increase the password complexity requirements for employees",
+        "Place the database in a separate restricted network segment",
+        "Enable full-disk encryption on the web servers"
+      ],
+      "answer": "C",
+      "explanation": "Network segmentation separates systems according to their security requirements and limits communication between them. Placing the financial database in a restricted segment with tightly controlled access reduces opportunities for lateral movement after a web server compromise. Logging and encryption remain useful controls but do not directly restrict network reachability.",
+      "topic": "Security Architecture",
+      "subtopic": "Given a scenario, apply security principles to secure enterprise infrastructure",
+      "difficulty": "medium",
+      "source": "CompTIA Security+ SY0-701 Objective 3.2 – Network segmentation and secure infrastructure"
+    },
+    {
+      "stem": "An organization stores customer records in a database used by its production applications. Developers need realistic datasets for software testing, but the organization must ensure that developers cannot determine customers' actual identities from the test data. Which of the following techniques would BEST meet this requirement?",
+      "options": [
+        "Apply lossless compression to the production records",
+        "Use irreversible data masking before providing test records",
+        "Create additional database indexes for sensitive columns",
+        "Replicate the production database to the testing environment"
+      ],
+      "answer": "B",
+      "explanation": "Irreversible data masking replaces or transforms sensitive values so that realistic-looking test records can be used without revealing actual customer identities. Proper masking must also preserve required data relationships while reducing re-identification risk. Compression, indexing, and replication do not inherently protect personal information from developers.",
+      "topic": "Security Architecture",
+      "subtopic": "Compare and contrast concepts and strategies to protect data",
+      "difficulty": "medium",
+      "source": "CompTIA Security+ SY0-701 Objective 3.3 – Data masking and data protection"
+    },
+    {
+      "stem": "A financial services company has a recovery time objective (RTO) of 30 minutes and a recovery point objective (RPO) of five minutes for a critical transaction-processing application. The company is evaluating disaster recovery designs. Which TWO of the following capabilities would MOST directly support these objectives? Choose TWO.",
+      "options": [
+        "A standby application environment that can become operational within 30 minutes",
+        "A full application backup performed once every 24 hours",
+        "Database replication that limits potential transaction loss to five minutes",
+        "A documented recovery process that takes four hours to complete"
+      ],
+      "answer": "AC",
+      "explanation": "RTO specifies the maximum acceptable time needed to restore service, so a standby environment capable of becoming operational within 30 minutes supports the recovery-time requirement. RPO specifies the maximum acceptable amount of data loss measured in time, making replication that limits transaction loss to five minutes appropriate. Daily backups and a four-hour recovery process would fail the stated objectives.",
+      "topic": "Security Architecture",
+      "subtopic": "Explain the importance of resilience and recovery in security architecture",
+      "difficulty": "hard",
+      "source": "CompTIA Security+ SY0-701 Objective 3.4 – Recovery time objective and recovery point objective"
+    },
+    {
+      "stem": "An administrator is deploying new laptops for employees. The security policy requires protection against unauthorized changes to early boot components and verification that the bootloader has a trusted digital signature before execution. Which of the following technologies BEST satisfies this requirement?",
+      "options": [
+        "Network access control",
+        "Full-disk compression",
+        "Application sandboxing",
+        "UEFI Secure Boot"
+      ],
+      "answer": "D",
+      "explanation": "UEFI Secure Boot uses signature verification to help ensure that only trusted boot components execute during the boot process. It reduces the risk of certain bootkits and unauthorized bootloader modifications. Secure Boot protects boot integrity but does not replace endpoint monitoring, encryption, or operating system security updates.",
+      "topic": "Security Operations",
+      "subtopic": "Given a scenario, apply common security techniques to computing resources",
+      "difficulty": "easy",
+      "source": "CompTIA Security+ SY0-701 Objective 4.1 – Secure Boot and endpoint security"
+    },
+    {
+      "stem": "A company is retiring several solid-state drives (SSDs) that contain confidential customer information. The drives are operational and will be transferred to another organization for reuse. Which of the following methods would BEST sanitize the drives while preserving their usability?",
+      "options": [
+        "Perform a standard quick format on each SSD",
+        "Delete all files and empty the operating system recycle bin",
+        "Execute the SSD manufacturer's supported secure erase or sanitize command",
+        "Overwrite the visible file system with a single large random file"
+      ],
+      "answer": "C",
+      "explanation": "A supported SSD secure erase or sanitize operation is designed to address data stored across the device, including areas that ordinary file operations may not reach because of flash translation and wear leveling. Quick formatting and deleting files generally leave recoverable information. A manufacturer-supported sanitization process, followed by verification, provides an appropriate approach when the device must remain reusable.",
+      "topic": "Security Operations",
+      "subtopic": "Explain the security implications of proper hardware, software, and data asset management",
+      "difficulty": "medium",
+      "source": "CompTIA Security+ SY0-701 Objective 4.2 – Data sanitization and asset disposal"
+    },
+    {
+      "stem": "A vulnerability scanner identifies a critical vulnerability in an internet-facing server. The server is accessible from the internet, contains sensitive business information, and runs software for which a reliable public exploit is available. Another server has the same vulnerability but is isolated in a laboratory with no production data. Which of the following should the security team do FIRST?",
+      "options": [
+        "Prioritize remediation of the internet-facing server",
+        "Remediate the laboratory server because it is easier to access",
+        "Wait until both vulnerabilities have been exploited",
+        "Assign both systems identical remediation deadlines without further assessment"
+      ],
+      "answer": "A",
+      "explanation": "Risk-based vulnerability management considers exploitability, exposure, business impact, and the importance of affected assets. The internet-facing production server presents greater immediate risk because an exploit is available and the server contains sensitive information. The laboratory server still requires remediation, but its lower exposure and business impact generally justify a lower priority.",
+      "topic": "Security Operations",
+      "subtopic": "Explain various activities associated with vulnerability management",
+      "difficulty": "medium",
+      "source": "CompTIA Security+ SY0-701 Objective 4.3 – Vulnerability prioritization and risk-based remediation"
+    },
+    {
+      "stem": "A security operations center receives thousands of alerts each day from firewalls, endpoint agents, and authentication servers. Analysts need to correlate events across these sources and identify suspicious activity involving the same user account. Which of the following solutions would be MOST appropriate?",
+      "options": [
+        "A standalone packet generator",
+        "A centralized SIEM platform",
+        "A local password manager",
+        "An offline vulnerability scanner"
+      ],
+      "answer": "B",
+      "explanation": "A security information and event management (SIEM) platform centralizes logs and supports event correlation, alerting, and investigation across multiple security sources. Correlation rules can connect suspicious network activity, endpoint events, and authentication attempts associated with a particular account. A SIEM provides visibility and analysis rather than automatically preventing every attack.",
+      "topic": "Security Operations",
+      "subtopic": "Explain security alerting and monitoring concepts and tools",
+      "difficulty": "easy",
+      "source": "CompTIA Security+ SY0-701 Objective 4.4 – SIEM and log correlation"
+    },
+    {
+      "stem": "A company's employees currently use separate passwords for five internal applications. The security team wants employees to authenticate through a central identity provider and access approved applications without repeatedly entering credentials. The applications support SAML 2.0. Which of the following solutions BEST meets this requirement?",
+      "options": [
+        "Configure local accounts with synchronized passwords",
+        "Deploy certificate revocation lists for each application",
+        "Require separate multifactor authentication for every application launch",
+        "Implement SAML-based single sign-on with a centralized identity provider"
+      ],
+      "answer": "D",
+      "explanation": "SAML-based single sign-on allows an identity provider to authenticate users and issue assertions trusted by participating applications. Users can access authorized applications without repeatedly authenticating to each application, subject to session and security policies. Centralized identity management also simplifies account provisioning, deprovisioning, and consistent authentication controls.",
+      "topic": "Security Operations",
+      "subtopic": "Given a scenario, implement and maintain identity and access management",
+      "difficulty": "medium",
+      "source": "CompTIA Security+ SY0-701 Objective 4.6 – Federated identity and single sign-on"
+    },
+    {
+      "stem": "A security analyst suspects that an employee's workstation has been compromised by an attacker using a fileless technique. The attacker may have executed malicious PowerShell commands and established outbound connections, but no malicious executable has been recovered from disk. Which TWO of the following data sources would be MOST useful for investigating the suspected activity? Choose TWO.",
+      "options": [
+        "The organization's quarterly physical inventory report",
+        "PowerShell script block logs from the affected workstation",
+        "The employee's approved annual leave schedule",
+        "Endpoint process telemetry containing process trees and network connections"
+      ],
+      "answer": "BD",
+      "explanation": "PowerShell script block logs can reveal commands executed through PowerShell, including suspicious scripting behavior when appropriate logging was enabled. Endpoint telemetry containing process relationships and network connections can help investigators reconstruct execution activity and identify communications initiated by malicious processes. These sources are particularly valuable when an attacker operates through legitimate system tools without leaving a conventional malware file.",
+      "topic": "Security Operations",
+      "subtopic": "Given a scenario, use data sources to support an investigation",
+      "difficulty": "hard",
+      "source": "CompTIA Security+ SY0-701 Objective 4.9 – Endpoint logs, operating system logs, and investigation data sources"
+    },
+    {
+      "stem": "A security manager is developing a formal policy that defines acceptable use of company-owned laptops, email accounts, and internet access. Which of the following documents would BEST establish the organization's mandatory rules for employee use of these resources?",
+      "options": [
+        "An acceptable use policy",
+        "A disaster recovery runbook",
+        "A penetration testing report",
+        "A vendor service-level agreement"
+      ],
+      "answer": "A",
+      "explanation": "An acceptable use policy defines permitted and prohibited activities involving organizational technology and information resources. It establishes clear behavioral expectations and supports consistent enforcement of security requirements. Recovery runbooks, penetration testing reports, and vendor agreements serve different operational and governance purposes.",
+      "topic": "Security Program Management and Oversight",
+      "subtopic": "Summarize elements of effective security governance",
+      "difficulty": "easy",
+      "source": "CompTIA Security+ SY0-701 Objective 5.1 – Security policies and acceptable use"
+    },
+    {
+      "stem": "A company estimates that a particular security incident would cause a loss of $200,000 if it occurred. Historical and industry data suggest that this incident is expected to occur once every five years. Assuming the estimates are reliable and the risk remains unchanged, which of the following represents the annualized loss expectancy (ALE)?",
+      "options": [
+        "$20,000",
+        "$200,000",
+        "$40,000",
+        "$1,000,000"
+      ],
+      "answer": "C",
+      "explanation": "Annualized loss expectancy is calculated as single loss expectancy multiplied by annualized rate of occurrence (ALE = SLE × ARO). An event expected once every five years has an annualized rate of occurrence of 0.2. Multiplying $200,000 by 0.2 produces an estimated annualized loss of $40,000.",
+      "topic": "Security Program Management and Oversight",
+      "subtopic": "Explain elements of the risk management process",
+      "difficulty": "medium",
+      "source": "CompTIA Security+ SY0-701 Objective 5.2 – Quantitative risk analysis, SLE, ARO, and ALE"
+    },
+    {
+      "stem": "An organization is evaluating a cloud vendor that will process confidential customer data. The vendor provides a current SOC 2 Type II report covering security-related controls over a 12-month period. Which of the following conclusions is MOST appropriate when assessing the report?",
+      "options": [
+        "The report guarantees that the vendor will experience no future security incidents",
+        "The report eliminates the organization's responsibility to assess contractual risks",
+        "The report certifies that every system operated by the vendor is completely secure",
+        "The report provides evidence about the design and operating effectiveness of controls within its defined scope and period"
+      ],
+      "answer": "D",
+      "explanation": "A SOC 2 Type II report provides an independent service auditor's assessment of relevant controls, including their design and operating effectiveness over a specified period. Its usefulness depends on the report's scope, exceptions, complementary user entity controls, and relevance to the customer's risks. It does not guarantee security or eliminate the customer's responsibility for third-party risk management.",
+      "topic": "Security Program Management and Oversight",
+      "subtopic": "Explain the processes associated with third-party risk assessment and management",
+      "difficulty": "hard",
+      "source": "CompTIA Security+ SY0-701 Objective 5.3 – Third-party risk management and independent assessment reports"
+    },
+    {
+      "stem": "An internal auditor discovers that a department manager approved their own privileged access request, implemented the permission change, and subsequently reviewed the access logs for that change. The organization wants to reduce the risk of unauthorized access being granted and concealed by a single employee. Which of the following governance controls would BEST address this weakness?",
+      "options": [
+        "Require the manager to change their password more frequently",
+        "Establish segregation of duties across approval, implementation, and review",
+        "Increase the retention period for routine system performance logs",
+        "Allow the manager to retain access if a quarterly risk report is submitted"
+      ],
+      "answer": "B",
+      "explanation": "Segregation of duties prevents a single individual from controlling all critical stages of a sensitive process. Separating access approval, technical implementation, and independent review reduces opportunities for unauthorized changes and concealment. Password rotation and additional reporting do not resolve the underlying concentration of authority.",
+      "topic": "Security Program Management and Oversight",
+      "subtopic": "Summarize elements of effective security governance",
+      "difficulty": "hard",
+      "source": "CompTIA Security+ SY0-701 Objective 5.1 – Governance roles, responsibilities, and separation of duties"
+    }
+  ]
+}
