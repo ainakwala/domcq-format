@@ -44,6 +44,7 @@
   "stem_hints": ["Which AWS service will meet these requirements?", "Which AWS service or feature will meet this requirement?", "How can the company achieve these objectives by using AWS services or features?"],
   "uncovered_item_types": [],
   "exam_mode": { "questions": 65, "minutes": 90 },
+  "prompt_template": "@options\nGive each question between 4 and 6 options. Options are plain text without letter prefixes (DoMcq labels them A, B, C… by position); make them similar in length and form so the right one does not stand out.\nWrite the real exam's two kinds of item. Most are multiple choice: exactly 4 options and exactly one correct, so `answer` is a single letter. Some are multiple response: 5 or 6 options, two or more of them correct and at least one incorrect, and the stem says how many to choose (\"Choose TWO.\", \"Choose THREE.\"); `answer` lists every correct letter in ascending order (\"BD\").\nNever use these as an option: \"all of the above\", \"none of the above\". Avoid \"both A and B\" style options too.",
   "verified_outline": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
   "verified_on": "2026-10-18",
   "next_review": "2027-10-18"
