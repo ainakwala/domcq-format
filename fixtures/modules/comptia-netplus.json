@@ -1,0 +1,76 @@
+{
+  "id": "comptia-netplus",
+  "display_name": "CompTIA Network+ (N10-009)",
+  "body": "CompTIA",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, endorsed by or sponsored by CompTIA. Students write their own practice questions to the objectives validated by CompTIA; DoMcq holds no CompTIA materials. CompTIA® and the names of CompTIA certifications are trademarks or registered trademarks of CompTIA, Inc., used here only to identify the exam.",
+  "taxonomy": {
+    "Networking Concepts": [
+      "Explain concepts related to the Open Systems Interconnection (OSI) reference model",
+      "Compare and contrast networking appliances, applications, and functions",
+      "Summarize cloud concepts and connectivity options",
+      "Explain common networking ports, protocols, services, and traffic types",
+      "Compare and contrast transmission media and transceivers",
+      "Compare and contrast network topologies, architectures, and types",
+      "Given a scenario, use appropriate IPv4 network addressing",
+      "Summarize evolving use cases for modern network environments"
+    ],
+    "Network Implementation": [
+      "Explain characteristics of routing technologies",
+      "Given a scenario, configure switching technologies and features",
+      "Given a scenario, select and configure wireless devices and technologies",
+      "Explain important factors of physical installations"
+    ],
+    "Network Operations": [
+      "Explain the purpose of organizational processes and procedures",
+      "Given a scenario, use network monitoring technologies",
+      "Explain disaster recovery (DR) concepts",
+      "Given a scenario, implement IPv4 and IPv6 network services",
+      "Compare and contrast network access and management methods"
+    ],
+    "Network Security": [
+      "Explain the importance of basic network security concepts",
+      "Summarize various types of attacks and their impact to the network",
+      "Given a scenario, apply network security features, defense techniques, and solutions"
+    ],
+    "Network Troubleshooting": [
+      "Explain the troubleshooting methodology",
+      "Given a scenario, troubleshoot common cabling and physical interface issues",
+      "Given a scenario, troubleshoot common issues with network services",
+      "Given a scenario, troubleshoot common performance issues",
+      "Given a scenario, use the appropriate tool or protocol to solve networking issues"
+    ]
+  },
+  "weights": {
+    "Networking Concepts": 23,
+    "Network Implementation": 20,
+    "Network Operations": 19,
+    "Network Security": 14,
+    "Network Troubleshooting": 24
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": true,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [
+    "Which of the following is the most likely reason?",
+    "Which of the following refers to",
+    "Which of the following social engineering attacks is this an example of?",
+    "Which of the following is the first step a network administrator should take"
+  ],
+  "uncovered_item_types": [
+    "performance-based",
+    "drag-and-drop"
+  ],
+  "exam_mode": {
+    "questions": 90,
+    "minutes": 90
+  },
+  "verified_outline": "CompTIA Network+ Certification Exam Objectives, N10-009 V9 (Document Version 6.0)",
+  "verified_on": "2026-10-18",
+  "next_review": "2027-06-20"
+}
