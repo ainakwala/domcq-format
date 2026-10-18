@@ -1,0 +1,98 @@
+{
+  "id": "frm-p2",
+  "display_name": "FRM Exam Part II",
+  "body": "GARP",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, endorsed by or sponsored by the Global Association of Risk Professionals (GARP); GARP does not endorse, promote, review or warrant the accuracy of DoMcq. FRM® is a registered trademark of the Global Association of Risk Professionals, Inc.; the names are used here only to identify the exam.",
+  "taxonomy": {
+    "Market Risk Measurement and Management": [
+      "VaR and other risk measures",
+      "Modeling dependence: correlations and copulas",
+      "Term structure models of interest rates",
+      "Volatility: smiles and term structures",
+      "Fundamental Review of the Trading Book (FRTB)"
+    ],
+    "Credit Risk Measurement and Management": [
+      "Credit analysis",
+      "Default risk: quantitative methodologies",
+      "Expected and unexpected loss",
+      "Credit VaR",
+      "Counterparty risk",
+      "Credit derivatives",
+      "Structured finance and securitization"
+    ],
+    "Operational Risk and Resilience": [
+      "Governance of operational risk management frameworks",
+      "Identification, classification, and reporting of operational risks",
+      "Measurement and assessment of operational risks",
+      "Mitigation of operational risks",
+      "Cyber-resilience and operational resilience",
+      "Risks related to money laundering, financing of terrorism, financial crime, and fraud",
+      "Third-party outsourcing risk",
+      "Model risk and model validation",
+      "Stress testing banks",
+      "Risk-adjusted return on capital (RAROC)",
+      "Economic capital frameworks and capital planning",
+      "Regulation and the Basel Accords"
+    ],
+    "Liquidity and Treasury Risk Measurement and Management": [
+      "Liquidity risk principles and metrics",
+      "Liquidity portfolio management",
+      "Cash-flow modeling, liquidity stress testing, and reporting",
+      "Contingency funding plan",
+      "Funding models",
+      "Funds transfer pricing",
+      "Cross-currency funding",
+      "Balance sheet management"
+    ],
+    "Risk Management and Investment Management": [
+      "Factor theory",
+      "Portfolio construction",
+      "Portfolio risk measures",
+      "Risk budgeting",
+      "Portfolio performance measurement and analysis",
+      "Hedge funds and private markets",
+      "Risk monitoring and due diligence",
+      "Scenario analysis and stress testing",
+      "Asset liquidity"
+    ],
+    "Current Issues in Financial Markets": [
+      "Artificial intelligence (AI)",
+      "Private credit",
+      "Geopolitical risk",
+      "Risks of rising government debt",
+      "Cryptocurrency and digital assets",
+      "Digital resilience"
+    ]
+  },
+  "weights": {
+    "Market Risk Measurement and Management": 20,
+    "Credit Risk Measurement and Management": 20,
+    "Operational Risk and Resilience": 20,
+    "Liquidity and Treasury Risk Measurement and Management": 15,
+    "Risk Management and Investment Management": 15,
+    "Current Issues in Financial Markets": 10
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": false,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [
+    "Which of the following statements is correct?",
+    "most likely",
+    "closest to",
+    "most appropriate"
+  ],
+  "uncovered_item_types": [],
+  "exam_mode": {
+    "questions": 80,
+    "minutes": 240
+  },
+  "verified_outline": "GARP 2026 FRM Study Guide, FRM Exam Part II",
+  "verified_on": "2026-10-18",
+  "next_review": "2026-12-01"
+}
