@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "frm-p2",
+  "set": "FRM Exam Part II practice – Risk Management Applications 2026",
+  "questions": [
+    {
+      "stem": "A bank estimates both 99% value at risk (VaR) and 99% expected shortfall (ES) for a trading portfolio. Assume the portfolio has a continuous loss distribution. Which of the following statements most accurately describes the distinction between the two measures?",
+      "options": [
+        "VaR measures the average loss exceeding its confidence threshold, whereas ES measures the threshold itself.",
+        "VaR measures the maximum possible portfolio loss, whereas ES measures the maximum historical loss.",
+        "VaR identifies a loss quantile, whereas ES measures the average loss beyond that quantile.",
+        "VaR measures the expected portfolio loss, whereas ES measures the standard deviation of losses."
+      ],
+      "answer": "C",
+      "explanation": "VaR identifies a threshold that portfolio losses exceed with a specified probability. Expected shortfall measures the conditional average of losses in the tail beyond that threshold for a continuous loss distribution. ES therefore provides information about the severity of extreme losses that VaR does not capture.",
+      "topic": "Market Risk Measurement and Management",
+      "subtopic": "VaR and other risk measures",
+      "difficulty": "easy",
+      "source": "GARP 2026 FRM Part II, Market Risk Measurement and Management: Expected Shortfall and VaR"
+    },
+    {
+      "stem": "A risk manager models the dependence between losses on two credit portfolios using a Gaussian copula and a Student-t copula. Both copulas have the same correlation parameter, which is positive and less than one, and the Student-t copula has finite degrees of freedom. Which of the following statements about asymptotic tail dependence is correct?",
+      "options": [
+        "The Student-t copula exhibits positive tail dependence, whereas the Gaussian copula has zero asymptotic tail dependence.",
+        "The Gaussian copula exhibits positive tail dependence, whereas the Student-t copula has zero asymptotic tail dependence.",
+        "Both copulas have zero asymptotic tail dependence because their correlation parameters are identical.",
+        "Both copulas have identical positive tail dependence because their linear correlation parameters are identical."
+      ],
+      "answer": "A",
+      "explanation": "A Student-t copula with finite degrees of freedom captures positive asymptotic dependence in both tails, allowing extreme losses to occur together more frequently. A Gaussian copula with a correlation strictly between negative one and positive one has zero asymptotic tail dependence. Consequently, identical correlation parameters do not imply identical joint tail behavior.",
+      "topic": "Market Risk Measurement and Management",
+      "subtopic": "Modeling dependence: correlations and copulas",
+      "difficulty": "medium",
+      "source": "GARP 2026 FRM Part II, Market Risk: Copulas and Dependence Modeling"
+    },
+    {
+      "stem": "A fixed-income risk manager is comparing the Vasicek and Cox-Ingersoll-Ross (CIR) short-rate models. Both models are specified with positive parameters and start from a positive interest rate. Which of the following statements is most accurate?",
+      "options": [
+        "Both models prevent negative interest rates because their short rates are mean-reverting.",
+        "The CIR model permits negative interest rates whenever the volatility parameter becomes sufficiently large.",
+        "The Vasicek model guarantees nonnegative interest rates because its long-run mean is positive.",
+        "The CIR model keeps short rates nonnegative through square-root volatility, whereas the Vasicek model can generate negative rates."
+      ],
+      "answer": "D",
+      "explanation": "The CIR model specifies short-rate volatility proportional to the square root of the interest rate, producing a nonnegative short-rate process when initialized at a nonnegative rate. The Vasicek model uses additive Gaussian shocks, which can generate negative interest rates. The CIR Feller condition determines whether the process can reach zero, not whether it can become negative.",
+      "topic": "Market Risk Measurement and Management",
+      "subtopic": "Term structure models of interest rates",
+      "difficulty": "medium",
+      "source": "GARP 2026 FRM Part II, Market Risk: Short-Rate Term Structure Models"
+    },
+    {
+      "stem": "A bank applies the Fundamental Review of the Trading Book (FRTB) internal models approach to a portfolio containing only risk factors with 10-day and 20-day liquidity horizons. The portfolio's 10-day expected shortfall when all factors are shocked is USD 10 million. Its 10-day expected shortfall when only the 20-day factors are shocked is USD 6 million. Assuming the standard FRTB liquidity-horizon adjustment and no longer-horizon risk factors, what is the liquidity-adjusted expected shortfall closest to?",
+      "options": [
+        "USD 10.0 million",
+        "USD 11.7 million",
+        "USD 13.0 million",
+        "USD 16.0 million"
+      ],
+      "answer": "B",
+      "explanation": "The FRTB liquidity-horizon adjustment combines the squared 10-day ES for all risk factors with the squared ES of longer-horizon factors, scaled by the incremental horizon divided by 10 days. Therefore, adjusted ES = sqrt[10^2 + 6^2 × (20 − 10)/10] = sqrt(136), or approximately USD 11.66 million. Longer liquidity horizons increase the risk measure because exposures may take more time to unwind during stressed conditions.",
+      "topic": "Market Risk Measurement and Management",
+      "subtopic": "Fundamental Review of the Trading Book (FRTB)",
+      "difficulty": "hard",
+      "source": "Basel Framework MAR33.4: Liquidity-Adjusted Expected Shortfall; GARP 2026 FRM Part II, FRTB"
+    },
+    {
+      "stem": "A bank has a corporate loan portfolio with an exposure at default of USD 50 million, a one-year probability of default of 2%, and an expected recovery rate of 40%. Assuming these parameters are constant across the portfolio, what is the portfolio's one-year expected credit loss closest to?",
+      "options": [
+        "USD 0.60 million",
+        "USD 0.40 million",
+        "USD 1.00 million",
+        "USD 30.00 million"
+      ],
+      "answer": "A",
+      "explanation": "Expected credit loss is calculated as probability of default multiplied by loss given default and exposure at default. The loss given default is 60%, so expected loss = 0.02 × 0.60 × USD 50 million = USD 0.60 million. Expected loss represents the average anticipated loss rather than the potential loss arising from unexpectedly severe defaults.",
+      "topic": "Credit Risk Measurement and Management",
+      "subtopic": "Expected and unexpected loss",
+      "difficulty": "easy",
+      "source": "GARP 2026 FRM Part II, Credit Risk: Expected Loss and Unexpected Loss"
+    },
+    {
+      "stem": "An analyst uses the Merton structural credit risk model to estimate the default probability of a company financed by equity and a single zero-coupon debt issue. The debt matures in one year, and the model assumes that default can occur only at maturity. Which of the following conditions determines whether the company defaults?",
+      "options": [
+        "The company's equity market value falls below the face value of its outstanding debt before maturity.",
+        "The company's asset volatility exceeds the volatility implied by the risk-free discount rate.",
+        "The company's asset value at maturity falls below the promised payment on its outstanding debt.",
+        "The company's expected asset return falls below the contractual interest rate on its debt."
+      ],
+      "answer": "C",
+      "explanation": "In the Merton model, equity is represented as a call option on the firm's assets with a strike price equal to the promised debt payment. If asset value at maturity is insufficient to repay the debt, shareholders receive nothing and the firm defaults. The model therefore links default probability to asset value, asset volatility, leverage, and time to maturity.",
+      "topic": "Credit Risk Measurement and Management",
+      "subtopic": "Default risk: quantitative methodologies",
+      "difficulty": "medium",
+      "source": "GARP 2026 FRM Part II, Credit Risk: Structural Models of Default"
+    },
+    {
+      "stem": "A bank calculates the unilateral credit valuation adjustment (CVA) on an uncollateralized derivative with two remaining annual exposure dates. Expected positive exposures at years 1 and 2 are USD 20 million and USD 25 million, respectively, conditional on counterparty survival. The first-year default probability is 2%, and the second-year conditional default probability, given survival through year 1, is 3%. Discount factors are 0.98 and 0.95, respectively, and counterparty recovery is 40%. Assuming independence between exposure and default and using annual discrete default intervals, what is the CVA closest to?",
+      "options": [
+        "USD 0.392 million",
+        "USD 0.683 million",
+        "USD 1.090 million",
+        "USD 0.654 million"
+      ],
+      "answer": "D",
+      "explanation": "Unilateral CVA is the discounted sum of expected positive exposure multiplied by marginal default probability and loss given default. The second-year marginal default probability is 0.98 × 0.03 = 0.0294, because the counterparty must survive the first year. CVA = 0.60 × [(20 × 0.98 × 0.02) + (25 × 0.95 × 0.0294)] = approximately USD 0.654 million.",
+      "topic": "Credit Risk Measurement and Management",
+      "subtopic": "Counterparty risk",
+      "difficulty": "hard",
+      "source": "GARP 2026 FRM Part II, Credit Risk: Credit Valuation Adjustment and Counterparty Exposure"
+    },
+    {
+      "stem": "A collateralized loan obligation (CLO) has three tranches defined as percentages of the initial collateral principal: equity from 0% to 6%, mezzanine from 6% to 15%, and senior from 15% to 100%. The collateral pool experiences principal losses equal to 9% of its initial principal. Assume losses are allocated sequentially from the most junior tranche, with no excess spread or other credit enhancement. Which of the following describes the resulting tranche losses?",
+      "options": [
+        "The equity tranche is fully wiped out, the mezzanine tranche is unaffected, and the senior tranche loses 3%.",
+        "The equity tranche is fully wiped out, the mezzanine tranche loses one-third of its principal, and the senior tranche is unaffected.",
+        "The equity tranche loses half its principal, the mezzanine tranche loses two-thirds of its principal, and the senior tranche is unaffected.",
+        "The equity tranche is fully wiped out, the mezzanine tranche is fully wiped out, and the senior tranche is unaffected."
+      ],
+      "answer": "B",
+      "explanation": "The equity tranche absorbs the first 6% of collateral losses and is completely exhausted. The remaining 3% of collateral losses is absorbed by the mezzanine tranche, which represents 9% of initial collateral principal, resulting in a loss of one-third of its principal. The senior tranche begins absorbing losses only after cumulative collateral losses exceed 15%.",
+      "topic": "Credit Risk Measurement and Management",
+      "subtopic": "Structured finance and securitization",
+      "difficulty": "medium",
+      "source": "GARP 2026 FRM Part II, Credit Risk: Securitization, Tranching and Credit Enhancement"
+    },
+    {
+      "stem": "A bank implements the three lines model for operational risk governance. Its business units conduct transactions, the independent risk function oversees operational risk practices, and internal audit evaluates the control framework. Which of the following statements most accurately describes the first line's responsibility?",
+      "options": [
+        "The first line independently audits operational risk controls and reports assurance findings to the audit committee.",
+        "The first line establishes regulatory capital rules and independently approves the risk appetite of the bank.",
+        "The first line transfers accountability for operational losses to the second-line risk management function.",
+        "The first line owns and manages risks arising from its business activities and maintains appropriate controls."
+      ],
+      "answer": "D",
+      "explanation": "Business management in the first line is responsible for owning and managing risks associated with its activities, including implementing effective controls. The second line provides risk expertise, oversight, and challenge, while the third line provides independent assurance. Risk ownership remains with the business even when oversight functions identify weaknesses.",
+      "topic": "Operational Risk and Resilience",
+      "subtopic": "Governance of operational risk management frameworks",
+      "difficulty": "easy",
+      "source": "GARP 2026 FRM Part II, Operational Risk: Governance and the Three Lines Model"
+    },
+    {
+      "stem": "A bank identifies its real-time payment processing as an important business service and establishes a maximum tolerable disruption of two hours. A cyberattack interrupts the service for four hours, although backup systems preserve all transaction data. Which of the following is the most appropriate operational resilience assessment?",
+      "options": [
+        "The bank breached its impact tolerance despite avoiding data loss and should address its recovery capability.",
+        "The bank remained within its impact tolerance because its backup systems prevented permanent data loss.",
+        "The bank met its resilience requirements because the disruption resulted from an external cyberattack.",
+        "The bank can disregard the disruption because operational resilience applies only to financial losses."
+      ],
+      "answer": "A",
+      "explanation": "Operational resilience focuses on an institution's ability to deliver important business services within established impact tolerances during disruptions. Preserving data is valuable, but it does not eliminate the service disruption or the breach of the two-hour tolerance. The bank should investigate the failure and strengthen its ability to restore the service within acceptable limits.",
+      "topic": "Operational Risk and Resilience",
+      "subtopic": "Cyber-resilience and operational resilience",
+      "difficulty": "medium",
+      "source": "GARP 2026 FRM Part II, Operational Risk: Operational Resilience and Important Business Services"
+    },
+    {
+      "stem": "A bank evaluates a new business line using after-tax risk-adjusted return on capital (RAROC). Expected annual revenue is USD 75 million, operating expenses are USD 30 million, expected credit losses are USD 10 million, and allocated economic capital is USD 200 million. The applicable tax rate is 25%, and the bank's minimum required after-tax RAROC is 14%. Assume the expected credit losses are tax-deductible and there are no other adjustments. Which of the following is the most appropriate decision?",
+      "options": [
+        "RAROC is 17.5%; approve the business line because its return exceeds the hurdle.",
+        "RAROC is 13.1%; approve the business line because its return exceeds the hurdle.",
+        "RAROC is 13.1%; reject the business line because its return is below the hurdle.",
+        "RAROC is 17.5%; reject the business line because its return is below the hurdle."
+      ],
+      "answer": "C",
+      "explanation": "Expected pre-tax risk-adjusted profit is 75 − 30 − 10 = USD 35 million, giving after-tax profit of USD 26.25 million. After-tax RAROC is 26.25/200 = 13.125%, approximately 13.1%. Because this is below the bank's 14% required return on economic capital, the business line does not satisfy the stated acceptance criterion.",
+      "topic": "Operational Risk and Resilience",
+      "subtopic": "Risk-adjusted return on capital (RAROC)",
+      "difficulty": "hard",
+      "source": "GARP 2026 FRM Part II, Operational Risk: RAROC and Economic Capital"
+    },
+    {
+      "stem": "A bank developed a credit risk model using data collected during a prolonged period of low interest rates. An independent validation team discovers that the model's recent predictions systematically underestimate defaults after interest rates increase sharply. Which of the following responses is most appropriate?",
+      "options": [
+        "Continue using the model without adjustment because it performed well during its original development period.",
+        "Assess the model using out-of-time data and regime-sensitive tests, and evaluate recalibration or redevelopment.",
+        "Remove recent defaults from the validation sample because they occurred outside the model's training regime.",
+        "Replace independent validation with a review of the model's original in-sample explanatory power."
+      ],
+      "answer": "B",
+      "explanation": "A model developed under one economic regime may perform poorly when relationships change. Independent validation should assess performance on recent out-of-time observations, identify sources of instability, and determine whether recalibration, redevelopment, or compensating controls are necessary. Strong historical in-sample performance does not establish continued model reliability.",
+      "topic": "Operational Risk and Resilience",
+      "subtopic": "Model risk and model validation",
+      "difficulty": "medium",
+      "source": "GARP 2026 FRM Part II, Operational Risk: Model Risk Management and Model Validation"
+    },
+    {
+      "stem": "A bank faces an unexpected deposit outflow while unsecured wholesale funding markets are temporarily unavailable. Its treasury department activates the bank's contingency funding plan. Which of the following is the most appropriate component of an effective contingency funding plan?",
+      "options": [
+        "Predefined escalation triggers, decision-making responsibilities, and identified emergency funding sources.",
+        "A requirement to maintain the existing funding composition regardless of changing market conditions.",
+        "A commitment to replace all withdrawn deposits immediately with new unsecured wholesale borrowing.",
+        "A policy allowing trading desks to obtain emergency funding without treasury approval or oversight."
+      ],
+      "answer": "A",
+      "explanation": "An effective contingency funding plan establishes indicators that trigger action, assigns responsibilities, and identifies feasible sources of emergency liquidity. It should consider funding market disruptions, collateral availability, and operational procedures for obtaining cash. Relying exclusively on unsecured borrowing is ineffective when those markets are unavailable.",
+      "topic": "Liquidity and Treasury Risk Measurement and Management",
+      "subtopic": "Contingency funding plan",
+      "difficulty": "easy",
+      "source": "GARP 2026 FRM Part II, Liquidity and Treasury Risk: Contingency Funding Planning"
+    },
+    {
+      "stem": "A bank's treasury department uses funds transfer pricing (FTP) to allocate funding costs and liquidity benefits to business units. One business unit originates illiquid three-year loans, while another attracts stable three-year customer deposits. Which of the following FTP treatments is most appropriate?",
+      "options": [
+        "Credit the lending unit for creating long-term liquidity and charge the deposit unit for providing stable funds.",
+        "Charge both business units identical short-term funding rates regardless of the contractual maturity of their products.",
+        "Exclude the liquidity value of customer deposits because treasury alone is responsible for balance sheet funding.",
+        "Charge the lending unit for term funding and credit the deposit unit for the stable funding it provides."
+      ],
+      "answer": "D",
+      "explanation": "A maturity-sensitive FTP framework charges assets for the funding and liquidity resources they consume while recognizing the funding value of liabilities. An illiquid three-year loan typically receives a term funding charge, whereas a genuinely stable three-year deposit can receive credit for its funding contribution. This improves business-line pricing and aligns incentives with the bank's liquidity management objectives.",
+      "topic": "Liquidity and Treasury Risk Measurement and Management",
+      "subtopic": "Funds transfer pricing",
+      "difficulty": "medium",
+      "source": "GARP 2026 FRM Part II, Liquidity and Treasury Risk: Funds Transfer Pricing"
+    },
+    {
+      "stem": "A bank is calculating its Basel III liquidity coverage ratio (LCR). After applying applicable regulatory haircuts and run-off assumptions, it has USD 35 billion of high-quality liquid assets, USD 120 billion of expected cash outflows over 30 days, and USD 110 billion of eligible expected cash inflows before applying the aggregate inflow cap. Assuming the standard rule that recognized inflows cannot exceed 75% of outflows and no other adjustments, what is the LCR closest to?",
+      "options": [
+        "29.2%",
+        "116.7%",
+        "100.0%",
+        "350.0%"
+      ],
+      "answer": "B",
+      "explanation": "Under the standard LCR framework, recognized cash inflows are capped at 75% of total expected cash outflows. Therefore, recognized inflows are limited to USD 90 billion, resulting in net cash outflows of 120 − 90 = USD 30 billion. The LCR is 35/30 × 100 = approximately 116.7%, above the normal minimum requirement of 100%.",
+      "topic": "Liquidity and Treasury Risk Measurement and Management",
+      "subtopic": "Liquidity risk principles and metrics",
+      "difficulty": "hard",
+      "source": "Basel Framework LCR20 and LCR40: LCR Calculation and Cash Inflow Cap"
+    },
+    {
+      "stem": "A portfolio manager invests 60% of a portfolio in Asset A and 40% in Asset B. Annualized return volatilities are 20% and 10%, respectively, and the correlation between the assets is 0.25. Assuming these inputs remain constant, what is the portfolio's annualized volatility closest to?",
+      "options": [
+        "12.0%",
+        "13.0%",
+        "13.6%",
+        "16.0%"
+      ],
+      "answer": "C",
+      "explanation": "Portfolio variance is wA^2 × sigmaA^2 + wB^2 × sigmaB^2 + 2 × wA × wB × sigmaA × sigmaB × correlation. Substituting the given inputs produces 0.0144 + 0.0016 + 0.0024 = 0.0184. Taking the square root gives approximately 13.56%, demonstrating the diversification benefit from imperfectly correlated assets.",
+      "topic": "Risk Management and Investment Management",
+      "subtopic": "Portfolio risk measures",
+      "difficulty": "medium",
+      "source": "GARP 2026 FRM Part II, Investment Management: Portfolio Risk and Diversification"
+    },
+    {
+      "stem": "An investment manager is evaluated against an equity benchmark and wants to measure how much the portfolio's returns deviate from benchmark returns. Which of the following risk measures is most appropriate for assessing the volatility of active returns?",
+      "options": [
+        "The standard deviation of the benchmark's absolute returns.",
+        "The standard deviation of the portfolio's returns minus benchmark returns.",
+        "The difference between the portfolio's volatility and the benchmark's volatility.",
+        "The covariance of the portfolio's absolute returns with benchmark returns."
+      ],
+      "answer": "B",
+      "explanation": "Tracking error is the standard deviation of active returns, where active return is portfolio return minus benchmark return. It measures the variability of relative performance rather than the portfolio's total volatility. Tracking error is therefore particularly useful for benchmark-relative portfolio monitoring and active risk budgeting.",
+      "topic": "Risk Management and Investment Management",
+      "subtopic": "Portfolio performance measurement and analysis",
+      "difficulty": "easy",
+      "source": "GARP 2026 FRM Part II, Investment Management: Tracking Error and Active Risk"
+    },
+    {
+      "stem": "A risk manager evaluates a portfolio consisting of two uncorrelated assets with equal portfolio weights. Asset A has annualized volatility of 20%, while Asset B has annualized volatility of 10%. Using the standard Euler decomposition of portfolio volatility, what percentage of total portfolio volatility is contributed by Asset A?",
+      "options": [
+        "50%",
+        "67%",
+        "75%",
+        "80%"
+      ],
+      "answer": "D",
+      "explanation": "For uncorrelated assets, each asset's contribution to portfolio variance is its squared portfolio weight multiplied by its variance. Asset A contributes 0.5^2 × 0.2^2 = 0.0100, while Asset B contributes 0.5^2 × 0.1^2 = 0.0025. Under Euler risk decomposition, Asset A's share of total portfolio volatility is 0.0100/(0.0100 + 0.0025) = 80%, despite receiving only half the portfolio's capital.",
+      "topic": "Risk Management and Investment Management",
+      "subtopic": "Risk budgeting",
+      "difficulty": "medium",
+      "source": "GARP 2026 FRM Part II, Investment Management: Risk Contributions and Risk Budgeting"
+    },
+    {
+      "stem": "Several large financial institutions adopt the same external artificial intelligence model and closely related datasets to generate automated trading signals. During an unexpected market shock, the institutions receive similar signals and execute trades in the same direction. Which of the following financial stability vulnerabilities is most directly illustrated?",
+      "options": [
+        "Correlated trading behavior amplified by common model dependencies and concentration among service providers.",
+        "Reduced market interconnectedness resulting from the independent operation of automated trading systems.",
+        "Elimination of common risk exposures because model-based decisions do not involve discretionary judgment.",
+        "Improved portfolio diversification resulting from the widespread use of standardized artificial intelligence models."
+      ],
+      "answer": "A",
+      "explanation": "Shared AI models and similar training datasets can cause financial institutions to respond to market information in correlated ways. Simultaneous trading may amplify price movements, reduce market liquidity, and increase systemic vulnerability. The Financial Stability Board identifies market correlations and third-party service provider concentration as important financial stability risks associated with AI adoption.",
+      "topic": "Current Issues in Financial Markets",
+      "subtopic": "Artificial intelligence (AI)",
+      "difficulty": "medium",
+      "source": "GARP 2026 Current Issues: FSB, The Financial Stability Implications of Artificial Intelligence (2024)"
+    },
+    {
+      "stem": "A pension fund considers investing in a private credit fund that specializes in direct loans to medium-sized companies operating within a single industry. The fund's managers argue that their industry expertise improves borrower screening and monitoring. Which of the following risks should the pension fund nevertheless be most concerned about?",
+      "options": [
+        "The complete transfer of borrower default risk from the fund to the commercial banking system.",
+        "The automatic elimination of credit concentration because individual borrowers have separate loan agreements.",
+        "The potential for correlated borrower losses if the industry's economic conditions deteriorate significantly.",
+        "The requirement to liquidate every underlying loan daily to meet the fund's contractual redemption obligations."
+      ],
+      "answer": "C",
+      "explanation": "Specialization in private credit can improve screening and monitoring through deeper industry expertise, but it also creates concentration risk. An adverse shock affecting the targeted industry can cause multiple borrowers to deteriorate simultaneously, increasing portfolio losses. BIS research on the global drivers of private credit identifies concentrated lending portfolios as an important vulnerability even when specialization provides informational advantages.",
+      "topic": "Current Issues in Financial Markets",
+      "subtopic": "Private credit",
+      "difficulty": "easy",
+      "source": "GARP 2026 Current Issues: BIS, The Global Drivers of Private Credit (2025)"
+    }
+  ]
+}
