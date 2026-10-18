@@ -1,0 +1,50 @@
+{
+  "id": "aws-clf",
+  "display_name": "AWS Certified Cloud Practitioner",
+  "body": "AWS",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by Amazon Web Services. Amazon Web Services, AWS and AWS Certified are trademarks of Amazon.com, Inc. or its affiliates; the exam name is used here in plain text only to identify the exam.",
+  "taxonomy": {
+    "Cloud Concepts": [
+      "Define the benefits of the AWS Cloud",
+      "Identify design principles of the AWS Cloud",
+      "Understand the benefits of and strategies for migration to the AWS Cloud",
+      "Understand concepts of cloud economics"
+    ],
+    "Security and Compliance": [
+      "Understand the AWS shared responsibility model",
+      "Understand AWS Cloud security, governance, and compliance concepts",
+      "Identify AWS access management capabilities",
+      "Identify components and resources for security"
+    ],
+    "Cloud Technology and Services": [
+      "Define methods of deploying and operating in the AWS Cloud",
+      "Define the AWS global infrastructure",
+      "Identify AWS compute services",
+      "Identify AWS database services",
+      "Identify AWS network services",
+      "Identify AWS storage services",
+      "Identify AWS artificial intelligence and machine learning (AI/ML) services and analytics services",
+      "Identify services from other in-scope AWS service categories"
+    ],
+    "Billing, Pricing, and Support": [
+      "Compare AWS pricing models",
+      "Understand resources for billing, budget, and cost management",
+      "Identify AWS technical resources and AWS Support options"
+    ]
+  },
+  "weights": {
+    "Cloud Concepts": 24,
+    "Security and Compliance": 30,
+    "Cloud Technology and Services": 34,
+    "Billing, Pricing, and Support": 12
+  },
+  "options": { "min": 4, "max": 6 },
+  "multi_select": true,
+  "banned_option_text": ["all of the above", "none of the above"],
+  "stem_hints": ["Which AWS service will meet these requirements?", "Which AWS service or feature will meet this requirement?", "How can the company achieve these objectives by using AWS services or features?"],
+  "uncovered_item_types": [],
+  "exam_mode": { "questions": 65, "minutes": 90 },
+  "verified_outline": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+  "verified_on": "2026-10-18",
+  "next_review": "2027-10-18"
+}
