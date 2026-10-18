@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "finra-sie",
+  "set": "Securities Industry Essentials (SIE) Exam practice – Core Knowledge and Applications",
+  "questions": [
+    {
+      "stem": "Which of the following is a primary responsibility of the Securities and Exchange Commission (SEC) in the United States?",
+      "options": [
+        "Insuring customer deposits held at commercial banks",
+        "Enforcing federal securities laws and overseeing securities markets",
+        "Setting the federal funds target rate to control inflation",
+        "Guaranteeing the repayment of publicly issued corporate bonds"
+      ],
+      "answer": "B",
+      "explanation": "The SEC protects investors, maintains fair and orderly markets, and facilitates capital formation by administering and enforcing federal securities laws. It oversees securities exchanges, broker-dealers, investment advisers, and other regulated market participants. Bank deposit insurance is generally provided by the FDIC, while monetary policy is conducted by the Federal Reserve.",
+      "topic": "Knowledge of Capital Markets",
+      "subtopic": "The Securities and Exchange Commission (SEC)",
+      "difficulty": "easy",
+      "source": "FINRA SIE Content Outline, Section 1.1.1 – The Securities and Exchange Commission (SEC)"
+    },
+    {
+      "stem": "Two institutional investors arrange a direct trade of an exchange-listed company's shares without using a broker-dealer as an intermediary. In which type of market does this transaction occur?",
+      "options": [
+        "The primary market",
+        "The secondary offering market",
+        "The third market",
+        "The fourth market"
+      ],
+      "answer": "D",
+      "explanation": "The fourth market involves securities transactions conducted directly between institutions without broker-dealer intermediaries. The third market involves exchange-listed securities traded over the counter through broker-dealers. The primary market is where issuers sell newly issued securities to investors.",
+      "topic": "Knowledge of Capital Markets",
+      "subtopic": "Types of Markets",
+      "difficulty": "medium",
+      "source": "FINRA SIE Content Outline, Section 1.2.1 – Types of Markets"
+    },
+    {
+      "stem": "The Federal Reserve purchases U.S. Treasury securities in the open market as part of an expansionary monetary policy. Assuming other factors remain unchanged, what is the expected effect of this action?",
+      "options": [
+        "Bank reserves increase, putting downward pressure on short-term interest rates",
+        "Bank reserves decrease, putting upward pressure on short-term interest rates",
+        "Federal income tax revenues increase, reducing the federal budget deficit",
+        "Commercial bank lending capacity decreases, restricting the availability of credit"
+      ],
+      "answer": "A",
+      "explanation": "When the Federal Reserve purchases Treasury securities, it adds reserves to the banking system and generally puts downward pressure on short-term interest rates. This is an expansionary monetary policy action intended to encourage lending and economic activity. Open market purchases do not directly change federal tax rates.",
+      "topic": "Knowledge of Capital Markets",
+      "subtopic": "The Federal Reserve Board’s Impact on Business Activity and Market Stability",
+      "difficulty": "medium",
+      "source": "FINRA SIE Content Outline, Section 1.3.1 – The Federal Reserve Board's Impact on Business Activity and Market Stability"
+    },
+    {
+      "stem": "A corporation has issued common stock and nonparticipating preferred stock. The corporation declares a dividend but has insufficient funds to pay dividends on both classes. Which shareholders generally have priority in receiving dividends?",
+      "options": [
+        "Common shareholders because they possess voting rights",
+        "Common shareholders because they bear greater investment risk",
+        "Preferred shareholders because their shares have dividend preference",
+        "Preferred shareholders because their dividend payments are federally guaranteed"
+      ],
+      "answer": "C",
+      "explanation": "Preferred stock generally has priority over common stock in the payment of declared dividends. Common shareholders receive dividends only after the applicable preferred dividend requirements have been satisfied. Preferred dividends are not guaranteed, and the board of directors generally retains discretion over dividend declarations.",
+      "topic": "Understanding Products and Their Risks",
+      "subtopic": "Equity Securities",
+      "difficulty": "easy",
+      "source": "FINRA SIE Content Outline, Section 2.1.1 – Equity Securities"
+    },
+    {
+      "stem": "An investor purchases a corporate bond with a $1,000 par value and a 6% annual coupon rate for $1,200. What is the bond's current yield at the purchase price?",
+      "options": [
+        "4.0%",
+        "5.0%",
+        "6.0%",
+        "7.2%"
+      ],
+      "answer": "B",
+      "explanation": "Current yield equals annual coupon income divided by the bond's current market price. The annual interest payment is $60, calculated as 6% of $1,000. Dividing $60 by the $1,200 purchase price gives a current yield of 5%, which is below the coupon rate because the bond trades at a premium.",
+      "topic": "Understanding Products and Their Risks",
+      "subtopic": "Debt Instruments",
+      "difficulty": "medium",
+      "source": "FINRA SIE Content Outline, Section 2.1.2 – Debt Instruments; Coupon, Par Value and Yield"
+    },
+    {
+      "stem": "A municipal government issues revenue bonds to finance construction of a toll bridge. The bonds are payable solely from revenues generated by the bridge, with no pledge of the municipality's taxing authority. What is the primary source of repayment?",
+      "options": [
+        "Property taxes collected throughout the municipality",
+        "Federal income taxes allocated to transportation projects",
+        "General revenues available in the municipality's operating budget",
+        "Toll payments collected from users of the bridge"
+      ],
+      "answer": "D",
+      "explanation": "Revenue bonds are generally secured by income from a specified project or revenue-producing enterprise. In this case, toll collections support the payment of principal and interest. Unlike general obligation bonds, these securities do not rely on the issuer's general taxing authority.",
+      "topic": "Understanding Products and Their Risks",
+      "subtopic": "Debt Instruments",
+      "difficulty": "medium",
+      "source": "FINRA SIE Content Outline, Section 2.1.2 – Debt Instruments; Municipal Revenue Bonds"
+    },
+    {
+      "stem": "An investor purchases one listed equity put option covering 100 shares with a strike price of $50 and pays a premium of $3 per share. At expiration, the underlying stock trades at $43 per share. If the investor realizes the option's intrinsic value, what is the net profit on the position, excluding transaction costs?",
+      "options": [
+        "$400",
+        "$300",
+        "$700",
+        "$1,000"
+      ],
+      "answer": "A",
+      "explanation": "The put option has an intrinsic value of $7 per share because the strike price of $50 exceeds the stock price of $43. Its total intrinsic value is $700 for 100 shares, while the initial premium cost was $300. Subtracting the premium from the amount realized gives a net profit of $400.",
+      "topic": "Understanding Products and Their Risks",
+      "subtopic": "Options",
+      "difficulty": "hard",
+      "source": "FINRA SIE Content Outline, Section 2.1.3 – Options; Premium, Strike Price and In-the-Money Options"
+    },
+    {
+      "stem": "An investor places an order to purchase Class A shares of an open-end mutual fund. The fund receives the order at 1:00 p.m. Eastern Time on a normal trading day, before its next scheduled NAV calculation at the market close. At what price will the purchase generally be executed?",
+      "options": [
+        "The previous trading day's closing NAV plus any applicable sales charge",
+        "The intraday market price prevailing when the order was received",
+        "The next calculated NAV plus any applicable sales charge",
+        "The price negotiated between the broker-dealer and an existing shareholder"
+      ],
+      "answer": "C",
+      "explanation": "Open-end mutual funds use forward pricing, meaning properly received orders are executed based on the next calculated net asset value. Class A shares generally carry a front-end sales charge, which may increase the public offering price above NAV. Unlike exchange-traded securities, traditional open-end mutual fund shares do not trade continuously at intraday market prices.",
+      "topic": "Understanding Products and Their Risks",
+      "subtopic": "Packaged Products",
+      "difficulty": "medium",
+      "source": "FINRA SIE Content Outline, Section 2.1.4 – Packaged Products; NAV and Sales Charges; Investment Company Act Rule 22c-1"
+    },
+    {
+      "stem": "A parent invests in a Section 529 college savings plan for a child. Years later, the parent withdraws funds to pay the child's qualified college tuition expenses. What is the general federal income tax treatment of the plan's investment earnings included in the withdrawal?",
+      "options": [
+        "The earnings are taxed as ordinary income to the parent",
+        "The earnings are excluded from federal income tax",
+        "The earnings are taxed as capital gains to the beneficiary",
+        "The earnings are subject to a federal early withdrawal penalty"
+      ],
+      "answer": "B",
+      "explanation": "Earnings in a 529 savings plan generally grow tax-deferred, and withdrawals used for qualified education expenses are federally income-tax-free. The account owner controls the account while the designated beneficiary receives the educational benefit. Nonqualified withdrawals generally cause the earnings portion to be taxable and potentially subject to an additional federal tax.",
+      "topic": "Understanding Products and Their Risks",
+      "subtopic": "Municipal Fund Securities",
+      "difficulty": "easy",
+      "source": "FINRA SIE Content Outline, Section 2.1.5 – Municipal Fund Securities; 529 Plans"
+    },
+    {
+      "stem": "A real estate direct participation program is organized as a limited partnership. During its first year, the partnership generates positive operating cash flow but reports a federal tax loss primarily because of depreciation deductions. Which statement most accurately describes the potential tax treatment for a limited partner?",
+      "options": [
+        "The tax loss is allocated exclusively to the general partner regardless of the partnership agreement",
+        "The tax loss must remain at the partnership level until the real estate is sold",
+        "The tax loss automatically produces an equivalent cash distribution to each limited partner",
+        "The tax loss may pass through to limited partners, subject to applicable deduction limitations"
+      ],
+      "answer": "D",
+      "explanation": "A limited partnership generally uses pass-through tax treatment, allowing income, gains, losses, and deductions to be allocated among partners. Noncash expenses such as depreciation can produce a taxable loss even while the business generates positive operating cash flow. A limited partner's ability to deduct an allocated loss is subject to rules such as basis, at-risk, and passive activity limitations.",
+      "topic": "Understanding Products and Their Risks",
+      "subtopic": "Direct Participation Programs (DPPs)",
+      "difficulty": "hard",
+      "source": "FINRA SIE Content Outline, Section 2.1.6 – Direct Participation Programs; Pass-Through Tax Treatment"
+    },
+    {
+      "stem": "Which description best characterizes an exchange-listed equity real estate investment trust (REIT)?",
+      "options": [
+        "A company that primarily owns income-producing real estate and whose shares trade on an exchange",
+        "A savings institution that accepts federally insured deposits to finance commercial properties",
+        "A government program that guarantees rental payments on privately owned real estate",
+        "A commodity investment fund that purchases real estate futures without owning property"
+      ],
+      "answer": "A",
+      "explanation": "An equity REIT primarily owns and operates income-producing real estate, such as office buildings, apartments, or shopping centers. When its shares are listed on a securities exchange, investors can buy and sell them similarly to other exchange-listed stocks. REIT distributions and share prices remain subject to investment risk.",
+      "topic": "Understanding Products and Their Risks",
+      "subtopic": "Real Estate Investment Trusts (REITs)",
+      "difficulty": "easy",
+      "source": "FINRA SIE Content Outline, Section 2.1.7 – Real Estate Investment Trusts (REITs)"
+    },
+    {
+      "stem": "An investor compares an exchange-traded fund (ETF) that owns securities with an exchange-traded note (ETN) issued by a financial institution. Both products track the same market index. Which additional risk is particularly important for the ETN?",
+      "options": [
+        "The risk that the ETN must distribute all index dividends directly to investors",
+        "The risk that the ETN cannot be sold on a securities exchange before maturity",
+        "The risk that the ETN issuer may default on its unsecured payment obligation",
+        "The risk that the ETN investor becomes personally liable for index constituent debts"
+      ],
+      "answer": "C",
+      "explanation": "An ETN is generally an unsecured debt obligation of its issuer, so investors are exposed to issuer credit risk in addition to risks associated with the linked index. An ETF generally holds a portfolio of assets rather than representing an unsecured promise by a bank. An ETN's market value can therefore decline if the issuer's creditworthiness deteriorates, even when the reference index is unchanged.",
+      "topic": "Understanding Products and Their Risks",
+      "subtopic": "Exchange-traded Products (ETPs)",
+      "difficulty": "medium",
+      "source": "FINRA SIE Content Outline, Sections 2.1.9 and 2.2 – Exchange-traded Products and Investment Risks"
+    },
+    {
+      "stem": "An investor owns shares of a stock trading at $52 and enters a sell stop order with a stop price of $48. Unexpected negative news causes the next available trade to occur at $44. Which statement best describes the behavior of the stop order?",
+      "options": [
+        "The order is guaranteed to execute at the specified stop price of $48",
+        "The order remains inactive until the stock price returns to at least $48",
+        "The order becomes a sell limit order with a minimum execution price of $48",
+        "The order is triggered and becomes a market order that may execute below $48"
+      ],
+      "answer": "D",
+      "explanation": "A standard sell stop order is triggered when the stock reaches or passes through the specified stop price. Once triggered, it becomes a market order, which seeks execution but does not guarantee a particular price. A sudden price gap can therefore result in execution substantially below the stop price.",
+      "topic": "Understanding Trading, Customer Accounts and Prohibited Activities",
+      "subtopic": "Orders and Strategies",
+      "difficulty": "medium",
+      "source": "FINRA SIE Content Outline, Section 3.1.1 – Orders and Strategies; Market and Stop Orders"
+    },
+    {
+      "stem": "A customer purchases shares of an exchange-listed U.S. company in a regular-way transaction on Monday. Assuming neither Monday nor Tuesday is a market holiday, when is the standard settlement date under the current U.S. settlement cycle?",
+      "options": [
+        "Monday, the trade date",
+        "Tuesday, one business day after the trade",
+        "Wednesday, two business days after the trade",
+        "Thursday, three business days after the trade"
+      ],
+      "answer": "B",
+      "explanation": "Most regular-way U.S. equity transactions follow a T+1 settlement cycle, meaning settlement occurs one business day after the trade date. The standard changed from T+2 to T+1 effective May 28, 2024. Therefore, a trade executed on Monday normally settles on Tuesday when there are no intervening holidays.",
+      "topic": "Understanding Trading, Customer Accounts and Prohibited Activities",
+      "subtopic": "Trade Settlement",
+      "difficulty": "easy",
+      "source": "FINRA SIE Content Outline, Section 3.1.3 – Trade Settlement; SEC Exchange Act Rule 15c6-1"
+    },
+    {
+      "stem": "A corporation has declared an ordinary quarterly cash dividend on its common stock. The ex-dividend date is Wednesday, and an investor purchases shares in a regular-way transaction on Wednesday. Who is generally entitled to the upcoming dividend on those shares?",
+      "options": [
+        "The seller, because the shares were purchased on the ex-dividend date",
+        "The buyer, because the trade occurred before the next dividend payment date",
+        "The buyer, because the purchase establishes immediate dividend entitlement",
+        "The broker-dealer, because ownership transfers after the ex-dividend date"
+      ],
+      "answer": "A",
+      "explanation": "A stock purchased on or after its ex-dividend date generally does not carry entitlement to the upcoming declared dividend. The seller retains that dividend entitlement, while the buyer acquires the shares without the pending dividend. For ordinary cash dividends under the T+1 settlement framework, the ex-dividend date is generally the record date when it falls on a business day.",
+      "topic": "Understanding Trading, Customer Accounts and Prohibited Activities",
+      "subtopic": "Investment Returns",
+      "difficulty": "medium",
+      "source": "FINRA SIE Content Outline, Section 3.1.2 – Investment Returns; Dividend Dates; FINRA Rule 11140"
+    },
+    {
+      "stem": "Two siblings hold a brokerage account registered as joint tenants with rights of survivorship (JTWROS). One sibling dies, and the account agreement remains valid under applicable law. What generally happens to the deceased sibling's ownership interest?",
+      "options": [
+        "It automatically transfers to the deceased sibling's probate estate",
+        "It is distributed equally among the deceased sibling's legal heirs",
+        "It passes automatically to the surviving joint account owner",
+        "It becomes the property of the broker-dealer until probate is completed"
+      ],
+      "answer": "C",
+      "explanation": "A JTWROS account includes a survivorship feature under which the deceased owner's interest generally transfers to the surviving joint owner. This transfer typically occurs outside the probate process and does not depend on the deceased owner's will. Other joint ownership arrangements, such as tenancy in common, do not provide the same automatic survivorship feature.",
+      "topic": "Understanding Trading, Customer Accounts and Prohibited Activities",
+      "subtopic": "Customer Account Registrations",
+      "difficulty": "medium",
+      "source": "FINRA SIE Content Outline, Section 3.2.2 – Customer Account Registrations; Joint Accounts"
+    },
+    {
+      "stem": "A broker-dealer representative notices that a customer has made repeated cash deposits of $9,900 on successive business days and has asked the representative not to document the source of the funds. The customer says the deposits are deliberately kept below $10,000 to avoid regulatory reporting. What is the most appropriate action for the representative?",
+      "options": [
+        "Inform the customer that a Suspicious Activity Report will be filed before accepting further deposits",
+        "Process the deposits without further inquiry because each individual deposit is below $10,000",
+        "File a Currency Transaction Report personally and treat the reporting obligation as fully satisfied",
+        "Promptly escalate the activity to the firm's AML compliance personnel without disclosing any SAR filing to the customer"
+      ],
+      "answer": "D",
+      "explanation": "Intentionally dividing transactions to avoid reporting thresholds is known as structuring and is a potential indicator of money laundering. The representative should promptly follow the firm's anti-money laundering procedures so the activity can be investigated and any required Suspicious Activity Report can be filed. Customers must not be informed about the existence or filing of a SAR.",
+      "topic": "Understanding Trading, Customer Accounts and Prohibited Activities",
+      "subtopic": "Anti-money Laundering (AML)",
+      "difficulty": "hard",
+      "source": "FINRA SIE Content Outline, Section 3.2.3 – Anti-money Laundering; FINRA Rule 3310; 31 CFR 1023.320"
+    },
+    {
+      "stem": "A broker-dealer representative is considering recommending a mutual fund share class with relatively high ongoing expenses to a retail customer who plans to hold the investment for 15 years. The firm offers other share classes and investment alternatives that may meet the customer's objectives at lower cost. Under Regulation Best Interest, what should the representative do before making the recommendation?",
+      "options": [
+        "Evaluate reasonably available alternatives, including their risks, rewards, and total costs, in light of the customer's investment profile",
+        "Recommend the higher-cost share class if the fund's prospectus adequately discloses its expenses and compensation arrangements",
+        "Select the share class most commonly purchased by other customers with similar account balances, without further individual analysis",
+        "Recommend the share class paying the largest commission as long as the customer receives the required transaction confirmation"
+      ],
+      "answer": "A",
+      "explanation": "Regulation Best Interest requires a broker-dealer to exercise reasonable diligence, care, and skill and to have a reasonable basis for believing a recommendation is in the retail customer's best interest. This includes considering reasonably available alternatives and evaluating risks, rewards, and costs against the customer's investment profile. The rule does not automatically require the lowest-cost investment, but disclosure or historical sales practices alone cannot substitute for the required analysis.",
+      "topic": "Understanding Trading, Customer Accounts and Prohibited Activities",
+      "subtopic": "Communications with the Public and General Best Interest Obligations and Suitability Requirements",
+      "difficulty": "hard",
+      "source": "SEC Regulation Best Interest, Exchange Act Rule 15l-1; Care Obligation; FINRA SIE Section 3.2.5"
+    },
+    {
+      "stem": "An individual who is not employed by or associated with a broker-dealer passes FINRA's Securities Industry Essentials (SIE) exam. Which statement correctly describes the individual's ability to conduct securities business after passing?",
+      "options": [
+        "The individual may immediately execute securities transactions for retail customers",
+        "The individual must meet applicable registration requirements, including firm association and the appropriate qualification exam",
+        "The individual is automatically registered as a general securities representative for four years",
+        "The individual may immediately supervise the securities activities of registered representatives"
+      ],
+      "answer": "B",
+      "explanation": "Passing the SIE demonstrates foundational securities industry knowledge but does not independently authorize an individual to engage in regulated securities business. To become registered, the individual generally must be associated with a member firm and pass the appropriate representative-level qualification examination, such as the Series 7. An SIE passing result is generally valid for four years.",
+      "topic": "Overview of the Regulatory Framework",
+      "subtopic": "Registration and Continuing Education",
+      "difficulty": "easy",
+      "source": "FINRA SIE Content Outline, Section 4.1 – Registration and Continuing Education; FINRA Rule 1210"
+    },
+    {
+      "stem": "A registered representative leaves a FINRA member firm, and the firm must terminate all of the individual's securities registrations. Which filing must the member firm generally submit to FINRA within 30 calendar days of the termination?",
+      "options": [
+        "Form U4, the Uniform Application for Securities Industry Registration or Transfer",
+        "Form BD, the Uniform Application for Broker-Dealer Registration",
+        "Form U5, the Uniform Termination Notice for Securities Industry Registration",
+        "Form BR, the Uniform Branch Office Registration Form"
+      ],
+      "answer": "C",
+      "explanation": "Form U5 is used to terminate an individual's securities registrations and report required information concerning the termination. A member firm generally must file the initial Form U5 within 30 calendar days of terminating the individual's registration and provide a copy to the individual. Form U4 is used for individual registration applications and amendments, while Forms BD and BR relate to firms and branch offices.",
+      "topic": "Overview of the Regulatory Framework",
+      "subtopic": "Reportable Events",
+      "difficulty": "medium",
+      "source": "FINRA SIE Content Outline, Section 4.3 – Reportable Events; FINRA By-Laws, Article V, Section 3"
+    }
+  ]
+}
