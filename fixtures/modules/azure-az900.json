@@ -1,0 +1,65 @@
+{
+  "id": "azure-az900",
+  "display_name": "AZ-900: Microsoft Azure Fundamentals",
+  "body": "Microsoft",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, or authorized, sponsored, endorsed or approved by, Microsoft Corporation; the names are used only to identify the exam. Microsoft and Azure are trademarks of the Microsoft group of companies. All other trademarks are the property of their respective owners.",
+  "taxonomy": {
+    "Describe cloud concepts": [
+      "Describe cloud computing",
+      "Describe the benefits of using cloud services",
+      "Describe cloud service types"
+    ],
+    "Describe Azure architecture and services": [
+      "Describe the core architectural components of Azure",
+      "Describe Azure compute and networking services",
+      "Describe Azure storage services",
+      "Describe Azure identity, access, and security"
+    ],
+    "Describe Azure management and governance": [
+      "Describe cost management in Azure",
+      "Describe features and tools in Azure for governance and compliance",
+      "Describe features and tools for managing and deploying Azure resources",
+      "Describe monitoring tools in Azure"
+    ]
+  },
+  "weights": {
+    "Describe cloud concepts": {
+      "min": 25,
+      "max": 30
+    },
+    "Describe Azure architecture and services": {
+      "min": 35,
+      "max": 40
+    },
+    "Describe Azure management and governance": {
+      "min": 30,
+      "max": 35
+    }
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": true,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [],
+  "uncovered_item_types": [
+    "active screen",
+    "build list",
+    "case study",
+    "drag and drop",
+    "hot area",
+    "yes/no question"
+  ],
+  "exam_mode": {
+    "questions": 50,
+    "minutes": 45,
+    "note": "Microsoft does not publish the AZ-900 question count: the real exam is 45 minutes, and Microsoft's pages say most of its exams have 35 to 50 or 40 to 60 questions."
+  },
+  "verified_outline": "Study guide for Exam AZ-900: Microsoft Azure Fundamentals, skills measured as of July 20, 2026",
+  "verified_on": "2026-10-18",
+  "next_review": "2027-10-18"
+}

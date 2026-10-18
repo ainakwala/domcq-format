@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "azure-az900",
+  "set": "AZ-900: Microsoft Azure Fundamentals practice – Cloud Essentials",
+  "questions": [
+    {
+      "stem": "A company deploys Windows Server virtual machines by using Azure Infrastructure as a Service (IaaS). Under the shared responsibility model, which task is the company's responsibility?",
+      "options": [
+        "Installing security updates for the guest operating system",
+        "Maintaining the physical servers in Azure datacenters",
+        "Replacing failed physical storage devices in the datacenter",
+        "Maintaining the physical networking infrastructure"
+      ],
+      "answer": "A",
+      "explanation": "In an IaaS deployment, the customer is responsible for managing and patching the guest operating system, applications, and configurations. Microsoft manages the underlying physical infrastructure, including servers, storage hardware, and physical networking. The division of responsibilities depends on the cloud service model.",
+      "topic": "Describe cloud concepts",
+      "subtopic": "Describe cloud computing",
+      "difficulty": "easy",
+      "source": "Microsoft Learn AZ-900 study guide: Describe cloud computing — Shared responsibility model"
+    },
+    {
+      "stem": "A financial services company operates some applications in its own datacenter while running other applications in Microsoft Azure. The two environments are connected and used together. Which cloud deployment model does this represent?",
+      "options": [
+        "Public cloud",
+        "Private cloud",
+        "Hybrid cloud",
+        "Multicloud"
+      ],
+      "answer": "C",
+      "explanation": "A hybrid cloud combines private infrastructure, such as an organization's on-premises datacenter, with public cloud services. This model enables organizations to retain selected workloads on-premises while using Azure for other workloads. Multicloud specifically involves using services from more than one cloud provider.",
+      "topic": "Describe cloud concepts",
+      "subtopic": "Describe cloud computing",
+      "difficulty": "easy",
+      "source": "Microsoft Learn AZ-900 study guide: Describe cloud computing — Public, private, and hybrid cloud models"
+    },
+    {
+      "stem": "An online retailer experiences large fluctuations in website traffic throughout the day. Which TWO actions demonstrate cloud elasticity? Choose TWO.",
+      "options": [
+        "Encrypting stored customer data to protect confidentiality",
+        "Automatically adding compute instances when traffic increases",
+        "Applying resource locks to prevent accidental deletion",
+        "Automatically removing compute instances when traffic decreases"
+      ],
+      "answer": "BD",
+      "explanation": "Elasticity enables cloud resources to expand and contract dynamically in response to workload demand. Adding instances during peak traffic and removing them when demand falls are both examples of elasticity. Encryption and resource locks are security and governance controls rather than elasticity features.",
+      "topic": "Describe cloud concepts",
+      "subtopic": "Describe the benefits of using cloud services",
+      "difficulty": "medium",
+      "source": "Microsoft Learn AZ-900 study guide: Describe the benefits of using cloud services — Scalability"
+    },
+    {
+      "stem": "A company subscribes to Microsoft 365 so employees can use hosted email and collaboration applications. Microsoft manages the applications and their underlying infrastructure. Which cloud service model best describes this arrangement?",
+      "options": [
+        "Software as a Service (SaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Platform as a Service (PaaS)",
+        "Network as a Service (NaaS)"
+      ],
+      "answer": "A",
+      "explanation": "SaaS provides complete applications to customers without requiring them to manage the application infrastructure. Microsoft 365 is a common example because Microsoft operates and maintains the hosted applications. Customers primarily manage their users, data, and relevant application settings.",
+      "topic": "Describe cloud concepts",
+      "subtopic": "Describe cloud service types",
+      "difficulty": "easy",
+      "source": "Microsoft Learn AZ-900 study guide: Describe cloud service types — SaaS"
+    },
+    {
+      "stem": "A development team needs to process messages that arrive unpredictably throughout the day. The team wants to execute code when messages arrive without provisioning servers and pay primarily for actual execution. Which Azure solution best meets these requirements?",
+      "options": [
+        "Azure Virtual Machines with reserved instances",
+        "Azure Kubernetes Service with continuously running nodes",
+        "Azure Dedicated Host with dedicated physical servers",
+        "Azure Functions on the Consumption plan"
+      ],
+      "answer": "D",
+      "explanation": "Azure Functions supports event-driven execution without requiring developers to provision or manage servers. On the Consumption plan, compute resources scale automatically, and billing is based on executions and resource consumption, subject to the plan's billing rules. This makes it suitable for intermittent workloads with unpredictable demand.",
+      "topic": "Describe cloud concepts",
+      "subtopic": "Describe cloud computing",
+      "difficulty": "medium",
+      "source": "Microsoft Learn AZ-900 study guide: Describe cloud computing — Serverless"
+    },
+    {
+      "stem": "An organization manages eight Azure subscriptions belonging to different departments. Its administrators want to assign one Azure Policy at a scope above all eight subscriptions so that the policy applies across them. Which Azure component should they use?",
+      "options": [
+        "An Azure resource group",
+        "An Azure management group",
+        "An Azure virtual network",
+        "An Azure availability zone"
+      ],
+      "answer": "B",
+      "explanation": "Azure management groups provide a governance scope above subscriptions. Policy assignments and access controls applied at a management group can be inherited by its child subscriptions. This allows organizations to manage multiple subscriptions consistently without assigning the same policy separately to each one.",
+      "topic": "Describe Azure architecture and services",
+      "subtopic": "Describe the core architectural components of Azure",
+      "difficulty": "medium",
+      "source": "Microsoft Learn AZ-900 study guide: Describe the core architectural components of Azure — Management groups"
+    },
+    {
+      "stem": "A company wants to protect an application against the failure of a single datacenter while keeping its application resources within one Azure region. Which description correctly identifies Azure availability zones?",
+      "options": [
+        "Separate geographic regions connected through Microsoft's global network",
+        "Logical resource containers used to manage related Azure services",
+        "Physically separate datacenter groups with independent power, cooling, and networking within a region",
+        "Separate Azure subscriptions used to isolate billing and access permissions"
+      ],
+      "answer": "C",
+      "explanation": "Availability zones are physically separate groups of datacenters within an Azure region, each designed with independent power, cooling, and networking. Deploying supported resources across zones can improve resilience against datacenter-level failures. Availability zones are different from Azure regions, which represent separate geographic locations.",
+      "topic": "Describe Azure architecture and services",
+      "subtopic": "Describe the core architectural components of Azure",
+      "difficulty": "easy",
+      "source": "Microsoft Learn AZ-900 study guide: Describe the core architectural components of Azure — Availability zones"
+    },
+    {
+      "stem": "A company runs an application on multiple identical Azure virtual machines. It wants Azure to automatically increase or decrease the number of virtual machine instances according to CPU utilization. Which service should the company use?",
+      "options": [
+        "Azure Virtual Machine Scale Sets",
+        "Azure Virtual Desktop",
+        "Azure Dedicated Host",
+        "Azure Container Instances"
+      ],
+      "answer": "A",
+      "explanation": "Azure Virtual Machine Scale Sets enable organizations to deploy and manage groups of similar virtual machines. Scale sets support automatic scaling based on metrics such as CPU utilization. Azure Virtual Desktop delivers virtual desktops and applications, while Dedicated Host provides dedicated physical hosting.",
+      "topic": "Describe Azure architecture and services",
+      "subtopic": "Describe Azure compute and networking services",
+      "difficulty": "medium",
+      "source": "Microsoft Learn AZ-900 study guide: Describe Azure compute and networking services — Virtual Machine Scale Sets"
+    },
+    {
+      "stem": "A development team needs to deploy a web application to Azure. The team wants Microsoft to manage the underlying operating system, web hosting infrastructure, and platform maintenance while developers manage the application code. Which Azure service is most appropriate?",
+      "options": [
+        "Azure Virtual Machines",
+        "Azure Files",
+        "Azure Virtual Network",
+        "Azure App Service"
+      ],
+      "answer": "D",
+      "explanation": "Azure App Service is a managed platform for hosting web applications and APIs. It allows developers to focus on application code while Microsoft manages the underlying hosting platform and operating system maintenance. Azure Virtual Machines would require the customer to manage the guest operating system.",
+      "topic": "Describe Azure architecture and services",
+      "subtopic": "Describe Azure compute and networking services",
+      "difficulty": "easy",
+      "source": "Microsoft Learn AZ-900 study guide: Describe Azure compute and networking services — Application hosting"
+    },
+    {
+      "stem": "A company has an Azure ExpressRoute circuit connecting its on-premises datacenter to an Azure virtual network. It now wants to access an Azure Storage account through a private IP address within that virtual network instead of using the storage account's public endpoint. Which Azure feature should it configure?",
+      "options": [
+        "Azure VPN Gateway",
+        "Azure Private Endpoint",
+        "Azure Virtual Network peering",
+        "Azure DNS public zones"
+      ],
+      "answer": "B",
+      "explanation": "Azure Private Endpoint provides a private IP address within a virtual network for accessing supported Azure services, including Azure Storage. When properly configured with networking and DNS, the storage service can be accessed privately from on-premises through ExpressRoute. ExpressRoute provides private network connectivity, while Private Endpoint provides private access to the specific service.",
+      "topic": "Describe Azure architecture and services",
+      "subtopic": "Describe Azure compute and networking services",
+      "difficulty": "hard",
+      "source": "Microsoft Learn AZ-900 study guide: Describe Azure compute and networking services — Public and private endpoints"
+    },
+    {
+      "stem": "A company is evaluating Azure Blob Storage for several workloads. Which TWO requirements are appropriate uses of Azure Blob Storage? Choose TWO.",
+      "options": [
+        "Storing user-uploaded image files as unstructured objects",
+        "Providing managed SMB file shares to office computers",
+        "Archiving application log files as unstructured objects",
+        "Attaching persistent operating system disks to Azure virtual machines"
+      ],
+      "answer": "AC",
+      "explanation": "Azure Blob Storage is an object storage service designed for large quantities of unstructured data, such as images, documents, and log files. Azure Files is designed for managed file shares, including SMB access. Azure managed disks provide persistent block storage for virtual machines.",
+      "topic": "Describe Azure architecture and services",
+      "subtopic": "Describe Azure storage services",
+      "difficulty": "medium",
+      "source": "Microsoft Learn AZ-900 study guide: Describe Azure storage services — Compare Azure Storage services"
+    },
+    {
+      "stem": "A company wants employees in its finance department to have read access to a specific Azure Storage account. It also requires users signing in from outside trusted locations to complete multifactor authentication. Which combination of controls best addresses these two requirements?",
+      "options": [
+        "Microsoft Entra ID and Azure Policy",
+        "Azure Policy and Azure Monitor",
+        "Azure RBAC and Azure resource locks",
+        "Azure RBAC and Microsoft Entra Conditional Access"
+      ],
+      "answer": "D",
+      "explanation": "Azure role-based access control (RBAC) determines what actions users can perform on Azure resources and at which scope. Microsoft Entra Conditional Access evaluates sign-in conditions, including location signals, and can require multifactor authentication. Together, they address resource authorization and context-based authentication requirements.",
+      "topic": "Describe Azure architecture and services",
+      "subtopic": "Describe Azure identity, access, and security",
+      "difficulty": "hard",
+      "source": "Microsoft Learn AZ-900 study guide: Describe Azure identity, access, and security — RBAC and Conditional Access"
+    },
+    {
+      "stem": "An organization must migrate 200 TB of data from its on-premises datacenter to Azure Storage. Its internet connection is too slow to complete the transfer within the required timeframe. Which Azure service allows the organization to transfer the data by shipping a physical appliance?",
+      "options": [
+        "Azure File Sync",
+        "Azure Data Box",
+        "Azure Migrate assessment",
+        "AzCopy"
+      ],
+      "answer": "B",
+      "explanation": "Azure Data Box provides physical devices that organizations can use to transfer large quantities of data to Azure. Data is copied to the device locally, and the device is shipped to Microsoft for ingestion into Azure Storage. This approach can be useful when transferring data over the available network would take too long.",
+      "topic": "Describe Azure architecture and services",
+      "subtopic": "Describe Azure storage services",
+      "difficulty": "medium",
+      "source": "Microsoft Learn AZ-900 study guide: Describe Azure storage services — Migration options and Azure Data Box"
+    },
+    {
+      "stem": "A company has Azure resources used by its marketing, finance, and operations departments. The finance team wants to categorize resources by department so it can analyze Azure spending by department. Which Azure feature should it use?",
+      "options": [
+        "Azure Policy definitions",
+        "Azure Advisor recommendations",
+        "Azure resource tags",
+        "Azure resource locks"
+      ],
+      "answer": "C",
+      "explanation": "Azure resource tags are name-value pairs that help organizations categorize resources according to attributes such as department, project, or cost center. Cost analysis tools can use tags to group and report spending. Tags do not directly restrict resource usage or enforce spending limits.",
+      "topic": "Describe Azure management and governance",
+      "subtopic": "Describe cost management in Azure",
+      "difficulty": "easy",
+      "source": "Microsoft Learn AZ-900 study guide: Describe cost management in Azure — Purpose of tags"
+    },
+    {
+      "stem": "An organization requires newly deployed Azure resources to be located only in two approved Azure regions. Administrators want the restriction to be evaluated automatically when resources are created. Which Azure service should they use?",
+      "options": [
+        "Azure Policy",
+        "Azure Monitor",
+        "Azure RBAC",
+        "Azure resource locks"
+      ],
+      "answer": "A",
+      "explanation": "Azure Policy evaluates resources against organizational rules and can deny deployments that do not meet specified requirements. An allowed-locations policy can restrict resource deployment to approved regions. Azure RBAC controls permissions, while resource locks protect resources against specified management operations.",
+      "topic": "Describe Azure management and governance",
+      "subtopic": "Describe features and tools in Azure for governance and compliance",
+      "difficulty": "medium",
+      "source": "Microsoft Learn AZ-900 study guide: Describe features and tools for governance and compliance — Azure Policy"
+    },
+    {
+      "stem": "An administrator wants to protect an Azure resource group and its existing resources against accidental deletion while continuing to allow authorized users to modify resource configurations. Which Azure resource lock level should the administrator apply?",
+      "options": [
+        "ReadOnly",
+        "Owner",
+        "Reader",
+        "CanNotDelete"
+      ],
+      "answer": "D",
+      "explanation": "A CanNotDelete lock prevents deletion of protected resources while permitting authorized modifications that do not require deleting them. A ReadOnly lock is more restrictive because it blocks updates as well as deletion operations. Resource locks apply at the management plane and are separate from Azure RBAC role assignments.",
+      "topic": "Describe Azure management and governance",
+      "subtopic": "Describe features and tools in Azure for governance and compliance",
+      "difficulty": "medium",
+      "source": "Microsoft Learn AZ-900 study guide: Describe features and tools for governance and compliance — Resource locks"
+    },
+    {
+      "stem": "A team deploys Azure resources using a JSON Azure Resource Manager (ARM) template. The team later redeploys the template to the same resource group using incremental deployment mode. Which TWO statements correctly describe the deployment behavior? Choose TWO.",
+      "options": [
+        "Existing resources omitted from the template are automatically deleted from the resource group",
+        "Resources declared in the template are created or updated according to the template configuration",
+        "Existing resources not declared in the template remain in the resource group",
+        "Every deployment creates a new Azure subscription for the declared resources"
+      ],
+      "answer": "BC",
+      "explanation": "ARM templates declaratively specify the desired configuration of Azure resources. In incremental deployment mode, resources defined in the template are created or updated, while existing resources omitted from the template are not deleted merely because they are absent. This differs from approaches that explicitly remove resources no longer included in a deployment definition.",
+      "topic": "Describe Azure management and governance",
+      "subtopic": "Describe features and tools for managing and deploying Azure resources",
+      "difficulty": "hard",
+      "source": "Microsoft Learn AZ-900 study guide: Describe features and tools for managing and deploying Azure resources — ARM templates"
+    },
+    {
+      "stem": "A multinational company runs servers in Azure, in its own datacenters, and with another cloud provider. Its administrators want to bring supported servers outside Azure under a consistent Azure-based management and governance approach. Which service should they use?",
+      "options": [
+        "Azure Arc",
+        "Azure Migrate",
+        "Azure Data Box",
+        "Azure Virtual Desktop"
+      ],
+      "answer": "A",
+      "explanation": "Azure Arc extends Azure management and governance capabilities to supported resources outside Azure, including on-premises servers and resources in other cloud environments. Administrators can use Azure tools and services to manage these hybrid and multicloud resources. Azure Migrate focuses on migration, while Azure Data Box handles large-scale data transfers.",
+      "topic": "Describe Azure management and governance",
+      "subtopic": "Describe features and tools for managing and deploying Azure resources",
+      "difficulty": "medium",
+      "source": "Microsoft Learn AZ-900 study guide: Describe features and tools for managing and deploying Azure resources — Azure Arc"
+    },
+    {
+      "stem": "An IT operations team wants to receive notifications about Azure service incidents and planned maintenance events that could affect the Azure services and regions used by its organization. Which Azure service should it use?",
+      "options": [
+        "Azure Advisor",
+        "Microsoft Purview",
+        "Azure Service Health",
+        "Azure Cost Management"
+      ],
+      "answer": "C",
+      "explanation": "Azure Service Health provides personalized information about Azure service issues, planned maintenance, and health advisories relevant to an organization's Azure resources. It also supports alerts for events that may affect subscribed services and regions. Azure Advisor instead provides recommendations for improving Azure workloads.",
+      "topic": "Describe Azure management and governance",
+      "subtopic": "Describe monitoring tools in Azure",
+      "difficulty": "medium",
+      "source": "Microsoft Learn AZ-900 study guide: Describe monitoring tools in Azure — Azure Service Health"
+    },
+    {
+      "stem": "A development team wants to monitor a web application's request rates, response times, failures, and dependencies. The team also needs to run Kusto Query Language (KQL) queries against collected log data to investigate problems. Which TWO Azure Monitor capabilities directly support these requirements? Choose TWO.",
+      "options": [
+        "Azure Advisor for workload optimization recommendations",
+        "Application Insights for application performance telemetry",
+        "Azure Service Health for platform incident notifications",
+        "Log Analytics for querying collected monitoring logs"
+      ],
+      "answer": "BD",
+      "explanation": "Application Insights provides application performance monitoring, including telemetry about requests, dependencies, failures, and response times. Log Analytics enables analysis of collected log data by using Kusto Query Language. Azure Advisor provides optimization recommendations, and Azure Service Health reports Azure platform issues rather than detailed application telemetry.",
+      "topic": "Describe Azure management and governance",
+      "subtopic": "Describe monitoring tools in Azure",
+      "difficulty": "hard",
+      "source": "Microsoft Learn AZ-900 study guide: Describe monitoring tools in Azure — Azure Monitor, Log Analytics, and Application Insights"
+    }
+  ]
+}
