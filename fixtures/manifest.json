@@ -104,6 +104,7 @@
     { "file": "valid/comptia-netplus-claude-2.md", "errors": [], "fenced": true },
     { "file": "valid/comptia-netplus-claude-3.md", "errors": [], "fenced": true },
     { "file": "valid/comptia-netplus-claude-4.md", "errors": [], "fenced": true },
+    { "file": "valid/comptia-netplus-chatgpt-1.json", "errors": [] },
 
     { "file": "invalid/empty.txt", "errors": ["E001"] },
     { "file": "invalid/not-json.txt", "errors": ["E002"] },
