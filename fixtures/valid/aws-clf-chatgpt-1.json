@@ -1,0 +1,310 @@
+{
+  "format": "domcq/1",
+  "exam": "aws-clf",
+  "set": "AWS Certified Cloud Practitioner practice – Cloud Fundamentals and Services",
+  "questions": [
+    {
+      "stem": "A retail company experiences a substantial increase in website traffic during holiday sales. The company wants its computing capacity to increase when demand rises and decrease when demand falls. Which benefit of the AWS Cloud meets this requirement?",
+      "options": [
+        "High availability",
+        "Elasticity",
+        "Fault tolerance",
+        "Global reach"
+      ],
+      "answer": "B",
+      "explanation": "Elasticity is the ability to increase or decrease computing resources in response to changes in demand. AWS enables organizations to match provisioned capacity more closely to actual workloads, helping avoid unnecessary costs during periods of low demand.",
+      "topic": "Cloud Concepts",
+      "subtopic": "Define the benefits of the AWS Cloud",
+      "difficulty": "easy",
+      "source": "AWS CLF-C02 Exam Guide, Task 1.1: Define the benefits of the AWS Cloud"
+    },
+    {
+      "stem": "A company is reviewing an application against the AWS Well-Architected Framework. The company wants the application to recover automatically from infrastructure failures and continue operating when individual components become unavailable. Which pillar of the AWS Well-Architected Framework addresses these objectives?",
+      "options": [
+        "Sustainability",
+        "Cost optimization",
+        "Performance efficiency",
+        "Reliability"
+      ],
+      "answer": "D",
+      "explanation": "The Reliability pillar focuses on a workload's ability to perform its intended function correctly and consistently, including recovering from failures. It emphasizes resilient architecture, distributed system design, and automatic recovery to maintain availability.",
+      "topic": "Cloud Concepts",
+      "subtopic": "Identify design principles of the AWS Cloud",
+      "difficulty": "medium",
+      "source": "AWS Well-Architected Framework, Reliability Pillar; CLF-C02 Task 1.2"
+    },
+    {
+      "stem": "A company is planning a large-scale migration to AWS. Its leadership team wants to assess employee cloud skills, develop training programs, address resistance to organizational change, and establish leadership support for cloud adoption. Which perspective of the AWS Cloud Adoption Framework (AWS CAF) should the company primarily use?",
+      "options": [
+        "People",
+        "Platform",
+        "Governance",
+        "Operations"
+      ],
+      "answer": "A",
+      "explanation": "The AWS CAF People perspective focuses on organizational culture, leadership, workforce capabilities, and change management. It helps organizations develop the skills and organizational readiness required for successful cloud transformation.",
+      "topic": "Cloud Concepts",
+      "subtopic": "Understand the benefits of and strategies for migration to the AWS Cloud",
+      "difficulty": "medium",
+      "source": "AWS Cloud Adoption Framework, People Perspective; CLF-C02 Task 1.3"
+    },
+    {
+      "stem": "A company wants to migrate an application running on on-premises virtual machines to AWS. The company wants to preserve the existing application architecture and make as few changes as possible during the initial migration. Which migration strategy should the company use?",
+      "options": [
+        "Repurchase",
+        "Refactor",
+        "Rehost",
+        "Retire"
+      ],
+      "answer": "C",
+      "explanation": "Rehosting, often called lift and shift, moves applications to cloud infrastructure without significant architectural changes. It is appropriate when an organization wants to migrate quickly while postponing application modernization.",
+      "topic": "Cloud Concepts",
+      "subtopic": "Understand the benefits of and strategies for migration to the AWS Cloud",
+      "difficulty": "easy",
+      "source": "AWS Prescriptive Guidance, Migration Strategies; CLF-C02 Task 1.3"
+    },
+    {
+      "stem": "A company operates an on-premises application that requires substantial computing capacity during a short annual sales event. For the remainder of the year, much of its purchased server capacity remains unused. The company is considering migrating the application to AWS. Which TWO economic benefits can the company obtain by moving to the AWS Cloud? (Choose TWO.)",
+      "options": [
+        "Provision additional computing capacity for the sales event and release it when demand decreases.",
+        "Eliminate all ongoing operational expenses associated with running the application.",
+        "Avoid purchasing enough physical servers to accommodate the annual peak demand.",
+        "Maintain a fixed level of computing expenditure regardless of actual resource consumption.",
+        "Guarantee that all data transfers from AWS to the internet will be free of charge."
+      ],
+      "answer": "AC",
+      "explanation": "AWS enables companies to provision resources when needed and release them when demand falls, reducing expenditures on idle capacity. Moving from large upfront infrastructure purchases toward usage-based spending can improve the economics of workloads with variable demand. AWS still has operating expenses and applicable data transfer charges.",
+      "topic": "Cloud Concepts",
+      "subtopic": "Understand concepts of cloud economics",
+      "difficulty": "hard",
+      "source": "AWS CLF-C02 Exam Guide, Task 1.4: Understand concepts of cloud economics"
+    },
+    {
+      "stem": "A company is running a production database using Amazon RDS. The company is reviewing its responsibilities under the AWS shared responsibility model. Which TWO activities remain the company's responsibility? (Choose TWO.)",
+      "options": [
+        "Applying security patches to the operating system that runs the managed database instance.",
+        "Configuring database user permissions to restrict access to sensitive information.",
+        "Replacing failed physical storage devices in the AWS data center.",
+        "Classifying stored customer information according to its sensitivity and compliance requirements.",
+        "Maintaining physical security controls at the AWS facilities hosting the database."
+      ],
+      "answer": "BD",
+      "explanation": "Customers remain responsible for managing access to their data and determining the sensitivity and compliance requirements of that data. With Amazon RDS, AWS manages underlying infrastructure responsibilities, including host operating system maintenance and physical security. The shared responsibility model shifts some operational tasks to AWS but does not transfer ownership of customer data security decisions.",
+      "topic": "Security and Compliance",
+      "subtopic": "Understand the AWS shared responsibility model",
+      "difficulty": "hard",
+      "source": "AWS Shared Responsibility Model; Amazon RDS User Guide, Security in Amazon RDS"
+    },
+    {
+      "stem": "A company is preparing for an external compliance audit. The auditors request access to AWS compliance reports and agreements that document AWS security controls. Which AWS service provides on-demand access to these documents?",
+      "options": [
+        "AWS CloudTrail",
+        "AWS Config",
+        "AWS Artifact",
+        "AWS Trusted Advisor"
+      ],
+      "answer": "C",
+      "explanation": "AWS Artifact provides on-demand access to AWS compliance reports and selected agreements. Organizations can use these documents to support their own security assessments, regulatory reviews, and compliance audits.",
+      "topic": "Security and Compliance",
+      "subtopic": "Understand AWS Cloud security, governance, and compliance concepts",
+      "difficulty": "easy",
+      "source": "AWS Artifact Documentation; CLF-C02 Task 2.2"
+    },
+    {
+      "stem": "A company wants to detect potentially malicious activity within its AWS environment, including unusual API calls, suspicious account behavior, and activity associated with known malicious IP addresses. The company wants a managed service that automatically analyzes relevant AWS activity data and generates security findings. Which AWS service will meet these requirements?",
+      "options": [
+        "Amazon GuardDuty",
+        "AWS Config",
+        "Amazon Inspector",
+        "AWS WAF"
+      ],
+      "answer": "A",
+      "explanation": "Amazon GuardDuty is a managed threat detection service that analyzes AWS activity and security-related data to identify potentially malicious behavior. It generates security findings for threats such as compromised credentials, suspicious API activity, and communication with known malicious infrastructure.",
+      "topic": "Security and Compliance",
+      "subtopic": "Identify components and resources for security",
+      "difficulty": "medium",
+      "source": "Amazon GuardDuty User Guide, What is Amazon GuardDuty?; CLF-C02 Task 2.4"
+    },
+    {
+      "stem": "A security administrator needs to investigate who deleted an Amazon S3 bucket and when the deletion API request occurred. The administrator wants to review a record of AWS API activity that identifies the principal that performed the action. Which AWS service provides this capability?",
+      "options": [
+        "AWS Config",
+        "Amazon CloudWatch",
+        "AWS CloudFormation",
+        "AWS CloudTrail"
+      ],
+      "answer": "D",
+      "explanation": "AWS CloudTrail records AWS account activity, including API calls made through the console, SDKs, command-line tools, and other AWS services. CloudTrail management events can provide information about operations such as deleting an S3 bucket, including the event time and the identity that initiated the request.",
+      "topic": "Security and Compliance",
+      "subtopic": "Understand AWS Cloud security, governance, and compliance concepts",
+      "difficulty": "medium",
+      "source": "AWS CloudTrail User Guide, CloudTrail Events; CLF-C02 Task 2.2"
+    },
+    {
+      "stem": "A company operates a public-facing web application on AWS. The company wants to protect the application by filtering incoming HTTP and HTTPS requests based on rules that identify common web exploits, including SQL injection and cross-site scripting. Which AWS service should the company use?",
+      "options": [
+        "AWS Shield",
+        "AWS WAF",
+        "Amazon GuardDuty",
+        "AWS Secrets Manager"
+      ],
+      "answer": "B",
+      "explanation": "AWS WAF is a web application firewall that inspects HTTP and HTTPS requests and applies rules to allow, block, or count requests. It helps protect web applications against common attacks such as SQL injection and cross-site scripting.",
+      "topic": "Security and Compliance",
+      "subtopic": "Identify components and resources for security",
+      "difficulty": "easy",
+      "source": "AWS WAF Developer Guide, How AWS WAF Works; CLF-C02 Task 2.4"
+    },
+    {
+      "stem": "A company manages separate AWS accounts for development and production. Employees authenticate through a corporate identity provider. The company wants centralized workforce access to the AWS accounts without creating separate IAM users in each account, and it wants authorized sessions to use temporary credentials. Which TWO AWS identity and access management capabilities meet these requirements? (Choose TWO.)",
+      "options": [
+        "AWS IAM Identity Center for federated workforce access and centralized account assignments.",
+        "IAM users with permanent access keys created separately in every AWS account.",
+        "AWS account root users shared among employees who require administrative access.",
+        "Publicly accessible resource policies that allow employees to access resources anonymously.",
+        "IAM roles that grant authorized access through temporary security credentials."
+      ],
+      "answer": "AE",
+      "explanation": "AWS IAM Identity Center supports centralized workforce authentication and access assignments across multiple AWS accounts, including integration with external identity providers. IAM roles provide temporary credentials for authorized access without requiring permanent IAM user credentials in every account. Together, these capabilities simplify access administration and reduce reliance on long-term credentials.",
+      "topic": "Security and Compliance",
+      "subtopic": "Identify AWS access management capabilities",
+      "difficulty": "hard",
+      "source": "AWS IAM Identity Center User Guide; IAM User Guide, Temporary Security Credentials"
+    },
+    {
+      "stem": "A company runs a business-critical application in one AWS Region. The application must remain available if an entire Availability Zone experiences an outage. Which architecture will best meet this requirement?",
+      "options": [
+        "Deploy the application on multiple EC2 instances within one Availability Zone.",
+        "Deploy the application across multiple subnets within one Availability Zone.",
+        "Deploy the application across multiple Availability Zones within the same Region.",
+        "Deploy the application on one large EC2 instance with additional storage capacity."
+      ],
+      "answer": "C",
+      "explanation": "Availability Zones are separate infrastructure locations within an AWS Region that are designed to avoid shared single points of failure. Deploying an application across multiple Availability Zones reduces dependence on any single zone and supports higher availability during infrastructure disruptions.",
+      "topic": "Cloud Technology and Services",
+      "subtopic": "Define the AWS global infrastructure",
+      "difficulty": "medium",
+      "source": "AWS Global Infrastructure, Regions and Availability Zones; CLF-C02 Task 3.2"
+    },
+    {
+      "stem": "A developer needs to run application code automatically whenever a file is uploaded to an Amazon S3 bucket. The developer does not want to provision or manage servers. Which AWS compute service will meet this requirement?",
+      "options": [
+        "AWS Lambda",
+        "Amazon EC2",
+        "Amazon ECS",
+        "Amazon Lightsail"
+      ],
+      "answer": "A",
+      "explanation": "AWS Lambda runs code in response to events without requiring customers to provision or manage servers. An Amazon S3 object creation event can trigger a Lambda function to process an uploaded file automatically.",
+      "topic": "Cloud Technology and Services",
+      "subtopic": "Identify AWS compute services",
+      "difficulty": "easy",
+      "source": "AWS Lambda Developer Guide, Event-Driven Invocation; CLF-C02 Task 3.3"
+    },
+    {
+      "stem": "A company is developing an application that stores customer shopping carts as key-value records. The application requires a fully managed NoSQL database that provides low-latency access and automatically scales to support changing workloads. Which AWS database service should the company choose?",
+      "options": [
+        "Amazon RDS",
+        "Amazon Aurora",
+        "Amazon Redshift",
+        "Amazon DynamoDB"
+      ],
+      "answer": "D",
+      "explanation": "Amazon DynamoDB is a fully managed NoSQL database service designed for key-value and document workloads with low-latency access. It supports scalable throughput and is well suited to applications such as shopping carts, user profiles, and session management.",
+      "topic": "Cloud Technology and Services",
+      "subtopic": "Identify AWS database services",
+      "difficulty": "medium",
+      "source": "Amazon DynamoDB Developer Guide, What is Amazon DynamoDB?; CLF-C02 Task 3.4"
+    },
+    {
+      "stem": "A financial services company needs to establish network connectivity between its on-premises data center and AWS. The company requires a dedicated network connection that does not use the public internet for the network path and provides more consistent network performance than an internet-based VPN. Which AWS service will meet these requirements?",
+      "options": [
+        "AWS Transit Gateway",
+        "AWS Direct Connect",
+        "AWS Site-to-Site VPN",
+        "Amazon CloudFront"
+      ],
+      "answer": "B",
+      "explanation": "AWS Direct Connect provides dedicated network connectivity between customer environments and AWS through a private network connection. Unlike a standard internet-based Site-to-Site VPN, Direct Connect does not require traffic to traverse the public internet and can provide more predictable network performance. Direct Connect connections are not encrypted by default, so encryption must be considered separately when required.",
+      "topic": "Cloud Technology and Services",
+      "subtopic": "Identify AWS network services",
+      "difficulty": "hard",
+      "source": "AWS Direct Connect User Guide, What is AWS Direct Connect?; CLF-C02 Task 3.5"
+    },
+    {
+      "stem": "A company stores millions of objects in Amazon S3. The access frequency of individual objects is unpredictable and changes over time. The company wants Amazon S3 to automatically optimize storage costs by moving objects between access tiers while preserving access when needed. Which S3 storage class should the company use?",
+      "options": [
+        "S3 One Zone-Infrequent Access",
+        "S3 Glacier Deep Archive",
+        "S3 Intelligent-Tiering",
+        "S3 Standard"
+      ],
+      "answer": "C",
+      "explanation": "S3 Intelligent-Tiering monitors object access patterns and automatically moves eligible objects between access tiers to optimize storage costs. It is designed for data with unknown or changing access patterns and avoids the need to manually predict how frequently each object will be accessed.",
+      "topic": "Cloud Technology and Services",
+      "subtopic": "Identify AWS storage services",
+      "difficulty": "medium",
+      "source": "Amazon S3 User Guide, S3 Intelligent-Tiering Storage Class; CLF-C02 Task 3.6"
+    },
+    {
+      "stem": "A company needs to deploy identical AWS infrastructure to separate development, testing, and production environments. The infrastructure includes Amazon VPC resources, security groups, and EC2 instances. The company wants to define these resources in templates and deploy them consistently through an automated process. Which AWS service should the company use?",
+      "options": [
+        "AWS CloudFormation",
+        "AWS CloudTrail",
+        "AWS Config",
+        "AWS Trusted Advisor"
+      ],
+      "answer": "A",
+      "explanation": "AWS CloudFormation provides infrastructure as code capabilities that allow AWS resources to be defined in templates and provisioned as stacks. Templates support repeatable and consistent infrastructure deployments across environments while reducing the need for manual configuration.",
+      "topic": "Cloud Technology and Services",
+      "subtopic": "Define methods of deploying and operating in the AWS Cloud",
+      "difficulty": "medium",
+      "source": "AWS CloudFormation User Guide, What is AWS CloudFormation?; CLF-C02 Task 3.1"
+    },
+    {
+      "stem": "A company stores application log files in Amazon S3. Business analysts want to run SQL queries directly against the stored data without provisioning database servers or loading the data into a traditional relational database. Which AWS service will meet these requirements?",
+      "options": [
+        "Amazon Kinesis Data Streams",
+        "AWS Glue",
+        "Amazon Redshift",
+        "Amazon Athena"
+      ],
+      "answer": "D",
+      "explanation": "Amazon Athena is a serverless query service that enables users to analyze data stored in Amazon S3 using SQL. It does not require users to provision database infrastructure or move the data into a conventional database before querying supported formats.",
+      "topic": "Cloud Technology and Services",
+      "subtopic": "Identify AWS artificial intelligence and machine learning (AI/ML) services and analytics services",
+      "difficulty": "medium",
+      "source": "Amazon Athena User Guide, What is Amazon Athena?; CLF-C02 Task 3.7"
+    },
+    {
+      "stem": "A company processes large batches of historical records on Amazon EC2. The jobs can be interrupted and restarted without significant business impact, and the company wants to reduce computing costs by using spare EC2 capacity at discounted prices. Which EC2 purchasing option should the company choose?",
+      "options": [
+        "On-Demand Instances",
+        "Spot Instances",
+        "Dedicated Hosts",
+        "On-Demand Capacity Reservations"
+      ],
+      "answer": "B",
+      "explanation": "Amazon EC2 Spot Instances provide access to unused EC2 capacity at discounted prices compared with On-Demand pricing. Because AWS can interrupt Spot Instances when capacity is needed, they are particularly suitable for fault-tolerant batch processing and workloads that can recover from interruptions.",
+      "topic": "Billing, Pricing, and Support",
+      "subtopic": "Compare AWS pricing models",
+      "difficulty": "medium",
+      "source": "Amazon EC2 User Guide, Spot Instances; CLF-C02 Task 4.1"
+    },
+    {
+      "stem": "A company wants to receive an email notification when its forecasted monthly AWS charges are expected to exceed a specified spending threshold. Which AWS service should the company use?",
+      "options": [
+        "AWS Cost Explorer",
+        "AWS Pricing Calculator",
+        "AWS Budgets",
+        "Amazon CloudWatch"
+      ],
+      "answer": "C",
+      "explanation": "AWS Budgets allows organizations to define spending thresholds and configure alerts based on actual or forecasted costs. It helps teams monitor their expenditure against planned budgets and receive notifications before anticipated spending exceeds their targets.",
+      "topic": "Billing, Pricing, and Support",
+      "subtopic": "Understand resources for billing, budget, and cost management",
+      "difficulty": "easy",
+      "source": "AWS Budgets User Guide, Creating and Managing Budgets; CLF-C02 Task 4.2"
+    }
+  ]
+}

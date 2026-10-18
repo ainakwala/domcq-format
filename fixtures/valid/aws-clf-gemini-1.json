@@ -1,0 +1,310 @@
+{
+  "format": "domcq/1",
+  "exam": "aws-clf",
+  "set": "AWS Certified Cloud Practitioner practice – CLF-C02 Core Exam Readiness",
+  "questions": [
+    {
+      "stem": "Which benefit of the AWS Cloud enables a company to eliminate upfront data center capital investments and pay only for resources as they are consumed?",
+      "options": [
+        "High availability across global regions",
+        "Decoupled multi-tier application architecture",
+        "Trading fixed expense for variable expense",
+        "Automatic operational compliance validation"
+      ],
+      "answer": "C",
+      "explanation": "Trading capital expense for variable expense allows organizations to pay only for computing resources when they consume them, rather than investing heavily in physical data centers and physical servers upfront. This variable operational model reduces financial risk and improves cash flow flexibility. High availability and decoupling are architectural benefits, but they do not describe the financial shift from fixed to variable cost.",
+      "topic": "Cloud Concepts",
+      "subtopic": "Define the benefits of the AWS Cloud",
+      "difficulty": "easy",
+      "source": "AWS Certified Cloud Practitioner Exam Guide (CLF-C02) - Domain 1: Cloud Concepts"
+    },
+    {
+      "stem": "A company is designing a modern cloud application with microservices. Which AWS Well-Architected design principle reduces interdependencies so that the failure of one component does not cascade to other components?",
+      "options": [
+        "Loose coupling",
+        "Monolithic architecture",
+        "Vertical scaling",
+        "Single-server redundancy"
+      ],
+      "answer": "A",
+      "explanation": "Loose coupling isolates system components from one another so that a failure or modification in one service does not directly disrupt dependent services. Implementing services like Amazon Simple Queue Service (Amazon SQS) between microservices provides this architectural resilience. Monolithic designs increase interdependency and expand failure blast radiuses, while vertical scaling focuses on sizing individual instances rather than architectural isolation.",
+      "topic": "Cloud Concepts",
+      "subtopic": "Identify design principles of the AWS Cloud",
+      "difficulty": "medium",
+      "source": "AWS Well-Architected Framework - Reliability Pillar: Design Principles"
+    },
+    {
+      "stem": "A company plans to move an existing enterprise application from an on-premises data center to Amazon EC2 without modifying any application code or architecture. Which migration strategy is the company using?",
+      "options": [
+        "Refactoring",
+        "Repurchasing",
+        "Retiring",
+        "Rehosting"
+      ],
+      "answer": "D",
+      "explanation": "Rehosting, also known as 'lift-and-shift', involves moving an application and its supporting operating systems to the cloud without making architecture or code changes. Refactoring involves redesigning an application to take advantage of cloud-native capabilities, while repurchasing involves transitioning to an entirely different product such as a SaaS platform. Retiring removes applications that are no longer useful to the organization.",
+      "topic": "Cloud Concepts",
+      "subtopic": "Understand the benefits of and strategies for migration to the AWS Cloud",
+      "difficulty": "medium",
+      "source": "AWS Cloud Adoption Framework (AWS CAF) - Migration Strategies (The 7 Rs)"
+    },
+    {
+      "stem": "Why is AWS able to continually reduce prices for cloud computing services over time?",
+      "options": [
+        "By requiring long-term upfront purchase commitments from all cloud customers",
+        "By aggregating customer usage to achieve massive economies of scale",
+        "By restricting infrastructure capacity across international AWS Regions",
+        "By transferring physical data center maintenance duties to customers"
+      ],
+      "answer": "B",
+      "explanation": "Because AWS aggregates computing usage across hundreds of thousands of active customers, it achieves massive economies of scale. These operational efficiencies translate into lower procurement costs and infrastructure savings, which AWS systematically passes back to customers in the form of lower pay-as-you-go pricing. Customers are not required to make upfront commitments to receive standard price reductions, nor is physical infrastructure management passed to customers.",
+      "topic": "Cloud Concepts",
+      "subtopic": "Understand concepts of cloud economics",
+      "difficulty": "easy",
+      "source": "AWS Certified Cloud Practitioner Exam Guide (CLF-C02) - Cloud Economics and Value Proposition"
+    },
+    {
+      "stem": "Which advantages do organizations gain by moving workloads to the AWS Cloud? (Choose TWO.)",
+      "options": [
+        "Direct physical access to customize data center hardware",
+        "Increased speed and agility to deploy resources within minutes",
+        "Permanent operational price-freeze guarantees across all regions",
+        "Automatic remediation of application-level source code defects",
+        "Global deployment capability in minutes using worldwide infrastructure"
+      ],
+      "answer": "BE",
+      "explanation": "Moving workloads to the AWS Cloud allows organizations to drastically increase agility by provisioning computing infrastructure in minutes rather than waiting weeks or months for physical hardware procurement. Additionally, the global AWS infrastructure footprint enables companies to deploy applications to users worldwide with low latency at minimal effort. AWS manages the physical hardware rather than the customer, and application-level code remediation remains the customer's responsibility.",
+      "topic": "Cloud Concepts",
+      "subtopic": "Define the benefits of the AWS Cloud",
+      "difficulty": "medium",
+      "source": "AWS Certified Cloud Practitioner Exam Guide (CLF-C02) - Benefits of Cloud Computing"
+    },
+    {
+      "stem": "According to the AWS shared responsibility model, which task is the sole responsibility of AWS when running workloads on Amazon EC2?",
+      "options": [
+        "Patching the guest operating system installed on the EC2 instances",
+        "Configuring security group firewall rules to filter network traffic",
+        "Maintaining the physical hardware and underlying virtualization infrastructure",
+        "Managing customer data encryption keys and user access permissions"
+      ],
+      "answer": "C",
+      "explanation": "Under the AWS shared responsibility model, AWS is responsible for security 'of' the cloud, which includes the physical data centers, networking hardware, and virtualization hypervisors that power services like Amazon EC2. The customer is responsible for security 'in' the cloud, which includes the guest operating system patches, security group firewalls, customer data, and IAM access policies.",
+      "topic": "Security and Compliance",
+      "subtopic": "Understand the AWS shared responsibility model",
+      "difficulty": "easy",
+      "source": "AWS Shared Responsibility Model - Security of the Cloud vs. Security in the Cloud"
+    },
+    {
+      "stem": "A company runs its relational database on Amazon RDS. According to the AWS shared responsibility model, which tasks are the customer's responsibility? (Choose TWO.)",
+      "options": [
+        "Installing operating system patches on the underlying database server host",
+        "Managing database user accounts and database access permissions",
+        "Replacing defective server hardware components in the AWS data center",
+        "Managing database schema design and table indexes",
+        "Performing physical facility maintenance and site security audits"
+      ],
+      "answer": "BD",
+      "explanation": "Amazon RDS is a managed database service where AWS handles host operating system maintenance, physical server hardware replacement, and data center facilities. The customer remains responsible for managing access to the database engine (user credentials and permissions) as well as the database schema, query design, and data stored within the engine. Hardware replacement and physical security are managed exclusively by AWS.",
+      "topic": "Security and Compliance",
+      "subtopic": "Understand the AWS shared responsibility model",
+      "difficulty": "medium",
+      "source": "AWS Shared Responsibility Model - Managed Services (Amazon RDS)"
+    },
+    {
+      "stem": "A company needs to grant an application running on an Amazon EC2 instance permission to securely read files from an Amazon S3 bucket. Which AWS Identity and Access Management (IAM) feature should the company use?",
+      "options": [
+        "IAM user access keys hardcoded into the application configuration file",
+        "IAM role attached directly to the Amazon EC2 instance",
+        "AWS account root user credentials stored on the instance storage volume",
+        "IAM group policy applied to the local operating system users"
+      ],
+      "answer": "B",
+      "explanation": "An IAM role attached to an Amazon EC2 instance allows applications on that instance to retrieve temporary security credentials securely and automatically through the instance metadata service. This avoids embedding long-term access keys or credentials in code or server configuration files, aligning with AWS security best practices. Hardcoding credentials or using root credentials presents severe security risks.",
+      "topic": "Security and Compliance",
+      "subtopic": "Identify AWS access management capabilities",
+      "difficulty": "easy",
+      "source": "AWS IAM User Guide - IAM Roles for Amazon EC2"
+    },
+    {
+      "stem": "Which AWS service or feature will meet the requirement to protect a web application from common web exploits such as SQL injection and cross-site scripting (XSS) at the application layer?",
+      "options": [
+        "AWS WAF",
+        "AWS Shield Standard",
+        "Amazon GuardDuty",
+        "Network Access Control Lists (network ACLs)"
+      ],
+      "answer": "A",
+      "explanation": "AWS WAF is a web application firewall that monitors HTTP and HTTPS requests forwarded to Amazon CloudFront, an Application Load Balancer, Amazon API Gateway, or AWS AppSync. It allows administrators to create rules that block common attack patterns such as SQL injection and cross-site scripting at Layer 7. AWS Shield Standard focuses on Layer 3 and Layer 4 DDoS attacks, while network ACLs filter subnet traffic at the IP protocol and port level.",
+      "topic": "Security and Compliance",
+      "subtopic": "Identify components and resources for security",
+      "difficulty": "medium",
+      "source": "AWS WAF Developer Guide - Web Application Defense Concepts"
+    },
+    {
+      "stem": "A financial organization must review AWS third-party compliance reports, such as System and Organization Controls (SOC) and Payment Card Industry (PCI) reports, to prepare for an audit. Which AWS service provides on-demand access to these compliance documents?",
+      "options": [
+        "AWS Trusted Advisor",
+        "AWS Audit Manager",
+        "AWS Secrets Manager",
+        "AWS Artifact"
+      ],
+      "answer": "D",
+      "explanation": "AWS Artifact is a self-service compliance portal providing on-demand access to AWS security and compliance reports (such as SOC and PCI reports) as well as AWS compliance agreements. AWS Audit Manager helps automate internal evidence collection for internal controls, but does not provide AWS's own external compliance reports. AWS Trusted Advisor provides guidance on cost and operational best practices, while Secrets Manager manages database secrets and API keys.",
+      "topic": "Security and Compliance",
+      "subtopic": "Understand AWS Cloud security, governance, and compliance concepts",
+      "difficulty": "hard",
+      "source": "AWS Artifact User Guide - Accessing Compliance Reports and Agreements"
+    },
+    {
+      "stem": "A company requires continuous intelligent threat detection to identify unauthorized behavior, compromised credentials, and malicious API activity across its AWS environment. Which AWS service will meet these requirements?",
+      "options": [
+        "Amazon Inspector",
+        "AWS CloudTrail",
+        "Amazon GuardDuty",
+        "AWS Systems Manager"
+      ],
+      "answer": "C",
+      "explanation": "Amazon GuardDuty is an intelligent threat detection service that continuously monitors AWS accounts and workloads by analyzing CloudTrail event logs, VPC Flow Logs, and DNS logs using machine learning and integrated threat intelligence. Amazon Inspector focuses on automated vulnerability scanning and software flaws on EC2 instances and container images, while CloudTrail records and logs API activity rather than actively analyzing threats.",
+      "topic": "Security and Compliance",
+      "subtopic": "Identify components and resources for security",
+      "difficulty": "hard",
+      "source": "Amazon GuardDuty User Guide - Threat Detection Fundamentals"
+    },
+    {
+      "stem": "Which statement accurately describes an AWS Availability Zone?",
+      "options": [
+        "A single isolated server rack located within a local branch office",
+        "One or more discrete data centers with redundant power, networking, and connectivity",
+        "A regional edge cache location used exclusively for static content caching",
+        "A geographical grouping of several distinct AWS Regions across a continent"
+      ],
+      "answer": "B",
+      "explanation": "An AWS Availability Zone (AZ) consists of one or more discrete physical data centers within an AWS Region, each equipped with independent redundant power, cooling, and low-latency networking. Designing applications across multiple AZs provides fault tolerance against data center failures. Edge locations deliver cached content via Amazon CloudFront, whereas Regions contain multiple Availability Zones.",
+      "topic": "Cloud Technology and Services",
+      "subtopic": "Define the AWS global infrastructure",
+      "difficulty": "easy",
+      "source": "AWS Global Infrastructure Guide - Regions and Availability Zones"
+    },
+    {
+      "stem": "A developer wants to run backend code in response to user file uploads without provisioning, managing, or scaling virtual server instances. Which AWS service will meet these requirements?",
+      "options": [
+        "AWS Lambda",
+        "Amazon EC2",
+        "Amazon Elastic Kubernetes Service (Amazon EKS)",
+        "AWS Outposts"
+      ],
+      "answer": "A",
+      "explanation": "AWS Lambda is a serverless compute service that runs code in response to events (such as an Amazon S3 file upload) and automatically manages the underlying compute resources, scaling execution based on demand. Amazon EC2 requires provisioning and patching virtual machines. Amazon EKS requires managing Kubernetes container clusters, and AWS Outposts brings AWS infrastructure directly onto on-premises sites.",
+      "topic": "Cloud Technology and Services",
+      "subtopic": "Identify AWS compute services",
+      "difficulty": "medium",
+      "source": "AWS Lambda Developer Guide - Serverless Computing Overview"
+    },
+    {
+      "stem": "A media streaming application requires a fully managed NoSQL key-value database that delivers consistent, single-digit millisecond latency at any scale. Which AWS database service should the company choose?",
+      "options": [
+        "Amazon RDS for PostgreSQL",
+        "Amazon Aurora",
+        "Amazon Redshift",
+        "Amazon DynamoDB"
+      ],
+      "answer": "D",
+      "explanation": "Amazon DynamoDB is a fully managed, serverless NoSQL database designed for fast and predictable performance with seamless scalability, delivering single-digit millisecond response times for key-value and document data models. Amazon RDS and Amazon Aurora are relational database services suited for structured tabular schemas and SQL queries. Amazon Redshift is a cloud data warehouse designed for complex analytical processing.",
+      "topic": "Cloud Technology and Services",
+      "subtopic": "Identify AWS database services",
+      "difficulty": "medium",
+      "source": "Amazon DynamoDB Developer Guide - Core Architecture and Use Cases"
+    },
+    {
+      "stem": "A company requires a shared file storage solution that multiple Linux Amazon EC2 instances can mount and access concurrently using standard POSIX file system permissions. Which AWS service will meet these requirements?",
+      "options": [
+        "Amazon Elastic Block Store (Amazon EBS)",
+        "Amazon S3 Glacier Flexible Retrieval",
+        "Amazon Elastic File System (Amazon EFS)",
+        "Amazon Simple Storage Service (Amazon S3)"
+      ],
+      "answer": "C",
+      "explanation": "Amazon EFS provides a scalable, fully managed shared file system that can be mounted concurrently by multiple Amazon EC2 instances running Linux via the Network File System (NFSv4) protocol with standard POSIX permissions. Amazon EBS volumes are typically attached to a single instance at a time as block storage. Amazon S3 is an object store accessed via an API rather than a POSIX file system.",
+      "topic": "Cloud Technology and Services",
+      "subtopic": "Identify AWS storage services",
+      "difficulty": "medium",
+      "source": "Amazon EFS User Guide - File Storage for Amazon EC2"
+    },
+    {
+      "stem": "Which statements describe characteristics of security groups in an Amazon VPC? (Choose TWO.)",
+      "options": [
+        "They are stateful, meaning return traffic is automatically allowed regardless of inbound rules",
+        "They operate at the subnet level rather than the network interface level",
+        "They can explicitly deny specific IP addresses using deny rules",
+        "They evaluate rules in strict numbered numerical order from lowest to highest",
+        "They evaluate all rules before deciding whether to allow network traffic"
+      ],
+      "answer": "AE",
+      "explanation": "Security groups act as virtual firewalls at the instance and network interface level and are stateful: if an inbound request is permitted, response traffic is automatically allowed out regardless of outbound rules. In addition, security groups evaluate all rules before allowing traffic, and only support allow rules (they cannot specify explicit deny rules). Network ACLs operate at the subnet level, are stateless, and evaluate numbered rules sequentially.",
+      "topic": "Cloud Technology and Services",
+      "subtopic": "Identify AWS network services",
+      "difficulty": "hard",
+      "source": "Amazon VPC User Guide - Security Groups vs. Network ACLs"
+    },
+    {
+      "stem": "A company wants to add image and video analysis capabilities to its mobile application to detect inappropriate content, recognize faces, and identify objects without developing custom machine learning models. Which AWS service will meet these requirements?",
+      "options": [
+        "Amazon SageMaker",
+        "Amazon Rekognition",
+        "Amazon Comprehend",
+        "Amazon Lex"
+      ],
+      "answer": "B",
+      "explanation": "Amazon Rekognition is a managed computer vision service that allows applications to identify objects, people, text, scenes, and inappropriate content in images and videos using pre-trained machine learning models via simple API calls. Amazon SageMaker is used to build, train, and deploy custom machine learning models from scratch. Amazon Comprehend provides natural language processing for text, and Amazon Lex builds conversational chatbots.",
+      "topic": "Cloud Technology and Services",
+      "subtopic": "Identify AWS artificial intelligence and machine learning (AI/ML) services and analytics services",
+      "difficulty": "medium",
+      "source": "Amazon Rekognition Developer Guide - What is Amazon Rekognition?"
+    },
+    {
+      "stem": "A company wants to automate the provisioning of its cloud infrastructure across multiple environments by defining resources as code using declarative JSON or YAML configuration templates. Which AWS service will meet these requirements?",
+      "options": [
+        "AWS CloudFormation",
+        "AWS Elastic Beanstalk",
+        "AWS CodeDeploy",
+        "AWS Config"
+      ],
+      "answer": "A",
+      "explanation": "AWS CloudFormation provides infrastructure as code (IaC), allowing developers to model and provision AWS and third-party resources using declarative JSON or YAML templates. This guarantees consistent, reproducible deployments across test, staging, and production environments. AWS Elastic Beanstalk automates application deployment without template modeling, AWS CodeDeploy automates software deployments to compute services, and AWS Config tracks resource configuration compliance.",
+      "topic": "Cloud Technology and Services",
+      "subtopic": "Define methods of deploying and operating in the AWS Cloud",
+      "difficulty": "hard",
+      "source": "AWS CloudFormation User Guide - Infrastructure as Code Fundamentals"
+    },
+    {
+      "stem": "A company has batch data processing workloads that run periodically, can tolerate interruptions, and have flexible start and end times. Which Amazon EC2 pricing model offers the lowest cost for these workloads?",
+      "options": [
+        "On-Demand Instances",
+        "Reserved Instances",
+        "Spot Instances",
+        "Dedicated Hosts"
+      ],
+      "answer": "C",
+      "explanation": "Amazon EC2 Spot Instances allow customers to take advantage of unused EC2 capacity in the AWS Cloud at steep discounts of up to 90% compared to On-Demand prices. Spot Instances are ideal for workloads with flexible start and completion times that can tolerate unexpected interruptions, such as batch jobs and stateless distributed computing. On-Demand and Reserved Instances cost more, and Dedicated Hosts are reserved for strict regulatory or software licensing requirements.",
+      "topic": "Billing, Pricing, and Support",
+      "subtopic": "Compare AWS pricing models",
+      "difficulty": "medium",
+      "source": "Amazon EC2 Pricing Guide - Spot Instances Overview"
+    },
+    {
+      "stem": "A finance manager wants to receive an email notification whenever monthly AWS spending exceeds a predetermined threshold of $1,000. Which AWS service or tool should the company use to configure this notification?",
+      "options": [
+        "AWS Cost Explorer",
+        "AWS Budgets",
+        "AWS Pricing Calculator",
+        "AWS Systems Manager"
+      ],
+      "answer": "B",
+      "explanation": "AWS Budgets allows organizations to set custom cost and usage limits and configure automated alerts when actual or forecasted spending exceeds specified monetary thresholds. AWS Cost Explorer is used to visualize, understand, and analyze historical spending patterns and trends, but does not configure budget alerts. The AWS Pricing Calculator estimates potential costs before deploying workloads.",
+      "topic": "Billing, Pricing, and Support",
+      "subtopic": "Understand resources for billing, budget, and cost management",
+      "difficulty": "easy",
+      "source": "AWS Billing and Cost Management User Guide - Managing Costs with AWS Budgets"
+    }
+  ]
+}
