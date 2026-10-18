@@ -1,0 +1,74 @@
+{
+  "id": "finra-sie",
+  "display_name": "Securities Industry Essentials (SIE) Exam",
+  "body": "FINRA",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by the Financial Industry Regulatory Authority, Inc. (FINRA); the names are used only to identify the exam. FINRA®, Securities Industry Essentials® and SIE® are registered trademarks of the Financial Industry Regulatory Authority, Inc.",
+  "taxonomy": {
+    "Knowledge of Capital Markets": [
+      "The Securities and Exchange Commission (SEC)",
+      "Self-regulatory Organizations (SROs)",
+      "Other Regulators and Agencies",
+      "Market Participants and their Roles",
+      "Types of Markets",
+      "The Federal Reserve Board’s Impact on Business Activity and Market Stability",
+      "Business Economic Factors",
+      "International Economic Factors",
+      "Offerings"
+    ],
+    "Understanding Products and Their Risks": [
+      "Equity Securities",
+      "Debt Instruments",
+      "Options",
+      "Packaged Products",
+      "Municipal Fund Securities",
+      "Direct Participation Programs (DPPs)",
+      "Real Estate Investment Trusts (REITs)",
+      "Hedge Funds",
+      "Exchange-traded Products (ETPs)",
+      "Investment Risks"
+    ],
+    "Understanding Trading, Customer Accounts and Prohibited Activities": [
+      "Orders and Strategies",
+      "Investment Returns",
+      "Trade Settlement",
+      "Corporate Actions",
+      "Account Types and Characteristics",
+      "Customer Account Registrations",
+      "Anti-money Laundering (AML)",
+      "Books and Records and Privacy Requirements",
+      "Communications with the Public and General Best Interest Obligations and Suitability Requirements",
+      "Market Manipulation",
+      "Insider Trading",
+      "Other Prohibited Activities"
+    ],
+    "Overview of the Regulatory Framework": [
+      "Registration and Continuing Education",
+      "Employee Conduct",
+      "Reportable Events"
+    ]
+  },
+  "weights": {
+    "Knowledge of Capital Markets": 16,
+    "Understanding Products and Their Risks": 44,
+    "Understanding Trading, Customer Accounts and Prohibited Activities": 31,
+    "Overview of the Regulatory Framework": 9
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": false,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [],
+  "uncovered_item_types": [],
+  "exam_mode": {
+    "questions": 80,
+    "minutes": 105
+  },
+  "verified_outline": "Securities Industry Essentials (SIE) Examination Content Outline (FINRA, © 2025)",
+  "verified_on": "2026-10-18",
+  "next_review": "2027-10-18"
+}
