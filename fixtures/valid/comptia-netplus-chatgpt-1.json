@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "comptia-netplus",
+  "set": "CompTIA Network+ (N10-009) practice – Network Fundamentals and Scenarios",
+  "questions": [
+    {
+      "stem": "A router examines the destination IPv4 address of an incoming packet and determines the next hop required to forward the packet to another network. At which layer of the OSI model does this forwarding decision primarily occur?",
+      "options": [
+        "Session layer",
+        "Data link layer",
+        "Network layer",
+        "Transport layer"
+      ],
+      "answer": "C",
+      "explanation": "The network layer, Layer 3 of the OSI model, is responsible for logical addressing and routing packets between networks. Routers examine destination IP addresses and use routing tables to select the appropriate next hop. The data link layer primarily handles frame delivery within a local network.",
+      "topic": "Networking Concepts",
+      "subtopic": "Explain concepts related to the Open Systems Interconnection (OSI) reference model",
+      "difficulty": "easy",
+      "source": "CompTIA Network+ N10-009 Exam Objectives, 1.1: OSI reference model"
+    },
+    {
+      "stem": "A network administrator is configuring a firewall to allow users on the internet to establish standard encrypted HTTPS connections to a company's web server. Which of the following destination TCP ports should the administrator permit?",
+      "options": [
+        "443",
+        "80",
+        "22",
+        "3389"
+      ],
+      "answer": "A",
+      "explanation": "HTTPS normally uses TCP port 443 to provide encrypted web communication using TLS. TCP port 80 is commonly used for unencrypted HTTP, port 22 for SSH, and port 3389 for Remote Desktop Protocol. Allowing TCP 443 permits standard HTTPS connections to the server.",
+      "topic": "Networking Concepts",
+      "subtopic": "Explain common networking ports, protocols, services, and traffic types",
+      "difficulty": "easy",
+      "source": "CompTIA Network+ N10-009 Exam Objectives, 1.4: Ports, protocols, and services"
+    },
+    {
+      "stem": "A network administrator has allocated 192.168.100.0/26 to a department requiring 50 usable IPv4 addresses. A second department requires 25 usable addresses. Which of the following is the lowest available nonoverlapping subnet that provides the second department with sufficient addresses while using the smallest suitable subnet size?",
+      "options": [
+        "192.168.100.32/27",
+        "192.168.100.64/26",
+        "192.168.100.96/27",
+        "192.168.100.64/27"
+      ],
+      "answer": "D",
+      "explanation": "The existing /26 occupies addresses 192.168.100.0 through 192.168.100.63. A /27 provides 32 total addresses, including 30 usable host addresses, which is sufficient for 25 hosts. The next available /27 begins at 192.168.100.64, making 192.168.100.64/27 the most address-efficient allocation at the lowest available address.",
+      "topic": "Networking Concepts",
+      "subtopic": "Given a scenario, use appropriate IPv4 network addressing",
+      "difficulty": "hard",
+      "source": "CompTIA Network+ N10-009 Exam Objectives, 1.7: IPv4 addressing, CIDR, and VLSM"
+    },
+    {
+      "stem": "A company has three branch offices connected through MPLS and broadband internet circuits. The network team wants to manage WAN policies centrally and automatically select the most appropriate connection for voice traffic based on current latency, packet loss, and link availability. Which of the following technologies would BEST meet these requirements?",
+      "options": [
+        "Virtual Extensible LAN (VXLAN)",
+        "Software-defined WAN (SD-WAN)",
+        "Simple Network Management Protocol (SNMP)",
+        "Port address translation (PAT)"
+      ],
+      "answer": "B",
+      "explanation": "SD-WAN supports centralized policy management and application-aware traffic steering across different WAN transport types. It can monitor link characteristics such as latency and packet loss and direct voice traffic over the most suitable available path. VXLAN extends Layer 2 connectivity, while SNMP provides management and monitoring capabilities.",
+      "topic": "Networking Concepts",
+      "subtopic": "Summarize evolving use cases for modern network environments",
+      "difficulty": "medium",
+      "source": "CompTIA Network+ N10-009 Exam Objectives, 1.8: SDN and SD-WAN"
+    },
+    {
+      "stem": "Two managed switches must carry traffic for VLANs 10, 20, and 30 over a single Ethernet connection. The administrator wants to preserve the VLAN identity of frames traveling between the switches. Which of the following configurations should be used?",
+      "options": [
+        "Configure the uplink as a single-VLAN access port",
+        "Configure the uplink as an isolated switch port",
+        "Configure the uplink as an 802.1Q trunk port",
+        "Configure the uplink as a port-mirroring destination"
+      ],
+      "answer": "C",
+      "explanation": "An IEEE 802.1Q trunk carries traffic belonging to multiple VLANs over one physical connection. VLAN tags identify the VLAN associated with tagged Ethernet frames, allowing the receiving switch to maintain VLAN separation. An access port normally carries traffic for a single VLAN.",
+      "topic": "Network Implementation",
+      "subtopic": "Given a scenario, configure switching technologies and features",
+      "difficulty": "easy",
+      "source": "CompTIA Network+ N10-009 Exam Objectives, 2.2: VLANs and 802.1Q tagging"
+    },
+    {
+      "stem": "A router has the following routes installed in its forwarding table: 10.20.0.0/16 via R1 with metric 5; 10.20.30.0/24 via R2 with metric 50; 10.20.30.128/25 via R3 with metric 200; and 0.0.0.0/0 via R4. A packet arrives with destination IP address 10.20.30.200. Which of the following routes will the router select?",
+      "options": [
+        "R3, using 10.20.30.128/25",
+        "R1, using 10.20.0.0/16",
+        "R2, using 10.20.30.0/24",
+        "R4, using 0.0.0.0/0"
+      ],
+      "answer": "A",
+      "explanation": "Routers use longest-prefix matching when selecting among installed routes to a destination. The destination 10.20.30.200 matches all four entries, but the /25 route is the most specific. Therefore, the packet is forwarded through R3 despite its higher metric. Metrics are relevant when comparing otherwise eligible routes with equal prefix lengths.",
+      "topic": "Network Implementation",
+      "subtopic": "Explain characteristics of routing technologies",
+      "difficulty": "hard",
+      "source": "CompTIA Network+ N10-009 Exam Objectives, 2.1: Route selection, prefix length, and metrics"
+    },
+    {
+      "stem": "A company wants employees to connect to its wireless network using individual credentials instead of a shared wireless password. The access points must authenticate users through a centralized authentication server. Which TWO of the following technologies are appropriate for implementing enterprise wireless authentication? Choose TWO.",
+      "options": [
+        "Wi-Fi Protected Setup (WPS)",
+        "IEEE 802.1X authentication",
+        "Wireless pre-shared key authentication",
+        "Remote Authentication Dial-In User Service (RADIUS)"
+      ],
+      "answer": "BD",
+      "explanation": "IEEE 802.1X provides a framework for port-based network access authentication, including enterprise wireless access. RADIUS commonly provides centralized authentication, authorization, and accounting services for an 802.1X deployment. Pre-shared keys do not provide individualized enterprise authentication, and WPS is not an appropriate substitute.",
+      "topic": "Network Implementation",
+      "subtopic": "Given a scenario, select and configure wireless devices and technologies",
+      "difficulty": "medium",
+      "source": "CompTIA Network+ N10-009 Exam Objectives, 2.3: Wireless authentication, PSK vs. Enterprise"
+    },
+    {
+      "stem": "A rack-mounted network switch is installed in a data center where cold air enters equipment from the front of the racks and hot air exits at the rear. The newly installed switch draws air from the rear and exhausts it through the front, causing overheating despite adequate room cooling. Which of the following is the BEST corrective action?",
+      "options": [
+        "Move the switch to a higher position within the same rack",
+        "Replace the copper patch cables with fiber-optic cables",
+        "Install a switch or compatible fan module with front-to-rear airflow",
+        "Increase the capacity of the rack's uninterruptible power supply"
+      ],
+      "answer": "C",
+      "explanation": "The switch's airflow direction conflicts with the data center's hot-aisle and cold-aisle arrangement. Using equipment or compatible fan modules that draw cool air from the front and exhaust hot air to the rear corrects the airflow mismatch. Moving the switch or increasing UPS capacity does not directly resolve the thermal problem.",
+      "topic": "Network Implementation",
+      "subtopic": "Explain important factors of physical installations",
+      "difficulty": "medium",
+      "source": "CompTIA Network+ N10-009 Exam Objectives, 2.4: Physical installations and environmental factors"
+    },
+    {
+      "stem": "A network administrator has received approval to modify access control lists on a production router during a scheduled maintenance window. The changes could accidentally block access to critical applications. Which of the following should the administrator prepare before implementation to ensure service can be restored if the changes fail?",
+      "options": [
+        "A new baseline of network bandwidth utilization",
+        "An updated wireless channel allocation diagram",
+        "A revised inventory of hardware warranty expiration dates",
+        "A tested rollback procedure and a backup of the current configuration"
+      ],
+      "answer": "D",
+      "explanation": "A rollback procedure defines how to reverse an unsuccessful change, while a configuration backup provides the previous known-working settings. Preparing and validating both before implementation reduces recovery time if the change causes a service interruption. Change management should include planning, approval, implementation, and recovery considerations.",
+      "topic": "Network Operations",
+      "subtopic": "Explain the purpose of organizational processes and procedures",
+      "difficulty": "medium",
+      "source": "CompTIA Network+ N10-009 Exam Objectives, 3.1: Change and configuration management"
+    },
+    {
+      "stem": "A company operates 80 network switches and routers. Administrators need to collect system-generated event messages from these devices into a centralized, searchable repository so they can investigate interface changes, authentication failures, and device errors. Which of the following solutions would BEST meet this requirement?",
+      "options": [
+        "A centralized syslog collector",
+        "An SNMP interface polling service",
+        "A NetFlow traffic collection service",
+        "A wireless spectrum analysis service"
+      ],
+      "answer": "A",
+      "explanation": "A centralized syslog collector aggregates event and diagnostic messages from network devices into a common location. These logs can be searched and correlated to investigate operational events and failures. SNMP polling generally retrieves device information and metrics, while flow monitoring focuses on traffic communication patterns.",
+      "topic": "Network Operations",
+      "subtopic": "Given a scenario, use network monitoring technologies",
+      "difficulty": "medium",
+      "source": "CompTIA Network+ N10-009 Exam Objectives, 3.2: Log aggregation and syslog collectors"
+    },
+    {
+      "stem": "A business develops a disaster recovery plan requiring that no more than 20 minutes of transaction data be lost during an outage. The plan also requires the affected application to be restored within three hours of the disruption. Which of the following correctly identifies the recovery objectives?",
+      "options": [
+        "RPO of three hours and RTO of 20 minutes",
+        "RPO of 20 minutes and RTO of three hours",
+        "MTTR of 20 minutes and MTBF of three hours",
+        "RTO of 20 minutes and MTBF of three hours"
+      ],
+      "answer": "B",
+      "explanation": "The recovery point objective (RPO) specifies the maximum tolerable amount of data loss measured in time, which is 20 minutes in this scenario. The recovery time objective (RTO) specifies the maximum acceptable time to restore service, which is three hours. MTTR and MTBF measure repair duration and reliability rather than these two recovery requirements.",
+      "topic": "Network Operations",
+      "subtopic": "Explain disaster recovery (DR) concepts",
+      "difficulty": "medium",
+      "source": "CompTIA Network+ N10-009 Exam Objectives, 3.3: RPO, RTO, MTTR, and MTBF"
+    },
+    {
+      "stem": "A company uses a centralized DHCP server located in VLAN 10. Newly deployed clients in VLAN 40 cannot obtain IPv4 addresses, although inter-VLAN routing is working and the DHCP server has a correctly configured scope for VLAN 40. Which of the following should the administrator configure on the Layer 3 switch to resolve the problem?",
+      "options": [
+        "Reduce the DHCP lease duration for VLAN 40",
+        "Enable port address translation on VLAN 40",
+        "Configure a DHCP relay or IP helper on the VLAN 40 interface",
+        "Create a reverse DNS zone for the VLAN 40 subnet"
+      ],
+      "answer": "C",
+      "explanation": "Initial DHCP discovery messages are broadcast within the client's local subnet and are not normally forwarded by routers. A DHCP relay agent, often configured using an IP helper address, forwards the client's DHCP messages to a server on another subnet. This enables clients in VLAN 40 to obtain addresses from the centralized DHCP server.",
+      "topic": "Network Operations",
+      "subtopic": "Given a scenario, implement IPv4 and IPv6 network services",
+      "difficulty": "medium",
+      "source": "CompTIA Network+ N10-009 Exam Objectives, 3.4: DHCP relay and IP helper"
+    },
+    {
+      "stem": "A temporary contractor needs access to a company's ticketing application but does not require access to financial records, network administration tools, or other internal systems. Which of the following security principles should the administrator apply when granting access?",
+      "options": [
+        "Separation of duties",
+        "Nonrepudiation",
+        "Implicit trust",
+        "Least privilege"
+      ],
+      "answer": "D",
+      "explanation": "The principle of least privilege requires that users receive only the permissions needed to perform their authorized tasks. Granting the contractor access to the ticketing application while restricting unrelated resources reduces the risk of unauthorized access. Permissions should also be removed when they are no longer required.",
+      "topic": "Network Security",
+      "subtopic": "Explain the importance of basic network security concepts",
+      "difficulty": "easy",
+      "source": "CompTIA Network+ N10-009 Exam Objectives, 4.1: Identity and access management"
+    },
+    {
+      "stem": "While staying at a hotel, an employee connects to a wireless network with the same SSID as the hotel's legitimate Wi-Fi network. The employee is redirected to a fraudulent login page requesting corporate credentials. Investigation reveals that an attacker created the wireless network to impersonate the legitimate access point. Which of the following attacks does this BEST describe?",
+      "options": [
+        "Evil twin attack",
+        "MAC flooding attack",
+        "ARP poisoning attack",
+        "VLAN hopping attack"
+      ],
+      "answer": "A",
+      "explanation": "An evil twin attack uses an unauthorized wireless access point that impersonates a legitimate wireless network. Users may connect to the malicious access point and be directed to fraudulent authentication pages or have their communications intercepted. The distinguishing feature is the impersonation of a trusted wireless network.",
+      "topic": "Network Security",
+      "subtopic": "Summarize various types of attacks and their impact to the network",
+      "difficulty": "easy",
+      "source": "CompTIA Network+ N10-009 Exam Objectives, 4.2: Evil twin and rogue wireless attacks"
+    },
+    {
+      "stem": "A security administrator discovers that an attacker connected to a wired access VLAN is transmitting forged ARP replies to redirect traffic through the attacker's laptop. The company's managed switches support DHCP snooping and Dynamic ARP Inspection (DAI). Which TWO of the following configurations would help prevent this attack on client-facing switch ports? Choose TWO.",
+      "options": [
+        "Enable DHCP snooping to establish trusted IP-to-MAC address bindings",
+        "Enable port mirroring to copy client traffic to an analyzer",
+        "Enable DAI on the VLAN and leave client-facing ports untrusted",
+        "Disable spanning tree protection on client-facing switch ports"
+      ],
+      "answer": "AC",
+      "explanation": "DHCP snooping can build a binding database associating assigned IP addresses with client MAC addresses and switch ports. Dynamic ARP Inspection uses trusted binding information to validate ARP packets received on untrusted ports and reject forged mappings. Port mirroring can support investigation but does not itself block the attack, and disabling spanning tree does not prevent ARP spoofing.",
+      "topic": "Network Security",
+      "subtopic": "Given a scenario, apply network security features, defense techniques, and solutions",
+      "difficulty": "hard",
+      "source": "CompTIA Network+ N10-009 Exam Objectives, 4.2–4.3: ARP attacks and network defense"
+    },
+    {
+      "stem": "Several users report that they cannot reach an internal application. A network technician is assigned to investigate the outage and intends to follow the standard network troubleshooting methodology. Which of the following should the technician do FIRST?",
+      "options": [
+        "Replace the network equipment suspected of failing",
+        "Identify the problem and gather relevant information",
+        "Implement a proposed solution across the network",
+        "Document the final findings and corrective actions"
+      ],
+      "answer": "B",
+      "explanation": "The first step of the troubleshooting methodology is to identify the problem by gathering information, questioning users, and determining the symptoms and scope of the issue. Once sufficient evidence has been collected, the technician can establish a theory of probable cause. Replacing equipment or implementing changes before understanding the problem can introduce additional disruption.",
+      "topic": "Network Troubleshooting",
+      "subtopic": "Explain the troubleshooting methodology",
+      "difficulty": "easy",
+      "source": "CompTIA Network+ N10-009 Exam Objectives, 5.1: Troubleshooting methodology"
+    },
+    {
+      "stem": "An Ethernet connection between a printer and a switch is operating at 100 Mbps. The link remains active, but file transfers are unusually slow. The printer interface reports late collisions, while the switch interface reports frame check sequence errors. Which of the following is the MOST likely cause?",
+      "options": [
+        "An incorrect DNS search suffix on the printer",
+        "Overlapping wireless channels near the printer",
+        "A duplex mismatch between the connected interfaces",
+        "An expired DHCP lease on the printer"
+      ],
+      "answer": "C",
+      "explanation": "A duplex mismatch occurs when one Ethernet interface operates in half-duplex mode while the other uses full-duplex mode. The half-duplex side may report collisions, including late collisions, while the full-duplex side may experience corrupted frames and FCS errors. Both interfaces should use compatible speed and duplex settings, typically through proper autonegotiation.",
+      "topic": "Network Troubleshooting",
+      "subtopic": "Given a scenario, troubleshoot common cabling and physical interface issues",
+      "difficulty": "medium",
+      "source": "CompTIA Network+ N10-009 Exam Objectives, 5.2: Interface errors and duplex mismatch"
+    },
+    {
+      "stem": "Workstations on a newly deployed subnet receive IPv4 addresses in the 10.50.20.0/24 network from DHCP. They can communicate with other devices on the same subnet but cannot reach other networks. The router's interface for this subnet is 10.50.20.1, while the workstations receive 10.50.30.1 as their default gateway. Which of the following should the administrator correct?",
+      "options": [
+        "The DNS forward lookup zone configuration",
+        "The network time synchronization server",
+        "The DHCP address lease duration setting",
+        "The DHCP router or default gateway option"
+      ],
+      "answer": "D",
+      "explanation": "A host normally forwards traffic destined for remote networks to a default gateway reachable on its local subnet. The supplied gateway of 10.50.30.1 is not part of the clients' 10.50.20.0/24 subnet. Correcting the DHCP router option to 10.50.20.1 allows clients to forward packets to the local router for delivery to other networks.",
+      "topic": "Network Troubleshooting",
+      "subtopic": "Given a scenario, troubleshoot common issues with network services",
+      "difficulty": "medium",
+      "source": "CompTIA Network+ N10-009 Exam Objectives, 5.3: Incorrect default gateway and DHCP configuration"
+    },
+    {
+      "stem": "An office has three wireless access points in adjoining rooms, all operating on the 2.4 GHz band with 40 MHz channel widths and overlapping channel assignments. Wireless clients report strong signal strength, but packet retransmissions and variable latency increase significantly during busy periods. Which of the following configuration changes would BEST address the likely cause of the performance problem?",
+      "options": [
+        "Increase the 2.4 GHz channel width on all access points",
+        "Use 20 MHz channels 1, 6, and 11 across the access points",
+        "Configure all access points to operate on channel 6",
+        "Increase the transmission power to maximum on every access point"
+      ],
+      "answer": "B",
+      "explanation": "Overlapping 2.4 GHz wireless channels can create adjacent-channel interference and increase retransmissions even when received signal strength is high. Using 20 MHz channel widths and assigning nonoverlapping channels 1, 6, and 11 reduces interference between nearby access points. Wider channels and excessive transmission power can increase contention and interference rather than improve performance.",
+      "topic": "Network Troubleshooting",
+      "subtopic": "Given a scenario, troubleshoot common performance issues",
+      "difficulty": "hard",
+      "source": "CompTIA Network+ N10-009 Exam Objectives, 5.4: Wireless interference, channel overlap, and performance"
+    },
+    {
+      "stem": "A network engineer is investigating the physical connectivity between managed switches. The engineer wants to identify directly connected network devices and their associated interfaces without relying on IP-layer discovery. Which TWO of the following protocols can provide this information through Layer 2 neighbor advertisements? Choose TWO.",
+      "options": [
+        "Link Layer Discovery Protocol (LLDP)",
+        "Internet Control Message Protocol (ICMP)",
+        "Cisco Discovery Protocol (CDP)",
+        "Domain Name System (DNS)"
+      ],
+      "answer": "AC",
+      "explanation": "LLDP is a vendor-neutral Layer 2 discovery protocol that allows network devices to advertise their identities, capabilities, and interface information to directly connected neighbors. CDP provides similar discovery capabilities on supported Cisco devices. ICMP is primarily used for network control and diagnostics, while DNS resolves names and does not advertise directly connected Layer 2 neighbors.",
+      "topic": "Network Troubleshooting",
+      "subtopic": "Given a scenario, use the appropriate tool or protocol to solve networking issues",
+      "difficulty": "medium",
+      "source": "CompTIA Network+ N10-009 Exam Objectives, 5.5: LLDP, CDP, and network troubleshooting tools"
+    }
+  ]
+}
