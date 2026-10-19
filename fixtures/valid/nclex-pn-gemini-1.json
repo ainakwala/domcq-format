@@ -1,0 +1,312 @@
+{
+  "format": "domcq/1",
+  "exam": "nclex-pn",
+  "set": "NCLEX-PN practice – Comprehensive Exam 1",
+  "questions": [
+    {
+      "stem": "A licensed practical nurse (LPN) is assigning tasks to an unlicensed assistive personnel (UAP) for a group of stable clients on a medical-surgical unit. Which task is appropriate for the LPN to assign to the UAP?",
+      "options": [
+        "Assisting a client who is two days postoperative following an appendectomy to ambulate in the hallway",
+        "Demonstrating the proper technique for using an incentive spirometer to a newly admitted client",
+        "Checking the skin integrity underneath a client's cervical collar following spinal trauma",
+        "Administering a prescribed saline nasal spray to a client with seasonal allergic rhinitis"
+      ],
+      "answer": "A",
+      "explanation": "The unlicensed assistive personnel can perform standard, non-invasive tasks for stable clients, such as routine ambulation, basic hygiene, and feeding. Client teaching, skin assessment, and medication administration require licensed nursing judgment and cannot be assigned to assistive personnel.",
+      "topic": "Coordinated Care",
+      "subtopic": "Assignment and Delegation",
+      "difficulty": "easy",
+      "source": "NCSBN NCLEX-PN Test Plan: Coordinated Care - Assignment and Delegation"
+    },
+    {
+      "stem": "A licensed practical nurse (LPN) is asked to witness a client's signature on a surgical consent form for an elective cholecystectomy. Which action by the LPN confirms that the primary legal requirement of witnessing the signature is fulfilled?",
+      "options": [
+        "Explaining the potential risks, alternatives, and anticipated outcomes of the surgical procedure",
+        "Reviewing the surgeon's operative plan with the client's designated healthcare surrogate",
+        "Contacting the hospital risk management committee to validate the client's medical decision-making capacity",
+        "Verifying that the client signed voluntarily and appears competent to give informed consent"
+      ],
+      "answer": "D",
+      "explanation": "When witnessing a surgical consent form, the nurse's legal responsibility is limited to confirming that the client signed voluntarily, is competent, and is the authentic signatory. Explaining the surgical procedure, including associated risks and alternatives, is the exclusive legal duty of the healthcare provider performing the surgery.",
+      "topic": "Coordinated Care",
+      "subtopic": "Client Rights and Informed Consent",
+      "difficulty": "medium",
+      "source": "NCSBN NCLEX-PN Test Plan: Coordinated Care - Ethical Practice and Informed Consent"
+    },
+    {
+      "stem": "A licensed practical nurse (LPN) is caring for four clients on a medical unit. Which client finding should the LPN report to the registered nurse (RN) immediately?",
+      "options": [
+        "A client with a deep vein thrombosis who reports sudden shortness of breath and right-sided chest pain",
+        "A client with chronic osteoarthritis who rates morning joint stiffness as 5 on a 0-to-10 pain scale",
+        "A client with type 2 diabetes mellitus whose pre-meal capillary blood glucose level is 142 mg/dL",
+        "A client with chronic obstructive pulmonary disease whose oxygen saturation is 90% on room air"
+      ],
+      "answer": "A",
+      "explanation": "Sudden dyspnea and pleuritic chest pain in a client diagnosed with deep vein thrombosis strongly indicate a pulmonary embolism, which is a life-threatening medical emergency requiring immediate registered nurse assessment and physician intervention. The other options describe stable, expected manifestations of chronic illnesses that do not represent acute physiological deterioration.",
+      "topic": "Coordinated Care",
+      "subtopic": "Prioritization of Care",
+      "difficulty": "hard",
+      "source": "NCSBN NCLEX-PN Test Plan: Coordinated Care - Concepts of Management and Prioritization"
+    },
+    {
+      "stem": "A licensed practical nurse (LPN) is assisting with the discharge planning for a client with heart failure. Which actions by the LPN support effective continuity of care? Select all that apply.",
+      "options": [
+        "Confirming that the client understands how and when to take newly prescribed medications",
+        "Reconciling the client's active prescription drug coverage and billing disputes with the insurance provider",
+        "Providing written discharge instructions and verifying that scheduled follow-up appointments are documented",
+        "Reviewing symptoms that require immediate notification of the primary healthcare provider",
+        "Determining whether the client has adequate transportation and home support to obtain groceries and prescriptions"
+      ],
+      "answer": "ACDE",
+      "explanation": "Effective discharge planning involves reinforcing medication instructions, verifying follow-up appointments, reviewing warning signs that require urgent care, and confirming that community or social support is in place. Resolving insurance claims and billing disputes is handled by hospital finance or case management departments rather than practical nursing staff.",
+      "topic": "Coordinated Care",
+      "subtopic": "Continuity of Care",
+      "difficulty": "medium",
+      "source": "NCSBN NCLEX-PN Test Plan: Coordinated Care - Continuity of Care"
+    },
+    {
+      "stem": "A licensed practical nurse (LPN) is reinforcing infection control teaching for the care of a client with pulmonary tuberculosis. Which interventions should the LPN include? Select all that apply.",
+      "options": [
+        "Placing the client in a private room equipped with negative airflow pressure",
+        "Wearing a fitted N95 respirator mask prior to entering the client's room",
+        "Instructing the client to wear an N95 respirator mask whenever healthcare workers enter the room",
+        "Having the client wear a standard surgical mask if transport outside the room is essential",
+        "Keeping the door to the client's room closed at all times"
+      ],
+      "answer": "ABDE",
+      "explanation": "Pulmonary tuberculosis requires airborne precautions, which mandate a negative-pressure isolation room with the door kept closed and healthcare workers wearing fitted N95 respirators. The client does not wear a respirator while inside their room; if transport outside the room is necessary, the client wears a standard surgical mask to contain respiratory droplets.",
+      "topic": "Safety and Infection Prevention and Control",
+      "subtopic": "Transmission-Based Precautions",
+      "difficulty": "medium",
+      "source": "CDC Isolation Precautions Guidelines / NCSBN NCLEX-PN: Safety and Infection Prevention and Control"
+    },
+    {
+      "stem": "A licensed practical nurse (LPN) is contributing to a fall prevention plan for an older adult client who is disoriented at night. Which intervention should the LPN implement first?",
+      "options": [
+        "Requesting a prescription for a four-point soft wrist restraint from the provider",
+        "Administering a prescribed low-dose sedative-hypnotic at bedtime to ensure sleep",
+        "Raising all four side rails on the client's hospital bed while resting",
+        "Moving the client to a room located as close to the nurses' station as possible"
+      ],
+      "answer": "D",
+      "explanation": "The least restrictive and most effective initial safety intervention is to place the disoriented client near the nurses' station where frequent visual observation and prompt assistance are available. Physical restraints and raising all four side rails increase agitation and fall-related injuries, while sedatives worsen cognitive impairment and fall risk in older adults.",
+      "topic": "Safety and Infection Prevention and Control",
+      "subtopic": "Accident and Injury Prevention",
+      "difficulty": "easy",
+      "source": "NCSBN NCLEX-PN Test Plan: Safety and Infection Prevention and Control - Accident Prevention"
+    },
+    {
+      "stem": "A licensed practical nurse (LPN) discovers a fire in an empty wastebasket in a client's room. The client is sitting in a chair across the room. According to the RACE protocol, which action should the LPN take first?",
+      "options": [
+        "Activate the facility's manual fire alarm pull station",
+        "Close the windows and the door leading into the room",
+        "Assist the client safely out of the room to an area past the fire doors",
+        "Obtain the nearest Class A fire extinguisher to extinguish the flame"
+      ],
+      "answer": "C",
+      "explanation": "In the standard RACE fire safety protocol, the primary priority is Rescue (R)—immediately moving any client or person in imminent danger to safety. Once the client is safely evacuated from the room, the nurse activates the fire alarm (A), confines the fire by closing doors and windows (C), and attempts to extinguish or evacuate (E).",
+      "topic": "Safety and Infection Prevention and Control",
+      "subtopic": "Emergency Response Plan",
+      "difficulty": "easy",
+      "source": "NCSBN NCLEX-PN Test Plan: Safety and Infection Prevention and Control - Emergency Response"
+    },
+    {
+      "stem": "A licensed practical nurse (LPN) is collecting data during a well-child visit for a healthy 6-month-old infant. Which developmental milestone should the LPN expect the infant to demonstrate?",
+      "options": [
+        "Walking independently while holding onto furniture",
+        "Rolling completely over from back to abdomen",
+        "Speaking two-word phrases such as \"more milk\"",
+        "Using a neat pincer grasp to pick up small objects"
+      ],
+      "answer": "B",
+      "explanation": "By 6 months of age, healthy infants can roll over in both directions (front to back and back to front) and sit with support. Cruising along furniture and developing a neat pincer grasp occur around 9 to 10 months, whereas combining words into two-word phrases is expected around 18 to 24 months.",
+      "topic": "Health Promotion and Maintenance",
+      "subtopic": "Developmental Stages and Transitions",
+      "difficulty": "easy",
+      "source": "CDC Developmental Milestones / NCSBN NCLEX-PN: Health Promotion and Maintenance"
+    },
+    {
+      "stem": "A licensed practical nurse (LPN) is reinforcing health screening education for a 52-year-old female client with average risk for colorectal cancer. Which recommended screening schedule should the LPN reinforce?",
+      "options": [
+        "Screening colonoscopy every 10 years beginning at age 45",
+        "Fecal occult blood testing every five years",
+        "Annual screening colonoscopy starting immediately",
+        "Flexible sigmoidoscopy performed once every 15 years"
+      ],
+      "answer": "A",
+      "explanation": "Current evidence-based guidelines recommend that routine colorectal cancer screening for average-risk individuals begin at age 45, with a screening colonoscopy performed every 10 years when findings are normal. Fecal occult blood testing must be performed annually rather than every five years, and annual colonoscopies are reserved only for high-risk individuals with specific hereditary syndromes.",
+      "topic": "Health Promotion and Maintenance",
+      "subtopic": "Health Screening",
+      "difficulty": "medium",
+      "source": "USPSTF Colorectal Cancer Screening / NCSBN NCLEX-PN: Health Promotion and Maintenance"
+    },
+    {
+      "stem": "A client diagnosed with terminal lung cancer tells the licensed practical nurse (LPN), \"I don't see any reason to keep taking these medications. Everything is completely hopeless.\" Which response by the LPN is most therapeutic?",
+      "options": [
+        "\"You should focus on remaining positive because modern medicine discovers new therapies every day.\"",
+        "\"Why do you think everything is hopeless when you still have family who love you?\"",
+        "\"I know exactly how you feel; my uncle went through the exact same illness two years ago.\"",
+        "\"It sounds like you are feeling overwhelmed; would you like to talk about what is bothering you right now?\""
+      ],
+      "answer": "D",
+      "explanation": "Therapeutic communication acknowledges and validates the client's emotional distress while providing an open-ended invitation to share feelings. Offering false reassurance, asking probing 'why' questions that elicit defensiveness, and shifting focus onto the nurse's personal experiences are non-therapeutic barriers to care.",
+      "topic": "Psychosocial Integrity",
+      "subtopic": "Therapeutic Communication",
+      "difficulty": "medium",
+      "source": "NCSBN NCLEX-PN Test Plan: Psychosocial Integrity - Therapeutic Communication"
+    },
+    {
+      "stem": "A licensed practical nurse (LPN) is collecting data on a client admitted 24 hours ago who has a history of heavy daily alcohol intake. Which findings should the LPN recognize as early manifestations of alcohol withdrawal? Select all that apply.",
+      "options": [
+        "Diaphoresis and fine hand tremors",
+        "Severe bradycardia and hypothermia",
+        "Nausea, vomiting, and anorexia",
+        "Tachycardia and elevated blood pressure",
+        "Irritability, anxiety, and insomnia"
+      ],
+      "answer": "ACDE",
+      "explanation": "Early signs of alcohol withdrawal typically emerge within 6 to 24 hours after alcohol cessation and stem from central nervous system hyperactivity, manifesting as tremors, sweating, nausea, tachycardia, hypertension, insomnia, and psychomotor agitation. Bradycardia and hypothermia are inconsistent with withdrawal, which is characterized by autonomic nervous system overstimulation.",
+      "topic": "Psychosocial Integrity",
+      "subtopic": "Substance Use and Toxicities",
+      "difficulty": "hard",
+      "source": "NCSBN NCLEX-PN Test Plan: Psychosocial Integrity - Substance Use Disorders"
+    },
+    {
+      "stem": "A licensed practical nurse (LPN) is caring for an immobile client who is at risk for pressure injuries. Which nursing intervention should the LPN implement to protect the client's skin integrity?",
+      "options": [
+        "Massaging reddened bony prominences with lotion every four hours",
+        "Placing a rubber doughnut-shaped cushion under the client's sacrum",
+        "Repositioning the client at least every two hours while in bed",
+        "Maintaining the head of the bed at an elevation of 60 degrees at all times"
+      ],
+      "answer": "C",
+      "explanation": "Repositioning bedbound clients at least every two hours relieves continuous pressure over bony prominences and preserves capillary blood flow to vulnerable tissues. Massaging erythematous skin damages fragile subcutaneous microcirculation, doughnut-shaped cushions impair venous return, and keeping the head of the bed elevated above 30 degrees generates excessive shear and friction forces.",
+      "topic": "Basic Care and Comfort",
+      "subtopic": "Skin and Tissue Integrity",
+      "difficulty": "easy",
+      "source": "NCSBN NCLEX-PN Test Plan: Basic Care and Comfort - Mobility/Immobility and Skin Integrity"
+    },
+    {
+      "stem": "A licensed practical nurse (LPN) is preparing to administer an intermittent enteral tube feeding through a client's gastrostomy tube. Which action should the LPN take prior to initiating the feeding?",
+      "options": [
+        "Flush the feeding tube vigorously with 100 mL of ice-cold sterile water",
+        "Confirm tube patency and position and check gastric residual volume",
+        "Lower the head of the bed to a flat supine position during the infusion",
+        "Heat the commercial liquid formula in a microwave oven to body temperature"
+      ],
+      "answer": "B",
+      "explanation": "Checking tube placement, patency, and gastric residual volume prior to administering an intermittent bolus feeding ensures proper tube positioning and evaluates gastric emptying to minimize the risk of pulmonary aspiration. The client must be positioned with the head of the bed elevated at least 30 to 45 degrees, and feedings should be given at room temperature without rapid flushing or microwave heating.",
+      "topic": "Basic Care and Comfort",
+      "subtopic": "Nutrition and Oral Hydration",
+      "difficulty": "medium",
+      "source": "NCSBN NCLEX-PN Test Plan: Basic Care and Comfort - Nutrition and Enteral Therapy"
+    },
+    {
+      "stem": "A licensed practical nurse (LPN) is preparing to administer the daily morning dose of oral digoxin to an adult client. Which nursing action must the LPN take immediately prior to administering this medication?",
+      "options": [
+        "Assess the client's radial pulse rate for 15 seconds and multiply by four",
+        "Check the client's blood pressure while the client is sitting and standing",
+        "Review the client's most recent serum creatinine clearance result",
+        "Measure the client's apical pulse rate for one full minute"
+      ],
+      "answer": "D",
+      "explanation": "Digoxin has a negative chronotropic effect that slows atrioventricular conduction and ventricular rate; therefore, the nurse must auscultate the apical pulse for 60 full seconds and withhold the dose if the heart rate is below 60 beats per minute in an adult. Peripheral pulse checks or shorter measurement intervals can miss irregular beats or subtle dysrhythmias common in digitalis therapy.",
+      "topic": "Pharmacological Therapies",
+      "subtopic": "Cardiovascular Medications",
+      "difficulty": "easy",
+      "source": "NCSBN NCLEX-PN Test Plan: Pharmacological Therapies - Dosage Calculation and Administration"
+    },
+    {
+      "stem": "A licensed practical nurse (LPN) is administering 10 units of regular insulin subcutaneously to a client with diabetes mellitus at 0730. When should the LPN monitor the client most closely for clinical manifestations of hypoglycemia?",
+      "options": [
+        "Between 1430 and 1630",
+        "Between 0930 and 1130",
+        "Between 0745 and 0800",
+        "Between 1930 and 2130"
+      ],
+      "answer": "B",
+      "explanation": "Regular insulin is a short-acting formulation with an onset of 30 to 60 minutes, a peak action between 2 and 4 hours, and a duration of 5 to 8 hours. Hypoglycemia is most likely to develop during the peak effect, which occurs between 0930 and 1130 following an injection given at 0730.",
+      "topic": "Pharmacological Therapies",
+      "subtopic": "Endocrine Medications",
+      "difficulty": "medium",
+      "source": "NCSBN NCLEX-PN Test Plan: Pharmacological Therapies - Pharmacological Actions and Effects"
+    },
+    {
+      "stem": "A licensed practical nurse (LPN) is monitoring a client who is receiving intravenous opioid analgesia via a patient-controlled analgesia (PCA) pump following orthopedic surgery. Which clinical findings indicate opioid toxicity and require immediate nursing intervention? Select all that apply.",
+      "options": [
+        "Respiratory rate of 8 breaths per minute",
+        "Excessive somnolence and difficulty arousing the client",
+        "Dilated, sluggishly reactive pupils bilaterally",
+        "Pinpoint, constricted pupils",
+        "Diarrhea and abdominal hyperactive bowel sounds"
+      ],
+      "answer": "ABD",
+      "explanation": "The hallmark signs of acute opioid overdose consist of severe respiratory depression (respiratory rate under 10 to 12 breaths per minute), central nervous system depression with marked somnolence or stupor, and pupillary constriction (miosis). Opioids inhibit gastrointestinal motility causing constipation rather than hyperactive bowel sounds or diarrhea, and pupil dilation is not an early feature of opioid toxicity.",
+      "topic": "Pharmacological Therapies",
+      "subtopic": "Adverse Effects and High-Alert Medications",
+      "difficulty": "hard",
+      "source": "NCSBN NCLEX-PN Test Plan: Pharmacological Therapies - Expected Actions and Adverse Reactions"
+    },
+    {
+      "stem": "A licensed practical nurse (LPN) reviews the morning laboratory results for an adult client receiving furosemide daily for heart failure. The client's serum potassium level is 2.9 mEq/L (2.9 mmol/L). Which action should the LPN take first?",
+      "options": [
+        "Encourage the client to eat a ripe banana from the morning breakfast tray",
+        "Administer the scheduled morning dose of furosemide with a full glass of water",
+        "Report the critical serum potassium level to the registered nurse immediately",
+        "Recheck the serum potassium level via a repeat venipuncture in four hours"
+      ],
+      "answer": "C",
+      "explanation": "A serum potassium level of 2.9 mEq/L indicates severe hypokalemia (normal range: 3.5 to 5.0 mEq/L), which creates a high risk of life-threatening cardiac dysrhythmias and requires immediate registered nurse and provider notification. The loop diuretic furosemide promotes further potassium excretion and should be held until evaluated, and oral dietary intake alone is insufficient for rapid clinical stabilization.",
+      "topic": "Reduction of Risk Potential",
+      "subtopic": "Laboratory Values",
+      "difficulty": "medium",
+      "source": "NCSBN NCLEX-PN Test Plan: Reduction of Risk Potential - Laboratory Values"
+    },
+    {
+      "stem": "A licensed practical nurse (LPN) is monitoring a client who returned to the unit one hour ago following a femoral cardiac catheterization. Which finding at the femoral insertion site requires immediate intervention?",
+      "options": [
+        "Mild localized tenderness when palpating around the dressing",
+        "A firm, expanding hematoma with absent pedal pulses in the affected extremity",
+        "Small amount of dried, crusted serous exudate at the puncture mark",
+        "Erythema measuring 2 mm immediately adjacent to the adhesive border"
+      ],
+      "answer": "B",
+      "explanation": "A firm, expanding hematoma paired with loss of distal pedal pulses indicates active arterial bleeding and acute arterial compromise, requiring immediate manual compression and urgent notification of the registered nurse and provider. Mild local tenderness, minimal serous crusting, or slight skin redness from dressing tape are expected, non-emergent post-procedure findings.",
+      "topic": "Reduction of Risk Potential",
+      "subtopic": "Therapeutic Procedures and Monitoring",
+      "difficulty": "hard",
+      "source": "NCSBN NCLEX-PN Test Plan: Reduction of Risk Potential - Potential for Alterations in Body Systems"
+    },
+    {
+      "stem": "A licensed practical nurse (LPN) is collecting data on an older adult client admitted with severe gastroenteritis and dehydration. Which clinical finding should the LPN recognize as consistent with hypovolemia?",
+      "options": [
+        "Bounding peripheral pulses and jugular venous distention",
+        "Acute peripheral edema extending to the mid-calf bilaterally",
+        "Postural hypotension and decreased skin turgor over the sternum",
+        "Moist crackles auscultated bilaterally in the lower lung bases"
+      ],
+      "answer": "C",
+      "explanation": "Extracellular fluid loss and hypovolemia cause reduced vascular volume, which characteristically produces postural (orthostatic) hypotension, resting tachycardia, dry mucous membranes, and loss of skin elasticity (most reliably checked over the sternum or forehead in older adults). Bounding pulses, jugular venous distention, lower-extremity edema, and pulmonary crackles are clinical signs of fluid volume excess (hypervolemia).",
+      "topic": "Physiological Adaptation",
+      "subtopic": "Fluid and Electrolyte Imbalances",
+      "difficulty": "medium",
+      "source": "NCSBN NCLEX-PN Test Plan: Physiological Adaptation - Fluid and Electrolyte Imbalances"
+    },
+    {
+      "stem": "A licensed practical nurse (LPN) is reinforcing education for a client newly diagnosed with chronic obstructive pulmonary disease (COPD). Which clinical manifestations should the LPN instruct the client to report promptly as signs of an acute respiratory infection? Select all that apply.",
+      "options": [
+        "Change in sputum color from clear to thick green or yellow",
+        "Increased shortness of breath requiring more frequent use of a rescue inhaler",
+        "Complete absence of daily productive coughing",
+        "Increased fatigue and difficulty performing routine daily activities",
+        "Presence of a low-grade fever with chills"
+      ],
+      "answer": "ABDE",
+      "explanation": "In clients with chronic obstructive pulmonary disease, acute respiratory infections precipitate exacerbations evidenced by changes in sputum purulence and volume, worsening dyspnea, increased reliance on rescue inhalers, systemic signs like fever or chills, and significant fatigue. An acute infection typically increases cough frequency and secretions rather than eliminating daily productive coughing.",
+      "topic": "Physiological Adaptation",
+      "subtopic": "Alterations in Body Systems",
+      "difficulty": "medium",
+      "source": "NCSBN NCLEX-PN Test Plan: Physiological Adaptation - Medical Emergencies and Alterations"
+    }
+  ]
+}
