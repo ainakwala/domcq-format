@@ -1,0 +1,78 @@
+{
+  "id": "comptia-aplus-core1",
+  "display_name": "CompTIA A+ Core 1 (220-1201)",
+  "body": "CompTIA",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, endorsed by or sponsored by CompTIA. Students write their own practice questions to the objectives validated by CompTIA; DoMcq holds no CompTIA materials. CompTIA® and the names of CompTIA certifications are trademarks or registered trademarks of CompTIA, Inc., used here only to identify the exam.",
+  "taxonomy": {
+    "Mobile Devices": [
+      "Given a scenario, monitor mobile device hardware and use appropriate replacement techniques",
+      "Compare and contrast accessories and connectivity options for mobile devices",
+      "Given a scenario, configure basic mobile device network connectivity and provide application support"
+    ],
+    "Networking": [
+      "Compare and contrast Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) ports, protocols",
+      "Explain wireless networking technologies",
+      "Summarize services provided by networked hosts",
+      "Explain common network configuration concepts",
+      "Compare and contrast common networking hardware devices",
+      "Given a scenario, configure basic wired/wireless small office/home office (SOHO) networks",
+      "Compare and contrast internet connection types, network types, and their characteristics",
+      "Explain networking tools and their purposes"
+    ],
+    "Hardware": [
+      "Compare and contrast display components and attributes",
+      "Summarize basic cable types and their connectors, features, and purposes",
+      "Compare and contrast RAM characteristics",
+      "Compare and contrast storage devices",
+      "Given a scenario, install and configure motherboards, central processing units (CPUs), and add-on cards",
+      "Given a scenario, install the appropriate power supply",
+      "Given a scenario, deploy and configure multifunction devices/printers and settings",
+      "Given a scenario, perform appropriate printer maintenance"
+    ],
+    "Virtualization and Cloud Computing": [
+      "Explain virtualization concepts",
+      "Summarize cloud computing concepts"
+    ],
+    "Hardware and Network Troubleshooting": [
+      "Given a scenario, troubleshoot motherboards, RAM, CPUs, and power",
+      "Given a scenario, troubleshoot drive and RAID issues",
+      "Given a scenario, troubleshoot video, projector, and display issues",
+      "Given a scenario, troubleshoot common mobile device issues",
+      "Given a scenario, troubleshoot network issues",
+      "Given a scenario, troubleshoot printer issues"
+    ]
+  },
+  "weights": {
+    "Mobile Devices": 13,
+    "Networking": 23,
+    "Hardware": 25,
+    "Virtualization and Cloud Computing": 11,
+    "Hardware and Network Troubleshooting": 28
+  },
+  "options": {
+    "min": 4,
+    "max": 5
+  },
+  "multi_select": true,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [
+    "Which of the following is most likely causing the issue?",
+    "Which of the following should the technician do next?",
+    "Which of the following technologies will the technician most likely select?",
+    "Which of the following cloud models should the organization adopt?"
+  ],
+  "uncovered_item_types": [
+    "performance-based",
+    "drag-and-drop"
+  ],
+  "exam_mode": {
+    "questions": 90,
+    "minutes": 90
+  },
+  "verified_outline": "CompTIA A+ Certification Exam Objectives, Core 1 (220-1201) V15 (Document Version 4.0)",
+  "verified_on": "2026-10-19",
+  "next_review": "2027-10-19"
+}

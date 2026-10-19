@@ -1,0 +1,309 @@
+{
+  "format": "domcq/1",
+  "exam": "comptia-aplus-core1",
+  "set": "CompTIA A+ Core 1 (220-1201) practice – Mixed Technical Scenarios",
+  "questions": [
+    {
+      "stem": "A technician is inspecting a tablet and notices that its battery has swollen enough to push the display away from the chassis. Which of the following should the technician do FIRST?",
+      "options": [
+        "Fully discharge the battery by running demanding applications.",
+        "Power off the tablet and arrange for safe battery replacement.",
+        "Press the display back into place and tighten the chassis screws.",
+        "Connect the tablet to its original charger to stabilize the battery."
+      ],
+      "answer": "B",
+      "explanation": "A swollen lithium-ion battery presents a potential fire and safety hazard. The technician should stop using the device, power it down if safe to do so, and arrange for replacement using approved procedures. Applying pressure, charging, or deliberately discharging a damaged battery can increase the risk of thermal runaway.",
+      "topic": "Mobile Devices",
+      "subtopic": "Given a scenario, monitor mobile device hardware and use appropriate replacement techniques",
+      "difficulty": "easy",
+      "source": "CompTIA A+ 220-1201, Objective 1.1 — Battery replacement"
+    },
+    {
+      "stem": "An employee wants to connect a laptop to two external monitors, a wired Ethernet network, a USB keyboard, and a mouse. The employee also wants the laptop to receive power through the same connection and be able to disconnect all peripherals using one cable. Which of the following should the technician MOST likely recommend?",
+      "options": [
+        "A passive USB-C to USB-A adapter",
+        "A Bluetooth peripheral receiver",
+        "A USB hub supporting data transfer only",
+        "A compatible USB-C docking station with power delivery"
+      ],
+      "answer": "D",
+      "explanation": "A compatible USB-C docking station can consolidate display, network, peripheral, and charging connections into a single cable. The laptop and dock must support the necessary display protocols, bandwidth, and USB Power Delivery. A basic USB hub or passive adapter generally cannot provide all these capabilities.",
+      "topic": "Mobile Devices",
+      "subtopic": "Compare and contrast accessories and connectivity options for mobile devices",
+      "difficulty": "medium",
+      "source": "CompTIA A+ 220-1201, Objective 1.2 — Docking stations and connectivity"
+    },
+    {
+      "stem": "A company is issuing smartphones to employees. The IT department must remotely configure corporate email accounts, deploy approved applications, and enforce screen-lock requirements without manually configuring every phone. Which of the following technologies BEST meets these requirements?",
+      "options": [
+        "Mobile device management (MDM)",
+        "Near-field communication (NFC)",
+        "Virtual private networking (VPN)",
+        "Subscriber identity module (SIM) provisioning"
+      ],
+      "answer": "A",
+      "explanation": "Mobile device management allows administrators to centrally configure enrolled smartphones, deploy applications, and enforce security policies. It supports consistent management across large numbers of devices. VPNs provide secure connectivity, while NFC and SIM provisioning perform different functions.",
+      "topic": "Mobile Devices",
+      "subtopic": "Given a scenario, configure basic mobile device network connectivity and provide application support",
+      "difficulty": "medium",
+      "source": "CompTIA A+ 220-1201, Objective 1.3 — Mobile device management"
+    },
+    {
+      "stem": "A network administrator needs to remotely manage a Linux server using an encrypted command-line session. The firewall currently blocks all inbound connections, so the administrator must request access for the appropriate protocol and its default port. Which of the following should be permitted?",
+      "options": [
+        "Remote Desktop Protocol using TCP port 3389",
+        "Telnet using TCP port 23",
+        "Secure Shell using TCP port 22",
+        "HTTPS using TCP port 443"
+      ],
+      "answer": "C",
+      "explanation": "Secure Shell (SSH) provides encrypted remote command-line access and normally operates over TCP port 22. Telnet also supports remote command-line sessions but does not provide comparable encryption. RDP is primarily used for graphical remote desktop access, while HTTPS secures web communications.",
+      "topic": "Networking",
+      "subtopic": "Compare and contrast Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) ports, protocols",
+      "difficulty": "medium",
+      "source": "CompTIA A+ 220-1201, Objective 2.1 — Ports and protocols"
+    },
+    {
+      "stem": "A technician is installing three wireless access points in a small office. Each access point will use a 20 MHz channel in the 2.4 GHz band. The technician wants to minimize channel overlap between the access points in a region where channels 1 through 11 are permitted. Which of the following channel combinations is BEST?",
+      "options": [
+        "Channels 1, 6, and 11",
+        "Channels 1, 2, and 3",
+        "Channels 3, 6, and 9",
+        "Channels 5, 7, and 11"
+      ],
+      "answer": "A",
+      "explanation": "Channels 1, 6, and 11 are the conventional nonoverlapping 20 MHz channels in the 2.4 GHz band where channels 1 through 11 are available. Using overlapping channels on nearby access points can increase adjacent-channel interference and reduce throughput. Appropriate channel planning helps wireless networks operate more reliably.",
+      "topic": "Networking",
+      "subtopic": "Explain wireless networking technologies",
+      "difficulty": "medium",
+      "source": "CompTIA A+ 220-1201, Objective 2.2 — Wireless channels and frequencies"
+    },
+    {
+      "stem": "A small business wants employee computers to automatically receive an IP address, subnet mask, default gateway, and DNS server information when connecting to the network. Which of the following network services should the technician configure?",
+      "options": [
+        "Domain Name System (DNS)",
+        "Network Time Protocol (NTP)",
+        "Lightweight Directory Access Protocol (LDAP)",
+        "Dynamic Host Configuration Protocol (DHCP)"
+      ],
+      "answer": "D",
+      "explanation": "DHCP automatically assigns IP configuration parameters to clients, including addresses, subnet masks, gateways, and DNS servers. It reduces the need for manual configuration and helps prevent addressing conflicts. DNS resolves names to addresses but does not assign the overall network configuration.",
+      "topic": "Networking",
+      "subtopic": "Summarize services provided by networked hosts",
+      "difficulty": "easy",
+      "source": "CompTIA A+ 220-1201, Objective 2.3 — DHCP server roles"
+    },
+    {
+      "stem": "A technician manually configures a workstation with IP address 192.168.50.94 and subnet mask 255.255.255.224. The technician must select a default gateway that is a usable host address on the workstation's local subnet. Which of the following addresses meets this requirement?",
+      "options": [
+        "192.168.50.63",
+        "192.168.50.65",
+        "192.168.50.95",
+        "192.168.50.97"
+      ],
+      "answer": "B",
+      "explanation": "The mask 255.255.255.224 represents a /27 subnet containing 32 addresses. The workstation belongs to subnet 192.168.50.64/27, whose usable host range is 192.168.50.65 through 192.168.50.94. Address .95 is the broadcast address, and .63 and .97 belong to different subnets.",
+      "topic": "Networking",
+      "subtopic": "Given a scenario, configure basic wired/wireless small office/home office (SOHO) networks",
+      "difficulty": "hard",
+      "source": "CompTIA A+ 220-1201, Objective 2.6 — IPv4 addressing, subnet masks, gateways"
+    },
+    {
+      "stem": "A technician is troubleshooting an office network with several unlabeled Ethernet cables terminating at a patch panel. The technician needs to identify which cable corresponds to a particular wall outlet without disconnecting and testing each cable individually. Which of the following tools should the technician use?",
+      "options": [
+        "A network loopback plug",
+        "A cable crimping tool",
+        "A toner and probe kit",
+        "A punchdown tool"
+      ],
+      "answer": "C",
+      "explanation": "A toner and probe kit helps trace an unidentified cable by sending a detectable tone through it. The technician can use the probe to locate the corresponding cable at the patch panel. Crimping and punchdown tools terminate cables, while a loopback plug is used for interface testing.",
+      "topic": "Networking",
+      "subtopic": "Explain networking tools and their purposes",
+      "difficulty": "medium",
+      "source": "CompTIA A+ 220-1201, Objective 2.8 — Toner probe"
+    },
+    {
+      "stem": "A technician is upgrading the memory in a laptop. The laptop has a standard removable memory slot designed for compact modules rather than full-size desktop memory modules. Which of the following memory form factors should the technician select?",
+      "options": [
+        "SO-DIMM",
+        "DIMM",
+        "PCIe",
+        "M.2"
+      ],
+      "answer": "A",
+      "explanation": "Small Outline Dual In-line Memory Modules (SO-DIMMs) are compact memory modules commonly used in laptops and small-form-factor computers. Standard DIMMs are physically larger and commonly used in desktops. The technician must also verify the correct DDR generation and other compatibility requirements.",
+      "topic": "Hardware",
+      "subtopic": "Compare and contrast RAM characteristics",
+      "difficulty": "easy",
+      "source": "CompTIA A+ 220-1201, Objective 3.3 — RAM form factors"
+    },
+    {
+      "stem": "A technician is upgrading a workstation that has an available M.2 slot. The motherboard documentation states that this slot supports PCIe x4 NVMe storage but does not support SATA signaling. The customer wants the fastest compatible storage option among those listed. Which of the following should the technician install?",
+      "options": [
+        "An mSATA solid-state drive",
+        "A 2.5-inch SATA solid-state drive",
+        "An M.2 SATA solid-state drive",
+        "An M.2 PCIe NVMe solid-state drive"
+      ],
+      "answer": "D",
+      "explanation": "An M.2 PCIe NVMe SSD uses PCI Express lanes and the NVMe protocol for high-performance storage access. Although M.2 describes a physical form factor, not every M.2 drive uses the same interface. An M.2 SATA drive would be incompatible with the specified PCIe-only slot.",
+      "topic": "Hardware",
+      "subtopic": "Compare and contrast storage devices",
+      "difficulty": "medium",
+      "source": "CompTIA A+ 220-1201, Objective 3.4 — SSD interfaces and form factors"
+    },
+    {
+      "stem": "A technician is assembling a standard ATX desktop computer using a compatible motherboard and power supply. The technician needs to connect both the motherboard's primary power input and its dedicated CPU power input. Which TWO power connectors should the technician use? (Choose TWO.)",
+      "options": [
+        "A 15-pin SATA power connector",
+        "A 24-pin ATX motherboard connector",
+        "An 8-pin EPS12V CPU connector",
+        "A 6+2-pin PCIe graphics connector",
+        "A 4-pin Molex peripheral connector"
+      ],
+      "answer": "BC",
+      "explanation": "A standard ATX motherboard commonly receives its primary power through a 24-pin ATX connector and dedicated CPU power through an EPS12V connector, often supplied as a 4+4-pin cable. PCIe power connectors are intended for devices such as graphics cards. SATA and Molex power connectors serve peripheral devices rather than these motherboard inputs.",
+      "topic": "Hardware",
+      "subtopic": "Given a scenario, install and configure motherboards, central processing units (CPUs), and add-on cards",
+      "difficulty": "medium",
+      "source": "CompTIA A+ 220-1201, Objective 3.5 — Motherboard power connectors"
+    },
+    {
+      "stem": "A company wants to reduce paper consumption by configuring its multifunction printers to print automatically on both sides of each sheet. Which of the following printer settings should the technician enable?",
+      "options": [
+        "Portrait orientation",
+        "High-resolution output",
+        "Collated printing",
+        "Duplex printing"
+      ],
+      "answer": "D",
+      "explanation": "Duplex printing allows a compatible printer to print on both sides of a sheet of paper automatically. Portrait orientation controls page layout, resolution affects print quality, and collation organizes multiple copies of documents. Duplex printing can substantially reduce paper consumption.",
+      "topic": "Hardware",
+      "subtopic": "Given a scenario, deploy and configure multifunction devices/printers and settings",
+      "difficulty": "easy",
+      "source": "CompTIA A+ 220-1201, Objective 3.7 — Printer configuration settings"
+    },
+    {
+      "stem": "A technician is selecting a replacement power supply for a desktop workstation. The CPU can consume 125 W, the graphics card 275 W, and the remaining components 100 W at peak load. Company policy requires a power supply with a wattage rating at least 25% above the calculated combined peak load. Which of the following is the LOWEST acceptable power supply rating?",
+      "options": [
+        "650 W",
+        "600 W",
+        "550 W",
+        "500 W"
+      ],
+      "answer": "A",
+      "explanation": "The estimated peak consumption is 125 + 275 + 100 = 500 W. Adding the required 25% headroom gives 500 × 1.25 = 625 W, making 650 W the smallest acceptable listed rating. Power supply selection should also consider connector compatibility, efficiency, and the capacity of the appropriate output rails.",
+      "topic": "Hardware",
+      "subtopic": "Given a scenario, install the appropriate power supply",
+      "difficulty": "hard",
+      "source": "CompTIA A+ 220-1201, Objective 3.6 — PSU wattage rating and efficiency"
+    },
+    {
+      "stem": "A software technician needs to run a legacy operating system inside a virtual machine on an existing Windows laptop. The Windows installation must remain the primary operating system, and the virtualization software must run as an application within Windows. Which of the following technologies should the technician use?",
+      "options": [
+        "A Type 1 bare-metal hypervisor",
+        "A container runtime sharing the host kernel",
+        "A cloud-based virtual desktop infrastructure",
+        "A Type 2 hosted hypervisor"
+      ],
+      "answer": "D",
+      "explanation": "A Type 2 hypervisor runs on top of an existing host operating system and can execute guest operating systems in virtual machines. This makes it appropriate for local testing and legacy software support. Type 1 hypervisors run directly on hardware, while containers generally share the host operating system kernel.",
+      "topic": "Virtualization and Cloud Computing",
+      "subtopic": "Explain virtualization concepts",
+      "difficulty": "medium",
+      "source": "CompTIA A+ 220-1201, Objective 4.1 — Type 1 and Type 2 hypervisors"
+    },
+    {
+      "stem": "A company subscribes to a cloud-based email and productivity suite. Employees access the applications through a web browser, and the provider handles application updates, underlying servers, and infrastructure maintenance. Which of the following cloud service models BEST describes this arrangement?",
+      "options": [
+        "Platform as a Service (PaaS)",
+        "Software as a Service (SaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "On-premises infrastructure hosting"
+      ],
+      "answer": "B",
+      "explanation": "Software as a Service delivers complete applications to customers over a network, with the provider managing the underlying infrastructure and application maintenance. Customers primarily configure and use the software. PaaS supplies an application development platform, while IaaS provides infrastructure resources such as virtual machines and storage.",
+      "topic": "Virtualization and Cloud Computing",
+      "subtopic": "Summarize cloud computing concepts",
+      "difficulty": "easy",
+      "source": "CompTIA A+ 220-1201, Objective 4.2 — Cloud service models"
+    },
+    {
+      "stem": "A storage server uses a RAID 5 array consisting of four identical 2-TB hard drives. One drive fails, but the array remains accessible in a degraded state. The technician is evaluating the array's original capacity and the appropriate recovery procedure. Which TWO statements are correct? (Choose TWO.)",
+      "options": [
+        "The array originally provided approximately 6 TB of nominal usable capacity.",
+        "The array can tolerate one additional drive failure without losing data.",
+        "Replacing the failed drive and rebuilding the array can restore redundancy.",
+        "All remaining drives must be initialized before replacing the failed drive.",
+        "The array originally provided approximately 8 TB of nominal usable capacity."
+      ],
+      "answer": "AC",
+      "explanation": "RAID 5 distributes parity across drives and provides the equivalent of one drive's capacity for redundancy, so four 2-TB drives provide approximately 6 TB of nominal usable storage. A single drive failure leaves the array degraded but potentially operational, and replacing the failed drive followed by a rebuild restores redundancy. A second drive failure before reconstruction completes can result in array failure and data loss, making current backups important.",
+      "topic": "Hardware and Network Troubleshooting",
+      "subtopic": "Given a scenario, troubleshoot drive and RAID issues",
+      "difficulty": "hard",
+      "source": "CompTIA A+ 220-1201, Objectives 3.4 and 5.2 — RAID 5 and RAID failures"
+    },
+    {
+      "stem": "A desktop computer works normally when idle but shuts down after several minutes of running demanding applications. Hardware monitoring software shows that the CPU temperature rises rapidly to an unsafe level, and the CPU cooling fan is not spinning. Which of the following is the MOST likely cause?",
+      "options": [
+        "A defective network interface card",
+        "An incorrectly configured boot device",
+        "A failed CMOS battery",
+        "A failed CPU cooling fan"
+      ],
+      "answer": "D",
+      "explanation": "A nonfunctional CPU cooling fan can cause rapid temperature increases under load. Modern processors and motherboards may throttle performance or shut down to prevent thermal damage. The technician should inspect the fan, its connection, and the cooling assembly before returning the system to normal operation.",
+      "topic": "Hardware and Network Troubleshooting",
+      "subtopic": "Given a scenario, troubleshoot motherboards, RAM, CPUs, and power",
+      "difficulty": "easy",
+      "source": "CompTIA A+ 220-1201, Objective 5.1 — Overheating and random shutdown"
+    },
+    {
+      "stem": "A presenter connects a laptop to a conference room projector. The projector displays the laptop's desktop wallpaper, but the presentation window remains visible only on the laptop screen. Both displays are operating normally. Which of the following should the technician do to display the presentation on both screens?",
+      "options": [
+        "Increase the refresh rate of the projector.",
+        "Change the display mode from Extend to Duplicate.",
+        "Replace the projector's video connection cable.",
+        "Reduce the laptop's screen color depth."
+      ],
+      "answer": "B",
+      "explanation": "In Extend mode, the operating system treats the projector as a separate desktop area, so an application may be visible only on the laptop display. Duplicate mode mirrors the same image on both screens. Because the projector is already displaying the desktop, the issue is the display configuration rather than a failed cable.",
+      "topic": "Hardware and Network Troubleshooting",
+      "subtopic": "Given a scenario, troubleshoot video, projector, and display issues",
+      "difficulty": "medium",
+      "source": "CompTIA A+ 220-1201, Objective 5.3 — Projector and display issues"
+    },
+    {
+      "stem": "A technician replaces an office switch with a managed switch. Workstations assigned to VLAN 20 can communicate with other devices in VLAN 20 on the same switch, but they cannot obtain DHCP leases or reach their gateway on an upstream switch. The uplink is configured as an 802.1Q trunk that permits only VLAN 10. Which of the following changes is MOST likely to resolve the problem?",
+      "options": [
+        "Disable wireless roaming for all VLAN 20 clients.",
+        "Reduce the DHCP lease duration for VLAN 20 clients.",
+        "Add VLAN 20 to the permitted VLANs on the uplink trunk.",
+        "Change every VLAN 20 client to a Class A subnet mask."
+      ],
+      "answer": "C",
+      "explanation": "An 802.1Q trunk transports traffic for permitted VLANs between switches. Because VLAN 20 is not allowed on the uplink, its traffic cannot reach upstream services even though local communication within VLAN 20 works. Allowing VLAN 20 on the trunk restores the necessary Layer 2 path, assuming the upstream VLAN and services are correctly configured.",
+      "topic": "Hardware and Network Troubleshooting",
+      "subtopic": "Given a scenario, troubleshoot network issues",
+      "difficulty": "hard",
+      "source": "CompTIA A+ 220-1201, Objectives 2.4, 2.5, and 5.5 — VLANs, switches, and connectivity"
+    },
+    {
+      "stem": "A laser printer produces pages with normal image density, but the printed toner can easily be rubbed off the paper immediately after printing. The printer is using the correct paper type and supported toner cartridge. Which of the following components should the technician MOST likely inspect?",
+      "options": [
+        "The fuser assembly",
+        "The paper pickup roller",
+        "The paper separation pad",
+        "The output tray sensor"
+      ],
+      "answer": "A",
+      "explanation": "A laser printer's fuser uses heat and pressure to bond toner permanently to the paper. If the fuser is malfunctioning, toner may remain loose and smear or rub off after printing. Pickup rollers and separation pads affect paper feeding rather than toner adhesion.",
+      "topic": "Hardware and Network Troubleshooting",
+      "subtopic": "Given a scenario, troubleshoot printer issues",
+      "difficulty": "medium",
+      "source": "CompTIA A+ 220-1201, Objectives 3.8 and 5.6 — Laser printer maintenance and print defects"
+    }
+  ]
+}
