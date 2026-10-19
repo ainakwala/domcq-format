@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "cisa",
+  "set": "Certified Information Systems Auditor (CISA) practice – Risk, Controls and Resilience",
+  "questions": [
+    {
+      "stem": "An IS auditor is preparing an annual audit plan for an organization with limited audit resources. Which of the following should be the PRIMARY basis for selecting systems to audit?",
+      "options": [
+        "The length of time since each system was last audited",
+        "The number of employees using each system",
+        "The business impact and risk exposure associated with each system",
+        "The estimated time required to complete each system audit"
+      ],
+      "answer": "C",
+      "explanation": "Risk-based audit planning prioritizes systems based on their potential impact on organizational objectives and their exposure to significant risks. Time since the previous audit, user population and audit effort may influence scheduling, but they should not outweigh the assessed risk.",
+      "topic": "Information System Auditing Process",
+      "subtopic": "Risk-Based Audit Planning",
+      "difficulty": "easy",
+      "source": "ISACA CISA Exam Content Outline, Domain 1A: Risk-Based Audit Planning"
+    },
+    {
+      "stem": "An IS auditor is testing an automated control that rejects purchase orders exceeding approved credit limits. The auditor wants to determine whether the control operated effectively throughout the audit period. Which of the following approaches provides the MOST appropriate evidence?",
+      "options": [
+        "Inspecting the current configuration of the credit-limit control",
+        "Interviewing purchasing managers about rejected transactions",
+        "Reviewing the documented procedure for approving credit limits",
+        "Testing relevant transactions from the audit period and verifying the control operated as configured"
+      ],
+      "answer": "D",
+      "explanation": "Operating effectiveness requires evidence that the control functioned as intended during the period under review. Testing transactions across the period provides more direct evidence than examining only current settings, written procedures or management representations. The auditor should also consider whether relevant program and configuration changes occurred during the period.",
+      "topic": "Information System Auditing Process",
+      "subtopic": "Audit Testing and Sampling Methodology",
+      "difficulty": "medium",
+      "source": "ISACA CISA Exam Content Outline, Domain 1B: Audit Testing and Sampling Methodology"
+    },
+    {
+      "stem": "During an audit of payroll processing, an IS auditor discovers that a payroll administrator can create employee records and authorize salary payments. Management states that the administrator is trustworthy and no fraudulent payments have occurred. Which of the following should the auditor do FIRST?",
+      "options": [
+        "Evaluate the risks and determine whether effective compensating controls exist",
+        "Recommend immediately terminating the administrator's system access",
+        "Accept management's explanation because no losses have been identified",
+        "Report the condition as confirmed payroll fraud to senior management"
+      ],
+      "answer": "A",
+      "explanation": "The combination of employee creation and payment authorization creates a segregation-of-duties risk, even without evidence of fraud. The auditor should assess the exposure and determine whether independent reviews or other compensating controls adequately mitigate it before forming a conclusion.",
+      "topic": "Information System Auditing Process",
+      "subtopic": "Types of Controls and Considerations",
+      "difficulty": "medium",
+      "source": "ISACA CISA Exam Content Outline, Domain 1A: Types of Controls and Considerations"
+    },
+    {
+      "stem": "An IS auditor uses data analytics to identify duplicate vendor payments. The analysis returns several hundred potential duplicates, but management challenges the results because some invoices represent legitimate recurring charges. Which of the following is the BEST next step?",
+      "options": [
+        "Report all identified transactions as duplicate payments",
+        "Validate the exceptions using supporting records and transaction attributes",
+        "Reduce the reported population to transactions with matching payment dates",
+        "Exclude all recurring vendors from the analysis and finalize the report"
+      ],
+      "answer": "B",
+      "explanation": "Analytical exceptions are indicators requiring further investigation, not conclusive audit findings. Examining invoice numbers, amounts, vendor identifiers, payment details and supporting documentation helps distinguish actual duplicate payments from legitimate recurring transactions.",
+      "topic": "Information System Auditing Process",
+      "subtopic": "Audit Data Analytics (including audit algorithms)",
+      "difficulty": "hard",
+      "source": "ISACA CISA Exam Content Outline, Domain 1B: Audit Data Analytics; Audit Evidence Collection Techniques"
+    },
+    {
+      "stem": "An IS auditor is evaluating the effectiveness of an organization's IT governance framework. Which of the following provides the STRONGEST indication that IT governance is effective?",
+      "options": [
+        "IT management approves all technology purchases independently",
+        "The organization uses the same technology standards across departments",
+        "The IT department consistently operates within its annual budget",
+        "IT investments and performance are monitored against business objectives"
+      ],
+      "answer": "D",
+      "explanation": "Effective IT governance ensures that technology supports enterprise objectives, delivers value and manages risk appropriately. Monitoring IT investments and performance against business goals provides evidence of strategic alignment and accountability. Budget compliance and standardization alone are insufficient.",
+      "topic": "Governance and Management of IT",
+      "subtopic": "Organizational Structure, IT Governance, and IT Strategy",
+      "difficulty": "easy",
+      "source": "ISACA CISA Exam Content Outline, Domain 2A: Organizational Structure, IT Governance, and IT Strategy"
+    },
+    {
+      "stem": "An organization plans to outsource the processing of confidential customer information to a cloud service provider. Which of the following should the IS auditor consider MOST important before the service agreement is approved?",
+      "options": [
+        "Whether the provider offers lower prices than other vendors",
+        "Whether the provider has operated for more than five years",
+        "Whether contractual security, privacy and audit requirements address the identified risks",
+        "Whether the provider uses the same operating systems as the organization"
+      ],
+      "answer": "C",
+      "explanation": "Outsourcing does not eliminate the organization's accountability for protecting customer information and meeting applicable obligations. The agreement should address relevant safeguards, data handling, breach notification, oversight and audit rights based on assessed risks. Price, experience and technical compatibility do not establish adequate risk management.",
+      "topic": "Governance and Management of IT",
+      "subtopic": "IT Vendor Management",
+      "difficulty": "medium",
+      "source": "ISACA CISA Exam Content Outline, Domain 2B: IT Vendor Management"
+    },
+    {
+      "stem": "An organization has formally approved an enterprise risk appetite, but several IT projects have accepted residual risks exceeding the established limits. Project managers state that individual project sponsors approved the exceptions. Which of the following is the MOST significant concern?",
+      "options": [
+        "Project sponsors may have accepted risks beyond their delegated authority",
+        "Project managers may have underestimated the implementation costs",
+        "The organization may have insufficient technical security personnel",
+        "The projects may require additional operational performance measures"
+      ],
+      "answer": "A",
+      "explanation": "Risk acceptance must remain within the authority and limits established by enterprise governance. A project sponsor's approval does not override enterprise risk appetite or delegated authority. Risks exceeding approved limits require escalation to the appropriate risk governance body for a decision.",
+      "topic": "Governance and Management of IT",
+      "subtopic": "Enterprise Risk Management (ERM)",
+      "difficulty": "hard",
+      "source": "ISACA CISA Exam Content Outline, Domain 2A: Enterprise Risk Management (ERM)"
+    },
+    {
+      "stem": "An IS auditor is reviewing an organization's data classification program. Which of the following responsibilities should PRIMARILY belong to the business data owner?",
+      "options": [
+        "Configuring technical access restrictions on storage servers",
+        "Determining the classification and authorized use of business information",
+        "Installing software updates on systems containing classified data",
+        "Monitoring network traffic for unauthorized information transfers"
+      ],
+      "answer": "B",
+      "explanation": "Business data owners are accountable for determining the classification, appropriate use and access requirements of the information they own. IT custodians and security teams typically implement and operate the technical controls supporting those decisions.",
+      "topic": "Governance and Management of IT",
+      "subtopic": "Data Governance and Classification",
+      "difficulty": "easy",
+      "source": "ISACA CISA Exam Content Outline, Domain 2A: Data Governance and Classification"
+    },
+    {
+      "stem": "During the implementation of a new financial reporting system, user acceptance testing is completed successfully. However, the IS auditor discovers that several critical financial reconciliation controls were not included in the test scenarios. Which of the following should the auditor recommend BEFORE production implementation?",
+      "options": [
+        "Accept the test results because users have approved the system",
+        "Conduct a post-implementation audit of the omitted controls",
+        "Transfer responsibility for the controls to the operations team",
+        "Perform additional testing of the critical reconciliation controls"
+      ],
+      "answer": "D",
+      "explanation": "User acceptance does not demonstrate that critical controls operate effectively unless those controls were included in the testing scope. Testing the omitted reconciliations before go-live reduces the risk of inaccurate financial reporting and costly corrections after implementation.",
+      "topic": "Information Systems Acquisition, Development, and Implementation",
+      "subtopic": "System Readiness and Implementation Testing",
+      "difficulty": "medium",
+      "source": "ISACA CISA Exam Content Outline, Domain 3B: System Readiness and Implementation Testing"
+    },
+    {
+      "stem": "An organization is migrating customer accounts from a legacy system to a new application. The migration tool reports that all records were transferred successfully. Which of the following procedures provides the BEST assurance that the migration preserved data completeness and accuracy?",
+      "options": [
+        "Confirm that the new application meets its response-time requirements",
+        "Compare the number of database tables before and after migration",
+        "Reconcile source and target record counts, control totals and selected field values",
+        "Obtain confirmation that the migration team followed its project schedule"
+      ],
+      "answer": "C",
+      "explanation": "Successful execution of a migration tool does not prove that business data was transferred completely and accurately. Reconciliations using record counts, financial or other control totals, and detailed data comparisons provide evidence of both completeness and accuracy.",
+      "topic": "Information Systems Acquisition, Development, and Implementation",
+      "subtopic": "System Migration, Infrastructure Deployment, and Data Conversion",
+      "difficulty": "medium",
+      "source": "ISACA CISA Exam Content Outline, Domain 3B: System Migration, Infrastructure Deployment, and Data Conversion"
+    },
+    {
+      "stem": "An organization has established a recovery time objective (RTO) of four hours for its online payment processing system. What does this objective specify?",
+      "options": [
+        "The maximum acceptable time to restore the system following a disruption",
+        "The maximum period of transaction data that may be lost after a disruption",
+        "The minimum interval between consecutive system backups",
+        "The minimum duration for which backup copies must be retained"
+      ],
+      "answer": "A",
+      "explanation": "The recovery time objective establishes the targeted maximum duration for restoring a disrupted service to an acceptable operating level. The recovery point objective (RPO), in contrast, expresses the maximum tolerable data loss measured in time.",
+      "topic": "Information Systems Operations and Business Resilience",
+      "subtopic": "Business Impact Analysis (BIA)",
+      "difficulty": "easy",
+      "source": "ISACA CISA Exam Content Outline, Domain 4B: Business Impact Analysis (BIA)"
+    },
+    {
+      "stem": "An IS auditor reviews a production change-management process and discovers that emergency changes are implemented immediately, with documentation and approval completed several days later. Which of the following controls is MOST important for mitigating the associated risk?",
+      "options": [
+        "Limiting emergency changes to periods outside business hours",
+        "Requiring emergency changes to use the standard monthly release cycle",
+        "Allowing only application developers to implement emergency changes",
+        "Requiring timely independent post-implementation review of emergency changes"
+      ],
+      "answer": "D",
+      "explanation": "Emergency procedures may permit expedited implementation when normal approval processes cannot be completed in time. Timely independent review provides oversight of the change's justification, implementation, testing and impact. Where practicable, emergency authorization should also occur before implementation.",
+      "topic": "Information Systems Operations and Business Resilience",
+      "subtopic": "IT Change, Configuration, and Patch Management",
+      "difficulty": "medium",
+      "source": "ISACA CISA Exam Content Outline, Domain 4A: IT Change, Configuration, and Patch Management"
+    },
+    {
+      "stem": "An organization's disaster recovery plan requires restoring a critical database from backups. During testing, the database is restored successfully, but the application cannot process transactions because an external authentication service is unavailable. Which of the following is the MOST important audit finding?",
+      "options": [
+        "The database recovery procedure requires additional backup copies",
+        "The disaster recovery plan does not adequately address service dependencies",
+        "The application requires more frequent performance testing",
+        "The recovery team should perform database restorations more frequently"
+      ],
+      "answer": "B",
+      "explanation": "Recovering an individual component does not necessarily restore the business service it supports. Disaster recovery planning must account for dependent infrastructure, applications and external services required for end-to-end operations. Missing dependencies can prevent the organization from meeting recovery objectives even when individual systems are restored.",
+      "topic": "Information Systems Operations and Business Resilience",
+      "subtopic": "Disaster Recovery Plans (DRP)",
+      "difficulty": "hard",
+      "source": "ISACA CISA Exam Content Outline, Domain 4B: Disaster Recovery Plans (DRP)"
+    },
+    {
+      "stem": "An IS auditor is reviewing backup controls for a database containing critical financial transactions. The organization performs daily backups and reports that every scheduled backup job completed successfully. Which of the following provides the MOST reliable evidence that the backup strategy is effective?",
+      "options": [
+        "Backup logs show successful completion of all scheduled jobs",
+        "Backup files are retained according to the documented schedule",
+        "Periodic restoration tests demonstrate recoverability and data integrity",
+        "Backup storage utilization remains below the allocated capacity"
+      ],
+      "answer": "C",
+      "explanation": "Successful backup jobs do not guarantee that data can be recovered when needed. Restoration testing verifies that backups are usable, recoverable and capable of supporting operational requirements. Testing should also assess relevant recovery objectives and data integrity.",
+      "topic": "Information Systems Operations and Business Resilience",
+      "subtopic": "Data Backup, Storage, and Restoration",
+      "difficulty": "medium",
+      "source": "ISACA CISA Exam Content Outline, Domain 4B: Data Backup, Storage, and Restoration"
+    },
+    {
+      "stem": "An IS auditor is reviewing an organization's incident and problem management processes. Multiple service outages have been resolved by restarting the affected application, but the outages continue to recur. Which of the following should the auditor recommend?",
+      "options": [
+        "Perform root cause analysis and implement measures to prevent recurrence",
+        "Increase the priority assigned to every future application incident",
+        "Reduce the incident response time target in the service-level agreement",
+        "Close the related problem records after each successful restart"
+      ],
+      "answer": "A",
+      "explanation": "Incident management focuses on restoring service, while problem management investigates underlying causes and seeks to prevent recurring incidents. Repeated restarts address immediate symptoms but do not resolve the root cause of the outages.",
+      "topic": "Information Systems Operations and Business Resilience",
+      "subtopic": "Problem and Incident Management",
+      "difficulty": "easy",
+      "source": "ISACA CISA Exam Content Outline, Domain 4A: Problem and Incident Management"
+    },
+    {
+      "stem": "An IS auditor finds that employees who transfer between departments retain access rights from their previous positions. Which of the following controls would BEST address this weakness?",
+      "options": [
+        "Require users to change their passwords after each department transfer",
+        "Increase the frequency of organization-wide password resets",
+        "Provide additional security awareness training to transferred employees",
+        "Trigger access reassessment and adjustment whenever an employee changes roles"
+      ],
+      "answer": "D",
+      "explanation": "Role changes should trigger a review of existing privileges so that unnecessary access is removed and appropriate new access is granted. This prevents privilege accumulation and supports least-privilege access. Password changes do not correct excessive authorization.",
+      "topic": "Protection of Information Assets",
+      "subtopic": "Identity and Access Management",
+      "difficulty": "easy",
+      "source": "ISACA CISA Exam Content Outline, Domain 5A: Identity and Access Management"
+    },
+    {
+      "stem": "An organization encrypts sensitive files before storing them in a cloud environment. The encryption keys are maintained in the same cloud account, and the same administrators can access both the encrypted data and the keys. Which of the following is the MOST significant concern?",
+      "options": [
+        "Encryption may increase the time required to retrieve archived information",
+        "A compromise of privileged access could expose both the data and encryption keys",
+        "Cloud storage capacity may be insufficient for storing encrypted information",
+        "Encryption may prevent automated classification of the stored information"
+      ],
+      "answer": "B",
+      "explanation": "Encryption protects confidentiality only when the associated keys are adequately safeguarded. If a compromised administrator account can access both encrypted data and usable keys, the separation needed to limit the impact of compromise is weakened. Segregated key administration and appropriately restricted key access can reduce this exposure.",
+      "topic": "Protection of Information Assets",
+      "subtopic": "Data Encryption",
+      "difficulty": "medium",
+      "source": "ISACA CISA Exam Content Outline, Domain 5A: Data Encryption"
+    },
+    {
+      "stem": "An organization has implemented a data loss prevention (DLP) solution to monitor outbound email. During an audit, the IS auditor discovers that the solution identifies confidential attachments but permits users to override the warning without recording a justification. Which of the following improvements would BEST strengthen the control?",
+      "options": [
+        "Disable outbound email for every employee who handles confidential data",
+        "Configure the system to generate additional alerts without changing the override process",
+        "Require justified overrides and review exception activity according to risk",
+        "Replace email attachment scanning with periodic user awareness training"
+      ],
+      "answer": "C",
+      "explanation": "Uncontrolled warning overrides can make DLP enforcement ineffective. Requiring documented justification and risk-based review creates accountability and enables management to identify inappropriate or repeated exceptions. High-risk disclosures may warrant blocking or additional authorization rather than a simple override.",
+      "topic": "Protection of Information Assets",
+      "subtopic": "Data Loss Prevention (DLP)",
+      "difficulty": "medium",
+      "source": "ISACA CISA Exam Content Outline, Domain 5A: Data Loss Prevention (DLP)"
+    },
+    {
+      "stem": "During an investigation into suspected unauthorized access, a security analyst creates a forensic image of an affected workstation. Which of the following procedures is MOST important for demonstrating that the forensic image has not been altered since acquisition?",
+      "options": [
+        "Calculate and preserve cryptographic hash values for integrity verification",
+        "Store the forensic image in the same directory as the original evidence",
+        "Record the workstation's operating system version and installed software",
+        "Obtain written confirmation that the workstation owner approved imaging"
+      ],
+      "answer": "A",
+      "explanation": "Cryptographic hash values provide a means of verifying the integrity of forensic evidence. Comparing a preserved acquisition hash with a subsequently calculated hash helps demonstrate whether the image has changed. Proper chain-of-custody documentation and secure storage are also necessary for reliable evidence handling.",
+      "topic": "Protection of Information Assets",
+      "subtopic": "Evidence Collection and Forensics",
+      "difficulty": "medium",
+      "source": "ISACA CISA Exam Content Outline, Domain 5B: Evidence Collection and Forensics"
+    },
+    {
+      "stem": "An IS auditor is reviewing security monitoring after a suspected compromise of a privileged account. Authentication logs are retained by individual servers, but their system clocks differ by several minutes, and some logs can be modified by local administrators. Which of the following should be the auditor's PRIMARY recommendation?",
+      "options": [
+        "Increase log retention periods on all affected servers",
+        "Require administrators to manually review authentication logs every day",
+        "Configure the servers to record more detailed application performance events",
+        "Synchronize system clocks and forward logs to a protected centralized repository"
+      ],
+      "answer": "D",
+      "explanation": "Reliable incident reconstruction requires consistent timestamps and trustworthy log records. Clock synchronization enables meaningful correlation of events across systems, while protected centralized collection reduces the opportunity for local administrators or attackers to alter or destroy evidence. Longer retention alone would not resolve these integrity and correlation weaknesses.",
+      "topic": "Protection of Information Assets",
+      "subtopic": "Security Monitoring Logs, Tools, and Techniques",
+      "difficulty": "hard",
+      "source": "ISACA CISA Exam Content Outline, Domain 5B: Security Monitoring Tools and Techniques"
+    }
+  ]
+}

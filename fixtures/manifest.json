@@ -129,6 +129,7 @@
     { "file": "valid/cisa-claude-2.md", "errors": [], "fenced": true },
     { "file": "valid/cisa-claude-3.md", "errors": [], "fenced": true },
     { "file": "valid/cisa-claude-4.md", "errors": [], "fenced": true },
+    { "file": "valid/cisa-chatgpt-1.json", "errors": [] },
 
     { "file": "invalid/empty.txt", "errors": ["E001"] },
     { "file": "invalid/not-json.txt", "errors": ["E002"] },
