@@ -1,0 +1,84 @@
+{
+  "id": "comptia-aplus-core2",
+  "display_name": "CompTIA A+ Core 2 (220-1202)",
+  "body": "CompTIA",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, endorsed by or sponsored by CompTIA. Students write their own practice questions to the objectives validated by CompTIA; DoMcq holds no CompTIA materials. CompTIA® and the names of CompTIA certifications are trademarks or registered trademarks of CompTIA, Inc., used here only to identify the exam.",
+  "taxonomy": {
+    "Operating Systems": [
+      "Explain common operating system (OS) types and their purposes",
+      "Given a scenario, perform OS installations and upgrades in a diverse environment",
+      "Compare and contrast basic features of Microsoft Windows editions",
+      "Given a scenario, use Microsoft Windows operating system features and tools",
+      "Given a scenario, use the appropriate Microsoft command-line tools",
+      "Given a scenario, configure Microsoft Windows settings",
+      "Given a scenario, configure Microsoft Windows networking features on a client/desktop",
+      "Explain common features and tools of the macOS/desktop operating system",
+      "Identify common features and tools of the Linux client/desktop operating system",
+      "Given a scenario, install applications according to requirements",
+      "Given a scenario, install and configure cloud-based productivity tools"
+    ],
+    "Security": [
+      "Summarize various security measures and their purposes",
+      "Given a scenario, configure and apply basic Microsoft Windows OS security settings",
+      "Compare and contrast wireless security protocols and authentication methods",
+      "Summarize types of malware and tools/methods for detection, removal, and prevention",
+      "Compare and contrast common social engineering attacks, threats, and vulnerabilities",
+      "Given a scenario, implement procedures for basic small office/home office (SOHO) malware removal",
+      "Given a scenario, apply workstation security options and hardening techniques",
+      "Given a scenario, apply common methods for securing mobile devices",
+      "Compare and contrast common data destruction and disposal methods",
+      "Given a scenario, apply security settings on SOHO wireless and wired networks",
+      "Given a scenario, configure relevant security settings in a browser"
+    ],
+    "Software Troubleshooting": [
+      "Given a scenario, troubleshoot common Windows OS issues",
+      "Given a scenario, troubleshoot common mobile OS and application issues",
+      "Given a scenario, troubleshoot common mobile OS and application security issues",
+      "Given a scenario, troubleshoot common personal computer (PC) security issues"
+    ],
+    "Operational Procedures": [
+      "Given a scenario, implement best practices associated with documentation and support systems information management",
+      "Given a scenario, apply change management procedures",
+      "Given a scenario, implement workstation backup and recovery methods",
+      "Given a scenario, use common safety procedures",
+      "Summarize environmental impacts and local environment controls",
+      "Explain the importance of prohibited content/activity and privacy, licensing, and policy concepts",
+      "Given a scenario, use proper communication techniques and professionalism",
+      "Explain the basics of scripting",
+      "Given a scenario, use remote access technologies",
+      "Explain basic concepts related to artificial intelligence (AI)"
+    ]
+  },
+  "weights": {
+    "Operating Systems": 28,
+    "Security": 28,
+    "Software Troubleshooting": 23,
+    "Operational Procedures": 21
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": true,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [
+    "Which of the following actions should a technician take to fix the issue?",
+    "Which of the following should the team check first?",
+    "Which of the following describes this attack?",
+    "Which of the following is the best approach in this scenario?"
+  ],
+  "uncovered_item_types": [
+    "performance-based",
+    "drag-and-drop"
+  ],
+  "exam_mode": {
+    "questions": 90,
+    "minutes": 90
+  },
+  "verified_outline": "CompTIA A+ Certification Exam Objectives, Core 2 (220-1202) V15 (Document Version 4.0)",
+  "verified_on": "2026-10-19",
+  "next_review": "2027-10-19"
+}
