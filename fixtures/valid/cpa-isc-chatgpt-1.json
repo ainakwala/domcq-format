@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "cpa-isc",
+  "set": "Uniform CPA Examination: Information Systems and Controls (ISC) practice – Set 1",
+  "questions": [
+    {
+      "stem": "A retailer uses an enterprise resource planning (ERP) system to integrate purchasing, inventory management, and accounting. Which of the following is a primary benefit of implementing an ERP system?",
+      "options": [
+        "Eliminating the need for management review of financial transactions",
+        "Maintaining consistent information across integrated business functions",
+        "Preventing employees from entering inaccurate transaction information",
+        "Removing the requirement for reconciliation of subsidiary ledgers"
+      ],
+      "answer": "B",
+      "explanation": "An ERP system integrates business processes and maintains information in shared or connected databases, reducing inconsistent records and duplicate data entry. However, integration does not eliminate the need for transaction validation, reconciliations, or management oversight.",
+      "topic": "Information Systems and Data Management",
+      "subtopic": "Information systems",
+      "difficulty": "easy",
+      "source": "AICPA ISC Blueprint 2026, Area I: Information systems"
+    },
+    {
+      "stem": "A company processes thousands of customer orders daily. Management wants to ensure that each valid order is recorded only once in the accounting system, even if an employee accidentally submits the same order twice. Which application control would most directly address this risk?",
+      "options": [
+        "Requiring monthly review of total revenue by the controller",
+        "Restricting access to the order-entry system during nonbusiness hours",
+        "Encrypting customer information before storing completed orders",
+        "Rejecting transactions containing an order identifier already processed"
+      ],
+      "answer": "D",
+      "explanation": "A duplicate-check control compares incoming order identifiers with previously processed orders and rejects duplicates. This directly supports processing integrity by preventing the same transaction from being recorded multiple times. Revenue reviews are detective controls and may identify errors only after processing.",
+      "topic": "Information Systems and Data Management",
+      "subtopic": "Information systems",
+      "difficulty": "medium",
+      "source": "AICPA ISC Blueprint 2026, Area I: Application controls and processing integrity"
+    },
+    {
+      "stem": "An organization requires developers to write application code, while a separate operations team approves and implements changes in the production environment. What is the primary control objective of this arrangement?",
+      "options": [
+        "Reducing the risk of unauthorized or inadequately tested production changes",
+        "Improving the efficiency of data transmission between application servers",
+        "Ensuring that all application development costs qualify for capitalization",
+        "Eliminating the need to maintain software version control documentation"
+      ],
+      "answer": "A",
+      "explanation": "Segregating development from production deployment reduces the opportunity for an individual to introduce unauthorized or untested changes. Separate authorization and implementation responsibilities strengthen change management controls. Version control and testing remain necessary even when responsibilities are segregated.",
+      "topic": "Information Systems and Data Management",
+      "subtopic": "Information systems",
+      "difficulty": "easy",
+      "source": "AICPA ISC Blueprint 2026, Area I: IT general controls and change management"
+    },
+    {
+      "stem": "During an IT audit, an auditor learns that a company has a fully documented disaster recovery plan but has never tested its ability to restore its accounting database from backup files. Which procedure would provide the most persuasive evidence that the restoration process operates effectively?",
+      "options": [
+        "Inspecting the disaster recovery policy approved by senior management",
+        "Interviewing the database administrator about restoration procedures",
+        "Observing a controlled restoration test and validating the recovered data",
+        "Reviewing the schedule for the company's routine backup operations"
+      ],
+      "answer": "C",
+      "explanation": "A controlled restoration test provides evidence that backup files can actually be used to recover data. Validating the restored data helps determine whether the recovery process maintains data integrity. Policies, interviews, and backup schedules provide less persuasive evidence about actual restoration capability.",
+      "topic": "Information Systems and Data Management",
+      "subtopic": "Information systems",
+      "difficulty": "medium",
+      "source": "AICPA ISC Blueprint 2026, Area I: Business continuity and disaster recovery"
+    },
+    {
+      "stem": "A financial services company defines a recovery point objective (RPO) of 15 minutes for its transaction processing database. A system failure occurs at 2:00 p.m. Which recovery outcome is consistent with the company's stated RPO?",
+      "options": [
+        "Restoring the application to normal operation by 2:15 p.m.",
+        "Recovering transactions recorded through at least 1:45 p.m.",
+        "Completing a full system security review before 2:15 p.m.",
+        "Restoring all transactions without any loss by 2:15 p.m."
+      ],
+      "answer": "B",
+      "explanation": "RPO specifies the maximum acceptable period of data loss measured backward from a disruption. A 15-minute RPO at 2:00 p.m. permits recovery to a point no earlier than 1:45 p.m. Recovery time objective (RTO), rather than RPO, addresses how quickly service must be restored.",
+      "topic": "Information Systems and Data Management",
+      "subtopic": "Information systems",
+      "difficulty": "medium",
+      "source": "AICPA ISC Blueprint 2026, Area I: Business continuity and recovery objectives"
+    },
+    {
+      "stem": "A company maintains a relational database with a Customers table containing CustomerID and CustomerName, and an Orders table containing OrderID, CustomerID, and OrderAmount. The company wants a report showing only customers who have placed orders, together with their corresponding order amounts. Which SQL operation is most appropriate?",
+      "options": [
+        "CROSS JOIN between Customers and Orders without a matching condition",
+        "LEFT JOIN from Customers to Orders including unmatched customers",
+        "UNION of the Customers and Orders tables using their existing columns",
+        "INNER JOIN of Customers and Orders using the CustomerID column"
+      ],
+      "answer": "D",
+      "explanation": "An INNER JOIN returns records with matching CustomerID values in both tables, linking each qualifying customer to the customer's orders. A LEFT JOIN would also include customers without orders. A CROSS JOIN creates combinations of rows, while UNION combines compatible result sets rather than matching related records.",
+      "topic": "Information Systems and Data Management",
+      "subtopic": "Data management",
+      "difficulty": "medium",
+      "source": "AICPA ISC Blueprint 2026, Area I: Relational databases and SQL queries"
+    },
+    {
+      "stem": "A company stores customer telephone numbers separately in its sales, billing, and shipping databases. Changing a telephone number in one database does not automatically update the others. Which data management problem does this arrangement most directly illustrate?",
+      "options": [
+        "Data redundancy creating a risk of inconsistent information",
+        "Data encryption preventing the retrieval of customer information",
+        "Data normalization creating excessive dependency between records",
+        "Data validation preventing users from modifying existing information"
+      ],
+      "answer": "A",
+      "explanation": "Duplicating the same data across separate systems creates redundancy and increases the risk that records will become inconsistent. Database normalization and effective data integration can reduce this problem by organizing shared information and limiting unnecessary duplication.",
+      "topic": "Information Systems and Data Management",
+      "subtopic": "Data management",
+      "difficulty": "easy",
+      "source": "AICPA ISC Blueprint 2026, Area I: Data storage, organization and management"
+    },
+    {
+      "stem": "An auditor is assessing a company's automated sales report. The report combines transactions from two source systems using an extract, transform, load (ETL) process. The auditor confirms that source records were extracted completely but finds that some valid transactions disappeared after transformation. Which additional control would most directly detect this deficiency?",
+      "options": [
+        "Requiring passwords for employees who access the reporting database",
+        "Encrypting transferred files before loading them into the data warehouse",
+        "Reconciling source transaction identifiers and control totals to the transformed output",
+        "Restricting report distribution to personnel approved by the accounting manager"
+      ],
+      "answer": "C",
+      "explanation": "Reconciliation of transaction identifiers and control totals before and after transformation helps detect missing, duplicated, or incorrectly transformed records. Because the source extraction was complete, the identified risk concerns integrity during transformation. Access restrictions and encryption address other risks but do not establish transformation completeness.",
+      "topic": "Information Systems and Data Management",
+      "subtopic": "Data management",
+      "difficulty": "hard",
+      "source": "AICPA ISC Blueprint 2026, Area I: Data extraction, transformation and integration"
+    },
+    {
+      "stem": "A company's security policy requires employees to use multifactor authentication (MFA) when accessing its financial reporting application. Which authentication method satisfies this requirement?",
+      "options": [
+        "Entering a password and answering a memorized security question",
+        "Entering a password and providing a code generated by an authenticator application",
+        "Entering a username and a password that must be changed monthly",
+        "Entering a password and selecting a previously established security image"
+      ],
+      "answer": "B",
+      "explanation": "MFA uses authentication factors from at least two different categories, such as something a user knows and something a user possesses. A password combined with a code generated by a separately enrolled authenticator provides these two factors. Two knowledge-based challenges generally do not constitute multifactor authentication.",
+      "topic": "Security, Confidentiality and Privacy",
+      "subtopic": "Security",
+      "difficulty": "easy",
+      "source": "AICPA ISC Blueprint 2026, Area II: Authentication and logical access controls"
+    },
+    {
+      "stem": "A company is evaluating whether a newly discovered software vulnerability requires immediate remediation. The vulnerability affects an internet-facing server that processes sensitive customer information. Which factor would most directly increase the priority assigned to remediation?",
+      "options": [
+        "The server is maintained by an established technology vendor",
+        "The application has been used successfully for several years",
+        "The organization performs annual information security training",
+        "The vulnerability is actively exploited and permits remote code execution"
+      ],
+      "answer": "D",
+      "explanation": "Active exploitation combined with remote code execution creates a significant and immediate risk of unauthorized system compromise. Remediation priorities should consider exploitability, threat activity, exposure, and potential business impact. A vendor relationship or the application's operating history does not offset an actively exploitable weakness.",
+      "topic": "Security, Confidentiality and Privacy",
+      "subtopic": "Security",
+      "difficulty": "medium",
+      "source": "AICPA ISC Blueprint 2026, Area II: Vulnerability management and cybersecurity threats"
+    },
+    {
+      "stem": "An organization uses the National Institute of Standards and Technology (NIST) Cybersecurity Framework 2.0 to evaluate its cybersecurity program. Which framework function specifically addresses establishing and monitoring cybersecurity risk management strategy, expectations, and policy?",
+      "options": [
+        "Govern",
+        "Protect",
+        "Detect",
+        "Recover"
+      ],
+      "answer": "A",
+      "explanation": "The Govern function in NIST CSF 2.0 addresses the organizational context, risk management strategy, roles, responsibilities, policies, and oversight related to cybersecurity. Protect focuses on safeguards, Detect on identifying potential attacks or compromises, and Recover on restoring affected assets and operations.",
+      "topic": "Security, Confidentiality and Privacy",
+      "subtopic": "Regulations, standards and frameworks",
+      "difficulty": "medium",
+      "source": "NIST Cybersecurity Framework 2.0, Govern function; AICPA ISC Blueprint 2026, Area II"
+    },
+    {
+      "stem": "A database containing customer financial information is encrypted using a symmetric encryption algorithm. Which statement correctly describes symmetric encryption?",
+      "options": [
+        "It uses a public key for encryption and a separate private key for decryption",
+        "It converts sensitive information into irreversible fixed-length hash values",
+        "It uses the same secret key for encryption and decryption",
+        "It eliminates the need to restrict access to confidential information"
+      ],
+      "answer": "C",
+      "explanation": "Symmetric encryption uses the same secret key, or equivalent shared secret key material, to encrypt and decrypt information. It is commonly used for efficient protection of stored and transmitted data. Because the key enables decryption, secure key management and access controls remain essential.",
+      "topic": "Security, Confidentiality and Privacy",
+      "subtopic": "Confidentiality and privacy",
+      "difficulty": "easy",
+      "source": "AICPA ISC Blueprint 2026, Area II: Encryption fundamentals and applications"
+    },
+    {
+      "stem": "An organization collects customers' home addresses to deliver purchased merchandise. It subsequently proposes using those addresses for an unrelated marketing campaign, despite having informed customers that the information would be used only for order fulfillment. Which privacy principle is most directly implicated?",
+      "options": [
+        "Physical protection of information processing facilities",
+        "Limiting use of personal information to specified purposes",
+        "Maintaining sufficient computing resources during peak periods",
+        "Ensuring accurate calculation of customer purchase balances"
+      ],
+      "answer": "B",
+      "explanation": "Privacy controls address how personal information is collected, used, retained, and disclosed in accordance with stated purposes and commitments. Using information for an unrelated purpose may violate those commitments unless an appropriate basis, such as valid consent where required, exists. The concern is permitted use rather than system availability or transaction accuracy.",
+      "topic": "Security, Confidentiality and Privacy",
+      "subtopic": "Confidentiality and privacy",
+      "difficulty": "medium",
+      "source": "AICPA Trust Services Criteria, Privacy category; AICPA ISC Blueprint 2026, Area II"
+    },
+    {
+      "stem": "A company deploys a data loss prevention (DLP) system to protect customer account information. Which activity is a DLP system primarily designed to identify and potentially block?",
+      "options": [
+        "A database administrator updating an approved software configuration",
+        "An employee accessing an application during scheduled working hours",
+        "A network administrator restarting a server after scheduled maintenance",
+        "An employee attempting to email a file containing sensitive account numbers externally"
+      ],
+      "answer": "D",
+      "explanation": "DLP systems monitor sensitive data and enforce policies governing its movement or disclosure. They may detect sensitive account numbers in outbound communications and block or flag unauthorized transmissions. Their primary purpose is reducing inappropriate data exposure rather than managing routine system administration.",
+      "topic": "Security, Confidentiality and Privacy",
+      "subtopic": "Confidentiality and privacy",
+      "difficulty": "medium",
+      "source": "AICPA ISC Blueprint 2026, Area II: Data loss prevention and confidentiality controls"
+    },
+    {
+      "stem": "A security analyst receives an alert that an employee's workstation is communicating with a known malicious command-and-control server. The security team has validated the alert and determined that the workstation is compromised. Under the organization's incident response procedures, which action should generally be performed next to limit further damage?",
+      "options": [
+        "Isolate the affected workstation from the network while preserving evidence",
+        "Delete all security logs generated by the affected workstation",
+        "Reinstall the operating system before recording incident details",
+        "Defer further action until the next scheduled vulnerability assessment"
+      ],
+      "answer": "A",
+      "explanation": "Once an incident is confirmed, containment limits the attacker's ability to communicate with compromised systems or spread to other assets. Isolation should be performed in a manner that preserves relevant evidence for investigation. Deleting logs or immediately rebuilding a system without considering evidence preservation can impair incident analysis.",
+      "topic": "Security, Confidentiality and Privacy",
+      "subtopic": "Incident response",
+      "difficulty": "medium",
+      "source": "AICPA ISC Blueprint 2026, Area II: Incident response and containment procedures"
+    },
+    {
+      "stem": "During a SOC 2 examination, an auditor evaluates a security control requiring privileged user access to be reviewed quarterly. The company provides four dated review documents, each signed by an IT manager. However, the auditor discovers that the reviews were performed using an incomplete list that excluded several privileged service accounts. What is the most appropriate conclusion concerning the evidence?",
+      "options": [
+        "The control operated effectively because all four quarterly reviews were signed",
+        "The control operated effectively because service accounts do not require access reviews",
+        "The evidence does not demonstrate effective review of the complete privileged-access population",
+        "The evidence is sufficient because quarterly reviews are primarily documentation controls"
+      ],
+      "answer": "C",
+      "explanation": "Evidence of a review is insufficient if the underlying information omits accounts that the control is intended to cover. The auditor must consider the completeness and accuracy of information used in control execution before concluding that the control operated effectively. Signed documentation alone does not establish that the review addressed the entire relevant population.",
+      "topic": "Security, Confidentiality and Privacy",
+      "subtopic": "Security",
+      "difficulty": "hard",
+      "source": "AICPA ISC Blueprint 2026, Area II: Testing security controls and evaluating deficiencies"
+    },
+    {
+      "stem": "A service organization processes customer payroll transactions for multiple companies. The user companies' financial statement auditors want assurance concerning controls at the service organization that are relevant to the user companies' internal control over financial reporting. Which report is most directly suited to this purpose?",
+      "options": [
+        "SOC 2 report addressing security and processing integrity",
+        "SOC 3 report intended for general distribution",
+        "SOC for Cybersecurity report addressing enterprise cybersecurity risk",
+        "SOC 1 report addressing controls relevant to financial reporting"
+      ],
+      "answer": "D",
+      "explanation": "SOC 1 reports address controls at a service organization that are relevant to user entities' internal control over financial reporting. They can assist user entities and their financial statement auditors in understanding and evaluating relevant outsourced controls. SOC 2 focuses on trust services criteria, while SOC 3 provides a more general-use report.",
+      "topic": "Considerations for System and Organization Controls (SOC) Engagements",
+      "subtopic": "Considerations specific to planning and performing a SOC engagement",
+      "difficulty": "easy",
+      "source": "AICPA ISC Blueprint 2026, Area III: SOC report purposes and intended users"
+    },
+    {
+      "stem": "A service organization requests a SOC 2 examination of controls covering the period January 1 through December 31. Management specifically wants the service auditor's opinion to address whether the relevant controls operated effectively throughout that period. Which engagement approach is appropriate?",
+      "options": [
+        "A Type 1 examination assessing control design at December 31",
+        "A Type 2 examination assessing control design and operation over the stated period",
+        "A Type 1 examination assessing only management's description over the stated period",
+        "A SOC 3 examination limited to documenting the control environment at December 31"
+      ],
+      "answer": "B",
+      "explanation": "A Type 2 SOC 2 examination addresses whether the controls were suitably designed and operated effectively throughout the specified period, along with the system description. A Type 1 examination addresses the description and suitability of design at a specified date, not operating effectiveness over a period.",
+      "topic": "Considerations for System and Organization Controls (SOC) Engagements",
+      "subtopic": "Considerations specific to reporting on a SOC engagement",
+      "difficulty": "medium",
+      "source": "AICPA SOC 2 Guide: Type 1 and Type 2 examinations; AICPA ISC Blueprint 2026, Area III"
+    },
+    {
+      "stem": "A cloud hosting provider is undergoing a SOC 2 Type 2 examination. Its system description identifies a complementary user entity control requiring customers to manage access permissions for their own application users. The service auditor confirms that the provider has appropriately described this dependency. Which statement best characterizes the auditor's responsibility?",
+      "options": [
+        "The auditor ordinarily evaluates the service organization's controls, while the described user entity control remains a responsibility of users",
+        "The auditor must test the identified user entity control at every customer before issuing an unmodified opinion",
+        "The auditor must exclude the entire access-control category because a user entity control is necessary",
+        "The auditor may disregard whether the user entity control is relevant to achieving the applicable control objectives"
+      ],
+      "answer": "A",
+      "explanation": "Complementary user entity controls are controls that the service organization assumes user entities will implement for the applicable criteria to be met. The service auditor evaluates whether these dependencies are appropriately identified and described but ordinarily does not test their operation at each user entity. The service organization's controls are evaluated in the context of those assumptions.",
+      "topic": "Considerations for System and Organization Controls (SOC) Engagements",
+      "subtopic": "Considerations specific to planning and performing a SOC engagement",
+      "difficulty": "hard",
+      "source": "AICPA SOC 2 Guide: Complementary user entity controls; AICPA ISC Blueprint 2026, Area III"
+    },
+    {
+      "stem": "A service auditor is completing a SOC 2 Type 2 examination of a service organization that uses a third-party data center. Management has appropriately applied the carve-out method to the data center in its system description. The auditor identifies relevant complementary subservice organization controls necessary to achieve the applicable trust services criteria. Which approach is most appropriate?",
+      "options": [
+        "Express an opinion on the third-party data center's operating effectiveness without obtaining evidence",
+        "Treat the third-party data center's controls as included within the examination despite the carve-out",
+        "Evaluate the service organization's controls and the appropriateness of the described complementary subservice organization controls without directly opining on the carved-out controls",
+        "Omit all discussion of the third-party data center because its services are provided under a separate contract"
+      ],
+      "answer": "C",
+      "explanation": "Under the carve-out method, the subservice organization's controls are excluded from the scope of the service auditor's examination. The service auditor considers whether management's description appropriately identifies the services and complementary subservice organization controls and evaluates the service organization's relevant controls. The auditor does not express an opinion on the operating effectiveness of the excluded controls. This distinction is important when determining the scope and limitations of a SOC 2 report.",
+      "topic": "Considerations for System and Organization Controls (SOC) Engagements",
+      "subtopic": "Considerations specific to reporting on a SOC engagement",
+      "difficulty": "hard",
+      "source": "AICPA SOC 2 Guide: Carve-out method and subservice organizations; AICPA ISC Blueprint 2026, Area III"
+    }
+  ]
+}
