@@ -2,7 +2,7 @@
   "id": "cisa",
   "display_name": "Certified Information Systems Auditor (CISA)",
   "body": "ISACA",
-  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by ISACA; the names are used only to identify the exam. ISACA® and the names of ISACA certifications, including CISA® (Certified Information Systems Auditor®) and CISM® (Certified Information Security Manager®), are trademarks of ISACA.",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by ISACA; the names are used only to identify the exam. ISACA® and the names of ISACA certifications, including Certified Information Systems Auditor® (CISA®) and Certified Information Security Manager® (CISM®), are trademarks of ISACA.",
   "taxonomy": {
     "Information System Auditing Process": [
       "IS Audit Standards, Guidelines, Functions, and Codes of Ethics",
