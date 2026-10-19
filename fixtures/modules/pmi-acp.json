@@ -1,0 +1,50 @@
+{
+  "id": "pmi-acp",
+  "display_name": "PMI Agile Certified Practitioner (PMI-ACP)",
+  "body": "PMI",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by the Project Management Institute (PMI); the names are used only to identify the exam. \"PMI,\" \"PMP,\" \"Project Management Professional,\" \"Certified Associate in Project Management (CAPM),\" \"CAPM,\" \"PMI Agile Certified Practitioner (PMI-ACP)\" and \"PMI-ACP\" are registered marks of Project Management Institute, Inc.",
+  "taxonomy": {
+    "Mindset": [
+      "Experiment Early",
+      "Embrace Agile Mindset",
+      "Promote Collaborative Team Environment",
+      "Build Transparency",
+      "Foster Psychological Safety",
+      "Shorten Feedback Loops",
+      "Embrace Change"
+    ],
+    "Leadership": [
+      "Empower Teams",
+      "Facilitate Problem Resolution",
+      "Promote Knowledge Sharing",
+      "Promote agile mindset principles and practices",
+      "Promote shared vision and purpose",
+      "Facilitate conflict management"
+    ],
+    "Product": [
+      "Refine product backlog",
+      "Manage increments",
+      "Visualize work",
+      "Manage value delivery"
+    ],
+    "Delivery": [
+      "Seek early feedback",
+      "Manage agile metrics",
+      "Manage impediments and risk",
+      "Recognize and eliminate waste",
+      "Perform continuous improvements",
+      "Actively engage customers",
+      "Optimize flow"
+    ]
+  },
+  "weights": { "Mindset": 28, "Leadership": 25, "Product": 19, "Delivery": 28 },
+  "options": { "min": 4, "max": 6 },
+  "multi_select": true,
+  "banned_option_text": ["all of the above", "none of the above"],
+  "stem_hints": [],
+  "uncovered_item_types": ["drag-and-drop", "exhibit"],
+  "exam_mode": { "questions": 120, "minutes": 180, "sections": 2 },
+  "verified_outline": "PMI-ACP Examination Content Outline, March 2026",
+  "verified_on": "2026-10-19",
+  "next_review": "2027-10-19"
+}
