@@ -1,0 +1,312 @@
+
+{
+  "format": "domcq/1",
+  "exam": "capm",
+  "set": "Certified Associate in Project Management (CAPM) practice – Core Concepts and Applications",
+  "questions": [
+    {
+      "stem": "A company undertakes an initiative to develop a new customer service application with a defined start and finish. Which characteristic distinguishes this initiative from ongoing operations?",
+      "options": [
+        "It produces the same outputs through repeated activities.",
+        "It requires resources from several functional departments.",
+        "It creates a unique product, service, or result.",
+        "It follows established organizational procedures."
+      ],
+      "answer": "C",
+      "explanation": "A project is a temporary endeavor undertaken to create a unique product, service, or result. Ongoing operations typically involve repetitive activities that sustain the business. Projects may use established procedures and cross-functional resources, but these characteristics do not distinguish them from operations.",
+      "topic": "Project Management Fundamentals and Core Concepts",
+      "subtopic": "Demonstrate an understanding of the various project life cycles and processes",
+      "difficulty": "easy",
+      "source": "CAPM Exam Content Outline, Domain 1, Task 1; PMBOK Guide, Project and Operations Management"
+    },
+    {
+      "stem": "A project manager must identify team members who are responsible, accountable, consulted, and informed for each major deliverable. Which tool should the project manager use?",
+      "options": [
+        "Responsibility assignment matrix (RACI)",
+        "Stakeholder engagement assessment matrix",
+        "Work breakdown structure (WBS)",
+        "Requirements traceability matrix"
+      ],
+      "answer": "A",
+      "explanation": "A RACI matrix identifies who is responsible for performing work, who is accountable for the result, who must be consulted, and who should be informed. It clarifies ownership and reduces confusion about roles. A WBS decomposes deliverables rather than defining these responsibility relationships.",
+      "topic": "Project Management Fundamentals and Core Concepts",
+      "subtopic": "Demonstrate an understanding of project roles and responsibilities",
+      "difficulty": "easy",
+      "source": "CAPM Exam Content Outline, Domain 1, Task 3; PMBOK Guide, Responsibility Assignment Matrix"
+    },
+    {
+      "stem": "A project manager is preparing an initial project risk register. Which THREE pieces of information are appropriate to record for an identified risk? Choose THREE.",
+      "options": [
+        "The final actual cost of the completed project",
+        "The probability that the risk event will occur",
+        "The approved final acceptance of every deliverable",
+        "The potential impact on project objectives",
+        "The assigned owner responsible for the risk"
+      ],
+      "answer": "BDE",
+      "explanation": "A risk register commonly records identified risks, their assessed probability and impact, and assigned risk owners. These details support risk prioritization, response planning, and monitoring. Final project costs and completed deliverable acceptance are not characteristics of an identified risk.",
+      "topic": "Project Management Fundamentals and Core Concepts",
+      "subtopic": "Determine how to follow and execute planned strategies or frameworks (e.g., communication, risks, etc.)",
+      "difficulty": "medium",
+      "source": "CAPM Exam Content Outline, Domain 1, Task 4; PMBOK Guide, Risk Register"
+    },
+    {
+      "stem": "During project planning, stakeholders request several additional features that could increase cost and extend the schedule. What should the project manager do before incorporating these features into the approved plan?",
+      "options": [
+        "Assign the features to available team members.",
+        "Add contingency reserves for all requested features.",
+        "Update the scope baseline to include the features.",
+        "Evaluate the requests using the change control process."
+      ],
+      "answer": "D",
+      "explanation": "Changes affecting an approved project baseline should be evaluated through the established change control process. This evaluation considers the effects on scope, schedule, cost, risks, and other constraints before an authorized decision is made. The baseline is updated only when the applicable change is approved.",
+      "topic": "Project Management Fundamentals and Core Concepts",
+      "subtopic": "Demonstrate an understanding of project management planning",
+      "difficulty": "medium",
+      "source": "CAPM Exam Content Outline, Domain 1, Task 2; PMBOK Guide, Integrated Change Control"
+    },
+    {
+      "stem": "A project team wants to determine which categories of defects account for the largest proportion of quality problems. Which tool is most appropriate?",
+      "options": [
+        "Scatter diagram",
+        "Pareto chart",
+        "Control chart",
+        "Affinity diagram"
+      ],
+      "answer": "B",
+      "explanation": "A Pareto chart displays categories in descending order of frequency or another measure of significance. It helps teams identify the relatively few categories responsible for the greatest share of problems. This supports prioritizing corrective actions where they can have the greatest effect.",
+      "topic": "Project Management Fundamentals and Core Concepts",
+      "subtopic": "Demonstrate an understanding of common problem-solving tools and techniques",
+      "difficulty": "easy",
+      "source": "CAPM Exam Content Outline, Domain 1, Task 5; PMBOK Guide, Quality Management Tools"
+    },
+    {
+      "stem": "A project has a highly influential stakeholder who requires detailed technical information, while other stakeholders need only monthly progress summaries. Which TWO actions should the project manager take? Choose TWO.",
+      "options": [
+        "Provide identical information to all stakeholders to ensure consistency.",
+        "Limit technical communication to formal project closure activities.",
+        "Tailor the communication content to stakeholder information needs.",
+        "Use the same communication frequency for every stakeholder group.",
+        "Document communication requirements and distribution methods."
+      ],
+      "answer": "CE",
+      "explanation": "Effective communication planning accounts for stakeholders' different information needs, levels of detail, preferred channels, and timing. Documenting these requirements helps ensure that the appropriate information reaches the appropriate people. Uniform communication content and frequency may leave some stakeholders inadequately informed while overwhelming others.",
+      "topic": "Project Management Fundamentals and Core Concepts",
+      "subtopic": "Determine how to follow and execute planned strategies or frameworks (e.g., communication, risks, etc.)",
+      "difficulty": "medium",
+      "source": "CAPM Exam Content Outline, Domain 1, Task 4; PMBOK Guide, Communications Management"
+    },
+    {
+      "stem": "A project sponsor asks a project manager to complete a product development initiative within four months. Historical data indicate that similar projects normally require seven months. The manager has not yet developed a detailed schedule. What should the project manager do FIRST?",
+      "options": [
+        "Assess the project requirements, estimates, and feasibility of the deadline.",
+        "Approve the requested deadline and use overtime to address delays.",
+        "Reduce the quality requirements to create additional schedule flexibility.",
+        "Request that functional managers assign more resources immediately."
+      ],
+      "answer": "A",
+      "explanation": "The project manager should first assess whether the requested deadline is realistic based on scope, available resources, constraints, and relevant historical information. This provides a basis for discussing trade-offs and developing a credible plan. Committing to the deadline or changing project constraints without analysis introduces unnecessary risk.",
+      "topic": "Project Management Fundamentals and Core Concepts",
+      "subtopic": "Demonstrate an understanding of project management planning",
+      "difficulty": "hard",
+      "source": "CAPM Exam Content Outline, Domain 1, Task 2; PMBOK Guide, Planning and Estimating"
+    },
+    {
+      "stem": "An engineering project has well-defined requirements, mandatory regulatory approvals, and a sequence of construction activities that must follow an approved design. Which delivery approach is most appropriate?",
+      "options": [
+        "An adaptive approach with continuously reprioritized requirements",
+        "An iterative approach without a predetermined final scope",
+        "A continuous-flow approach without phase-based approvals",
+        "A predictive approach with detailed upfront planning"
+      ],
+      "answer": "D",
+      "explanation": "A predictive approach is generally appropriate when requirements are stable, the work can be planned in advance, and the project must follow defined approval stages. It supports establishing baselines and monitoring performance against them. Adaptive approaches are more useful when requirements are uncertain or frequent feedback-driven changes are expected.",
+      "topic": "Predictive, Plan-Based Methodologies",
+      "subtopic": "Explain when it is appropriate to use a predictive, plan-based approach",
+      "difficulty": "easy",
+      "source": "CAPM Exam Content Outline, Domain 2, Task 1; PMBOK Guide, Development Approaches"
+    },
+    {
+      "stem": "A predictive project has the following activity dependencies: Activity A takes 4 days. After A, activities B and C run in parallel and take 6 and 3 days, respectively. Activity D takes 5 days and starts only after both B and C finish. What is the minimum project duration, assuming no resource constraints or scheduling delays?",
+      "options": [
+        "12 days",
+        "15 days",
+        "18 days",
+        "20 days"
+      ],
+      "answer": "B",
+      "explanation": "The two paths are A-B-D, totaling 4 + 6 + 5 = 15 days, and A-C-D, totaling 4 + 3 + 5 = 12 days. The longest path determines the minimum project duration under the stated assumptions. Therefore, A-B-D is the critical path and the project requires 15 days.",
+      "topic": "Predictive, Plan-Based Methodologies",
+      "subtopic": "Demonstrate an understanding of a project management plan schedule",
+      "difficulty": "medium",
+      "source": "CAPM Exam Content Outline, Domain 2, Task 2; PMBOK Guide, Critical Path Method"
+    },
+    {
+      "stem": "A predictive project has a budget at completion (BAC) of $500,000, a planned value (PV) of $240,000, an earned value (EV) of $200,000, and an actual cost (AC) of $250,000. Which TWO conclusions are supported by these data? Choose TWO.",
+      "options": [
+        "The schedule performance index is approximately 0.83.",
+        "The project is currently under its authorized budget.",
+        "The cost performance index is approximately 1.25.",
+        "The project is performing ahead of its planned schedule.",
+        "The cost variance is negative $50,000."
+      ],
+      "answer": "AE",
+      "explanation": "Schedule performance index equals EV divided by PV, or 200,000 / 240,000 = approximately 0.83, indicating less work has been earned than planned. Cost variance equals EV minus AC, or $200,000 - $250,000 = negative $50,000, indicating a cost overrun for the work performed. The cost performance index is 0.80, not 1.25.",
+      "topic": "Predictive, Plan-Based Methodologies",
+      "subtopic": "Determine how to document project controls of predictive, plan-based projects",
+      "difficulty": "hard",
+      "source": "CAPM Exam Content Outline, Domain 2, Task 3; PMBOK Guide, Earned Value Management"
+    },
+    {
+      "stem": "A development team is creating a product for a market in which customer preferences change frequently. The customer can review working features every two weeks. Which approach best supports this environment?",
+      "options": [
+        "A predictive approach with requirements fixed before development",
+        "A sequential approach with customer validation at project closure",
+        "An adaptive approach with frequent delivery and feedback",
+        "A plan-driven approach with changes deferred until completion"
+      ],
+      "answer": "C",
+      "explanation": "Adaptive approaches are suitable when requirements are uncertain or likely to change. Frequent delivery and stakeholder feedback allow the team to incorporate learning and adjust priorities. This reduces the risk of producing a complete solution that no longer satisfies customer needs.",
+      "topic": "Agile Frameworks/Methodologies",
+      "subtopic": "Explain when it is appropriate to use an adaptive approach",
+      "difficulty": "easy",
+      "source": "CAPM Exam Content Outline, Domain 3, Task 1; Agile Practice Guide, Life Cycle Selection"
+    },
+    {
+      "stem": "An agile team has a prioritized product backlog and is preparing for its next two-week iteration. What should the team use to determine how much work to select?",
+      "options": [
+        "The total number of features requested by the project sponsor",
+        "The number of requirements originally identified in the project charter",
+        "The amount of work completed by all other teams in the organization",
+        "The team's available capacity and historical delivery performance"
+      ],
+      "answer": "D",
+      "explanation": "Iteration planning should consider the team's capacity and evidence of how much work it has previously completed. These factors help the team establish a realistic iteration forecast and avoid overcommitment. Product priorities guide what is selected, while capacity and delivery performance help determine how much can be selected.",
+      "topic": "Agile Frameworks/Methodologies",
+      "subtopic": "Determine how to plan project iterations",
+      "difficulty": "medium",
+      "source": "CAPM Exam Content Outline, Domain 3, Task 2; Agile Practice Guide, Iteration Planning"
+    },
+    {
+      "stem": "An agile team uses a Kanban board and notices that many work items remain in the testing column for several days. Which action is most appropriate to improve the flow of work?",
+      "options": [
+        "Increase the number of new items entering development.",
+        "Identify and address the testing bottleneck before starting more work.",
+        "Remove testing activities from the team's definition of done.",
+        "Assign every unfinished testing item to the product owner."
+      ],
+      "answer": "B",
+      "explanation": "Kanban emphasizes visualizing workflow, managing work in progress, and improving flow. An accumulation of items in testing suggests a potential bottleneck that the team should investigate. Adding more upstream work without addressing the constraint may increase work in progress and lengthen delivery time.",
+      "topic": "Agile Frameworks/Methodologies",
+      "subtopic": "Determine how to prepare and execute task management steps",
+      "difficulty": "medium",
+      "source": "CAPM Exam Content Outline, Domain 3, Task 5; Agile Practice Guide, Kanban and Flow"
+    },
+    {
+      "stem": "An agile team is halfway through a release consisting of four iterations. Its initial release forecast assumed a delivery rate of 30 story points per iteration, but the first two iterations completed 18 and 20 story points. The remaining backlog contains 65 story points. What is the most appropriate action?",
+      "options": [
+        "Revise the release forecast using actual delivery performance and discuss options with stakeholders.",
+        "Maintain the original release date and treat the initial estimate as a fixed commitment.",
+        "Increase the estimated story point values of remaining items to match the planned velocity.",
+        "Exclude unfinished stories from progress reports until the fourth iteration is completed."
+      ],
+      "answer": "A",
+      "explanation": "The team's observed average velocity is 19 story points per iteration, suggesting that completing 65 remaining points will require approximately four additional iterations at the current rate. The team should make this forecast transparent and collaborate with stakeholders on scope, timing, and priorities. Changing estimates merely to match a target would distort planning information.",
+      "topic": "Agile Frameworks/Methodologies",
+      "subtopic": "Explain the components of an adaptive plan",
+      "difficulty": "hard",
+      "source": "CAPM Exam Content Outline, Domain 3, Task 4; Agile Practice Guide, Release Planning and Velocity"
+    },
+    {
+      "stem": "A company appoints a business analyst to support the implementation of a new payroll system. Which activity is a primary responsibility of the business analyst?",
+      "options": [
+        "Authorizing the organizational budget for the system",
+        "Approving the contracts of all implementation vendors",
+        "Eliciting and analyzing stakeholder requirements",
+        "Assigning operational staff to permanent reporting roles"
+      ],
+      "answer": "C",
+      "explanation": "Business analysts work with stakeholders to understand business needs and elicit, analyze, and manage requirements. They help ensure that the proposed solution addresses the underlying business problem. Budget authorization, contract approval, and permanent staffing decisions generally belong to other organizational roles.",
+      "topic": "Business Analysis Frameworks",
+      "subtopic": "Demonstrate an understanding of business analysis (BA) roles and responsibilities",
+      "difficulty": "easy",
+      "source": "CAPM Exam Content Outline, Domain 4, Task 1; PMI Guide to Business Analysis, Roles and Responsibilities"
+    },
+    {
+      "stem": "A business analyst is collecting requirements for a new online ordering system. Several stakeholders disagree about the importance of requested features. Which technique is most appropriate for reaching a shared understanding of priorities?",
+      "options": [
+        "Reviewing historical financial statements independently",
+        "Conducting individual system performance tests",
+        "Preparing a final acceptance report before development",
+        "Facilitating a requirements prioritization workshop"
+      ],
+      "answer": "D",
+      "explanation": "A facilitated workshop allows stakeholders to discuss competing needs, clarify assumptions, and agree on priorities using defined criteria. It is especially valuable when requirements conflict or require negotiation. Financial analysis and performance testing may provide useful evidence but do not replace stakeholder collaboration.",
+      "topic": "Business Analysis Frameworks",
+      "subtopic": "Determine how to gather requirements",
+      "difficulty": "medium",
+      "source": "CAPM Exam Content Outline, Domain 4, Task 3; PMI Guide to Business Analysis, Elicitation"
+    },
+    {
+      "stem": "A business analyst is developing a product roadmap for a mobile banking application. Which information should the roadmap primarily communicate?",
+      "options": [
+        "The detailed daily assignments of every development team member",
+        "The planned evolution of product capabilities and major releases",
+        "The complete technical specifications for all system interfaces",
+        "The individual test results for each completed software component"
+      ],
+      "answer": "B",
+      "explanation": "A product roadmap communicates the intended direction of a product, including major capabilities, priorities, and anticipated releases or time horizons. It aligns stakeholders around the product's strategic progression. Detailed task assignments, technical specifications, and test results are maintained in other artifacts.",
+      "topic": "Business Analysis Frameworks",
+      "subtopic": "Demonstrate an understanding of product roadmaps",
+      "difficulty": "medium",
+      "source": "CAPM Exam Content Outline, Domain 4, Task 4; PMI Guide to Business Analysis, Product Roadmap"
+    },
+    {
+      "stem": "A business analyst is selecting techniques to gather requirements for a new employee benefits portal. Which TWO techniques directly support discovering stakeholder needs? Choose TWO.",
+      "options": [
+        "Conducting interviews with employees and benefits administrators",
+        "Calculating earned value for the implementation project",
+        "Analyzing organizational network diagrams for the project schedule",
+        "Observing employees performing existing benefits enrollment tasks",
+        "Estimating the cost variance of completed development activities"
+      ],
+      "answer": "AD",
+      "explanation": "Interviews elicit stakeholder perspectives, objectives, and concerns through direct discussion. Observation reveals how people actually perform work and can identify needs that stakeholders may overlook when describing a process. Earned value and schedule analysis primarily support project performance management rather than requirements elicitation.",
+      "topic": "Business Analysis Frameworks",
+      "subtopic": "Determine how to gather requirements",
+      "difficulty": "medium",
+      "source": "CAPM Exam Content Outline, Domain 4, Task 3; PMI Guide to Business Analysis, Elicitation Techniques"
+    },
+    {
+      "stem": "A project uses a predictive development approach, and its business analyst has completed a set of approved requirements. A stakeholder subsequently requests a significant new reporting capability. What should the business analyst do?",
+      "options": [
+        "Implement the capability immediately because stakeholder needs take precedence.",
+        "Reject the capability because predictive projects cannot accept new requirements.",
+        "Analyze the requirement and its impacts, then follow the established change control process.",
+        "Add the capability directly to the approved requirements baseline without further review."
+      ],
+      "answer": "C",
+      "explanation": "In a predictive environment, changes to approved requirements are normally evaluated through a controlled process. The business analyst can clarify the proposed requirement, analyze its implications, and provide information needed for the change decision. Predictive planning does not prohibit changes, but they must be managed against approved baselines.",
+      "topic": "Business Analysis Frameworks",
+      "subtopic": "Determine how project methodologies influence business analysis processes",
+      "difficulty": "medium",
+      "source": "CAPM Exam Content Outline, Domain 4, Task 5; PMI Guide to Business Analysis, Requirements Change Management"
+    },
+    {
+      "stem": "A business analyst is validating a delivered payment-processing feature. The approved requirement states that the system must reject transactions exceeding a customer's available balance, while preserving a complete audit record of each rejected transaction. Testing confirms that excess transactions are rejected, but the audit record is not created. What should the analyst conclude?",
+      "options": [
+        "The feature satisfies the requirement because its primary control prevents excess payments.",
+        "The feature should be accepted because the missing record does not affect the transaction outcome.",
+        "The feature satisfies the requirement if the development team documents the missing functionality.",
+        "The feature does not satisfy the requirement because one required acceptance condition is unmet."
+      ],
+      "answer": "D",
+      "explanation": "Validation determines whether the delivered solution satisfies the agreed business requirements and acceptance criteria. The requirement contains two necessary conditions: rejecting excess transactions and preserving an audit record. Since the second condition is unmet, the feature does not fully satisfy the requirement and the discrepancy should be addressed.",
+      "topic": "Business Analysis Frameworks",
+      "subtopic": "Validate requirements through product delivery",
+      "difficulty": "hard",
+      "source": "CAPM Exam Content Outline, Domain 4, Task 6; PMI Guide to Business Analysis, Solution Evaluation and Validation"
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "format": "domcq/1",
+  "exam": "capm",
+  "set": "Certified Associate in Project Management (CAPM) practice – Core Exam Preparation Set",
+  "questions": [
+    {
+      "stem": "Which tool illustrates the connections between work packages or activities and project team members to ensure clear accountability?",
+      "options": [
+        "Responsibility assignment matrix",
+        "Resource breakdown structure",
+        "Stakeholder engagement matrix",
+        "Work breakdown structure dictionary"
+      ],
+      "answer": "A",
+      "explanation": "A responsibility assignment matrix (RAM), such as a RACI chart, shows the project resources assigned to each work package or activity. It clarifies roles and responsibilities by ensuring that team members know who is responsible, accountable, consulted, or informed for each component of work. This prevents confusion regarding ownership and task assignments.",
+      "topic": "Project Management Fundamentals and Core Concepts",
+      "subtopic": "Demonstrate an understanding of project roles and responsibilities",
+      "difficulty": "easy",
+      "source": "PMBOK Guide – Seventh Edition, Project Performance Domains: Team"
+    },
+    {
+      "stem": "A project delivers working software functionality to end users in small, usable releases every three weeks, while continuously incorporating feedback into future releases. Which development life cycle is being used?",
+      "options": [
+        "Predictive life cycle",
+        "Incremental life cycle",
+        "Waterfall life cycle",
+        "Linear sequential life cycle"
+      ],
+      "answer": "B",
+      "explanation": "An incremental life cycle delivers usable deliverables through a series of iterations that successively add functionality within a predetermined time frame. The product is considered complete only after the final iteration, but each increment delivers an operational capability to users. In contrast, predictive life cycles deliver the final product primarily at the end of the project.",
+      "topic": "Project Management Fundamentals and Core Concepts",
+      "subtopic": "Demonstrate an understanding of the various project life cycles and processes",
+      "difficulty": "medium",
+      "source": "PMBOK Guide – Seventh Edition, Development Approach and Life Cycle Performance Domain"
+    },
+    {
+      "stem": "During project execution, a project manager needs to update project information. Which document is considered part of the project management plan rather than a project document?",
+      "options": [
+        "Risk register",
+        "Stakeholder register",
+        "Scope baseline",
+        "Lessons learned register"
+      ],
+      "answer": "C",
+      "explanation": "The project management plan consists of component management plans and baselines, including the scope baseline, schedule baseline, and cost baseline. The scope baseline comprises the approved project scope statement, WBS, and WBS dictionary. Standalone records such as the risk register, stakeholder register, and lessons learned register are categorized as project documents.",
+      "topic": "Project Management Fundamentals and Core Concepts",
+      "subtopic": "Demonstrate an understanding of project management planning",
+      "difficulty": "medium",
+      "source": "Process Groups: A Practice Guide, Planning Process Group: Develop Project Management Plan"
+    },
+    {
+      "stem": "A project team purchases a comprehensive insurance policy to protect against potential financial damages resulting from extreme weather during construction. Which risk response strategy is the team implementing?",
+      "options": [
+        "Risk mitigation",
+        "Risk avoidance",
+        "Risk acceptance",
+        "Risk transference"
+      ],
+      "answer": "D",
+      "explanation": "Risk transference involves shifting the financial impact and ownership of a threat to a third party, typically via insurance, warranties, guarantees, or contracts. While it transfers the financial liability, it does not eliminate the risk event itself. Mitigation, on the other hand, actively reduces the probability or impact of the threat.",
+      "topic": "Project Management Fundamentals and Core Concepts",
+      "subtopic": "Determine how to follow and execute planned strategies or frameworks (e.g., communication, risks, etc.)",
+      "difficulty": "medium",
+      "source": "Process Groups: A Practice Guide, Planning Process Group: Plan Risk Responses"
+    },
+    {
+      "stem": "A project team is conducting a structured problem-solving session to determine why a critical manufacturing defect keeps recurring. Which TWO tools or techniques are specifically designed to uncover the root cause of this issue? (Choose TWO.)",
+      "options": [
+        "Fishbone diagram",
+        "Probability and impact matrix",
+        "Five Whys technique",
+        "RACI matrix",
+        "Gantt chart"
+      ],
+      "answer": "AC",
+      "explanation": "The Fishbone (Ishikawa or cause-and-effect) diagram and the Five Whys technique are both standard root-cause analysis tools used to identify underlying sources of problems. A Fishbone diagram organizes potential causes into distinct categories, while the Five Whys uses iterative questioning to drill down to the fundamental cause. A Gantt chart tracks schedule activities, a RACI matrix tracks responsibilities, and a probability and impact matrix evaluates risks.",
+      "topic": "Project Management Fundamentals and Core Concepts",
+      "subtopic": "Demonstrate an understanding of common problem-solving tools and techniques",
+      "difficulty": "medium",
+      "source": "PMBOK Guide – Seventh Edition, Models, Methods, and Artifacts: Visual Data and Information"
+    },
+    {
+      "stem": "Which project role is primarily responsible for securing project funding, championing the project to senior management, and signing the project charter?",
+      "options": [
+        "Project manager",
+        "Lead business analyst",
+        "Scrum Master",
+        "Project sponsor"
+      ],
+      "answer": "D",
+      "explanation": "The project sponsor provides financial resources, advocates for the project at executive levels, and authorizes the project by approving and signing the project charter. The project manager leads the team to achieve objectives, while the business analyst focuses on requirements and solution alignment. The sponsor serves as the bridge between executive leadership and project management.",
+      "topic": "Project Management Fundamentals and Core Concepts",
+      "subtopic": "Demonstrate an understanding of project roles and responsibilities",
+      "difficulty": "easy",
+      "source": "PMBOK Guide – Seventh Edition, Project Performance Domains: Stakeholders"
+    },
+    {
+      "stem": "A project team expands from 5 members to 9 members as new specialists join the effort. How many additional potential communication channels are created as a result of this expansion?",
+      "options": [
+        "10 channels",
+        "26 channels",
+        "36 channels",
+        "45 channels"
+      ],
+      "answer": "B",
+      "explanation": "The formula for potential communication channels is N(N - 1) / 2, where N represents the number of team members. For 5 members, the channels equal 5(4) / 2 = 10. For 9 members, the channels equal 9(8) / 2 = 36. The number of additional channels created is 36 - 10 = 26.",
+      "topic": "Project Management Fundamentals and Core Concepts",
+      "subtopic": "Determine how to follow and execute planned strategies or frameworks (e.g., communication, risks, etc.)",
+      "difficulty": "hard",
+      "source": "Process Groups: A Practice Guide, Planning Process Group: Plan Communications Management"
+    },
+    {
+      "stem": "In which situation is a predictive, plan-based project approach most appropriate?",
+      "options": [
+        "Project requirements are emerging and expected to evolve frequently throughout execution",
+        "The customer demands frequent operational software releases to evaluate usability at each step",
+        "The scope is well-understood, requirements are stable, and the deliverable is strictly regulated",
+        "Technological uncertainty is high and requires rapid cycles of experimentation and validation"
+      ],
+      "answer": "C",
+      "explanation": "A predictive approach is ideal when project scope and requirements are thoroughly understood, stable, and unlikely to experience significant change. Highly regulated environments and physical construction often benefit from predictive planning because detailed specifications can be defined upfront before execution begins. Dynamic, evolving scopes are better served by adaptive or agile approaches.",
+      "topic": "Predictive, Plan-Based Methodologies",
+      "subtopic": "Explain when it is appropriate to use a predictive, plan-based approach",
+      "difficulty": "easy",
+      "source": "PMBOK Guide – Seventh Edition, Development Approach and Life Cycle Performance Domain"
+    },
+    {
+      "stem": "An activity on a project network diagram has an early start of day 6, an early finish of day 10, a late start of day 11, and a late finish of day 15. What is the total float of this activity?",
+      "options": [
+        "0 days",
+        "4 days",
+        "9 days",
+        "5 days"
+      ],
+      "answer": "D",
+      "explanation": "Total float is calculated as Late Start minus Early Start (LS - ES) or Late Finish minus Early Finish (LF - EF). Using the given values: 11 - 6 = 5 days, or 15 - 10 = 5 days. Total float indicates the amount of time an activity can be delayed from its early start without delaying the planned project completion date.",
+      "topic": "Predictive, Plan-Based Methodologies",
+      "subtopic": "Demonstrate an understanding of a project management plan schedule",
+      "difficulty": "medium",
+      "source": "Process Groups: A Practice Guide, Planning Process Group: Develop Schedule"
+    },
+    {
+      "stem": "A project performance report displays a Cost Performance Index (CPI) of 1.20 and a Schedule Performance Index (SPI) of 0.82. How should the project manager interpret these project controls?",
+      "options": [
+        "The project is under budget and behind schedule",
+        "The project is over budget and ahead of schedule",
+        "The project is under budget and ahead of schedule",
+        "The project is over budget and behind schedule"
+      ],
+      "answer": "A",
+      "explanation": "In Earned Value Management, an index greater than 1.0 indicates favorable performance, whereas an index less than 1.0 indicates unfavorable performance. A CPI of 1.20 means the project is earning $1.20 of work for every dollar spent, indicating it is under budget. An SPI of 0.82 means progress is occurring at only 82% of the planned rate, indicating the project is behind schedule.",
+      "topic": "Predictive, Plan-Based Methodologies",
+      "subtopic": "Determine how to document project controls of predictive, plan-based projects",
+      "difficulty": "hard",
+      "source": "Process Groups: A Practice Guide, Monitoring and Controlling Process Group: Control Costs"
+    },
+    {
+      "stem": "Which factor is the strongest indicator that a project team should select an adaptive, agile approach rather than a predictive approach?",
+      "options": [
+        "The organization mandates a fixed-price contract with strict upfront design sign-offs",
+        "The product requirements are volatile and the solution requires frequent feedback loops",
+        "The project involves repetitive tasks that have been executed identically in past projects",
+        "The final deliverable can only provide business value once fully completed and launched"
+      ],
+      "answer": "B",
+      "explanation": "Adaptive and agile approaches are designed for environments with high uncertainty, emerging requirements, and rapid technological changes. Frequent feedback loops allow the team and stakeholders to inspect increments of work and adapt the product backlog continuously. Predictable, repetitive, or strictly linear work does not benefit as much from an adaptive life cycle.",
+      "topic": "Agile Frameworks/Methodologies",
+      "subtopic": "Explain when it is appropriate to use an adaptive approach",
+      "difficulty": "easy",
+      "source": "Agile Practice Guide, Chapter 3: Life Cycle Selection"
+    },
+    {
+      "stem": "During iteration planning, how does an agile team determine the amount of work to commit to for the upcoming sprint?",
+      "options": [
+        "By taking the maximum capacity assigned by the project management office",
+        "By accepting all user stories prioritized by the product owner regardless of size",
+        "By allocating equal hours to all identified project activities across team members",
+        "By using the team's historical velocity and current capacity to select backlog items"
+      ],
+      "answer": "D",
+      "explanation": "In agile iteration planning, the cross-functional team evaluates prioritized user stories from the product backlog against their historical velocity and available capacity for the upcoming timebox. The development team itself determines how much work it can realistically forecast and commit to completing. The product owner prioritizes the work, but does not dictate the volume of work committed.",
+      "topic": "Agile Frameworks/Methodologies",
+      "subtopic": "Determine how to plan project iterations",
+      "difficulty": "medium",
+      "source": "Agile Practice Guide, Chapter 5: Implementing Agile: Delivering in an Agile Environment"
+    },
+    {
+      "stem": "An agile team uses a Cumulative Flow Diagram (CFD) to monitor work in progress. On the diagram, the horizontal distance between the line representing 'In Progress' and the line representing 'Done' is expanding significantly over time. What does this trend indicate?",
+      "options": [
+        "The team velocity is increasing rapidly",
+        "The lead time to deliver features is increasing",
+        "The project scope is being systematically reduced",
+        "The team's work-in-progress limits are set too low"
+      ],
+      "answer": "B",
+      "explanation": "On a Cumulative Flow Diagram, horizontal distance between two stages represents cycle time or lead time, while vertical distance represents Work in Progress (WIP). When the horizontal distance between 'In Progress' and 'Done' expands, work items are taking longer to move through the workflow, meaning lead time is increasing. This often points to bottlenecks or excessive WIP in the system.",
+      "topic": "Agile Frameworks/Methodologies",
+      "subtopic": "Determine how to document project controls for an adaptive project",
+      "difficulty": "hard",
+      "source": "Agile Practice Guide, Chapter 5: Implementing Agile: Troubleshooting Agile Challenges"
+    },
+    {
+      "stem": "During a daily standup meeting, an agile team member raises an issue that requires a lengthy architectural debate among several developers. How should the meeting facilitator handle this situation?",
+      "options": [
+        "Extend the daily standup timebox until the architectural issue is fully resolved",
+        "Cancel the rest of the standup so the team can attend an immediate design session",
+        "Note the issue as an impediment and schedule a separate breakout session for relevant team members",
+        "Instruct the team member to make an executive decision immediately without further discussion"
+      ],
+      "answer": "C",
+      "explanation": "The daily standup is a brief, timeboxed meeting (usually 15 minutes) intended to synchronize team activities and identify impediments. Detailed discussions or architectural problem-solving should be taken offline into a separate breakout session or post-standup 'parking lot' with only the relevant individuals involved, ensuring the standup remains concise and focused.",
+      "topic": "Agile Frameworks/Methodologies",
+      "subtopic": "Determine how to prepare and execute task management steps",
+      "difficulty": "medium",
+      "source": "Agile Practice Guide, Chapter 5: Implementing Agile: Delivering in an Agile Environment"
+    },
+    {
+      "stem": "A business analyst (BA) and a project manager (PM) are collaborating on a new enterprise initiative. Which TWO responsibilities are primarily owned by the business analyst rather than the project manager? (Choose TWO.)",
+      "options": [
+        "Controlling the overall project schedule and managing cost baselines",
+        "Eliciting and documenting stakeholder business and functional requirements",
+        "Allocating team resources and resolving contractual procurement issues",
+        "Facilitating requirements traceability and product backlog refinement",
+        "Securing project authorization through the signed project charter"
+      ],
+      "answer": "BD",
+      "explanation": "The business analyst focuses on understanding business needs, eliciting and documenting functional requirements, and maintaining requirements traceability to ensure the product solves the business problem. Managing project baselines, allocating team resources, and managing contracts fall within the project manager's domain, while the project charter is authorized by the sponsor.",
+      "topic": "Business Analysis Frameworks",
+      "subtopic": "Demonstrate an understanding of business analysis (BA) roles and responsibilities",
+      "difficulty": "medium",
+      "source": "The PMI Guide to Business Analysis, Chapter 1: Business Analysis Overview"
+    },
+    {
+      "stem": "Which requirements elicitation technique provides early visual mock-ups or interactive simulations of a proposed software interface to capture user feedback before full-scale development begins?",
+      "options": [
+        "Prototyping",
+        "Benchmarking",
+        "Document analysis",
+        "Brainstorming"
+      ],
+      "answer": "A",
+      "explanation": "Prototyping is a requirements elicitation method that provides early working models, wireframes, or simulations of the expected product. It allows stakeholders to interact with a tangible representation of requirements, discover usability issues, and clarify their expectations before significant development effort is invested.",
+      "topic": "Business Analysis Frameworks",
+      "subtopic": "Determine how to gather requirements",
+      "difficulty": "easy",
+      "source": "The PMI Guide to Business Analysis, Chapter 4: Needs Assessment and Elicitation"
+    },
+    {
+      "stem": "What is the primary objective of creating a product roadmap during business analysis and product planning?",
+      "options": [
+        "To detail day-to-day task assignments and hourly resource utilization rates",
+        "To provide a high-level visual timeline depicting the strategic direction, releases, and key product capabilities",
+        "To establish legally binding completion dates for vendor procurement deliverables",
+        "To document every acceptance test case needed for software verification"
+      ],
+      "answer": "B",
+      "explanation": "A product roadmap is a high-level visual summary that communicates the strategic direction, vision, major product releases, and planned capabilities over time. It aligns internal teams and external stakeholders around shared goals without locking in granular operational tasks or daily schedules.",
+      "topic": "Business Analysis Frameworks",
+      "subtopic": "Demonstrate an understanding of product roadmaps",
+      "difficulty": "medium",
+      "source": "The PMI Guide to Business Analysis, Chapter 3: Strategy Analysis and Product Roadmaps"
+    },
+    {
+      "stem": "How does the approach to requirements elicitation and documentation differ between a predictive life cycle and an adaptive life cycle?",
+      "options": [
+        "Predictive projects baseline detailed requirements upfront, whereas adaptive projects elicit and refine requirements progressively just-in-time",
+        "Adaptive projects require all detailed requirements to be baselined upfront, whereas predictive projects define them iteratively",
+        "Predictive projects do not use formal documentation, whereas adaptive projects rely on heavy formal technical specifications",
+        "Adaptive projects eliminate requirements analysis entirely, whereas predictive projects conduct analysis throughout all phases"
+      ],
+      "answer": "A",
+      "explanation": "In predictive life cycles, business analysis activities emphasize defining, decomposing, and formally baselining requirements during the early planning phase to control scope changes. In adaptive life cycles, requirements are defined iteratively at a high level and refined just-in-time through progressive elaboration and backlog refinement as more is learned about customer needs.",
+      "topic": "Business Analysis Frameworks",
+      "subtopic": "Determine how project methodologies influence business analysis processes",
+      "difficulty": "hard",
+      "source": "The PMI Guide to Business Analysis, Chapter 1: Business Analysis Across Project Life Cycles"
+    },
+    {
+      "stem": "Which artifact connects each product requirement from its origin through to the test cases and deliverables that satisfy it, ensuring requirements validation throughout delivery?",
+      "options": [
+        "Product vision statement",
+        "Scope management plan",
+        "Traceability matrix",
+        "Business case"
+      ],
+      "answer": "C",
+      "explanation": "A requirements traceability matrix (RTM) links requirements from their origins (such as business goals or stakeholder needs) to the specific architecture, development components, and test artifacts that fulfill them. This provides bidirectional traceability to ensure all approved requirements are delivered and validated through testing.",
+      "topic": "Business Analysis Frameworks",
+      "subtopic": "Validate requirements through product delivery",
+      "difficulty": "medium",
+      "source": "The PMI Guide to Business Analysis, Chapter 5: Traceability and Monitoring"
+    },
+    {
+      "stem": "During stakeholder analysis, a business analyst identifies fictitious archetypal profiles representing typical end users, including their goals, pain points, and behaviors. Which tool is the analyst using?",
+      "options": [
+        "Affinity diagrams",
+        "Context diagrams",
+        "Fishbone diagrams",
+        "Personas"
+      ],
+      "answer": "D",
+      "explanation": "Personas are archetypal representations of real or potential users created to help the team understand user needs, experiences, behaviors, and goals. They serve as a powerful communication tool to ensure requirements and designs remain user-centered throughout analysis and product delivery.",
+      "topic": "Business Analysis Frameworks",
+      "subtopic": "Determine how to conduct stakeholder communication",
+      "difficulty": "easy",
+      "source": "The PMI Guide to Business Analysis, Chapter 4: Elicitation and Collaboration"
+    }
+  ]
+}
