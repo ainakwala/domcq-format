@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "comptia-aplus-core2",
+  "set": "CompTIA A+ Core 2 (220-1202) practice – Systems, Security and Support",
+  "questions": [
+    {
+      "stem": "A technician needs to install a 64-bit version of Windows 11 on a desktop computer. Which of the following processor architectures is supported by Windows 11?",
+      "options": [
+        "32-bit x86",
+        "64-bit x86",
+        "32-bit ARM",
+        "16-bit x86"
+      ],
+      "answer": "B",
+      "explanation": "Windows 11 supports 64-bit processor architectures, including x86-64 and supported ARM64 processors. It does not have a 32-bit edition. Technicians should verify processor compatibility and other hardware requirements before installation.",
+      "topic": "Operating Systems",
+      "subtopic": "Explain common operating system (OS) types and their purposes",
+      "difficulty": "easy",
+      "source": "CompTIA A+ 220-1202: Operating Systems – Common OS types and their purposes"
+    },
+    {
+      "stem": "A small business needs to configure a Windows 11 computer to accept incoming Remote Desktop connections using the built-in Microsoft Remote Desktop host. Which of the following Windows editions should the technician install?",
+      "options": [
+        "Windows 11 Home",
+        "Windows 11 Home in S mode",
+        "Windows 11 SE",
+        "Windows 11 Pro"
+      ],
+      "answer": "D",
+      "explanation": "Windows 11 Pro supports hosting incoming Remote Desktop sessions through Microsoft's built-in Remote Desktop feature. Windows 11 Home can act as a Remote Desktop client but cannot function as the built-in Remote Desktop host. The Pro edition also provides additional business management features.",
+      "topic": "Operating Systems",
+      "subtopic": "Compare and contrast basic features of Microsoft Windows editions",
+      "difficulty": "medium",
+      "source": "CompTIA A+ 220-1202: Operating Systems – Microsoft Windows editions"
+    },
+    {
+      "stem": "A Windows computer is experiencing frequent application crashes. A technician suspects corrupted protected operating system files and wants to scan for corruption and repair affected files. Which of the following commands should the technician run from an elevated command prompt?",
+      "options": [
+        "sfc /scannow",
+        "chkdsk /scan",
+        "ipconfig /flushdns",
+        "gpupdate /force"
+      ],
+      "answer": "A",
+      "explanation": "The System File Checker command scans protected Windows system files and repairs corrupted files when possible. CHKDSK checks file system and disk-related issues, while IPCONFIG and GPUPDATE perform networking and Group Policy tasks. An elevated command prompt is required for the repair operation.",
+      "topic": "Operating Systems",
+      "subtopic": "Given a scenario, use the appropriate Microsoft command-line tools",
+      "difficulty": "easy",
+      "source": "CompTIA A+ 220-1202: Operating Systems – Microsoft command-line tools"
+    },
+    {
+      "stem": "A technician is troubleshooting a macOS computer that is running low on available storage. The technician needs to identify which categories of files are consuming disk space and review storage optimization recommendations. Which of the following should the technician use?",
+      "options": [
+        "Keychain Access",
+        "Disk Utility First Aid",
+        "Storage settings",
+        "Activity Monitor"
+      ],
+      "answer": "C",
+      "explanation": "The Storage settings in macOS display storage usage by category and provide recommendations for managing available space. Disk Utility First Aid checks and repairs certain disk-related problems, while Activity Monitor displays resource utilization. Keychain Access manages passwords, certificates, and other stored credentials.",
+      "topic": "Operating Systems",
+      "subtopic": "Explain common features and tools of the macOS/desktop operating system",
+      "difficulty": "medium",
+      "source": "CompTIA A+ 220-1202: Operating Systems – macOS features and tools"
+    },
+    {
+      "stem": "A technician is configuring a Windows laptop that must access an internal company website using its fully qualified domain name. Other employees can access the website, but the laptop cannot resolve the name. The laptop can successfully ping the web server by IP address. Which TWO of the following actions are appropriate for investigating the issue? (Choose TWO.)",
+      "options": [
+        "Run nslookup to query DNS resolution for the website",
+        "Run chkdsk to identify errors on the system volume",
+        "Reinstall the network adapter before testing DNS",
+        "Verify the DNS server addresses configured on the laptop"
+      ],
+      "answer": "AD",
+      "explanation": "Successful connectivity by IP address suggests that the network path is functioning and that DNS resolution may be the problem. NSLOOKUP tests name resolution, while checking configured DNS server addresses helps identify incorrect or unreachable resolvers. Disk checks and immediate driver reinstallation do not directly investigate the observed name-resolution failure.",
+      "topic": "Operating Systems",
+      "subtopic": "Given a scenario, configure Microsoft Windows networking features on a client/desktop",
+      "difficulty": "medium",
+      "source": "CompTIA A+ 220-1202: Operating Systems – Windows networking features and command-line tools"
+    },
+    {
+      "stem": "A technician must deploy a productivity application to 80 Windows computers. The organization requires a centrally managed installation that does not display prompts to users and supports repeatable automated deployment. Which of the following installation methods best meets these requirements?",
+      "options": [
+        "Have each user launch the graphical installer manually",
+        "Copy the application's desktop shortcut to every computer",
+        "Use supported silent installation parameters through a deployment tool",
+        "Install the application on a shared folder and map the folder"
+      ],
+      "answer": "C",
+      "explanation": "Silent installation parameters allow supported applications to be installed without interactive prompts, making them suitable for centralized automated deployment. A deployment tool can manage installation commands consistently across multiple systems. Copying shortcuts or application folders does not reliably perform the installation steps required by software packages.",
+      "topic": "Operating Systems",
+      "subtopic": "Given a scenario, install applications according to requirements",
+      "difficulty": "hard",
+      "source": "CompTIA A+ 220-1202: Operating Systems – Application installation methods and requirements"
+    },
+    {
+      "stem": "A company wants to reduce the risk of unauthorized access to employee accounts when passwords are stolen. Which of the following security measures provides the most direct additional protection?",
+      "options": [
+        "Disabling operating system notifications",
+        "Enabling multifactor authentication",
+        "Increasing the display lock timeout",
+        "Disabling automatic application updates"
+      ],
+      "answer": "B",
+      "explanation": "Multifactor authentication requires users to provide an additional authentication factor beyond their password. This reduces the likelihood that a stolen password alone will allow an attacker to access an account. The other options do not provide an independent authentication factor.",
+      "topic": "Security",
+      "subtopic": "Summarize various security measures and their purposes",
+      "difficulty": "easy",
+      "source": "CompTIA A+ 220-1202: Security – Authentication and access control"
+    },
+    {
+      "stem": "A technician is configuring wireless access for an office that has a RADIUS server and supports WPA3-Enterprise. The administrator requires individual employee credentials and centralized authentication rather than a shared wireless password. Which of the following configurations best satisfies the requirement?",
+      "options": [
+        "WPA2-Personal using a shared passphrase",
+        "WPA3-Personal using simultaneous authentication of equals",
+        "WPA2-Personal with a hidden network name",
+        "WPA3-Enterprise using 802.1X authentication"
+      ],
+      "answer": "D",
+      "explanation": "WPA3-Enterprise supports enterprise authentication through 802.1X, commonly using a RADIUS server for centralized credential verification. Personal wireless modes use shared network credentials rather than individual enterprise authentication. Hiding the network name does not provide the required access control.",
+      "topic": "Security",
+      "subtopic": "Compare and contrast wireless security protocols and authentication methods",
+      "difficulty": "medium",
+      "source": "CompTIA A+ 220-1202: Security – Wireless security protocols and authentication methods"
+    },
+    {
+      "stem": "An employee receives a telephone call from someone claiming to be an IT support technician. The caller insists that the employee disclose a one-time authentication code to resolve an urgent account problem. Which of the following best describes this attack?",
+      "options": [
+        "Vishing",
+        "Tailgating",
+        "Shoulder surfing",
+        "Dumpster diving"
+      ],
+      "answer": "A",
+      "explanation": "Vishing is a form of social engineering that uses voice communication, typically telephone calls, to deceive victims into revealing information or performing unsafe actions. Requesting an authentication code is an attempt to bypass account protections. Employees should verify the caller independently and never disclose authentication codes to unsolicited callers.",
+      "topic": "Security",
+      "subtopic": "Compare and contrast common social engineering attacks, threats, and vulnerabilities",
+      "difficulty": "easy",
+      "source": "CompTIA A+ 220-1202: Security – Social engineering attacks"
+    },
+    {
+      "stem": "A company is preparing to reassign several employee laptops. The technician needs to protect data in case a laptop is lost and prevent users from installing unauthorized software with administrative privileges. Which TWO of the following actions best address these requirements? (Choose TWO.)",
+      "options": [
+        "Disable operating system security updates",
+        "Configure all employees as local administrators",
+        "Enable full-disk encryption on each laptop",
+        "Configure employees to use standard user accounts"
+      ],
+      "answer": "CD",
+      "explanation": "Full-disk encryption helps protect information stored on a lost or stolen laptop by preventing unauthorized access to data at rest. Standard user accounts reduce the ability to install privileged software or make system-wide configuration changes. These measures address different security risks and complement each other.",
+      "topic": "Security",
+      "subtopic": "Given a scenario, apply workstation security options and hardening techniques",
+      "difficulty": "medium",
+      "source": "CompTIA A+ 220-1202: Security – Workstation hardening and access control"
+    },
+    {
+      "stem": "A technician is preparing a solid-state drive for disposal. The drive contains confidential customer records, and the organization requires a sanitization method appropriate for SSD technology that does not depend on overwriting every logical sector. The drive supports a manufacturer-provided sanitize command. Which of the following is the best approach?",
+      "options": [
+        "Delete the files and empty the recycle bin",
+        "Perform a quick format of the drive",
+        "Overwrite the visible files with random data",
+        "Use the supported SSD sanitize or secure erase operation"
+      ],
+      "answer": "D",
+      "explanation": "An SSD sanitize or supported secure erase operation is designed to address data sanitization characteristics of solid-state storage. Because SSDs use wear leveling and remapping, ordinary logical overwriting may not reliably reach all previously written physical locations. The organization should verify that the sanitization operation completes successfully before releasing the device.",
+      "topic": "Security",
+      "subtopic": "Compare and contrast common data destruction and disposal methods",
+      "difficulty": "hard",
+      "source": "CompTIA A+ 220-1202: Security – Data destruction and disposal methods; NIST SP 800-88"
+    },
+    {
+      "stem": "A technician is securing a small office wireless router. The organization uses WPA2-Personal and wants to reduce exposure to attacks that exploit the router's push-button wireless enrollment feature. Which of the following settings should the technician disable?",
+      "options": [
+        "DHCP server",
+        "Wi-Fi Protected Setup",
+        "Network address translation",
+        "Stateful packet inspection"
+      ],
+      "answer": "B",
+      "explanation": "Wi-Fi Protected Setup (WPS) simplifies wireless enrollment but can introduce security weaknesses, particularly with vulnerable PIN-based implementations. Disabling WPS removes an unnecessary enrollment mechanism while allowing devices to connect using the configured WPA2-Personal credentials. DHCP, NAT, and stateful packet inspection perform different networking functions.",
+      "topic": "Security",
+      "subtopic": "Given a scenario, apply security settings on SOHO wireless and wired networks",
+      "difficulty": "medium",
+      "source": "CompTIA A+ 220-1202: Security – SOHO wireless and wired network security"
+    },
+    {
+      "stem": "A Windows computer displays a blue screen shortly after a new device driver is installed. The computer can still boot into Safe Mode. Which of the following actions should the technician attempt first to address the suspected driver problem?",
+      "options": [
+        "Roll back the recently installed driver",
+        "Delete the user's local profile",
+        "Perform a clean installation of Windows",
+        "Replace the computer's storage drive"
+      ],
+      "answer": "A",
+      "explanation": "A blue screen that begins immediately after installing a device driver suggests a possible driver compatibility or stability issue. Rolling back the driver restores its previous version and is a targeted, relatively low-impact troubleshooting step. A clean operating system installation or hardware replacement would be premature without additional evidence.",
+      "topic": "Software Troubleshooting",
+      "subtopic": "Given a scenario, troubleshoot common Windows OS issues",
+      "difficulty": "easy",
+      "source": "CompTIA A+ 220-1202: Software Troubleshooting – Windows OS issues"
+    },
+    {
+      "stem": "An Android smartphone application closes unexpectedly whenever the user opens it. Other applications operate normally, the phone has sufficient free storage, and restarting the phone has not resolved the issue. Which of the following should the technician try next?",
+      "options": [
+        "Replace the smartphone battery",
+        "Reset the phone to factory defaults immediately",
+        "Clear the affected application's cache",
+        "Disable all network connections permanently"
+      ],
+      "answer": "C",
+      "explanation": "Clearing the affected application's cache removes temporary application data that may be corrupted without normally deleting the user's stored application settings or account information. Because other applications function correctly, troubleshooting should focus on the malfunctioning application first. A factory reset is more disruptive and should be reserved for situations where less invasive measures fail.",
+      "topic": "Software Troubleshooting",
+      "subtopic": "Given a scenario, troubleshoot common mobile OS and application issues",
+      "difficulty": "medium",
+      "source": "CompTIA A+ 220-1202: Software Troubleshooting – Mobile OS and application issues"
+    },
+    {
+      "stem": "A user reports that an Android phone has recently begun displaying intrusive advertisements outside the web browser. The technician discovers that the problem began shortly after the user installed an unfamiliar application from an unofficial source. Which of the following is the best initial remediation?",
+      "options": [
+        "Disable the phone's screen lock",
+        "Turn off operating system updates",
+        "Clear the saved Wi-Fi credentials",
+        "Uninstall the suspicious application"
+      ],
+      "answer": "D",
+      "explanation": "An unfamiliar application installed immediately before intrusive advertising began is a likely source of adware or other unwanted behavior. Removing the suspected application directly addresses that potential source. The technician should also review application permissions, scan with a trusted security tool when available, and confirm that the symptoms stop.",
+      "topic": "Software Troubleshooting",
+      "subtopic": "Given a scenario, troubleshoot common mobile OS and application security issues",
+      "difficulty": "medium",
+      "source": "CompTIA A+ 220-1202: Software Troubleshooting – Mobile OS and application security issues"
+    },
+    {
+      "stem": "A Windows workstation continues to generate outbound connections to an unfamiliar internet address even when all user applications are closed. Malware scans detect a suspicious process, but removal attempts fail because the process automatically restarts. Which of the following approaches is most appropriate for removing the suspected infection while minimizing interference from active malware?",
+      "options": [
+        "Disable the Windows firewall and repeat the scan",
+        "Disconnect the workstation from the network and perform an offline malware scan",
+        "Delete all Windows event logs and restart normally",
+        "Change the workstation's DNS server and resume normal use"
+      ],
+      "answer": "B",
+      "explanation": "Disconnecting the workstation limits ongoing malicious network activity, while an offline malware scan can examine the system without relying on the potentially compromised running Windows environment. Malware that restarts automatically may resist removal during normal operation. After remediation, the technician should verify system security, investigate persistence mechanisms, and follow organizational incident procedures.",
+      "topic": "Software Troubleshooting",
+      "subtopic": "Given a scenario, troubleshoot common personal computer (PC) security issues",
+      "difficulty": "hard",
+      "source": "CompTIA A+ 220-1202: Software Troubleshooting – PC security issues and malware remediation"
+    },
+    {
+      "stem": "A technician replaces a failed workstation storage drive and reinstalls the operating system. Before closing the support ticket, the technician must document the completed work. Which of the following information is most important to include?",
+      "options": [
+        "The technician's opinion of the workstation manufacturer",
+        "A list of unrelated incidents reported by other employees",
+        "The symptoms, troubleshooting steps, actions taken, and verified resolution",
+        "The customer's account password for future troubleshooting"
+      ],
+      "answer": "C",
+      "explanation": "A complete support record documents the original symptoms, diagnostic actions, corrective work, and confirmation that the issue was resolved. This information provides accountability and helps future technicians identify recurring problems. Passwords should not be recorded in ordinary ticket notes because doing so creates an unnecessary security risk.",
+      "topic": "Operational Procedures",
+      "subtopic": "Given a scenario, implement best practices associated with documentation and support systems information management",
+      "difficulty": "easy",
+      "source": "CompTIA A+ 220-1202: Operational Procedures – Documentation and support systems"
+    },
+    {
+      "stem": "A technician is planning to deploy a new application version to all employees. The application supports a business-critical workflow, and the organization uses formal change management. Which TWO of the following items should be included in the change plan before deployment? (Choose TWO.)",
+      "options": [
+        "A tested rollback procedure in case the deployment fails",
+        "A requirement to permanently disable application logging",
+        "A decision to bypass approval because the update is recommended",
+        "An assessment of potential business impact and deployment risks"
+      ],
+      "answer": "AD",
+      "explanation": "A rollback procedure provides a defined recovery path if an update creates operational problems. A business impact and risk assessment helps decision-makers evaluate the consequences, timing, and safeguards associated with the change. Formal change management also typically includes authorization, testing, communication, and documentation.",
+      "topic": "Operational Procedures",
+      "subtopic": "Given a scenario, apply change management procedures",
+      "difficulty": "medium",
+      "source": "CompTIA A+ 220-1202: Operational Procedures – Change management"
+    },
+    {
+      "stem": "A company maintains daily incremental backups of workstation files and performs a full backup every Sunday. A workstation fails on Thursday afternoon after the Wednesday incremental backup is completed. Which of the following backup sets are needed to restore the workstation's files to the state captured by Wednesday's backup?",
+      "options": [
+        "Only the Wednesday incremental backup",
+        "The Sunday full backup and Wednesday incremental backup",
+        "The Sunday full backup and every incremental backup from Monday through Wednesday",
+        "The Sunday full backup and the most recent incremental backup before Wednesday"
+      ],
+      "answer": "C",
+      "explanation": "An incremental backup captures changes since the previous backup, whether that previous backup was full or incremental. Restoring the latest backed-up state therefore requires the most recent full backup followed by every subsequent incremental backup in sequence. A missing incremental backup can prevent complete recovery of changes made after that point.",
+      "topic": "Operational Procedures",
+      "subtopic": "Given a scenario, implement workstation backup and recovery methods",
+      "difficulty": "hard",
+      "source": "CompTIA A+ 220-1202: Operational Procedures – Backup types and recovery methods"
+    },
+    {
+      "stem": "A support organization is considering using a generative AI assistant to draft responses to common technical support requests. The assistant sometimes produces convincing explanations that contain incorrect technical details. Which of the following best describes this AI limitation?",
+      "options": [
+        "Data deduplication",
+        "AI hallucination",
+        "Model quantization",
+        "Transfer learning"
+      ],
+      "answer": "B",
+      "explanation": "AI hallucination occurs when a generative AI system produces content that appears plausible but is inaccurate, unsupported, or fabricated. Technical support staff should verify AI-generated troubleshooting instructions against reliable documentation before acting on them. Human review is particularly important when recommendations may affect system security, data, or availability.",
+      "topic": "Operational Procedures",
+      "subtopic": "Explain basic concepts related to artificial intelligence (AI)",
+      "difficulty": "medium",
+      "source": "CompTIA A+ 220-1202: Operational Procedures – Basic artificial intelligence concepts"
+    }
+  ]
+}
