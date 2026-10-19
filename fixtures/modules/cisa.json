@@ -1,0 +1,107 @@
+{
+  "id": "cisa",
+  "display_name": "Certified Information Systems Auditor (CISA)",
+  "body": "ISACA",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by ISACA; the names are used only to identify the exam. ISACA® and the names of ISACA certifications, including CISA® (Certified Information Systems Auditor®) and CISM® (Certified Information Security Manager®), are trademarks of ISACA.",
+  "taxonomy": {
+    "Information System Auditing Process": [
+      "IS Audit Standards, Guidelines, Functions, and Codes of Ethics",
+      "Types of Audits, Assessments, and Reviews",
+      "Risk-Based Audit Planning",
+      "Types of Controls and Considerations",
+      "Audit Project Management",
+      "Audit Testing and Sampling Methodology",
+      "Audit Evidence Collection Techniques",
+      "Audit Data Analytics (including audit algorithms)",
+      "Reporting and Communication Techniques",
+      "Quality Assurance and Improvement of Audit Process"
+    ],
+    "Governance and Management of IT": [
+      "Laws, Regulations, and Industry Standards",
+      "Organizational Structure, IT Governance, and IT Strategy",
+      "IT Policies, Standards, Procedures and Practices",
+      "Enterprise Architecture (EA) and Considerations",
+      "Enterprise Risk Management (ERM)",
+      "Privacy Program and Principles",
+      "Data Governance and Classification",
+      "IT Resource Management",
+      "IT Vendor Management",
+      "IT Performance Monitoring and Reporting",
+      "Quality Assurance and Quality Management of IT"
+    ],
+    "Information Systems Acquisition, Development, and Implementation": [
+      "Project Governance and Management",
+      "Business Case and Feasibility Analysis",
+      "System Development Methodologies",
+      "Control Identification and Design",
+      "System Readiness and Implementation Testing",
+      "Implementation Configuration and Release Management",
+      "System Migration, Infrastructure Deployment, and Data Conversion",
+      "Post-Implementation Review"
+    ],
+    "Information Systems Operations and Business Resilience": [
+      "IT Components",
+      "IT Asset Management",
+      "Job Scheduling and Production Process Automation",
+      "System Interfaces",
+      "Shadow IT and End-User Computing (EUC)",
+      "Systems Availability and Capacity Management",
+      "Problem and Incident Management",
+      "IT Change, Configuration, and Patch Management",
+      "Operational Log Management",
+      "IT Service Level Management",
+      "Database Management",
+      "Business Impact Analysis (BIA)",
+      "System and Operational Resilience",
+      "Data Backup, Storage, and Restoration",
+      "Business Continuity Plan (BCP)",
+      "Disaster Recovery Plans (DRP)"
+    ],
+    "Protection of Information Assets": [
+      "Information Asset Security Policies, Frameworks, Standards, and Guidelines",
+      "Physical and Environmental Controls",
+      "Identity and Access Management",
+      "Network and End-Point Security",
+      "Data Loss Prevention (DLP)",
+      "Data Encryption",
+      "Public Key Infrastructure (PKI)",
+      "Cloud and Virtualized Environments",
+      "Mobile, Wireless, and Internet-of-Things (IoT) Devices",
+      "Security Awareness Training and Programs",
+      "Information System Attack Methods and Techniques",
+      "Security Testing Tools and Techniques",
+      "Security Monitoring Logs, Tools, and Techniques",
+      "Security Incident Response Management",
+      "Evidence Collection and Forensics"
+    ]
+  },
+  "weights": {
+    "Information System Auditing Process": 18,
+    "Governance and Management of IT": 18,
+    "Information Systems Acquisition, Development, and Implementation": 12,
+    "Information Systems Operations and Business Resilience": 26,
+    "Protection of Information Assets": 26
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": false,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [
+    "Which of the following actions should the IS auditor take?",
+    "Which of the following areas is the MOST important?",
+    "The IS auditor should:"
+  ],
+  "uncovered_item_types": [],
+  "exam_mode": {
+    "questions": 150,
+    "minutes": 240
+  },
+  "verified_outline": "CISA Examination Content Outline (Effective August 2024), ISACA Certification Exam Candidate Guide Version 1.26",
+  "verified_on": "2026-10-19",
+  "next_review": "2027-10-19"
+}
