@@ -1,0 +1,72 @@
+{
+  "id": "cpa-tcp",
+  "display_name": "Uniform CPA Examination: Tax Compliance and Planning (TCP)",
+  "body": "AICPA",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by the American Institute of Certified Public Accountants (AICPA), the National Association of State Boards of Accountancy (NASBA) or any state board of accountancy; the names are used only to identify the exam. Uniform CPA Examination® is a registered trademark, and AICPA® a trademark, of the American Institute of Certified Public Accountants.",
+  "taxonomy": {
+    "Tax Compliance and Planning for Individuals and Personal Financial Planning": [
+      "Individual compliance and tax planning considerations",
+      "Compliance for passive activity and at-risk loss limitations (excluding tax credit implications)",
+      "Gift taxation compliance and planning",
+      "Personal financial planning for individuals"
+    ],
+    "Entity Tax Compliance": [
+      "C corporations",
+      "S corporations",
+      "Partnerships",
+      "Trusts",
+      "Tax-exempt organizations"
+    ],
+    "Entity Tax Planning": [
+      "Formation and liquidation of business entities",
+      "Tax planning for C corporations",
+      "Tax planning for S corporations",
+      "Tax planning for partnerships"
+    ],
+    "Property Transactions (disposition of assets)": [
+      "Nontaxable disposition of assets",
+      "Amount and character of gains and losses on asset disposition and netting process",
+      "Related party transactions, including imputed interest"
+    ]
+  },
+  "weights": {
+    "Tax Compliance and Planning for Individuals and Personal Financial Planning": {
+      "min": 30,
+      "max": 40
+    },
+    "Entity Tax Compliance": {
+      "min": 30,
+      "max": 40
+    },
+    "Entity Tax Planning": {
+      "min": 10,
+      "max": 20
+    },
+    "Property Transactions (disposition of assets)": {
+      "min": 10,
+      "max": 20
+    }
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": false,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [],
+  "uncovered_item_types": [
+    "task-based simulation"
+  ],
+  "exam_mode": {
+    "questions": 68,
+    "minutes": 120,
+    "sections": 2,
+    "note": "The real TCP exam is 4 hours: 68 multiple-choice questions in two testlets, then 7 task-based simulations; each part is half the score. Exam mode gives the multiple-choice part half the time."
+  },
+  "verified_outline": "Uniform CPA Examination Blueprints, effective January 2027 (TCP section)",
+  "verified_on": "2026-10-19",
+  "next_review": "2028-01-01"
+}

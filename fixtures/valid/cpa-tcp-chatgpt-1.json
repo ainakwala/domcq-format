@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "cpa-tcp",
+  "set": "Uniform CPA Examination: Tax Compliance and Planning (TCP) practice – Applied Tax Scenarios 1",
+  "questions": [
+    {
+      "stem": "An employee exercises an incentive stock option (ISO) to purchase 1,000 shares at $20 per share when the fair market value is $50 per share. The employee does not sell any shares during the year. Assuming the employee is subject to the alternative minimum tax (AMT) rules, what adjustment arises from the exercise?",
+      "options": [
+        "A $20,000 positive AMT adjustment",
+        "A $30,000 positive AMT adjustment",
+        "A $30,000 negative AMT adjustment",
+        "No AMT adjustment until the shares are sold"
+      ],
+      "answer": "B",
+      "explanation": "For AMT purposes, exercising an ISO generally creates an adjustment equal to the excess of the stock's fair market value over the exercise price when the shares are not disposed of in the same tax year. The adjustment is 1,000 shares multiplied by ($50 minus $20), or $30,000. Regular federal income tax generally does not recognize compensation income upon a qualifying ISO exercise.",
+      "topic": "Tax Compliance and Planning for Individuals and Personal Financial Planning",
+      "subtopic": "Individual compliance and tax planning considerations",
+      "difficulty": "medium",
+      "source": "AICPA TCP Blueprint Area I.A; IRC Sections 421, 422, and 56(b)(3)"
+    },
+    {
+      "stem": "A single taxpayer actively participates in a rental real estate activity and has a $20,000 rental loss for the year. The taxpayer's modified adjusted gross income for purposes of the rental real estate special allowance is $110,000, calculated before the rental loss. The taxpayer has no passive income from other activities and meets all other requirements for the special allowance. How much of the rental loss may be deducted against nonpassive income?",
+      "options": [
+        "$5,000",
+        "$10,000",
+        "$20,000",
+        "$15,000"
+      ],
+      "answer": "D",
+      "explanation": "The $25,000 special allowance for active participation in rental real estate is reduced by 50% of modified adjusted gross income exceeding $100,000. The reduction is $5,000, leaving a maximum allowance of $20,000. Because the taxpayer's rental loss is $20,000, the entire loss is deductible against nonpassive income.",
+      "topic": "Tax Compliance and Planning for Individuals and Personal Financial Planning",
+      "subtopic": "Compliance for passive activity and at-risk loss limitations (excluding tax credit implications)",
+      "difficulty": "medium",
+      "source": "AICPA TCP Blueprint Area I.B; IRC Section 469(i)"
+    },
+    {
+      "stem": "An individual invests $40,000 in a business activity and is personally liable for an additional $20,000 qualifying business loan. During the year, the activity produces a $75,000 tax loss. The individual has no other amounts at risk, previous losses, or relevant adjustments. Assuming the loss otherwise satisfies applicable basis limitations, what is the maximum loss permitted under the at-risk rules before applying passive activity limitations?",
+      "options": [
+        "$60,000",
+        "$40,000",
+        "$75,000",
+        "$20,000"
+      ],
+      "answer": "A",
+      "explanation": "Under the at-risk rules, losses generally cannot exceed the amount the taxpayer has economically at risk in the activity. The $40,000 investment and $20,000 qualifying personal liability produce an at-risk amount of $60,000. The remaining $15,000 loss is suspended under the at-risk rules.",
+      "topic": "Tax Compliance and Planning for Individuals and Personal Financial Planning",
+      "subtopic": "Compliance for passive activity and at-risk loss limitations (excluding tax credit implications)",
+      "difficulty": "hard",
+      "source": "AICPA TCP Blueprint Area I.B; IRC Section 465"
+    },
+    {
+      "stem": "In 2026, a grandmother pays $35,000 directly to an accredited university for her grandson's tuition. The payment covers tuition only and is made directly to the institution. How much of the payment is treated as a taxable gift for federal gift tax purposes?",
+      "options": [
+        "$16,000",
+        "$19,000",
+        "$0",
+        "$35,000"
+      ],
+      "answer": "C",
+      "explanation": "Payments made directly to a qualifying educational institution for tuition are excluded from taxable gifts under the educational exclusion. The exclusion is not subject to the annual gift tax exclusion dollar limit. Payments for room, board, or other nonqualifying expenses would not receive this treatment.",
+      "topic": "Tax Compliance and Planning for Individuals and Personal Financial Planning",
+      "subtopic": "Gift taxation compliance and planning",
+      "difficulty": "easy",
+      "source": "AICPA TCP Blueprint Area I.C; IRC Section 2503(e)"
+    },
+    {
+      "stem": "During 2026, an unmarried taxpayer gives $50,000 in cash to one adult child. The gift is a present-interest gift, the taxpayer makes no other gifts during the year, and no special exclusions apply. How much of the gift is a taxable gift after the annual gift tax exclusion, before applying the lifetime exemption?",
+      "options": [
+        "$50,000",
+        "$31,000",
+        "$19,000",
+        "$15,000"
+      ],
+      "answer": "B",
+      "explanation": "The annual federal gift tax exclusion for 2026 is $19,000 per donee for qualifying present-interest gifts. Subtracting $19,000 from the $50,000 transfer produces a taxable gift of $31,000. A taxable gift does not necessarily create gift tax payable because the donor may have an available lifetime exemption.",
+      "topic": "Tax Compliance and Planning for Individuals and Personal Financial Planning",
+      "subtopic": "Gift taxation compliance and planning",
+      "difficulty": "easy",
+      "source": "AICPA TCP Blueprint Area I.C; IRC Section 2503(b); IRS 2026 gift tax annual exclusion"
+    },
+    {
+      "stem": "A taxpayer established and funded a Roth IRA eight years ago and is now age 61. The taxpayer withdraws $45,000 from the account, consisting of contributions and investment earnings. Assuming the withdrawal is otherwise permitted, how is the distribution treated for federal income tax purposes?",
+      "options": [
+        "The entire distribution is ordinary income",
+        "Only the investment earnings are taxable",
+        "The distribution is subject to a 10% additional tax",
+        "The entire distribution is excluded from gross income"
+      ],
+      "answer": "D",
+      "explanation": "A Roth IRA distribution is qualified when the five-tax-year requirement is met and a qualifying condition applies, such as the taxpayer reaching age 59½. Both conditions are satisfied. Therefore, the entire distribution, including earnings, is excluded from gross income.",
+      "topic": "Tax Compliance and Planning for Individuals and Personal Financial Planning",
+      "subtopic": "Personal financial planning for individuals",
+      "difficulty": "easy",
+      "source": "AICPA TCP Blueprint Area I.D; IRC Section 408A(d)"
+    },
+    {
+      "stem": "A taxpayer purchased publicly traded stock for $40,000 and held it for several years. At the taxpayer's death, the stock had a fair market value of $95,000 and was included in the gross estate. The stock was subsequently inherited by the taxpayer's daughter. Assuming no special valuation election or basis adjustment exception applies, what is the daughter's initial federal income tax basis in the stock?",
+      "options": [
+        "$95,000",
+        "$40,000",
+        "$55,000",
+        "$135,000"
+      ],
+      "answer": "A",
+      "explanation": "Property acquired from a decedent generally receives an income tax basis equal to its fair market value at the date of death, subject to specified exceptions. The daughter therefore receives a basis of $95,000 rather than the decedent's historical $40,000 cost. This basis adjustment is relevant to subsequent capital gain or loss calculations.",
+      "topic": "Tax Compliance and Planning for Individuals and Personal Financial Planning",
+      "subtopic": "Personal financial planning for individuals",
+      "difficulty": "medium",
+      "source": "AICPA TCP Blueprint Area I.D; IRC Section 1014"
+    },
+    {
+      "stem": "A calendar-year C corporation has taxable income of $300,000 before deducting charitable contributions. It makes $45,000 of qualifying cash contributions to public charities during the year. Assume no carryovers, enhanced deductions, or special limitations apply, and use the general 10% corporate charitable contribution limit without any separate contribution floor. What is the corporation's allowable charitable contribution deduction for the current year?",
+      "options": [
+        "$45,000",
+        "$15,000",
+        "$30,000",
+        "$10,000"
+      ],
+      "answer": "C",
+      "explanation": "Under the stipulated 10% limitation, the corporation may deduct up to 10% of its $300,000 taxable income computed before the charitable contribution deduction. This produces a current deduction of $30,000. The remaining $15,000 is potentially available for carryforward, subject to applicable rules.",
+      "topic": "Entity Tax Compliance",
+      "subtopic": "C corporations",
+      "difficulty": "medium",
+      "source": "AICPA TCP Blueprint Area II.A; IRC Section 170(b)(2)"
+    },
+    {
+      "stem": "An S corporation shareholder begins the tax year with an adjusted stock basis of $60,000 and no debt basis. During the year, the shareholder receives a $15,000 cash distribution and is allocated $20,000 of ordinary business income. There are no other adjustments. What is the shareholder's ending stock basis?",
+      "options": [
+        "$45,000",
+        "$65,000",
+        "$80,000",
+        "$55,000"
+      ],
+      "answer": "B",
+      "explanation": "An S corporation shareholder increases stock basis for allocated income and decreases it for nontaxable distributions. Beginning basis of $60,000 plus $20,000 of income, less the $15,000 distribution, produces ending basis of $65,000. Basis adjustments are essential for determining the tax treatment of distributions and allowable losses.",
+      "topic": "Entity Tax Compliance",
+      "subtopic": "S corporations",
+      "difficulty": "medium",
+      "source": "AICPA TCP Blueprint Area II.B; IRC Sections 1367 and 1368"
+    },
+    {
+      "stem": "An S corporation shareholder has adjusted stock basis of $10,000 and adjusted basis of $15,000 in a bona fide loan made directly to the corporation. The shareholder is allocated a $40,000 ordinary business loss. There are no distributions, other basis adjustments, or previously suspended losses. Assuming the shareholder has sufficient amounts at risk and the loss is not restricted by passive activity or other limitations, how much loss may the shareholder deduct in the current year?",
+      "options": [
+        "$10,000",
+        "$15,000",
+        "$40,000",
+        "$25,000"
+      ],
+      "answer": "D",
+      "explanation": "An S corporation shareholder's deductible losses are generally limited to the combined adjusted basis of stock and qualifying direct indebtedness. The shareholder has $10,000 of stock basis and $15,000 of debt basis, allowing a $25,000 loss deduction. The remaining $15,000 is suspended under the basis limitation.",
+      "topic": "Entity Tax Compliance",
+      "subtopic": "S corporations",
+      "difficulty": "hard",
+      "source": "AICPA TCP Blueprint Area II.B; IRC Section 1366(d)"
+    },
+    {
+      "stem": "A partner has an outside basis of $80,000 in a partnership interest immediately before a cash distribution. The partnership distributes $25,000 of cash to the partner, with no change in the partner's share of partnership liabilities and no other relevant adjustments. What is the partner's outside basis immediately after the distribution?",
+      "options": [
+        "$55,000",
+        "$80,000",
+        "$105,000",
+        "$25,000"
+      ],
+      "answer": "A",
+      "explanation": "A partnership cash distribution generally reduces the receiving partner's outside basis dollar for dollar. The $25,000 distribution reduces the $80,000 outside basis to $55,000. No gain arises because the cash distribution does not exceed the partner's adjusted outside basis.",
+      "topic": "Entity Tax Compliance",
+      "subtopic": "Partnerships",
+      "difficulty": "easy",
+      "source": "AICPA TCP Blueprint Area II.C; IRC Sections 731 and 733"
+    },
+    {
+      "stem": "A calendar-year partnership obtains a $200,000 recourse loan from a bank. Under the partnership agreement and applicable legal arrangements, Partner A bears 70% of the economic risk of loss and Partner B bears 30%. Both partners are personally liable for their respective portions, and there are no guarantees or other arrangements changing this allocation. How much of the liability is allocated to Partner A for outside basis purposes?",
+      "options": [
+        "$100,000",
+        "$60,000",
+        "$140,000",
+        "$200,000"
+      ],
+      "answer": "C",
+      "explanation": "Recourse partnership liabilities are generally allocated among partners according to their economic risk of loss. Because Partner A bears 70% of the economic risk of loss, $140,000 of the $200,000 liability is allocated to Partner A. A partner's share of partnership liabilities generally increases outside basis.",
+      "topic": "Entity Tax Compliance",
+      "subtopic": "Partnerships",
+      "difficulty": "medium",
+      "source": "AICPA TCP Blueprint Area II.C; IRC Section 752; Treasury Regulation 1.752-2"
+    },
+    {
+      "stem": "A nongrantor simple trust has $40,000 of distributable net income (DNI), consisting entirely of taxable ordinary income. Under the trust instrument, all current fiduciary accounting income is required to be distributed annually, and the trustee distributes $40,000 to the sole beneficiary. There are no tax-exempt amounts or special adjustments. Who generally reports the $40,000 as taxable income?",
+      "options": [
+        "The trustee personally reports the income",
+        "The beneficiary reports the income",
+        "The trust and beneficiary each report half",
+        "The trust reports the entire income"
+      ],
+      "answer": "B",
+      "explanation": "A simple trust generally deducts income required to be distributed currently, subject to the distributable net income limitation. The beneficiary includes the corresponding taxable amount in gross income. Here, the $40,000 of distributable taxable income is reported by the beneficiary rather than being taxed again to the trust.",
+      "topic": "Entity Tax Compliance",
+      "subtopic": "Trusts",
+      "difficulty": "medium",
+      "source": "AICPA TCP Blueprint Area II.D; IRC Sections 651 and 652"
+    },
+    {
+      "stem": "A tax-exempt charitable organization operates a parking garage open to the general public throughout the year. The garage is regularly operated as a commercial business, is substantially unrelated to the organization's charitable purpose, and generates $90,000 of gross income and $60,000 of directly connected deductible expenses. No statutory exclusion or exception applies. What is the organization's unrelated business taxable income from the garage before any additional deductions or adjustments?",
+      "options": [
+        "$90,000",
+        "$60,000",
+        "$0",
+        "$30,000"
+      ],
+      "answer": "D",
+      "explanation": "Income from a regularly carried on trade or business that is substantially unrelated to an exempt organization's purpose generally falls within the unrelated business income rules. Directly connected allowable expenses reduce that income. Subtracting $60,000 from $90,000 produces $30,000 before other applicable adjustments.",
+      "topic": "Entity Tax Compliance",
+      "subtopic": "Tax-exempt organizations",
+      "difficulty": "easy",
+      "source": "AICPA TCP Blueprint Area II.E; IRC Sections 511, 512, and 513"
+    },
+    {
+      "stem": "Two unrelated individuals form a domestic C corporation. They transfer property with a total adjusted tax basis of $120,000 and fair market value of $300,000 solely in exchange for all of the corporation's voting and nonvoting stock. Immediately after the exchange, the individuals collectively own 100% of the stock. The corporation assumes no liabilities, and no services are involved. What is the corporation's initial tax basis in the transferred property?",
+      "options": [
+        "$120,000",
+        "$300,000",
+        "$180,000",
+        "$0"
+      ],
+      "answer": "A",
+      "explanation": "A qualifying Section 351 transfer generally permits nonrecognition of gain when property is transferred to a corporation solely for stock and the transferors control the corporation immediately afterward. The corporation generally takes a carryover basis in the transferred property, adjusted for any recognized gain. Because no gain is recognized here, the corporate basis is $120,000.",
+      "topic": "Entity Tax Planning",
+      "subtopic": "Formation and liquidation of business entities",
+      "difficulty": "hard",
+      "source": "AICPA TCP Blueprint Area III.A; IRC Sections 351 and 362"
+    },
+    {
+      "stem": "The owners of a profitable domestic business are considering electing S corporation status. All proposed shareholders are eligible U.S. individuals, and the business satisfies the shareholder-number and one-class-of-stock requirements. Which additional characteristic is generally a tax-planning advantage of S corporation status compared with regular C corporation status?",
+      "options": [
+        "Corporate income is always exempt from federal income tax",
+        "Shareholder wages are exempt from payroll taxes",
+        "Qualifying business income generally passes through to shareholders",
+        "Business losses are always fully deductible by shareholders"
+      ],
+      "answer": "C",
+      "explanation": "An S corporation generally passes taxable income and other tax items through to its shareholders rather than paying regular federal corporate income tax on that income. This can reduce the double-taxation exposure associated with C corporations. Shareholder losses remain subject to basis, at-risk, passive activity, and other applicable limitations.",
+      "topic": "Entity Tax Planning",
+      "subtopic": "Tax planning for S corporations",
+      "difficulty": "easy",
+      "source": "AICPA TCP Blueprint Area III.C; IRC Sections 1363 and 1366"
+    },
+    {
+      "stem": "An individual contributes investment property with an adjusted basis of $100,000 and fair market value of $160,000 to a newly formed partnership in exchange for a 40% partnership interest. The contribution is not an investment company transfer or a disguised sale, no liabilities are involved, and no other exceptions apply. What is the partnership's initial tax basis in the contributed property?",
+      "options": [
+        "$160,000",
+        "$100,000",
+        "$64,000",
+        "$40,000"
+      ],
+      "answer": "B",
+      "explanation": "Under Section 721, a qualifying contribution of property to a partnership in exchange for a partnership interest generally does not trigger immediate gain recognition. Under Section 723, the partnership takes the contributing partner's adjusted basis of $100,000. The built-in gain is generally tracked under Section 704(c) for appropriate future tax allocations.",
+      "topic": "Entity Tax Planning",
+      "subtopic": "Tax planning for partnerships",
+      "difficulty": "medium",
+      "source": "AICPA TCP Blueprint Area III.D; IRC Sections 721, 723, and 704(c)"
+    },
+    {
+      "stem": "A taxpayer exchanges business real property with an adjusted basis of $150,000 and a fair market value of $240,000 for qualifying like-kind business real property worth $220,000 plus $20,000 in cash. Neither property is subject to debt, all Section 1031 requirements are satisfied, and there are no exchange expenses. What is the amount of gain recognized in the exchange?",
+      "options": [
+        "$0",
+        "$90,000",
+        "$70,000",
+        "$20,000"
+      ],
+      "answer": "D",
+      "explanation": "The realized gain is $90,000, calculated as total consideration of $240,000 less adjusted basis of $150,000. In a qualifying like-kind exchange, gain is generally recognized to the extent of non-like-kind property or cash received, limited to realized gain. The taxpayer therefore recognizes $20,000 and defers the remaining $70,000.",
+      "topic": "Property Transactions (disposition of assets)",
+      "subtopic": "Nontaxable disposition of assets",
+      "difficulty": "hard",
+      "source": "AICPA TCP Blueprint Area IV.A; IRC Sections 1031(b) and 1031(d)"
+    },
+    {
+      "stem": "A taxpayer sells business equipment held for four years and realizes a $30,000 gain after accounting for all applicable depreciation recapture. The remaining gain qualifies as Section 1231 gain. The taxpayer has $12,000 of unrecaptured net Section 1231 losses from the preceding five years and no other current-year Section 1231 transactions. How is the $30,000 current-year Section 1231 gain characterized?",
+      "options": [
+        "$12,000 ordinary gain and $18,000 long-term capital gain",
+        "$18,000 ordinary gain and $12,000 long-term capital gain",
+        "$30,000 ordinary gain and no long-term capital gain",
+        "$30,000 long-term capital gain and no ordinary gain"
+      ],
+      "answer": "A",
+      "explanation": "The Section 1231 five-year lookback rule recharacterizes current net Section 1231 gain as ordinary income to the extent of unrecaptured net Section 1231 losses from the preceding five years. Thus, $12,000 is treated as ordinary gain. The remaining $18,000 retains favorable long-term capital gain treatment.",
+      "topic": "Property Transactions (disposition of assets)",
+      "subtopic": "Amount and character of gains and losses on asset disposition and netting process",
+      "difficulty": "medium",
+      "source": "AICPA TCP Blueprint Area IV.B; IRC Section 1231(c)"
+    },
+    {
+      "stem": "A father sells investment land with an adjusted basis of $140,000 to his adult daughter for its fair market value of $100,000. The daughter purchases the land for investment, and both parties recognize the transaction as a bona fide sale. Assuming the sale is not part of a series of transactions designed to avoid the related-party rules, how much of the father's realized loss is deductible for federal income tax purposes in the year of sale?",
+      "options": [
+        "$40,000 capital loss",
+        "$20,000 capital loss",
+        "$0 deductible loss",
+        "$40,000 ordinary loss"
+      ],
+      "answer": "C",
+      "explanation": "Section 267 generally disallows losses from sales or exchanges of property between specified related parties, including parents and children. Although the father realizes a $40,000 economic loss, none is currently deductible. Special rules may allow the daughter to use the previously disallowed loss to offset certain gain on a subsequent disposition.",
+      "topic": "Property Transactions (disposition of assets)",
+      "subtopic": "Related party transactions, including imputed interest",
+      "difficulty": "medium",
+      "source": "AICPA TCP Blueprint Area IV.C; IRC Sections 267(a)(1), 267(d), and 267(b)"
+    }
+  ]
+}
