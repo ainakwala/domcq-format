@@ -1,0 +1,311 @@
+{
+  "format": "domcq/1",
+  "exam": "pmi-acp",
+  "set": "PMI Agile Certified Practitioner (PMI-ACP) practice – Agile Principles and Applied Scenarios",
+  "questions": [
+    {
+      "stem": "An agile team is developing a new payment feature. Two alternative authentication methods are being considered, but the team has limited evidence about which customers will prefer. What should the team do FIRST?",
+      "options": [
+        "Select the authentication method recommended by the most experienced developer.",
+        "Build a small experiment to test the alternatives with representative users.",
+        "Implement both authentication methods completely before seeking feedback.",
+        "Choose the method with the lowest estimated development cost."
+      ],
+      "answer": "B",
+      "explanation": "Early experimentation reduces uncertainty before substantial resources are committed. A small experiment with representative users provides evidence about customer preferences and usability. Agile teams use validated learning to guide decisions rather than relying solely on assumptions or authority.",
+      "topic": "Mindset",
+      "subtopic": "Experiment Early",
+      "difficulty": "easy",
+      "source": "PMI-ACP Examination Content Outline, Domain I: Mindset, Experiment Early"
+    },
+    {
+      "stem": "A development team has completed several iterations, but management evaluates individual developers primarily by the number of tasks each person completes. Team members have started avoiding collaborative work because helping others reduces their individual productivity scores. Which change would BEST support an agile mindset?",
+      "options": [
+        "Continue individual productivity measurements while adding recognition for collaboration.",
+        "Assign more tasks to developers who consistently achieve the highest individual scores.",
+        "Require developers to document the time they spend assisting other team members.",
+        "Evaluate shared outcomes and value delivered while encouraging collective ownership."
+      ],
+      "answer": "D",
+      "explanation": "Agile emphasizes collaboration, collective accountability, and delivering customer value. Measuring shared outcomes discourages local optimization that damages overall team performance. Individual activity metrics can create incentives that conflict with effective teamwork.",
+      "topic": "Mindset",
+      "subtopic": "Embrace Agile Mindset",
+      "difficulty": "medium",
+      "source": "PMI-ACP Examination Content Outline, Domain I: Mindset, Embrace Agile Mindset"
+    },
+    {
+      "stem": "A distributed agile team frequently experiences misunderstandings between developers and testers because important decisions are made in separate conversations. Which action would MOST directly improve collaboration?",
+      "options": [
+        "Establish shared communication practices and regular cross-functional discussions.",
+        "Require developers to submit detailed status reports to the project manager.",
+        "Assign separate technical coordinators to manage each functional group.",
+        "Reduce communication between functional groups to avoid unnecessary interruptions."
+      ],
+      "answer": "A",
+      "explanation": "Shared communication practices improve coordination and establish common understanding across disciplines. Regular cross-functional interaction enables teams to identify dependencies and resolve misunderstandings early. Agile collaboration favors direct communication over unnecessary reporting layers.",
+      "topic": "Mindset",
+      "subtopic": "Promote Collaborative Team Environment",
+      "difficulty": "easy",
+      "source": "PMI-ACP Examination Content Outline, Domain I: Mindset, Promote Collaborative Team Environment"
+    },
+    {
+      "stem": "During an iteration review, stakeholders discover that a major dependency has threatened delivery for several weeks. Team members knew about the issue but avoided reporting it because they feared management would criticize their performance. What should the agile practitioner do FIRST?",
+      "options": [
+        "Introduce mandatory daily reports identifying the individual responsible for each delay.",
+        "Escalate the issue to senior management and request corrective action against the team.",
+        "Create a safe discussion about the dependency and make its impact visible to stakeholders.",
+        "Extend the iteration to give the team additional time before discussing the problem."
+      ],
+      "answer": "C",
+      "explanation": "Transparency requires accurate information about progress, risks, and impediments to be available to relevant stakeholders. A nonpunitive discussion addresses both the immediate dependency and the fear preventing its disclosure. Punishment or concealment would further weaken trust and transparency.",
+      "topic": "Mindset",
+      "subtopic": "Build Transparency",
+      "difficulty": "medium",
+      "source": "PMI-ACP Examination Content Outline, Domain I: Mindset, Build Transparency"
+    },
+    {
+      "stem": "An agile team wants to strengthen psychological safety after several employees reported that they hesitate to challenge design decisions. Which TWO leadership behaviors would MOST directly support this objective? Choose TWO.",
+      "options": [
+        "Require all design objections to receive managerial approval before discussion.",
+        "Invite dissenting viewpoints and acknowledge the value of constructive disagreement.",
+        "Discuss mistakes only during private individual performance evaluations.",
+        "Encourage employees to avoid challenging decisions after senior developers approve them.",
+        "Respond to reported mistakes with curiosity and a focus on learning rather than blame."
+      ],
+      "answer": "BE",
+      "explanation": "Psychological safety develops when people can question assumptions, express concerns, and acknowledge errors without fear of humiliation or retaliation. Welcoming disagreement and treating mistakes as learning opportunities makes it easier to identify problems early. Psychological safety does not eliminate accountability; it supports constructive accountability.",
+      "topic": "Mindset",
+      "subtopic": "Foster Psychological Safety",
+      "difficulty": "medium",
+      "source": "PMI-ACP Examination Content Outline, Domain I: Mindset, Foster Psychological Safety"
+    },
+    {
+      "stem": "A software product operates in a highly competitive market where customer preferences change frequently. The team currently releases every three months because releases involve extensive manual testing and coordination. Management wants faster validation of product assumptions without increasing unacceptable operational risk. Which approach is MOST appropriate?",
+      "options": [
+        "Increase iteration planning detail so that customer preferences can be predicted more accurately.",
+        "Release major functionality more frequently while retaining the existing manual approval process.",
+        "Reduce customer involvement until each quarterly release has passed full acceptance testing.",
+        "Introduce automated regression tests and smaller deployments with controlled exposure to users."
+      ],
+      "answer": "D",
+      "explanation": "Automation and small, controlled releases shorten feedback loops while limiting the consequences of failure. Techniques such as feature toggles or gradual rollout allow teams to validate assumptions with limited exposure. Simply increasing release frequency without improving delivery capabilities may increase operational risk.",
+      "topic": "Mindset",
+      "subtopic": "Shorten Feedback Loops",
+      "difficulty": "hard",
+      "source": "PMI-ACP Examination Content Outline, Domain I: Mindset, Shorten Feedback Loops"
+    },
+    {
+      "stem": "A self-managing agile team needs to decide how to implement a technically complex feature. The product owner has clarified the business objective and acceptance criteria. What should the agile leader do?",
+      "options": [
+        "Assign the implementation approach to the most senior developer.",
+        "Approve a detailed implementation plan before allowing development to begin.",
+        "Allow the team to select its implementation approach within agreed constraints.",
+        "Ask the product owner to specify the technical solution for the team."
+      ],
+      "answer": "C",
+      "explanation": "Empowered agile teams should make decisions about how work is accomplished within established boundaries. The product owner clarifies what value is needed, while the delivery team determines how to create it. The agile leader supports autonomy and removes unnecessary obstacles.",
+      "topic": "Leadership",
+      "subtopic": "Empower Teams",
+      "difficulty": "easy",
+      "source": "PMI-ACP Examination Content Outline, Domain II: Leadership, Empower Teams"
+    },
+    {
+      "stem": "Two developers disagree about the best technical architecture for a new service. Their disagreement is delaying work and affecting other team members. Both proposed solutions appear technically feasible. What should the agile practitioner do NEXT?",
+      "options": [
+        "Facilitate a discussion using agreed evaluation criteria to reach a collaborative decision.",
+        "Choose the architecture proposed by the developer with more relevant experience.",
+        "Ask senior management to select the architecture to avoid further disagreement.",
+        "Allow both developers to implement their approaches independently until the next review."
+      ],
+      "answer": "A",
+      "explanation": "Facilitated problem-solving helps teams evaluate alternatives using evidence and shared criteria. It preserves team ownership while addressing the conflict constructively. Escalation is generally unnecessary when the team can resolve the issue through structured collaboration.",
+      "topic": "Leadership",
+      "subtopic": "Facilitate Problem Resolution",
+      "difficulty": "medium",
+      "source": "PMI-ACP Examination Content Outline, Domain II: Leadership, Facilitate Problem Resolution"
+    },
+    {
+      "stem": "An agile team depends heavily on one specialist who understands a critical integration service. The specialist will be unavailable for several weeks, creating a significant delivery risk. Which TWO actions should the agile leader encourage to improve knowledge sharing? Choose TWO.",
+      "options": [
+        "Assign all future integration work to the specialist after their return.",
+        "Create a detailed approval process requiring the specialist to authorize every integration change.",
+        "Defer integration-related backlog items until the specialist becomes available again.",
+        "Arrange collaborative work sessions where other developers perform integration tasks with the specialist.",
+        "Capture essential integration knowledge in accessible documentation and working examples."
+      ],
+      "answer": "DE",
+      "explanation": "Collaborative work and accessible documentation reduce dependency on a single specialist. Hands-on knowledge transfer helps other team members develop practical capability, while concise documentation preserves critical information. These practices reduce delivery risk and improve team resilience.",
+      "topic": "Leadership",
+      "subtopic": "Promote Knowledge Sharing",
+      "difficulty": "medium",
+      "source": "PMI-ACP Examination Content Outline, Domain II: Leadership, Promote Knowledge Sharing"
+    },
+    {
+      "stem": "An organization has adopted Scrum ceremonies, but executives still require teams to commit to a fixed annual feature list and discourage changes based on customer feedback. Teams consistently complete their planned activities, yet customers report limited improvement in business outcomes. What should the agile leader emphasize FIRST?",
+      "options": [
+        "Increasing the frequency of Scrum events to reinforce agile compliance.",
+        "Explaining how empirical feedback and outcome-based goals support adaptive value delivery.",
+        "Replacing annual planning with completely unstructured development activities.",
+        "Measuring each team's velocity to identify which team produces the most output."
+      ],
+      "answer": "B",
+      "explanation": "Performing agile ceremonies does not automatically create organizational agility. Leaders must reinforce empirical decision-making, adaptation, and customer value rather than focusing only on completing predetermined outputs. Outcome-oriented goals help executives connect agile practices with business performance.",
+      "topic": "Leadership",
+      "subtopic": "Promote agile mindset principles and practices",
+      "difficulty": "medium",
+      "source": "PMI-ACP Examination Content Outline, Domain II: Leadership, Promote agile mindset principles and practices"
+    },
+    {
+      "stem": "Three agile teams are developing components of the same customer platform. Each team meets its local delivery targets, but the combined product repeatedly fails to support the customer journey. The teams use different prioritization criteria, and shared dependencies are discovered late. Which action would provide the MOST sustainable improvement?",
+      "options": [
+        "Require each team to increase its velocity before accepting additional cross-team dependencies.",
+        "Centralize all technical decisions under one manager to reduce differences between teams.",
+        "Establish shared outcome goals, coordinate dependencies, and review integrated value regularly.",
+        "Measure the number of completed user stories across the teams as the primary success criterion."
+      ],
+      "answer": "C",
+      "explanation": "A shared product vision and common outcomes help multiple teams optimize for customer value rather than isolated team outputs. Coordinating dependencies and frequently inspecting integrated results reveals whether the overall product delivers the intended benefits. Increasing local velocity alone does not solve end-to-end alignment problems.",
+      "topic": "Leadership",
+      "subtopic": "Promote shared vision and purpose",
+      "difficulty": "hard",
+      "source": "PMI-ACP Examination Content Outline, Domain II: Leadership, Promote shared vision and purpose"
+    },
+    {
+      "stem": "A product owner is refining a backlog item described as 'Improve account security.' The delivery team cannot estimate the work because the expected behavior and boundaries are unclear. Which TWO actions would BEST prepare the item for future implementation? Choose TWO.",
+      "options": [
+        "Collaborate with stakeholders to identify specific user needs and testable acceptance criteria.",
+        "Assign a fixed implementation deadline before clarifying the desired functionality.",
+        "Keep the backlog item broad so the team can determine its complete scope during development.",
+        "Require a full technical design before discussing the user outcome.",
+        "Split the item into smaller, valuable pieces that can be implemented and validated."
+      ],
+      "answer": "AE",
+      "explanation": "Backlog refinement improves shared understanding and prepares items for implementation. Clear acceptance criteria establish observable expectations, while smaller valuable slices reduce uncertainty and enable incremental feedback. Agile refinement is collaborative and progressive rather than an attempt to finalize every design decision upfront.",
+      "topic": "Product",
+      "subtopic": "Refine product backlog",
+      "difficulty": "easy",
+      "source": "PMI-ACP Examination Content Outline, Domain III: Product, Refine product backlog"
+    },
+    {
+      "stem": "An agile team has completed an iteration and produced a potentially releasable product increment. However, automated acceptance tests show that one completed-looking feature fails an agreed acceptance criterion. What should the team do?",
+      "options": [
+        "Classify the feature as complete because its development tasks have been finished.",
+        "Release the feature and add its failed acceptance criterion to the next iteration backlog.",
+        "Accept the feature provisionally if the product owner agrees to document the defect.",
+        "Keep the feature from being treated as complete until it satisfies the applicable quality criteria."
+      ],
+      "answer": "D",
+      "explanation": "A product increment must satisfy the agreed quality standards, including the applicable Definition of Done and acceptance expectations. Completing development activities does not establish that functionality is usable or acceptable. Unfinished work should remain visible rather than being counted as a completed increment.",
+      "topic": "Product",
+      "subtopic": "Manage increments",
+      "difficulty": "easy",
+      "source": "PMI-ACP Examination Content Outline, Domain III: Product, Manage increments"
+    },
+    {
+      "stem": "A Kanban team uses a workflow with the columns Ready, Development, Testing, and Done. Over several weeks, the Testing column repeatedly accumulates many items while developers continue starting new work. What should the team do FIRST to improve its workflow?",
+      "options": [
+        "Increase the number of items entering Development to maintain developer utilization.",
+        "Make the testing bottleneck visible and collaborate to relieve it before starting more work.",
+        "Remove Testing from the visual board to simplify workflow monitoring.",
+        "Raise individual developer throughput targets to improve overall delivery performance."
+      ],
+      "answer": "B",
+      "explanation": "Visualizing work helps teams identify queues, constraints, and uneven flow. When testing becomes a bottleneck, starting additional development work increases work in progress without necessarily increasing completed output. Collaborating to relieve the constraint supports faster and more predictable delivery.",
+      "topic": "Product",
+      "subtopic": "Visualize work",
+      "difficulty": "medium",
+      "source": "PMI-ACP Examination Content Outline, Domain III: Product, Visualize work"
+    },
+    {
+      "stem": "A product team has capacity for one of two initiatives. Initiative X is expected to generate substantial revenue but depends on an external approval that may take six months. Initiative Y offers a smaller immediate benefit, can be delivered in three weeks, and will test an important market assumption. The organization prioritizes near-term learning and risk reduction, and neither initiative is mandatory. What is the BEST approach?",
+      "options": [
+        "Select Initiative X because its estimated total revenue is greater.",
+        "Divide the team's capacity equally between both initiatives regardless of dependencies.",
+        "Prioritize Initiative Y because it provides earlier learning and value aligned with current objectives.",
+        "Delay both initiatives until the external approval for Initiative X has been obtained."
+      ],
+      "answer": "C",
+      "explanation": "Value-based prioritization should consider organizational objectives, delivery timing, uncertainty, and learning opportunities rather than estimated revenue alone. Initiative Y aligns with the stated strategic priorities and provides rapid evidence about market assumptions. Earlier validated learning can inform subsequent investment decisions.",
+      "topic": "Product",
+      "subtopic": "Manage value delivery",
+      "difficulty": "hard",
+      "source": "PMI-ACP Examination Content Outline, Domain III: Product, Manage value delivery"
+    },
+    {
+      "stem": "An agile team demonstrates a working product increment to customers at the end of each iteration. Several customers indicate that a newly developed reporting feature does not support their actual workflow. What should the product owner do NEXT?",
+      "options": [
+        "Collaborate with customers to clarify their needs and adjust the product backlog accordingly.",
+        "Retain the original requirements because the team delivered the agreed functionality.",
+        "Request that customers defer their feedback until the complete product is released.",
+        "Ask the development team to redesign the feature without additional customer involvement."
+      ],
+      "answer": "A",
+      "explanation": "Early customer feedback enables agile teams to discover mismatches between assumptions and actual needs. The product owner should incorporate new understanding into backlog decisions and clarify the desired outcomes. Following the original plan despite contrary evidence can waste effort and reduce product value.",
+      "topic": "Delivery",
+      "subtopic": "Seek early feedback",
+      "difficulty": "easy",
+      "source": "PMI-ACP Examination Content Outline, Domain IV: Delivery, Seek early feedback"
+    },
+    {
+      "stem": "An agile team delivered 30 story points in its first iteration and 42 in its second. A manager concludes that productivity improved by 40% and instructs the team to commit to 50 story points in the next iteration. Which response is MOST appropriate?",
+      "options": [
+        "Agree because increasing velocity demonstrates that the team is becoming more productive.",
+        "Reject velocity measurements entirely because story points have no planning value.",
+        "Use the second iteration's velocity as a fixed minimum performance target.",
+        "Explain that velocity is a relative planning measure and assess trends alongside quality and outcomes."
+      ],
+      "answer": "D",
+      "explanation": "Velocity measures estimated work completed using a team's own relative estimation scale; it is not a direct measure of productivity or business value. Two observations are insufficient to establish a reliable capacity trend. Agile practitioners consider velocity alongside delivered outcomes, quality, and predictable flow.",
+      "topic": "Delivery",
+      "subtopic": "Manage agile metrics",
+      "difficulty": "medium",
+      "source": "PMI-ACP Examination Content Outline, Domain IV: Delivery, Manage agile metrics"
+    },
+    {
+      "stem": "An agile team is integrating its product with an external service. The supplier has missed two interface delivery dates, and the integration now threatens a regulatory deadline. The team cannot control the supplier's schedule. Which TWO actions are MOST appropriate? Choose TWO.",
+      "options": [
+        "Remove the integration risk from the risk register because the supplier owns the delay.",
+        "Engage the supplier and relevant stakeholders to establish realistic commitments and escalation paths.",
+        "Identify alternative integration approaches or contingency plans that reduce the deadline exposure.",
+        "Continue implementing dependent features without revisiting assumptions about interface availability.",
+        "Postpone discussing the dependency until the supplier misses another delivery date."
+      ],
+      "answer": "BC",
+      "explanation": "External dependencies require active stakeholder coordination and risk response planning. Establishing commitments and escalation paths improves transparency, while contingency options reduce exposure to further delays. The team remains responsible for managing threats to its delivery objectives even when it does not control the supplier.",
+      "topic": "Delivery",
+      "subtopic": "Manage impediments and risk",
+      "difficulty": "hard",
+      "source": "PMI-ACP Examination Content Outline, Domain IV: Delivery, Manage impediments and risk"
+    },
+    {
+      "stem": "During a value stream mapping exercise, an agile team finds that a typical feature requires four days of active development but spends twelve additional days waiting for approvals and handoffs. Which improvement should the team prioritize?",
+      "options": [
+        "Increase developer utilization so that more features enter the workflow simultaneously.",
+        "Expand the amount of design documentation completed before development begins.",
+        "Add another approval checkpoint to ensure that work meets quality expectations.",
+        "Reduce unnecessary approval delays and handoffs while preserving required controls."
+      ],
+      "answer": "D",
+      "explanation": "Lean thinking identifies unnecessary waiting and handoffs as potential sources of waste. Reducing these delays can shorten end-to-end delivery time without requiring faster development activity. Required governance and quality controls should be maintained, but unnecessary process steps should be challenged.",
+      "topic": "Delivery",
+      "subtopic": "Recognize and eliminate waste",
+      "difficulty": "medium",
+      "source": "PMI-ACP Examination Content Outline, Domain IV: Delivery, Recognize and eliminate waste"
+    },
+    {
+      "stem": "During several retrospectives, an agile team identifies recurring integration defects. The team agrees that the defects consume significant rework time, but similar problems continue in subsequent iterations. Which action would BEST turn retrospective findings into continuous improvement?",
+      "options": [
+        "Document the defects in retrospective notes and review them during the annual process audit.",
+        "Ask each developer to monitor personal defect counts without changing the integration process.",
+        "Select a measurable process improvement, assign ownership, and evaluate its effect in a later retrospective.",
+        "Increase the time allocated to retrospectives so the team can analyze more historical defects."
+      ],
+      "answer": "C",
+      "explanation": "Continuous improvement requires actionable experiments and verification, not merely identifying recurring problems. A measurable change with clear ownership allows the team to evaluate whether the intervention reduces integration defects. Reviewing results supports iterative refinement of the team's working practices.",
+      "topic": "Delivery",
+      "subtopic": "Perform continuous improvements",
+      "difficulty": "medium",
+      "source": "PMI-ACP Examination Content Outline, Domain IV: Delivery, Perform continuous improvements"
+    }
+  ]
+}
