@@ -1,0 +1,78 @@
+{
+  "id": "cism",
+  "display_name": "Certified Information Security Manager (CISM)",
+  "body": "ISACA",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by ISACA; the names are used only to identify the exam. ISACA® and the names of ISACA certifications, including Certified Information Systems Auditor® (CISA®) and Certified Information Security Manager® (CISM®), are trademarks of ISACA.",
+  "taxonomy": {
+    "Information Security Governance": [
+      "Organizational Culture",
+      "Legal, Regulatory, and Contractual Requirements",
+      "Organizational Structures, Roles, and Responsibilities",
+      "Information Security Strategy Development",
+      "Information Governance Frameworks and Standards",
+      "Strategic Planning (e.g., budgets, resources, business case)"
+    ],
+    "Information Security Risk Management": [
+      "Emerging Risk and Threat Landscape",
+      "Vulnerability and Control Deficiency Analysis",
+      "Risk Assessment and Analysis",
+      "Risk Treatment / Risk Response Options",
+      "Risk and Control Ownership",
+      "Risk Monitoring and Reporting"
+    ],
+    "Information Security Program": [
+      "Information Security Program Resources (e.g., people, tools, technologies)",
+      "Information Asset Identification and Classification",
+      "Industry Standards and Frameworks for Information Security",
+      "Information Security Policies, Procedures, and Guidelines",
+      "Information Security Program Metrics",
+      "Information Security Control Design and Selection",
+      "Information Security Control Implementation and Integrations",
+      "Information Security Control Testing and Evaluation",
+      "Information Security Awareness and Training",
+      "Management of External Services (e.g., providers, suppliers, third parties, fourth parties)",
+      "Information Security Program Communications and Reporting"
+    ],
+    "Incident Management": [
+      "Incident Response Plan",
+      "Business Impact Analysis (BIA)",
+      "Business Continuity Plan (BCP)",
+      "Disaster Recovery Plan (DRP)",
+      "Incident Classification/Categorization",
+      "Incident Management Training, Testing, and Evaluation",
+      "Incident Management Tools and Techniques",
+      "Incident Investigation and Evaluation",
+      "Incident Containment Methods",
+      "Incident Response Communications (e.g., reporting, notification, escalation)",
+      "Incident Eradication and Recovery",
+      "Post-incident Review Practices"
+    ]
+  },
+  "weights": {
+    "Information Security Governance": 17,
+    "Information Security Risk Management": 20,
+    "Information Security Program": 33,
+    "Incident Management": 30
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": false,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [
+    "Which of the following would be the BEST approach of the information security manager?",
+    "Which of the following may BEST be expected from this remediation?"
+  ],
+  "uncovered_item_types": [],
+  "exam_mode": {
+    "questions": 150,
+    "minutes": 240
+  },
+  "verified_outline": "CISM Examination Content Outline (Effective 2022), ISACA Certification Exam Candidate Guide Version 1.26",
+  "verified_on": "2026-10-19",
+  "next_review": "2026-11-03"
+}
