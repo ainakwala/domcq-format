@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "cpa-bar",
+  "set": "Uniform CPA Examination: Business Analysis and Reporting (BAR) practice – Financial Analysis and Advanced Reporting",
+  "questions": [
+    {
+      "stem": "A company reported net sales of $2,400,000 and cost of goods sold of $1,440,000 for the current year. Average inventory was $320,000. Based on these amounts, what was the company's inventory turnover ratio?",
+      "options": [
+        "3.0 times",
+        "4.5 times",
+        "6.0 times",
+        "7.5 times"
+      ],
+      "answer": "B",
+      "explanation": "Inventory turnover equals cost of goods sold divided by average inventory. Dividing $1,440,000 by $320,000 gives 4.5 times. The ratio measures how frequently inventory is sold and replaced during the period.",
+      "topic": "Business Analysis",
+      "subtopic": "Current period/historical analysis, including the use of data",
+      "difficulty": "easy",
+      "source": "AICPA BAR Blueprint, Area I: Business Analysis – Financial statement analysis; Inventory turnover"
+    },
+    {
+      "stem": "A manufacturer has fixed operating costs of $360,000 annually. Each unit sells for $80 and has variable costs of $50. How many units must the manufacturer sell to break even, assuming the sales mix and cost structure remain unchanged?",
+      "options": [
+        "8,000 units",
+        "10,000 units",
+        "15,000 units",
+        "12,000 units"
+      ],
+      "answer": "D",
+      "explanation": "Contribution margin per unit equals selling price minus variable cost, or $80 minus $50 = $30. Break-even volume is $360,000 divided by $30, resulting in 12,000 units. At this sales volume, total contribution margin exactly covers fixed costs.",
+      "topic": "Business Analysis",
+      "subtopic": "Prospective analysis, including the use of data",
+      "difficulty": "easy",
+      "source": "AICPA BAR Blueprint, Area I: Business Analysis – Cost-volume-profit analysis"
+    },
+    {
+      "stem": "A company has current assets of $900,000 and current liabilities of $450,000. It uses $150,000 of cash to pay outstanding accounts payable. What is the current ratio immediately after the payment?",
+      "options": [
+        "2.50",
+        "2.00",
+        "1.67",
+        "3.00"
+      ],
+      "answer": "A",
+      "explanation": "The payment reduces current assets to $750,000 and current liabilities to $300,000. The new current ratio is $750,000 divided by $300,000, or 2.50. Paying current liabilities with current assets increases the current ratio when the original ratio exceeds 1.0.",
+      "topic": "Business Analysis",
+      "subtopic": "Current period/historical analysis, including the use of data",
+      "difficulty": "easy",
+      "source": "AICPA BAR Blueprint, Area I: Business Analysis – Liquidity ratios and working capital"
+    },
+    {
+      "stem": "A company established a direct materials standard of 4 pounds per finished unit at $6 per pound. During the month, it produced 5,000 units using 21,000 pounds of materials at an actual cost of $119,700. What is the direct materials quantity variance?",
+      "options": [
+        "$6,000 favorable",
+        "$6,000 unfavorable",
+        "$7,000 favorable",
+        "$7,000 unfavorable"
+      ],
+      "answer": "B",
+      "explanation": "The standard quantity allowed is 5,000 units multiplied by 4 pounds, or 20,000 pounds. The quantity variance equals (21,000 − 20,000) × $6 = $6,000 unfavorable. Using more materials than the standard quantity creates an unfavorable efficiency variance.",
+      "topic": "Business Analysis",
+      "subtopic": "Current period/historical analysis, including the use of data",
+      "difficulty": "medium",
+      "source": "AICPA BAR Blueprint, Area I: Business Analysis – Standard costing and variance analysis"
+    },
+    {
+      "stem": "A company is considering equipment costing $500,000 with a five-year useful life and no salvage value. The equipment will generate annual net cash inflows of $145,000 at each year-end. The five-year ordinary annuity present value factor at the company's 10% required return is 3.7908. Ignoring income taxes, what is the project's net present value?",
+      "options": [
+        "$49,666",
+        "$225,000",
+        "($49,666)",
+        "$549,666"
+      ],
+      "answer": "A",
+      "explanation": "The present value of the annual cash inflows is $145,000 × 3.7908 = $549,666. Subtracting the $500,000 initial investment produces a positive NPV of $49,666. A project with a positive NPV is expected to earn more than its required rate of return.",
+      "topic": "Business Analysis",
+      "subtopic": "Prospective analysis, including the use of data",
+      "difficulty": "medium",
+      "source": "AICPA BAR Blueprint, Area I: Business Analysis – Capital budgeting and net present value"
+    },
+    {
+      "stem": "A manufacturing company budgets variable overhead at $8 per direct labor hour and fixed overhead at $60,000 per month. The original budget assumed 10,000 direct labor hours, but actual activity was 12,000 hours. What is total budgeted overhead in a flexible budget prepared for actual activity?",
+      "options": [
+        "$140,000",
+        "$156,000",
+        "$160,000",
+        "$120,000"
+      ],
+      "answer": "B",
+      "explanation": "A flexible budget adjusts variable costs for actual activity while keeping fixed costs unchanged within the relevant range. Variable overhead is 12,000 × $8 = $96,000. Adding fixed overhead of $60,000 produces a flexible budget of $156,000.",
+      "topic": "Business Analysis",
+      "subtopic": "Prospective analysis, including the use of data",
+      "difficulty": "medium",
+      "source": "AICPA BAR Blueprint, Area I: Business Analysis – Budgeting and flexible budgets"
+    },
+    {
+      "stem": "An analyst develops a simple linear regression model to predict monthly maintenance expense using machine hours. The fitted equation is Y = $12,000 + $4.50X, where X represents monthly machine hours. The model has an R-squared of 0.81. Which statement most accurately interprets the model?",
+      "options": [
+        "Machine hours explain 81% of the observed variation in maintenance expense.",
+        "Maintenance expense increases by 81% for each additional machine hour.",
+        "Machine hours are responsible for 81% of the company's total operating costs.",
+        "The model predicts maintenance expense correctly in 81% of all future months."
+      ],
+      "answer": "A",
+      "explanation": "R-squared measures the proportion of variation in the dependent variable explained by the regression model. An R-squared of 0.81 indicates that 81% of observed variation in maintenance expense is explained by the fitted relationship with machine hours. It does not establish causation or guarantee forecasting accuracy.",
+      "topic": "Business Analysis",
+      "subtopic": "Prospective analysis, including the use of data",
+      "difficulty": "medium",
+      "source": "AICPA BAR Blueprint, Area I: Business Analysis – Data analytics and regression analysis"
+    },
+    {
+      "stem": "A company sells Product A and Product B in a constant sales mix of three units of A for every two units of B. Product A has a selling price of $100 and variable cost of $60. Product B has a selling price of $150 and variable cost of $90. Total fixed costs are $600,000. Assuming whole five-unit sales bundles, how many units of Product B must be sold for the company to break even?",
+      "options": [
+        "4,000 units",
+        "6,000 units",
+        "7,500 units",
+        "5,000 units"
+      ],
+      "answer": "D",
+      "explanation": "A five-unit sales bundle generates contribution margin of 3 × $40 + 2 × $60 = $240. The company must sell $600,000 ÷ $240 = 2,500 bundles to break even. Since each bundle contains two units of Product B, required Product B sales equal 5,000 units.",
+      "topic": "Business Analysis",
+      "subtopic": "Prospective analysis, including the use of data",
+      "difficulty": "hard",
+      "source": "AICPA BAR Blueprint, Area I: Business Analysis – Multiproduct cost-volume-profit analysis"
+    },
+    {
+      "stem": "A company's accounts receivable balance increased from $800,000 to $1,100,000 while annual net credit sales increased from $7,300,000 to $8,030,000. For each year, assume the accounts receivable balance provided is representative of average receivables and use 365 days. What is the most reasonable conclusion about collection performance?",
+      "options": [
+        "Collection performance improved because credit sales increased by 10%.",
+        "Collection performance remained unchanged because sales and receivables both increased.",
+        "Collection performance deteriorated because days sales outstanding increased from 40 to 50 days.",
+        "Collection performance improved because days sales outstanding decreased from 50 to 40 days."
+      ],
+      "answer": "C",
+      "explanation": "Days sales outstanding equals average accounts receivable divided by annual net credit sales, multiplied by 365. The prior-year figure is 40 days, while the current-year figure is 50 days. The increase indicates slower collections and more cash tied up in receivables.",
+      "topic": "Business Analysis",
+      "subtopic": "Current period/historical analysis, including the use of data",
+      "difficulty": "hard",
+      "source": "AICPA BAR Blueprint, Area I: Business Analysis – Receivables analysis and operating efficiency"
+    },
+    {
+      "stem": "A company has goodwill of $400,000 assigned to a single reporting unit. At the annual impairment test date, the reporting unit has a carrying amount of $2,000,000, including goodwill, and a fair value of $1,850,000. No other adjustments or impairment losses are required. Under U.S. GAAP, what goodwill impairment loss should the company recognize?",
+      "options": [
+        "$150,000",
+        "$250,000",
+        "$400,000",
+        "$0"
+      ],
+      "answer": "A",
+      "explanation": "Goodwill impairment is measured as the excess of a reporting unit's carrying amount over its fair value, limited to the amount of goodwill allocated to the reporting unit. The excess is $2,000,000 − $1,850,000 = $150,000. Because this is less than the $400,000 goodwill balance, the company recognizes a $150,000 impairment loss.",
+      "topic": "Technical Accounting and Reporting",
+      "subtopic": "Indefinite-lived intangible assets, including goodwill",
+      "difficulty": "easy",
+      "source": "FASB ASC 350-20, Intangibles—Goodwill and Other: Goodwill impairment"
+    },
+    {
+      "stem": "A company develops software intended for sale to external customers. It incurs $300,000 of development costs before establishing technological feasibility, $180,000 of development costs after technological feasibility but before the product is available for general release, and $40,000 of production costs after general release. Assuming all expenditures are otherwise eligible for their respective accounting treatments, what amount should be capitalized as software development costs under ASC 985-20?",
+      "options": [
+        "$300,000",
+        "$340,000",
+        "$180,000",
+        "$520,000"
+      ],
+      "answer": "C",
+      "explanation": "For software to be sold, leased, or marketed, development costs are generally expensed until technological feasibility is established. Eligible costs incurred after technological feasibility and before general release are capitalized. The $180,000 incurred during that interval qualifies, while earlier research and development and subsequent production costs do not.",
+      "topic": "Technical Accounting and Reporting",
+      "subtopic": "Internally developed software",
+      "difficulty": "medium",
+      "source": "FASB ASC 985-20, Software to Be Sold, Leased, or Marketed"
+    },
+    {
+      "stem": "On December 1, Year 1, a company receives $120,000 for a 12-month service contract beginning immediately. The customer receives the services evenly throughout the contract period, and the arrangement contains one performance obligation satisfied over time. The company's fiscal year ends December 31. How much revenue should be recognized in Year 1?",
+      "options": [
+        "$0",
+        "$120,000",
+        "$20,000",
+        "$10,000"
+      ],
+      "answer": "D",
+      "explanation": "Revenue is recognized as the company satisfies its performance obligation. One of the 12 months of service has been provided by December 31, so $120,000 ÷ 12 = $10,000 is recognized. The remaining $110,000 is reported as a contract liability at year-end.",
+      "topic": "Technical Accounting and Reporting",
+      "subtopic": "Revenue recognition",
+      "difficulty": "easy",
+      "source": "FASB ASC 606, Revenue from Contracts with Customers: Performance obligations satisfied over time"
+    },
+    {
+      "stem": "On January 1, Year 1, a company grants employees 10,000 equity-classified restricted share units, each with a grant-date fair value of $24. The awards vest after employees complete three years of service. At the end of Year 1, management estimates that 90% of the awards will ultimately vest. The awards contain no market or performance conditions. What compensation expense should the company recognize for Year 1 if it uses straight-line attribution?",
+      "options": [
+        "$72,000",
+        "$80,000",
+        "$216,000",
+        "$240,000"
+      ],
+      "answer": "A",
+      "explanation": "The estimated compensation cost is 10,000 awards × $24 × 90% = $216,000. Recognizing this cost evenly over the three-year requisite service period produces Year 1 compensation expense of $72,000. Equity-classified awards are generally measured using their grant-date fair value.",
+      "topic": "Technical Accounting and Reporting",
+      "subtopic": "Stock compensation (share-based payments)",
+      "difficulty": "medium",
+      "source": "FASB ASC 718, Compensation—Stock Compensation: Grant-date fair value and service-period attribution"
+    },
+    {
+      "stem": "An acquiring company pays $5,000,000 in cash to purchase 100% of another business. At the acquisition date, the fair value of identifiable assets acquired is $6,400,000 and the fair value of liabilities assumed is $1,900,000. Assume no previously held interest, noncontrolling interest, or other consideration. How much goodwill should the acquirer recognize?",
+      "options": [
+        "$400,000",
+        "$500,000",
+        "$1,400,000",
+        "$1,900,000"
+      ],
+      "answer": "B",
+      "explanation": "The fair value of identifiable net assets acquired is $6,400,000 − $1,900,000 = $4,500,000. Goodwill equals consideration transferred minus the fair value of identifiable net assets, or $5,000,000 − $4,500,000 = $500,000. Goodwill represents benefits from the acquired business that are not separately recognized as identifiable assets.",
+      "topic": "Technical Accounting and Reporting",
+      "subtopic": "Business combinations",
+      "difficulty": "medium",
+      "source": "FASB ASC 805, Business Combinations: Acquisition method and goodwill"
+    },
+    {
+      "stem": "A parent company owns 80% of a subsidiary. During the year, the subsidiary sold inventory to the parent for $250,000. The inventory originally cost the subsidiary $180,000. At year-end, 40% of this inventory remains unsold to external customers. Assume the parent uses the equity method for its investment and both companies prepare statements under U.S. GAAP. What amount of unrealized intercompany profit must be eliminated in preparing the consolidated financial statements?",
+      "options": [
+        "$22,400",
+        "$56,000",
+        "$35,000",
+        "$28,000"
+      ],
+      "answer": "D",
+      "explanation": "The intercompany sale generated gross profit of $250,000 − $180,000 = $70,000. Because 40% of the inventory remains within the consolidated group, unrealized profit is $70,000 × 40% = $28,000. The entire unrealized profit is eliminated in consolidation regardless of the parent's ownership percentage.",
+      "topic": "Technical Accounting and Reporting",
+      "subtopic": "Consolidated financial statements",
+      "difficulty": "medium",
+      "source": "FASB ASC 810, Consolidation: Elimination of intercompany inventory profits"
+    },
+    {
+      "stem": "A company has a $10 million variable-rate borrowing and enters into an interest rate swap that qualifies and is designated as a cash flow hedge of the borrowing's variable interest payments. During the reporting period, the derivative's fair value increases by $120,000, entirely attributable to the effective portion of the hedge. The hedged interest payments have not yet affected earnings. How should the company initially report the $120,000 gain?",
+      "options": [
+        "Recognize the gain in current-period interest income.",
+        "Reduce the carrying amount of the borrowing by the gain.",
+        "Recognize the gain in other comprehensive income.",
+        "Defer the gain as a liability until the swap terminates."
+      ],
+      "answer": "C",
+      "explanation": "For a qualifying cash flow hedge, the effective gain or loss on the hedging instrument is initially recognized in other comprehensive income and accumulated in equity. It is subsequently reclassified into earnings when the hedged forecasted cash flows affect earnings. This treatment helps align the accounting effects of the hedge with those of the hedged transaction.",
+      "topic": "Technical Accounting and Reporting",
+      "subtopic": "Derivatives and hedge accounting",
+      "difficulty": "medium",
+      "source": "FASB ASC 815, Derivatives and Hedging: Cash flow hedges"
+    },
+    {
+      "stem": "A lessee enters into a five-year finance lease on January 1, Year 1. The initial lease liability and right-of-use asset are each $400,000. Annual lease payments of $95,000 are due at each year-end. The discount rate is 6%, and the right-of-use asset is amortized on a straight-line basis over the five-year lease term. The lessee does not obtain ownership and has no purchase option. What is the total finance lease expense for Year 1?",
+      "options": [
+        "$104,000",
+        "$95,000",
+        "$80,000",
+        "$119,000"
+      ],
+      "answer": "A",
+      "explanation": "A finance lease generally results in separate interest expense and amortization expense. Year 1 interest expense is $400,000 × 6% = $24,000, and straight-line amortization is $400,000 ÷ 5 = $80,000. Total Year 1 finance lease expense is therefore $104,000.",
+      "topic": "Technical Accounting and Reporting",
+      "subtopic": "Leases",
+      "difficulty": "hard",
+      "source": "FASB ASC 842, Leases: Subsequent measurement of finance leases by lessees"
+    },
+    {
+      "stem": "A state government prepares government-wide financial statements using the economic resources measurement focus and accrual basis of accounting. During the year, it purchases equipment for $500,000 for use in governmental activities. The equipment has a five-year useful life, no salvage value, and is placed in service at the beginning of the year. How should the purchase and first year's usage affect the government-wide statement of activities, assuming straight-line depreciation?",
+      "options": [
+        "Recognize a $500,000 expense when the equipment is purchased.",
+        "Recognize a $100,000 depreciation expense for the year.",
+        "Recognize a $400,000 expense after recording the capital asset.",
+        "Recognize no expense until the equipment is sold or disposed of."
+      ],
+      "answer": "B",
+      "explanation": "Government-wide financial statements use accrual accounting and capitalize qualifying capital asset purchases. The equipment is initially recognized as an asset rather than an immediate expense. Annual depreciation is $500,000 ÷ 5 = $100,000, which is reported as an expense of governmental activities.",
+      "topic": "State and Local Governments",
+      "subtopic": "Deriving government-wide financial statements and reconciliation requirements",
+      "difficulty": "easy",
+      "source": "GASB Statement 34; GASB Codification Section 1400, Financial Reporting"
+    },
+    {
+      "stem": "A city receives $3,000,000 from the issuance of general obligation bonds to finance construction of a municipal building. The bonds are a general obligation of the city and are reported in governmental activities. How should the proceeds from issuing these bonds be reported in the governmental fund financial statements?",
+      "options": [
+        "As revenue in the capital projects fund",
+        "As a liability in the capital projects fund",
+        "As an other financing source in the capital projects fund",
+        "As a direct increase in the capital projects fund's fund balance"
+      ],
+      "answer": "C",
+      "explanation": "Governmental funds use the current financial resources measurement focus and modified accrual basis of accounting. Proceeds from long-term debt issuances are generally reported as other financing sources rather than revenue or fund liabilities. The corresponding long-term debt liability is reported in the government-wide financial statements.",
+      "topic": "State and Local Governments",
+      "subtopic": "Typical items and specific types of transactions and events",
+      "difficulty": "medium",
+      "source": "GASB Codification Section 1800, Classification and Terminology; Governmental fund debt proceeds"
+    },
+    {
+      "stem": "A city reports a general fund balance of $1,200,000 at year-end. Its reconciliation to governmental activities net position identifies governmental capital assets of $8,000,000, accumulated depreciation of $2,000,000, outstanding long-term bonds of $4,500,000, and accrued interest payable on those bonds of $100,000. Assume these are the only reconciliation adjustments and that none of the long-term liabilities are reported in the general fund. What is the governmental activities net position?",
+      "options": [
+        "$2,400,000",
+        "$2,500,000",
+        "$2,600,000",
+        "$4,400,000"
+      ],
+      "answer": "C",
+      "explanation": "Governmental activities net position incorporates capital assets and long-term liabilities that are generally excluded from governmental fund balance sheets. The reconciliation is $1,200,000 + $8,000,000 − $2,000,000 − $4,500,000 − $100,000 = $2,600,000. This adjustment converts the governmental fund's current financial resources perspective to the government-wide economic resources perspective.",
+      "topic": "State and Local Governments",
+      "subtopic": "Deriving government-wide financial statements and reconciliation requirements",
+      "difficulty": "hard",
+      "source": "GASB Statement 34; GASB Codification Section 1400, Reconciliation of governmental fund and government-wide statements"
+    }
+  ]
+}
