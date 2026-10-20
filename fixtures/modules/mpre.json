@@ -1,0 +1,135 @@
+{
+  "id": "mpre",
+  "display_name": "Multistate Professional Responsibility Examination (MPRE)",
+  "body": "NCBE",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by the National Conference of Bar Examiners (NCBE); the names are used only to identify the exam. NCBE, MBE, Multistate Bar Examination, MPRE and Multistate Professional Responsibility Examination are trademarks of the National Conference of Bar Examiners.",
+  "taxonomy": {
+    "Regulation of the legal profession": [
+      "Powers of courts and other bodies to regulate lawyers",
+      "Admission to the profession",
+      "Regulation after admission—lawyer discipline",
+      "Mandatory and permissive reporting of professional misconduct",
+      "Unauthorized practice of law—by lawyers and nonlawyers",
+      "Multijurisdictional practice",
+      "Fee division with a nonlawyer",
+      "Law firm and other forms of practice",
+      "Responsibilities of partners, managers, supervisory and subordinate lawyers",
+      "Restrictions on right to practice"
+    ],
+    "The client-lawyer relationship": [
+      "Formation of client-lawyer relationship",
+      "Scope, objective, and means of the representation",
+      "Decision-making authority—actual and apparent",
+      "Counsel and assistance within the bounds of the law",
+      "Termination of the client-lawyer relationship",
+      "Client-lawyer contracts",
+      "Communications with the client",
+      "Fees"
+    ],
+    "Client confidentiality": [
+      "Attorney-client privilege",
+      "Work-product doctrine",
+      "Professional obligation of confidentiality—general rule",
+      "Disclosures expressly or impliedly authorized by client",
+      "Other exceptions to the confidentiality rule"
+    ],
+    "Conflicts of interest": [
+      "Current client conflicts—multiple clients and joint representation",
+      "Current client conflicts—lawyer’s personal interest or duties",
+      "Former client conflicts",
+      "Prospective client conflicts",
+      "Imputed conflicts",
+      "Acquiring an interest in litigation",
+      "Business transactions with clients",
+      "Third-party compensation and influence",
+      "Lawyers currently or formerly in government service",
+      "Former judge, arbitrator, mediator, or other third-party neutral"
+    ],
+    "Competence, legal malpractice, and other civil liability": [
+      "Maintaining competence",
+      "Competence necessary to undertake representation",
+      "Exercising diligence and care",
+      "Civil liability to client, including malpractice",
+      "Civil liability to nonclients",
+      "Limiting liability for malpractice",
+      "Malpractice insurance and risk prevention"
+    ],
+    "Litigation and other forms of advocacy": [
+      "Meritorious claims and contentions",
+      "Expediting litigation",
+      "Candor to the tribunal",
+      "Fairness to opposing party and counsel",
+      "Impartiality and decorum of the tribunal",
+      "Trial publicity",
+      "Lawyer as witness"
+    ],
+    "Transactions and communications with persons other than clients": [
+      "Truthfulness in statements to others",
+      "Communications with represented persons",
+      "Communications with unrepresented persons",
+      "Respect for rights of third persons"
+    ],
+    "Different roles of the lawyer": [
+      "Lawyer as advisor",
+      "Lawyer as evaluator",
+      "Lawyer as negotiator",
+      "Lawyer as arbitrator, mediator, or other third-party neutral",
+      "Prosecutors and other government lawyers",
+      "Lawyer appearing in nonadjudicative proceeding",
+      "Lawyer representing an entity or other organization"
+    ],
+    "Safekeeping funds and other property": [
+      "Establishing and maintaining client trust accounts",
+      "Safekeeping funds and other property of clients",
+      "Safekeeping funds and other property of third persons",
+      "Disputed claims"
+    ],
+    "Communications about legal services": [
+      "Advertising and other public communications about legal services",
+      "Solicitation—direct contact with prospective clients",
+      "Group legal services",
+      "Referrals",
+      "Communications regarding fields of practice and specialization"
+    ],
+    "Lawyers' duties to the public and the legal system": [
+      "Voluntary pro bono service",
+      "Accepting appointments",
+      "Serving in legal services organizations",
+      "Law reform activities affecting client interests",
+      "Criticism of judges and adjudicating officials",
+      "Political contributions to obtain engagements or appointments",
+      "Improper influence on government officials",
+      "Assisting judicial misconduct"
+    ],
+    "Judicial conduct": [
+      "Maintaining the independence and impartiality of the judiciary",
+      "Performing the duties of judicial office impartially, competently, and diligently",
+      "Ex parte communications",
+      "Disqualification",
+      "Extrajudicial activities"
+    ]
+  },
+  "weights": {
+    "Regulation of the legal profession": { "min": 6, "max": 12 },
+    "The client-lawyer relationship": { "min": 10, "max": 16 },
+    "Client confidentiality": { "min": 6, "max": 12 },
+    "Conflicts of interest": { "min": 12, "max": 18 },
+    "Competence, legal malpractice, and other civil liability": { "min": 6, "max": 12 },
+    "Litigation and other forms of advocacy": { "min": 10, "max": 16 },
+    "Transactions and communications with persons other than clients": { "min": 2, "max": 8 },
+    "Different roles of the lawyer": { "min": 4, "max": 10 },
+    "Safekeeping funds and other property": { "min": 2, "max": 8 },
+    "Communications about legal services": { "min": 4, "max": 10 },
+    "Lawyers' duties to the public and the legal system": { "min": 2, "max": 4 },
+    "Judicial conduct": { "min": 2, "max": 8 }
+  },
+  "options": { "min": 4, "max": 4 },
+  "multi_select": false,
+  "banned_option_text": ["all of the above", "none of the above"],
+  "stem_hints": ["Is the attorney subject to discipline?", "Was the attorney’s conduct proper?", "Was the judge’s conduct proper?"],
+  "uncovered_item_types": [],
+  "exam_mode": { "questions": 60, "minutes": 120 },
+  "verified_outline": "MPRE Subject Matter Outline (NCBE, © 2013)",
+  "verified_on": "2026-10-20",
+  "next_review": "2027-10-20"
+}
