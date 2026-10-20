@@ -1,0 +1,103 @@
+{
+  "id": "sqe1-flk2",
+  "display_name": "SQE1 FLK2",
+  "body": "SRA",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by the Solicitors Regulation Authority (SRA) or its SQE assessment provider; the SRA does not endorse or recommend training providers or their products, and the names are used only to identify the exam. The SQE and SOLICITORS QUALIFYING EXAMINATION trade marks are the property of and are used under licence from the Solicitors Regulation Authority.",
+  "taxonomy": {
+    "Property Law and Practice": [
+      "Core knowledge areas of freehold real estate law and practice",
+      "Core knowledge areas of leasehold real estate law and practice",
+      "Core principles of planning law in England and Wales",
+      "Taxation – property",
+      "Solicitors Accounts",
+      "Ethics and Professional Conduct"
+    ],
+    "Wills and the Administration of Estates": [
+      "Wills and Intestacy",
+      "Probate and Administration Practice",
+      "Taxation – wills and the administration of estates",
+      "Solicitors Accounts",
+      "Ethics and Professional Conduct"
+    ],
+    "Land Law": [
+      "Nature of Land",
+      "Title to Land",
+      "Co-ownership and Trusts",
+      "Proprietary Rights",
+      "Leases",
+      "Ethics and Professional Conduct"
+    ],
+    "Trusts Law": [
+      "Creation and requirements of express trusts",
+      "Beneficial entitlement",
+      "The distinction between charitable trusts and non-charitable purpose trusts",
+      "Resulting trusts",
+      "Trusts of the family home",
+      "Liability of strangers to the trust",
+      "The fiduciary relationship and its obligations",
+      "Trustees",
+      "Trustees’ liability",
+      "The nature of equitable remedies and the availability of tracing in equity",
+      "Ethics and Professional Conduct"
+    ],
+    "Criminal Liability": [
+      "Specified criminal offences",
+      "Definition of the offence",
+      "General defences",
+      "Partial defences",
+      "Parties",
+      "Inchoate offences",
+      "Ethics and Professional Conduct"
+    ],
+    "Criminal Law and Practice": [
+      "Advising clients, including vulnerable clients, about the procedure and processes at the police station",
+      "The procedures and processes involved in criminal litigation",
+      "Ethics and Professional Conduct"
+    ]
+  },
+  "weights": {
+    "Property Law and Practice": {
+      "min": 14,
+      "max": 20
+    },
+    "Wills and the Administration of Estates": {
+      "min": 14,
+      "max": 20
+    },
+    "Land Law": {
+      "min": 14,
+      "max": 20
+    },
+    "Trusts Law": {
+      "min": 14,
+      "max": 20
+    },
+    "Criminal Liability": {
+      "min": 14,
+      "max": 20
+    },
+    "Criminal Law and Practice": {
+      "min": 14,
+      "max": 20
+    }
+  },
+  "options": {
+    "min": 5,
+    "max": 5
+  },
+  "multi_select": false,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [],
+  "uncovered_item_types": [],
+  "exam_mode": {
+    "questions": 170,
+    "minutes": 306,
+    "sections": 2
+  },
+  "verified_outline": "SQE1 Assessment Specification, FLK2 (applicable for assessments from 1 September 2026)",
+  "verified_on": "2026-10-20",
+  "next_review": "2027-05-01"
+}

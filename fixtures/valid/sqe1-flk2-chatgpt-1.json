@@ -1,0 +1,327 @@
+{
+  "format": "domcq/1",
+  "exam": "sqe1-flk2",
+  "set": "SQE1 FLK2 practice – Applied Legal Scenarios",
+  "questions": [
+    {
+      "stem": "A solicitor acts for a buyer purchasing a registered freehold house in England. The seller and buyer have agreed all contractual terms, the buyer's mortgage offer is in place, and both parties have signed their respective copies of the contract. The buyer asks whether the purchase is now legally binding. The solicitors have not yet exchanged contracts. What is the correct advice?",
+      "options": [
+        "The purchase is binding because both parties have signed their contracts.",
+        "The purchase is not binding until contracts have been exchanged in accordance with the agreed procedure.",
+        "The purchase is binding because the buyer has obtained a mortgage offer.",
+        "The purchase becomes binding when the buyer transfers the deposit to their solicitor.",
+        "The purchase becomes binding when the seller provides evidence of registered title."
+      ],
+      "answer": "B",
+      "explanation": "Signing contracts does not, by itself, create a binding agreement in the usual conveyancing process. A binding contract arises on exchange, when the parties become contractually committed to complete the transaction. Before exchange, either party can generally withdraw without liability for breach of the proposed sale contract.",
+      "topic": "Property Law and Practice",
+      "subtopic": "Core knowledge areas of freehold real estate law and practice",
+      "difficulty": "easy",
+      "source": "SRA SQE1 FLK2: Property Law and Practice – Exchange of contracts; Law of Property (Miscellaneous Provisions) Act 1989, s 2"
+    },
+    {
+      "stem": "A solicitor acts for a buyer who is purchasing a registered freehold property in England using mortgage finance. Contracts have been exchanged and completion is scheduled shortly. The solicitor needs to protect the buyer's intended registration against adverse entries made before the registration application is submitted. Which step is most appropriate?",
+      "options": [
+        "Register the buyer immediately as proprietor before completion.",
+        "Apply for a unilateral notice against the seller's registered title.",
+        "Obtain an official copy of the title register after completion only.",
+        "Submit an OS1 official search with priority against the registered title.",
+        "Apply to the local authority for a certificate confirming ownership."
+      ],
+      "answer": "D",
+      "explanation": "An OS1 official search with priority protects a proposed registrable disposition of the whole of a registered title. It provides a 30-working-day priority period during which a qualifying registration application can obtain priority over intervening adverse applications. The application must be lodged within that priority period.",
+      "topic": "Property Law and Practice",
+      "subtopic": "Core knowledge areas of freehold real estate law and practice",
+      "difficulty": "medium",
+      "source": "SRA SQE1 FLK2: Property Law and Practice – Pre-completion searches and priority; Land Registration Rules 2003"
+    },
+    {
+      "stem": "A commercial landlord in England proposes granting a five-year business tenancy to a retailer. The landlord wants the tenant to have no statutory right to renew the tenancy under Part II of the Landlord and Tenant Act 1954. Both parties are willing to agree to this arrangement. Which procedure will validly exclude security of tenure?",
+      "options": [
+        "The landlord must serve the prescribed warning notice, the tenant must make the required declaration, and the parties must agree to exclusion before the tenancy is entered into.",
+        "The landlord must include an exclusion clause in the lease and notify the tenant immediately after completion.",
+        "The tenant must sign a waiver after occupying the premises and receiving the first rent demand.",
+        "The landlord must obtain a court order confirming exclusion after the tenancy has commenced.",
+        "The tenant must confirm orally that statutory renewal rights are not required before signing the lease."
+      ],
+      "answer": "A",
+      "explanation": "Business tenancies can be contracted out of the statutory security-of-tenure provisions using the procedure under section 38A of the Landlord and Tenant Act 1954. The landlord must serve the prescribed warning notice and the tenant must make the appropriate declaration before becoming contractually bound. A statutory declaration is required if the prescribed notice is given less than 14 days before the tenant becomes bound.",
+      "topic": "Property Law and Practice",
+      "subtopic": "Core knowledge areas of leasehold real estate law and practice",
+      "difficulty": "hard",
+      "source": "Landlord and Tenant Act 1954, s 38A; Regulatory Reform (Business Tenancies) (England and Wales) Order 2003"
+    },
+    {
+      "stem": "A solicitor acting in an English residential conveyancing transaction receives £15,000 from the buyer specifically for the deposit payable on exchange. The money is received into the firm's client account. The solicitor wishes to transfer £3,000 to the firm's business account to cover anticipated legal fees, although no bill or written notification of costs has been delivered to the client. What should the solicitor do?",
+      "options": [
+        "Transfer the anticipated fees immediately because the firm holds sufficient client money.",
+        "Transfer the fees immediately because the client has instructed the firm to handle the purchase.",
+        "Transfer half the anticipated fees and retain the balance until completion.",
+        "Transfer the fees provided the firm's accounts department approves the transaction.",
+        "Keep the deposit in the client account and transfer costs only when the relevant accounts requirements have been satisfied."
+      ],
+      "answer": "E",
+      "explanation": "Client money must be safeguarded and used only for its proper purpose. Under the SRA Accounts Rules, money may be transferred from client account for costs only where the required bill or other written notification of costs has been delivered and the amount transferred is properly identified and covered. Money held specifically for the deposit cannot simply be appropriated for unbilled fees.",
+      "topic": "Property Law and Practice",
+      "subtopic": "Solicitors Accounts",
+      "difficulty": "medium",
+      "source": "SRA Accounts Rules 2019, rules 4 and 5 – Client money and withdrawals"
+    },
+    {
+      "stem": "A testator executes a will in England leaving £25,000 to a close friend. The friend is one of the two witnesses who sign the will in the testator's presence. The will otherwise satisfies all statutory formalities, and there is no allegation of fraud or undue influence. What is the legal effect of the friend's participation as a witness?",
+      "options": [
+        "The entire will is invalid because a beneficiary cannot witness a will.",
+        "The friend receives the legacy because the will was properly executed.",
+        "The will remains valid, but the gift to the witnessing friend is void.",
+        "The gift is valid only if the other witness was not related to the testator.",
+        "The gift becomes valid automatically when the testator dies."
+      ],
+      "answer": "C",
+      "explanation": "Section 15 of the Wills Act 1837 generally voids a beneficial gift to an attesting witness or that witness's spouse or civil partner. The will itself remains valid if the execution requirements are satisfied. The rule prevents a witnessing beneficiary from benefiting from the gift while preserving the other valid provisions.",
+      "topic": "Wills and the Administration of Estates",
+      "subtopic": "Wills and Intestacy",
+      "difficulty": "easy",
+      "source": "Wills Act 1837, ss 9 and 15 – Execution and gifts to witnesses"
+    },
+    {
+      "stem": "A married woman domiciled in England dies without leaving a will. She is survived by her husband and two adult children. Her net estate, after debts and expenses, exceeds the statutory legacy payable to a surviving spouse. All assets form part of her estate and none pass by survivorship. How is the estate distributed under the intestacy rules?",
+      "options": [
+        "The husband receives the entire estate because the deceased was married.",
+        "The husband receives the personal chattels, the statutory legacy and half of the remaining estate; the children share the other half.",
+        "The husband and two children each receive one-third of the entire estate.",
+        "The children receive the entire estate because they are the deceased's direct descendants.",
+        "The husband receives half the entire estate and the children share the other half, without a statutory legacy."
+      ],
+      "answer": "B",
+      "explanation": "Where an intestate dies leaving a spouse and descendants, the spouse receives the personal chattels, the statutory legacy and half the residue remaining after that legacy. The descendants take the other half of that residue on the statutory trusts. This question avoids dependence on the periodically adjustable monetary amount of the statutory legacy.",
+      "topic": "Wills and the Administration of Estates",
+      "subtopic": "Wills and Intestacy",
+      "difficulty": "medium",
+      "source": "Administration of Estates Act 1925, s 46 – Intestacy with surviving spouse and issue"
+    },
+    {
+      "stem": "A father domiciled in England makes an outright gift of £200,000 cash to his adult daughter. The gift is not made into a trust, no exemption applies, and he retains no benefit from the money. He dies four years later. Assuming the gift was a potentially exempt transfer when made, how is it treated for inheritance tax purposes?",
+      "options": [
+        "It is automatically exempt because all lifetime gifts of cash are outside inheritance tax.",
+        "It is charged to inheritance tax as a lifetime transfer at the date of the original gift.",
+        "It is ignored when calculating inheritance tax because the daughter is an adult.",
+        "It becomes a chargeable transfer because the father died within seven years of making it.",
+        "It is taxable only if the daughter still holds the original cash when her father dies."
+      ],
+      "answer": "D",
+      "explanation": "An outright lifetime gift to an individual is generally a potentially exempt transfer. It becomes exempt if the donor survives seven years, but death within that period causes it to become chargeable. Whether tax is actually payable depends on available exemptions, the nil-rate band and other relevant transfers; taper relief may reduce tax on qualifying gifts made more than three years before death.",
+      "topic": "Wills and the Administration of Estates",
+      "subtopic": "Taxation – wills and the administration of estates",
+      "difficulty": "hard",
+      "source": "Inheritance Tax Act 1984, ss 3A and 7 – Potentially exempt transfers and death within seven years"
+    },
+    {
+      "stem": "A man domiciled in England dies leaving a valid will appointing his sister as sole executor. His sister survives him and is willing and able to administer the estate. The estate contains assets requiring a grant of representation. Which grant should the sister ordinarily apply for?",
+      "options": [
+        "Letters of administration with the will annexed.",
+        "Letters of administration on intestacy.",
+        "A grant of administration pending litigation.",
+        "A grant of administration limited to personal property.",
+        "A grant of probate."
+      ],
+      "answer": "E",
+      "explanation": "A validly appointed executor who is willing and able to act ordinarily applies for a grant of probate. Probate confirms the executor's authority to administer the estate. Letters of administration with the will annexed are generally appropriate when there is a valid will but no executor able and willing to take the grant.",
+      "topic": "Wills and the Administration of Estates",
+      "subtopic": "Probate and Administration Practice",
+      "difficulty": "easy",
+      "source": "SRA SQE1 FLK2: Wills and the Administration of Estates – Grants of representation and executors"
+    },
+    {
+      "stem": "A woman owns a registered freehold house in England and grants a legal charge to a bank. The charge is completed by deed and registered against the freehold title. Several years later, the woman agrees to sell the house. Which statement best describes the bank's interest?",
+      "options": [
+        "The bank has a registered legal charge that must be dealt with on the sale.",
+        "The bank has only a personal contractual claim against the borrower.",
+        "The bank's charge expires automatically when the borrower agrees to sell.",
+        "The bank becomes the registered freehold proprietor when the charge is entered.",
+        "The bank's interest has no priority because the borrower remains in occupation."
+      ],
+      "answer": "A",
+      "explanation": "A registered legal charge is a proprietary security interest over land. The borrower remains the registered proprietor, but the charge continues to burden the title until it is discharged or otherwise dealt with. On a conventional sale, the seller's solicitor normally arranges redemption and discharge of the charge.",
+      "topic": "Land Law",
+      "subtopic": "Title to Land",
+      "difficulty": "easy",
+      "source": "Land Registration Act 2002, ss 27 and 29 – Registration and priority of registered dispositions"
+    },
+    {
+      "stem": "Two trustees hold registered land in England on trust for a beneficiary. The trustees sell the land to a purchaser for its full market value. The purchaser pays the purchase money to both trustees, who execute the transfer. The beneficiary's equitable interest arose under the trust and has not been independently released. What is the effect on that interest?",
+      "options": [
+        "The beneficiary's equitable interest remains attached to the land regardless of payment.",
+        "The beneficiary becomes automatically entitled to rescind the transfer.",
+        "The beneficiary's equitable interest is overreached and attaches to the sale proceeds.",
+        "The beneficiary's equitable interest is extinguished without any substitute interest.",
+        "The beneficiary must personally approve the transfer before overreaching can occur."
+      ],
+      "answer": "C",
+      "explanation": "Where capital money arising on a qualifying disposition is paid to at least two trustees, the statutory requirements for overreaching are generally satisfied. Beneficial interests under the trust are shifted from the land to the sale proceeds, allowing the purchaser to take free from those interests. The beneficiary's rights are then enforceable against the trust fund.",
+      "topic": "Land Law",
+      "subtopic": "Co-ownership and Trusts",
+      "difficulty": "medium",
+      "source": "Law of Property Act 1925, ss 2 and 27 – Overreaching of beneficial interests"
+    },
+    {
+      "stem": "A purchaser buys a registered house in England for valuable consideration. Before completion, the purchaser learns that the seller's adult partner has contributed to the purchase price and lives permanently at the property. The partner has an equitable beneficial interest under a trust, is in actual occupation, and has not consented to the sale. The purchase money will be paid to the seller alone, who is the sole registered proprietor. Assuming no statutory exception applies, what is the likely position?",
+      "options": [
+        "The partner's interest is unenforceable because it is not expressly recorded on the title.",
+        "The partner's interest is automatically overreached because the seller is registered.",
+        "The partner's interest ends because the purchaser is paying valuable consideration.",
+        "The partner's interest can bind the purchaser as an overriding interest arising from actual occupation.",
+        "The partner's interest can bind the purchaser only if a legal charge has been registered."
+      ],
+      "answer": "D",
+      "explanation": "An equitable beneficial interest coupled with actual occupation may qualify as an overriding interest under Schedule 3, paragraph 2 of the Land Registration Act 2002. Payment to a sole trustee does not ordinarily overreach that interest. On the stated facts, the purchaser is likely to take subject to the partner's beneficial interest.",
+      "topic": "Land Law",
+      "subtopic": "Proprietary Rights",
+      "difficulty": "hard",
+      "source": "Land Registration Act 2002, Sch 3 para 2; Williams & Glyn's Bank v Boland"
+    },
+    {
+      "stem": "A settlor signs a document stating: 'I hold £50,000 in my savings account on trust for my three children in equal shares.' The settlor owns the money, the three children are clearly identifiable, and the statement is intended to impose a binding obligation. Which combination of requirements for an express private trust is satisfied?",
+      "options": [
+        "Certainty of consideration, certainty of duration and certainty of consent.",
+        "Certainty of intention, certainty of subject matter and certainty of objects.",
+        "Certainty of title, certainty of capacity and certainty of registration.",
+        "Certainty of value, certainty of possession and certainty of transfer.",
+        "Certainty of formality, certainty of investment and certainty of distribution."
+      ],
+      "answer": "B",
+      "explanation": "A valid express private trust requires certainty of intention, subject matter and objects. The wording demonstrates an intention to hold identifiable money on trust for identifiable beneficiaries in defined shares. Because the settlor declares a trust over property already owned, a separate transfer to another trustee is unnecessary.",
+      "topic": "Trusts Law",
+      "subtopic": "Creation and requirements of express trusts",
+      "difficulty": "easy",
+      "source": "Knight v Knight (1840) – Three certainties of an express trust"
+    },
+    {
+      "stem": "A trustee is responsible for managing a trust's investments. Without obtaining fully informed beneficiary consent or authorisation under the trust instrument, the trustee uses information acquired solely through the trusteeship to make a personal profit of £40,000. The trust itself suffers no financial loss. What is the most appropriate equitable response?",
+      "options": [
+        "The beneficiaries can claim only if they prove the trust suffered an equivalent loss.",
+        "The trustee can retain the profit because it was made using personal funds.",
+        "The trustee can retain the profit provided the underlying investment was lawful.",
+        "The beneficiaries can claim damages only if the trustee acted dishonestly.",
+        "The trustee can be required to account to the trust for the unauthorised profit."
+      ],
+      "answer": "E",
+      "explanation": "A trustee owes strict fiduciary duties, including the duty not to obtain unauthorised profits from the fiduciary position. An account of profits may be ordered even when the trust has not suffered a corresponding loss and the trustee acted in good faith. The remedy strips the unauthorised gain rather than compensating for proven loss.",
+      "topic": "Trusts Law",
+      "subtopic": "The fiduciary relationship and its obligations",
+      "difficulty": "medium",
+      "source": "Boardman v Phipps [1967]; fiduciary no-profit rule and account of profits"
+    },
+    {
+      "stem": "A trustee is considering investing a family trust's £300,000 cash fund. The trust instrument does not restrict investment powers. The trustee proposes placing the entire fund in shares of one small, speculative company because the trustee expects unusually high returns. The beneficiaries include young children who may need financial support in the future. What should the trustee do?",
+      "options": [
+        "Invest the entire fund because trustees have unrestricted discretion over investment risk.",
+        "Invest the entire fund if the company directors promise to provide regular financial updates.",
+        "Consider suitability and diversification, obtain proper advice where required, and review the proposed investment.",
+        "Avoid all equity investments because trust funds must always be held in cash or government bonds.",
+        "Obtain consent from the oldest beneficiary, which removes the trustee's investment obligations."
+      ],
+      "answer": "C",
+      "explanation": "The Trustee Act 2000 provides a general investment power but requires trustees to consider standard investment criteria, including suitability and diversification. Trustees must obtain and consider proper advice unless it is reasonably unnecessary and must exercise the applicable duty of care. Concentrating the entire trust fund in one speculative company requires particularly careful justification.",
+      "topic": "Trusts Law",
+      "subtopic": "Trustees",
+      "difficulty": "medium",
+      "source": "Trustee Act 2000, ss 1, 3, 4 and 5 – Duty of care and investment powers"
+    },
+    {
+      "stem": "During an argument, a man deliberately punches another man once in the face, causing a broken nose. The attacker intended to cause some physical harm but did not intend serious injury. Medical evidence establishes that the broken nose amounts to grievous bodily harm. Which offence is most clearly established on these facts?",
+      "options": [
+        "Unlawfully inflicting grievous bodily harm under section 20 of the Offences Against the Person Act 1861.",
+        "Causing grievous bodily harm with intent under section 18 of the Offences Against the Person Act 1861.",
+        "Common assault only, because the attacker did not intend serious injury.",
+        "Attempted grievous bodily harm, because serious injury was not intended.",
+        "Battery only, because a single punch cannot amount to grievous bodily harm."
+      ],
+      "answer": "A",
+      "explanation": "Section 20 requires unlawful wounding or infliction of grievous bodily harm with intention or recklessness as to some physical harm, not necessarily serious harm. The attacker intentionally inflicted physical harm and serious injury actually resulted. Section 18 would require the additional specific intent to cause grievous bodily harm, absent from the stated facts.",
+      "topic": "Criminal Liability",
+      "subtopic": "Specified criminal offences",
+      "difficulty": "medium",
+      "source": "Offences Against the Person Act 1861, ss 18 and 20; R v Mowatt"
+    },
+    {
+      "stem": "A customer at a supermarket in England places an expensive bottle of perfume inside their coat intending to leave without paying. Before the customer reaches the checkout, a security guard stops them. The customer knew the perfume belonged to the supermarket and intended to keep it permanently. Which statement best describes the customer's criminal liability?",
+      "options": [
+        "No theft has occurred because the customer did not leave the premises.",
+        "No theft has occurred because the customer has not passed the checkout.",
+        "Only attempted theft is possible because the supermarket retained legal ownership.",
+        "Theft is complete because the customer dishonestly appropriated property belonging to another with intent permanently to deprive.",
+        "Robbery is complete because the customer concealed property intending to take it."
+      ],
+      "answer": "D",
+      "explanation": "Theft under section 1 of the Theft Act 1968 requires dishonest appropriation of property belonging to another with the intention permanently to deprive. Appropriation can occur while the goods remain inside the shop; leaving the premises or passing the checkout is not necessary. The stated dishonest concealment and intention satisfy the relevant elements.",
+      "topic": "Criminal Liability",
+      "subtopic": "Definition of the offence",
+      "difficulty": "easy",
+      "source": "Theft Act 1968, ss 1–6 – Elements of theft and appropriation"
+    },
+    {
+      "stem": "A man plans to burgle a jewellery shop at night. He travels to the shop carrying tools, forces open a rear door, and begins stepping through the doorway intending to steal jewellery. The police arrest him before he enters fully or takes anything. For the purpose of attempted burglary under the Criminal Attempts Act 1981, which is the best assessment?",
+      "options": [
+        "He cannot be guilty of attempt because he did not successfully steal any jewellery.",
+        "He has gone beyond mere preparation and may be guilty of attempted burglary.",
+        "He cannot be guilty of attempt because he did not enter the shop fully.",
+        "He has committed only preparatory acts because he had not selected specific jewellery.",
+        "He can be guilty of attempt only if he previously committed a completed burglary."
+      ],
+      "answer": "B",
+      "explanation": "Under section 1 of the Criminal Attempts Act 1981, an attempt requires intent to commit the offence and conduct that goes beyond mere preparation. Forcing open the shop door and beginning entry with the necessary criminal intent are sufficiently proximate acts to support attempted burglary. Successful theft is not necessary for burglary or an attempt to commit it.",
+      "topic": "Criminal Liability",
+      "subtopic": "Inchoate offences",
+      "difficulty": "medium",
+      "source": "Criminal Attempts Act 1981, s 1 – Acts more than merely preparatory"
+    },
+    {
+      "stem": "A 19-year-old suspect is arrested in England on suspicion of criminal damage and taken to a police station. The suspect asks to speak privately with a solicitor before answering questions. A police officer says that legal advice will be available only if the suspect agrees to pay the solicitor personally. What is the correct legal position?",
+      "options": [
+        "The suspect is entitled to free legal advice at the police station, regardless of personal financial means.",
+        "The suspect is entitled to free legal advice only if charged with an indictable-only offence.",
+        "The suspect must satisfy a financial means test before obtaining any legal advice.",
+        "The suspect must first participate in the police interview before requesting a solicitor.",
+        "The suspect must pay initially and can recover the costs only if acquitted."
+      ],
+      "answer": "A",
+      "explanation": "A person arrested and held in police custody has the right to consult a solicitor privately. Legal advice at the police station is generally available without charge and is not subject to a personal means test. Access may be delayed only in narrowly defined circumstances under the applicable statutory rules.",
+      "topic": "Criminal Law and Practice",
+      "subtopic": "Advising clients, including vulnerable clients, about the procedure and processes at the police station",
+      "difficulty": "easy",
+      "source": "Police and Criminal Evidence Act 1984, s 58; PACE Code C – Access to legal advice"
+    },
+    {
+      "stem": "A suspect is interviewed under caution in England about an alleged burglary. The suspect has received legal advice and is not vulnerable. During the interview, the police specifically ask why the suspect was found carrying a distinctive bag near the scene. The suspect answers 'no comment' despite having an innocent explanation that could reasonably have been mentioned. At trial, the suspect relies on that explanation in their defence. Subject to the statutory safeguards, what may the court do?",
+      "options": [
+        "Treat the suspect's silence as conclusive proof that the explanation is false.",
+        "Automatically exclude the suspect's explanation from the defence case.",
+        "Convict the suspect solely because the explanation was not given during interview.",
+        "Require the suspect to prove innocence beyond reasonable doubt.",
+        "Permit the jury or magistrates to draw an adverse inference if the statutory conditions are satisfied."
+      ],
+      "answer": "E",
+      "explanation": "Section 34 of the Criminal Justice and Public Order Act 1994 permits an adverse inference where an accused fails to mention a fact during questioning under caution that could reasonably have been mentioned and later relies upon that fact in the defence. The inference is discretionary and subject to safeguards. Silence alone cannot establish guilt or remove the prosecution's burden of proof.",
+      "topic": "Criminal Law and Practice",
+      "subtopic": "The procedures and processes involved in criminal litigation",
+      "difficulty": "medium",
+      "source": "Criminal Justice and Public Order Act 1994, ss 34 and 38 – Adverse inferences from silence"
+    },
+    {
+      "stem": "A defendant aged 30 is charged with an either-way offence in England. The defendant appears before the magistrates' court and indicates a not-guilty plea. The magistrates consider the seriousness and circumstances of the offence and decide that their sentencing powers would be sufficient if the defendant were convicted, so they accept jurisdiction for trial. The defendant is informed of the right to elect Crown Court trial and elects trial by jury. What must happen next?",
+      "options": [
+        "The magistrates must conduct the trial because they have accepted jurisdiction.",
+        "The magistrates must obtain the prosecution's permission before sending the case.",
+        "The case must be sent to the Crown Court for trial following the defendant's valid election.",
+        "The defendant must demonstrate that the magistrates cannot provide a fair trial.",
+        "The defendant must apply to the High Court for permission to elect jury trial."
+      ],
+      "answer": "C",
+      "explanation": "For an either-way offence, the magistrates first decide whether summary trial is appropriate. If they accept jurisdiction, an adult defendant who pleads not guilty must be given the opportunity to elect Crown Court trial. A valid election requires the case to be sent to the Crown Court even though the magistrates considered themselves capable of trying it.",
+      "topic": "Criminal Law and Practice",
+      "subtopic": "The procedures and processes involved in criminal litigation",
+      "difficulty": "hard",
+      "source": "Magistrates' Courts Act 1980, ss 19–20; Crime and Disorder Act 1998, s 51 – Allocation and sending for trial"
+    }
+  ]
+}
