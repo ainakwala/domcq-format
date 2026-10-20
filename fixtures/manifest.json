@@ -181,6 +181,10 @@
     { "file": "valid/cpa-isc-claude-3.md", "errors": [], "fenced": true },
     { "file": "valid/cpa-isc-claude-4.md", "errors": [], "fenced": true },
     { "file": "valid/cpa-isc-chatgpt-1.json", "errors": [] },
+    { "file": "valid/mpre-claude-1.md", "errors": [], "fenced": true },
+    { "file": "valid/mpre-claude-2.md", "errors": [], "fenced": true },
+    { "file": "valid/mpre-claude-3.md", "errors": [], "fenced": true },
+    { "file": "valid/mpre-claude-4.md", "errors": [], "fenced": true },
 
     { "file": "invalid/empty.txt", "errors": ["E001"] },
     { "file": "invalid/not-json.txt", "errors": ["E002"] },
