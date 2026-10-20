@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "series-65",
+  "set": "Uniform Investment Adviser Law Examination (Series 65) practice – Balanced Exam Set 1",
+  "questions": [
+    {
+      "stem": "An economist observes that the Consumer Price Index (CPI) increased by 4% over the past 12 months. Assuming the CPI accurately reflects changes in the cost of living, what does this increase indicate?",
+      "options": [
+        "The purchasing power of money increased by 4%.",
+        "The average price level of the measured consumer basket increased by 4%.",
+        "The economy's real gross domestic product increased by 4%.",
+        "The purchasing power of money decreased by exactly 4%."
+      ],
+      "answer": "B",
+      "explanation": "The Consumer Price Index measures changes in the prices of a representative basket of consumer goods and services. A 4% CPI increase indicates that the measured basket costs 4% more than it did a year earlier. Inflation reduces purchasing power, but the percentage decline in purchasing power is not mathematically identical to the inflation rate.",
+      "topic": "Economic Factors and Business Information",
+      "subtopic": "Basic Economic Concepts",
+      "difficulty": "easy",
+      "source": "NASAA Series 65 Study Guide, Economic Factors and Business Information – Basic Economic Concepts: inflation and economic indicators"
+    },
+    {
+      "stem": "A publicly traded company reports current assets of $600,000, including $150,000 of inventory and $50,000 of prepaid expenses. Its current liabilities total $300,000. What is the company's current ratio?",
+      "options": [
+        "1.33",
+        "1.50",
+        "1.67",
+        "2.00"
+      ],
+      "answer": "D",
+      "explanation": "The current ratio equals current assets divided by current liabilities. Dividing $600,000 by $300,000 produces a current ratio of 2.00. Inventory and prepaid expenses are included in current assets for this calculation, although certain components are excluded when calculating the quick ratio.",
+      "topic": "Economic Factors and Business Information",
+      "subtopic": "Financial Reporting",
+      "difficulty": "medium",
+      "source": "NASAA Series 65 Study Guide, Financial Reporting – Accounting fundamentals and financial ratios"
+    },
+    {
+      "stem": "A diversified equity portfolio experiences a substantial decline after an unexpected nationwide increase in interest rates causes broad stock market losses. Which type of risk is primarily responsible for the portfolio's decline?",
+      "options": [
+        "Systematic risk",
+        "Business risk",
+        "Liquidity risk",
+        "Issuer-specific risk"
+      ],
+      "answer": "A",
+      "explanation": "Systematic risk arises from market-wide factors such as changes in interest rates, inflation and economic conditions. Diversification across individual securities cannot eliminate this risk because it affects a broad range of investments. Business and issuer-specific risks are generally unsystematic and can be reduced through diversification.",
+      "topic": "Economic Factors and Business Information",
+      "subtopic": "Types of Risk",
+      "difficulty": "medium",
+      "source": "NASAA Series 65 Study Guide, Types of Risk – Systematic and unsystematic risks"
+    },
+    {
+      "stem": "An investor wants a short-term debt instrument that is backed by the full faith and credit of the U.S. government, typically matures within one year of issuance, and is generally sold at a discount to face value. Which investment best meets these requirements?",
+      "options": [
+        "Commercial paper",
+        "Banker's acceptance",
+        "U.S. Treasury bill",
+        "Municipal revenue bond"
+      ],
+      "answer": "C",
+      "explanation": "U.S. Treasury bills are short-term federal government obligations issued with maturities of one year or less. They are generally sold at a discount and pay their face value at maturity, with the difference representing the investor's return. Treasury bills carry minimal default risk because they are backed by the U.S. government.",
+      "topic": "Investment Vehicle Characteristics",
+      "subtopic": "Types and Characteristics of Cash and Cash Equivalents",
+      "difficulty": "easy",
+      "source": "NASAA Series 65 Study Guide, Investment Vehicle Characteristics – Types and Characteristics of Cash and Cash Equivalents"
+    },
+    {
+      "stem": "An investment adviser compares two option-free bonds with the same credit quality and yield to maturity. Bond X has a modified duration of 4 years, while Bond Y has a modified duration of 8 years. If market yields increase by 1 percentage point, which outcome is most likely, assuming other factors remain constant?",
+      "options": [
+        "Bond X will decline approximately 8%, and Bond Y approximately 4%.",
+        "Bond X will increase approximately 4%, and Bond Y approximately 8%.",
+        "Both bonds will decline approximately 4% because their credit quality is identical.",
+        "Bond X will decline approximately 4%, and Bond Y approximately 8%."
+      ],
+      "answer": "D",
+      "explanation": "Modified duration estimates the percentage price change of a bond for a one-percentage-point change in yield. A duration of 4 implies an approximate 4% price decline, while a duration of 8 implies an approximate 8% decline when yields rise by one percentage point. The estimates are first-order approximations and do not incorporate convexity adjustments.",
+      "topic": "Investment Vehicle Characteristics",
+      "subtopic": "Characteristics and Valuation Factors of Fixed Income Securities",
+      "difficulty": "medium",
+      "source": "NASAA Series 65 Study Guide, Fixed Income Securities – Duration, interest rate risk and valuation factors"
+    },
+    {
+      "stem": "A corporation has outstanding cumulative preferred stock and common stock. The corporation omitted preferred dividends last year but has sufficient funds to declare dividends this year. Before declaring any common stock dividends, which obligation must the corporation satisfy?",
+      "options": [
+        "Pay only the current year's common stock dividend.",
+        "Pay accumulated preferred dividends and the current preferred dividend.",
+        "Redeem all outstanding cumulative preferred shares at par value.",
+        "Pay interest on the unpaid preferred dividends at the market rate."
+      ],
+      "answer": "B",
+      "explanation": "Cumulative preferred stockholders are entitled to receive unpaid preferred dividends from prior periods before dividends can be paid to common shareholders. These unpaid amounts are called dividends in arrears. Unlike bond interest, preferred dividends are not generally enforceable debt obligations merely because the corporation has omitted them.",
+      "topic": "Investment Vehicle Characteristics",
+      "subtopic": "Characteristics of Equity Securities",
+      "difficulty": "medium",
+      "source": "NASAA Series 65 Study Guide, Equity Securities – Preferred stock and cumulative dividend provisions"
+    },
+    {
+      "stem": "A closed-end investment company reports a net asset value of $25 per share, while its shares trade on an exchange at $22 per share. Which statement correctly describes the fund's market valuation?",
+      "options": [
+        "The shares trade at a 12% discount to net asset value.",
+        "The shares trade at a 12% premium to net asset value.",
+        "The shares trade at a 13.6% discount to net asset value.",
+        "The shares trade at a 13.6% premium to net asset value."
+      ],
+      "answer": "A",
+      "explanation": "The discount to net asset value equals the difference between NAV and market price divided by NAV. Here, ($25 − $22) / $25 equals 12%. Unlike an open-end mutual fund, a closed-end fund trades on an exchange at prices determined by supply and demand, which may differ from its NAV.",
+      "topic": "Investment Vehicle Characteristics",
+      "subtopic": "Characteristics of Pooled Investments",
+      "difficulty": "medium",
+      "source": "NASAA Series 65 Study Guide, Pooled Investments – Closed-end funds, net asset value and market discounts"
+    },
+    {
+      "stem": "An investor owns 100 shares of XYZ stock purchased at $60 per share. The investor sells one XYZ call option contract with a strike price of $65 and receives a premium of $3 per share. At expiration, XYZ trades at $72 and the option is exercised. Ignoring commissions and taxes, what is the investor's total profit from the combined stock and option position?",
+      "options": [
+        "$300",
+        "$500",
+        "$800",
+        "$1,200"
+      ],
+      "answer": "C",
+      "explanation": "The investor must deliver 100 shares at the $65 strike price, realizing a stock gain of ($65 − $60) × 100 = $500. The call premium contributes another $300, producing a total profit of $800. A covered call limits upside participation because the shares may be called away when the market price exceeds the strike.",
+      "topic": "Investment Vehicle Characteristics",
+      "subtopic": "Characteristics of Derivative Securities",
+      "difficulty": "hard",
+      "source": "NASAA Series 65 Study Guide, Derivative Securities – Options, covered call writing and payoff calculations"
+    },
+    {
+      "stem": "An investment adviser is evaluating a retired client who relies on portfolio withdrawals for essential living expenses. The client expresses enthusiasm for speculative investments but has limited resources and cannot replace a substantial portfolio loss. Which factor most directly limits the adviser's recommended portfolio risk?",
+      "options": [
+        "The client's stated willingness to speculate",
+        "The client's preference for recent outperformers",
+        "The client's interest in emerging technologies",
+        "The client's financial capacity to absorb losses"
+      ],
+      "answer": "D",
+      "explanation": "Risk capacity reflects a client's financial ability to withstand investment losses without jeopardizing financial objectives. Although risk tolerance describes willingness to accept volatility, an adviser must also evaluate objective circumstances such as income needs, time horizon and financial resources. High willingness to take risk does not override an inability to bear losses.",
+      "topic": "Client Investment Recommendations and Strategies",
+      "subtopic": "Client Profile",
+      "difficulty": "easy",
+      "source": "NASAA Series 65 Study Guide, Client Profile – Risk tolerance, risk capacity and financial objectives"
+    },
+    {
+      "stem": "An adviser is constructing a portfolio using two risky assets. Asset A has an expected return of 8% and standard deviation of 12%, while Asset B has an expected return of 7% and standard deviation of 10%. If the correlation between the assets changes from +0.90 to −0.50 while all other assumptions remain unchanged, what is the most likely effect on the risk of a portfolio holding equal dollar amounts of each asset?",
+      "options": [
+        "Portfolio risk decreases because the assets provide stronger diversification.",
+        "Portfolio risk increases because the assets have different expected returns.",
+        "Portfolio risk remains unchanged because individual volatilities are constant.",
+        "Portfolio risk becomes zero because correlation is negative."
+      ],
+      "answer": "A",
+      "explanation": "Portfolio variance depends on the individual asset variances, portfolio weights and correlation between asset returns. A reduction in correlation from strongly positive to negative generally reduces portfolio volatility for a portfolio with positive weights in both assets. Negative correlation improves diversification, but does not necessarily eliminate portfolio risk.",
+      "topic": "Client Investment Recommendations and Strategies",
+      "subtopic": "Capital Market Theory",
+      "difficulty": "medium",
+      "source": "NASAA Series 65 Study Guide, Capital Market Theory – Correlation, portfolio variance and diversification"
+    },
+    {
+      "stem": "A client sells 200 shares of ABC stock at a $4,000 loss in a taxable brokerage account. Ten days later, the client purchases 200 substantially identical ABC shares in the same taxable account. Under the federal wash-sale rules, how is the original $4,000 loss treated?",
+      "options": [
+        "It is fully deductible because the purchase occurred after the sale.",
+        "It is disallowed permanently without any adjustment to the new shares.",
+        "It is currently disallowed and generally added to the basis of the replacement shares.",
+        "It is deductible only against ordinary income earned during the same tax year."
+      ],
+      "answer": "C",
+      "explanation": "The wash-sale rule generally disallows a loss when substantially identical securities are purchased within 30 days before or after the sale that generated the loss. When replacement shares are acquired in a taxable account, the disallowed loss is generally added to their cost basis. This usually defers recognition of the loss until the replacement shares are sold in a qualifying transaction.",
+      "topic": "Client Investment Recommendations and Strategies",
+      "subtopic": "Tax Considerations",
+      "difficulty": "hard",
+      "source": "NASAA Series 65 Study Guide, Tax Considerations – Capital gains and losses; IRS Publication 550, Wash Sales"
+    },
+    {
+      "stem": "A 35-year-old employee is considering contributions to a Roth IRA. Assuming the employee meets the applicable income and eligibility requirements, which statement correctly describes the federal income tax treatment of contributions and qualified distributions?",
+      "options": [
+        "Contributions are deductible, and qualified distributions are taxable.",
+        "Contributions are not deductible, and qualified distributions are tax-free.",
+        "Contributions are deductible, and qualified distributions are tax-free.",
+        "Contributions are not deductible, and qualified distributions are always taxable."
+      ],
+      "answer": "B",
+      "explanation": "Roth IRA contributions are made with after-tax funds and therefore do not provide a federal income tax deduction. Qualified Roth IRA distributions are generally free of federal income tax if the applicable five-year holding requirement and another qualifying condition are met. Roth IRAs are particularly attractive to investors who expect favorable tax treatment at withdrawal.",
+      "topic": "Client Investment Recommendations and Strategies",
+      "subtopic": "Retirement Plans",
+      "difficulty": "easy",
+      "source": "NASAA Series 65 Study Guide, Retirement Plans – Traditional and Roth IRAs; IRS Publication 590-B"
+    },
+    {
+      "stem": "A client owns a taxable brokerage account solely in her name and wants the account assets to pass directly to her adult daughter at death without becoming part of the probate administration process. The client also wants to retain full control of the account while alive. Which account arrangement most directly accomplishes these objectives?",
+      "options": [
+        "Joint tenancy with an unrelated third party",
+        "An individual account with no beneficiary instructions",
+        "A discretionary account managed by an investment adviser",
+        "An individual account with a transfer-on-death designation"
+      ],
+      "answer": "D",
+      "explanation": "A transfer-on-death designation allows assets in an eligible brokerage account to pass directly to a named beneficiary when the owner dies, generally avoiding probate for those assets. The account owner retains ownership and control during life and can ordinarily change the beneficiary designation. A TOD arrangement does not itself eliminate potential estate tax exposure.",
+      "topic": "Client Investment Recommendations and Strategies",
+      "subtopic": "Ownership and Estate Planning Techniques",
+      "difficulty": "easy",
+      "source": "NASAA Series 65 Study Guide, Ownership and Estate Planning Techniques – Transfer-on-death accounts"
+    },
+    {
+      "stem": "A portfolio begins the year with $100,000. During the first six months, it earns a 10% return, increasing its value to $110,000. At that point, the client contributes an additional $90,000, bringing the portfolio value to $200,000. During the second six months, the portfolio declines by 5%, ending at $190,000. Assuming the cash flow occurs exactly at the valuation point between the two periods, what is the portfolio's annual time-weighted return?",
+      "options": [
+        "4.50%",
+        "5.00%",
+        "3.33%",
+        "4.00%"
+      ],
+      "answer": "A",
+      "explanation": "The time-weighted return geometrically links subperiod returns while neutralizing the effects of external cash flows. The calculation is (1.10 × 0.95) − 1 = 4.50%. Time-weighted return is generally preferred when evaluating an investment manager's performance because it reduces the influence of client-directed contributions and withdrawals.",
+      "topic": "Client Investment Recommendations and Strategies",
+      "subtopic": "Portfolio Performance Measures",
+      "difficulty": "hard",
+      "source": "NASAA Series 65 Study Guide, Portfolio Performance Measures – Time-weighted and money-weighted returns"
+    },
+    {
+      "stem": "An investment advisory firm has $120 million in regulatory assets under management, maintains its principal office in the United States, and advises ordinary retail clients. The firm does not qualify for any special exemption from registration. Under the Investment Advisers Act of 1940 and the general federal-state registration framework, where must the firm register?",
+      "options": [
+        "Only with each state in which it has more than five clients",
+        "With the SEC and separately as a state-registered adviser in every client state",
+        "With the SEC, subject to applicable state notice-filing requirements",
+        "Only with the securities Administrator of its principal office state"
+      ],
+      "answer": "C",
+      "explanation": "An investment adviser with at least $110 million in regulatory assets under management generally must register with the SEC unless an exception applies. Federal registration ordinarily preempts state investment adviser registration, although states may impose permissible notice-filing and fee requirements. The $90 million to $110 million range includes additional registration flexibility under the federal transition framework.",
+      "topic": "Laws, Regulations, and Guidelines",
+      "subtopic": "Regulation of Investment Advisers, Including State-Registered and Federal Covered Advisers",
+      "difficulty": "hard",
+      "source": "NASAA Investment Adviser Guide; Investment Advisers Act of 1940, Section 203A; Rule 203A-1"
+    },
+    {
+      "stem": "An individual provides personalized securities investment advice to retail clients on behalf of an SEC-registered investment advisory firm. The individual regularly works from an office in State X and satisfies the applicable definition of an investment adviser representative. Which statement best describes the individual's state registration obligation?",
+      "options": [
+        "The individual is automatically exempt from all state regulation because the firm is SEC-registered.",
+        "State X may require the individual to register as an investment adviser representative.",
+        "The individual must register separately with the SEC as an investment adviser representative.",
+        "The individual must register as a broker-dealer agent even without engaging in brokerage activity."
+      ],
+      "answer": "B",
+      "explanation": "Although SEC registration generally preempts state registration of the advisory firm, states retain authority to register certain investment adviser representatives who have a place of business in their jurisdiction. Individuals who meet the federal definition of an investment adviser representative may therefore be subject to state registration. SEC registration of the firm does not automatically eliminate this individual obligation.",
+      "topic": "Laws, Regulations, and Guidelines",
+      "subtopic": "Regulation of Investment Adviser Representatives",
+      "difficulty": "easy",
+      "source": "Investment Advisers Act of 1940, Section 203A(b); SEC Rule 203A-3; NASAA Investment Adviser Guide"
+    },
+    {
+      "stem": "An individual employed by a registered broker-dealer regularly solicits securities transactions from retail investors in State A. The individual is not covered by a registration exemption. Under the Uniform Securities Act, which registration requirement generally applies?",
+      "options": [
+        "Registration as an investment adviser, because recommendations involve securities",
+        "Registration as an issuer, because securities transactions are being solicited",
+        "Registration only with FINRA, because state agent requirements are preempted",
+        "Registration as an agent of the broker-dealer in State A"
+      ],
+      "answer": "D",
+      "explanation": "Under the Uniform Securities Act, an individual who represents a broker-dealer in effecting or attempting to effect securities transactions generally meets the definition of an agent. Such individuals must ordinarily register as agents in states where registration is required, unless an exclusion or exemption applies. Broker-dealer registration and agent registration are distinct regulatory requirements.",
+      "topic": "Laws, Regulations, and Guidelines",
+      "subtopic": "Regulation of Agents of Broker-Dealers",
+      "difficulty": "medium",
+      "source": "Uniform Securities Act of 1956, Sections 201 and 401 – Agent definition and registration"
+    },
+    {
+      "stem": "A registered broker-dealer offers newly issued U.S. Treasury notes to investors in a state that follows the Uniform Securities Act of 1956. How are these securities generally treated for state securities registration purposes?",
+      "options": [
+        "They are exempt securities because they are issued by the U.S. government.",
+        "They must be registered in the state unless sold exclusively to institutions.",
+        "They are exempt only if the notes mature within one year of issuance.",
+        "They require state registration if the offering exceeds $10 million."
+      ],
+      "answer": "A",
+      "explanation": "Securities issued or guaranteed by the U.S. government are generally exempt from state securities registration under the Uniform Securities Act. This exemption applies to Treasury notes regardless of whether their original maturity exceeds one year. The securities exemption does not automatically exempt broker-dealers or their agents from applicable registration requirements.",
+      "topic": "Laws, Regulations, and Guidelines",
+      "subtopic": "Regulation of Securities and Issuers",
+      "difficulty": "medium",
+      "source": "Uniform Securities Act of 1956, Section 402(a)(1) – Exempt securities"
+    },
+    {
+      "stem": "An SEC-registered investment adviser wants to publish an advertisement containing a testimonial from a current client who received no compensation for providing it. Under the SEC Investment Adviser Marketing Rule, which requirement generally applies to the testimonial?",
+      "options": [
+        "The adviser must pay the client at least nominal compensation for the testimonial.",
+        "The adviser must obtain advance SEC approval before publishing the testimonial.",
+        "The adviser must provide required disclosures, including the client's status and applicable conflicts of interest.",
+        "The adviser must exclude the testimonial because client testimonials are categorically prohibited."
+      ],
+      "answer": "C",
+      "explanation": "The SEC Marketing Rule permits investment advisers to use testimonials, provided they satisfy applicable disclosure and other requirements. Required disclosures include whether the person giving the testimonial is a client and whether compensation was provided, along with disclosure of relevant material conflicts of interest. A testimonial is not automatically prohibited merely because it promotes an adviser's services.",
+      "topic": "Laws, Regulations, and Guidelines",
+      "subtopic": "Communication with Clients and Prospects",
+      "difficulty": "medium",
+      "source": "Investment Advisers Act of 1940, Rule 206(4)-1 – Investment Adviser Marketing Rule, testimonials and endorsements"
+    },
+    {
+      "stem": "An investment adviser receives a client's written authorization to deduct quarterly advisory fees directly from the client's account maintained at an independent qualified custodian. The adviser has no other authority to withdraw or transfer client assets. Under the SEC custody rule, which statement is generally correct?",
+      "options": [
+        "The arrangement is prohibited because investment advisers cannot deduct fees from client accounts.",
+        "The adviser generally has custody, but limited fee-deduction authority is excepted from the surprise examination requirement.",
+        "The arrangement eliminates custody because the client has provided written authorization.",
+        "The adviser must become a registered broker-dealer before deducting any advisory fees."
+      ],
+      "answer": "B",
+      "explanation": "Under the SEC custody rule, authority to deduct advisory fees directly from client accounts generally constitutes custody because the adviser can obtain possession of client funds. However, advisers whose custody arises solely from fee-deduction authority are generally excepted from the rule's annual surprise examination requirement. Other applicable custody safeguards and fiduciary obligations continue to apply.",
+      "topic": "Laws, Regulations, and Guidelines",
+      "subtopic": "Ethical Practices and Fiduciary Obligations",
+      "difficulty": "easy",
+      "source": "Investment Advisers Act of 1940, Rule 206(4)-2 – Custody of client funds or securities"
+    }
+  ]
+}

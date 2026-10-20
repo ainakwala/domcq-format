@@ -1,0 +1,77 @@
+{
+  "id": "series-65",
+  "display_name": "Uniform Investment Adviser Law Examination (Series 65)",
+  "body": "NASAA",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by the North American Securities Administrators Association, Inc. (NASAA); the names are used only to identify the exam. North American Securities Administrators Association™ is a trademark of the North American Securities Administrators Association, Inc. The topic names and weights are from NASAA's published test specifications; source: NASAA, https://www.nasaa.org.",
+  "taxonomy": {
+    "Economic Factors and Business Information": [
+      "Basic Economic Concepts",
+      "Financial Reporting",
+      "Analytical Methods",
+      "Types of Risk"
+    ],
+    "Investment Vehicle Characteristics": [
+      "Types and Characteristics of Cash and Cash Equivalents",
+      "Types of Fixed Income Securities",
+      "Characteristics and Valuation Factors of Fixed Income Securities",
+      "Types of Equity Securities",
+      "Characteristics of Equity Securities",
+      "Methods Used to Determine the Value of Equity Securities",
+      "Equity Public Offering",
+      "Types of Pooled Investments",
+      "Characteristics of Pooled Investments",
+      "Types of Derivative Securities",
+      "Characteristics of Derivative Securities",
+      "Alternative Investments",
+      "Insured-Based Products",
+      "Other Assets"
+    ],
+    "Client Investment Recommendations and Strategies": [
+      "Type of Client",
+      "Client Profile",
+      "Capital Market Theory",
+      "Portfolio Management Strategies, Styles and Techniques",
+      "Tax Considerations",
+      "Retirement Plans",
+      "ERISA Issues",
+      "Special Types of Accounts",
+      "Ownership and Estate Planning Techniques",
+      "Trading Securities",
+      "Portfolio Performance Measures"
+    ],
+    "Laws, Regulations, and Guidelines": [
+      "Regulation of Investment Advisers, Including State-Registered and Federal Covered Advisers",
+      "Regulation of Investment Adviser Representatives",
+      "Regulation of Broker-Dealers",
+      "Regulation of Agents of Broker-Dealers",
+      "Regulation of Securities and Issuers",
+      "Remedies and Administrative Provisions",
+      "Communication with Clients and Prospects",
+      "Ethical Practices and Fiduciary Obligations"
+    ]
+  },
+  "weights": {
+    "Economic Factors and Business Information": 15,
+    "Investment Vehicle Characteristics": 25,
+    "Client Investment Recommendations and Strategies": 30,
+    "Laws, Regulations, and Guidelines": 30
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": false,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [],
+  "uncovered_item_types": [],
+  "exam_mode": {
+    "questions": 140,
+    "minutes": 180
+  },
+  "verified_outline": "Series 65 Test Specifications, effective June 12, 2023 (NASAA)",
+  "verified_on": "2026-10-20",
+  "next_review": "2027-10-20"
+}

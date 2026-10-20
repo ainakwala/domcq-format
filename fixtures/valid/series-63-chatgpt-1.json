@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "series-63",
+  "set": "Uniform Securities Agent State Law Examination (Series 63) practice – State Law and Ethics",
+  "questions": [
+    {
+      "stem": "A financial consulting firm receives compensation for regularly advising clients about the purchase and sale of securities. The firm does not execute securities transactions or maintain custody of client assets. Under the Uniform Securities Act, how is the firm generally classified?",
+      "options": [
+        "As a broker-dealer because its advice concerns securities transactions",
+        "As an investment adviser because it provides securities advice for compensation",
+        "As an agent because it communicates investment recommendations to clients",
+        "As an issuer because it recommends securities issued by other companies"
+      ],
+      "answer": "B",
+      "explanation": "An investment adviser generally is a person or firm that, for compensation, engages in the business of advising others about securities or securities investments. The firm need not execute transactions or hold client assets to meet this definition. Whether a particular adviser must register depends on applicable exclusions, exemptions, and federal or state regulatory jurisdiction.",
+      "topic": "Regulations of Investment Advisers",
+      "subtopic": "definitions of Investment Advisers",
+      "difficulty": "easy",
+      "source": "Uniform Securities Act of 1956, Section 401(f); NASAA Series 63 Content Outline, Regulations of Investment Advisers"
+    },
+    {
+      "stem": "An employee of a state-registered investment advisory firm regularly meets with clients, determines their investment objectives, and provides individualized securities recommendations. The employee does not execute trades or receive transaction-based commissions. Under the Uniform Securities Act, which classification most accurately describes the employee?",
+      "options": [
+        "A broker-dealer agent because the employee discusses securities",
+        "An issuer representative because the employee recommends investments",
+        "A clerical employee because the employee does not execute transactions",
+        "An investment adviser representative because the employee provides investment advice"
+      ],
+      "answer": "D",
+      "explanation": "An investment adviser representative includes an individual associated with an investment adviser who makes recommendations, provides securities advice, or performs certain other advisory functions. Transaction execution and commissions are not necessary elements of the definition. The individual's registration requirements are determined separately.",
+      "topic": "Regulations of Investment Adviser Representatives",
+      "subtopic": "definition of an Investment Adviser Representative",
+      "difficulty": "easy",
+      "source": "Uniform Securities Act of 2002, Section 102(16); NASAA Series 63 Content Outline, Investment Adviser Representatives"
+    },
+    {
+      "stem": "A corporation operates a business that regularly purchases securities from investors for its own trading account and resells those securities to other investors. It is not merely buying and selling securities for its own long-term investment portfolio. Under the Uniform Securities Act, the corporation is generally classified as which of the following?",
+      "options": [
+        "A broker-dealer",
+        "An investment adviser",
+        "An investment adviser representative",
+        "An issuer"
+      ],
+      "answer": "A",
+      "explanation": "A broker-dealer is generally a person engaged in the business of effecting securities transactions for the accounts of others or for its own account. Trading securities as part of a securities dealing business differs from ordinary investment activity. The corporation's activity therefore falls within the broker-dealer definition.",
+      "topic": "Regulations of Broker-Dealers",
+      "subtopic": "definition of a Broker-Dealer",
+      "difficulty": "easy",
+      "source": "Uniform Securities Act of 1956, Section 401(c); Broker-Dealer Definitions"
+    },
+    {
+      "stem": "A registered broker-dealer permits an agent to recommend complex securities to retail customers. The firm's supervisory system requires written procedures, transaction review, and investigation of unusual trading activity. A supervisor discovers that the agent has repeatedly recommended investments inconsistent with documented customer objectives. What is the supervisor's most appropriate action?",
+      "options": [
+        "Permit the activity because customers independently decide whether to invest",
+        "Wait for a customer complaint before reviewing the agent's transactions",
+        "Investigate the recommendations and take appropriate corrective and supervisory action",
+        "Transfer responsibility for the transactions to the agent's individual customers"
+      ],
+      "answer": "C",
+      "explanation": "Broker-dealers must maintain reasonable supervision over their agents and securities activities. When potential misconduct or unsuitable recommendations are identified, supervisors should investigate promptly and take appropriate corrective measures. Customer consent or the absence of complaints does not eliminate supervisory responsibilities.",
+      "topic": "Regulations of Broker-Dealers",
+      "subtopic": "Broker-Dealer Agent supervision",
+      "difficulty": "medium",
+      "source": "NASAA Model Rule on Dishonest or Unethical Business Practices of Broker-Dealers and Agents; Supervision"
+    },
+    {
+      "stem": "A salaried employee of a registered broker-dealer regularly contacts customers to solicit orders for corporate bonds and mutual fund shares. The employee receives no commissions and is paid a fixed annual salary. Under the Uniform Securities Act, which statement regarding the employee's status is correct?",
+      "options": [
+        "The employee is excluded from the agent definition because compensation is fixed",
+        "The employee is an agent because the employee solicits securities transactions",
+        "The employee is an investment adviser because the employee discusses investments",
+        "The employee is exempt from agent registration because the broker-dealer is registered"
+      ],
+      "answer": "B",
+      "explanation": "An individual who represents a broker-dealer in effecting or attempting to effect securities purchases or sales generally meets the definition of an agent. Receiving commissions is not required for agent status. The employing broker-dealer's registration does not automatically satisfy the individual's registration obligation.",
+      "topic": "Regulations of Agents of Broker-Dealers",
+      "subtopic": "definition of an Agent of a Broker-Dealer",
+      "difficulty": "easy",
+      "source": "Uniform Securities Act of 1956, Section 401(b); Definition of Agent"
+    },
+    {
+      "stem": "An individual submits an application for broker-dealer agent registration in a state. The appropriate registration fee and all required documents have been filed, and no denial or other proceeding is pending. The Administrator has not ordered an earlier effective date. Under the Uniform Securities Act of 1956, when does the registration ordinarily become effective?",
+      "options": [
+        "Immediately after the applicant submits a complete registration application",
+        "On the first business day after the applicant passes the qualification examination",
+        "Only after the Administrator conducts an individual compliance interview",
+        "At noon on the thirtieth day after the filing of a complete application"
+      ],
+      "answer": "D",
+      "explanation": "Under the 1956 Uniform Securities Act's standard registration provision, registration ordinarily becomes effective at noon on the thirtieth day after filing a complete application, unless the Administrator specifies an earlier effective date or the application is subject to an order or proceeding. Filing an application or passing an examination does not by itself authorize securities business. Actual state requirements must also be satisfied.",
+      "topic": "Regulations of Agents of Broker-Dealers",
+      "subtopic": "registration/post-registration",
+      "difficulty": "medium",
+      "source": "Uniform Securities Act of 1956, Section 204(a); Effective Date of Registration"
+    },
+    {
+      "stem": "A broker-dealer agent resigns from Firm Alpha and joins Firm Beta, another registered broker-dealer in the same state. Both firms are properly registered. Under the Uniform Securities Act, what must occur before the agent may conduct securities business on behalf of Firm Beta?",
+      "options": [
+        "The agent's registration must become effective for the new broker-dealer association",
+        "The agent must wait until the beginning of the next calendar year",
+        "The agent must obtain written authorization from every existing customer",
+        "The agent must complete a new securities offering registration"
+      ],
+      "answer": "A",
+      "explanation": "An agent's registration is associated with the broker-dealer or issuer the agent represents. Changing broker-dealer affiliations requires the applicable registration or amendment procedures, and an agent cannot simply rely on the former firm's registration to act for the new firm. Both the agent and firms must comply with applicable notification requirements.",
+      "topic": "Regulations of Agents of Broker-Dealers",
+      "subtopic": "registration/post-registration",
+      "difficulty": "medium",
+      "source": "Uniform Securities Act of 1956, Sections 201 and 204; Agent Registration and Changes of Employment"
+    },
+    {
+      "stem": "A state-registered broker-dealer sells securities issued by the U.S. Treasury to retail investors. The Treasury securities qualify as exempt securities under the Uniform Securities Act. Which statement correctly describes the effect of this exemption?",
+      "options": [
+        "The exemption eliminates all antifraud requirements for transactions in the securities",
+        "The exemption automatically eliminates the broker-dealer's registration requirements",
+        "The exemption generally removes the securities' state registration requirement but not antifraud protections",
+        "The exemption applies only when the investor is an accredited institutional investor"
+      ],
+      "answer": "C",
+      "explanation": "U.S. government securities are generally exempt from state securities registration under the Uniform Securities Act. However, an exemption from securities registration does not eliminate antifraud provisions or necessarily exempt persons conducting securities business from their own registration obligations. This distinction is fundamental to state securities regulation.",
+      "topic": "Regulations of Securities and Issuers",
+      "subtopic": "exemptions from registration",
+      "difficulty": "easy",
+      "source": "Uniform Securities Act of 1956, Sections 402(a) and 101; Exempt Securities and Antifraud"
+    },
+    {
+      "stem": "A company proposes a public offering of nonexempt securities in a state. The offering is registered with the SEC under the Securities Act of 1933 and is not federally covered. The company wishes to use state registration by coordination. Which event is generally necessary before state registration by coordination becomes effective under the Uniform Securities Act of 1956?",
+      "options": [
+        "The issuer must complete its first annual shareholder meeting",
+        "The federal registration statement must become effective and the state conditions must be satisfied",
+        "The state Administrator must guarantee the issuer's projected financial performance",
+        "The issuer must demonstrate that every purchaser meets accredited investor standards"
+      ],
+      "answer": "B",
+      "explanation": "Registration by coordination aligns qualifying state registration with the effectiveness of a federal registration statement. Under the 1956 Act, state effectiveness is subject to specified conditions, including appropriate filings, required documents, and the absence of a stop order. SEC registration alone does not necessarily satisfy all state coordination requirements.",
+      "topic": "Regulations of Securities and Issuers",
+      "subtopic": "state registration/post-registration requirements",
+      "difficulty": "hard",
+      "source": "Uniform Securities Act of 1956, Section 303; Registration by Coordination"
+    },
+    {
+      "stem": "A state securities Administrator receives credible evidence that a registered broker-dealer has engaged in fraudulent securities transactions. The Administrator considers suspending the firm's state registration. Which procedural protection is generally required for a final disciplinary order under the Uniform Securities Act of 1956?",
+      "options": [
+        "Approval of the disciplinary order by a majority of the firm's customers",
+        "Prior confirmation of a criminal conviction in federal court",
+        "A written recommendation from the SEC authorizing the suspension",
+        "Appropriate prior notice, an opportunity for hearing, and written findings"
+      ],
+      "answer": "D",
+      "explanation": "The Uniform Securities Act establishes procedural safeguards for registration-related disciplinary actions. A final suspension or revocation order generally requires appropriate prior notice, an opportunity for a hearing, and written findings of fact and conclusions of law. Limited summary-order procedures exist, but they do not eliminate the applicable opportunity for review.",
+      "topic": "Remedies and Administrative Provisions",
+      "subtopic": "administrative actions",
+      "difficulty": "medium",
+      "source": "Uniform Securities Act of 1956, Section 204; Denial, Suspension, and Revocation of Registration"
+    },
+    {
+      "stem": "A securities agent intentionally sells an unregistered, nonexempt security in violation of the Uniform Securities Act. The purchaser still owns the security and brings a timely civil action under the Act's statutory rescission provision. Which remedy is generally available to the purchaser?",
+      "options": [
+        "Recovery of the consideration paid, with statutory interest and recoverable costs, upon tender of the security, less income received",
+        "Recovery of three times the purchase price regardless of the amount invested",
+        "Automatic ownership of additional shares equal to the original purchase",
+        "Mandatory payment of the highest market value achieved by the security"
+      ],
+      "answer": "A",
+      "explanation": "The civil liability provisions of the 1956 Uniform Securities Act generally permit rescission for qualifying unlawful sales. A purchaser who still owns the security may recover the consideration paid, statutory interest, and applicable costs and reasonable attorney fees, less income received, upon tender of the security. The Act does not automatically award treble damages or the security's highest subsequent market value.",
+      "topic": "Remedies and Administrative Provisions",
+      "subtopic": "other penalties and liabilities",
+      "difficulty": "hard",
+      "source": "Uniform Securities Act of 1956, Section 410(a); Civil Liabilities and Rescission"
+    },
+    {
+      "stem": "An agent recommends a corporate bond to a retail investor who is primarily seeking capital preservation. The bond offers a relatively high coupon because its issuer has a weak credit rating and substantial outstanding debt. Which disclosure is most important for the agent to make?",
+      "options": [
+        "The bond's interest payments eliminate the possibility of losing principal",
+        "The issuer's weak credit rating guarantees that the bond will be called",
+        "The issuer's financial condition creates material default and principal-loss risks",
+        "The bond's coupon rate prevents its market value from changing before maturity"
+      ],
+      "answer": "C",
+      "explanation": "An agent must provide fair and accurate information about material investment risks. A financially weak issuer presents significant credit and default risk, including the potential loss of principal. A high coupon compensates investors for taking risk but does not eliminate it.",
+      "topic": "Communication with Customers and Prospects",
+      "subtopic": "required product disclosures",
+      "difficulty": "medium",
+      "source": "NASAA Series 63 Content Outline, Communication with Customers and Prospects; Required Product Disclosures"
+    },
+    {
+      "stem": "A newly registered securities agent tells a prospective customer, 'My registration with the state means the securities Administrator has reviewed my recommendations and considers them safe.' Under the Uniform Securities Act, how should this statement be characterized?",
+      "options": [
+        "Permissible because the agent successfully completed the required examinations",
+        "Prohibited because registration does not imply regulatory approval or endorsement",
+        "Permissible if the prospective customer receives the statement in writing",
+        "Permissible if the agent is employed by a nationally registered broker-dealer"
+      ],
+      "answer": "B",
+      "explanation": "Registration is not an endorsement by a securities regulator, nor does it establish that an agent's recommendations are safe. The Uniform Securities Act prohibits representations suggesting that registration or a regulatory filing signifies official approval of a person or security. Such statements can mislead investors about the regulator's role.",
+      "topic": "Communication with Customers and Prospects",
+      "subtopic": "unlawful representations concerning broker-dealer agent registration",
+      "difficulty": "easy",
+      "source": "Uniform Securities Act of 1956, Section 405; Misleading Statements Concerning Registration"
+    },
+    {
+      "stem": "A securities agent recommends an equity mutual fund to a customer and states, 'If the fund loses value over the next 12 months, I personally guarantee that I will reimburse your investment losses.' The agent has no authorized contractual arrangement that lawfully protects the customer from market losses. Under NASAA's ethical standards, this statement is:",
+      "options": [
+        "Acceptable if the customer signs a written acknowledgment of the guarantee",
+        "Acceptable if the agent's employer has substantial regulatory capital",
+        "Acceptable if the guarantee is limited to a 12-month investment period",
+        "Unethical because the agent is guaranteeing the customer against investment losses"
+      ],
+      "answer": "D",
+      "explanation": "NASAA's standards identify an agent's personal guarantee against securities trading losses as dishonest or unethical conduct. Market risk cannot be removed merely through an agent's personal promise. This differs from properly described guarantees arising from the contractual terms of certain financial products or lawful third-party arrangements.",
+      "topic": "Communication with Customers and Prospects",
+      "subtopic": "performance guarantees prohibition",
+      "difficulty": "medium",
+      "source": "NASAA Model Rule on Dishonest or Unethical Business Practices of Broker-Dealers and Agents; Guarantees Against Loss"
+    },
+    {
+      "stem": "A broker-dealer agent wants to publish a social media advertisement stating that a particular stock will 'definitely double within six months.' The advertisement contains no supporting analysis, risk disclosures, or explanation of the prediction. What should the firm's compliance department require?",
+      "options": [
+        "Removal or appropriate revision of the unsupported and misleading performance claim",
+        "Publication of the claim only during normal securities trading hours",
+        "Distribution of the claim exclusively to existing customers of the firm",
+        "Publication of the claim after obtaining the issuer's verbal permission"
+      ],
+      "answer": "A",
+      "explanation": "Securities advertisements and social media communications must not contain false, misleading, or inadequately supported claims. An unconditional prediction of a stock's future performance misrepresents investment uncertainty. Limiting the audience or obtaining the issuer's approval does not cure a misleading statement.",
+      "topic": "Communication with Customers and Prospects",
+      "subtopic": "correspondence and advertising",
+      "difficulty": "medium",
+      "source": "NASAA Series 63 Content Outline, Correspondence and Advertising; NASAA Broker-Dealer and Agent Ethical Standards"
+    },
+    {
+      "stem": "A registered agent recommends that a customer purchase a mutual fund share class that pays the agent a higher commission than another available share class with lower total costs for the customer's expected holding period. Both share classes provide exposure to the same underlying portfolio. Which action most appropriately addresses the agent's obligations?",
+      "options": [
+        "Recommend the higher-commission class because the agent is entitled to maximize compensation",
+        "Recommend whichever class the fund distributor promotes most aggressively",
+        "Disclose the compensation conflict and recommend the share class in the customer's best interest",
+        "Avoid discussing share-class costs because the fund's investment portfolio is identical"
+      ],
+      "answer": "C",
+      "explanation": "An agent's compensation creates a material conflict when it provides an incentive to recommend a more expensive investment option. Disclosure is important but does not replace the obligation to act in the retail customer's best interest under applicable standards. The recommendation must evaluate relevant costs, available alternatives, and the customer's circumstances.",
+      "topic": "Ethical Practices and Obligations",
+      "subtopic": "compensation",
+      "difficulty": "medium",
+      "source": "NASAA Series 63 Content Outline, Compensation and Conflicts of Interest; SEC Regulation Best Interest"
+    },
+    {
+      "stem": "An agent receives a customer's signed, blank check payable to the agent personally for the purchase of mutual fund shares. The customer asks the agent to deposit the check into the agent's personal bank account and then forward the money to the fund. What should the agent do?",
+      "options": [
+        "Deposit the check and transfer the funds after the personal account clears",
+        "Decline to deposit the check personally and arrange proper payment through authorized channels",
+        "Deposit the check only after obtaining written permission from a branch manager",
+        "Accept the check if the agent provides the customer with a personal receipt"
+      ],
+      "answer": "B",
+      "explanation": "Agents must handle customer funds according to their firm's procedures and applicable securities regulations. Depositing customer investment funds into an agent's personal account creates serious custody, commingling, and misappropriation risks. The customer should instead use an authorized payment method with the appropriate payee.",
+      "topic": "Ethical Practices and Obligations",
+      "subtopic": "customer funds and securities",
+      "difficulty": "medium",
+      "source": "NASAA Model Rule on Dishonest or Unethical Business Practices of Broker-Dealers and Agents; Customer Funds and Securities"
+    },
+    {
+      "stem": "A broker-dealer agent learns material nonpublic information from a corporate executive indicating that the company will announce an unexpected merger the following morning. The agent purchases shares for a personal account before the announcement and later sells at a profit. Which statement best describes the agent's conduct?",
+      "options": [
+        "The trading is permitted because the transaction occurred in the agent's personal account",
+        "The trading is permitted if the agent reports the profit to the broker-dealer",
+        "The trading is permitted because the information came directly from a corporate executive",
+        "The trading is prohibited when based on material nonpublic information disclosed in breach of a duty"
+      ],
+      "answer": "D",
+      "explanation": "Trading while aware of material nonpublic information can violate securities antifraud laws when the information was obtained or disclosed in breach of a relevant duty and the other legal elements are satisfied. An unexpected merger announcement is ordinarily material to investors. Using a personal account or subsequently reporting a profit does not make unlawful insider trading permissible.",
+      "topic": "Ethical Practices and Obligations",
+      "subtopic": "conflicts of interest, criminal activities, and other ethics issues",
+      "difficulty": "medium",
+      "source": "Securities Exchange Act of 1934, Section 10(b); SEC Rule 10b-5; Insider Trading"
+    },
+    {
+      "stem": "A broker-dealer agent has been given written discretionary authority by a retail customer to select securities and determine trade amounts. The agent's broker-dealer has not accepted the account as a discretionary account and has not approved the agent to exercise discretion. Which statement is correct under NASAA's ethical standards?",
+      "options": [
+        "The agent may trade freely because the customer's written authorization is sufficient",
+        "The agent may trade if the transactions are limited to investment-grade securities",
+        "The agent may not exercise discretion until the firm's required acceptance and approval are obtained",
+        "The agent may trade if each discretionary transaction generates no commission"
+      ],
+      "answer": "C",
+      "explanation": "Customer authorization alone does not eliminate the broker-dealer's supervisory requirements for discretionary accounts. NASAA's ethical standards and applicable broker-dealer rules require proper written authorization and firm acceptance or approval before discretionary authority is exercised. These safeguards help prevent unauthorized trading and ensure appropriate supervision.",
+      "topic": "Ethical Practices and Obligations",
+      "subtopic": "conflicts of interest, criminal activities, and other ethics issues",
+      "difficulty": "hard",
+      "source": "NASAA Model Rule on Dishonest or Unethical Business Practices of Broker-Dealers and Agents; Discretionary Accounts"
+    },
+    {
+      "stem": "A securities agent recommends that a retail customer sell shares of an existing mutual fund and immediately purchase shares of another fund with substantially similar objectives and portfolio holdings. The transaction would trigger a new sales charge, and the agent expects to receive a commission. The agent cannot identify any reasonable customer benefit from the switch. Which assessment is most accurate?",
+      "options": [
+        "The recommendation is unethical because the switch primarily generates compensation without a reasonable investment benefit",
+        "The recommendation is acceptable because both mutual funds pursue similar investment objectives",
+        "The recommendation is acceptable whenever the customer signs a transaction confirmation",
+        "The recommendation is unethical only if the customer's original mutual fund has declined in value"
+      ],
+      "answer": "A",
+      "explanation": "Recommending mutual fund switching primarily to generate commissions, without a reasonable economic benefit to the customer, is a recognized unethical practice. A legitimate switch should have a sound investment justification after considering sales charges, tax consequences, and relevant differences between funds. Customer approval does not automatically make a conflicted recommendation appropriate.",
+      "topic": "Ethical Practices and Obligations",
+      "subtopic": "conflicts of interest, criminal activities, and other ethics issues",
+      "difficulty": "hard",
+      "source": "NASAA Statement of Policy on Dishonest or Unethical Business Practices in Connection with Investment Company Shares; Switching"
+    }
+  ]
+}

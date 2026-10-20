@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "series-66",
+  "set": "Uniform Combined State Law Examination (Series 66) practice – Set 1",
+  "questions": [
+    {
+      "stem": "An analyst is comparing two companies in the same industry. Company A has a current ratio of 2.4, while Company B has a current ratio of 1.3. Assuming similar accounting policies and asset quality, which conclusion is most appropriate?",
+      "options": [
+        "Company A has greater coverage of current liabilities by current assets.",
+        "Company A has a higher return on equity than Company B.",
+        "Company B has a lower debt-to-equity ratio than Company A.",
+        "Company B has greater profitability relative to its assets."
+      ],
+      "answer": "A",
+      "explanation": "The current ratio is calculated by dividing current assets by current liabilities. A higher ratio generally indicates greater short-term liquidity and a stronger ability to cover current obligations, assuming comparable asset quality. It does not directly measure profitability, return on equity, or financial leverage.",
+      "topic": "Economic Factors and Business Information",
+      "subtopic": "Analytical Methods",
+      "difficulty": "easy",
+      "source": "NASAA Series 66 Content Outline: Economic Factors and Business Information – Analytical Methods; Financial Ratios"
+    },
+    {
+      "stem": "An analyst evaluates a stock using the Gordon growth model. The stock is expected to pay a dividend of $3.00 next year, dividends are expected to grow at a constant annual rate of 4%, and investors require a 10% return. What is the stock's estimated intrinsic value?",
+      "options": [
+        "$42.86",
+        "$50.00",
+        "$75.00",
+        "$31.20"
+      ],
+      "answer": "B",
+      "explanation": "The Gordon growth model estimates value as the next expected dividend divided by the difference between the required return and the perpetual growth rate. The calculation is $3.00 / (0.10 - 0.04) = $50.00. The model assumes constant dividend growth and a required return greater than the growth rate.",
+      "topic": "Economic Factors and Business Information",
+      "subtopic": "Analytical Methods",
+      "difficulty": "medium",
+      "source": "NASAA Series 66 Content Outline: Analytical Methods – Fundamental Analysis and Valuation Methods"
+    },
+    {
+      "stem": "An investor owns a fixed-rate corporate bond with a 5% annual coupon and a remaining maturity of 10 years. Market interest rates for comparable bonds increase from 5% to 7%. Assuming the issuer's credit quality remains unchanged, what will generally happen to the bond's market value?",
+      "options": [
+        "It will increase because its coupon payments are fixed.",
+        "It will remain unchanged because its face value is fixed.",
+        "It will decrease because its coupon is less attractive.",
+        "It will increase because its yield to maturity has increased."
+      ],
+      "answer": "C",
+      "explanation": "Bond prices and market interest rates generally move in opposite directions. When comparable market yields rise above the bond's coupon rate, its fixed payments become less attractive, causing its price to fall. The bond will generally trade at a discount to its face value.",
+      "topic": "Investment Vehicle Characteristics",
+      "subtopic": "Valuation Factors of Fixed Income Securities",
+      "difficulty": "easy",
+      "source": "NASAA Series 66 Content Outline: Investment Vehicle Characteristics – Valuation Factors of Fixed Income Securities"
+    },
+    {
+      "stem": "An investor places an order to purchase shares of an open-end mutual fund at 11:00 a.m. Eastern Time on a regular trading day. The fund calculates its net asset value once daily at 4:00 p.m. Eastern Time. Assuming the order is properly received before the pricing cutoff, at which price will the purchase be executed?",
+      "options": [
+        "The net asset value calculated at the previous day's close.",
+        "The fund's average net asset value over the current trading day.",
+        "The market price prevailing when the order was submitted.",
+        "The next net asset value calculated after the order is received."
+      ],
+      "answer": "D",
+      "explanation": "Open-end mutual funds use forward pricing, meaning properly received orders are executed at the next calculated net asset value, adjusted for any applicable sales charge. An order received before the fund's regular pricing cutoff normally receives that day's closing NAV. Unlike exchange-traded funds, traditional open-end mutual funds do not trade continuously at intraday market prices.",
+      "topic": "Investment Vehicle Characteristics",
+      "subtopic": "Characteristics of Pooled Investments",
+      "difficulty": "medium",
+      "source": "NASAA Series 66 Content Outline: Types and Characteristics of Pooled Investments; Investment Company Act of 1940, Rule 22c-1"
+    },
+    {
+      "stem": "An investor purchases one listed call option contract covering 100 shares of a stock. The option has a strike price of $50 and costs $4 per share. Excluding commissions and fees, what is the investor's maximum possible loss on this long call position?",
+      "options": [
+        "$400",
+        "$4,600",
+        "$5,000",
+        "$5,400"
+      ],
+      "answer": "A",
+      "explanation": "The buyer of a call option has the right, but not the obligation, to purchase the underlying shares at the strike price. If the option expires worthless, the buyer loses only the premium paid. The maximum loss is $4 multiplied by 100 shares, or $400, excluding transaction costs.",
+      "topic": "Investment Vehicle Characteristics",
+      "subtopic": "Futures and options",
+      "difficulty": "medium",
+      "source": "NASAA Series 66 Content Outline: Investment Vehicle Characteristics – Futures and Options"
+    },
+    {
+      "stem": "A 68-year-old retired client depends on portfolio withdrawals to cover living expenses. The client has limited additional income, a low tolerance for losses, and an investment horizon of 15 years. Which factor should an investment adviser give particular attention when constructing the portfolio?",
+      "options": [
+        "The client's ability to maximize short-term capital appreciation.",
+        "The client's need for liquidity and protection against significant losses.",
+        "The client's willingness to concentrate investments in growth industries.",
+        "The client's opportunity to maximize leverage through margin borrowing."
+      ],
+      "answer": "B",
+      "explanation": "A retiree who relies on portfolio withdrawals has meaningful liquidity and capital preservation needs. The adviser should evaluate the client's capacity to bear losses, income requirements, time horizon, and sequence-of-returns risk. An investment strategy emphasizing aggressive growth or leverage may conflict with these circumstances.",
+      "topic": "Client/Customer Investment Recommendations and Strategies",
+      "subtopic": "Client/Customer Profile",
+      "difficulty": "easy",
+      "source": "NASAA Series 66 Content Outline: Client/Customer Investment Recommendations and Strategies – Client/Customer Profile"
+    },
+    {
+      "stem": "A portfolio has a beta of 1.2. The risk-free rate is 3%, and the expected return on the overall market is 9%. According to the Capital Asset Pricing Model, what is the portfolio's required rate of return?",
+      "options": [
+        "9.0%",
+        "11.4%",
+        "10.2%",
+        "7.2%"
+      ],
+      "answer": "C",
+      "explanation": "CAPM states that the required return equals the risk-free rate plus beta multiplied by the market risk premium. The calculation is 3% + 1.2 × (9% - 3%) = 10.2%. Beta measures sensitivity to systematic market risk, which CAPM treats as the relevant compensated risk.",
+      "topic": "Client/Customer Investment Recommendations and Strategies",
+      "subtopic": "Capital Market Theory",
+      "difficulty": "medium",
+      "source": "NASAA Series 66 Content Outline: Capital Market Theory – Capital Asset Pricing Model"
+    },
+    {
+      "stem": "An investor owns shares of a publicly traded company in a taxable brokerage account. The shares were purchased for $40 each and are now worth $70 each. The investor wants to transfer the shares to a sibling as an outright gift while alive. Ignoring any gift tax paid and assuming fair market value exceeds adjusted basis on the gift date, what is generally the recipient's income tax basis in the shares?",
+      "options": [
+        "The market value of $70 per share on the date of the gift.",
+        "The average of the original cost and market value, or $55.",
+        "The closing market price on the recipient's next birthday.",
+        "The donor's adjusted cost basis of $40 per share."
+      ],
+      "answer": "D",
+      "explanation": "For appreciated property received as a lifetime gift, the recipient generally takes the donor's adjusted basis under the carryover-basis rule. Thus, the recipient's basis is ordinarily $40 per share rather than the $70 market value. Property acquired from a decedent generally receives a different basis treatment.",
+      "topic": "Client/Customer Investment Recommendations and Strategies",
+      "subtopic": "Ownership and Estate Planning Techniques",
+      "difficulty": "medium",
+      "source": "NASAA Series 66 Content Outline: Ownership and Estate Planning Techniques; Internal Revenue Code Section 1015"
+    },
+    {
+      "stem": "A 45-year-old investor contributes to a Roth IRA using after-tax funds and satisfies all requirements for a qualified distribution. Which statement correctly describes the federal income tax treatment of the qualified distribution?",
+      "options": [
+        "Both contributions and investment earnings are generally distributed free of federal income tax.",
+        "Contributions are taxed again at withdrawal, but investment earnings are exempt.",
+        "Investment earnings are always taxed at ordinary income rates when withdrawn.",
+        "The entire distribution is subject to capital gains tax rather than income tax."
+      ],
+      "answer": "A",
+      "explanation": "Qualified distributions from a Roth IRA are generally free of federal income tax, including both contributions and investment earnings. A qualified distribution normally requires satisfaction of the five-tax-year rule and an applicable qualifying condition, such as reaching age 59½. Roth IRA contributions are generally made with after-tax dollars.",
+      "topic": "Client/Customer Investment Recommendations and Strategies",
+      "subtopic": "Retirement Plans",
+      "difficulty": "easy",
+      "source": "NASAA Series 66 Content Outline: Retirement Plans – Traditional and Roth IRAs; IRC Section 408A"
+    },
+    {
+      "stem": "An investor holds a portfolio consisting of 50% Fund X and 50% Fund Y. Both funds have an annual standard deviation of 20%, and the correlation between their returns is -0.50. What is the approximate annual standard deviation of the combined portfolio?",
+      "options": [
+        "5.00%",
+        "10.00%",
+        "14.14%",
+        "20.00%"
+      ],
+      "answer": "B",
+      "explanation": "Portfolio variance equals wX²σX² + wY²σY² + 2wXwYσXσYρ. Substituting the values gives 0.25(0.04) + 0.25(0.04) + 2(0.5)(0.5)(0.2)(0.2)(-0.5) = 0.01, producing a standard deviation of 10%. Negative correlation reduces portfolio volatility through diversification.",
+      "topic": "Client/Customer Investment Recommendations and Strategies",
+      "subtopic": "Portfolio Management Strategies, Styles and Techniques",
+      "difficulty": "hard",
+      "source": "NASAA Series 66 Content Outline: Portfolio Management Strategies, Styles and Techniques – Diversification and Correlation"
+    },
+    {
+      "stem": "An investment adviser is evaluating a portfolio that returned 12% over the past year. The risk-free rate was 3%, the portfolio's beta was 1.5, and the market returned 10%. What was the portfolio's Jensen's alpha?",
+      "options": [
+        "Positive 1.5%",
+        "Positive 2.0%",
+        "Negative 1.5%",
+        "Negative 2.0%"
+      ],
+      "answer": "C",
+      "explanation": "Jensen's alpha measures actual return minus the return predicted by CAPM. The CAPM expected return is 3% + 1.5 × (10% - 3%) = 13.5%, so alpha equals 12% - 13.5% = -1.5%. A negative alpha indicates underperformance relative to the return required for the portfolio's systematic risk.",
+      "topic": "Client/Customer Investment Recommendations and Strategies",
+      "subtopic": "Portfolio Performance Measures",
+      "difficulty": "hard",
+      "source": "NASAA Series 66 Content Outline: Portfolio Performance Measures – Jensen's Alpha and Risk-Adjusted Performance"
+    },
+    {
+      "stem": "Under the Uniform Securities Act of 1956, a broker-dealer has no office in State A but regularly solicits securities transactions from five individual retail investors who reside in State A. None of the investors is an institutional client. Assuming no other exemption applies, which statement is correct?",
+      "options": [
+        "Registration is unnecessary because the broker-dealer has no physical office in State A.",
+        "Registration is unnecessary if the broker-dealer is registered in its home state.",
+        "Registration is unnecessary because the broker-dealer has fewer than six retail clients.",
+        "The broker-dealer generally must register in State A before conducting this business."
+      ],
+      "answer": "D",
+      "explanation": "Under the Uniform Securities Act, a broker-dealer generally must register in a state when conducting securities business with retail residents of that state, unless an applicable exclusion or exemption applies. Having no physical office in the state does not independently eliminate the registration requirement. The de minimis exemption commonly associated with investment advisers does not provide a general five-client exemption for broker-dealers.",
+      "topic": "Laws, Regulations, and Guidelines",
+      "subtopic": "Regulation of Broker-Dealers",
+      "difficulty": "medium",
+      "source": "Uniform Securities Act of 1956, Sections 201 and 401; NASAA Series 66 – Regulation of Broker-Dealers"
+    },
+    {
+      "stem": "A newly registered investment adviser representative tells a prospective client that registration with the state securities administrator means the state has approved the representative's investment expertise and guarantees the reliability of the representative's advice. Under the Uniform Securities Act, this statement is:",
+      "options": [
+        "Prohibited because registration does not imply state approval or endorsement.",
+        "Permitted if the representative has passed the required qualification examination.",
+        "Permitted if the state has completed a background review of the representative.",
+        "Prohibited only if the client subsequently experiences an investment loss."
+      ],
+      "answer": "A",
+      "explanation": "Registration does not mean that a securities administrator has approved, recommended, or endorsed an investment professional. Representing registration as official approval is misleading and prohibited. Registration establishes compliance with applicable regulatory requirements rather than a government guarantee of competence or performance.",
+      "topic": "Laws, Regulations, and Guidelines",
+      "subtopic": "Communication with Clients and Prospects",
+      "difficulty": "easy",
+      "source": "Uniform Securities Act of 1956, Section 405; NASAA Series 66 – Communication with Clients and Prospects"
+    },
+    {
+      "stem": "A federal covered investment adviser registered with the SEC opens a new advisory office in State B and meets the state's applicable notice-filing conditions. The adviser has no exemption from the notice-filing requirement. Which statement best describes the state's regulatory authority?",
+      "options": [
+        "State B must separately register the adviser's firm before it can conduct advisory business.",
+        "State B may require a notice filing and applicable fee without registering the advisory firm.",
+        "State B has no authority to require any filing or enforce antifraud provisions.",
+        "State B may replace SEC registration with its own registration at the firm's option."
+      ],
+      "answer": "B",
+      "explanation": "Federal covered advisers are generally regulated at the firm-registration level by the SEC rather than individual states. States may require permitted notice filings and fees, and they retain authority to investigate and enforce applicable antifraud provisions. Investment adviser representatives may have separate state registration obligations.",
+      "topic": "Laws, Regulations, and Guidelines",
+      "subtopic": "Regulations of Investment Advisers, Including State-Registered and Federal Covered Advisers",
+      "difficulty": "medium",
+      "source": "Investment Advisers Act of 1940, Section 203A; Uniform Securities Act of 1956, Section 202"
+    },
+    {
+      "stem": "A broker-dealer agent receives a written customer order to purchase 200 shares of a listed stock at the market price. Before entering the customer order, the agent buys shares in a personal account because the agent expects the customer's order to increase demand. The agent then enters the customer's order. Which ethical violation most directly describes the agent's conduct?",
+      "options": [
+        "Selling away from the broker-dealer's approved securities platform.",
+        "Making an unsuitable recommendation without examining client finances.",
+        "Trading ahead of a customer's order for personal advantage.",
+        "Marking a customer's account as discretionary without written permission."
+      ],
+      "answer": "C",
+      "explanation": "Trading ahead of a customer's order to profit from anticipated price movements is an unethical trading practice commonly called front-running. The agent is using nonpublic information about an impending customer order for personal benefit. Customer orders must be handled fairly and in accordance with applicable trading and supervisory requirements.",
+      "topic": "Laws, Regulations, and Guidelines",
+      "subtopic": "Ethical Practices and Fiduciary Obligations",
+      "difficulty": "medium",
+      "source": "NASAA Model Rule on Dishonest or Unethical Business Practices of Broker-Dealers and Agents – Trading Ahead"
+    },
+    {
+      "stem": "Under the Uniform Securities Act of 1956, a company offers newly issued securities exclusively to 10 retail investors in State C during a 12-month period. The seller reasonably believes all 10 investors are purchasing for investment purposes, and no commissions are paid to solicit the buyers. Assuming the other statutory conditions are satisfied, which exemption may apply?",
+      "options": [
+        "An exemption for every issuer that has operated for at least one year.",
+        "An exemption for offerings sold entirely through registered agents.",
+        "An exemption for securities with a fixed dividend or interest rate.",
+        "A limited-offering transactional exemption for no more than 10 purchasers."
+      ],
+      "answer": "D",
+      "explanation": "The Uniform Securities Act of 1956 provides a transactional exemption for certain limited offerings involving not more than 10 purchasers in a state during a 12-month period. The seller must reasonably believe that purchasers are buying for investment, and the statutory restrictions concerning solicitation compensation must be satisfied. State-specific modifications may affect the exemption's application.",
+      "topic": "Laws, Regulations, and Guidelines",
+      "subtopic": "Regulations of Securities and Issuers",
+      "difficulty": "hard",
+      "source": "Uniform Securities Act of 1956, Section 402(b)(9) – Limited Offering Transactional Exemption"
+    },
+    {
+      "stem": "An investment adviser representative employed by a state-registered advisory firm maintains a place of business in State X and provides investment advice to clients there. Under the Uniform Securities Act, who is generally responsible for ensuring that the representative is properly registered before providing advisory services?",
+      "options": [
+        "The investment adviser firm, which must ensure required representative registration.",
+        "The clients, who must verify that the representative holds a valid registration.",
+        "The securities exchange, which must approve the representative's advisory activity.",
+        "The SEC, which must individually register every state investment adviser representative."
+      ],
+      "answer": "A",
+      "explanation": "Investment advisers have compliance and supervisory responsibilities relating to their investment adviser representatives. The representative must satisfy applicable state registration requirements before engaging in activities requiring registration. State-registered adviser representatives generally register through the relevant state regulatory framework rather than directly with the SEC.",
+      "topic": "Laws, Regulations, and Guidelines",
+      "subtopic": "Regulation of Investment Adviser Representatives",
+      "difficulty": "easy",
+      "source": "Uniform Securities Act of 1956, Section 201(c); NASAA Series 66 – Regulation of Investment Adviser Representatives"
+    },
+    {
+      "stem": "An investment adviser receives an oral instruction from a client to sell 100 shares of XYZ common stock immediately. The client specifies the security, transaction type, and quantity but leaves execution timing and price selection to the adviser. The adviser has no written discretionary authorization. Under NASAA guidance, which action is generally permissible?",
+      "options": [
+        "Selecting another security if the adviser believes it offers a better execution opportunity.",
+        "Choosing the execution time and price for the specifically authorized sale.",
+        "Increasing the sale quantity if market conditions become unfavorable.",
+        "Using the sale proceeds to purchase another security without further approval."
+      ],
+      "answer": "B",
+      "explanation": "Authority limited to selecting the time or price of an execution for a client-authorized transaction does not ordinarily constitute investment discretion requiring a written discretionary trading agreement. The client has already determined the security, action, and quantity. Changing the security, transaction type, or amount would generally exceed the authorization provided.",
+      "topic": "Laws, Regulations, and Guidelines",
+      "subtopic": "Ethical Practices and Fiduciary Obligations",
+      "difficulty": "medium",
+      "source": "NASAA Model Rule on Unethical Business Practices of Investment Advisers – Discretionary Authority"
+    },
+    {
+      "stem": "Under the Uniform Securities Act of 1956, a state securities administrator discovers that a registered agent is engaging in fraudulent sales practices. Before issuing a final administrative order revoking the agent's registration, which procedural requirement generally applies?",
+      "options": [
+        "The administrator must first obtain a criminal conviction against the agent.",
+        "The administrator must receive written approval from the agent's broker-dealer.",
+        "The administrator must provide appropriate prior notice and an opportunity for a hearing.",
+        "The administrator must prove that every affected customer suffered a monetary loss."
+      ],
+      "answer": "C",
+      "explanation": "The Uniform Securities Act authorizes securities administrators to suspend, revoke, deny, or otherwise restrict registrations when statutory grounds exist and the action serves the public interest. A final disciplinary order generally requires appropriate prior notice, an opportunity for a hearing, and written findings of fact and conclusions of law. Criminal conviction or proof of investor losses is not invariably necessary for administrative discipline.",
+      "topic": "Laws, Regulations, and Guidelines",
+      "subtopic": "Remedies and Administrative Provisions",
+      "difficulty": "medium",
+      "source": "Uniform Securities Act of 1956, Section 204 – Denial, Revocation, Suspension, and Other Registration Actions"
+    },
+    {
+      "stem": "A state-registered investment adviser contracts with an affiliated broker-dealer to execute client transactions. The broker-dealer charges materially higher commissions than competing brokers, and the adviser receives an economic benefit from the affiliation. The adviser discloses the affiliation in its brochure but does not evaluate execution quality or the reasonableness of commissions. Which statement best describes the adviser's fiduciary obligations?",
+      "options": [
+        "Disclosure alone satisfies the adviser's duty regardless of execution costs.",
+        "Affiliated execution is prohibited even when clients receive favorable execution.",
+        "The adviser may prioritize affiliate revenues whenever its fees are disclosed.",
+        "The adviser must address the conflict and seek best execution for clients."
+      ],
+      "answer": "D",
+      "explanation": "An investment adviser's fiduciary duty includes both a duty of loyalty and a duty of care. Material conflicts involving affiliated brokers require full and fair disclosure, while the adviser must also seek best execution, considering the overall quality and cost of transactions. Disclosure does not eliminate the independent obligation to act in clients' best interests, and paying the lowest commission is not always synonymous with best execution.",
+      "topic": "Laws, Regulations, and Guidelines",
+      "subtopic": "Ethical Practices and Fiduciary Obligations",
+      "difficulty": "hard",
+      "source": "Investment Advisers Act of 1940, Section 206; SEC Interpretation Regarding Standard of Conduct for Investment Advisers, Release IA-5248"
+    }
+  ]
+}
