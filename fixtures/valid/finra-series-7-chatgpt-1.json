@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "finra-series-7",
+  "set": "Series 7 – General Securities Representative Exam practice – Core Concepts and Applications",
+  "questions": [
+    {
+      "stem": "A registered representative emails the same promotional message about a new mutual fund to 30 individual retail investors over a 10-calendar-day period. Under FINRA Rule 2210, how is this communication classified?",
+      "options": [
+        "Institutional communication",
+        "Retail communication",
+        "Correspondence",
+        "Internal communication"
+      ],
+      "answer": "B",
+      "explanation": "A retail communication is a written or electronic communication distributed or made available to more than 25 retail investors within any 30-calendar-day period. Because the message reaches 30 retail investors within 10 days, it meets this definition. Retail communications are subject to applicable FINRA content, approval, supervision, and recordkeeping requirements.",
+      "topic": "Seeks Business for the Broker-Dealer from Customers and Potential Customers",
+      "subtopic": "Contacts current and potential customers in person and by telephone, mail and electronic means",
+      "difficulty": "easy",
+      "source": "FINRA Series 7 Content Outline, Function 1; FINRA Rule 2210(a), Communications With the Public"
+    },
+    {
+      "stem": "Two married individuals open a brokerage account as joint tenants with rights of survivorship (JTWROS). One account owner subsequently dies. Assuming no contrary legal restriction, what happens to ownership of the securities in the account?",
+      "options": [
+        "The securities automatically become assets of the deceased owner's estate.",
+        "The securities are divided equally between the survivor and the deceased owner's heirs.",
+        "The account must be liquidated and its proceeds distributed according to the deceased owner's will.",
+        "The surviving joint tenant becomes the sole owner of the account's securities."
+      ],
+      "answer": "D",
+      "explanation": "A JTWROS account includes a right of survivorship, meaning the deceased owner's interest passes to the surviving joint tenant. This differs from tenancy in common, under which a deceased owner's interest generally passes through the estate. Appropriate documentation is required to update the account's registration.",
+      "topic": "Opens Accounts After Obtaining and Evaluating Customers' Financial Profile",
+      "subtopic": "Informs customers of the types of accounts and provides disclosures regarding various account types and restrictions",
+      "difficulty": "easy",
+      "source": "FINRA Series 7 Content Outline, Function 2; Customer Accounts, Joint Ownership and Survivorship"
+    },
+    {
+      "stem": "A customer tells a registered representative, 'You may decide which stocks to buy or sell, how many shares to trade, and when to execute the transactions without calling me.' The firm permits discretionary accounts. Before the representative exercises this authority, which requirement must be satisfied?",
+      "options": [
+        "The customer must provide prior written discretionary authorization, and the account must receive the firm's required written acceptance.",
+        "The customer must provide verbal authorization, and the representative must record the conversation in the firm's customer records.",
+        "The representative must obtain written authorization from the customer after executing the first discretionary transaction.",
+        "The representative must obtain verbal authorization from a principal before executing each discretionary transaction."
+      ],
+      "answer": "A",
+      "explanation": "Discretion over the security, action, and amount generally requires prior written authorization from the customer and written acceptance of the account by the firm through its designated supervisor. A verbal instruction alone does not establish continuing discretionary authority. Discretionary accounts are also subject to ongoing supervisory review.",
+      "topic": "Opens Accounts After Obtaining and Evaluating Customers' Financial Profile",
+      "subtopic": "Obtains supervisory approvals required to open accounts",
+      "difficulty": "medium",
+      "source": "FINRA Series 7 Content Outline, Function 2; NASD Rule 2510, Discretionary Accounts"
+    },
+    {
+      "stem": "A customer owns a fixed-rate corporate bond with a 5% coupon. Market interest rates for comparable newly issued bonds increase significantly. Assuming the issuer's credit quality remains unchanged, what will generally happen to the market price of the customer's bond?",
+      "options": [
+        "The bond's market price will increase.",
+        "The bond's market price will remain at par.",
+        "The bond's market price will decrease.",
+        "The bond's market price will equal its coupon payments."
+      ],
+      "answer": "C",
+      "explanation": "Fixed-rate bond prices and market interest rates generally move in opposite directions. When prevailing yields rise, an existing bond with a lower fixed coupon becomes less attractive, causing its market price to fall. The price adjustment allows its yield to become more competitive with newly issued bonds.",
+      "topic": "Provides Customers with Information About Investments, Makes Recommendations",
+      "subtopic": "Provides customers with information about investment strategies, risks and rewards",
+      "difficulty": "easy",
+      "source": "FINRA Series 7 Content Outline, Function 3; Debt Securities, Interest Rate Risk"
+    },
+    {
+      "stem": "An investor in the 35% federal marginal income tax bracket is considering a municipal bond yielding 3.9%. Assume the bond's interest is exempt from federal income tax, the investor can fully use the exemption, and state taxes are ignored. What taxable yield would provide the same after-federal-tax income?",
+      "options": [
+        "5.25%",
+        "6.00%",
+        "6.50%",
+        "7.15%"
+      ],
+      "answer": "B",
+      "explanation": "The taxable-equivalent yield is calculated as the tax-exempt yield divided by one minus the marginal tax rate. Therefore, 3.9% divided by 0.65 equals 6.00%. A taxable bond would need to yield 6.00% to match the municipal bond's after-federal-tax yield under these assumptions.",
+      "topic": "Provides Customers with Information About Investments, Makes Recommendations",
+      "subtopic": "Reviews and analyzes customers' investment profiles and product options",
+      "difficulty": "medium",
+      "source": "FINRA Series 7 Content Outline, Function 3; Municipal Securities, Taxable-Equivalent Yield"
+    },
+    {
+      "stem": "An investor purchases a corporate bond with a $1,000 face value and a 6% annual coupon at a market price of $960. What is the bond's current yield, rounded to two decimal places?",
+      "options": [
+        "5.76%",
+        "6.00%",
+        "6.50%",
+        "6.25%"
+      ],
+      "answer": "D",
+      "explanation": "Current yield equals annual coupon income divided by the bond's current market price. The bond pays $60 annually, and $60 divided by $960 equals 6.25%. Current yield does not incorporate the capital gain or loss that may result from holding the bond until maturity.",
+      "topic": "Provides Customers with Information About Investments, Makes Recommendations",
+      "subtopic": "Provides customers with information about investment strategies, risks and rewards",
+      "difficulty": "medium",
+      "source": "FINRA Series 7 Content Outline, Function 3; Corporate Bonds, Current Yield"
+    },
+    {
+      "stem": "A corporation has both preferred stock and common stock outstanding. It declares dividends on both classes. Which shareholders generally have priority in receiving their declared dividends?",
+      "options": [
+        "Preferred shareholders",
+        "Common shareholders",
+        "Shareholders with voting rights",
+        "Shareholders with the longest holding periods"
+      ],
+      "answer": "A",
+      "explanation": "Preferred shareholders generally have priority over common shareholders in receiving dividends. Preferred stock typically pays a stated dividend and often does not carry voting rights. Its dividend preference does not make the payment equivalent to a contractual bond interest obligation.",
+      "topic": "Provides Customers with Information About Investments, Makes Recommendations",
+      "subtopic": "Provides customers with information about investment strategies, risks and rewards",
+      "difficulty": "easy",
+      "source": "FINRA Series 7 Content Outline, Function 3; Equity Securities, Preferred Stock"
+    },
+    {
+      "stem": "A corporation announces a rights offering in which shareholders may purchase one additional share at $30 for every four rights exercised. A customer owns 200 shares and receives one right for each existing share. How many additional shares can the customer purchase by exercising all the rights?",
+      "options": [
+        "25 shares",
+        "40 shares",
+        "50 shares",
+        "100 shares"
+      ],
+      "answer": "C",
+      "explanation": "The customer receives 200 rights and must exercise four rights to purchase one additional share. Dividing 200 by four gives 50 additional shares. Rights offerings allow existing shareholders to purchase newly issued shares, often at a subscription price below the prevailing market price.",
+      "topic": "Provides Customers with Information About Investments, Makes Recommendations",
+      "subtopic": "Provides required disclosures regarding investment products and their characteristics, risks, services and expenses",
+      "difficulty": "medium",
+      "source": "FINRA Series 7 Content Outline, Function 3; Equity Securities, Rights Offerings"
+    },
+    {
+      "stem": "An investor seeking long-term income considers purchasing a callable corporate bond trading at a substantial premium to par. The bond's first call date is approaching, and market interest rates have declined since issuance. Which risk is particularly important to explain?",
+      "options": [
+        "The issuer must increase the bond's coupon when market interest rates decline.",
+        "The issuer may redeem the bond early, potentially causing a premium loss and forcing reinvestment at lower yields.",
+        "The investor may demand early repayment at par whenever the market price rises above the purchase price.",
+        "The issuer must convert the bond into common shares if comparable market yields fall below its coupon."
+      ],
+      "answer": "B",
+      "explanation": "When interest rates decline, an issuer may find it advantageous to call outstanding high-coupon bonds and refinance at lower rates. Investors who purchased at a premium may receive a call price below their purchase price and face reinvestment risk. Yield to call is especially relevant when evaluating premium callable bonds.",
+      "topic": "Provides Customers with Information About Investments, Makes Recommendations",
+      "subtopic": "Provides required disclosures regarding investment products and their characteristics, risks, services and expenses",
+      "difficulty": "medium",
+      "source": "FINRA Series 7 Content Outline, Function 3; Debt Securities, Call Provisions and Reinvestment Risk"
+    },
+    {
+      "stem": "A customer compares two investment-grade, noncallable zero-coupon corporate bonds issued by the same company. One matures in 5 years and the other in 20 years. Assuming all other factors are comparable, which statement best describes their sensitivity to an equal change in market yields?",
+      "options": [
+        "The 5-year bond generally has greater percentage price sensitivity because it matures sooner.",
+        "Both bonds generally have identical percentage price sensitivity because neither pays coupons.",
+        "The 5-year bond generally has greater percentage price sensitivity because its price is closer to par.",
+        "The 20-year bond generally has greater percentage price sensitivity because it has a longer duration."
+      ],
+      "answer": "D",
+      "explanation": "Longer-maturity zero-coupon bonds generally have greater duration and greater price sensitivity to interest-rate movements. Because zero-coupon bonds make no interim coupon payments, their cash flow is concentrated at maturity. Extending the maturity increases exposure to changes in discount rates.",
+      "topic": "Provides Customers with Information About Investments, Makes Recommendations",
+      "subtopic": "Reviews and analyzes customers' investment profiles and product options",
+      "difficulty": "medium",
+      "source": "FINRA Series 7 Content Outline, Function 3; Fixed Income Securities, Duration and Zero-Coupon Bonds"
+    },
+    {
+      "stem": "A customer places an order to purchase shares of an open-end mutual fund before the fund's pricing cutoff. At what price will the shares ordinarily be purchased?",
+      "options": [
+        "The next computed net asset value plus any applicable front-end sales charge",
+        "The net asset value calculated at the close of the preceding business day",
+        "The last transaction price reported on the fund's primary securities exchange",
+        "The average net asset value recorded during the previous five business days"
+      ],
+      "answer": "A",
+      "explanation": "Open-end mutual fund shares are priced using forward pricing, based on the next net asset value calculated after the fund receives the order under applicable processing rules. For a Class A purchase, an applicable front-end sales charge is included in the public offering price. Mutual fund shares are not ordinarily traded between investors at intraday exchange prices.",
+      "topic": "Provides Customers with Information About Investments, Makes Recommendations",
+      "subtopic": "Provides customers with information about investment strategies, risks and rewards",
+      "difficulty": "easy",
+      "source": "FINRA Series 7 Content Outline, Function 3; Investment Companies, Forward Pricing; Investment Company Act Rule 22c-1"
+    },
+    {
+      "stem": "A customer plans to invest $40,000 immediately in Class A shares of a mutual fund family and an additional $15,000 within 12 months. The fund offers a reduced front-end sales charge at $50,000. Which provision may allow the customer to qualify for the reduced charge based on the planned purchases?",
+      "options": [
+        "A contingent deferred sales charge arrangement",
+        "A periodic automatic withdrawal arrangement",
+        "A letter of intent covering the anticipated aggregate purchases",
+        "An exchange privilege between different mutual fund families"
+      ],
+      "answer": "C",
+      "explanation": "A letter of intent generally allows an investor to receive a sales-charge breakpoint based on a stated intention to invest a specified amount over a 13-month period. The investor's planned $55,000 in purchases can qualify for the $50,000 breakpoint, subject to the fund's terms. If the commitment is not completed, an adjustment to the sales charge may be necessary.",
+      "topic": "Provides Customers with Information About Investments, Makes Recommendations",
+      "subtopic": "Provides required disclosures regarding investment products and their characteristics, risks, services and expenses",
+      "difficulty": "medium",
+      "source": "FINRA Series 7 Content Outline, Function 3; Mutual Fund Sales Charges, Breakpoints and Letters of Intent"
+    },
+    {
+      "stem": "A 45-year-old customer purchases a nonqualified variable annuity with after-tax funds. Ten years later, the customer takes a partial withdrawal, and the contract has accumulated investment gains. Assuming the contract was issued after August 13, 1982, and no special exception applies, how is the withdrawal generally treated for federal income tax purposes?",
+      "options": [
+        "The withdrawal is treated entirely as a tax-free return of principal until all contributions have been recovered.",
+        "The withdrawal is treated as taxable ordinary income to the extent of the contract's accumulated earnings.",
+        "The withdrawal is treated as a long-term capital gain to the extent of the contract's accumulated earnings.",
+        "The withdrawal is treated as tax-exempt income because the original investment was made with after-tax funds."
+      ],
+      "answer": "B",
+      "explanation": "Withdrawals from a nonqualified deferred annuity generally follow an earnings-first rule, so amounts representing accumulated earnings are taxed as ordinary income. Withdrawals attributable to investment in the contract are generally not taxed again. A separate 10% federal additional tax may apply to taxable distributions made before age 59½ unless an exception applies.",
+      "topic": "Provides Customers with Information About Investments, Makes Recommendations",
+      "subtopic": "Provides required disclosures regarding investment products and their characteristics, risks, services and expenses",
+      "difficulty": "medium",
+      "source": "FINRA Series 7 Content Outline, Function 3; Variable Annuities, Nonqualified Contract Taxation; IRC Section 72"
+    },
+    {
+      "stem": "An investor purchases 100 shares of XYZ at $52 per share and simultaneously sells one XYZ 55 call for a premium of $3 per share. The call is American-style, covers 100 shares, and the investor holds the position through expiration. Ignoring commissions and taxes, what is the maximum profit from this covered call position?",
+      "options": [
+        "$300",
+        "$500",
+        "$800",
+        "$600"
+      ],
+      "answer": "D",
+      "explanation": "A covered call's maximum profit equals the gain from the stock reaching the strike price plus the premium received. The stock gain is ($55 - $52) times 100, or $300, and the option premium adds $300. Therefore, the maximum profit is $600, reached if the shares are sold at $55 through assignment or otherwise.",
+      "topic": "Provides Customers with Information About Investments, Makes Recommendations",
+      "subtopic": "Provides customers with information about investment strategies, risks and rewards",
+      "difficulty": "hard",
+      "source": "FINRA Series 7 Content Outline, Function 3; Options Strategies, Covered Calls and Maximum Gain"
+    },
+    {
+      "stem": "An investor purchases 100 shares of ABC at $48 per share and simultaneously purchases one ABC 45 put for a premium of $2 per share. The put covers 100 shares and expires in three months. Ignoring commissions and taxes, what is the maximum loss on this protective put position if held through expiration?",
+      "options": [
+        "$500",
+        "$300",
+        "$700",
+        "$4,800"
+      ],
+      "answer": "A",
+      "explanation": "A protective put establishes a minimum sale price for the stock during the option's life. The stock can fall from $48 to the $45 strike, creating a $300 loss on 100 shares, while the put costs another $200. Thus, the maximum loss is $500, excluding transaction costs.",
+      "topic": "Provides Customers with Information About Investments, Makes Recommendations",
+      "subtopic": "Provides customers with information about investment strategies, risks and rewards",
+      "difficulty": "hard",
+      "source": "FINRA Series 7 Content Outline, Function 3; Options Strategies, Protective Puts"
+    },
+    {
+      "stem": "A customer establishes a bull call spread by purchasing one XYZ 50 call for a premium of 7 and selling one XYZ 60 call for a premium of 3. Both options have the same expiration and each covers 100 shares. Ignoring commissions, what is the underlying stock price at expiration at which the spread breaks even?",
+      "options": [
+        "$50",
+        "$53",
+        "$54",
+        "$57"
+      ],
+      "answer": "C",
+      "explanation": "The net debit is 7 minus 3, or $4 per share. For a debit bull call spread, the expiration breakeven is the lower strike price plus the net debit. Therefore, $50 + $4 = $54, where the long call's intrinsic value offsets the initial $400 cost of the spread.",
+      "topic": "Provides Customers with Information About Investments, Makes Recommendations",
+      "subtopic": "Reviews and analyzes customers' investment profiles and product options",
+      "difficulty": "hard",
+      "source": "FINRA Series 7 Content Outline, Function 3; Options, Vertical Debit Spreads and Breakeven"
+    },
+    {
+      "stem": "A convertible corporate bond has a $1,000 par value and is convertible into 25 common shares. The underlying stock currently trades at $46 per share, while the bond trades at 118% of par. What is the bond's conversion premium over its conversion parity value?",
+      "options": [
+        "$20",
+        "$30",
+        "$46",
+        "$180"
+      ],
+      "answer": "B",
+      "explanation": "Conversion parity value equals the conversion ratio multiplied by the current stock price: 25 times $46 equals $1,150. A bond quoted at 118% of $1,000 par has a market value of $1,180. The conversion premium is therefore $1,180 minus $1,150, or $30.",
+      "topic": "Provides Customers with Information About Investments, Makes Recommendations",
+      "subtopic": "Provides customers with information about investment strategies, risks and rewards",
+      "difficulty": "hard",
+      "source": "FINRA Series 7 Content Outline, Function 3; Convertible Securities, Conversion Value and Premium"
+    },
+    {
+      "stem": "A 62-year-old retired customer depends on portfolio income to meet living expenses and has a moderate risk tolerance. The customer's portfolio already has 45% of its assets invested in a single technology company's common stock. The customer asks whether to invest an additional 20% of the portfolio in the same stock. Which response is most consistent with the representative's obligations when making a recommendation?",
+      "options": [
+        "Recommend the additional purchase because the existing position demonstrates the customer's familiarity with the company.",
+        "Recommend the additional purchase if the company has outperformed the broad market during the preceding year.",
+        "Recommend the additional purchase because the customer is old enough to make independent investment decisions.",
+        "Evaluate concentration risk and the customer's income needs, and consider a more diversified alternative consistent with the investment profile."
+      ],
+      "answer": "D",
+      "explanation": "A recommendation to a retail customer must reflect the customer's investment profile and applicable best-interest obligations. Adding substantially to an already concentrated equity position may expose a retiree to excessive company-specific risk. The representative should evaluate the proposed transaction's risks, costs, and reasonable alternatives rather than rely on past performance or existing ownership alone.",
+      "topic": "Provides Customers with Information About Investments, Makes Recommendations",
+      "subtopic": "Reviews and analyzes customers' investment profiles and product options",
+      "difficulty": "medium",
+      "source": "FINRA Series 7 Content Outline, Function 3; SEC Regulation Best Interest, Care Obligation"
+    },
+    {
+      "stem": "A customer enters a buy limit order for 200 shares of a stock at $35 when its current market price is $37. Which statement correctly describes the customer's instructions?",
+      "options": [
+        "The order may execute at $35 or a lower price, but execution is not guaranteed.",
+        "The order must execute immediately at the current market price of $37.",
+        "The order may execute at $35 or a higher price, but execution is not guaranteed.",
+        "The order must execute at exactly $35 before the end of the trading session."
+      ],
+      "answer": "A",
+      "explanation": "A buy limit order specifies the maximum price the customer is willing to pay. The order can execute at the limit price or better, meaning $35 or lower. However, the specified price may never become available, so execution is not guaranteed.",
+      "topic": "Obtains and Verifies Customers' Purchase and Sales Instructions and Agreements",
+      "subtopic": "Processes and confirms customers’ transactions pursuant to regulatory requirements",
+      "difficulty": "easy",
+      "source": "FINRA Series 7 Content Outline, Function 4; Order Types, Buy Limit Orders"
+    },
+    {
+      "stem": "A customer has a standard long margin account holding only margin-eligible common stock with a current market value of $12,000 and a debit balance of $10,000. Assume FINRA's 25% minimum maintenance requirement applies and the firm's house requirement is also 25%. There are no other positions or balances. How much additional equity must the customer deposit to restore the account to the required maintenance level, assuming market values remain unchanged?",
+      "options": [
+        "$500",
+        "$750",
+        "$1,000",
+        "$3,000"
+      ],
+      "answer": "C",
+      "explanation": "Account equity equals the market value of the securities minus the debit balance, or $12,000 - $10,000 = $2,000. Required maintenance equity equals 25% of $12,000, or $3,000. The account therefore has a $1,000 maintenance deficiency, which can be satisfied by depositing $1,000 in cash under the stated assumptions.",
+      "topic": "Obtains and Verifies Customers' Purchase and Sales Instructions and Agreements",
+      "subtopic": "Addresses margin issues",
+      "difficulty": "medium",
+      "source": "FINRA Series 7 Content Outline, Function 4; FINRA Rule 4210(c), Maintenance Margin"
+    }
+  ]
+}
