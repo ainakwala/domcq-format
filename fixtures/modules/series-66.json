@@ -1,0 +1,72 @@
+{
+  "id": "series-66",
+  "display_name": "Uniform Combined State Law Examination (Series 66)",
+  "body": "NASAA",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by the North American Securities Administrators Association, Inc. (NASAA); the names are used only to identify the exam. North American Securities Administrators Association™ is a trademark of the North American Securities Administrators Association, Inc. The topic names and weights are from NASAA's published test specifications; source: NASAA, https://www.nasaa.org.",
+  "taxonomy": {
+    "Economic Factors and Business Information": [
+      "Analytical Methods"
+    ],
+    "Investment Vehicle Characteristics": [
+      "Types and Characteristics of Cash and Cash Equivalents",
+      "Valuation Factors of Fixed Income Securities",
+      "Types of Equity Securities",
+      "Valuation Factors of Equity Securities",
+      "Characteristics of Equity Securities",
+      "Equity Public Offering",
+      "Types of Pooled Investments",
+      "Characteristics of Pooled Investments",
+      "Futures and options",
+      "Characteristics, Risks, and Application of Alternative Investments",
+      "Insurance-Based Products",
+      "Other Assets"
+    ],
+    "Client/Customer Investment Recommendations and Strategies": [
+      "Type of Client/Customer",
+      "Client/Customer Profile",
+      "Capital Market Theory",
+      "Portfolio Management Strategies, Styles and Techniques",
+      "Tax Considerations",
+      "Retirement Plans",
+      "ERISA Issues",
+      "Special Types of Accounts",
+      "Ownership and Estate Planning Techniques",
+      "Trading Securities",
+      "Portfolio Performance Measures"
+    ],
+    "Laws, Regulations, and Guidelines": [
+      "Regulations of Investment Advisers, Including State-Registered and Federal Covered Advisers",
+      "Regulation of Investment Adviser Representatives",
+      "Regulation of Broker-Dealers",
+      "Regulations of Agents of Broker-Dealers",
+      "Regulations of Securities and Issuers",
+      "Remedies and Administrative Provisions",
+      "Communication with Clients and Prospects",
+      "Ethical Practices and Fiduciary Obligations"
+    ]
+  },
+  "weights": {
+    "Economic Factors and Business Information": 8,
+    "Investment Vehicle Characteristics": 17,
+    "Client/Customer Investment Recommendations and Strategies": 30,
+    "Laws, Regulations, and Guidelines": 45
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": false,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [],
+  "uncovered_item_types": [],
+  "exam_mode": {
+    "questions": 110,
+    "minutes": 150
+  },
+  "verified_outline": "Series 66 Test Specifications, effective June 12, 2023 (NASAA)",
+  "verified_on": "2026-10-20",
+  "next_review": "2027-10-20"
+}

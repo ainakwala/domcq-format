@@ -1,0 +1,74 @@
+{
+  "id": "series-63",
+  "display_name": "Uniform Securities Agent State Law Examination (Series 63)",
+  "body": "NASAA",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by the North American Securities Administrators Association, Inc. (NASAA); the names are used only to identify the exam. North American Securities Administrators Association™ is a trademark of the North American Securities Administrators Association, Inc. The topic names and weights are from NASAA's published test specifications; source: NASAA, https://www.nasaa.org.",
+  "taxonomy": {
+    "Regulations of Investment Advisers": [
+      "definitions of Investment Advisers"
+    ],
+    "Regulations of Investment Adviser Representatives": [
+      "definition of an Investment Adviser Representative"
+    ],
+    "Regulations of Broker-Dealers": [
+      "definition of a Broker-Dealer",
+      "registration/post-registration requirements",
+      "Broker-Dealer Agent supervision"
+    ],
+    "Regulations of Agents of Broker-Dealers": [
+      "definition of an Agent of a Broker-Dealer",
+      "registration/post-registration"
+    ],
+    "Regulations of Securities and Issuers": [
+      "definition of securities and issuers",
+      "state registration/post-registration requirements",
+      "exemptions from registration",
+      "state enforcement and antifraud authority"
+    ],
+    "Remedies and Administrative Provisions": [
+      "authority of state securities Administrator",
+      "administrative actions",
+      "other penalties and liabilities"
+    ],
+    "Communication with Customers and Prospects": [
+      "required product disclosures",
+      "unlawful representations concerning broker-dealer agent registration",
+      "performance guarantees prohibition",
+      "customer agreements",
+      "correspondence and advertising"
+    ],
+    "Ethical Practices and Obligations": [
+      "compensation",
+      "customer funds and securities",
+      "conflicts of interest, criminal activities, and other ethics issues"
+    ]
+  },
+  "weights": {
+    "Regulations of Investment Advisers": 5,
+    "Regulations of Investment Adviser Representatives": 5,
+    "Regulations of Broker-Dealers": 12,
+    "Regulations of Agents of Broker-Dealers": 13,
+    "Regulations of Securities and Issuers": 9,
+    "Remedies and Administrative Provisions": 11,
+    "Communication with Customers and Prospects": 20,
+    "Ethical Practices and Obligations": 25
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": false,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [],
+  "uncovered_item_types": [],
+  "exam_mode": {
+    "questions": 65,
+    "minutes": 75
+  },
+  "verified_outline": "Series 63 Test Specifications, effective June 12, 2023 (NASAA)",
+  "verified_on": "2026-10-20",
+  "next_review": "2027-10-20"
+}
