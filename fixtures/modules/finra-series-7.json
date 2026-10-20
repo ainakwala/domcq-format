@@ -1,0 +1,54 @@
+{
+  "id": "finra-series-7",
+  "display_name": "Series 7 – General Securities Representative Exam",
+  "body": "FINRA",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by the Financial Industry Regulatory Authority, Inc. (FINRA); the names are used only to identify the exam. FINRA®, Securities Industry Essentials® and SIE® are registered trademarks of the Financial Industry Regulatory Authority, Inc.",
+  "taxonomy": {
+    "Seeks Business for the Broker-Dealer from Customers and Potential Customers": [
+      "Contacts current and potential customers in person and by telephone, mail and electronic means",
+      "Describes investment products and services to current and potential customers with the intent of soliciting business"
+    ],
+    "Opens Accounts After Obtaining and Evaluating Customers' Financial Profile": [
+      "Informs customers of the types of accounts and provides disclosures regarding various account types and restrictions",
+      "Obtains and updates customer information and documentation, including required legal documents",
+      "Makes reasonable efforts to obtain customer investment profile information",
+      "Obtains supervisory approvals required to open accounts"
+    ],
+    "Provides Customers with Information About Investments, Makes Recommendations": [
+      "Provides customers with information about investment strategies, risks and rewards",
+      "Reviews and analyzes customers' investment profiles and product options",
+      "Provides required disclosures regarding investment products and their characteristics, risks, services and expenses",
+      "Communicates with customers about account information, processes requests and retains documentation"
+    ],
+    "Obtains and Verifies Customers' Purchase and Sales Instructions and Agreements": [
+      "Provides current quotes",
+      "Processes and confirms customers’ transactions pursuant to regulatory requirements",
+      "Informs the appropriate supervisor and assists in the resolution of discrepancies, disputes, errors and complaints",
+      "Addresses margin issues"
+    ]
+  },
+  "weights": {
+    "Seeks Business for the Broker-Dealer from Customers and Potential Customers": 7,
+    "Opens Accounts After Obtaining and Evaluating Customers' Financial Profile": 9,
+    "Provides Customers with Information About Investments, Makes Recommendations": 73,
+    "Obtains and Verifies Customers' Purchase and Sales Instructions and Agreements": 11
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": false,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [],
+  "uncovered_item_types": [],
+  "exam_mode": {
+    "questions": 130,
+    "minutes": 225
+  },
+  "verified_outline": "General Securities Representative Qualification Examination (Series 7) Content Outline (FINRA, © 2025)",
+  "verified_on": "2026-10-20",
+  "next_review": "2027-10-20"
+}
