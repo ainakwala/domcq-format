@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "mpre",
+  "set": "MPRE Practice – Professional Responsibility and Judicial Ethics Set 1",
+  "questions": [
+    {
+      "stem": "An attorney admitted to practice in State A learns that another attorney has knowingly misappropriated substantial funds from a client's trust account. The information is reliable, is not protected by Rule 1.6, and raises a substantial question about the other attorney's honesty and fitness to practice law. The attorney decides not to report the misconduct because the affected client has already been reimbursed. Is the attorney subject to discipline?",
+      "options": [
+        "No, because reimbursement of the client eliminates the obligation to report the misconduct.",
+        "Yes, because the attorney must report serious misconduct raising a substantial question about another attorney's honesty or fitness.",
+        "No, because reporting another attorney's misconduct is always discretionary unless ordered by a court.",
+        "Yes, but only if the attorney personally witnessed the misappropriation when it occurred."
+      ],
+      "answer": "B",
+      "explanation": "ABA Model Rule 8.3(a) requires a lawyer who knows that another lawyer has committed a Rules violation raising a substantial question about honesty, trustworthiness, or fitness to inform the appropriate professional authority. Repayment does not eliminate this duty. Rule 8.3(c) protects information covered by Rule 1.6, but the facts expressly exclude that exception.",
+      "topic": "Regulation of the legal profession",
+      "subtopic": "Mandatory and permissive reporting of professional misconduct",
+      "difficulty": "easy",
+      "source": "ABA Model Rule 8.3(a), (c); NCBE MPRE Subject Matter Outline: Reporting Professional Misconduct"
+    },
+    {
+      "stem": "A lawyer licensed only in State A travels to State B to conduct witness interviews and negotiate a settlement in a dispute arising from the lawyer's representation of a State A client. The matter is reasonably related to a proceeding pending before a tribunal in State A, in which the lawyer is authorized to appear. The lawyer does not establish an office in State B, hold herself out as admitted there, or violate any tribunal rule. State B follows the ABA Model Rules. Was the lawyer's conduct proper?",
+      "options": [
+        "No, because conducting witness interviews in another state always requires admission in that state.",
+        "No, because the lawyer must first obtain admission pro hac vice before negotiating outside State A.",
+        "Yes, but only if the client and all opposing parties provide written consent to the lawyer's activities.",
+        "Yes, because the activities constitute temporary practice reasonably related to a proceeding in which the lawyer is authorized to appear."
+      ],
+      "answer": "D",
+      "explanation": "Model Rule 5.5(c)(2) permits temporary legal services in another jurisdiction when they are in or reasonably related to a pending or potential proceeding before a tribunal, provided the lawyer or an assisting lawyer is authorized to appear. This permission can extend to activities such as witness interviews and settlement negotiations. It does not authorize establishing a permanent unauthorized practice.",
+      "topic": "Regulation of the legal profession",
+      "subtopic": "Multijurisdictional practice",
+      "difficulty": "medium",
+      "source": "ABA Model Rule 5.5(c)(2); Unauthorized Practice of Law and Multijurisdictional Practice"
+    },
+    {
+      "stem": "An attorney represents a plaintiff in a personal injury action. After receiving a settlement offer, the attorney strongly recommends accepting it. The client rejects the recommendation and instructs the attorney to reject the offer and continue pursuing the claim. The attorney believes the decision is financially unwise but is otherwise lawful. Must the attorney follow the client's instruction?",
+      "options": [
+        "Yes, because the client retains authority to decide whether to accept or reject a settlement offer.",
+        "No, because the attorney has ultimate authority over settlement decisions involving legal claims.",
+        "No, because the attorney may accept any settlement that reasonably protects the client's financial interests.",
+        "Yes, but only if the client signs a written acknowledgment that the attorney recommended settlement."
+      ],
+      "answer": "A",
+      "explanation": "Under Model Rule 1.2(a), the lawyer must abide by the client's decision whether to settle a matter. The attorney may provide candid advice about the risks and benefits, but final settlement authority belongs to the client. A written acknowledgment is not ordinarily required.",
+      "topic": "The client-lawyer relationship",
+      "subtopic": "Scope, objective, and means of the representation",
+      "difficulty": "easy",
+      "source": "ABA Model Rule 1.2(a); Allocation of Authority Between Client and Lawyer"
+    },
+    {
+      "stem": "A criminal defense attorney receives a plea offer from the prosecutor that would substantially reduce the charges against the client. The attorney believes the offer is unacceptable and deliberately decides not to inform the client, hoping to obtain a better offer later. No prior agreement permits the attorney to withhold plea offers, and the offer expires. Was the attorney's conduct proper?",
+      "options": [
+        "Yes, because the attorney may withhold offers that are inconsistent with the client's litigation objectives.",
+        "Yes, because communicating plea offers is discretionary when the attorney reasonably expects a better offer.",
+        "No, because the attorney must promptly communicate a plea offer requiring the client's decision.",
+        "No, but only if the client can subsequently establish that the prosecutor would have honored the offer."
+      ],
+      "answer": "C",
+      "explanation": "Model Rule 1.4 requires lawyers to keep clients reasonably informed and promptly communicate circumstances requiring informed consent or client decisions. A plea offer ordinarily must be communicated because the client decides whether to accept it. The lawyer's assessment of the offer does not justify withholding it.",
+      "topic": "The client-lawyer relationship",
+      "subtopic": "Communications with the client",
+      "difficulty": "medium",
+      "source": "ABA Model Rules 1.2(a) and 1.4(a); Communications with the Client"
+    },
+    {
+      "stem": "An attorney representing a commercial landlord under a valid contingent fee agreement is discharged without cause before the matter concludes. The client retains a new attorney, who obtains a substantial monetary recovery. The original attorney demands the entire contingent fee percentage specified in the original agreement, even though the agreement does not address discharge and the governing jurisdiction limits a discharged attorney to quantum meruit recovery. Is the original attorney entitled to the full contractual contingent fee?",
+      "options": [
+        "Yes, because a valid contingent fee agreement remains enforceable regardless of when the lawyer is discharged.",
+        "No, because the attorney's recovery is governed by applicable law and may be limited to the reasonable value of services rendered.",
+        "Yes, because discharge without cause automatically entitles the attorney to the percentage calculated on the final recovery.",
+        "No, because a lawyer discharged before settlement forfeits all compensation for previously performed legal services."
+      ],
+      "answer": "B",
+      "explanation": "Model Rule 1.16 recognizes a client's right to discharge counsel, and Rule 1.5 requires reasonable fees. The discharged attorney's entitlement to payment depends on applicable law and the enforceable agreement, including any quantum meruit limitation. Under the facts stated, the original attorney cannot insist on the entire contingent percentage merely because the agreement was initially valid.",
+      "topic": "The client-lawyer relationship",
+      "subtopic": "Termination of the client-lawyer relationship",
+      "difficulty": "hard",
+      "source": "ABA Model Rules 1.5 and 1.16; Client's Right to Discharge Counsel; Quantum Meruit"
+    },
+    {
+      "stem": "A client tells her attorney that she intends to poison a municipal water supply the following day, creating a reasonably certain risk of death or substantial bodily harm to numerous residents. The attorney reasonably believes the threat is genuine and that promptly notifying public authorities is necessary to prevent the harm. The client refuses permission to disclose the information. May the attorney notify the authorities under the ABA Model Rules?",
+      "options": [
+        "No, because information received from a client during a legal representation may never be disclosed without consent.",
+        "No, because the attorney may disclose a threat only after the client has actually attempted the harmful act.",
+        "Yes, but only after obtaining a court order authorizing disclosure of the client's confidential information.",
+        "Yes, because disclosure is permitted to the extent reasonably necessary to prevent reasonably certain death or substantial bodily harm."
+      ],
+      "answer": "D",
+      "explanation": "Model Rule 1.6(b)(1) permits a lawyer to disclose otherwise confidential information to prevent reasonably certain death or substantial bodily harm. The exception is permissive rather than a general mandatory reporting rule. The attorney must limit disclosure to what is reasonably believed necessary to prevent the threatened harm.",
+      "topic": "Client confidentiality",
+      "subtopic": "Other exceptions to the confidentiality rule",
+      "difficulty": "easy",
+      "source": "ABA Model Rule 1.6(b)(1); Confidentiality of Information"
+    },
+    {
+      "stem": "An attorney representing a business in a contract dispute learns that the business recently negotiated a confidential financing arrangement unrelated to the dispute. A prospective investor asks the attorney about the arrangement. The information is not privileged, but the attorney learned it while representing the business and has no authorization to disclose it. The attorney discloses the arrangement because it is unrelated to the pending litigation. Was the attorney's conduct proper?",
+      "options": [
+        "No, because the confidentiality duty covers information relating to the representation, even when the information is not privileged.",
+        "Yes, because information unrelated to the specific lawsuit is outside the attorney's professional confidentiality obligation.",
+        "Yes, because only information communicated directly by a client is protected by the confidentiality rule.",
+        "No, but only if the financing arrangement was expressly designated confidential in the engagement agreement."
+      ],
+      "answer": "A",
+      "explanation": "Model Rule 1.6(a) broadly protects information relating to the representation, not merely communications protected by attorney-client privilege. The duty can apply to information obtained from documents, third parties, or other sources. Without consent, implied authorization, or a recognized exception, the disclosure is improper.",
+      "topic": "Client confidentiality",
+      "subtopic": "Professional obligation of confidentiality—general rule",
+      "difficulty": "medium",
+      "source": "ABA Model Rule 1.6(a); Scope of Professional Confidentiality"
+    },
+    {
+      "stem": "An attorney represents two business partners jointly in negotiating the sale of their company. During negotiations, the partners develop directly opposing positions regarding allocation of the sale proceeds. The attorney reasonably concludes that she can no longer provide competent and diligent representation to both clients because their interests have become irreconcilable. Both partners nevertheless offer written consent to continued joint representation. May the attorney continue representing both partners?",
+      "options": [
+        "Yes, because written informed consent from both partners cures any concurrent conflict of interest.",
+        "Yes, because disagreements over the division of sale proceeds do not constitute conflicts in transactional matters.",
+        "No, because the attorney cannot obtain effective consent when she does not reasonably believe she can competently and diligently represent both clients.",
+        "No, because representation of multiple clients in the same business transaction is prohibited under all circumstances."
+      ],
+      "answer": "C",
+      "explanation": "Model Rule 1.7(b) permits consent to certain concurrent conflicts only when the lawyer reasonably believes competent and diligent representation of each affected client remains possible. This condition must be satisfied independently of obtaining informed written consent. A conflict is not consentable when the lawyer cannot meet that requirement.",
+      "topic": "Conflicts of interest",
+      "subtopic": "Current client conflicts—multiple clients and joint representation",
+      "difficulty": "medium",
+      "source": "ABA Model Rule 1.7(b); Concurrent Conflicts of Interest and Informed Consent"
+    },
+    {
+      "stem": "An attorney formerly represented a manufacturing company in confidential negotiations concerning the environmental liabilities of a particular industrial property. Two years after the representation ended, a neighboring landowner asks the attorney to sue the company over contamination from that same property. The company refuses consent. The attorney believes that confidential information obtained in the earlier representation would be highly relevant to the new litigation. May the attorney accept the new representation?",
+      "options": [
+        "Yes, because the former representation ended more than one year before the new engagement.",
+        "No, because the new matter is substantially related to the former representation and the new client's interests are materially adverse.",
+        "Yes, because the attorney may proceed if she promises not to use confidential information obtained during the former representation.",
+        "No, but only if the former client proves that the attorney actually disclosed confidential information to the new client."
+      ],
+      "answer": "B",
+      "explanation": "Model Rule 1.9(a) prohibits representation adverse to a former client in the same or a substantially related matter without the former client's informed consent, confirmed in writing. The substantial relationship arises from the overlapping property and environmental liabilities. A promise not to use confidential information does not independently eliminate this former-client conflict.",
+      "topic": "Conflicts of interest",
+      "subtopic": "Former client conflicts",
+      "difficulty": "hard",
+      "source": "ABA Model Rule 1.9(a); Duties to Former Clients and Substantially Related Matters"
+    },
+    {
+      "stem": "An attorney represents a client in litigation against a corporation. The client's wealthy relative offers to pay all legal fees, provided the relative receives copies of confidential communications and can direct litigation strategy. The client is willing to accept the financial assistance but does not authorize disclosure of confidential information. May the attorney accept payment subject to the relative's conditions?",
+      "options": [
+        "Yes, because a person paying legal fees is automatically entitled to receive information about the representation.",
+        "Yes, because third-party payment permits the payer to control strategy when the client accepts the arrangement.",
+        "No, because an attorney may never accept compensation for representing a client from a third party.",
+        "No, because third-party compensation cannot compromise professional independence or client confidentiality."
+      ],
+      "answer": "D",
+      "explanation": "Model Rule 1.8(f) permits third-party payment only with the client's informed consent, without interference in the lawyer's professional judgment or the client-lawyer relationship, and with protection of Rule 1.6 confidentiality. Payment does not make the relative the client. The proposed conditions violate essential requirements for accepting third-party compensation.",
+      "topic": "Conflicts of interest",
+      "subtopic": "Third-party compensation and influence",
+      "difficulty": "medium",
+      "source": "ABA Model Rules 1.8(f) and 5.4(c); Third-Party Compensation and Professional Independence"
+    },
+    {
+      "stem": "An attorney accepts a case involving an unfamiliar area of federal administrative law. Before undertaking substantive work, the attorney arranges to study the relevant law and consult an experienced administrative law attorney. The attorney reasonably believes these steps will provide the necessary knowledge and preparation without prejudicing the client's matter. Was accepting the case proper?",
+      "options": [
+        "Yes, because an attorney may obtain the competence required for a representation through reasonable preparation and study.",
+        "No, because an attorney must possess specialized knowledge of the subject before accepting any representation.",
+        "No, because consultation with another attorney cannot compensate for the attorney's lack of prior experience.",
+        "Yes, but only if the client independently hires a specialist to supervise every substantive decision."
+      ],
+      "answer": "A",
+      "explanation": "Model Rule 1.1 requires competent representation, including the legal knowledge, skill, thoroughness, and preparation reasonably necessary. An attorney may acquire competence in an unfamiliar field through adequate study, preparation, or association with experienced counsel. Prior specialization is not invariably required.",
+      "topic": "Competence, legal malpractice, and other civil liability",
+      "subtopic": "Competence necessary to undertake representation",
+      "difficulty": "easy",
+      "source": "ABA Model Rule 1.1 and Comments; Competence and Preparation"
+    },
+    {
+      "stem": "An attorney agrees to handle a malpractice claim for a client. The attorney includes a provision in the initial engagement agreement prospectively limiting the attorney's liability for any malpractice to the amount of fees paid. The client is not independently represented in making the agreement and has not been advised in writing of the desirability of seeking independent legal counsel. The client signs the agreement. Is the limitation proper?",
+      "options": [
+        "Yes, because a prospective malpractice limitation is valid whenever the client signs a written engagement agreement.",
+        "Yes, because limiting liability to the fees paid is inherently reasonable for professional legal services.",
+        "No, because a lawyer may prospectively limit malpractice liability only if the client is independently represented in making the agreement.",
+        "No, because the professional conduct rules prohibit every agreement that limits an attorney's malpractice liability."
+      ],
+      "answer": "C",
+      "explanation": "Model Rule 1.8(h)(1) prohibits prospective agreements limiting malpractice liability unless the client is independently represented in making the agreement. A client's signature or mere acknowledgment of the limitation does not satisfy this condition. Such limitations are not categorically prohibited when the specified safeguard is met.",
+      "topic": "Competence, legal malpractice, and other civil liability",
+      "subtopic": "Limiting liability for malpractice",
+      "difficulty": "medium",
+      "source": "ABA Model Rule 1.8(h)(1); Prospective Limitation of Malpractice Liability"
+    },
+    {
+      "stem": "During a civil trial, an attorney calls a witness who unexpectedly gives material testimony that the attorney subsequently learns is false. The attorney knows the testimony is false, and the proceeding is still pending. The attorney privately requests that the witness correct the testimony, but the witness refuses. What must the attorney do?",
+      "options": [
+        "Remain silent because the false testimony was introduced before the attorney knew it was inaccurate.",
+        "Take reasonable remedial measures, including disclosure to the tribunal if necessary to correct the false evidence.",
+        "Withdraw immediately without informing the tribunal of the false testimony, regardless of whether withdrawal remedies the problem.",
+        "Wait until the proceeding ends because correcting testimony during trial could disadvantage the attorney's client."
+      ],
+      "answer": "B",
+      "explanation": "Model Rule 3.3(a)(3) requires reasonable remedial measures when a lawyer learns that material evidence offered by the lawyer is false. Those measures ordinarily begin with efforts to obtain voluntary correction and may require disclosure to the tribunal, even if disclosure involves otherwise confidential information. The duty continues through the conclusion of the proceeding.",
+      "topic": "Litigation and other forms of advocacy",
+      "subtopic": "Candor to the tribunal",
+      "difficulty": "medium",
+      "source": "ABA Model Rule 3.3(a)(3), (c); Candor Toward the Tribunal"
+    },
+    {
+      "stem": "An attorney represents a defendant in a civil action. The attorney discovers an unpublished appellate decision from the jurisdiction's highest court that is directly adverse to the defendant's legal position and constitutes controlling authority. Opposing counsel has not cited the decision. The attorney finds a plausible factual distinction but chooses not to mention the decision in a written submission or at the hearing. The tribunal remains unaware of it. Was the attorney's conduct proper?",
+      "options": [
+        "Yes, because an attorney has no obligation to identify adverse authority that opposing counsel fails to discover.",
+        "Yes, because an attorney need disclose only published authorities that support the attorney's client's position.",
+        "No, but only if the attorney personally believes the adverse decision necessarily determines the outcome of the case.",
+        "No, because an attorney must disclose controlling legal authority directly adverse to the client's position that opposing counsel has not disclosed."
+      ],
+      "answer": "D",
+      "explanation": "Model Rule 3.3(a)(2) requires disclosure of directly adverse controlling legal authority in the jurisdiction when opposing counsel has not disclosed it. The rule is not confined to published decisions if the authority is controlling under the jurisdiction's law. The attorney may explain a legitimate distinction but cannot simply conceal the authority.",
+      "topic": "Litigation and other forms of advocacy",
+      "subtopic": "Candor to the tribunal",
+      "difficulty": "hard",
+      "source": "ABA Model Rule 3.3(a)(2); Duty to Disclose Adverse Controlling Authority"
+    },
+    {
+      "stem": "An attorney representing a defendant in civil litigation receives a lawful discovery request for nonprivileged financial records. The attorney instructs the client to destroy the requested records because they would seriously undermine the defense. The client has not yet acted on the instruction. Is the attorney subject to discipline?",
+      "options": [
+        "Yes, because an attorney may not unlawfully obstruct access to evidence or counsel another person to destroy evidence.",
+        "No, because an attorney may advise a client to destroy records before a court issues a specific preservation order.",
+        "No, because discovery disputes are governed exclusively by procedural rules rather than professional conduct rules.",
+        "Yes, but only if the client follows the instruction and the records are actually destroyed."
+      ],
+      "answer": "A",
+      "explanation": "Model Rule 3.4(a) prohibits unlawfully obstructing another party's access to evidence and counseling or assisting another person to destroy or conceal material with potential evidentiary value. The attorney's instruction itself can violate the rule. Actual destruction is not required for the attorney's conduct to be improper.",
+      "topic": "Litigation and other forms of advocacy",
+      "subtopic": "Fairness to opposing party and counsel",
+      "difficulty": "easy",
+      "source": "ABA Model Rule 3.4(a); Fairness to Opposing Party and Counsel"
+    },
+    {
+      "stem": "An attorney represents a company in a contract dispute. The attorney knows the opposing company is represented by counsel in the matter. Without obtaining that counsel's consent, the attorney directly contacts the opposing company's chief executive officer to discuss settlement. The chief executive officer has authority to bind the company concerning the dispute. The attorney argues that the communication was permissible because the executive was not personally named as a party. Was the contact proper?",
+      "options": [
+        "Yes, because the prohibition on direct communication applies only to individuals who are personally named as parties.",
+        "Yes, because settlement communications with a corporate executive are permitted if the executive has authority to settle.",
+        "No, because the executive's authority to bind the represented organization brings the communication within the prohibition.",
+        "No, but only if the attorney used confidential information obtained from the executive during the discussion."
+      ],
+      "answer": "C",
+      "explanation": "Model Rule 4.2 generally prohibits a lawyer from communicating about the subject of the representation with a person known to be represented in the matter without opposing counsel's consent or other authorization. For an organization, the restriction extends to constituents authorized to bind it regarding the matter. The executive's personal status as a named party is not determinative.",
+      "topic": "Transactions and communications with persons other than clients",
+      "subtopic": "Communications with represented persons",
+      "difficulty": "medium",
+      "source": "ABA Model Rule 4.2 and Comment 7; Communication with Represented Organizations"
+    },
+    {
+      "stem": "An attorney represents a corporation whose chief financial officer admits to falsifying financial statements that the corporation plans to provide to lenders. The attorney reasonably believes the planned conduct will violate the law and substantially injure the corporation. The attorney reports the matter to the chief executive officer, who refuses to act. The board of directors has authority to prevent the conduct and has not yet been informed. What should the attorney ordinarily do next?",
+      "options": [
+        "Immediately disclose the financial misconduct publicly without first considering any higher corporate authority.",
+        "Follow the chief executive officer's instruction because the attorney's duties run exclusively to the executive who retained counsel.",
+        "Withdraw from representing the corporation because reporting misconduct within the organization is prohibited by confidentiality rules.",
+        "Refer the matter to the board of directors or another higher authority within the organization as reasonably necessary to protect it."
+      ],
+      "answer": "D",
+      "explanation": "Under Model Rule 1.13(b), a lawyer who knows that a corporate officer is engaged in conduct violating the law or a duty to the organization and likely to cause substantial injury must proceed as reasonably necessary in the organization's best interests. This ordinarily includes referral to higher organizational authority when lower-level efforts fail. The corporation, rather than the individual executive, is the client.",
+      "topic": "Different roles of the lawyer",
+      "subtopic": "Lawyer representing an entity or other organization",
+      "difficulty": "medium",
+      "source": "ABA Model Rule 1.13(a), (b); Organization as Client and Reporting Up"
+    },
+    {
+      "stem": "An attorney receives $40,000 in settlement proceeds on behalf of a client and deposits the funds into a properly maintained client trust account. The client instructs the attorney to distribute the entire amount immediately. Before distribution, the attorney receives a documented claim from a medical provider asserting a valid legal lien against $12,000 of the proceeds. The client disputes the lien, and applicable law does not permit the attorney simply to disregard it. What should the attorney do?",
+      "options": [
+        "Distribute the entire $40,000 to the client because the client's instruction takes priority over all third-party claims.",
+        "Promptly distribute the undisputed $28,000 and keep the disputed $12,000 separate until the dispute is resolved.",
+        "Withhold the entire $40,000 until the medical provider agrees to waive its lien or the client withdraws the objection.",
+        "Pay the medical provider $12,000 immediately because a documented lien automatically establishes the provider's entitlement."
+      ],
+      "answer": "B",
+      "explanation": "Model Rule 1.15(e) requires disputed funds to remain separate until the interests of the competing claimants are resolved. Any portion not in dispute must be distributed promptly to the person entitled to receive it. A lawyer should not resolve a genuine dispute unilaterally in favor of either claimant.",
+      "topic": "Safekeeping funds and other property",
+      "subtopic": "Disputed claims",
+      "difficulty": "medium",
+      "source": "ABA Model Rule 1.15(d), (e); Safekeeping Property and Disputed Funds"
+    },
+    {
+      "stem": "An attorney creates a website advertising legal services for residential real estate transactions. The website accurately describes the attorney's experience, lists typical fixed fees, and provides a means for prospective clients to request consultations. The statements are truthful and not misleading. The attorney does not pay anyone for recommending the services and complies with applicable identification requirements. Is the advertisement permissible under the ABA Model Rules?",
+      "options": [
+        "Yes, because truthful, nonmisleading information about legal services may generally be communicated through a law firm's website.",
+        "No, because attorneys may advertise legal services only through professional directories approved by a state bar.",
+        "No, because displaying legal fees on a public website improperly encourages prospective clients to compare lawyers.",
+        "Yes, but only if the attorney obtains advance written approval from the relevant disciplinary authority."
+      ],
+      "answer": "A",
+      "explanation": "Model Rules 7.1 and 7.2 generally permit lawyers to communicate and advertise truthful, nonmisleading information about their services through public media, including websites. Advertising may describe areas of practice, experience, and fees, subject to applicable rules. Routine advance disciplinary approval is not generally required.",
+      "topic": "Communications about legal services",
+      "subtopic": "Advertising and other public communications about legal services",
+      "difficulty": "easy",
+      "source": "ABA Model Rules 7.1 and 7.2; Communications Concerning Legal Services"
+    },
+    {
+      "stem": "A judge is assigned a civil case involving a corporation in which the judge owns shares through a mutual fund holding hundreds of publicly traded securities. The judge does not participate in managing the fund, and the outcome of the litigation could not substantially affect the value of the judge's interest in the fund. The judge has no personal bias, personal knowledge of disputed facts, or other connection to the parties. A lawyer asks the judge to disqualify herself solely because of the mutual fund's shareholding. Is the judge required to disqualify herself?",
+      "options": [
+        "Yes, because any indirect financial exposure to a party automatically requires judicial disqualification.",
+        "Yes, because a judge must divest every mutual fund holding securities of parties appearing before the court.",
+        "No, because an interest in securities held through a qualifying mutual fund is not ordinarily an economic interest requiring disqualification.",
+        "No, because judges may continue presiding whenever they personally believe they can decide the case impartially."
+      ],
+      "answer": "C",
+      "explanation": "Model Code of Judicial Conduct Rule 2.11 requires disqualification when the judge's impartiality might reasonably be questioned, including certain economic interests. Under the Code's terminology, ownership through a mutual or common investment fund ordinarily is not an economic interest in securities held by the fund unless the judge participates in management or the proceeding could substantially affect the value of the judge's interest. The facts exclude those circumstances and any independent basis for disqualification.",
+      "topic": "Judicial conduct",
+      "subtopic": "Disqualification",
+      "difficulty": "hard",
+      "source": "ABA Model Code of Judicial Conduct Rule 2.11(A); Terminology: Economic Interest"
+    }
+  ]
+}
