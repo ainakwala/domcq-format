@@ -1,0 +1,327 @@
+{
+  "format": "domcq/1",
+  "exam": "sqe1-flk1",
+  "set": "SQE1 FLK1 practice – Applied Legal Principles and Practice",
+  "questions": [
+    {
+      "stem": "Three individuals wish to establish a business in England. They want the business to have a legal identity separate from its owners and generally to protect their personal assets from liability for the business's debts. They also want ownership to be represented by shares that can be transferred, subject to any restrictions in the company's constitution. Which business structure would best meet their requirements?",
+      "options": [
+        "A private company limited by shares",
+        "A traditional general partnership",
+        "A business operated by a sole trader",
+        "An unincorporated joint venture",
+        "A limited partnership under the Limited Partnerships Act 1907"
+      ],
+      "answer": "A",
+      "explanation": "A private company limited by shares has separate legal personality, and its shareholders generally have limited liability for company debts. Shareholders' liability is normally limited to any amount unpaid on their shares. A general partnership does not provide the same protection, while an LLP does not have ownership represented by shares.",
+      "topic": "Business Law and Practice",
+      "subtopic": "Business organisations, rules and procedures",
+      "difficulty": "easy",
+      "source": "Companies Act 2006, sections 3 and 16; SQE1 FLK1: Business organisations"
+    },
+    {
+      "stem": "A private company incorporated in England has adopted the unamended Model Articles. Its three directors are considering entering into a substantial commercial contract in the ordinary course of business. All three directors attend a properly convened board meeting, no director has a conflict of interest, and two vote in favour while one votes against. No shareholder approval is otherwise required. What is the legal effect of the vote?",
+      "options": [
+        "The decision is invalid because all directors must vote in favour of the contract.",
+        "The decision is invalid unless the shareholders approve it by ordinary resolution.",
+        "The decision is valid because a majority of directors voted in favour at a quorate meeting.",
+        "The decision is valid only if the company secretary countersigns the board minutes.",
+        "The decision is invalid because commercial contracts require a special resolution."
+      ],
+      "answer": "C",
+      "explanation": "Under the Model Articles, directors generally make decisions by majority vote at a meeting, provided the quorum requirement is satisfied. With three eligible directors attending and two supporting the proposal, the board can approve the transaction. Routine management decisions do not ordinarily require shareholder approval.",
+      "topic": "Business Law and Practice",
+      "subtopic": "Business organisations, rules and procedures",
+      "difficulty": "medium",
+      "source": "Companies (Model Articles) Regulations 2008, Schedule 1, articles 7 and 11"
+    },
+    {
+      "stem": "An English trading company purchases machinery for £80,000 exclusively for use in its taxable business activities. The supplier charges £16,000 VAT. The company is VAT-registered, holds a valid VAT invoice, makes only taxable supplies, and is not subject to any special restriction on input tax recovery. How should the company normally treat the VAT charged on the purchase?",
+      "options": [
+        "Add the VAT permanently to the machinery's cost without any possibility of recovery.",
+        "Deduct the VAT from the company's corporation tax liability as a tax credit.",
+        "Recover the VAT only when the machinery is eventually sold to another business.",
+        "Claim the VAT as a refund directly from the machinery supplier.",
+        "Recover the VAT as input tax through its VAT return, subject to the normal rules."
+      ],
+      "answer": "E",
+      "explanation": "A VAT-registered business can generally recover input tax incurred on purchases used to make taxable supplies, provided the documentary and other statutory requirements are satisfied. The £16,000 is therefore normally recoverable through the VAT accounting system. This is distinct from deducting the machinery's cost when computing taxable profits.",
+      "topic": "Business Law and Practice",
+      "subtopic": "Taxation - business",
+      "difficulty": "medium",
+      "source": "Value Added Tax Act 1994, sections 24–26; SQE1 FLK1: VAT"
+    },
+    {
+      "stem": "A private company wishes to remove a director before the expiry of their appointment. The company has issued the required special notice, complied with the director's statutory rights to make representations, and arranged a general meeting. Its articles contain no additional relevant restrictions. The shareholders wish to use the statutory removal procedure under the Companies Act 2006. Which method is legally effective?",
+      "options": [
+        "Passing a special resolution by written resolution of the shareholders.",
+        "Passing an ordinary resolution at the general meeting.",
+        "Passing an ordinary written resolution signed by a simple majority of eligible shareholders.",
+        "Passing a unanimous resolution of the remaining directors.",
+        "Passing a special resolution at the general meeting with at least 75% support."
+      ],
+      "answer": "B",
+      "explanation": "Section 168 of the Companies Act 2006 permits shareholders to remove a director by ordinary resolution at a meeting, subject to special notice and the director's procedural rights. Section 288 excludes director-removal resolutions under section 168 from the written-resolution procedure. An ordinary resolution requires a simple majority of votes cast.",
+      "topic": "Business Law and Practice",
+      "subtopic": "Business organisations, rules and procedures",
+      "difficulty": "hard",
+      "source": "Companies Act 2006, sections 168–169 and 288"
+    },
+    {
+      "stem": "Two commercial companies have a disagreement about the quality of goods supplied under a contract. Both wish to preserve their trading relationship and would prefer to reach a mutually acceptable settlement with the assistance of an independent neutral person who does not impose a binding decision. Which dispute resolution method is most appropriate?",
+      "options": [
+        "Arbitration",
+        "County court litigation",
+        "Judicial review",
+        "Mediation",
+        "Expert determination"
+      ],
+      "answer": "D",
+      "explanation": "Mediation involves an independent neutral who helps the parties negotiate a voluntary settlement without imposing a decision. It is particularly useful when parties wish to preserve a commercial relationship. Arbitration and court proceedings generally result in binding determinations rather than negotiated resolutions.",
+      "topic": "Dispute Resolution",
+      "subtopic": "Different options for dispute resolution",
+      "difficulty": "easy",
+      "source": "SQE1 FLK1: Different options for dispute resolution"
+    },
+    {
+      "stem": "A claimant in England issues a claim form in the County Court seeking damages for breach of contract. The defendant is an individual resident in England, and the claim form and particulars of claim are served together in accordance with the Civil Procedure Rules. The defendant intends to defend the claim but does not file an acknowledgment of service. Within what period must the defendant normally file a defence?",
+      "options": [
+        "14 days after service of the particulars of claim",
+        "7 days after service of the claim form",
+        "21 days after the date the claim form was issued",
+        "28 days after service of the claim form",
+        "35 days after the date the particulars of claim were prepared"
+      ],
+      "answer": "A",
+      "explanation": "Under CPR 15.4, a defendant must normally file a defence within 14 days after service of the particulars of claim. Filing an acknowledgment of service generally extends the defence period to 28 days after service of the particulars. The relevant starting point is service, not the date of issue.",
+      "topic": "Dispute Resolution",
+      "subtopic": "Responding to a claim",
+      "difficulty": "medium",
+      "source": "Civil Procedure Rules, Parts 10 and 15, particularly CPR 15.4"
+    },
+    {
+      "stem": "A claimant brings a civil claim in England for damages arising from a defective industrial machine. The defendant possesses an internal engineering report prepared before litigation was contemplated. The report is relevant to an issue in dispute and adversely affects the defendant's case. It is not privileged, and the court has ordered standard disclosure under CPR Part 31. What must the defendant normally do?",
+      "options": [
+        "Withhold the report because it would undermine the defendant's legal position.",
+        "Disclose the report only if the claimant identifies it by its exact title.",
+        "Disclose the report because it adversely affects the defendant's own case.",
+        "Destroy the report because it was prepared before proceedings commenced.",
+        "Provide only a favourable summary of the report's conclusions."
+      ],
+      "answer": "C",
+      "explanation": "Standard disclosure under CPR 31.6 includes documents on which a party relies, documents that adversely affect its own case or another party's case, and documents that support another party's case. A relevant adverse document cannot be withheld merely because it is damaging. Legal professional privilege may protect some documents, but no privilege applies here.",
+      "topic": "Dispute Resolution",
+      "subtopic": "Disclosure and inspection",
+      "difficulty": "medium",
+      "source": "Civil Procedure Rules, CPR 31.6 and 31.7"
+    },
+    {
+      "stem": "A claimant obtains a County Court money judgment for £90,000 against an individual defendant. The judgment remains unpaid. The claimant discovers that the defendant is the sole registered proprietor of a valuable property in England, which is subject to a mortgage but has substantial equity. The claimant wishes to secure the judgment debt against the defendant's interest in that property without immediately forcing a sale. Which enforcement procedure is most appropriate?",
+      "options": [
+        "Apply for a third party debt order against the property's mortgage lender.",
+        "Apply for an attachment of earnings order against the defendant's property income.",
+        "Apply for a warrant of control over the legal title to the property.",
+        "Apply for an administration order against the defendant's real property.",
+        "Apply for a charging order over the defendant's beneficial interest in the property."
+      ],
+      "answer": "E",
+      "explanation": "A charging order secures a judgment debt against a debtor's interest in property and may protect the creditor's position without an immediate sale. The existing mortgage and other prior-ranking interests affect the security's practical value. A separate application for an order for sale may subsequently be considered.",
+      "topic": "Dispute Resolution",
+      "subtopic": "Enforcement of money judgments",
+      "difficulty": "hard",
+      "source": "Charging Orders Act 1979; Civil Procedure Rules, Part 73"
+    },
+    {
+      "stem": "A shop displays a standard boxed electric kettle on a shelf with a price label of £35. A customer takes the kettle to the checkout and offers to pay the displayed price. There is no previous agreement between the customer and the shop. Under the usual English contract law analysis of goods displayed in a shop, what is the legal status of the display?",
+      "options": [
+        "A binding unilateral offer to sell the kettle",
+        "An acceptance of the customer's anticipated offer",
+        "A completed agreement requiring immediate delivery",
+        "An invitation to treat inviting customers to make offers",
+        "A binding promise that cannot be withdrawn"
+      ],
+      "answer": "D",
+      "explanation": "Goods displayed in a shop are ordinarily an invitation to treat, rather than an offer capable of immediate acceptance. The customer normally makes an offer when presenting the goods for purchase, and the retailer may accept or reject it. This distinction follows the established principles illustrated by Pharmaceutical Society of Great Britain v Boots.",
+      "topic": "Contract Law",
+      "subtopic": "Formation",
+      "difficulty": "easy",
+      "source": "Contract Law: Offer and acceptance; Pharmaceutical Society v Boots [1953]"
+    },
+    {
+      "stem": "A manufacturer enters into a contract to deliver specialised equipment to a retailer by 1 June. Delivery occurs three weeks late because of the manufacturer's breach. The retailer suffers ordinary lost profits from being unable to sell the equipment during the delay and also loses an unusually lucrative contract with a third party. The manufacturer was not informed of that special contract and had no reason to know about it. Which loss is most likely recoverable under the usual contractual remoteness rules?",
+      "options": [
+        "Neither loss, because lost profits are never recoverable for late delivery.",
+        "The ordinary lost profits, but not the exceptional loss arising from undisclosed circumstances.",
+        "Only the exceptional loss, because the ordinary profits were speculative.",
+        "Both losses, because all financial consequences of breach are recoverable.",
+        "Both losses, but only if the retailer proves deliberate misconduct by the manufacturer."
+      ],
+      "answer": "B",
+      "explanation": "Contract damages generally cover losses arising naturally from a breach or losses within the parties' reasonable contemplation when contracting because relevant special circumstances were communicated. Ordinary lost profits may satisfy the first limb of Hadley v Baxendale. An exceptional loss dependent on undisclosed circumstances will normally be too remote.",
+      "topic": "Contract Law",
+      "subtopic": "Causation and remoteness",
+      "difficulty": "medium",
+      "source": "Hadley v Baxendale (1854); Victoria Laundry v Newman Industries [1949]"
+    },
+    {
+      "stem": "A consumer purchases a new washing machine from a retailer in England. The written contract states that the retailer accepts no liability if the machine fails to meet the statutory requirement of satisfactory quality. The machine is defective when delivered. The retailer relies on the exclusion clause, which the consumer signed and which was clearly brought to the consumer's attention. What is the legal effect of the clause?",
+      "options": [
+        "The clause is automatically enforceable because the consumer signed it.",
+        "The clause is enforceable if the retailer acted reasonably when drafting it.",
+        "The clause is enforceable unless the defect creates a risk of personal injury.",
+        "The clause is enforceable if the retailer offers a discretionary replacement.",
+        "The clause is not binding on the consumer insofar as it excludes statutory satisfactory-quality liability."
+      ],
+      "answer": "E",
+      "explanation": "Section 31 of the Consumer Rights Act 2015 prevents a trader from excluding or restricting liability to a consumer for breach of the statutory satisfactory-quality requirement in section 9. Signature and prominence do not make such an exclusion enforceable. The consumer retains the statutory remedies applicable to the defective goods.",
+      "topic": "Contract Law",
+      "subtopic": "Contract terms",
+      "difficulty": "medium",
+      "source": "Consumer Rights Act 2015, sections 9 and 31"
+    },
+    {
+      "stem": "A motorist drives through a residential street at a speed well above the applicable limit. While distracted by a mobile phone, the motorist fails to notice a pedestrian using a marked crossing and strikes the pedestrian, causing a broken leg. The pedestrian was acting carefully. Which statement best describes the motorist's liability in negligence?",
+      "options": [
+        "The motorist owes no duty of care unless the pedestrian had previously complained.",
+        "The motorist can be liable only if the conduct amounts to a criminal offence.",
+        "The motorist is likely liable because a duty was owed, that duty was breached, and the breach caused foreseeable injury.",
+        "The motorist cannot be liable because pedestrians voluntarily accept the risks of road use.",
+        "The motorist is liable only if the pedestrian proves an intention to cause physical harm."
+      ],
+      "answer": "C",
+      "explanation": "Motorists owe pedestrians a duty to exercise reasonable care. Excessive speed and distraction can constitute a breach, and the resulting collision provides a direct causal connection to foreseeable physical injury. Negligence does not require an intention to cause harm.",
+      "topic": "Tort",
+      "subtopic": "Negligence",
+      "difficulty": "easy",
+      "source": "SQE1 FLK1: Negligence; duty, breach, causation and remoteness"
+    },
+    {
+      "stem": "An employee working as a delivery driver for a logistics company negligently collides with another vehicle while driving the company's van on an assigned delivery route. The collision injures the other driver. The employee was acting in the ordinary course of employment. Which statement best describes the employer's potential liability?",
+      "options": [
+        "The employer may be vicariously liable because the tort occurred in the course of employment.",
+        "The employer is liable only if it expressly authorised the negligent driving.",
+        "The employer is exempt because negligence is always the employee's personal responsibility.",
+        "The employer is liable only where the employee was also a company director.",
+        "The employer cannot be liable unless it owned both vehicles involved in the accident."
+      ],
+      "answer": "A",
+      "explanation": "An employer can be vicariously liable for an employee's tort committed in the course of employment, even without personally authorising the wrongful conduct. Negligent driving during an assigned delivery is ordinarily within the scope of employment. The employee may also remain personally liable.",
+      "topic": "Tort",
+      "subtopic": "Principles of vicarious liability",
+      "difficulty": "medium",
+      "source": "SQE1 FLK1: Vicarious liability; Lister v Hesley Hall Ltd [2001]"
+    },
+    {
+      "stem": "A six-year-old child accompanies a parent into a garden centre open to the public. The centre operates a decorative water feature beside a walkway. The water feature has an obvious attraction for young children, but its slippery edge and concealed depth create a foreseeable risk of serious injury. No barrier or warning is provided, and the child falls in and is injured. Which principle is most relevant when assessing the garden centre's duty as occupier?",
+      "options": [
+        "The occupier owes children no duty unless their parents pay an admission fee.",
+        "The occupier owes children only the same duty that applies to adult trespassers.",
+        "The occupier is automatically liable for every injury to a child on the premises.",
+        "The occupier may assume that every child will fully understand any obvious hazard.",
+        "The occupier must be prepared for children to be less careful than adults when assessing reasonable safety."
+      ],
+      "answer": "E",
+      "explanation": "Under section 2(3)(a) of the Occupiers' Liability Act 1957, an occupier must be prepared for children to be less careful than adults. The nature of an attractive hazard, the child's age, reasonable precautions and parental supervision can all be relevant. The duty is one of reasonable care, not strict liability for every accident.",
+      "topic": "Tort",
+      "subtopic": "Occupiers’ Liability",
+      "difficulty": "hard",
+      "source": "Occupiers' Liability Act 1957, sections 2(2) and 2(3)(a); Glasgow Corporation v Taylor [1922]"
+    },
+    {
+      "stem": "A judge in the County Court is deciding a civil case and identifies a legal principle established by the Supreme Court of the United Kingdom. The principle is directly applicable to the facts and has not been displaced by legislation. How should the County Court normally treat the Supreme Court's decision?",
+      "options": [
+        "As persuasive guidance that the County Court may freely disregard",
+        "As binding precedent that the County Court must follow",
+        "As binding only if both parties agree to rely on the decision",
+        "As relevant only where the parties were involved in the earlier case",
+        "As an advisory opinion that requires confirmation by the Court of Appeal"
+      ],
+      "answer": "B",
+      "explanation": "The doctrine of binding precedent requires lower courts to follow relevant legal principles established by higher courts in the judicial hierarchy. Supreme Court decisions bind the County Court where the ratio decidendi applies. The lower court cannot disregard the ruling simply because it prefers another interpretation.",
+      "topic": "Legal System",
+      "subtopic": "The Legal System of England and Wales and Sources of law",
+      "difficulty": "easy",
+      "source": "SQE1 FLK1: Court hierarchy and the doctrine of judicial precedent"
+    },
+    {
+      "stem": "A public authority in England refuses an individual's application for a statutory licence. The governing legislation requires the authority to consider specified eligibility criteria. The authority refuses the application solely because the applicant previously criticised the authority in a newspaper, without considering the statutory criteria. Which is the strongest ground for challenging the decision by judicial review?",
+      "options": [
+        "The decision is invalid because public authorities must approve every application.",
+        "The decision is invalid only if the applicant proves financial loss.",
+        "The authority is immune from challenge because licensing is discretionary.",
+        "The authority acted unlawfully by relying on an irrelevant consideration and failing to apply statutory criteria.",
+        "The authority must grant the licence because freedom of expression overrides every licensing requirement."
+      ],
+      "answer": "D",
+      "explanation": "Public authorities must exercise statutory powers for lawful purposes and take relevant considerations into account while disregarding irrelevant ones. Refusing a licence because an applicant criticised the authority, rather than applying the statutory criteria, is a strong basis for an illegality challenge. Judicial review concerns the lawfulness of the decision-making process rather than automatically granting the requested licence.",
+      "topic": "Legal System",
+      "subtopic": "Constitutional and Administrative law and EU law",
+      "difficulty": "medium",
+      "source": "SQE1 FLK1: Judicial review; illegality and relevant considerations"
+    },
+    {
+      "stem": "The UK Parliament passes an Act that clearly and expressly changes a rule of domestic law. An individual argues that the rule should not apply because a different legal rule would be fairer and more consistent with an earlier judicial decision. There is no applicable constitutional or statutory restriction preventing the new Act from operating as intended. Which statement best reflects the orthodox doctrine of parliamentary sovereignty?",
+      "options": [
+        "Courts may disregard any Act that conflicts with an earlier judicial decision.",
+        "Courts must obtain the approval of the Supreme Court before applying a new Act.",
+        "Courts must give effect to the valid Act despite inconsistency with earlier common law.",
+        "Courts may refuse to apply the Act whenever its consequences seem unfair.",
+        "Courts must refer the Act to a referendum before it can take legal effect."
+      ],
+      "answer": "C",
+      "explanation": "Under the orthodox doctrine of parliamentary sovereignty, Parliament can enact legislation that changes or overrides existing common law. Courts must interpret and apply valid primary legislation in accordance with governing legal principles. A previous judicial decision or a judge's view of fairness does not itself authorise disregard of the statute.",
+      "topic": "Legal System",
+      "subtopic": "Constitutional and Administrative law and EU law",
+      "difficulty": "medium",
+      "source": "SQE1 FLK1: Parliamentary sovereignty and sources of law"
+    },
+    {
+      "stem": "A solicitor practising in England discovers that a junior solicitor at the same firm has deliberately misled a court in an unrelated client matter. The conduct is sufficiently serious to raise a question about the junior solicitor's fitness to practise. What should the solicitor do under the SRA's professional conduct requirements?",
+      "options": [
+        "Ignore the matter because professional misconduct concerns only the individual involved.",
+        "Report the matter only if the misleading statement caused financial loss to a client.",
+        "Keep the matter confidential in all circumstances because the individuals work for the same firm.",
+        "Wait until the court independently discovers the misconduct before taking action.",
+        "Ensure that the serious conduct is promptly reported to the SRA or another appropriate approved regulator."
+      ],
+      "answer": "E",
+      "explanation": "The SRA Code of Conduct requires prompt reporting of facts or matters reasonably believed capable of amounting to a serious breach of regulatory requirements by a regulated person. Deliberately misleading a court is a serious professional concern. The solicitor should act in accordance with reporting obligations rather than conceal the conduct for reputational reasons.",
+      "topic": "Legal Services",
+      "subtopic": "The regulatory role of the SRA",
+      "difficulty": "easy",
+      "source": "SRA Code of Conduct for Solicitors, paragraph 7.7; SRA Principles"
+    },
+    {
+      "stem": "A solicitor is discussing funding options with a client who wishes to bring a civil damages claim in England. The client cannot afford to pay legal fees as the case progresses. The solicitor proposes an agreement under which the solicitor's fees will generally become payable only if specified conditions, including success in the claim, are met. Any success fee must comply with the applicable statutory requirements. Which funding arrangement is being described?",
+      "options": [
+        "A conditional fee agreement",
+        "A fixed fee agreement payable in advance",
+        "A conventional hourly rate retainer",
+        "A third party litigation funding agreement",
+        "A legal expenses insurance policy"
+      ],
+      "answer": "A",
+      "explanation": "A conditional fee agreement commonly provides that some or all of the lawyer's fees are payable only if specified conditions are satisfied, usually connected with success. A success fee may be included subject to statutory restrictions. The agreement does not automatically protect the client from disbursements or the opponent's costs.",
+      "topic": "Legal Services",
+      "subtopic": "Funding options for legal services",
+      "difficulty": "medium",
+      "source": "Courts and Legal Services Act 1990, section 58; Conditional Fee Agreements"
+    },
+    {
+      "stem": "A solicitor in England is asked to represent two companies negotiating the purchase and sale of the same commercial business. The buyer wants to pay as little as possible, while the seller wants to maximise the sale price. The solicitor would advise both on the purchase price, contractual warranties and allocation of liabilities. Both companies offer written consent to the joint representation. There is a significant risk of conflict, their interests are directly opposed, and neither exception in paragraph 6.2 of the SRA Code of Conduct applies. What should the solicitor do?",
+      "options": [
+        "Act for both companies because written consent always removes a conflict.",
+        "Act for both companies if the solicitor charges each client the same fee.",
+        "Act for both companies provided separate files are maintained.",
+        "Decline to act for both companies in the conflicted matter.",
+        "Act for both companies if neither has previously instructed the solicitor."
+      ],
+      "answer": "D",
+      "explanation": "Under paragraph 6.2 of the SRA Code of Conduct, a solicitor must not act where there is a client conflict or significant risk of one unless a specified exception applies and all required safeguards are met. Written consent alone is insufficient. Where the relevant exception requirements cannot be satisfied, the solicitor cannot represent both clients in the conflicted matter.",
+      "topic": "Legal Services",
+      "subtopic": "Ethics and Professional Conduct",
+      "difficulty": "hard",
+      "source": "SRA Code of Conduct for Solicitors, paragraph 6.2; Client conflicts"
+    }
+  ]
+}
