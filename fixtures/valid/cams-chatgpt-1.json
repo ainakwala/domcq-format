@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "cams",
+  "set": "Certified Anti-Money Laundering Specialist (CAMS) practice – Risk, Governance and Controls",
+  "questions": [
+    {
+      "stem": "A bank identifies a customer who deposits large amounts of cash obtained from illegal drug sales into multiple accounts. The customer subsequently transfers the funds through several companies before purchasing commercial property. Which activity best illustrates the layering stage of money laundering?",
+      "options": [
+        "Depositing the original cash proceeds into multiple bank accounts",
+        "Purchasing commercial property with the transferred funds",
+        "Transferring funds through several companies to obscure their origin",
+        "Generating income from the commercial property after acquisition"
+      ],
+      "answer": "C",
+      "explanation": "Layering involves moving illicit funds through transactions designed to obscure their source, ownership, or movement. Transfers through multiple companies can complicate the audit trail and distance the proceeds from the underlying crime. Initial deposits generally represent placement, while purchasing property may represent integration.",
+      "topic": "Understanding the Risks and Methods of Financial Crime",
+      "subtopic": "Money Laundering Stages and Methods",
+      "difficulty": "easy",
+      "source": "ACAMS CAMS Examination Content Outline, Domain A: Money laundering methods and stages"
+    },
+    {
+      "stem": "A money services business identifies that a customer has sent multiple remittances of USD 950 to unrelated recipients over three days. The transactions appear deliberately divided to remain below an applicable USD 1,000 identification threshold. Which money laundering technique should the business primarily consider?",
+      "options": [
+        "Structuring transactions to avoid regulatory controls",
+        "Integrating illicit proceeds through asset ownership",
+        "Using trade invoices to manipulate customs valuations",
+        "Moving funds through correspondent banking accounts"
+      ],
+      "answer": "A",
+      "explanation": "Structuring involves dividing transactions into smaller amounts to evade reporting, identification, or other applicable regulatory requirements. A series of payments immediately below a threshold can be a warning sign, particularly when inconsistent with the customer's expected activity. The institution should assess the pattern and surrounding circumstances rather than treating the amounts alone as proof of wrongdoing.",
+      "topic": "Understanding the Risks and Methods of Financial Crime",
+      "subtopic": "Structuring and Transaction Patterns",
+      "difficulty": "easy",
+      "source": "ACAMS CAMS, Understanding Risks and Methods of Financial Crime: Money laundering typologies"
+    },
+    {
+      "stem": "A trading company imports electronic components with a verifiable market value of USD 400,000. An overseas supplier invoices the importer for USD 900,000, and the importer transfers the full invoiced amount. Investigators suspect that the supplier and importer are controlled by the same criminal organization. Which explanation is MOST consistent with trade-based money laundering?",
+      "options": [
+        "The importer is using duplicate shipping documents to increase the reported quantity of goods",
+        "The importer is concealing beneficial ownership by changing the delivery destination",
+        "The supplier is understating the value of the goods to reduce customs duties",
+        "The supplier is over-invoicing goods to transfer additional value across borders"
+      ],
+      "answer": "D",
+      "explanation": "Over-invoicing allows an importer to transfer more money than the legitimate value of the goods, potentially moving illicit value to an overseas counterparty. The difference between the invoice and credible market value is a significant indicator when supported by evidence of related parties or other suspicious activity. Trade-based money laundering can also involve under-invoicing, multiple invoicing, and misrepresentation of shipments.",
+      "topic": "Understanding the Risks and Methods of Financial Crime",
+      "subtopic": "Trade-Based Money Laundering",
+      "difficulty": "medium",
+      "source": "FATF-Egmont Group, Trade-Based Money Laundering: Trends and Developments"
+    },
+    {
+      "stem": "A financial institution is assessing the money laundering risks associated with a foreign bank that requests correspondent banking services. The respondent bank operates in a jurisdiction with weak AML supervision and offers payable-through accounts to its customers. Which TWO measures are particularly appropriate before establishing the relationship? Choose TWO.",
+      "options": [
+        "Rely exclusively on the respondent bank's public credit rating",
+        "Assess the respondent bank's AML controls and regulatory supervision",
+        "Require the respondent bank to discontinue all international transfers",
+        "Obtain approval from senior management before establishing the relationship"
+      ],
+      "answer": "BD",
+      "explanation": "Correspondent banking due diligence includes understanding the respondent institution's business, reputation, supervision, and AML/CFT controls. FATF Recommendation 13 also requires senior management approval before establishing new correspondent banking relationships. Payable-through arrangements create additional exposure requiring appropriate assurance concerning the respondent's customer due diligence and information access.",
+      "topic": "Understanding the Risks and Methods of Financial Crime",
+      "subtopic": "Correspondent Banking Risks",
+      "difficulty": "hard",
+      "source": "FATF Recommendation 13: Correspondent Banking"
+    },
+    {
+      "stem": "A nonprofit organization receives legitimate donations but is suspected of diverting a portion to a terrorist organization. Investigators establish that the donated funds originated from lawful employment income. Which statement BEST describes the potential financial crime?",
+      "options": [
+        "Terrorist financing requires proceeds generated exclusively by criminal conduct",
+        "Money laundering and terrorist financing always require the same predicate offense",
+        "Terrorist financing can involve legitimately sourced funds diverted to terrorist purposes",
+        "Legitimate donations cannot constitute terrorist financing without an initial laundering stage"
+      ],
+      "answer": "C",
+      "explanation": "Terrorist financing may involve funds from either lawful or unlawful sources. The critical concern is their intended or actual use to finance terrorists, terrorist organizations, or terrorist acts, subject to applicable law. Unlike traditional money laundering, the original source of the funds does not necessarily need to be criminal.",
+      "topic": "Understanding the Risks and Methods of Financial Crime",
+      "subtopic": "Terrorist Financing Risks",
+      "difficulty": "easy",
+      "source": "FATF Recommendation 5: Terrorist Financing Offense"
+    },
+    {
+      "stem": "A virtual asset service provider observes that a customer repeatedly transfers cryptocurrency through multiple newly created wallets and a mixing service before sending the assets to an exchange. The transfers occur shortly after the assets arrive from addresses associated with high-risk activity. Which risk indicator is MOST significant?",
+      "options": [
+        "Repeated use of privacy-enhancing transaction chains that obscure the flow of funds",
+        "Movement of virtual assets outside the customer's original cryptocurrency wallet",
+        "Use of several blockchain addresses rather than one permanent customer address",
+        "Conversion of virtual assets into fiat currency through a regulated exchange"
+      ],
+      "answer": "A",
+      "explanation": "Rapid transfers across multiple wallets combined with mixing services can make tracing the origin and destination of virtual assets more difficult. The connection to high-risk addresses further increases concern and warrants investigation. Wallet multiplicity and conversions are not inherently suspicious; the institution must evaluate the combined pattern, customer profile, and available blockchain intelligence.",
+      "topic": "Understanding the Risks and Methods of Financial Crime",
+      "subtopic": "Virtual Asset Money Laundering Risks",
+      "difficulty": "medium",
+      "source": "FATF, Virtual Assets Red Flag Indicators of Money Laundering and Terrorist Financing"
+    },
+    {
+      "stem": "A compliance officer is reviewing the role of the Financial Action Task Force (FATF) in international anti-money laundering regulation. Which statement MOST accurately describes the FATF Recommendations?",
+      "options": [
+        "They are directly enforceable criminal statutes in every FATF member jurisdiction",
+        "They establish international standards that jurisdictions implement through domestic measures",
+        "They authorize FATF to prosecute financial institutions that fail regulatory examinations",
+        "They replace domestic AML legislation for financial institutions operating internationally"
+      ],
+      "answer": "B",
+      "explanation": "The FATF Recommendations establish international standards for combating money laundering, terrorist financing, and proliferation financing. Jurisdictions implement these standards through their legal, regulatory, and institutional frameworks. FATF assesses technical compliance and effectiveness but does not directly prosecute institutions under the Recommendations.",
+      "topic": "Global AFC Frameworks, Governance, and Regulations",
+      "subtopic": "FATF Standards and International Governance",
+      "difficulty": "easy",
+      "source": "FATF Recommendations: Introduction and General Framework"
+    },
+    {
+      "stem": "A financial institution operates subsidiaries in several jurisdictions. One jurisdiction has recently been identified by FATF as high-risk and subject to a call for action. The institution wants to align its response with FATF's risk-based approach. Which action is MOST appropriate?",
+      "options": [
+        "Apply identical controls to every jurisdiction regardless of identified exposure",
+        "Discontinue every business relationship involving a resident of the jurisdiction",
+        "Delegate responsibility for the country's risk assessment to individual customers",
+        "Apply enhanced due diligence and any required countermeasures proportionate to the risks"
+      ],
+      "answer": "D",
+      "explanation": "FATF Recommendation 19 requires enhanced due diligence for business relationships and transactions involving countries for which FATF calls for such measures, proportionate to the risks. Countries must also be able to apply appropriate countermeasures when called upon by FATF and independently where warranted. Institutions should follow applicable domestic requirements and assess the actual exposure rather than assuming all relationships must automatically terminate.",
+      "topic": "Global AFC Frameworks, Governance, and Regulations",
+      "subtopic": "High-Risk Jurisdictions and Countermeasures",
+      "difficulty": "medium",
+      "source": "FATF Recommendation 19: Higher-Risk Countries"
+    },
+    {
+      "stem": "A bank's financial intelligence team is examining the different roles performed by financial intelligence units (FIUs), financial supervisors, and law enforcement agencies. Which TWO activities are characteristic functions of an FIU? Choose TWO.",
+      "options": [
+        "Receiving and analyzing suspicious transaction reports and related information",
+        "Approving every new financial product offered by regulated institutions",
+        "Disseminating relevant financial intelligence to competent authorities",
+        "Issuing criminal convictions against individuals suspected of laundering money"
+      ],
+      "answer": "AC",
+      "explanation": "FIUs serve as central agencies for receiving and analyzing suspicious transaction reports and other relevant financial information. They disseminate the results of their analysis to appropriate competent authorities to support investigations and enforcement. Product authorization and criminal adjudication are generally responsibilities of other authorities.",
+      "topic": "Global AFC Frameworks, Governance, and Regulations",
+      "subtopic": "Financial Intelligence Units",
+      "difficulty": "medium",
+      "source": "FATF Recommendation 29: Financial Intelligence Units"
+    },
+    {
+      "stem": "A bank participates in a public-private partnership with law enforcement to exchange information about suspected organized crime networks. Investigators request information about customers who may be connected to an emerging laundering typology. The partnership operates across jurisdictions with different privacy and confidentiality requirements. Which approach BEST balances effective collaboration with legal compliance?",
+      "options": [
+        "Share complete customer records with every participant regardless of investigative relevance",
+        "Obtain general customer consent once and permit unrestricted future intelligence sharing",
+        "Exchange information through lawful, secure arrangements with appropriate access restrictions",
+        "Restrict the partnership to publicly available information in every jurisdiction"
+      ],
+      "answer": "C",
+      "explanation": "Effective public-private partnerships depend on lawful information sharing, clear governance, appropriate safeguards, and secure handling of sensitive information. Disclosure must be consistent with the legal authority and privacy obligations applicable to the participants and jurisdictions involved. Excessively broad sharing creates risks, while an unnecessarily absolute restriction can undermine legitimate financial crime investigations.",
+      "topic": "Global AFC Frameworks, Governance, and Regulations",
+      "subtopic": "Public-Private Partnerships and Information Sharing",
+      "difficulty": "hard",
+      "source": "ACAMS CAMS Examination Content Outline, Domain B: Public-private partnerships and data sharing"
+    },
+    {
+      "stem": "A financial institution uses a three-lines-of-defense model to manage financial crime risk. Which function is generally responsible for providing independent assurance to the board regarding the effectiveness of the institution's AML compliance framework?",
+      "options": [
+        "The customer onboarding and relationship management team",
+        "The compliance monitoring and financial crime advisory function",
+        "The transaction processing and payment operations department",
+        "The internal audit function operating as the third line"
+      ],
+      "answer": "D",
+      "explanation": "Internal audit provides independent assurance over the design and operating effectiveness of governance, risk management, and internal controls. Business functions generally own and manage risks as the first line, while compliance and risk functions provide second-line oversight and challenge. Internal audit's independence supports objective reporting to the board or its audit committee.",
+      "topic": "Building an Anti-Financial Crime Compliance Program",
+      "subtopic": "Three Lines of Defense",
+      "difficulty": "easy",
+      "source": "ACAMS CAMS Examination Content Outline, Domain C: Three lines of defense and internal audit"
+    },
+    {
+      "stem": "An AML compliance team is conducting an enterprise-wide financial crime risk assessment. It identifies high inherent risk from international correspondent banking but finds that strong customer due diligence, transaction monitoring, and sanctions controls are operating effectively. Which statement BEST describes residual risk?",
+      "options": [
+        "It is the remaining financial crime risk after considering the effectiveness of controls",
+        "It is the maximum financial crime exposure before considering any risk mitigation",
+        "It is the amount of operational loss already incurred from confirmed financial crimes",
+        "It is the institution's approved financial crime risk appetite expressed in monetary terms"
+      ],
+      "answer": "A",
+      "explanation": "Residual risk is the risk remaining after the institution considers its controls and their effectiveness. Inherent risk reflects exposure before the impact of mitigating measures. Strong controls can reduce residual risk, but they do not automatically eliminate the underlying financial crime exposure.",
+      "topic": "Building an Anti-Financial Crime Compliance Program",
+      "subtopic": "Enterprise-Wide Financial Crime Risk Assessment",
+      "difficulty": "easy",
+      "source": "ACAMS CAMS Examination Content Outline, Domain C: Inherent risk, controls and residual risk"
+    },
+    {
+      "stem": "During onboarding, a bank establishes that a prospective corporate customer has a complicated ownership structure involving several holding companies. The customer operates in a high-risk industry and is seeking substantial international payment services. Which THREE actions are appropriate elements of risk-based enhanced due diligence? Choose THREE.",
+      "options": [
+        "Treat the holding companies as the ultimate beneficial owners without further inquiry",
+        "Identify and take reasonable measures to verify the ultimate beneficial owners",
+        "Obtain additional information about the purpose and intended nature of the relationship",
+        "Establish the source of funds or wealth as appropriate to the identified risks"
+      ],
+      "answer": "BCD",
+      "explanation": "Enhanced due diligence is designed to address higher-risk relationships by obtaining deeper information about ownership, business purpose, and relevant sources of funds or wealth. Complex ownership structures should be investigated to identify the natural persons who ultimately own or control the customer. Merely recording intermediate holding companies does not adequately resolve beneficial ownership concerns.",
+      "topic": "Building an Anti-Financial Crime Compliance Program",
+      "subtopic": "Enhanced Customer Due Diligence",
+      "difficulty": "medium",
+      "source": "FATF Recommendation 10: Customer Due Diligence"
+    },
+    {
+      "stem": "A bank's transaction monitoring team identifies suspicious transfers involving an established customer. The investigators have reasonable grounds for suspicion and are preparing a report to the relevant FIU. The customer's relationship manager proposes warning the customer that a suspicious transaction report will be submitted. Which response is MOST appropriate?",
+      "options": [
+        "Inform the customer after filing the report so the customer can contest the suspicion",
+        "Ask the customer for written authorization before submitting the report to the FIU",
+        "Maintain required confidentiality and avoid disclosing the intended or actual report",
+        "Delay reporting until investigators can establish the customer's criminal intent"
+      ],
+      "answer": "C",
+      "explanation": "Suspicious transaction reporting regimes generally prohibit tipping off a customer about a report or related information in circumstances covered by applicable law. Reporting is ordinarily based on reasonable suspicion rather than proof of criminal conduct. Institutions should follow local reporting thresholds, deadlines, and confidentiality requirements while maintaining an appropriate investigation record.",
+      "topic": "Building an Anti-Financial Crime Compliance Program",
+      "subtopic": "Suspicious Transaction Reporting and Tipping-Off",
+      "difficulty": "medium",
+      "source": "FATF Recommendations 20 and 21: Reporting Suspicious Transactions and Tipping-Off"
+    },
+    {
+      "stem": "A bank's board has approved a risk appetite statement that prohibits establishing relationships with unlicensed financial intermediaries. A commercial business unit requests an exception to onboard an intermediary that cannot demonstrate a required license. Which action BEST reflects an effective risk appetite governance framework?",
+      "options": [
+        "Allow the relationship if projected revenue compensates for the additional compliance costs",
+        "Reject onboarding under the current policy and escalate any proposed policy change through governance",
+        "Permit onboarding if frontline staff increase the frequency of transaction monitoring",
+        "Defer the licensing review until the customer's first annual compliance assessment"
+      ],
+      "answer": "B",
+      "explanation": "An approved risk appetite statement establishes boundaries for the risks an institution is prepared to accept. A prohibited relationship should not be treated as permissible merely because it generates revenue or receives additional monitoring. Any change to the prohibition must follow appropriate governance and cannot override applicable legal or regulatory requirements.",
+      "topic": "Building an Anti-Financial Crime Compliance Program",
+      "subtopic": "Risk Appetite and Compliance Governance",
+      "difficulty": "medium",
+      "source": "ACAMS CAMS Examination Content Outline, Domain C: Risk appetite statements and governance"
+    },
+    {
+      "stem": "A financial institution plans to terminate a customer's account after identifying activity consistent with an ongoing money laundering investigation. Law enforcement has previously requested cooperation concerning the customer, but no legal order requiring the account to remain open has been issued. The bank's financial crime committee must determine its next steps. Which action is MOST appropriate?",
+      "options": [
+        "Immediately close the account without considering any existing investigation-related communications",
+        "Keep the account open indefinitely because prior law enforcement interest prevents closure",
+        "Notify the customer that law enforcement is investigating and request an explanation",
+        "Coordinate with relevant authorities where appropriate, assess legal obligations, and document the exit decision"
+      ],
+      "answer": "D",
+      "explanation": "Customer exit decisions should consider applicable law, law enforcement communications, ongoing investigations, and risks associated with continued operation or closure. The institution should consult appropriate internal stakeholders and authorities when permitted or required, without assuming an informal expression of interest creates an indefinite legal hold. A documented, risk-based decision helps avoid tipping off and supports defensible governance.",
+      "topic": "Building an Anti-Financial Crime Compliance Program",
+      "subtopic": "Customer Exit Controls and Law Enforcement Coordination",
+      "difficulty": "hard",
+      "source": "ACAMS CAMS Examination Content Outline, Domain C: Customer lifecycle and exit controls"
+    },
+    {
+      "stem": "A bank uses automated sanctions screening to compare customers and payment counterparties against designated persons lists. A legitimate customer frequently generates alerts because their name resembles a listed person's name. Which technology-related challenge does this situation primarily illustrate?",
+      "options": [
+        "A false-positive match requiring further screening review",
+        "A confirmed sanctions violation requiring asset confiscation",
+        "A false-negative result caused by incomplete transaction data",
+        "A transaction monitoring threshold breach requiring a fraud alert"
+      ],
+      "answer": "A",
+      "explanation": "A false positive occurs when a screening system flags an individual or entity that is not actually the designated party. Similar names can create matches that require review of additional identifying information. Effective screening programs balance detection sensitivity with reliable alert assessment and documented disposition.",
+      "topic": "Tools and Technologies to Fight Financial Crime",
+      "subtopic": "Sanctions Screening and False Positives",
+      "difficulty": "medium",
+      "source": "ACAMS CAMS Examination Content Outline, Domain D: Screening tools and alert management"
+    },
+    {
+      "stem": "An AML department plans to introduce machine learning to prioritize transaction monitoring alerts. The proposed model is trained on historical investigation outcomes, but some historical cases were inconsistently labeled by analysts. Which risk should the model governance team address FIRST before relying on its outputs?",
+      "options": [
+        "The possibility that automated models will always generate more alerts than rule-based systems",
+        "The possibility that machine learning cannot analyze transactions involving multiple currencies",
+        "The possibility that poor training labels will undermine model accuracy and introduce bias",
+        "The possibility that historical transaction data cannot be used for financial crime analysis"
+      ],
+      "answer": "C",
+      "explanation": "Supervised machine learning depends on reliable training labels that meaningfully distinguish suspicious from nonsuspicious patterns. Inconsistent historical decisions can introduce label noise and bias, making predictions unreliable even when a model appears statistically sophisticated. Data quality assessment, validation, and ongoing monitoring are essential elements of model governance.",
+      "topic": "Tools and Technologies to Fight Financial Crime",
+      "subtopic": "Machine Learning and Model Risk",
+      "difficulty": "medium",
+      "source": "ACAMS CAMS, Tools and Technologies to Fight Financial Crime: AI, machine learning and data quality"
+    },
+    {
+      "stem": "A financial institution is designing a network analytics system to investigate suspected money laundering networks. Investigators want to identify clusters of accounts that share beneficial owners, counterparties, devices, or transaction relationships. Which approach is MOST directly suited to this objective?",
+      "options": [
+        "Using a spreadsheet to rank accounts solely by monthly transaction volume",
+        "Using graph analytics to examine connections among customers, accounts, and transactions",
+        "Using optical character recognition to convert identity documents into searchable text",
+        "Using a screening engine to compare customer names only against sanctions lists"
+      ],
+      "answer": "B",
+      "explanation": "Graph analytics represents accounts, people, entities, and other relevant objects as nodes connected by relationships. This approach can reveal transaction networks, shared attributes, and indirect links that are difficult to detect by reviewing accounts individually. It is particularly useful for identifying interconnected financial crime activity when supported by reliable underlying data.",
+      "topic": "Tools and Technologies to Fight Financial Crime",
+      "subtopic": "Graph Analytics and Network Detection",
+      "difficulty": "medium",
+      "source": "ACAMS CAMS, Tools and Technologies to Fight Financial Crime: Data analytics and network analysis"
+    },
+    {
+      "stem": "A multinational bank introduces a new transaction monitoring model that substantially reduces alert volumes. Validation shows that the model performs well on historical data, but the validation dataset contains few examples of cross-border transactions involving high-risk payment corridors. The bank plans to replace its existing rules immediately. Which TWO actions are MOST appropriate before full deployment? Choose TWO.",
+      "options": [
+        "Approve deployment solely because the model reduces the number of alerts analysts must review",
+        "Eliminate existing monitoring controls because historical validation demonstrates effectiveness",
+        "Restrict validation to transactions that resemble the most common historical customer behavior",
+        "Test performance on representative high-risk scenarios and establish ongoing performance monitoring"
+      ],
+      "answer": "D",
+      "explanation": "A model should be evaluated against the risks it is expected to detect, including higher-risk and less frequent scenarios that may be underrepresented in historical samples. Representative testing and ongoing performance monitoring help identify coverage gaps, model drift, and unexpected deterioration. Lower alert volumes are beneficial only if detection remains effective; existing controls should not be retired without appropriate validation and governance approval.",
+      "topic": "Tools and Technologies to Fight Financial Crime",
+      "subtopic": "Transaction Monitoring Model Validation",
+      "difficulty": "hard",
+      "source": "ACAMS CAMS Examination Content Outline, Domain D: Technology effectiveness, validation and monitoring"
+    }
+  ]
+}
