@@ -1,0 +1,36 @@
+{
+  "id": "cams",
+  "display_name": "Certified Anti-Money Laundering Specialist (CAMS)",
+  "body": "ACAMS",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by the Association of Certified Anti-Money Laundering Specialists (ACAMS); the names are used only to identify the exam. ACAMS® and the names of ACAMS certifications, including Certified Anti-Money Laundering Specialist (CAMS), are trademarks of the Association of Certified Anti-Money Laundering Specialists, LLC.",
+  "taxonomy": {
+    "Understanding the Risks and Methods of Financial Crime": [],
+    "Global AFC Frameworks, Governance, and Regulations": [],
+    "Building an Anti-Financial Crime Compliance Program": [],
+    "Tools and Technologies to Fight Financial Crime": []
+  },
+  "weights": {
+    "Understanding the Risks and Methods of Financial Crime": 30,
+    "Global AFC Frameworks, Governance, and Regulations": 20,
+    "Building an Anti-Financial Crime Compliance Program": 30,
+    "Tools and Technologies to Fight Financial Crime": 20
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": true,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [],
+  "uncovered_item_types": [],
+  "exam_mode": {
+    "questions": 120,
+    "minutes": 210
+  },
+  "verified_outline": "CAMS Examination Blueprint, Candidate Handbook for the Certified Anti-Money Laundering Specialist Examination (ACAMS)",
+  "verified_on": "2026-10-24",
+  "next_review": "2027-10-24"
+}
