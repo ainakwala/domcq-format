@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "ea-part2",
+  "set": "Enrolled Agent SEE Part 2 — Businesses practice – Comprehensive Exam Prep Set 1",
+  "questions": [
+    {
+      "stem": "Under the entity classification rules (check-the-box regulations), what is the default federal tax classification for a newly formed domestic limited liability company (LLC) with two or more eligible members that does not make an affirmative election?",
+      "options": [
+        "An association taxable as a C corporation",
+        "A partnership for federal income tax purposes",
+        "An association electing to be taxed as an S corporation",
+        "A disregarded entity separate from its owners"
+      ],
+      "answer": "B",
+      "explanation": "Under Treas. Reg. § 301.7701-3 (the check-the-box rules), a newly formed domestic eligible entity with two or more members is classified as a partnership by default unless it files Form 8832 to elect corporate status. A single-member LLC is classified as a disregarded entity by default. S corporation status is never a default classification and always requires an affirmative election.",
+      "topic": "Business Entities and Considerations",
+      "subtopic": "Business entities",
+      "difficulty": "easy",
+      "source": "Treas. Reg. § 301.7701-3; IRS Publication 3402, Taxation of Limited Liability Companies"
+    },
+    {
+      "stem": "Which of the following is correct regarding guaranteed payments made by a partnership to a partner for services or for the use of capital?",
+      "options": [
+        "They are deductible by the partnership only if the partnership has positive taxable income for the year",
+        "They are reported by the recipient partner as passive investment income on Schedule E",
+        "They reduce the partner's capital account and outside basis in the exact manner of an ordinary cash distribution",
+        "They are treated as ordinary income to the partner and deductible by the partnership regardless of partnership profits"
+      ],
+      "answer": "D",
+      "explanation": "Under IRC § 707(c), guaranteed payments are determined without regard to the income of the partnership and are deductible by the partnership under § 162 as ordinary business expenses (or capitalized under § 263 if applicable). The recipient partner must include the guaranteed payment in gross income as ordinary income in the tax year in which the partnership deducts it. For a general partner, guaranteed payments for services are also subject to self-employment tax.",
+      "topic": "Business Entities and Considerations",
+      "subtopic": "Partnerships",
+      "difficulty": "medium",
+      "source": "IRC § 707(c); Treas. Reg. § 1.707-1(c); IRS Publication 541, Partnerships"
+    },
+    {
+      "stem": "On January 15, 2025, Martin contributes land with an adjusted basis of $40,000 and a fair market value of $75,000 to the newly formed Apex Partnership in exchange for a 25% general partnership interest. The land is subject to a nonrecourse mortgage of $24,000, which the partnership assumes. Apex has no other liabilities. What is Martin's initial tax basis in his partnership interest immediately following the contribution?",
+      "options": [
+        "$22,000",
+        "$34,000",
+        "$40,000",
+        "$57,000"
+      ],
+      "answer": "A",
+      "explanation": "Under IRC § 722 and § 752, a partner's initial basis in their partnership interest equals the adjusted basis of the contributed property ($40,000) increased by their allocated share of partnership liabilities and decreased by the individual liability assumed by the partnership. Martin's liability relief is $24,000, while his 25% share of the partnership's new liability is $6,000 (25% of $24,000), resulting in a net debt relief of $18,000. Consequently, his initial basis is $22,000 ($40,000 minus $18,000).",
+      "topic": "Business Entities and Considerations",
+      "subtopic": "Partnerships",
+      "difficulty": "hard",
+      "source": "IRC § 722, § 752; Treas. Reg. § 1.752-1; IRS Publication 541, Partnerships"
+    },
+    {
+      "stem": "Elena transfers equipment with an adjusted basis of $30,000 and a fair market value of $55,000 to Zenith Corporation in exchange for 100% of its only class of stock (worth $45,000) and $10,000 in cash. Immediately after the exchange, Elena owns 100% of Zenith Corporation. What amount of gain must Elena recognize on the exchange?",
+      "options": [
+        "$0",
+        "$5,000",
+        "$10,000",
+        "$25,000"
+      ],
+      "answer": "C",
+      "explanation": "Under IRC § 351, no gain or loss is generally recognized when property is transferred to a corporation solely in exchange for stock if the transferor controls at least 80% of the corporation immediately after the exchange. However, under § 351(b), if the transferor receives cash or other boot property, gain must be recognized to the extent of the lesser of the realized gain ($25,000) or the fair market value of the boot received ($10,000). Therefore, Elena must recognize $10,000 of gain.",
+      "topic": "Business Entities and Considerations",
+      "subtopic": "Forming a corporation",
+      "difficulty": "medium",
+      "source": "IRC § 351(a), § 351(b); IRS Publication 542, Corporations"
+    },
+    {
+      "stem": "At the beginning of 2025, Beacon Corporation, an accrual-method C corporation, has accumulated earnings and profits (E&P) of $15,000. For the year 2025, Beacon generates current E&P of $25,000. On December 1, 2025, Beacon distributes $50,000 in cash to its sole individual shareholder, whose stock basis prior to the distribution was $8,000. How should the shareholder report the $50,000 distribution on their individual tax return?",
+      "options": [
+        "$25,000 dividend, $8,000 return of capital, and $17,000 capital gain",
+        "$40,000 dividend, $8,000 return of capital, and $2,000 capital gain",
+        "$40,000 dividend, $10,000 return of capital, and $0 capital gain",
+        "$50,000 dividend, $0 return of capital, and $0 capital gain"
+      ],
+      "answer": "B",
+      "explanation": "Corporate distributions under IRC § 301(c) are treated first as taxable dividend income to the extent of the corporation's current and accumulated earnings and profits ($25,000 + $15,000 = $40,000). Any remainder is treated as a nontaxable return of basis up to the shareholder's adjusted stock basis ($8,000), reducing basis to zero. Any remaining distribution amount beyond the stock basis ($2,000) is recognized and reported as capital gain.",
+      "topic": "Business Entities and Considerations",
+      "subtopic": "Corporations in general",
+      "difficulty": "medium",
+      "source": "IRC § 301(c), § 316; Treas. Reg. § 1.316-1; IRS Publication 542, Corporations"
+    },
+    {
+      "stem": "Which of the following shareholders would cause a corporation to lose its status as an eligible small business corporation under Subchapter S?",
+      "options": [
+        "A resident alien individual residing permanently in the United States",
+        "An estate of a deceased individual shareholder during administration",
+        "A qualified Subchapter S trust (QSST) holding stock for an eligible beneficiary",
+        "A domestic partnership holding shares on behalf of individual partners"
+      ],
+      "answer": "D",
+      "explanation": "Under IRC § 1361(b)(1)(B), an S corporation cannot have a partnership, a corporation, or a nonresident alien as a shareholder. Permissible shareholders are limited to individuals (who are U.S. citizens or resident aliens), estates, and certain qualified trusts such as QSSTs and ESBTs. If a partnership acquires stock in an S corporation, the corporation's S election immediately terminates.",
+      "topic": "Business Entities and Considerations",
+      "subtopic": "S corporations",
+      "difficulty": "easy",
+      "source": "IRC § 1361(b)(1); Treas. Reg. § 1.1361-1(f); Instructions for Form 1120-S"
+    },
+    {
+      "stem": "Which of the following is correct regarding the built-in gains (BIG) tax imposed under Section 1374 on an S corporation that previously operated as a C corporation?",
+      "options": [
+        "The tax applies to net recognized built-in gains during the 5-year recognition period following the effective date of the S election",
+        "The tax applies indefinitely to any appreciated property held by the corporation on the conversion date",
+        "The tax is assessed at the individual marginal tax rate of the S corporation's majority shareholder",
+        "The tax can be completely avoided if the S corporation distributes all of its current earnings each year"
+      ],
+      "answer": "A",
+      "explanation": "Under IRC § 1374, an S corporation that was formerly a C corporation is subject to corporate-level built-in gains tax on net recognized built-in gains during the 5-year recognition period beginning on the first day of the first tax year for which the S election is effective. The tax is computed by applying the highest corporate tax rate (currently a flat 21%) to the net recognized built-in gain for the tax year. Distributing earnings or holding the property past the 5-year window does not retroactively eliminate liability incurred during that period.",
+      "topic": "Business Entities and Considerations",
+      "subtopic": "S corporations",
+      "difficulty": "hard",
+      "source": "IRC § 1374(a), § 1374(d)(7); Treas. Reg. § 1.1374-1; Instructions for Form 1120-S Schedule D"
+    },
+    {
+      "stem": "Under the general rules of Treasury Regulation Section 1.451-8, when may an accrual-method business defer recognizing advance payments received for services to be performed in a future tax year?",
+      "options": [
+        "Advance payments may be deferred indefinitely until the contractual services are completely performed",
+        "Advance payments may be deferred for up to three tax years if specified in a written service agreement",
+        "Advance payments may be deferred to the next succeeding tax year to the extent not earned in the year of receipt",
+        "Advance payments can never be deferred and must always be recognized fully in the tax year of receipt"
+      ],
+      "answer": "C",
+      "explanation": "Under IRC § 451(c) and Treas. Reg. § 1.451-8, an accrual-method taxpayer may elect a deferral method for qualifying advance payments for services. Under this method, the taxpayer includes the advance payment in gross income in the tax year of receipt to the extent recognized in its applicable financial statement (or earned in that year), and defers the remaining portion to the immediately succeeding tax year. Deferral beyond the next succeeding tax year is not permitted.",
+      "topic": "Business Tax Preparation",
+      "subtopic": "Business Income",
+      "difficulty": "medium",
+      "source": "IRC § 451(c); Treas. Reg. § 1.451-8; IRS Publication 538, Accounting Periods and Methods"
+    },
+    {
+      "stem": "A sole proprietor operates a consulting firm using the cash method of accounting. In November 2025, the proprietor bills a commercial client $4,500 for services rendered. In December 2025, the client files for bankruptcy, and the proprietor determines that the uncollected bill is completely worthless. How should the proprietor treat this uncollectible amount on Schedule C for 2025?",
+      "options": [
+        "Deduct $4,500 as an ordinary business bad debt expense",
+        "Claim no deduction because the income was never previously included in gross receipts",
+        "Report a $4,500 nonbusiness bad debt deductible as a short-term capital loss",
+        "Deduct 50% of the unpaid balance as a partial business bad debt deduction"
+      ],
+      "answer": "B",
+      "explanation": "Under IRC § 166 and Treas. Reg. § 1.166-1(e), a taxpayer using the cash receipts and disbursements method of accounting cannot deduct uncollectible receivables or fees as bad debts because the amount was never recognized or included in gross income. A bad debt deduction requires the taxpayer to have an adjusted tax basis in the debt. Since the cash-basis taxpayer never included the billed amount in revenue, their basis in the receivable is zero.",
+      "topic": "Business Tax Preparation",
+      "subtopic": "Business Income",
+      "difficulty": "easy",
+      "source": "IRC § 166; Treas. Reg. § 1.166-1(e); IRS Publication 535, Business Expenses"
+    },
+    {
+      "stem": "During 2025, a business owner incurs the following expenses while meeting with and entertaining clients: $1,200 for meals at restaurants where business was actively discussed, and $800 for tickets to take prospective clients to a professional baseball game. What is the total allowable tax deduction for these expenses?",
+      "options": [
+        "$0",
+        "$1,000",
+        "$1,200",
+        "$600"
+      ],
+      "answer": "D",
+      "explanation": "Under IRC § 274(a)(1), expenses related to entertainment, amusement, or recreation—including sporting event tickets—are completely nondeductible. Under IRC § 274(k) and § 274(n), ordinary and necessary business meals where the taxpayer or an employee is present and which are not lavish or extravagant are subject to a 50% deduction limit. Therefore, the business can deduct $600 (50% of $1,200) for the meals and $0 for the baseball tickets.",
+      "topic": "Business Tax Preparation",
+      "subtopic": "Business expenses, deductions and credits",
+      "difficulty": "easy",
+      "source": "IRC § 274(a), § 274(k), § 274(n); IRS Publication 463, Travel, Gift, and Car Expenses"
+    },
+    {
+      "stem": "In June 2025, David incurred $52,000 in qualifying business start-up expenditures before officially launching an active retail boutique on July 1, 2025. David wishes to claim the maximum allowable start-up deduction on his 2025 tax return. What is the total amount David can deduct for start-up expenditures in 2025, including immediate expensing and amortization?",
+      "options": [
+        "$4,633",
+        "$3,000",
+        "$5,000",
+        "$6,733"
+      ],
+      "answer": "A",
+      "explanation": "Under IRC § 195, a taxpayer may elect to deduct up to $5,000 of start-up expenditures in the tax year the active business begins, reduced dollar-for-dollar by the amount expenditures exceed $50,000. Since David incurred $52,000, the immediate deduction is reduced by $2,000 to $3,000 ($5,000 minus $2,000). The remaining $49,000 ($52,000 minus $3,000) is amortized over 180 months starting in July 2025, yielding $1,633 for 6 months ($49,000 × 6 / 180), for a total 2025 deduction of $4,633.",
+      "topic": "Business Tax Preparation",
+      "subtopic": "Business expenses, deductions and credits",
+      "difficulty": "medium",
+      "source": "IRC § 195(b); IRS Publication 535, Business Expenses"
+    },
+    {
+      "stem": "Which of the following is correct regarding the taxable income limitation on the Section 179 expensing deduction?",
+      "options": [
+        "Any Section 179 deduction disallowed due to the taxable income limitation is permanently lost",
+        "The taxable income limitation is calculated separately for each individual asset placed in service",
+        "The deduction cannot exceed aggregate active business taxable income, with disallowed amounts carried forward indefinitely",
+        "Section 179 expensing may create or increase a net operating loss if the business is operated as a C corporation"
+      ],
+      "answer": "C",
+      "explanation": "Under IRC § 179(b)(3), the total cost of Section 179 property that may be deducted in any taxable year cannot exceed the aggregate amount of taxable income derived from the active conduct of any trade or business during the year. Any amount disallowed because of this taxable income limitation is carried forward indefinitely to succeeding tax years under IRC § 179(b)(3)(B). Unlike bonus depreciation or regular MACRS, Section 179 cannot create or increase a net operating loss.",
+      "topic": "Business Tax Preparation",
+      "subtopic": "Business assets",
+      "difficulty": "medium",
+      "source": "IRC § 179(b)(3); Treas. Reg. § 1.179-2(c); IRS Publication 946, How To Depreciate Property"
+    },
+    {
+      "stem": "During 2025, a calendar-year corporation acquires and places in service the following new 5-year MACRS tangible personal property: $30,000 in March, $20,000 in June, and $40,000 in November. No Section 179 or bonus depreciation election is made. What depreciation convention must the corporation apply to all personal property placed in service during 2025?",
+      "options": [
+        "Half-year convention for all property",
+        "Mid-quarter convention for all property",
+        "Half-year convention for March and June property, and mid-quarter convention for November property",
+        "Mid-month convention for all property"
+      ],
+      "answer": "B",
+      "explanation": "Under IRC § 168(d)(3), the mid-quarter convention must be used for all qualifying MACRS personal property placed in service during the year if the aggregate basis of property placed in service during the last three months of the tax year exceeds 40% of the total basis of all personal property placed in service during the entire year. Here, $40,000 of the total $90,000 (44.4%) was placed in service in November (the fourth quarter). Because this exceeds the 40% threshold, the mid-quarter convention applies to all assets placed in service during 2025.",
+      "topic": "Business Tax Preparation",
+      "subtopic": "Business assets",
+      "difficulty": "medium",
+      "source": "IRC § 168(d)(3); Treas. Reg. § 1.168(d)-1; IRS Publication 946, How To Depreciate Property"
+    },
+    {
+      "stem": "In 2021, an S corporation purchased machinery for $50,000 and used it 100% in its trade or business. Through 2025, the corporation claimed a total of $32,000 in MACRS depreciation deductions on the machine. On October 12, 2025, the corporation sells the machinery for $56,000. How should the resulting gain be characterized on the corporation's tax return?",
+      "options": [
+        "$38,000 Section 1231 gain",
+        "$38,000 ordinary income",
+        "$32,000 Section 1231 gain and $6,000 ordinary income",
+        "$32,000 ordinary income and $6,000 Section 1231 gain"
+      ],
+      "answer": "D",
+      "explanation": "Under IRC § 1245, gain recognized on the sale or disposition of depreciable personal property is treated as ordinary income to the extent of all depreciation or amortization deductions previously allowed or allowable. The total recognized gain is $38,000 ($56,000 sales price minus $18,000 adjusted basis). Of that gain, $32,000 is recaptured as ordinary income under § 1245, and the remaining $6,000 in excess of the original purchase price is characterized as Section 1231 gain.",
+      "topic": "Business Tax Preparation",
+      "subtopic": "Business assets",
+      "difficulty": "hard",
+      "source": "IRC § 1245(a); Treas. Reg. § 1.1245-1; IRS Publication 544, Sales and Other Dispositions of Assets"
+    },
+    {
+      "stem": "Which of the following items represents a permanent difference that increases taxable income relative to book net income on Schedule M-1 of Form 1120?",
+      "options": [
+        "The nondeductible 50% portion of business meal expenses",
+        "Tax depreciation in excess of straight-line book depreciation",
+        "Tax-exempt interest received on state and local municipal bonds",
+        "An advance payment received for services deferred for tax purposes under Section 451"
+      ],
+      "answer": "A",
+      "explanation": "Schedule M-1 reconciles net income per financial accounting books with taxable income before special deductions on Form 1120. Under IRC § 274(n), 50% of qualifying business meal expenses is nondeductible for tax purposes while being fully expensed on the books, creating a permanent difference that must be added back to book income to arrive at taxable income. Tax-exempt municipal bond interest is deducted from book income, while excess tax depreciation reduces taxable income as a temporary difference.",
+      "topic": "Business Tax Preparation",
+      "subtopic": "Analysis of financial records",
+      "difficulty": "medium",
+      "source": "Treas. Reg. § 1.6012-2; Instructions for Form 1120 (Schedule M-1)"
+    },
+    {
+      "stem": "When evaluating whether a worker should be classified as an independent contractor or an employee for federal employment tax purposes, which IRS form may either the worker or the business file to request an official determination?",
+      "options": [
+        "Form 8832",
+        "Form 2553",
+        "Form SS-8",
+        "Form 8829"
+      ],
+      "answer": "C",
+      "explanation": "Form SS-8 (Determination of Worker Status for Purposes of Federal Employment Taxes and Income Tax Withholding) is filed by either a firm or a worker to request that the IRS review the common law factors and issue an official ruling on worker status. Form 8832 is used for entity classification elections, Form 2553 is used for S corporation elections, and Form 8829 is used to calculate expenses for business use of a home.",
+      "topic": "Business Tax Preparation",
+      "subtopic": "Advising the business taxpayer",
+      "difficulty": "easy",
+      "source": "Treas. Reg. § 31.3121(d)-1; IRS Form SS-8 Instructions; IRS Publication 15-A"
+    },
+    {
+      "stem": "Under the Internal Revenue Code, which of the following characteristics distinguishes a simple trust from a complex trust on Form 1041?",
+      "options": [
+        "A simple trust is permitted to make distributions to qualified charitable organizations",
+        "A simple trust is required by the governing instrument to distribute all accounting income currently",
+        "A simple trust is allowed a personal exemption deduction of $600 against its taxable income",
+        "A simple trust may make discretionary distributions out of the trust's principal corpus"
+      ],
+      "answer": "B",
+      "explanation": "Under IRC § 651, a simple trust is one whose governing instrument requires that all trust accounting income be distributed currently, does not distribute amounts from corpus (principal), and does not provide for any charitable contributions. A complex trust, under IRC § 661, can accumulate income, distribute corpus, or make deductible charitable gifts. Additionally, a simple trust is allowed a $300 personal exemption under IRC § 642(b), whereas a complex trust is allowed $100 and an estate is allowed $600.",
+      "topic": "Specialized Returns and Taxpayers",
+      "subtopic": "Trust and estate income tax",
+      "difficulty": "medium",
+      "source": "IRC § 642(b), § 651; Treas. Reg. § 1.651(a)-1; Instructions for Form 1041"
+    },
+    {
+      "stem": "An organization exempt from federal income tax under Section 501(c)(3) regularly carries on an unrelated trade or business. What is the minimum gross unrelated business income threshold that obligates the organization to file Form 990-T (Exempt Organization Business Income Tax Return)?",
+      "options": [
+        "$0",
+        "$500",
+        "$600",
+        "$1,000"
+      ],
+      "answer": "D",
+      "explanation": "Under IRC § 511 through § 513 and the Instructions for Form 990-T, an exempt organization must file Form 990-T if its gross income from an unrelated trade or business is $1,000 or more for the tax year. Even though IRC § 512(b)(12) allows a specific deduction of $1,000 against unrelated business taxable income, the filing requirement is triggered by gross receipts of $1,000 or more prior to taking that specific deduction.",
+      "topic": "Specialized Returns and Taxpayers",
+      "subtopic": "Exempt organizations",
+      "difficulty": "medium",
+      "source": "IRC § 511, § 512(b)(12); Treas. Reg. § 1.6012-2(e); Instructions for Form 990-T"
+    },
+    {
+      "stem": "Which of the following is correct regarding a Simplified Employee Pension (SEP) IRA plan established by a small business employer?",
+      "options": [
+        "Contributions are made solely by the employer and are 100% immediately vested in each participant",
+        "Participating employees are permitted to make voluntary pre-tax elective deferrals each year",
+        "Employer contributions may be subjected to a 3-year cliff or 6-year graded vesting schedule",
+        "An employer maintaining a SEP plan must file an annual Form 5500 with the Department of Labor"
+      ],
+      "answer": "A",
+      "explanation": "Under IRC § 408(k), contributions to a Simplified Employee Pension (SEP) IRA must be made solely by the employer (salary reduction SEPs or SARSEPs have not been allowed for new plans since 1996). All contributions made to an employee's SEP-IRA vest immediately at 100%, and vesting schedules are strictly prohibited. Furthermore, qualifying SEP-IRA plans are generally exempt from annual Form 5500 reporting requirements.",
+      "topic": "Specialized Returns and Taxpayers",
+      "subtopic": "Retirement plans",
+      "difficulty": "easy",
+      "source": "IRC § 408(k); Treas. Reg. § 1.408-7; IRS Publication 560, Retirement Plans for Small Business"
+    },
+    {
+      "stem": "In 2025, George, an unmarried individual taxpayer, actively participates in managing a residential rental property that generates an annual net rental loss of $30,000. George's modified adjusted gross income (MAGI) before considering the rental loss is $120,000, and he has no passive income. What amount of the rental loss may George deduct against his nonpassive income in 2025 under the active participation special allowance?",
+      "options": [
+        "$0",
+        "$10,000",
+        "$15,000",
+        "$25,000"
+      ],
+      "answer": "C",
+      "explanation": "Under IRC § 469(i), individual taxpayers who actively participate in rental real estate activities may deduct up to $25,000 of passive rental losses against nonpassive income. However, this $25,000 special allowance is phased out by 50% of the amount by which the taxpayer's modified adjusted gross income exceeds $100,000. Because George's MAGI is $120,000, the allowance is reduced by $10,000 (50% of the $20,000 excess), leaving an allowable deduction of $15,000 ($25,000 minus $10,000), with the remaining $15,000 loss suspended.",
+      "topic": "Specialized Returns and Taxpayers",
+      "subtopic": "Rental Property",
+      "difficulty": "hard",
+      "source": "IRC § 469(i); Treas. Reg. § 1.469-9; IRS Publication 925, Passive Activity and At-Risk Rules"
+    }
+  ]
+}

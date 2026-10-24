@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "ea-part1",
+  "set": "Enrolled Agent SEE Part 1 — Individuals practice – 2025 Federal Tax Law",
+  "questions": [
+    {
+      "stem": "Maria is unmarried and paid more than half the cost of maintaining her home in 2025. Her 10-year-old daughter lived with her throughout the year, except for two months spent at a residential summer camp. Maria meets all other requirements for head of household status. Which filing status may Maria use for 2025?",
+      "options": [
+        "Single, because her daughter was physically absent for two months",
+        "Head of household, because the summer camp stay is a temporary absence",
+        "Qualifying surviving spouse, because she supports a dependent child",
+        "Married filing separately, because she maintains a separate household"
+      ],
+      "answer": "B",
+      "explanation": "A temporary absence for a special circumstance, including education or vacation, generally counts as time lived in the home if the child is expected to return. Maria's daughter therefore satisfies the residency requirement, and Maria qualifies as head of household because she also meets the other applicable requirements.",
+      "topic": "Preliminary Work and Taxpayer Data",
+      "subtopic": "Preliminary work to prepare tax returns",
+      "difficulty": "easy",
+      "source": "IRS Publication 501 (2025), Head of Household; Temporary Absences"
+    },
+    {
+      "stem": "A married couple elects to file a joint federal income tax return for 2025. Both spouses are living, legally competent, and available to sign the return. Which of the following statements correctly describes the signature requirement?",
+      "options": [
+        "Only the spouse with the greater taxable income must sign the return",
+        "Only the spouse listed first on Form 1040 must sign the return",
+        "Either spouse may sign the return without the other's authorization",
+        "Both spouses generally must sign the joint income tax return"
+      ],
+      "answer": "D",
+      "explanation": "Both spouses generally must sign a joint return, whether the return is filed electronically or on paper. Limited exceptions apply, such as when an authorized agent signs for a spouse who cannot sign because of specified circumstances.",
+      "topic": "Preliminary Work and Taxpayer Data",
+      "subtopic": "Preliminary work to prepare tax returns",
+      "difficulty": "easy",
+      "source": "IRS Publication 17 (2025), Filing Your Return; Signatures"
+    },
+    {
+      "stem": "During preparation of a 2025 federal income tax return, a taxpayer provides a Form W-2 showing $68,000 in wages. The taxpayer also provides a bank statement showing an additional $4,000 deposit from freelance consulting work for which no Form 1099 was issued. The taxpayer confirms that the deposit was payment for services performed in 2025. How should the preparer treat the consulting payment?",
+      "options": [
+        "Include the $4,000 as business income even though no Form 1099 was issued",
+        "Exclude the $4,000 because the payer did not issue Form 1099",
+        "Report the $4,000 only if the payer later submits Form 1099",
+        "Defer the $4,000 until the taxpayer receives another payment"
+      ],
+      "answer": "A",
+      "explanation": "Income earned from providing services is generally taxable regardless of whether the payer issues an information return. The consulting payment must be included in the taxpayer's 2025 gross income, generally as business income on Schedule C when the activity constitutes a trade or business.",
+      "topic": "Preliminary Work and Taxpayer Data",
+      "subtopic": "Preliminary work to prepare tax returns",
+      "difficulty": "medium",
+      "source": "IRS Publication 17 (2025), Other Income; Schedule C (Form 1040) Instructions"
+    },
+    {
+      "stem": "In 2025, an individual taxpayer receives $12,000 in compensatory damages for physical injuries sustained in an automobile accident. The payment does not represent punitive damages or interest, and the taxpayer did not previously deduct related medical expenses. How much of the payment must generally be included in gross income?",
+      "options": [
+        "$12,000, because all legal settlements are taxable",
+        "$6,000, because half of the settlement is taxable",
+        "$0, because the damages compensate for physical injuries",
+        "$3,000, because a portion of the settlement is taxable"
+      ],
+      "answer": "C",
+      "explanation": "Compensatory damages received on account of personal physical injuries or physical sickness are generally excluded from gross income under Internal Revenue Code Section 104(a)(2). The exclusion does not generally apply to punitive damages or taxable interest, and prior medical expense deductions that produced tax benefits may require separate treatment.",
+      "topic": "Income and Assets",
+      "subtopic": "Income",
+      "difficulty": "easy",
+      "source": "IRS Publication 525 (2025), Court Awards and Damages; IRC Section 104(a)(2)"
+    },
+    {
+      "stem": "Robert was born in 1951 and owns a traditional IRA. He reached age 73 during 2024 and took his required minimum distribution for that year. He remains alive throughout 2025 and is not covered by any exception to the distribution rules. Which statement correctly describes his required minimum distribution for 2025?",
+      "options": [
+        "He may postpone his 2025 distribution until April 1, 2027",
+        "He generally must receive his 2025 distribution by December 31, 2025",
+        "He may suspend distributions until he reaches age 75",
+        "He must withdraw the entire remaining IRA balance during 2025"
+      ],
+      "answer": "B",
+      "explanation": "For an IRA owner whose required beginning date has passed, required minimum distributions generally must be taken by December 31 of each subsequent calendar year. The April 1 deadline applies only to the first required distribution, so Robert's 2025 distribution is due by December 31, 2025.",
+      "topic": "Income and Assets",
+      "subtopic": "Retirement income",
+      "difficulty": "medium",
+      "source": "IRS Publication 590-B (2025), Required Minimum Distributions"
+    },
+    {
+      "stem": "In 2025, an unmarried taxpayer sells publicly traded stock that was inherited from a parent who died in 2024. The stock had a fair market value of $48,000 on the parent's date of death, which was the estate's applicable valuation date. The parent originally purchased the stock for $15,000. The taxpayer sells the shares for $55,000 and pays $1,000 in selling commissions. No other basis adjustments apply. What is the taxpayer's taxable gain?",
+      "options": [
+        "$40,000",
+        "$39,000",
+        "$6,000",
+        "$54,000"
+      ],
+      "answer": "C",
+      "explanation": "Inherited property generally receives a basis equal to its fair market value on the decedent's date of death, unless an applicable alternative valuation or special rule changes that result. The amount realized is $54,000 after selling commissions, and subtracting the $48,000 inherited basis produces a $6,000 gain.",
+      "topic": "Income and Assets",
+      "subtopic": "Property, real and personal",
+      "difficulty": "medium",
+      "source": "IRS Publication 551 (2025), Inherited Property; IRS Publication 550, Sales and Trades of Investment Property"
+    },
+    {
+      "stem": "An unmarried cash-method taxpayer has $30,000 of personal credit card debt discharged in 2025. Immediately before the discharge, the taxpayer's total liabilities are $90,000 and the fair market value of all assets is $72,000. The taxpayer is not in bankruptcy, the debt is otherwise taxable cancellation-of-debt income, and no other exclusion applies. How much cancellation-of-debt income must be included in gross income?",
+      "options": [
+        "$12,000",
+        "$18,000",
+        "$30,000",
+        "$0"
+      ],
+      "answer": "A",
+      "explanation": "Under the insolvency exclusion, discharged debt may be excluded from income up to the amount by which liabilities exceed the fair market value of assets immediately before the discharge. The taxpayer is insolvent by $18,000, leaving $12,000 of the $30,000 discharged debt includible in income. The excluded amount may also trigger reductions in tax attributes.",
+      "topic": "Income and Assets",
+      "subtopic": "Income",
+      "difficulty": "hard",
+      "source": "IRS Publication 4681 (2025), Insolvency Exclusion; Form 982 Instructions"
+    },
+    {
+      "stem": "An unmarried taxpayer, age 40, claims the standard deduction for 2025. The taxpayer is not blind, cannot be claimed as a dependent, and is not eligible for any additional standard deduction. What is the taxpayer's standard deduction for 2025?",
+      "options": [
+        "$14,600",
+        "$15,000",
+        "$16,100",
+        "$15,750"
+      ],
+      "answer": "D",
+      "explanation": "The standard deduction for a single taxpayer in 2025 is $15,750 under the law effective for that tax year. This amount reflects the increase enacted during 2025 and does not include additional deductions for age or blindness.",
+      "topic": "Deductions and Credits",
+      "subtopic": "Itemized deductions and QBI",
+      "difficulty": "easy",
+      "source": "IRS Publication 501 (2025), Standard Deduction Tables"
+    },
+    {
+      "stem": "A married couple filing jointly in 2025 has modified adjusted gross income of $180,000. Their 8-year-old qualifying child lived with them throughout the year. Both spouses and the child have Social Security numbers meeting the child tax credit requirements, and the couple has sufficient income tax liability to use the full nonrefundable credit. Assuming all other requirements are met, what is their maximum child tax credit for this child?",
+      "options": [
+        "$1,700",
+        "$2,000",
+        "$2,200",
+        "$2,500"
+      ],
+      "answer": "C",
+      "explanation": "For 2025, the maximum child tax credit is $2,200 per qualifying child under age 17. The married couple's modified adjusted gross income is below the $400,000 joint-filer phaseout threshold, so the full credit is available under the stated assumptions.",
+      "topic": "Deductions and Credits",
+      "subtopic": "Credits",
+      "difficulty": "medium",
+      "source": "2025 Schedule 8812 (Form 1040) Instructions, Child Tax Credit"
+    },
+    {
+      "stem": "A single taxpayer operates a profitable consulting sole proprietorship that qualifies as a specified service trade or business (SSTB). For 2025, taxable income before the qualified business income deduction is $180,000. The business generates $60,000 of qualified business income, the taxpayer has no qualified REIT dividends or PTP income, and the taxpayer has sufficient taxable income after net capital gain to support the full deduction. What is the taxpayer's qualified business income deduction?",
+      "options": [
+        "$6,000",
+        "$12,000",
+        "$18,000",
+        "$0"
+      ],
+      "answer": "B",
+      "explanation": "In 2025, a single taxpayer with taxable income before the QBI deduction not exceeding $197,300 may generally treat income from an SSTB as qualified business income. The basic deduction equals 20% of $60,000, or $12,000, and the taxpayer is not restricted by the taxable-income limitation in this scenario.",
+      "topic": "Deductions and Credits",
+      "subtopic": "Itemized deductions and QBI",
+      "difficulty": "medium",
+      "source": "IRS Instructions for Form 8995 (2025), Qualified Business Income Deduction"
+    },
+    {
+      "stem": "A married couple filing jointly in 2025 pays $16,000 in state income taxes and $14,000 in real property taxes on their personal residence. Both taxes qualify for the itemized deduction. Their modified adjusted gross income is $240,000, and they are not subject to any special reduction in the state and local tax deduction limit. What is their deductible state and local tax amount on Schedule A?",
+      "options": [
+        "$30,000",
+        "$10,000",
+        "$20,000",
+        "$40,000"
+      ],
+      "answer": "A",
+      "explanation": "For 2025, the general state and local tax itemized deduction limit is $40,000 for joint filers, subject to income-based reductions at higher modified adjusted gross income levels. Because the couple's qualifying taxes total $30,000 and their income does not trigger a reduction, the entire $30,000 is deductible.",
+      "topic": "Deductions and Credits",
+      "subtopic": "Itemized deductions and QBI",
+      "difficulty": "medium",
+      "source": "2025 Instructions for Schedule A (Form 1040), Taxes You Paid"
+    },
+    {
+      "stem": "A single taxpayer has a $9,000 net short-term capital loss and a $2,000 net long-term capital gain for 2025. The taxpayer has sufficient ordinary income, no capital loss carryforward from earlier years, and no special limitations apply. How much of the net capital loss can be deducted against ordinary income in 2025?",
+      "options": [
+        "$7,000",
+        "$9,000",
+        "$2,000",
+        "$3,000"
+      ],
+      "answer": "D",
+      "explanation": "The short-term loss and long-term gain combine to produce a $7,000 net capital loss. An individual filing as single may generally deduct up to $3,000 of net capital losses against ordinary income annually, with the remaining $4,000 carried forward under the capital loss carryover rules.",
+      "topic": "Taxation",
+      "subtopic": "Taxation",
+      "difficulty": "medium",
+      "source": "IRS Publication 550 (2025), Capital Loss Limit and Capital Loss Carryovers"
+    },
+    {
+      "stem": "A self-employed individual has $20,000 in net profit from a sole proprietorship for 2025, calculated on Schedule C. The taxpayer has no other earned income, is not exempt from self-employment tax, and is below the Social Security wage base. Using the standard 92.35% net earnings factor and the combined 15.3% self-employment tax rate, approximately how much self-employment tax is owed?",
+      "options": [
+        "$3,060",
+        "$2,826",
+        "$1,413",
+        "$2,400"
+      ],
+      "answer": "B",
+      "explanation": "Net earnings subject to self-employment tax are generally 92.35% of Schedule C net profit, giving $18,470. Applying the combined 15.3% Social Security and Medicare tax rate produces approximately $2,826 before considering the separate deduction for one-half of self-employment tax.",
+      "topic": "Taxation",
+      "subtopic": "Taxation",
+      "difficulty": "medium",
+      "source": "IRS Schedule SE (Form 1040) Instructions (2025), Figuring Self-Employment Tax"
+    },
+    {
+      "stem": "An unmarried taxpayer has modified adjusted gross income of $210,000 in 2025, including $20,000 of net investment income from taxable interest and dividends. The taxpayer has no other investment income or investment deductions and is not married, a surviving spouse, or a dependent. What is the taxpayer's net investment income tax for 2025?",
+      "options": [
+        "$760",
+        "$190",
+        "$380",
+        "$0"
+      ],
+      "answer": "C",
+      "explanation": "The 3.8% net investment income tax applies to the lesser of net investment income or modified adjusted gross income exceeding the applicable threshold. For an unmarried individual, the threshold is $200,000, so the tax is 3.8% of the $10,000 excess, or $380.",
+      "topic": "Taxation",
+      "subtopic": "Taxation",
+      "difficulty": "hard",
+      "source": "IRS Instructions for Form 8960 (2025), Net Investment Income Tax"
+    },
+    {
+      "stem": "A taxpayer expects total federal income tax of $30,000 for 2025 and has no withholding or refundable credits. The taxpayer's 2024 federal income tax liability was $20,000, and 2024 adjusted gross income was $170,000. The taxpayer files as single in both years, the 2024 return covered a full 12 months, and no special estimated tax rules apply. What is the minimum total amount of timely withholding and estimated tax payments generally required to satisfy the annual estimated tax safe harbor for 2025?",
+      "options": [
+        "$22,000",
+        "$20,000",
+        "$27,000",
+        "$30,000"
+      ],
+      "answer": "A",
+      "explanation": "The general estimated tax safe harbor is the smaller of 90% of current-year tax or 100% of prior-year tax, increased to 110% of prior-year tax when prior-year adjusted gross income exceeds $150,000 for a single filer. Here, 90% of $30,000 is $27,000, while 110% of $20,000 is $22,000. The smaller amount is $22,000, assuming the payments are made on time.",
+      "topic": "Advising the Individual Taxpayer",
+      "subtopic": "Advising the individual taxpayer",
+      "difficulty": "hard",
+      "source": "IRS Publication 505 (2025), Required Annual Payment; Higher Income Taxpayers"
+    },
+    {
+      "stem": "A taxpayer discovers an omitted item of deductible mortgage interest on a timely filed 2025 federal income tax return. The taxpayer wishes to correct the return and claim a refund. Which form is generally used to amend the previously filed individual federal income tax return?",
+      "options": [
+        "Form 1040-ES",
+        "Form 4868",
+        "Form 8822",
+        "Form 1040-X"
+      ],
+      "answer": "D",
+      "explanation": "Form 1040-X, Amended U.S. Individual Income Tax Return, is generally used to correct a previously filed individual income tax return, including changes to deductions. A refund claim generally must be filed within the applicable statute of limitations, commonly three years from filing or two years from payment, subject to specific rules.",
+      "topic": "Advising the Individual Taxpayer",
+      "subtopic": "Advising the individual taxpayer",
+      "difficulty": "easy",
+      "source": "IRS Instructions for Form 1040-X (2025), Amended U.S. Individual Income Tax Return"
+    },
+    {
+      "stem": "A taxpayer filed a timely 2025 individual income tax return showing $8,000 of federal income tax due. The taxpayer obtained a valid six-month extension to file the return but did not pay the balance by April 15, 2026. Which statement correctly describes the effect of the extension?",
+      "options": [
+        "The extension postpones both filing and payment until October 15",
+        "The extension postpones filing but does not extend the payment deadline",
+        "The extension eliminates interest if the balance is paid by October 15",
+        "The extension automatically creates a six-month installment agreement"
+      ],
+      "answer": "B",
+      "explanation": "An extension of time to file generally does not extend the deadline for paying income tax. Unpaid tax may be subject to interest and applicable late-payment penalties from the original payment due date, even when the return itself is filed within a valid extension period.",
+      "topic": "Advising the Individual Taxpayer",
+      "subtopic": "Advising the individual taxpayer",
+      "difficulty": "medium",
+      "source": "IRS Form 4868 Instructions (2025), Extension of Time to File; Payment of Tax"
+    },
+    {
+      "stem": "An unmarried U.S. citizen dies during 2025 with a gross estate of $14,200,000 and adjusted taxable gifts made during life of $100,000. The individual has no surviving spouse, no deceased spousal unused exclusion, and no other special adjustments. Which statement correctly describes the general federal estate tax return filing requirement?",
+      "options": [
+        "Form 706 is unnecessary because the estate is worth less than $15,000,000",
+        "Form 706 is required only if the estate has a positive estate tax balance",
+        "Form 706 is generally required because the total exceeds $13,990,000",
+        "Form 706 is unnecessary because lifetime gifts are excluded from the calculation"
+      ],
+      "answer": "C",
+      "explanation": "For a U.S. citizen or resident dying in 2025, Form 706 generally must be filed when the gross estate plus adjusted taxable gifts and any relevant specific exemption exceeds the 2025 basic exclusion amount of $13,990,000. The combined amount here is $14,300,000, so the filing threshold is exceeded even if credits and deductions ultimately eliminate estate tax.",
+      "topic": "Specialized Returns for Individuals",
+      "subtopic": "Estate Tax",
+      "difficulty": "hard",
+      "source": "IRS Instructions for Form 706 (2025), Who Must File; Basic Exclusion Amount"
+    },
+    {
+      "stem": "In 2025, a U.S. citizen gives $25,000 in cash to an adult niece. The donor is unmarried, has made no other gifts to the niece during the year, and receives nothing in return. The niece receives an unrestricted present interest in the cash. What amount of the gift is subject to gift tax reporting after the annual exclusion?",
+      "options": [
+        "$6,000",
+        "$25,000",
+        "$19,000",
+        "$0"
+      ],
+      "answer": "A",
+      "explanation": "The annual gift tax exclusion for 2025 is $19,000 per donee for qualifying present-interest gifts. Subtracting the exclusion from the $25,000 cash gift leaves a $6,000 taxable gift to report on Form 709, although the donor may owe no current gift tax because of the available lifetime exclusion.",
+      "topic": "Specialized Returns for Individuals",
+      "subtopic": "Gift Tax",
+      "difficulty": "easy",
+      "source": "IRS Instructions for Form 709 (2025), Annual Exclusion; Gifts Subject to Gift Tax"
+    },
+    {
+      "stem": "During 2025, a U.S. citizen maintains two foreign bank accounts. The first account has a maximum balance of $7,000 and the second has a maximum balance of $5,000. Both maximum balances occur on the same day, and both accounts are personally owned by the taxpayer. Neither account earns interest during the year. Which statement correctly describes the taxpayer's foreign bank account reporting obligation?",
+      "options": [
+        "No FBAR is required because neither individual account exceeds $10,000",
+        "No FBAR is required because neither account generates taxable income",
+        "Only the account with the larger maximum balance must be reported",
+        "An FBAR is required because the aggregate account value exceeds $10,000"
+      ],
+      "answer": "D",
+      "explanation": "A U.S. person generally must file FinCEN Form 114, commonly called the FBAR, when the aggregate value of reportable foreign financial accounts exceeds $10,000 at any time during the calendar year. The simultaneous balances total $12,000, triggering the filing requirement regardless of whether the accounts earned income.",
+      "topic": "Specialized Returns for Individuals",
+      "subtopic": "International Information Reporting",
+      "difficulty": "medium",
+      "source": "FinCEN Form 114 Instructions; IRS Report of Foreign Bank and Financial Accounts (FBAR)"
+    }
+  ]
+}

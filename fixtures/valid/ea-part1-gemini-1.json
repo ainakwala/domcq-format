@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "ea-part1",
+  "set": "Enrolled Agent SEE Part 1 — Individuals practice – 2025 Tax Year Comprehensive Set",
+  "questions": [
+    {
+      "stem": "John's spouse died in September 2023. John did not remarry and maintains a home that is the principal residence for his 10-year-old dependent daughter for all of 2025, paying over half the cost of keeping up the home. Which filing status is John eligible to use for tax year 2025?",
+      "options": [
+        "Qualifying surviving spouse",
+        "Married filing jointly",
+        "Head of household",
+        "Single"
+      ],
+      "answer": "A",
+      "explanation": "A taxpayer whose spouse died within the two preceding tax years qualifies to file as a Qualifying Surviving Spouse if they maintain a household for a dependent child and remain unmarried. Because John's spouse died in 2023, he is entitled to use the qualifying surviving spouse status for tax years 2024 and 2025. If he remains unmarried in 2026, he would then transition to the head of household status.",
+      "topic": "Preliminary Work and Taxpayer Data",
+      "subtopic": "Preliminary work to prepare tax returns",
+      "difficulty": "easy",
+      "source": "IRS Publication 17, Chapter 2 (Filing Status)"
+    },
+    {
+      "stem": "For tax year 2025, which of the following individuals meets the gross income test to be claimed by a taxpayer as a qualifying relative dependent?",
+      "options": [
+        "An uncle whose only source of income is $6,000 of taxable corporate pension benefits",
+        "A 22-year-old cousin who is not a full-time student and earned $5,500 working part-time",
+        "A mother whose only income is $4,800 of taxable interest and $9,000 of nontaxable Social Security benefits",
+        "An unrelated friend who lived with the taxpayer all year and earned $5,300 in freelance income"
+      ],
+      "answer": "C",
+      "explanation": "To meet the qualifying relative dependency test for tax year 2025, the individual's gross income must be less than the statutory exemption amount of $5,200. Nontaxable income, such as tax-exempt Social Security benefits, is excluded when determining gross income for this test. Because the mother's gross income is only the $4,800 of taxable interest, she satisfies the gross income requirement, whereas all other individuals have gross income exceeding $5,200.",
+      "topic": "Preliminary Work and Taxpayer Data",
+      "subtopic": "Preliminary work to prepare tax returns",
+      "difficulty": "medium",
+      "source": "Rev. Proc. 2024-40, Section 3.24; IRS Publication 501"
+    },
+    {
+      "stem": "Evelyn and Mark are legally married and did not obtain a divorce or separate maintenance decree by December 31, 2025. Mark permanently moved out of the marital residence on August 1, 2025. Evelyn paid all the costs of maintaining the home for the entire year, which was the principal residence of their dependent 9-year-old daughter for all of 2025. If Evelyn chooses not to file a joint return with Mark, which filing status must she use for tax year 2025?",
+      "options": [
+        "Head of household",
+        "Married filing separately",
+        "Single",
+        "Qualifying surviving spouse"
+      ],
+      "answer": "B",
+      "explanation": "To qualify as considered unmarried and file as head of household under the abandoned spouse rules of IRC Section 7703(b), the spouse must not have lived in the home at any time during the last six months of the tax year. Because Mark lived in the home until August 1, 2025, he resided there during the final six months of the calendar year. Consequently, Evelyn does not qualify for head of household status and, if she does not file jointly, must file as married filing separately.",
+      "topic": "Preliminary Work and Taxpayer Data",
+      "subtopic": "Preliminary work to prepare tax returns",
+      "difficulty": "hard",
+      "source": "IRC Section 7703(b); IRS Publication 17, Chapter 2"
+    },
+    {
+      "stem": "Which of the following items received by an individual taxpayer during the tax year is fully taxable and must be included in gross income?",
+      "options": [
+        "Workers' compensation benefits received for an on-the-job physical injury",
+        "Qualified scholarship funds used strictly for degree-related tuition and course books",
+        "Compensatory damages received as a lump sum for physical personal injuries",
+        "Punitive damages received in settlement of a personal physical injury claim"
+      ],
+      "answer": "D",
+      "explanation": "Under IRC Section 104(a)(2), compensatory damages received on account of personal physical injuries or physical sickness are excluded from gross income. However, punitive damages are explicitly excluded from this relief and are fully taxable, regardless of whether they stem from a physical injury lawsuit. Qualified scholarships for tuition and books, compensatory physical injury awards, and workers' compensation are statutorily exempt.",
+      "topic": "Income and Assets",
+      "subtopic": "Income",
+      "difficulty": "easy",
+      "source": "IRC Section 104(a)(2); IRS Publication 525"
+    },
+    {
+      "stem": "An individual taxpayer who is 45 years old takes a $20,000 distribution from their traditional IRA in 2025. Which of the following uses of the distributed funds qualifies for an exception to the 10% early withdrawal penalty?",
+      "options": [
+        "Payment of personal credit card balances incurred for emergency household repairs",
+        "Payment of up to $10,000 of qualified first-time homebuyer acquisition expenses",
+        "Purchase of a personal passenger vehicle required to commute to a new place of employment",
+        "Payment of routine household living expenses during a voluntary four-month career break"
+      ],
+      "answer": "B",
+      "explanation": "Under IRC Section 72(t)(2)(F), early distributions from a traditional IRA are exempt from the 10% additional tax if used for qualified first-time homebuyer expenses, up to a lifetime limit of $10,000. Although the distribution remains subject to regular income taxation, the 10% penalty does not apply to the qualifying portion. Debts, vehicle purchases, and general living costs do not qualify for any statutory penalty exception.",
+      "topic": "Income and Assets",
+      "subtopic": "Retirement income",
+      "difficulty": "medium",
+      "source": "IRC Section 72(t)(2)(F); IRS Publication 590-B"
+    },
+    {
+      "stem": "In 2022, David purchased 100 shares of stock for $14,000. In 2025, when the fair market value of the stock had declined to $9,000, David gifted the shares to his sister, Karen. No gift tax was paid on the transfer. Later in 2025, Karen sold all 100 shares for $11,500. What is Karen's recognized gain or loss on the sale?",
+      "options": [
+        "$2,500 short-term capital gain",
+        "$2,500 long-term capital loss",
+        "$0 recognized gain or loss",
+        "$5,000 long-term capital loss"
+      ],
+      "answer": "C",
+      "explanation": "Under IRC Section 1015(a), when property is gifted at a time when its fair market value is less than the donor's adjusted basis, the donee has a dual basis. The basis for determining gain is the donor's adjusted basis ($14,000), while the basis for determining loss is the fair market value on the date of gift ($9,000). Because Karen sold the stock for $11,500, which falls between the loss basis and the gain basis, she recognizes neither a gain nor a loss.",
+      "topic": "Income and Assets",
+      "subtopic": "Property, real and personal",
+      "difficulty": "hard",
+      "source": "IRC Section 1015(a); IRS Publication 551"
+    },
+    {
+      "stem": "During 2025, Marcus paid $3,200 of interest on a qualified student loan used solely to pay higher education expenses for his undergraduate degree. Marcus is single, has a modified adjusted gross income of $65,000 (which is below the phase-out range), and is not claimed as a dependent on anyone else's return. What is the maximum student loan interest deduction Marcus can claim as an adjustment to income on Schedule 1 (Form 1040)?",
+      "options": [
+        "$2,500",
+        "$3,000",
+        "$3,200",
+        "$1,500"
+      ],
+      "answer": "A",
+      "explanation": "Under IRC Section 221, an eligible individual taxpayer may claim an above-the-line deduction for interest paid on qualified higher education loans up to a statutory cap of $2,500 per year. Although Marcus paid $3,200 in interest and is fully eligible based on filing status and income, his deduction is strictly limited to the statutory ceiling of $2,500. The excess $700 of interest cannot be deducted or carried forward to subsequent years.",
+      "topic": "Income and Assets",
+      "subtopic": "Adjustments to Income",
+      "difficulty": "medium",
+      "source": "IRC Section 221; IRS Publication 970, Chapter 3"
+    },
+    {
+      "stem": "During 2025, Richard, a single individual, paid $7,200 in state income taxes, $4,800 in real estate property taxes on his principal residence, and $500 in state personal property taxes on his motor vehicle. Assuming Richard itemizes his deductions on Schedule A (Form 1040), what is his allowable deduction for state and local taxes (SALT)?",
+      "options": [
+        "$7,200",
+        "$12,000",
+        "$12,500",
+        "$10,000"
+      ],
+      "answer": "D",
+      "explanation": "Under IRC Section 164(b)(6), the aggregate itemized deduction for state and local real property taxes, personal property taxes, and state and local income (or general sales) taxes is limited to $10,000 per year for single individuals and married couples filing jointly ($5,000 for married filing separately). Richard's total qualifying state and local taxes paid equal $12,500 ($7,200 + $4,800 + $500). His allowable deduction on Schedule A is capped at $10,000, and the remaining $2,500 cannot be deducted or carried over.",
+      "topic": "Deductions and Credits",
+      "subtopic": "Itemized deductions and QBI",
+      "difficulty": "easy",
+      "source": "IRC Section 164(b)(6); IRS Publication 17, Chapter 22"
+    },
+    {
+      "stem": "Which of the following businesses is classified as a Specified Service Trade or Business (SSTB) for purposes of the Section 199A Qualified Business Income (QBI) deduction?",
+      "options": [
+        "An architectural firm providing structural drawings and residential blueprint designs",
+        "A certified public accounting firm providing audit, financial review, and tax services",
+        "A civil engineering consulting company designing foundations for public municipal bridges",
+        "A commercial general contracting corporation erecting multi-tenant warehouse facilities"
+      ],
+      "answer": "B",
+      "explanation": "Under IRC Section 199A(d)(2) and Treasury Regulation Section 1.199A-5, accounting is explicitly designated as a Specified Service Trade or Business (SSTB), subjecting its owners to deduction phase-outs if taxable income exceeds specified thresholds. In contrast, the statutory definition explicitly carves out architectural and engineering services from the SSTB definition, treating them as non-specified qualified trades or businesses. Construction and general contracting also qualify as non-SSTB businesses.",
+      "topic": "Deductions and Credits",
+      "subtopic": "Itemized deductions and QBI",
+      "difficulty": "hard",
+      "source": "IRC Section 199A(d)(2); Treas. Reg. Section 1.199A-5"
+    },
+    {
+      "stem": "For tax year 2025, which of the following dependents qualifies a taxpayer to claim the $2,000 Child Tax Credit rather than the nonrefundable $500 Credit for Other Dependents?",
+      "options": [
+        "A 16-year-old biological son who has a valid Social Security number issued prior to the return due date",
+        "A 17-year-old biological daughter who lived with the taxpayer and has a valid Social Security number",
+        "A 15-year-old resident alien niece who meets all dependency tests and has a valid ITIN but no SSN",
+        "A 20-year-old full-time university student son who is claimed as a qualifying child dependent"
+      ],
+      "answer": "A",
+      "explanation": "To qualify for the $2,000 Child Tax Credit under IRC Section 24, the dependent child must be under age 17 at the close of the calendar year and must have a valid Social Security number issued by the Social Security Administration on or before the due date of the return (including extensions). A dependent who is age 17 or older, or who possesses only an ITIN, fails the Child Tax Credit requirements. Such dependents may only qualify the taxpayer for the $500 Credit for Other Dependents.",
+      "topic": "Deductions and Credits",
+      "subtopic": "Credits",
+      "difficulty": "medium",
+      "source": "IRC Section 24; IRS Publication 972"
+    },
+    {
+      "stem": "During 2025, Brenda paid $4,000 of tuition and required course textbooks for her daughter's freshman year of college. Brenda's modified adjusted gross income is below the phase-out range, and all general student eligibility criteria are met. What is the maximum American Opportunity Tax Credit (AOTC) Brenda can claim on Form 8863?",
+      "options": [
+        "$1,000",
+        "$2,000",
+        "$2,500",
+        "$4,000"
+      ],
+      "answer": "C",
+      "explanation": "Under IRC Section 25A(i), the American Opportunity Tax Credit is calculated as 100% of the first $2,000 of qualified tuition and related expenses plus 25% of the next $2,000 of such expenses, up to a maximum credit of $2,500 per eligible student. For Brenda's $4,000 of qualified expenses, the credit is computed as $2,000 + ($2,000 x 25%) = $2,500. Up to 40% ($1,000) of this allowable credit may be treated as a refundable credit.",
+      "topic": "Deductions and Credits",
+      "subtopic": "Credits",
+      "difficulty": "easy",
+      "source": "IRC Section 25A(i); IRS Form 8863 Instructions"
+    },
+    {
+      "stem": "When calculating an individual taxpayer's Alternative Minimum Taxable Income (AMTI) on Form 6251, which of the following itemized deductions claimed on Schedule A must be added back as an adjustment?",
+      "options": [
+        "Charitable contributions made in cash to a qualifying domestic 50% public charity",
+        "Casualty and theft losses directly attributable to a federally declared disaster area",
+        "Qualified home mortgage interest incurred on acquisition debt for a principal residence",
+        "State and local income taxes, real property taxes, and personal property taxes"
+      ],
+      "answer": "D",
+      "explanation": "Under IRC Section 56(b)(1)(A)(ii), taxes deductible under Section 164(a) (including state and local income, sales, real estate, and personal property taxes) are not deductible for Alternative Minimum Tax purposes. Consequently, any amount claimed for state and local taxes on Schedule A must be added back to regular taxable income when calculating AMTI. Qualified residence interest, disaster casualty losses, and charitable donations remain deductible under the AMT regime.",
+      "topic": "Taxation",
+      "subtopic": "Taxation",
+      "difficulty": "medium",
+      "source": "IRC Section 56(b)(1)(A)(ii); IRS Form 6251 Instructions"
+    },
+    {
+      "stem": "The 3.8% Net Investment Income Tax (NIIT) is imposed on the lesser of net investment income or the excess of modified adjusted gross income (MAGI) over statutory threshold amounts. What is the statutory MAGI threshold for a taxpayer filing as Married Filing Jointly?",
+      "options": [
+        "$250,000",
+        "$200,000",
+        "$300,000",
+        "$125,000"
+      ],
+      "answer": "A",
+      "explanation": "Under IRC Section 1411(b), the threshold amount for married taxpayers filing a joint return (and qualifying surviving spouses) is $250,000. For single taxpayers and heads of household, the threshold is $200,000, and for married taxpayers filing separately, it is $125,000. These statutory dollar thresholds are fixed by law and are not indexed for annual inflation adjustments.",
+      "topic": "Taxation",
+      "subtopic": "Taxation",
+      "difficulty": "medium",
+      "source": "IRC Section 1411(b); IRS Form 8960 Instructions"
+    },
+    {
+      "stem": "For tax year 2025, Samantha operated a sole proprietorship that reported $100,000 of net profit on Schedule C (Form 1040). She had no other earned income or self-employment activities. What is the exact amount of Samantha's net earnings from self-employment subject to self-employment tax on Schedule SE?",
+      "options": [
+        "$100,000",
+        "$92,350",
+        "$84,700",
+        "$50,000"
+      ],
+      "answer": "B",
+      "explanation": "Under IRC Section 1402(a)(12), net earnings from self-employment are calculated by multiplying net business profit by 92.35% (100% minus the 7.65% employer-equivalent share of FICA). For Samantha's $100,000 Schedule C net profit, her net earnings subject to self-employment tax equal $92,350 ($100,000 x 0.9235). The combined 15.3% Social Security and Medicare tax rate is subsequently applied to this adjusted net figure.",
+      "topic": "Taxation",
+      "subtopic": "Taxation",
+      "difficulty": "hard",
+      "source": "IRC Section 1402(a)(12); IRS Schedule SE Instructions"
+    },
+    {
+      "stem": "Peter is a single individual whose adjusted gross income (AGI) on his 2024 tax return was $220,000, with a total tax liability of $40,000. For tax year 2025, Peter projects his total tax liability will be $60,000. What is the minimum amount of total withholding and timely estimated tax payments Peter must make for 2025 to avoid an underpayment penalty under the prior-year safe harbor rule?",
+      "options": [
+        "$36,000",
+        "$40,000",
+        "$44,000",
+        "$54,000"
+      ],
+      "answer": "C",
+      "explanation": "Under IRC Section 6654(d)(1)(C), if an individual taxpayer's adjusted gross income on the preceding year's tax return exceeded $150,000 ($75,000 if married filing separately), the prior-year safe harbor increases to 110% of that prior year's tax liability. Because Peter's 2024 AGI exceeded $150,000, his safe harbor threshold is 110% of $40,000, which equals $44,000. Paying at least $44,000 through timely installments protects him from an underpayment penalty regardless of his final 2025 tax liability.",
+      "topic": "Advising the Individual Taxpayer",
+      "subtopic": "Advising the individual taxpayer",
+      "difficulty": "medium",
+      "source": "IRC Section 6654(d)(1)(C); IRS Publication 505, Chapter 2"
+    },
+    {
+      "stem": "Under the general statutory rule of Internal Revenue Code Section 6501, within what time period must the IRS assess additional income tax against an individual taxpayer who filed a timely, complete, and non-fraudulent return?",
+      "options": [
+        "Within 1 year after the date the return was filed",
+        "Within 2 years after the date the return was filed",
+        "Within 6 years after the date the return was filed",
+        "Within 3 years after the date the return was filed"
+      ],
+      "answer": "D",
+      "explanation": "Under IRC Section 6501(a), the general period of limitation for assessing federal income tax is within 3 years after the return was filed, or 3 years from the original statutory due date, whichever is later. A 6-year period applies if there is a substantial omission of gross income exceeding 25% of the gross income reported on the return. There is no statute of limitations if a false or fraudulent return is filed, or if no return is filed at all.",
+      "topic": "Advising the Individual Taxpayer",
+      "subtopic": "Advising the individual taxpayer",
+      "difficulty": "easy",
+      "source": "IRC Section 6501(a); IRS Publication 17, Chapter 1"
+    },
+    {
+      "stem": "A taxpayer filed their 2024 individual income tax return and paid the entire balance due on March 3, 2025. The statutory unextended due date for the return was April 15, 2025. If the taxpayer subsequently discovers an unclaimed educational credit, what is the latest date they can timely file Form 1040-X to claim a refund under the general statute of limitations?",
+      "options": [
+        "March 3, 2028",
+        "April 15, 2028",
+        "April 15, 2027",
+        "March 3, 2027"
+      ],
+      "answer": "B",
+      "explanation": "Under IRC Section 6511(a), a claim for credit or refund must be filed within 3 years from the time the return was filed or 2 years from the time the tax was paid, whichever expires later. Pursuant to IRC Section 6513(a), an early-filed return and any tax paid prior to the original statutory due date are treated as filed and paid on that due date (April 15, 2025). Therefore, the 3-year statutory period expires on April 15, 2028.",
+      "topic": "Advising the Individual Taxpayer",
+      "subtopic": "Advising the individual taxpayer",
+      "difficulty": "medium",
+      "source": "IRC Section 6511(a); IRC Section 6513(a); IRS Publication 17, Chapter 1"
+    },
+    {
+      "stem": "What is the statutory filing deadline for Form 706 (United States Estate and Generation-Skipping Transfer Tax Return) for a decedent's estate, without taking into account any extension of time to file?",
+      "options": [
+        "9 months after the date of the decedent's death",
+        "6 months after the date of the decedent's death",
+        "April 15 of the calendar year following the date of death",
+        "12 months after the date of the decedent's death"
+      ],
+      "answer": "A",
+      "explanation": "Under IRC Section 6075(a), the executor must file Form 706 for an estate within 9 months after the date of the decedent's death. The executor can obtain an automatic 6-month extension of time to file by submitting Form 4768 before the initial 9-month deadline expires. In contrast, the alternate valuation election under Section 2032 evaluates estate assets 6 months after death.",
+      "topic": "Specialized Returns for Individuals",
+      "subtopic": "Estate Tax",
+      "difficulty": "medium",
+      "source": "IRC Section 6075(a); IRS Instructions for Form 706"
+    },
+    {
+      "stem": "During 2025, George made several substantial lifetime property transfers. Which of the following transfers requires George to file Form 709, United States Gift Tax Return?",
+      "options": [
+        "A direct payment of $25,000 made to an accredited medical school for his nephew's tuition",
+        "A direct payment of $30,000 made to a hospital facility for a friend's emergency surgery",
+        "An outright cash transfer of $24,000 given to his adult daughter to assist with a home purchase",
+        "A transfer of publicly traded corporate shares valued at $100,000 to his U.S. citizen spouse"
+      ],
+      "answer": "C",
+      "explanation": "For calendar year 2025, the annual gift tax exclusion under IRC Section 2503(b) is $19,000 per recipient. George's cash gift of $24,000 to his daughter exceeds the $19,000 threshold by $5,000, requiring him to file Form 709. Qualified transfers made directly to an educational organization for tuition or directly to a medical provider for medical care are excluded without dollar limit under Section 2503(e), and outright gifts to a U.S. citizen spouse qualify for an unlimited marital deduction.",
+      "topic": "Specialized Returns for Individuals",
+      "subtopic": "Gift Tax",
+      "difficulty": "easy",
+      "source": "IRC Section 2503(b), (e); Rev. Proc. 2024-40; IRS Form 709 Instructions"
+    },
+    {
+      "stem": "A United States citizen holds financial interests in and signature authority over several foreign financial accounts. Under the Bank Secrecy Act regulations, the individual is required to file FinCEN Form 114 (FBAR) if the aggregate maximum value of all foreign financial accounts exceeds:",
+      "options": [
+        "$50,000 on the last day of the calendar year",
+        "$10,000 on the last day of the calendar year",
+        "$50,000 at any time during the calendar year",
+        "$10,000 at any time during the calendar year"
+      ],
+      "answer": "D",
+      "explanation": "Under 31 C.F.R. Section 1010.350 and FinCEN instructions, a U.S. person must report foreign financial accounts on FinCEN Form 114 (FBAR) if the aggregate value of all foreign financial accounts exceeds $10,000 at any time during the calendar year. The reporting requirement applies to the combined peak value of all accounts during the year, not solely to year-end balances or individual account amounts.",
+      "topic": "Specialized Returns for Individuals",
+      "subtopic": "International Information Reporting",
+      "difficulty": "medium",
+      "source": "31 C.F.R. Section 1010.350; FinCEN Form 114 Instructions"
+    }
+  ]
+}
