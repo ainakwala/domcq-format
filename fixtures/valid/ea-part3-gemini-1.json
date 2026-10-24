@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "ea-part3",
+  "set": "Enrolled Agent SEE Part 3 — Representation, Practices and Procedures practice – Comprehensive Review Set",
+  "questions": [
+    {
+      "stem": "Under Treasury Department Circular No. 230, what is the minimum continuing education requirement an enrolled agent must complete during each year of an enrollment cycle?",
+      "options": [
+        "16 hours, including at least 2 hours of ethics or professional conduct",
+        "20 hours, including at least 4 hours of ethics or professional conduct",
+        "24 hours, including at least 2 hours of ethics or professional conduct",
+        "12 hours, including at least 1 hour of ethics or professional conduct"
+      ],
+      "answer": "A",
+      "explanation": "Circular 230 § 10.6(e)(2) mandates that an enrolled agent complete a minimum of 72 hours of continuing education credits during each three-year enrollment cycle. Within each calendar year of the cycle, the practitioner must complete at least 16 hours of continuing education, with a minimum of 2 hours dedicated to federal tax ethics or professional conduct.",
+      "topic": "Practices and Procedures",
+      "subtopic": "Requirements for Enrolled Agents",
+      "difficulty": "easy",
+      "source": "Circular 230 § 10.6(e)(2)"
+    },
+    {
+      "stem": "Under Treasury Department Circular No. 230, which of the following practitioner actions constitutes disreputable conduct subject to disciplinary sanctions?",
+      "options": [
+        "Refusing to accept a tax preparation engagement because the taxpayer maintains incomplete books and records",
+        "Charging a fee based on the complexity of the tax return and the actual professional hours expended",
+        "Requesting an extension of time to file a client's federal income tax return after securing verbal client approval",
+        "Endorsing and negotiating a taxpayer client's refund check issued by the Internal Revenue Service"
+      ],
+      "answer": "D",
+      "explanation": "Under Circular 230 § 10.51(a)(16), willfully endorsing or negotiating a client's federal income tax refund check—or directing its deposit into an account owned or controlled by the practitioner—constitutes disreputable conduct. Practitioners are prohibited from cashing or redirecting client refund checks under any circumstances. Declining engagements, charging hourly rates, and timely filing client-approved extensions are legitimate professional activities.",
+      "topic": "Practices and Procedures",
+      "subtopic": "Sanctionable acts",
+      "difficulty": "medium",
+      "source": "Circular 230 § 10.51(a)(16)"
+    },
+    {
+      "stem": "Under Treasury Department Circular No. 230, in which of the following situations is an enrolled agent permitted to charge a contingent fee?",
+      "options": [
+        "Representing a taxpayer during an examination of an original tax return by the Internal Revenue Service",
+        "Preparing an original individual income tax return claiming the Earned Income Tax Credit",
+        "Preparing an amended tax return filed prior to the expiration of the original filing deadline",
+        "Advising a taxpayer regarding an aggressive tax strategy classified by the IRS as a listed transaction"
+      ],
+      "answer": "A",
+      "explanation": "Circular 230 § 10.27 generally prohibits contingent fees for tax preparation and IRS matters, but permits them when representing a taxpayer in an IRS examination or challenge to an original tax return. Contingent fees are also permitted for amended returns claiming a refund filed within 120 days of an examination or assessment notice, and in judicial proceedings. A contingent fee may never be charged for preparing an original tax return.",
+      "topic": "Practices and Procedures",
+      "subtopic": "Rules and penalties",
+      "difficulty": "medium",
+      "source": "Circular 230 § 10.27(b)"
+    },
+    {
+      "stem": "An enrolled agent discovers a conflict of interest while representing both business partners in an ongoing IRS examination. Under Circular 230, what must the enrolled agent do to continue the representation?",
+      "options": [
+        "Secure a verbal agreement from each partner and make an informal note in the client file",
+        "Obtain written consent confirming informed consent from each client within 30 days and retain the document for 36 months",
+        "Submit Form 2848 along with an explanatory disclosure letter to the IRS Office of Professional Responsibility within 60 days",
+        "Require the partners to enter into a binding arbitration agreement governing any future tax liabilities"
+      ],
+      "answer": "B",
+      "explanation": "Under Circular 230 § 10.29(b), an enrolled agent may represent conflicting interests only if the practitioner reasonably believes competent representation can be provided and each client gives informed, written consent. The written confirmation must be obtained at the time consent is given or confirmed in writing within 30 days, and the practitioner must retain copies of the written consents for at least 36 months following the conclusion of representation.",
+      "topic": "Practices and Procedures",
+      "subtopic": "Practice before the IRS",
+      "difficulty": "medium",
+      "source": "Circular 230 § 10.29(b) and (c)"
+    },
+    {
+      "stem": "A client terminates the services of an enrolled agent before paying their outstanding professional fees and demands the immediate return of their records. The dispute occurs in a state that permits retaining liens for unpaid fees. Under Circular 230, what is the enrolled agent required to do?",
+      "options": [
+        "Withhold all documents, worksheets, and prior tax returns until the outstanding balance is settled in full",
+        "Surrender only the final work product created by the practitioner while retaining all underlying client-provided records",
+        "Return all client-provided records and provide access to review and copy practitioner-prepared documents necessary for the client to comply with federal tax obligations",
+        "Transfer all tax files directly to the IRS Office of Professional Responsibility to hold in escrow pending fee resolution"
+      ],
+      "answer": "C",
+      "explanation": "Under Circular 230 § 10.28, a practitioner must promptly return all client records necessary for the client to comply with their federal tax obligations upon request. Even if state law recognizes a retaining lien for unpaid fees, the practitioner must still return all client-provided records and provide reasonable access to review and copy any practitioner-prepared documents required for federal tax compliance.",
+      "topic": "Practices and Procedures",
+      "subtopic": "Rules and penalties",
+      "difficulty": "hard",
+      "source": "Circular 230 § 10.28(a) and (b)"
+    },
+    {
+      "stem": "Under Treasury Department Circular No. 230, which of the following individuals is permitted to represent a taxpayer during an IRS examination without being an attorney, certified public accountant, or enrolled agent?",
+      "options": [
+        "An unenrolled return preparer who did not sign the tax return under examination",
+        "A personal friend of the taxpayer who holds an active state real estate sales license",
+        "A financial planner who provides annual investment advice but did not prepare the return",
+        "A full-time employee representing their employer before the Internal Revenue Service"
+      ],
+      "answer": "D",
+      "explanation": "Circular 230 § 10.7(c)(1) authorizes specific individuals without EA, CPA, or attorney credentials to represent taxpayers in limited settings. Under these special appearance rules, a bona fide full-time employee may represent their employer, an individual may represent an immediate family member, and a general partner may represent a partnership. Unenrolled preparers without return preparation authorization have no representation rights before the IRS.",
+      "topic": "Practices and Procedures",
+      "subtopic": "Practice before the IRS",
+      "difficulty": "easy",
+      "source": "Circular 230 § 10.7(c)(1)(iii)"
+    },
+    {
+      "stem": "When completing Form 2848 (Power of Attorney and Declaration of Representative), which of the following acts requires the taxpayer to specifically indicate the authorization on the form?",
+      "options": [
+        "Receiving and inspecting confidential taxpayer transcripts and account information",
+        "Representing the taxpayer during an administrative appeals conference",
+        "Authorizing the substitution or delegation of representation to another qualified professional",
+        "Executing a waiver of restriction on assessment of a tax deficiency"
+      ],
+      "answer": "C",
+      "explanation": "Under Treasury Conference and Practice Requirements and Form 2848 instructions, general representation authority automatically includes inspecting confidential information, advocating positions, and executing waivers such as Form 870. However, specific acts—such as authorizing the substitution or delegation of representation, signing a tax return, or cashing refund checks—require explicit designation by the taxpayer in the specific authorizations section on Line 5a.",
+      "topic": "Representation before the IRS",
+      "subtopic": "Power of attorney",
+      "difficulty": "medium",
+      "source": "Instructions for Form 2848; 26 C.F.R. § 601.504(a)"
+    },
+    {
+      "stem": "An enrolled agent receives a signed Form 8821 (Tax Information Authorization) from a corporate taxpayer. What authority does this form grant to the enrolled agent?",
+      "options": [
+        "The authority to inspect and receive confidential corporate tax information without the right to advocate or represent",
+        "The authority to negotiate installment agreements and sign closing agreements on behalf of the corporation",
+        "The authority to represent the corporation in an audit interview before an IRS revenue agent",
+        "The authority to sign and file amended corporate income tax returns for the tax years listed"
+      ],
+      "answer": "A",
+      "explanation": "Form 8821 authorizes an appointee to inspect and receive confidential tax return information for specified tax matters and years. Unlike Form 2848, Form 8821 does not grant power of attorney, meaning the appointee has no legal authority to represent, advocate, negotiate settlements, or execute documents on behalf of the taxpayer before the IRS.",
+      "topic": "Representation before the IRS",
+      "subtopic": "Power of attorney",
+      "difficulty": "easy",
+      "source": "Instructions for Form 8821; IRM 21.3.7.5.1"
+    },
+    {
+      "stem": "An enrolled agent needs to verify the original figures, schedules, and attachments filed by a new client who misplaced their filed Form 1040. Which transcript should the enrolled agent request from the IRS?",
+      "options": [
+        "Account Transcript",
+        "Record of Account Transcript",
+        "Tax Return Transcript",
+        "Wage and Income Transcript"
+      ],
+      "answer": "C",
+      "explanation": "A Tax Return Transcript displays most of the line items from the original Form 1040 as filed, including accompanying forms and schedules. In comparison, an Account Transcript reflects account activity and post-filing adjustments, a Record of Account combines return transcript and account transcript data, and a Wage and Income Transcript reflects data from third-party information returns such as Forms W-2 and 1099.",
+      "topic": "Representation before the IRS",
+      "subtopic": "Building the taxpayer’s case – Preliminary work",
+      "difficulty": "medium",
+      "source": "IRS Publication 4134; IRM 21.2.3.2.1"
+    },
+    {
+      "stem": "An enrolled agent is preparing Form 433-A (Collection Information Statement for Wage Earners and Self-Employed Individuals) for a delinquent taxpayer seeking an installment agreement. How are IRS National Standards applied when calculating allowable monthly living expenses?",
+      "options": [
+        "Taxpayers are allowed actual expenses incurred regardless of family size, provided paid receipts are submitted",
+        "Taxpayers are allowed the predetermined standard amount for their family size without needing to prove actual expenses",
+        "Taxpayers must prove actual out-of-pocket expenses up to a maximum cap determined by their zip code of residence",
+        "Taxpayers are allowed 50% of the standard amount automatically, with the remaining 50% subject to examiner discretion"
+      ],
+      "answer": "B",
+      "explanation": "Under IRS financial analysis guidelines (IRM 5.15.1), National Standards establish allowable monthly amounts for food, housekeeping supplies, apparel, personal care, and miscellaneous expenses based on family size and income level. Taxpayers are allowed the standard allowance automatically without being required to substantiate actual expenditures, in contrast to Local Standards where actual expenditures are capped by the standard.",
+      "topic": "Representation before the IRS",
+      "subtopic": "Taxpayer financial situation",
+      "difficulty": "hard",
+      "source": "IRM 5.15.1.7 (National Standards)"
+    },
+    {
+      "stem": "Under Internal Revenue Code Section 7525, which of the following communications is protected by the federally authorized tax practitioner confidentiality privilege?",
+      "options": [
+        "Written advice provided to a corporate client regarding participation in a listed tax shelter",
+        "Communications concerning tax return preparation and factual figures to be reported on Form 1040",
+        "Communications regarding defense strategies in a federal criminal tax evasion prosecution",
+        "Noncriminal tax advice provided to an individual client during an ongoing IRS civil examination"
+      ],
+      "answer": "D",
+      "explanation": "IRC § 7525 extends common-law attorney-client privilege to confidential tax advice between a taxpayer and a federally authorized tax practitioner, such as an enrolled agent. The privilege applies strictly to noncriminal civil tax proceedings before the IRS and federal courts. It does not apply to criminal tax matters, routine tax return preparation intended for public disclosure, or written tax shelter promotion.",
+      "topic": "Representation before the IRS",
+      "subtopic": "Supporting documentation",
+      "difficulty": "medium",
+      "source": "IRC § 7525(a) and (b)"
+    },
+    {
+      "stem": "An enrolled agent wishes to withdraw from representing a taxpayer on an active matter recorded in the Centralized Authorization File (CAF) system. What action must the enrolled agent take to accomplish the withdrawal?",
+      "options": [
+        "File an administrative lawsuit in the United States Tax Court requesting an order of discharge",
+        "Send a copy of the existing Form 2848 to the IRS with the word 'WITHDRAW' written across the top and sign the notice",
+        "Wait until the end of the calendar year when all active powers of attorney automatically expire in the CAF database",
+        "Notify the taxpayer in writing by certified mail without sending any notification or documentation to the IRS"
+      ],
+      "answer": "B",
+      "explanation": "Under Form 2848 instructions, an authorized representative who wants to withdraw must send a copy of the previously filed Form 2848 to the IRS with the word 'WITHDRAW' written clearly across the top of the first page, accompanied by their signature and date. Alternatively, the representative may submit a signed written statement containing their name, address, CAF number, and the specific tax matters and periods from which they are withdrawing.",
+      "topic": "Representation before the IRS",
+      "subtopic": "Related issues",
+      "difficulty": "easy",
+      "source": "Instructions for Form 2848 (Revocation/Withdrawal)"
+    },
+    {
+      "stem": "A taxpayer receives a Final Notice of Intent to Levy and Notice of Your Right to a Hearing (Letter 1058). How many days does the taxpayer have from the date of the notice to timely request a Collection Due Process (CDP) hearing using Form 12153?",
+      "options": [
+        "30 days",
+        "15 days",
+        "60 days",
+        "90 days"
+      ],
+      "answer": "A",
+      "explanation": "Under IRC § 6330, a taxpayer has exactly 30 days from the date of the levy notice to file a timely request for a Collection Due Process (CDP) hearing using Form 12153. A timely filed request suspends levy action during the administrative proceeding and preserves the taxpayer's statutory right to petition the U.S. Tax Court if they disagree with the Appeals determination.",
+      "topic": "Specific Areas of Representation",
+      "subtopic": "Representing a taxpayer in the collection process",
+      "difficulty": "medium",
+      "source": "IRC § 6330(a)(3)(B); Treas. Reg. § 301.6330-1(c)"
+    },
+    {
+      "stem": "A taxpayer submits a lump-sum cash Offer in Compromise to settle outstanding federal tax liabilities. Under IRC Section 7122, what nonrefundable initial payment must accompany the Form 656 submission?",
+      "options": [
+        "10% of the total tax liability assessed by the Internal Revenue Service",
+        "20% of the total offer amount proposed by the taxpayer",
+        "50% of the taxpayer's reasonable collection potential calculated on Form 433-A(OIC)",
+        "The entire first monthly installment calculated under a standard 24-month payment schedule"
+      ],
+      "answer": "B",
+      "explanation": "Under IRC § 7122(c)(1)(A), any taxpayer submitting a lump-sum cash offer (payable in five or fewer installments within 24 months of acceptance) must include a nonrefundable down payment equal to 20% of the total offer amount with Form 656, unless qualifying for a low-income fee waiver. For periodic payment offers, the taxpayer must submit the first proposed monthly installment with the application.",
+      "topic": "Specific Areas of Representation",
+      "subtopic": "Representing a taxpayer in the collection process",
+      "difficulty": "hard",
+      "source": "IRC § 7122(c)(1)(A); Form 656-B Booklet"
+    },
+    {
+      "stem": "Which of the following conditions must be met for an individual taxpayer to qualify for the IRS First-Time Penalty Abatement (FTA) administrative waiver?",
+      "options": [
+        "The taxpayer has not been assessed any penalties for the preceding three tax years on the same return type",
+        "The taxpayer demonstrates that the failure to file was due to a severe financial hardship or catastrophic loss",
+        "The penalty amount assessed by the Internal Revenue Service is less than $1,000 for the tax period",
+        "The taxpayer agrees to enter into a 72-month direct debit installment agreement for all outstanding liabilities"
+      ],
+      "answer": "A",
+      "explanation": "The IRS First-Time Abatement (FTA) administrative waiver provides relief from failure-to-file and failure-to-pay penalties if the taxpayer has a clean penalty history for the prior three tax years on the same type of return. In addition, the taxpayer must currently be in filing compliance with all required returns filed and have paid or arranged payment for any outstanding tax balance. Proof of reasonable cause or hardship is not required for FTA relief.",
+      "topic": "Specific Areas of Representation",
+      "subtopic": "Penalties and/or interest abatement",
+      "difficulty": "easy",
+      "source": "IRM 20.1.1.3.3.2.1 (First Time Abate)"
+    },
+    {
+      "stem": "The IRS issues a Statutory Notice of Deficiency (Letter 3219) to a taxpayer residing within the United States. What is the statutory deadline for the taxpayer to file a petition with the United States Tax Court to contest the proposed deficiency?",
+      "options": [
+        "30 days from the postmark date of the deficiency notice",
+        "60 days from the date the taxpayer physically receives the notice",
+        "90 days from the mailing date of the deficiency notice",
+        "150 days from the date of the final examination report"
+      ],
+      "answer": "C",
+      "explanation": "Under IRC § 6213(a), a taxpayer residing in the United States must file a petition with the U.S. Tax Court within 90 days from the date the Statutory Notice of Deficiency (90-day letter) is mailed by the IRS. For taxpayers addressed outside the United States, the filing period is 150 days. This statutory deadline is jurisdictional and cannot be extended by IRS employees or the Tax Court.",
+      "topic": "Specific Areas of Representation",
+      "subtopic": "Representing a taxpayer in audits/examinations",
+      "difficulty": "medium",
+      "source": "IRC § 6213(a); Treas. Reg. § 301.6213-1(a)"
+    },
+    {
+      "stem": "An enrolled agent is preparing an appeal following an unagreed examination result. Under IRS procedural rules, when is a formal written protest required instead of a Small Case Request?",
+      "options": [
+        "When the total proposed tax, penalties, and interest exceed $10,000 for any single tax period",
+        "Whenever the examination involves an S corporation or partnership regardless of the dollar amount",
+        "Whenever the taxpayer intends to present new documentary evidence not examined during the audit",
+        "When the total proposed tax, penalties, and interest exceed $25,000 for any single tax period"
+      ],
+      "answer": "D",
+      "explanation": "Under IRS Publication 5 and procedural rules, a taxpayer must submit a formal written protest to request an Appeals conference if the total disputed amount of proposed tax, penalties, and interest exceeds $25,000 for any single tax period. If the disputed amount is $25,000 or less per period, the taxpayer is permitted to submit an informal Small Case Request using Form 12203.",
+      "topic": "Specific Areas of Representation",
+      "subtopic": "Representing a taxpayer before appeals",
+      "difficulty": "hard",
+      "source": "IRS Publication 5; IRM 8.6.1.4.1"
+    },
+    {
+      "stem": "An enrolled agent serves as an Electronic Return Originator (ERO). Under IRS e-file guidelines, which of the following rules must the ERO observe regarding Form 8879 (IRS e-file Signature Authorization)?",
+      "options": [
+        "The ERO must transmit the electronic tax return to the IRS before obtaining the taxpayer's signature on Form 8879",
+        "The ERO must obtain the taxpayer's completed and signed Form 8879 before transmitting the electronic return to the IRS",
+        "The ERO must mail the original signed Form 8879 to the IRS submission processing center within 24 hours of filing",
+        "The ERO may sign Form 8879 on behalf of the taxpayer using standard verbal permission over the telephone"
+      ],
+      "answer": "B",
+      "explanation": "IRS Publication 1345 rules require that an Electronic Return Originator (ERO) obtain a completed, signed Form 8879 (or Form 8878) from the taxpayer before transmitting the electronic return to the IRS. Transmitting an electronic return before securing the taxpayer's signature is a serious violation of e-file rules. The ERO retains the signed form in their records for three years and does not mail it to the IRS.",
+      "topic": "Filing Process",
+      "subtopic": "Electronic filing",
+      "difficulty": "medium",
+      "source": "IRS Publication 1345; IRC § 6061"
+    },
+    {
+      "stem": "Under Internal Revenue Code Section 6694, a tax return preparer is subject to a penalty for an understatement of tax liability due to an unreasonable position. A disclosed position is considered unreasonable unless it meets which of the following legal standards?",
+      "options": [
+        "More likely than not standard (greater than 50% probability of being sustained)",
+        "Frivolous standard (capable of being debated in good faith)",
+        "Substantial authority standard (approximately 40% probability of being sustained)",
+        "Reasonable basis standard (significantly higher than merely arguable, approximately 20% or greater probability)"
+      ],
+      "answer": "D",
+      "explanation": "Under IRC § 6694(a)(2)(B), an undisclosed tax return position requires substantial authority to be considered reasonable, whereas an adequately disclosed position (typically disclosed on Form 8275 or 8275-R) requires only a reasonable basis. A reasonable basis is a relatively high legal standard representing roughly a 20% or greater likelihood of success on the merits, which is significantly higher than merely arguable or not frivolous.",
+      "topic": "Filing Process",
+      "subtopic": "Accuracy",
+      "difficulty": "medium",
+      "source": "IRC § 6694(a)(2)(B); Treas. Reg. § 1.6694-2(d)"
+    },
+    {
+      "stem": "Under Internal Revenue Code Section 6501, what is the general period of limitations for the IRS to assess additional income tax on a timely filed, non-fraudulent return?",
+      "options": [
+        "Two years from the date the tax return was filed or paid",
+        "Six years from the date the return was originally accepted by the Internal Revenue Service",
+        "Three years from the due date of the return or the date it was filed, whichever is later",
+        "Ten years from the date the assessment was officially recorded in IRS master files"
+      ],
+      "answer": "C",
+      "explanation": "Under IRC § 6501(a) and § 6501(b)(1), the general Assessment Statute Expiration Date (ASED) is three years after the return was filed. For returns filed before the statutory due date (e.g., April 15 for individual calendar-year returns), the return is deemed filed on that due date, meaning the statutory limitation period runs three years from the later of the filing date or the statutory due date.",
+      "topic": "Filing Process",
+      "subtopic": "Record maintenance",
+      "difficulty": "easy",
+      "source": "IRC § 6501(a), (b)(1)"
+    }
+  ]
+}

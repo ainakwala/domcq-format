@@ -1,0 +1,308 @@
+
+{
+  "format": "domcq/1",
+  "exam": "ea-part2",
+  "set": "Enrolled Agent SEE Part 2 — Businesses practice – 2025 Tax Law Mixed Review",
+  "questions": [
+    {
+      "stem": "A single-member limited liability company (LLC) operates a retail business in 2025. The owner is an individual, and the LLC has not elected to be taxed as a corporation. Which of the following is the LLC's default classification for federal income tax purposes?",
+      "options": [
+        "A partnership that files Form 1065",
+        "A disregarded entity whose income is reported by its owner",
+        "A C corporation that files Form 1120",
+        "An S corporation that files Form 1120-S"
+      ],
+      "answer": "B",
+      "explanation": "A domestic single-member LLC is generally disregarded as an entity separate from its owner for federal income tax purposes unless it elects corporate classification. When the owner is an individual operating a trade or business, the income and expenses are generally reported on Schedule C of Form 1040. The LLC may still be treated as a separate entity for certain employment and excise tax purposes.",
+      "topic": "Business Entities and Considerations",
+      "subtopic": "Business entities",
+      "difficulty": "easy",
+      "source": "IRS Publication 3402, Taxation of Limited Liability Companies; Form 8832 Instructions"
+    },
+    {
+      "stem": "A partnership agreement provides that Partner Smith will receive $36,000 annually for management services, regardless of whether the partnership earns a profit. The payment is reasonable compensation for services and is not required to be capitalized. How is this payment generally treated for federal income tax purposes?",
+      "options": [
+        "As a distribution that reduces partnership capital but is never taxable to Smith",
+        "As dividend income to Smith that is not deductible by the partnership",
+        "As wages subject to federal income tax withholding by the partnership",
+        "As a guaranteed payment deductible by the partnership and taxable to Smith"
+      ],
+      "answer": "D",
+      "explanation": "A guaranteed payment is made to a partner for services or the use of capital without regard to partnership income. The partnership generally deducts a qualifying payment as a business expense, and the partner reports it as ordinary income. Guaranteed payments for services are generally included in the partner's net earnings from self-employment.",
+      "topic": "Business Entities and Considerations",
+      "subtopic": "Partnerships",
+      "difficulty": "medium",
+      "source": "IRS Publication 541, Partnerships — Guaranteed Payments; IRC Section 707(c)"
+    },
+    {
+      "stem": "A domestic C corporation reports $200,000 of taxable income for calendar year 2025 and has no tax credits or special taxes. What is the corporation's regular federal income tax liability?",
+      "options": [
+        "$42,000",
+        "$30,000",
+        "$50,000",
+        "$70,000"
+      ],
+      "answer": "A",
+      "explanation": "Domestic C corporations generally pay federal income tax at a flat rate of 21%. Multiplying $200,000 of taxable income by 21% produces a regular federal income tax liability of $42,000. The corporation is a separate taxpayer from its shareholders.",
+      "topic": "Business Entities and Considerations",
+      "subtopic": "Corporations in general",
+      "difficulty": "easy",
+      "source": "IRS Publication 542, Corporations — Income Tax; IRC Section 11"
+    },
+    {
+      "stem": "An individual transfers business equipment with an adjusted basis of $60,000 and a fair market value of $100,000 to a newly formed corporation solely in exchange for its stock. Immediately after the exchange, the individual owns 100% of the corporation's stock. The corporation assumes no liabilities, and the transferor receives no other consideration. What is the individual's basis in the stock received?",
+      "options": [
+        "$0",
+        "$40,000",
+        "$60,000",
+        "$100,000"
+      ],
+      "answer": "C",
+      "explanation": "Under Section 351, a transfer of property solely for corporate stock generally does not trigger recognition of gain or loss when the transferor or transferors control the corporation immediately after the exchange. Control generally requires at least 80% ownership under the statutory tests. With no boot, liabilities, or other adjustments, the shareholder's stock basis carries over from the transferred property's adjusted basis of $60,000.",
+      "topic": "Business Entities and Considerations",
+      "subtopic": "Forming a corporation",
+      "difficulty": "hard",
+      "source": "IRS Publication 542, Corporations — Transfers to a Corporation; IRC Sections 351 and 358"
+    },
+    {
+      "stem": "Which of the following persons is generally eligible to be a shareholder of a domestic corporation that has made a valid S corporation election?",
+      "options": [
+        "A domestic C corporation",
+        "A U.S. citizen who owns shares individually",
+        "A partnership organized in the United States",
+        "A nonresident alien individual"
+      ],
+      "answer": "B",
+      "explanation": "An eligible S corporation shareholder may generally be a U.S. citizen or resident individual. Partnerships, corporations, and nonresident alien individuals are generally ineligible shareholders. Certain estates, trusts, and exempt organizations can also qualify under specific rules.",
+      "topic": "Business Entities and Considerations",
+      "subtopic": "S corporations",
+      "difficulty": "easy",
+      "source": "IRS Instructions for Form 2553 — Who May Elect; IRC Section 1361"
+    },
+    {
+      "stem": "A partner begins 2025 with an adjusted outside basis of $50,000 in a partnership interest. During the year, the partner contributes $10,000 cash, receives a $15,000 cash distribution, and is allocated an additional $8,000 share of partnership liabilities. There are no other basis adjustments. What is the partner's adjusted outside basis at year-end?",
+      "options": [
+        "$35,000",
+        "$43,000",
+        "$60,000",
+        "$53,000"
+      ],
+      "answer": "D",
+      "explanation": "Outside basis increases for additional contributions and increases in the partner's share of partnership liabilities. Cash distributions generally reduce outside basis. The ending basis is $50,000 + $10,000 + $8,000 - $15,000 = $53,000.",
+      "topic": "Business Entities and Considerations",
+      "subtopic": "Partnerships",
+      "difficulty": "medium",
+      "source": "IRS Publication 541, Partnerships — Basis of Partner's Interest; IRC Sections 705, 733 and 752"
+    },
+    {
+      "stem": "An S corporation has $120,000 of ordinary business income in 2025 after all allowable deductions, including reasonable compensation paid to shareholder-employees. It has one shareholder who owns 100% of the stock throughout the year. The corporation makes no distributions. Assuming no other relevant items or limitations, how much of the corporation's ordinary business income must the shareholder report?",
+      "options": [
+        "$120,000",
+        "$0",
+        "$60,000",
+        "$25,200"
+      ],
+      "answer": "A",
+      "explanation": "S corporation income generally passes through to shareholders based on their ownership interests, regardless of whether cash is distributed. A shareholder owning 100% of the stock for the entire year reports the entire $120,000 of ordinary business income. The amount is generally reported using Schedule K-1 from Form 1120-S.",
+      "topic": "Business Entities and Considerations",
+      "subtopic": "S corporations",
+      "difficulty": "medium",
+      "source": "IRS Instructions for Form 1120-S, Schedule K-1; IRC Section 1366"
+    },
+    {
+      "stem": "A cash-method consulting business receives $12,000 in December 2025 for services that it will perform in February 2026. The payment is unrestricted, nonrefundable, and fully available to the business when received. In which tax year must the business generally include the payment in gross income?",
+      "options": [
+        "2026, when the services are performed",
+        "2026, when the related expenses are incurred",
+        "2025, when the payment is received",
+        "2025 and 2026, allocated equally between the years"
+      ],
+      "answer": "C",
+      "explanation": "Under the cash method, income is generally included in the year it is actually or constructively received. The unrestricted advance payment is taxable in 2025 even though the related services will be performed in 2026. Different timing rules may apply to qualifying accrual-method taxpayers.",
+      "topic": "Business Tax Preparation",
+      "subtopic": "Business Income",
+      "difficulty": "easy",
+      "source": "IRS Publication 334, Tax Guide for Small Business — Accounting Methods and Business Income"
+    },
+    {
+      "stem": "A calendar-year sole proprietor places $4,200,000 of qualifying Section 179 property in service during 2025. All assets are used entirely in an active trade or business, and the proprietor has sufficient taxable income from active businesses. Ignoring any separate vehicle limitations, what is the maximum Section 179 deduction permitted for 2025?",
+      "options": [
+        "$2,500,000",
+        "$2,200,000",
+        "$2,300,000",
+        "$4,200,000"
+      ],
+      "answer": "C",
+      "explanation": "For tax years beginning in 2025, the maximum Section 179 deduction is $2,500,000, reduced dollar for dollar by qualifying property costs exceeding $4,000,000. The taxpayer exceeds the investment threshold by $200,000, reducing the maximum deduction to $2,300,000. The deduction remains subject to the active-business taxable income limitation, which the scenario states is satisfied.",
+      "topic": "Business Tax Preparation",
+      "subtopic": "Business assets",
+      "difficulty": "hard",
+      "source": "IRS Publication 946 (2025), Chapter 2 — Section 179 Deduction; IRC Section 179"
+    },
+    {
+      "stem": "During 2025, a business owner spends $4,000 on meals with customers at restaurants while discussing ongoing business relationships. The meals are reasonable, are not lavish or extravagant, and meet the requirements for deductibility. How much of the expenditure is generally deductible as a business expense?",
+      "options": [
+        "$0",
+        "$1,000",
+        "$4,000",
+        "$2,000"
+      ],
+      "answer": "D",
+      "explanation": "Qualifying business meal expenses are generally subject to a 50% deduction limitation. Therefore, the deduction is $4,000 multiplied by 50%, or $2,000. The taxpayer must satisfy the business-purpose and substantiation requirements, and entertainment expenses generally remain nondeductible.",
+      "topic": "Business Tax Preparation",
+      "subtopic": "Business expenses, deductions and credits",
+      "difficulty": "easy",
+      "source": "IRS Publication 463, Travel, Gift, and Car Expenses — Meals; IRC Section 274(n)"
+    },
+    {
+      "stem": "A retailer reports the following amounts for 2025: beginning inventory of $80,000, merchandise purchases of $250,000, freight-in of $10,000, and ending inventory of $70,000. The amounts are determined under an appropriate inventory accounting method, and there are no purchase returns or other adjustments. What is the retailer's cost of goods sold for 2025?",
+      "options": [
+        "$270,000",
+        "$250,000",
+        "$260,000",
+        "$340,000"
+      ],
+      "answer": "A",
+      "explanation": "Cost of goods sold is generally calculated as beginning inventory plus purchases and other inventoriable costs, less ending inventory. Freight-in is included in the cost of acquiring merchandise. Therefore, cost of goods sold is $80,000 + $250,000 + $10,000 - $70,000 = $270,000.",
+      "topic": "Business Tax Preparation",
+      "subtopic": "Analysis of financial records",
+      "difficulty": "medium",
+      "source": "IRS Publication 334, Tax Guide for Small Business — Cost of Goods Sold; Schedule C Instructions"
+    },
+    {
+      "stem": "A calendar-year business purchases and places in service new machinery on March 15, 2025. The machinery was acquired under a binding purchase contract signed February 10, 2025, has a MACRS recovery period of seven years, and is used 100% for business. Assuming it satisfies all other requirements and the taxpayer makes no election to reduce or opt out of the special depreciation allowance, what percentage of the machinery's eligible depreciable basis qualifies for the special depreciation allowance?",
+      "options": [
+        "20%",
+        "40%",
+        "100%",
+        "60%"
+      ],
+      "answer": "C",
+      "explanation": "The legislation enacted in July 2025 restored a 100% special depreciation allowance for certain qualified property acquired after January 19, 2025. The machinery was acquired and placed in service after that date and has a qualifying recovery period. Therefore, its eligible depreciable basis qualifies for 100% bonus depreciation, absent an applicable election or exception.",
+      "topic": "Business Tax Preparation",
+      "subtopic": "Business assets",
+      "difficulty": "medium",
+      "source": "IRS Publication 946 (2025), Chapter 3 — Special Depreciation Allowance; IRC Section 168(k)"
+    },
+    {
+      "stem": "An accrual-method business included a $9,000 customer receivable in taxable income in 2024. In 2025, the customer permanently closes and becomes insolvent. After reasonable collection efforts, the business establishes that the entire receivable is worthless. How should the business generally treat the receivable for 2025 federal income tax purposes?",
+      "options": [
+        "Exclude $9,000 from 2025 gross receipts without taking a deduction",
+        "Claim a $9,000 business bad debt deduction",
+        "Claim a $9,000 nonbusiness short-term capital loss",
+        "Carry the $9,000 receivable forward until the customer pays"
+      ],
+      "answer": "B",
+      "explanation": "An accrual-method taxpayer that previously recognized income from a valid receivable can generally deduct the debt when it becomes wholly worthless. A debt arising from business operations is ordinarily a business bad debt, deductible against ordinary income. The taxpayer must establish worthlessness and maintain adequate supporting records.",
+      "topic": "Business Tax Preparation",
+      "subtopic": "Business expenses, deductions and credits",
+      "difficulty": "medium",
+      "source": "IRS Publication 535, Business Expenses — Bad Debts; IRC Section 166"
+    },
+    {
+      "stem": "A sole proprietor places $100,000 of qualifying equipment in service during 2025 and elects to expense the entire cost under Section 179. The proprietor's taxable income from the active conduct of all trades or businesses, computed for the Section 179 limitation, is $65,000. The overall dollar and investment limits do not restrict the deduction, and no other depreciation is claimed on the equipment in 2025. What is the proper treatment of the Section 179 election?",
+      "options": [
+        "Deduct $100,000 immediately because the annual investment limit is not exceeded",
+        "Deduct $50,000 immediately and permanently disallow the other $50,000",
+        "Deduct $65,000 immediately and treat the remaining $35,000 as a capital loss",
+        "Deduct $65,000 immediately and carry forward the disallowed $35,000"
+      ],
+      "answer": "D",
+      "explanation": "The Section 179 deduction is subject to a taxable income limitation based on the active conduct of trades or businesses. The current deduction is limited to $65,000, even though the elected amount is $100,000 and the annual dollar cap is not exceeded. The unused $35,000 Section 179 amount is carried forward, subject to the applicable rules in future years.",
+      "topic": "Business Tax Preparation",
+      "subtopic": "Business assets",
+      "difficulty": "hard",
+      "source": "IRS Publication 946 (2025), Chapter 2 — Business Income Limit and Carryover"
+    },
+    {
+      "stem": "A sole proprietor pays $5,000 in 2025 for a personal family vacation using the business checking account. The payment is recorded in the company's bookkeeping system as a travel expense. What is the correct federal income tax treatment?",
+      "options": [
+        "Disallow the $5,000 business deduction because the expense is personal",
+        "Deduct the $5,000 because payment came from the business bank account",
+        "Deduct $2,500 because personal travel is subject to a 50% limitation",
+        "Capitalize the $5,000 as an intangible business asset"
+      ],
+      "answer": "A",
+      "explanation": "Personal, living, and family expenses are generally not deductible as ordinary and necessary business expenses. Paying a personal expense from a business account or recording it in the business ledger does not change its character. The bookkeeping entry should be corrected to reflect a personal withdrawal rather than a deductible business expense.",
+      "topic": "Business Tax Preparation",
+      "subtopic": "Analysis of financial records",
+      "difficulty": "easy",
+      "source": "IRS Publication 535, Business Expenses — Personal Versus Business Expenses; IRC Section 262"
+    },
+    {
+      "stem": "A business taxpayer discovers that its 2025 accounting records include $18,000 of sales processed through a payment platform and $18,000 of corresponding deposits recorded separately as additional sales. Both entries relate to exactly the same transactions. What action should the preparer take when reconciling business gross receipts?",
+      "options": [
+        "Report $36,000 because both records independently show receipts",
+        "Exclude the $18,000 entirely because payment platforms report the transactions",
+        "Eliminate the duplicate entry and report $18,000 of gross receipts from those sales",
+        "Report $9,000 because platform transactions receive a 50% exclusion"
+      ],
+      "answer": "C",
+      "explanation": "Gross receipts must reflect actual business sales without counting the same transaction more than once. Payment-platform records and bank deposits may provide overlapping evidence of identical receipts. The preparer should reconcile those records and report the $18,000 of sales once, while retaining documentation supporting the reconciliation.",
+      "topic": "Business Tax Preparation",
+      "subtopic": "Advising the business taxpayer",
+      "difficulty": "medium",
+      "source": "IRS Schedule C Instructions — Gross Receipts; IRS Form 1099-K Frequently Asked Questions"
+    },
+    {
+      "stem": "A domestic nongrantor trust has $750 of gross interest income during 2025 but, after allowable deductions and exemptions, has no taxable income. It has no nonresident alien beneficiaries. Which of the following correctly describes its federal income tax filing requirement?",
+      "options": [
+        "Form 1041 is required only when gross income exceeds $1,500",
+        "Form 1041 is generally required because gross income is at least $600",
+        "Form 1041 is not required because taxable income is zero",
+        "Form 1041 is required only when distributions are made to beneficiaries"
+      ],
+      "answer": "B",
+      "explanation": "A domestic nongrantor trust taxable under Section 641 generally must file Form 1041 if it has any taxable income, gross income of $600 or more, or a nonresident alien beneficiary. The $750 of gross income meets the filing threshold even though taxable income is zero. Filing requirements are not determined solely by whether the trust owes income tax.",
+      "topic": "Specialized Returns and Taxpayers",
+      "subtopic": "Trust and estate income tax",
+      "difficulty": "medium",
+      "source": "IRS Instructions for Form 1041 (2025) — Who Must File"
+    },
+    {
+      "stem": "A Section 501(c)(3) charitable organization regularly operates a retail store that sells general consumer merchandise to the public. The store is staffed by paid employees, is operated to earn profits, and is not substantially related to the organization's exempt charitable purpose. Which of the following generally describes the federal income tax treatment of the store's net earnings?",
+      "options": [
+        "The earnings are automatically exempt because the organization has Section 501(c)(3) status",
+        "The earnings are treated as charitable contributions received by the organization",
+        "The earnings are taxed only if distributed to the organization's officers",
+        "The earnings are generally subject to unrelated business income tax"
+      ],
+      "answer": "D",
+      "explanation": "An exempt organization can be subject to unrelated business income tax when it regularly conducts a trade or business that is not substantially related to its exempt purpose. The retail operation satisfies those conditions, and the facts do not indicate an applicable statutory exclusion or exception. The organization generally reports its unrelated business taxable income on Form 990-T when filing requirements are met.",
+      "topic": "Specialized Returns and Taxpayers",
+      "subtopic": "Exempt organizations",
+      "difficulty": "medium",
+      "source": "IRS Publication 598, Tax on Unrelated Business Income of Exempt Organizations; IRC Section 512"
+    },
+    {
+      "stem": "A cash-method farmer normally sells more than 50% of each year's harvested crop in the following tax year. In 2025, a storm destroys the farmer's growing crop, and the farmer receives $90,000 of crop insurance proceeds during 2025. The proceeds compensate for the crop loss, and all requirements for a valid deferral election are met. Which of the following correctly describes the farmer's treatment of the proceeds?",
+      "options": [
+        "The farmer may elect to report the proceeds in 2026 rather than 2025",
+        "The farmer must spread the proceeds equally over 2025 and 2026",
+        "The farmer may exclude the proceeds permanently as disaster compensation",
+        "The farmer must capitalize the proceeds into the basis of the following year's crop"
+      ],
+      "answer": "A",
+      "explanation": "A cash-method farmer may elect to defer eligible crop insurance proceeds to the tax year following the year of crop damage when the statutory conditions are satisfied. One important condition is that, under normal business practice, more than 50% of income from the damaged crops would have been reported in a later year. Because the stated conditions are met, the farmer may elect to include the $90,000 in 2026 income.",
+      "topic": "Specialized Returns and Taxpayers",
+      "subtopic": "Farmers",
+      "difficulty": "hard",
+      "source": "IRS Publication 225 (2025), Farmer's Tax Guide — Crop Insurance and Crop Disaster Payments; IRC Section 451(f)"
+    },
+    {
+      "stem": "A taxpayer purchases an existing residential apartment building in 2025 and immediately places it in service as a rental property. The taxpayer uses the building entirely for rental purposes, and its depreciable basis excludes land. Under the general depreciation system (GDS), what is the applicable MACRS recovery period for the residential rental building?",
+      "options": [
+        "15 years",
+        "20 years",
+        "27.5 years",
+        "39 years"
+      ],
+      "answer": "C",
+      "explanation": "Residential rental property generally has a 27.5-year recovery period under MACRS GDS and is depreciated using the straight-line method and mid-month convention. The 39-year period generally applies to nonresidential real property under GDS. Land is not depreciable and must be excluded from the building's depreciable basis.",
+      "topic": "Specialized Returns and Taxpayers",
+      "subtopic": "Rental Property",
+      "difficulty": "medium",
+      "source": "IRS Publication 527, Residential Rental Property — Depreciation; IRS Publication 946, Chapter 4"
+    }
+  ]
+}

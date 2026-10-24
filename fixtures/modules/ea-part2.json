@@ -1,0 +1,58 @@
+{
+  "id": "ea-part2",
+  "display_name": "Enrolled Agent SEE Part 2 — Businesses",
+  "body": "IRS",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by, endorsed by or approved by the Internal Revenue Service (IRS), the U.S. Department of the Treasury or the exam's test administrator; the names are used only to identify the exam. The topic and subtopic names and the question counts are from the test specifications the IRS publishes for the Special Enrollment Examination; source: Internal Revenue Service, https://www.irs.gov.",
+  "taxonomy": {
+    "Business Entities and Considerations": [
+      "Business entities",
+      "Partnerships",
+      "Corporations in general",
+      "Forming a corporation",
+      "S corporations"
+    ],
+    "Business Tax Preparation": [
+      "Business Income",
+      "Business expenses, deductions and credits",
+      "Business assets",
+      "Analysis of financial records",
+      "Advising the business taxpayer"
+    ],
+    "Specialized Returns and Taxpayers": [
+      "Trust and estate income tax",
+      "Exempt organizations",
+      "Retirement plans",
+      "Farmers",
+      "Rental Property"
+    ]
+  },
+  "weights": {
+    "Business Entities and Considerations": 35.29,
+    "Business Tax Preparation": 43.52,
+    "Specialized Returns and Taxpayers": 21.17
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": false,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [
+    "Which of the following is correct regarding the accumulated earnings tax on a corporation?",
+    "Which of the following would be included in the gross receipts of a business?",
+    "A paycheck issued after the date of death to a taxpayer for work performed prior to death is considered:"
+  ],
+  "uncovered_item_types": [],
+  "exam_mode": {
+    "questions": 100,
+    "minutes": 210,
+    "sections": 3
+  },
+  "prompt_template": "@role\nYou are writing exam-style multiple-choice practice questions for me. I am preparing for {module}, set by IRS. Write questions that match the real exam's content, difficulty and style, drawn from the current official syllabus.\nIn its current testing window (July 1, 2026 to February 28, 2027) the real exam follows the Internal Revenue Code, regulations, forms, instructions and publications as amended through December 31, 2025: unless a question says otherwise, it relates to calendar year 2025 (\"current tax year\" means 2025), and it never relies on legislation, court decisions or penalty amounts after December 31, 2025. Write every question on that basis, with the figures, limits and thresholds for 2025.",
+  "verified_outline": "Special Enrollment Examination: Part 2 content outline, IRS SEE Candidate Information Bulletin revised October 9, 2026 (window July 1, 2026 to February 28, 2027; tax year 2025)",
+  "verified_on": "2026-10-24",
+  "next_review": "2027-05-01"
+}
