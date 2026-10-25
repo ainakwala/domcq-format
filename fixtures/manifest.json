@@ -240,6 +240,10 @@
     { "file": "valid/ea-part3-chatgpt-1.json", "errors": [] },
     { "file": "valid/ea-part3-gemini-1.json", "errors": [] },
     { "file": "valid/ea-part3-gemini-2.json", "errors": [] },
+    { "file": "valid/plab-1-claude-1.md", "errors": [], "fenced": true },
+    { "file": "valid/plab-1-claude-2.md", "errors": [], "fenced": true },
+    { "file": "valid/plab-1-claude-3.md", "errors": [], "fenced": true },
+    { "file": "valid/plab-1-claude-4.md", "errors": [], "fenced": true },
 
     { "file": "invalid/empty.txt", "errors": ["E001"] },
     { "file": "invalid/not-json.txt", "errors": ["E002"] },
