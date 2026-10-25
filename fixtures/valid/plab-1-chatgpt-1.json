@@ -1,0 +1,327 @@
+{
+  "format": "domcq/1",
+  "exam": "plab-1",
+  "set": "PLAB 1 practice – Clinical Cases and UK Management",
+  "questions": [
+    {
+      "stem": "A 27-year-old woman attends the emergency department with sudden severe lower abdominal pain, dizziness and vaginal bleeding. Her last menstrual period was 7 weeks ago, and a urine pregnancy test is positive. Her blood pressure is 82/50 mmHg and her pulse is 125 beats/minute. She has marked abdominal tenderness and guarding. Which is the most appropriate management?",
+      "options": [
+        "Arrange urgent surgical assessment and emergency laparoscopy",
+        "Administer intramuscular methotrexate after confirming the diagnosis",
+        "Request an outpatient transvaginal ultrasound within 48 hours",
+        "Repeat serum beta-hCG measurements after 48 hours",
+        "Offer expectant management with repeat pregnancy testing"
+      ],
+      "answer": "A",
+      "explanation": "The presentation strongly suggests a ruptured ectopic pregnancy causing intra-abdominal haemorrhage and haemodynamic instability. Immediate resuscitation, including intravenous access and blood products as required, must occur alongside urgent gynaecological surgical assessment and emergency surgery. Methotrexate and expectant management are inappropriate in an unstable patient.",
+      "topic": "Reproductive health",
+      "subtopic": "Clinical pharmacology and therapeutics",
+      "difficulty": "medium",
+      "source": "GMC MLA content map: Ectopic pregnancy; NICE NG126, Ectopic pregnancy and miscarriage"
+    },
+    {
+      "stem": "A 32-year-old woman who is 35 weeks pregnant presents with a severe headache, blurred vision and upper abdominal pain. Her blood pressure is 172/114 mmHg, and urine dipstick testing shows 3+ protein. She has a generalised tonic-clonic seizure while being assessed. Her airway and breathing are supported, and intravenous access is established. Which medication is most appropriate to prevent further seizures?",
+      "options": [
+        "Intravenous diazepam",
+        "Intravenous magnesium sulfate",
+        "Intravenous sodium valproate",
+        "Intravenous levetiracetam",
+        "Intravenous phenytoin"
+      ],
+      "answer": "B",
+      "explanation": "The patient has eclampsia, defined by seizures associated with pre-eclampsia. Intravenous magnesium sulfate is the first-line treatment for preventing recurrent eclamptic seizures and is more effective than conventional anticonvulsants. Severe hypertension also requires urgent treatment, with obstetric planning for delivery after maternal stabilisation.",
+      "topic": "Reproductive health",
+      "subtopic": "Clinical pharmacology and therapeutics",
+      "difficulty": "medium",
+      "source": "GMC MLA content map: Pre-eclampsia and eclampsia; NICE NG133, Hypertension in pregnancy"
+    },
+    {
+      "stem": "A 68-year-old man attends the emergency department because he has been unable to pass urine for 10 hours. He has severe suprapubic pain and a palpable, tender, distended bladder. He has a history of benign prostatic enlargement but no previous urological surgery or urethral injury. Which is the most appropriate initial management?",
+      "options": [
+        "Start oral finasteride",
+        "Arrange immediate cystoscopy",
+        "Insert a urethral catheter",
+        "Request urgent prostate MRI",
+        "Prescribe oral tamsulosin"
+      ],
+      "answer": "C",
+      "explanation": "Acute urinary retention requires prompt bladder decompression, usually by urethral catheterisation. Medical treatments for prostatic enlargement may reduce subsequent retention risk but do not provide immediate relief. Renal function assessment and investigation of the underlying cause should follow initial management.",
+      "topic": "Renal and urology",
+      "subtopic": "Clinical pharmacology and therapeutics",
+      "difficulty": "easy",
+      "source": "GMC MLA content map: Urinary retention; NICE CG97, Lower urinary tract symptoms in men"
+    },
+    {
+      "stem": "A 58-year-old man with chronic kidney disease presents with weakness and palpitations. Blood tests show a potassium concentration of 7.1 mmol/L. His ECG shows broad QRS complexes and tall, peaked T waves. He is haemodynamically stable and has intravenous access. Which is the most appropriate immediate medication?",
+      "options": [
+        "Intravenous furosemide",
+        "Nebulised salbutamol",
+        "Intravenous sodium bicarbonate",
+        "Intravenous calcium gluconate",
+        "Intravenous insulin with glucose"
+      ],
+      "answer": "D",
+      "explanation": "Severe hyperkalaemia with ECG abnormalities carries an immediate risk of life-threatening arrhythmias. Intravenous calcium gluconate stabilises the cardiac membrane but does not lower serum potassium. Insulin with glucose and other potassium-lowering measures must follow promptly, together with cardiac monitoring and treatment of the underlying cause.",
+      "topic": "Renal and urology",
+      "subtopic": "Clinical biochemistry",
+      "difficulty": "hard",
+      "source": "GMC MLA content map: Hyperkalaemia; UK Kidney Association, Clinical Practice Guideline for Hyperkalaemia"
+    },
+    {
+      "stem": "A 72-year-old woman presents with sudden painless loss of vision in her right eye, which began 90 minutes ago. Examination reveals markedly reduced visual acuity, a relative afferent pupillary defect and a pale retina with a cherry-red spot on fundoscopy. Which is the most likely diagnosis?",
+      "options": [
+        "Central retinal artery occlusion",
+        "Central retinal vein occlusion",
+        "Acute angle-closure glaucoma",
+        "Retinal detachment",
+        "Vitreous haemorrhage"
+      ],
+      "answer": "A",
+      "explanation": "Central retinal artery occlusion causes sudden, severe, painless monocular visual loss due to interruption of retinal arterial blood supply. A pale retina with a cherry-red spot is a characteristic finding. It is an ophthalmic and vascular emergency requiring immediate specialist assessment and evaluation for embolic disease.",
+      "topic": "Neurosciences and senses (including skins)",
+      "subtopic": "Clinical imaging",
+      "difficulty": "medium",
+      "source": "GMC MLA content map: Sudden loss of vision; Retinal vascular occlusion"
+    },
+    {
+      "stem": "A 46-year-old woman presents with a sudden severe headache that reached maximum intensity within seconds while exercising. She vomited twice and has neck stiffness. She is alert, with no focal neurological deficit. A non-contrast CT brain performed 12 hours after headache onset shows no evidence of haemorrhage. She has no contraindication to lumbar puncture. Which is the most appropriate next investigation?",
+      "options": [
+        "Electroencephalography",
+        "Lumbar puncture for cerebrospinal fluid analysis",
+        "Carotid Doppler ultrasonography",
+        "MRI of the cervical spine",
+        "Temporal artery ultrasonography"
+      ],
+      "answer": "B",
+      "explanation": "A thunderclap headache with neck stiffness raises strong suspicion of subarachnoid haemorrhage. When non-contrast CT is negative and was performed more than 6 hours after symptom onset, lumbar puncture should be considered to assess cerebrospinal fluid for xanthochromia. Sampling should occur at least 12 hours after headache onset to allow bilirubin formation.",
+      "topic": "Neurosciences and senses (including skins)",
+      "subtopic": "Clinical imaging",
+      "difficulty": "hard",
+      "source": "GMC MLA content map: Subarachnoid haemorrhage; NICE NG228, Subarachnoid haemorrhage caused by a ruptured aneurysm"
+    },
+    {
+      "stem": "A 67-year-old man presents with a swollen, painful right knee that developed over 12 hours. He has a temperature of 38.5°C and cannot bear weight. The knee is warm, erythematous and markedly tender on passive movement. He has type 2 diabetes mellitus. Which is the most appropriate investigation to establish the diagnosis?",
+      "options": [
+        "Serum urate concentration",
+        "Rheumatoid factor testing",
+        "Urgent joint aspiration for synovial fluid analysis",
+        "MRI of the affected knee",
+        "Plain radiography of the affected knee"
+      ],
+      "answer": "C",
+      "explanation": "Acute monoarthritis with fever and painful restriction of movement should be treated as possible septic arthritis. Urgent synovial fluid aspiration for cell count, crystal examination, Gram stain and culture helps establish the diagnosis. Aspiration should precede antibiotics when feasible, but treatment must not be delayed in an unstable patient.",
+      "topic": "Musculoskeletal",
+      "subtopic": "Microbiology",
+      "difficulty": "medium",
+      "source": "GMC MLA content map: Septic arthritis; SANJO guideline, Management of septic arthritis in native joints"
+    },
+    {
+      "stem": "A 74-year-old woman presents with sudden severe back pain after bending to lift a shopping bag. She has osteoporosis and has previously sustained a fragility fracture. Examination shows localised midline tenderness over the lower thoracic spine. Her lower limb neurological examination is normal. There are no features suggesting infection or malignancy. Which is the most appropriate initial imaging investigation?",
+      "options": [
+        "MRI of the lumbar spine",
+        "CT of the abdomen and pelvis",
+        "Radionuclide bone scintigraphy",
+        "Plain radiography of the thoracolumbar spine",
+        "Ultrasonography of the paraspinal muscles"
+      ],
+      "answer": "D",
+      "explanation": "An older patient with osteoporosis, acute focal spinal pain and minimal trauma is likely to have a vertebral compression fracture. Plain spinal radiographs are an appropriate initial investigation to identify vertebral height loss and deformity. MRI may be required if there are neurological signs, suspected malignancy or uncertainty about fracture acuity.",
+      "topic": "Musculoskeletal",
+      "subtopic": "Clinical imaging",
+      "difficulty": "easy",
+      "source": "GMC MLA content map: Osteoporosis and vertebral fracture; NOGG guideline, Vertebral fractures"
+    },
+    {
+      "stem": "A 34-year-old man with schizophrenia develops a temperature of 40°C, generalised muscle rigidity, confusion and profuse sweating three days after his haloperidol dose was increased. His pulse is 130 beats/minute, and blood tests show markedly elevated creatine kinase. Which is the most appropriate immediate management?",
+      "options": [
+        "Stop haloperidol and provide urgent supportive care",
+        "Reduce haloperidol and prescribe oral propranolol",
+        "Continue haloperidol and administer intravenous antibiotics",
+        "Replace haloperidol immediately with another antipsychotic",
+        "Continue haloperidol and prescribe oral benztropine"
+      ],
+      "answer": "A",
+      "explanation": "Fever, severe rigidity, autonomic instability, altered mental state and elevated creatine kinase after antipsychotic exposure indicate neuroleptic malignant syndrome. The offending antipsychotic must be stopped immediately, with urgent hospital-level supportive care, including fluids, cooling and monitoring for complications. Severe cases may require critical care and specialist-directed treatment.",
+      "topic": "Mental health",
+      "subtopic": "Clinical pharmacology and therapeutics",
+      "difficulty": "hard",
+      "source": "GMC MLA content map: Neuroleptic malignant syndrome; BNF, Antipsychotic drugs: adverse effects"
+    },
+    {
+      "stem": "A 29-year-old woman attends her GP with persistent low mood, loss of interest, poor concentration and early morning waking for six weeks. She continues working but finds everyday activities difficult. She has no history of mania or hypomania, no psychotic symptoms and no current suicidal thoughts. After discussing treatment options, she prefers medication. Which is the most appropriate first-line antidepressant?",
+      "options": [
+        "Amitriptyline",
+        "Sertraline",
+        "Phenelzine",
+        "Clomipramine",
+        "Mirtazapine"
+      ],
+      "answer": "B",
+      "explanation": "Selective serotonin reuptake inhibitors, such as sertraline, are commonly preferred when medication is indicated for depression because of their favourable safety and tolerability compared with older antidepressants. Treatment choice should incorporate severity, patient preference, potential adverse effects and previous response. Follow-up is important to monitor symptoms, adherence and suicidal ideation.",
+      "topic": "Mental health",
+      "subtopic": "Clinical pharmacology and therapeutics",
+      "difficulty": "easy",
+      "source": "GMC MLA content map: Depression; NICE NG222, Depression in adults: treatment and management"
+    },
+    {
+      "stem": "A 51-year-old man attends the emergency department with severe epigastric pain radiating to his back and repeated vomiting. He drinks approximately 50 units of alcohol per week. His serum lipase is five times the upper limit of normal, confirming acute pancreatitis. He is tachycardic and clinically dehydrated, but his oxygen saturation is normal. Which is the most appropriate initial treatment?",
+      "options": [
+        "Immediate intravenous broad-spectrum antibiotics",
+        "Urgent endoscopic retrograde cholangiopancreatography",
+        "Intravenous crystalloid fluids and adequate analgesia",
+        "High-dose intravenous proton pump inhibitor",
+        "Immediate total parenteral nutrition"
+      ],
+      "answer": "C",
+      "explanation": "Initial management of acute pancreatitis focuses on supportive care, particularly appropriate intravenous fluid resuscitation, analgesia and close monitoring. Antibiotics are not routinely indicated unless infection is suspected or confirmed. ERCP is reserved for specific biliary indications, such as associated cholangitis or persistent biliary obstruction.",
+      "topic": "Gastrointestinal",
+      "subtopic": "Clinical pharmacology and therapeutics",
+      "difficulty": "easy",
+      "source": "GMC MLA content map: Acute pancreatitis; NICE NG104, Pancreatitis"
+    },
+    {
+      "stem": "A 63-year-old man presents with fever, jaundice and right upper quadrant abdominal pain. His blood pressure is 88/54 mmHg, pulse 118 beats/minute and temperature 39.1°C. Blood tests reveal neutrophilia and a raised bilirubin concentration. Ultrasonography demonstrates a dilated common bile duct containing a stone. Intravenous fluids and broad-spectrum antibiotics have been started. Which is the most appropriate next intervention?",
+      "options": [
+        "Elective laparoscopic cholecystectomy in six weeks",
+        "Repeat abdominal ultrasonography after antibiotic treatment",
+        "Percutaneous liver biopsy for histological confirmation",
+        "Urgent ERCP for biliary drainage and duct clearance",
+        "Oral ursodeoxycholic acid for dissolution of the stone"
+      ],
+      "answer": "D",
+      "explanation": "Fever, jaundice, abdominal pain and haemodynamic instability with an obstructed common bile duct indicate severe acute ascending cholangitis. Alongside resuscitation and intravenous antibiotics, urgent biliary decompression is required for source control. ERCP is generally the preferred approach when technically feasible.",
+      "topic": "Gastrointestinal",
+      "subtopic": "Clinical imaging",
+      "difficulty": "hard",
+      "source": "GMC MLA content map: Acute cholangitis; NICE CG188, Gallstone disease"
+    },
+    {
+      "stem": "A 23-year-old woman with type 1 diabetes presents with vomiting, abdominal pain and deep, rapid breathing. Her capillary glucose is 26 mmol/L, blood ketones are 5.8 mmol/L and venous pH is 7.12. Serum potassium is 4.6 mmol/L. She is alert but dehydrated, and intravenous 0.9% sodium chloride has been commenced. Which is the most appropriate next treatment?",
+      "options": [
+        "Start a fixed-rate intravenous insulin infusion",
+        "Administer intravenous sodium bicarbonate immediately",
+        "Start a variable-rate intravenous insulin infusion alone",
+        "Administer subcutaneous long-acting insulin alone",
+        "Begin intravenous glucose without insulin treatment"
+      ],
+      "answer": "A",
+      "explanation": "The patient meets diagnostic criteria for diabetic ketoacidosis, with hyperglycaemia, significant ketonaemia and metabolic acidosis. A fixed-rate intravenous insulin infusion, commonly 0.1 units/kg/hour, is recommended alongside fluid resuscitation and careful potassium monitoring. Routine bicarbonate administration is not indicated, and intravenous glucose is added when required as glucose falls while ketosis is treated.",
+      "topic": "Endocrine metabolic, and clinical haematology",
+      "subtopic": "Clinical biochemistry",
+      "difficulty": "medium",
+      "source": "GMC MLA content map: Diabetic ketoacidosis; JBDS-IP, The Management of Diabetic Ketoacidosis in Adults"
+    },
+    {
+      "stem": "A 49-year-old woman reports fatigue, weight gain, constipation and intolerance to cold. Examination reveals dry skin and a pulse of 56 beats/minute. Blood tests show a TSH concentration of 18 mIU/L and a free T4 concentration below the reference range. Which is the most appropriate treatment?",
+      "options": [
+        "Oral carbimazole",
+        "Oral levothyroxine",
+        "Oral propranolol",
+        "Intravenous hydrocortisone",
+        "Radioactive iodine therapy"
+      ],
+      "answer": "B",
+      "explanation": "An elevated TSH with a low free T4 concentration establishes primary hypothyroidism. Oral levothyroxine replaces deficient thyroid hormone and is the standard treatment. TSH should be monitored to guide dose adjustment, with starting doses individualised according to age, cardiovascular history and clinical circumstances.",
+      "topic": "Endocrine metabolic, and clinical haematology",
+      "subtopic": "Clinical biochemistry",
+      "difficulty": "easy",
+      "source": "GMC MLA content map: Hypothyroidism; NICE NG145, Thyroid disease: assessment and management"
+    },
+    {
+      "stem": "A 4-year-old boy is brought to the emergency department with a barking cough, hoarse voice and noisy breathing. He has a temperature of 37.8°C and is comfortable at rest without stridor or increased work of breathing. He is alert, drinking normally and has oxygen saturation of 98% on room air. Which is the most appropriate treatment?",
+      "options": [
+        "Oral amoxicillin",
+        "Nebulised salbutamol",
+        "Single-dose oral dexamethasone",
+        "Intravenous ceftriaxone",
+        "Nebulised adrenaline alone"
+      ],
+      "answer": "C",
+      "explanation": "A barking cough and hoarseness with an otherwise reassuring examination are characteristic of mild viral croup. A single dose of oral dexamethasone reduces airway inflammation and improves symptoms. Nebulised adrenaline is generally reserved for more severe presentations with significant stridor or respiratory distress.",
+      "topic": "Child and adolescent health",
+      "subtopic": "Clinical pharmacology and therapeutics",
+      "difficulty": "easy",
+      "source": "GMC MLA content map: Croup; NICE CKS, Croup"
+    },
+    {
+      "stem": "A 7-week-old boy is brought to hospital because of progressively forceful, non-bilious vomiting after feeds. He remains hungry following each episode. Examination reveals mild dehydration, and blood tests show hypochloraemic metabolic alkalosis. An abdominal ultrasound confirms hypertrophic pyloric stenosis. Which is the most appropriate management before definitive surgery?",
+      "options": [
+        "Commence oral rehydration and continue normal feeding",
+        "Administer intravenous antibiotics and observe",
+        "Proceed immediately to surgery without fluid replacement",
+        "Correct dehydration and electrolyte abnormalities intravenously",
+        "Start an intravenous proton pump inhibitor infusion"
+      ],
+      "answer": "D",
+      "explanation": "Infantile hypertrophic pyloric stenosis causes gastric outlet obstruction and typically produces progressive non-bilious projectile vomiting with hypochloraemic metabolic alkalosis. Dehydration and electrolyte disturbances must be corrected before pyloromyotomy because they increase anaesthetic risk. Pyloromyotomy is definitive treatment after stabilisation.",
+      "topic": "Child and adolescent health",
+      "subtopic": "Clinical biochemistry",
+      "difficulty": "medium",
+      "source": "GMC MLA content map: Pyloric stenosis; Paediatric surgery, Infantile hypertrophic pyloric stenosis"
+    },
+    {
+      "stem": "A 65-year-old man presents with central crushing chest pain that began 40 minutes ago and radiates to his left arm. His ECG shows ST-segment elevation in leads II, III and aVF. He is haemodynamically stable. A primary percutaneous coronary intervention service can provide coronary intervention within 90 minutes of the time fibrinolysis could be administered. Which is the most appropriate reperfusion strategy?",
+      "options": [
+        "Immediate primary percutaneous coronary intervention",
+        "Intravenous fibrinolysis without coronary angiography",
+        "Elective coronary angiography within six weeks",
+        "Initial exercise tolerance testing before intervention",
+        "Medical management without coronary reperfusion"
+      ],
+      "answer": "A",
+      "explanation": "The ECG findings establish an acute inferior ST-elevation myocardial infarction. Primary PCI is the preferred reperfusion strategy when it can be delivered promptly, including within 120 minutes of the time fibrinolysis could be given under NICE guidance. Fibrinolysis is an alternative when timely primary PCI is unavailable and the patient meets the relevant criteria.",
+      "topic": "Cardiorespiratory",
+      "subtopic": "Clinical imaging",
+      "difficulty": "medium",
+      "source": "GMC MLA content map: Acute myocardial infarction; NICE NG185, Acute coronary syndromes"
+    },
+    {
+      "stem": "A 70-year-old man with known COPD presents with increasing breathlessness and purulent sputum. His oxygen saturation is 82% on room air, respiratory rate is 28 breaths/minute and he is alert. He has previously experienced hypercapnic respiratory failure during an exacerbation. While awaiting arterial blood gas results, which oxygen saturation target is most appropriate?",
+      "options": [
+        "80% to 84%",
+        "88% to 92%",
+        "93% to 95%",
+        "96% to 98%",
+        "99% to 100%"
+      ],
+      "answer": "B",
+      "explanation": "Patients with COPD who are at risk of hypercapnic respiratory failure should initially receive controlled oxygen targeting 88% to 92%, pending arterial blood gas assessment. Excessive oxygen administration can worsen carbon dioxide retention in susceptible patients. The target should subsequently be reassessed according to blood gas results and clinical status.",
+      "topic": "Cardiorespiratory",
+      "subtopic": "Clinical pharmacology and therapeutics",
+      "difficulty": "medium",
+      "source": "GMC MLA content map: COPD exacerbation; BTS Guideline for oxygen use in adults in healthcare"
+    },
+    {
+      "stem": "A 76-year-old woman has severe pneumonia and deteriorating consciousness. She lacks capacity to decide about antibiotic treatment because she cannot understand or weigh the relevant information. She has no applicable advance decision refusing treatment and no health and welfare attorney or court-appointed deputy. Her daughter demands that antibiotics be withheld, saying her mother would not want hospital treatment, but cannot describe any previous wishes supporting this. The medical team believes treatment offers a reasonable prospect of recovery. Under the Mental Capacity Act 2005 in England and Wales, which is the most appropriate course of action?",
+      "options": [
+        "Withhold antibiotics because the daughter has requested this",
+        "Delay antibiotics until the patient regains decision-making capacity",
+        "Make a best-interests decision after consulting those close to her",
+        "Seek a court order before providing any antibiotic treatment",
+        "Provide antibiotics only if every relative gives written consent"
+      ],
+      "answer": "C",
+      "explanation": "When an adult lacks capacity, treatment decisions must be made in the person's best interests under the Mental Capacity Act 2005. Clinicians should consult those close to the patient about her values, beliefs and previously expressed wishes, but relatives without legal decision-making authority do not have an automatic veto. Clinically appropriate urgent treatment can proceed following a properly considered best-interests decision.",
+      "topic": "Ethics and other",
+      "subtopic": "Medical ethics and law",
+      "difficulty": "medium",
+      "source": "Mental Capacity Act 2005, sections 1–5; GMC, Decision making and consent"
+    },
+    {
+      "stem": "A 42-year-old competent adult is diagnosed with pulmonary tuberculosis. Despite counselling, he refuses to inform his household contacts and states that he will continue close contact with them while infectious. The treating doctor explains the risks and seeks his consent to share information, but he refuses. Which is the most appropriate course of action?",
+      "options": [
+        "Maintain absolute confidentiality because the patient has capacity",
+        "Inform the patient's employer and neighbours of the diagnosis",
+        "Discharge the patient without notifying any public health authority",
+        "Inform the appropriate public health authority through required notification",
+        "Publish an anonymised warning identifying the patient's residential street"
+      ],
+      "answer": "D",
+      "explanation": "Tuberculosis is a notifiable infectious disease in the UK, and clinicians must comply with applicable statutory notification requirements. Relevant information may be disclosed to the appropriate public health authority without patient consent when required by law or justified to protect others from serious communicable disease. Disclosure should be limited to information necessary for public health protection.",
+      "topic": "Ethics and other",
+      "subtopic": "Medical ethics and law",
+      "difficulty": "medium",
+      "source": "GMC, Confidentiality: good practice in handling patient information; UK Health Security Agency, Notifiable diseases"
+    }
+  ]
+}

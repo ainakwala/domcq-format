@@ -1,0 +1,32 @@
+{
+  "id": "plab-1",
+  "display_name": "PLAB 1",
+  "body": "GMC",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by the General Medical Council (GMC), which does not endorse or monitor the quality of courses given by others; the names are used only to identify the exam. GMC is the General Medical Council's abbreviation, and PLAB (Professional and Linguistic Assessments Board) is the name of the General Medical Council's test. The topic names are from the GMC's PLAB 1 guide and the subtopic names from its MLA content map, both General Medical Council copyright; source: General Medical Council, https://www.gmc-uk.org.",
+  "taxonomy": {
+    "Reproductive health": ["Allergy and immunology", "Biomedical sciences", "Clinical biochemistry", "Clinical imaging", "Clinical pharmacology and therapeutics", "Genetics and genomics", "Histopathology", "Human factors and quality improvement", "Laboratory haematology", "Medical ethics and law", "Microbiology", "Psychological principles", "Social and population health"],
+    "Renal and urology": ["Allergy and immunology", "Biomedical sciences", "Clinical biochemistry", "Clinical imaging", "Clinical pharmacology and therapeutics", "Genetics and genomics", "Histopathology", "Human factors and quality improvement", "Laboratory haematology", "Medical ethics and law", "Microbiology", "Psychological principles", "Social and population health"],
+    "Neurosciences and senses (including skins)": ["Allergy and immunology", "Biomedical sciences", "Clinical biochemistry", "Clinical imaging", "Clinical pharmacology and therapeutics", "Genetics and genomics", "Histopathology", "Human factors and quality improvement", "Laboratory haematology", "Medical ethics and law", "Microbiology", "Psychological principles", "Social and population health"],
+    "Musculoskeletal": ["Allergy and immunology", "Biomedical sciences", "Clinical biochemistry", "Clinical imaging", "Clinical pharmacology and therapeutics", "Genetics and genomics", "Histopathology", "Human factors and quality improvement", "Laboratory haematology", "Medical ethics and law", "Microbiology", "Psychological principles", "Social and population health"],
+    "Mental health": ["Allergy and immunology", "Biomedical sciences", "Clinical biochemistry", "Clinical imaging", "Clinical pharmacology and therapeutics", "Genetics and genomics", "Histopathology", "Human factors and quality improvement", "Laboratory haematology", "Medical ethics and law", "Microbiology", "Psychological principles", "Social and population health"],
+    "Gastrointestinal": ["Allergy and immunology", "Biomedical sciences", "Clinical biochemistry", "Clinical imaging", "Clinical pharmacology and therapeutics", "Genetics and genomics", "Histopathology", "Human factors and quality improvement", "Laboratory haematology", "Medical ethics and law", "Microbiology", "Psychological principles", "Social and population health"],
+    "Endocrine metabolic, and clinical haematology": ["Allergy and immunology", "Biomedical sciences", "Clinical biochemistry", "Clinical imaging", "Clinical pharmacology and therapeutics", "Genetics and genomics", "Histopathology", "Human factors and quality improvement", "Laboratory haematology", "Medical ethics and law", "Microbiology", "Psychological principles", "Social and population health"],
+    "Child and adolescent health": ["Allergy and immunology", "Biomedical sciences", "Clinical biochemistry", "Clinical imaging", "Clinical pharmacology and therapeutics", "Genetics and genomics", "Histopathology", "Human factors and quality improvement", "Laboratory haematology", "Medical ethics and law", "Microbiology", "Psychological principles", "Social and population health"],
+    "Cardiorespiratory": ["Allergy and immunology", "Biomedical sciences", "Clinical biochemistry", "Clinical imaging", "Clinical pharmacology and therapeutics", "Genetics and genomics", "Histopathology", "Human factors and quality improvement", "Laboratory haematology", "Medical ethics and law", "Microbiology", "Psychological principles", "Social and population health"],
+    "Ethics and other": ["Allergy and immunology", "Biomedical sciences", "Clinical biochemistry", "Clinical imaging", "Clinical pharmacology and therapeutics", "Genetics and genomics", "Histopathology", "Human factors and quality improvement", "Laboratory haematology", "Medical ethics and law", "Microbiology", "Psychological principles", "Social and population health"]
+  },
+  "options": { "min": 5, "max": 5 },
+  "multi_select": false,
+  "banned_option_text": ["all of the above", "none of the above"],
+  "stem_hints": [
+    "Which is the most likely diagnosis?",
+    "Which is the most appropriate initial management?",
+    "Which is the most appropriate investigation?",
+    "Which is the most appropriate course of action?"
+  ],
+  "uncovered_item_types": ["image-based (including ECGs)"],
+  "exam_mode": { "questions": 180, "minutes": 180 },
+  "verified_outline": "MLA content map (applies from September 2026) and the GMC's PLAB 1 guide",
+  "verified_on": "2026-10-25",
+  "next_review": "2027-10-25"
+}
