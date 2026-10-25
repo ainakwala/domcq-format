@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "shrm-cp",
+  "set": "SHRM Certified Professional (SHRM-CP) practice – Operational HR Decisions",
+  "questions": [
+    {
+      "stem": "An HR generalist is coordinating the rollout of a new performance management system. Several department managers are concerned that the new process will increase their administrative workload. Senior leadership has approved the implementation, but managers have not yet received detailed training. Which action should the HR generalist take to encourage successful implementation?",
+      "options": [
+        "Meet with managers to understand their concerns, explain the benefits, and develop implementation support.",
+        "Ask senior leadership to send managers a reminder that the new process is mandatory.",
+        "Delay implementation until every department manager expresses support for the new process.",
+        "Introduce the system as planned and address managers' concerns after the first review cycle."
+      ],
+      "answer": "A",
+      "explanation": "Effective change implementation involves stakeholder engagement, communication, and practical support. Understanding managers' concerns allows HR to address barriers while maintaining alignment with organizational objectives. Training and ongoing assistance can improve acceptance without unnecessarily delaying implementation.",
+      "topic": "Leadership Cluster",
+      "subtopic": "Leadership & Navigation",
+      "difficulty": "medium",
+      "source": "SHRM BASK 2026 – Leadership & Navigation; Change Management"
+    },
+    {
+      "stem": "An HR specialist discovers that a payroll administrator has been routinely adjusting employees' time records to remove small amounts of overtime. The administrator explains that a department manager instructed the changes to control labor costs. The HR specialist has documentation supporting the finding. What should the HR specialist do FIRST?",
+      "options": [
+        "Ask the administrator to restore the overtime and keep the issue within the payroll department.",
+        "Recommend additional payroll training before deciding whether the adjustments require investigation.",
+        "Preserve the evidence and report the suspected misconduct through the organization's established procedures.",
+        "Notify the affected employees immediately and allow them to decide whether to file complaints."
+      ],
+      "answer": "C",
+      "explanation": "HR professionals must act ethically when they discover potential wage violations and record falsification. Preserving relevant evidence and using established reporting procedures supports an impartial investigation and appropriate corrective action. The involvement of a manager does not justify altering accurate time records.",
+      "topic": "Leadership Cluster",
+      "subtopic": "Ethical Practice",
+      "difficulty": "medium",
+      "source": "SHRM BASK 2026 – Ethical Practice; Professional Integrity and Accountability"
+    },
+    {
+      "stem": "A company notices that employees who work remotely are promoted less frequently than employees who work at headquarters, even though their performance ratings are comparable. Department managers say they are more familiar with employees they see regularly. Which action should HR take to address this concern?",
+      "options": [
+        "Require remote employees to attend headquarters meetings before becoming eligible for promotion.",
+        "Review promotion criteria and decisions for inconsistent application and implement structured assessments.",
+        "Ask managers to nominate additional remote employees without changing the promotion process.",
+        "Create separate promotion targets for remote employees and headquarters employees."
+      ],
+      "answer": "B",
+      "explanation": "Structured, job-related promotion criteria reduce the influence of proximity bias and inconsistent managerial judgments. HR should evaluate promotion outcomes for potential inequities and strengthen the process so employees are assessed against comparable standards. The objective is fair access to advancement rather than guaranteeing particular promotion outcomes.",
+      "topic": "Leadership Cluster",
+      "subtopic": "Inclusive Mindset",
+      "difficulty": "hard",
+      "source": "SHRM BASK 2026 – Inclusive Mindset; Addressing Bias and Promoting Inclusion"
+    },
+    {
+      "stem": "Which behavior best demonstrates the Leadership & Navigation competency when an HR professional is responsible for implementing an approved organizational initiative?",
+      "options": [
+        "Avoiding implementation decisions until all stakeholders agree on the initiative.",
+        "Focusing exclusively on completing assigned administrative tasks within the established deadline.",
+        "Delegating responsibility for implementation to managers without providing further guidance.",
+        "Aligning implementation activities with organizational goals and helping stakeholders navigate change."
+      ],
+      "answer": "D",
+      "explanation": "Leadership & Navigation involves influencing organizational outcomes and supporting initiatives that advance business objectives. HR professionals demonstrate this competency by connecting operational activities to organizational priorities and helping others manage change. Successful leadership requires more than administrative execution.",
+      "topic": "Leadership Cluster",
+      "subtopic": "Leadership & Navigation",
+      "difficulty": "easy",
+      "source": "SHRM BASK 2026 – Leadership & Navigation; Competency Definition and Proficiency Indicators"
+    },
+    {
+      "stem": "A production supervisor complains that the HR department takes too long to fill vacancies. The HR recruiter believes the supervisor frequently changes job requirements after recruitment begins. Both parties have become frustrated, and their working relationship is deteriorating. What should the recruiter do FIRST?",
+      "options": [
+        "Ask the HR director to establish mandatory recruiting deadlines for the production department.",
+        "Explain that recruitment delays are caused primarily by the supervisor's changing requirements.",
+        "Request that the supervisor submit future staffing needs through a standardized electronic form.",
+        "Meet with the supervisor to clarify expectations, identify process problems, and agree on responsibilities."
+      ],
+      "answer": "D",
+      "explanation": "Relationship Management emphasizes trust, collaboration, and constructive resolution of workplace disagreements. A joint discussion allows both parties to identify causes of delays and establish realistic expectations. Addressing the underlying process problems is more productive than assigning blame or imposing a solution without consultation.",
+      "topic": "Interpersonal Cluster",
+      "subtopic": "Relationship Management",
+      "difficulty": "medium",
+      "source": "SHRM BASK 2026 – Relationship Management; Conflict Management and Collaboration"
+    },
+    {
+      "stem": "An HR coordinator must inform employees that the organization is replacing its flexible work schedule with a standardized schedule. The change will affect childcare and commuting arrangements, and employees have already expressed concern about possible disruptions. Which communication approach should the coordinator recommend?",
+      "options": [
+        "Provide a clear explanation of the change, implementation dates, and opportunities for employees to ask questions.",
+        "Send a short announcement that describes the new schedule without explaining why the change is necessary.",
+        "Ask department managers to communicate the change informally when employees raise questions.",
+        "Distribute the complete scheduling policy and avoid further discussion until implementation begins."
+      ],
+      "answer": "A",
+      "explanation": "Effective organizational communication is timely, understandable, and responsive to the audience's concerns. Explaining the rationale, practical implications, and available channels for questions helps employees prepare for a potentially disruptive change. Two-way communication also allows HR to identify issues requiring clarification.",
+      "topic": "Interpersonal Cluster",
+      "subtopic": "Communication",
+      "difficulty": "easy",
+      "source": "SHRM BASK 2026 – Communication; Delivering Effective Messages"
+    },
+    {
+      "stem": "Two department managers disagree about which department should receive an additional HR support position. Each manager presents different workload figures and claims that the other department's needs are overstated. The HR manager has been asked to recommend an allocation. Which approach would be MOST effective?",
+      "options": [
+        "Recommend allocating the position to the department with the highest total employee headcount.",
+        "Facilitate a discussion using agreed workload measures and organizational priorities before making a recommendation.",
+        "Recommend assigning the position to the department whose manager submitted the request first.",
+        "Ask the department managers to resolve the disagreement privately and submit a joint recommendation."
+      ],
+      "answer": "B",
+      "explanation": "Effective relationship management requires a fair and collaborative approach to competing stakeholder interests. Establishing common evaluation criteria allows HR to compare requests objectively while maintaining constructive working relationships. Organizational priorities and verified workload measures provide a stronger basis for a decision than managerial influence or timing.",
+      "topic": "Interpersonal Cluster",
+      "subtopic": "Relationship Management",
+      "difficulty": "hard",
+      "source": "SHRM BASK 2026 – Relationship Management; Conflict Management and Negotiation"
+    },
+    {
+      "stem": "A retail company is experiencing increased labor costs while sales remain relatively stable. Store managers have requested additional employees to address complaints about long checkout lines. Before recommending more hiring, what should the HR generalist do?",
+      "options": [
+        "Approve additional temporary positions to improve checkout capacity during busy periods.",
+        "Recommend reducing employee benefits to offset the cost of additional staffing.",
+        "Analyze customer traffic patterns, staffing schedules, and labor productivity to identify the source of the problem.",
+        "Advise store managers to extend the shifts of experienced employees until customer complaints decline."
+      ],
+      "answer": "C",
+      "explanation": "Business Acumen requires understanding how workforce decisions affect operational performance and financial outcomes. Examining demand patterns, existing staffing, and productivity helps determine whether the problem reflects insufficient headcount or inefficient scheduling. Evidence-based analysis supports an appropriate and cost-effective staffing recommendation.",
+      "topic": "Business Cluster",
+      "subtopic": "Business Acumen",
+      "difficulty": "medium",
+      "source": "SHRM BASK 2026 – Business Acumen; Business Operations and Financial Knowledge"
+    },
+    {
+      "stem": "An HR specialist is reviewing a department's employee turnover. During the previous year, 24 employees left the department, which had an average workforce of 200 employees. What was the department's annual employee turnover rate?",
+      "options": [
+        "8%",
+        "10%",
+        "12%",
+        "24%"
+      ],
+      "answer": "C",
+      "explanation": "The annual employee turnover rate is calculated by dividing the number of separations during the period by the average number of employees and multiplying by 100. In this case, 24 divided by 200 equals 0.12, resulting in a turnover rate of 12%. This metric helps HR monitor workforce stability and compare turnover across reporting periods.",
+      "topic": "Business Cluster",
+      "subtopic": "Analytical Aptitude",
+      "difficulty": "easy",
+      "source": "SHRM BASK 2026 – Analytical Aptitude; HR Metrics and Data Analysis"
+    },
+    {
+      "stem": "A customer service department has experienced a sharp increase in employee absences. Its manager asks HR to introduce a strict attendance incentive program immediately. The HR specialist learns that the increase began shortly after a major scheduling change. Which action should the HR specialist take FIRST?",
+      "options": [
+        "Recommend implementing the incentive program and reviewing attendance outcomes after three months.",
+        "Ask the manager to return to the previous schedule before considering other attendance measures.",
+        "Develop disciplinary guidelines for employees whose absence rates exceed the department average.",
+        "Review absence patterns, scheduling records, and employee feedback to determine the underlying causes."
+      ],
+      "answer": "D",
+      "explanation": "Consultation requires accurately diagnosing a business problem before recommending an intervention. The timing of the scheduling change suggests a possible contributing factor, but HR needs evidence to determine whether it caused the increase in absences. Reviewing multiple sources of information helps identify appropriate solutions and prevents premature implementation of ineffective policies.",
+      "topic": "Business Cluster",
+      "subtopic": "Consultation",
+      "difficulty": "hard",
+      "source": "SHRM BASK 2026 – Consultation; Problem Diagnosis and Solution Development"
+    },
+    {
+      "stem": "A company expects to introduce an automated production process within two years. The new equipment will reduce the need for certain manual tasks while increasing demand for employees with technical maintenance skills. Which HR planning activity would best help the company prepare for this change?",
+      "options": [
+        "Conduct a workforce gap analysis comparing existing skills with anticipated future requirements.",
+        "Post additional technical vacancies immediately without assessing the current workforce.",
+        "Maintain existing job descriptions until the automated production equipment is fully installed.",
+        "Reduce recruitment spending uniformly across departments to fund the equipment purchase."
+      ],
+      "answer": "A",
+      "explanation": "Strategic workforce planning begins by identifying differences between current workforce capabilities and future organizational needs. A gap analysis helps HR determine whether reskilling, redeployment, recruitment, or other measures are necessary. Planning before implementation can reduce disruption and improve readiness.",
+      "topic": "People Knowledge Domain",
+      "subtopic": "HR Strategy",
+      "difficulty": "medium",
+      "source": "SHRM BASK 2026 – HR Strategy; Strategic Workforce Planning"
+    },
+    {
+      "stem": "A company wants to improve the consistency and job-related validity of interviews for entry-level accounting positions. Which selection method would best support this objective?",
+      "options": [
+        "Allowing each interviewer to develop questions based on the applicant's resume.",
+        "Using structured interviews with job-related questions and standardized scoring criteria.",
+        "Asking candidates general personality questions to determine compatibility with interviewers.",
+        "Conducting informal interviews and allowing hiring managers to compare overall impressions."
+      ],
+      "answer": "B",
+      "explanation": "Structured interviews improve consistency by evaluating candidates using the same job-related questions and predefined rating criteria. Standardized scoring reduces the influence of subjective impressions and makes comparisons more defensible. Interview content should be developed from the knowledge, skills, and abilities required for successful job performance.",
+      "topic": "People Knowledge Domain",
+      "subtopic": "Talent Acquisition",
+      "difficulty": "easy",
+      "source": "SHRM BASK 2026 – Talent Acquisition; Employee Selection and Assessment"
+    },
+    {
+      "stem": "An organization surveys employees and finds that dissatisfaction with career advancement opportunities is associated with increased voluntary turnover among high-performing employees. Which HR initiative would most directly address the identified concern?",
+      "options": [
+        "Introducing a companywide attendance recognition program for employees with perfect attendance.",
+        "Increasing the frequency of employee satisfaction surveys without changing development practices.",
+        "Replacing annual performance reviews with quarterly reviews focused only on recent performance.",
+        "Establishing transparent internal career pathways and development opportunities linked to advancement."
+      ],
+      "answer": "D",
+      "explanation": "Employees who perceive limited advancement opportunities may be more likely to seek employment elsewhere. Clear career pathways, development planning, and access to internal opportunities address the concern identified by the survey. These practices can support engagement and retention by helping employees see a future within the organization.",
+      "topic": "People Knowledge Domain",
+      "subtopic": "Employee Engagement & Retention",
+      "difficulty": "medium",
+      "source": "SHRM BASK 2026 – Employee Engagement & Retention; Career Development and Retention"
+    },
+    {
+      "stem": "A manufacturing company introduces a training program to improve employees' ability to operate new machinery. Three months after training, HR wants to determine whether employees are applying the new skills on the job. Which evaluation measure best assesses behavioral transfer?",
+      "options": [
+        "The percentage of participants who completed the training sessions.",
+        "The average score participants achieved on the final knowledge test.",
+        "Supervisors' observations of employees performing the newly trained tasks correctly.",
+        "Participants' ratings of the instructor and training materials."
+      ],
+      "answer": "C",
+      "explanation": "Behavioral transfer concerns whether participants apply acquired knowledge and skills in their actual work. Observing job performance after training provides evidence of behavioral change, corresponding to Level 3 of the Kirkpatrick evaluation model. Completion rates, tests, and participant reactions measure different training outcomes.",
+      "topic": "People Knowledge Domain",
+      "subtopic": "Learning & Development",
+      "difficulty": "medium",
+      "source": "SHRM BASK 2026 – Learning & Development; Training Evaluation and Transfer of Learning"
+    },
+    {
+      "stem": "A growing organization is considering adopting a shared services model for routine HR activities such as employee record updates, benefits enrollment, and standard employment verification requests. What is the primary advantage of this HR service delivery structure?",
+      "options": [
+        "Allowing each business unit to establish separate procedures for routine HR transactions.",
+        "Centralizing repeatable HR processes to improve service consistency and operational efficiency.",
+        "Eliminating the need for HR professionals to provide specialized advice to department managers.",
+        "Transferring all responsibility for employee relations decisions to a centralized service center."
+      ],
+      "answer": "B",
+      "explanation": "An HR shared services model consolidates common transactional activities in a centralized service function. Standardization can improve efficiency, consistency, and scalability while allowing other HR professionals to focus on specialized or strategic responsibilities. Shared services do not eliminate the need for HR expertise or managerial accountability.",
+      "topic": "Organization Knowledge Domain",
+      "subtopic": "Structure of the HR Function",
+      "difficulty": "easy",
+      "source": "SHRM BASK 2026 – Structure of the HR Function; HR Service Delivery Models"
+    },
+    {
+      "stem": "A company has a high proportion of employees eligible to retire within the next five years. Several of these employees hold positions requiring specialized knowledge that is difficult to replace. Which workforce management practice would most directly reduce the risk of losing critical organizational knowledge?",
+      "options": [
+        "Extending the standard retirement age for employees occupying specialized positions.",
+        "Replacing specialized positions with temporary workers as vacancies occur.",
+        "Offering retention bonuses to every retirement-eligible employee regardless of position.",
+        "Identifying critical roles and implementing succession plans with structured knowledge transfer."
+      ],
+      "answer": "D",
+      "explanation": "Succession planning identifies positions critical to organizational continuity and prepares potential successors to assume those responsibilities. Structured knowledge transfer helps preserve expertise that might otherwise be lost when experienced employees depart. Together, these activities address both replacement readiness and institutional knowledge retention.",
+      "topic": "Organization Knowledge Domain",
+      "subtopic": "Workforce Management",
+      "difficulty": "medium",
+      "source": "SHRM BASK 2026 – Workforce Management; Succession Planning and Knowledge Transfer"
+    },
+    {
+      "stem": "Under the National Labor Relations Act, which activity is generally protected for nonsupervisory employees in a private-sector workplace, whether or not the workplace is unionized?",
+      "options": [
+        "Employees discussing their wages and acting together to seek improved working conditions.",
+        "Employees disclosing confidential customer information for personal financial gain.",
+        "Employees refusing assigned duties solely because they dislike their immediate supervisor.",
+        "Employees threatening coworkers who disagree with their views about workplace policies."
+      ],
+      "answer": "A",
+      "explanation": "Section 7 of the National Labor Relations Act protects covered employees who engage in concerted activities for mutual aid or protection concerning employment conditions. Employees may generally discuss wages and work together to seek improvements even when they are not represented by a union. Protection is not unlimited and does not automatically extend to unrelated misconduct or threats.",
+      "topic": "Organization Knowledge Domain",
+      "subtopic": "Employee & Labor Relations",
+      "difficulty": "medium",
+      "source": "SHRM BASK 2026 – Employee & Labor Relations; NLRA Section 7"
+    },
+    {
+      "stem": "An organization is selecting a new human resource information system (HRIS) that will store payroll information, performance records, and employee identification data. Which requirement is most important for protecting sensitive employee information?",
+      "options": [
+        "Providing every department manager with unrestricted access to all employee records.",
+        "Allowing employees to download the complete HR database for personal recordkeeping.",
+        "Implementing role-based access controls, audit logs, and appropriate data security safeguards.",
+        "Maintaining a shared administrative account so HR personnel can access records efficiently."
+      ],
+      "answer": "C",
+      "explanation": "Role-based access controls restrict sensitive information to authorized users according to their responsibilities. Audit logs support accountability by recording relevant system activity, while additional safeguards protect the confidentiality and integrity of employee data. These controls are important components of effective HR technology management.",
+      "topic": "Organization Knowledge Domain",
+      "subtopic": "Technology Management",
+      "difficulty": "medium",
+      "source": "SHRM BASK 2026 – Technology Management; HR Information Systems and Data Security"
+    },
+    {
+      "stem": "Under the federal Family and Medical Leave Act (FMLA), which employee generally meets the service and hours-worked requirements for eligibility, assuming the employee works for a covered employer at a worksite meeting the 50-employees-within-75-miles requirement?",
+      "options": [
+        "An employee with 10 months of service who worked 1,600 hours during that period.",
+        "An employee with 15 months of service who worked 1,000 hours during the preceding 12 months.",
+        "An employee with 11 months of service who worked 1,500 hours during the preceding 12 months.",
+        "An employee with 14 months of service who worked 1,300 hours during the preceding 12 months."
+      ],
+      "answer": "D",
+      "explanation": "FMLA eligibility generally requires at least 12 months of employment with the employer and at least 1,250 hours of service during the 12 months immediately preceding the start of leave. The employee must also work for a covered employer and satisfy the applicable worksite requirement. The employee with 14 months of service and 1,300 hours meets the stated service and hours thresholds.",
+      "topic": "Workplace Knowledge Domain",
+      "subtopic": "U.S. Employment Law & Regulations",
+      "difficulty": "easy",
+      "source": "SHRM BASK 2026 – U.S. Employment Law & Regulations; FMLA Employee Eligibility"
+    },
+    {
+      "stem": "A U.S.-based company employs staff in several countries and wants to introduce one global employee benefits policy. The proposed policy provides the same statutory leave entitlements and employee benefits in every location, regardless of local requirements. Which principle should guide the company's approach?",
+      "options": [
+        "Apply the headquarters policy wherever it offers the lowest overall administrative cost.",
+        "Establish consistent global principles while adapting mandatory benefits and leave provisions to local laws.",
+        "Provide identical statutory benefits worldwide to demonstrate equitable treatment of employees.",
+        "Allow local managers to determine statutory entitlements based on each office's operating budget."
+      ],
+      "answer": "B",
+      "explanation": "Global HR policies must account for differences in national labor laws, statutory benefits, and employment practices. An organization can establish common principles while adapting implementation to comply with local legal requirements. Treating employees fairly across countries does not require ignoring differences in mandatory entitlements.",
+      "topic": "Workplace Knowledge Domain",
+      "subtopic": "Managing a Global Workforce",
+      "difficulty": "hard",
+      "source": "SHRM BASK 2026 – Managing a Global Workforce; Global HR Policies and Local Compliance"
+    }
+  ]
+}
