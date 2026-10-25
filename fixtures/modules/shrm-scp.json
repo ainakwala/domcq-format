@@ -56,7 +56,10 @@
     "all of the above",
     "none of the above"
   ],
-  "stem_hints": [],
+  "stem_hints": [
+    "Why might a manufacturing company with just-in-time production prefer Lean Six Sigma over a traditional total quality management approach?",
+    "Which advantage does the avoidance conflict resolution strategy provide?"
+  ],
   "uncovered_item_types": [
     "situational judgment scenarios shared by two or three questions"
   ],
@@ -65,7 +68,7 @@
     "minutes": 220,
     "sections": 2
   },
-  "prompt_template": "@style\nThe real exam has two kinds of item, and the set must have both:\n- Situational judgment items: a realistic workplace scenario of two to five sentences, all in the stem, ending with a question that asks for the best or most effective action; every option is a plausible course of action, and only the most effective one is correct.\n- Knowledge items: a direct question on HR knowledge, or on a key concept of a behavioral competency, with one correct answer.\nWrite about four in five of the questions under the Leadership Cluster, Interpersonal Cluster and Business Cluster as situational judgment items and the rest as knowledge items; write every question under the People, Organization and Workplace Knowledge Domains as a knowledge item. On the real exam one scenario can carry two or three questions; here each question stands alone with its own complete scenario.\nWrite at the level of the SHRM-SCP, which SHRM sets for senior-level HR professionals in strategic roles.\nKeep each stem concrete and free of trick wording. Do not refer to other questions, images, tables or exhibits.",
+  "prompt_template": "@style\nThe real exam has two kinds of item, and the set must have both:\n- Situational judgment items: a realistic workplace situation, all in the stem, ending with a question that asks which action or approach to take; every option is a plausible course of action, and only the most effective one is correct.\n- Knowledge items: a direct question on HR knowledge, or on a key concept of a behavioral competency, with one correct answer.\nWrite stems the way the real exam does, for example: \"Why might a manufacturing company with just-in-time production prefer Lean Six Sigma over a traditional total quality management approach?\"; \"Which advantage does the avoidance conflict resolution strategy provide?\".\nWrite about four in five of the questions under the Leadership Cluster, Interpersonal Cluster and Business Cluster as situational judgment items and the rest as knowledge items; write every question under the People, Organization and Workplace Knowledge Domains as a knowledge item. On the real exam one scenario can carry two or three questions; here each question stands alone with its own complete situation.\nWrite at the level of the SHRM-SCP, which SHRM sets for senior-level HR professionals in strategic roles.\nKeep each stem concrete and free of trick wording. Do not refer to other questions, images, tables or exhibits.",
   "verified_outline": "2026 SHRM Body of Applied Skills and Knowledge (SHRM BASK) and SHRM Certification Handbook (revised May 2026)",
   "verified_on": "2026-10-25",
   "next_review": "2027-10-25"
