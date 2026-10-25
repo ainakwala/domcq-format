@@ -244,6 +244,7 @@
     { "file": "valid/plab-1-claude-2.md", "errors": [], "fenced": true },
     { "file": "valid/plab-1-claude-3.md", "errors": [], "fenced": true },
     { "file": "valid/plab-1-claude-4.md", "errors": [], "fenced": true },
+    { "file": "valid/plab-1-chatgpt-1.json", "errors": [] },
 
     { "file": "invalid/empty.txt", "errors": ["E001"] },
     { "file": "invalid/not-json.txt", "errors": ["E002"] },
