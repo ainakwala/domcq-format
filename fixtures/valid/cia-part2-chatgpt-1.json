@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "cia-part2",
+  "set": "CIA Part 2 – Internal Audit Engagement practice – Risk-Based Engagements",
+  "questions": [
+    {
+      "stem": "An internal audit team is planning an assurance engagement of a company's procurement process. Management has recently introduced a supplier selection system, and the organization has experienced several compliance violations. Which of the following should MOST influence the development of the engagement objectives?",
+      "options": [
+        "The number of procurement employees available for interviews",
+        "The amount of time allocated to procurement audits in previous years",
+        "The significant risks to procurement objectives and related control processes",
+        "The number of recommendations issued during the previous procurement audit"
+      ],
+      "answer": "C",
+      "explanation": "Engagement objectives should be developed based on an understanding of the activity's objectives, significant risks, and governance, risk management, and control processes. The new system and recent compliance violations are particularly relevant because they may affect the risk assessment and the areas requiring assurance.",
+      "topic": "Engagement Planning",
+      "subtopic": "Engagement Objectives and Scope",
+      "difficulty": "easy",
+      "source": "CIA Part 2 Syllabus, Section A.1; Global Internal Audit Standards, 13.2 and 13.3"
+    },
+    {
+      "stem": "During the planning of an inventory audit, warehouse management refuses to provide access to records for one storage location, claiming that the information is commercially sensitive. The records are relevant to a significant risk identified during planning. According to IIA guidance, what is the MOST appropriate initial response?",
+      "options": [
+        "Document the restriction, discuss it with management, and follow established procedures for resolving or escalating scope limitations",
+        "Remove the storage location from the engagement scope without further discussion",
+        "Complete the engagement using the available records and omit the restriction from the documentation",
+        "Replace the unavailable records with management's verbal representations and proceed without qualification"
+      ],
+      "answer": "A",
+      "explanation": "Restrictions on access to information can prevent internal auditors from achieving engagement objectives. The restriction should be documented and addressed with management, with escalation through appropriate channels if it remains unresolved. The team should also assess whether the limitation affects its ability to provide the intended assurance.",
+      "topic": "Engagement Planning",
+      "subtopic": "Scope Limitations",
+      "difficulty": "medium",
+      "source": "CIA Part 2 Syllabus, Section A.1; Global Internal Audit Standards, 13.3"
+    },
+    {
+      "stem": "An internal auditor is establishing evaluation criteria for an engagement examining the timeliness of customer complaint resolution. Which of the following provides the MOST appropriate criteria?",
+      "options": [
+        "The average resolution time reported by a competitor operating in a different industry",
+        "The complaint resolution time preferred by the internal audit team",
+        "The resolution time achieved during the most favorable month of the previous year",
+        "The organization's approved service-level targets and applicable regulatory response deadlines"
+      ],
+      "answer": "D",
+      "explanation": "Evaluation criteria should be relevant, practical, specific, and aligned with the objectives of the activity under review. Approved service-level targets and regulatory deadlines provide an authoritative basis for evaluating performance. They also allow actual results to be compared consistently against established expectations.",
+      "topic": "Engagement Planning",
+      "subtopic": "Evaluation Criteria",
+      "difficulty": "easy",
+      "source": "CIA Part 2 Syllabus, Section A.2; Global Internal Audit Standards, 13.4"
+    },
+    {
+      "stem": "An organization is preparing to launch a cloud-based customer relationship management system. Internal audit has been asked to assess cybersecurity risks before implementation. Which of the following considerations is MOST appropriate when planning the engagement?",
+      "options": [
+        "Concentrating on the system's expected financial benefits because technical controls are management's responsibility",
+        "Assessing access management, data protection, third-party security, and applicable information security requirements",
+        "Limiting testing to the cloud provider's published security certification without assessing the organization's configuration",
+        "Excluding privacy risks because the system is operated by an external technology service provider"
+      ],
+      "answer": "B",
+      "explanation": "Cybersecurity engagement planning should consider information security controls, data privacy, third-party risks, and the organization's control responsibilities. Cloud services often involve shared security responsibilities, making the organization's configuration and access controls important. A provider's certification alone does not establish that the implemented system is adequately controlled.",
+      "topic": "Engagement Planning",
+      "subtopic": "Cybersecurity and IT Controls",
+      "difficulty": "medium",
+      "source": "CIA Part 2 Syllabus, Section A.3; Global Internal Audit Standards, 13.2"
+    },
+    {
+      "stem": "An internal auditor is planning an engagement to assess whether the organization's disaster recovery arrangements can restore critical business operations within acceptable time frames. Which document would be MOST useful for identifying the required recovery priorities and acceptable disruption periods?",
+      "options": [
+        "The organization's annual capital expenditure budget",
+        "The information technology department's organizational chart",
+        "The organization's business impact analysis",
+        "The organization's historical software licensing expenditure"
+      ],
+      "answer": "C",
+      "explanation": "A business impact analysis identifies critical business activities, the consequences of disruptions, and recovery requirements. It provides an important basis for evaluating recovery priorities and objectives. These requirements can then be compared with the organization's disaster recovery capabilities and test results.",
+      "topic": "Engagement Planning",
+      "subtopic": "Business Continuity and Disaster Recovery",
+      "difficulty": "easy",
+      "source": "CIA Part 2 Syllabus, Section A.3, Business Continuity and Disaster Recovery Readiness"
+    },
+    {
+      "stem": "During the planning of an audit of accounts payable, the audit team identifies a risk that fictitious suppliers could be created and paid. Which control would be MOST effective in reducing this risk?",
+      "options": [
+        "Requiring independent approval of supplier master-file additions and changes before they become effective",
+        "Allowing accounts payable personnel to create suppliers and approve payments within established limits",
+        "Reviewing the aggregate balance of trade payables at the end of each financial year",
+        "Comparing the total monthly payment amount with the previous month's amount"
+      ],
+      "answer": "A",
+      "explanation": "Independent authorization of supplier master-file changes is a preventive control that helps reduce opportunities to establish fictitious suppliers. Segregating supplier maintenance from payment authorization further limits fraud risk. Aggregate balance reviews may identify unusual trends but are less directly effective at preventing unauthorized supplier creation.",
+      "topic": "Engagement Planning",
+      "subtopic": "Accounts Payable Risks and Controls",
+      "difficulty": "medium",
+      "source": "CIA Part 2 Syllabus, Section A.3, Key Risks and Controls in Business Processes"
+    },
+    {
+      "stem": "An internal audit team is assessing risks associated with a newly decentralized purchasing function. Individual business units can now approve purchases, and the organization has not yet established consistent purchasing policies across locations. Which approach BEST supports prioritization of the identified risks?",
+      "options": [
+        "Assigning the highest priority to the business unit with the greatest number of employees",
+        "Ranking risks according to the order in which business units were established",
+        "Assigning equal priority to every business unit because all perform similar activities",
+        "Evaluating the likelihood and potential impact of risks while considering differences in control design and implementation"
+      ],
+      "answer": "D",
+      "explanation": "Risk prioritization should reflect the likelihood and potential impact of events affecting organizational objectives. Decentralization and inconsistent policies may create differences in authorization, oversight, and control effectiveness across business units. Considering these differences allows internal auditors to direct work toward the most significant risks.",
+      "topic": "Engagement Planning",
+      "subtopic": "Risk Assessment and Prioritization",
+      "difficulty": "hard",
+      "source": "CIA Part 2 Syllabus, Section A.5; Global Internal Audit Standards, 13.2"
+    },
+    {
+      "stem": "An internal audit engagement involves a rapidly evolving software implementation. Management releases system updates every two weeks, and the audit team needs to provide timely feedback as controls are introduced. Which engagement approach is MOST suitable?",
+      "options": [
+        "A traditional approach that defers all testing until the final software release",
+        "An agile approach using iterative testing and frequent communication with stakeholders",
+        "A retrospective approach that evaluates controls only after a full operating year",
+        "A financial statement approach that concentrates primarily on year-end balances"
+      ],
+      "answer": "B",
+      "explanation": "An agile approach supports short review cycles, changing priorities, and timely feedback as the implementation progresses. Iterative testing allows auditors to evaluate emerging risks and controls without waiting for the entire project to finish. The approach must still preserve appropriate documentation, objectivity, and supervision.",
+      "topic": "Engagement Planning",
+      "subtopic": "Engagement Approaches",
+      "difficulty": "medium",
+      "source": "CIA Part 2 Syllabus, Section A.4, Appropriate Engagement Approaches"
+    },
+    {
+      "stem": "An internal auditor is designing procedures to determine whether a purchase order approval control operated effectively throughout the preceding six months. Which procedure provides the MOST direct evidence of operating effectiveness?",
+      "options": [
+        "Inspecting the approved procurement policy to confirm that authorization is required",
+        "Interviewing the procurement manager about the intended purchase approval process",
+        "Selecting purchase orders from the period and examining evidence of authorization against the applicable approval limits",
+        "Reviewing the organizational chart to identify employees responsible for approving purchase orders"
+      ],
+      "answer": "C",
+      "explanation": "Testing operating effectiveness requires evidence that a control actually functioned as intended during the period under review. Examining a selection of transactions and the corresponding approvals provides such evidence. Policies, interviews, and organizational charts primarily help auditors understand or evaluate control design.",
+      "topic": "Engagement Planning",
+      "subtopic": "Engagement Work Program and Control Testing",
+      "difficulty": "medium",
+      "source": "CIA Part 2 Syllabus, Section A.6; Global Internal Audit Standards, 13.6"
+    },
+    {
+      "stem": "The engagement supervisor is planning a cybersecurity assurance engagement involving complex network configurations. The available audit team has strong financial and operational audit experience but lacks the technical expertise needed to evaluate network security. What is the MOST appropriate response?",
+      "options": [
+        "Obtain appropriately qualified technical assistance and incorporate it into the engagement resource plan",
+        "Proceed with the existing team and replace technical testing with management interviews",
+        "Eliminate network security testing and conclude on cybersecurity using policy documents alone",
+        "Assign the engagement to the least experienced auditor to provide an opportunity for professional development"
+      ],
+      "answer": "A",
+      "explanation": "Engagement resources must be appropriate and sufficient to achieve the objectives, including the necessary competencies and technological capabilities. Where specialized expertise is unavailable internally, appropriately qualified assistance should be obtained or the resource constraint addressed through established channels. Proceeding without the required competence could undermine the reliability of the engagement conclusions.",
+      "topic": "Engagement Planning",
+      "subtopic": "Engagement Resources and Skills",
+      "difficulty": "hard",
+      "source": "CIA Part 2 Syllabus, Section A.7; Global Internal Audit Standards, 13.5"
+    },
+    {
+      "stem": "During a preliminary survey, an internal auditor wants to understand how a customer refund is initiated, approved, processed, and recorded. Which information-gathering technique is MOST appropriate for examining the sequence of activities and identifying points where controls operate?",
+      "options": [
+        "Comparing annual refund totals with the amounts reported by competitors",
+        "Reviewing only the most recent customer satisfaction survey",
+        "Examining the company's overall annual financial statements",
+        "Performing a walkthrough of a refund transaction from initiation through recording"
+      ],
+      "answer": "D",
+      "explanation": "A walkthrough traces a transaction through the relevant business process, allowing the auditor to understand activities, responsible personnel, information flows, and control points. It can also reveal differences between documented procedures and actual practice. A walkthrough alone does not establish that controls operated effectively throughout the review period.",
+      "topic": "Information Gathering, Analysis, and Evaluation",
+      "subtopic": "Walkthroughs and Information Gathering",
+      "difficulty": "easy",
+      "source": "CIA Part 2 Syllabus, Section B.1; Global Internal Audit Standards, 14.1"
+    },
+    {
+      "stem": "An internal auditor is evaluating whether a vendor complied with a contract requirement to maintain specified insurance coverage throughout the year. Which evidence would generally be MOST reliable for establishing that the coverage was in force during the relevant period?",
+      "options": [
+        "A verbal statement from the vendor's account manager that the policy remained active",
+        "Written confirmation obtained directly from the insurer identifying the coverage and effective dates",
+        "An internally prepared memorandum stating that the vendor had insurance in the previous year",
+        "An email from the procurement manager indicating that insurance was expected to be renewed"
+      ],
+      "answer": "B",
+      "explanation": "Evidence obtained directly from an independent and knowledgeable external source is generally more reliable than unsupported internal representations. Direct confirmation from the insurer provides evidence of the relevant coverage and effective dates. The auditor should also verify that the confirmed coverage meets the specific contractual requirements.",
+      "topic": "Information Gathering, Analysis, and Evaluation",
+      "subtopic": "Evidence Reliability and Sufficiency",
+      "difficulty": "medium",
+      "source": "CIA Part 2 Syllabus, Section B.2; Global Internal Audit Standards, 14.1"
+    },
+    {
+      "stem": "An audit team wants to identify potentially duplicate supplier invoices in a database containing several million transactions. The objective is to examine combinations of supplier identifiers, invoice numbers, dates, and amounts. Which technology-assisted approach would be MOST effective?",
+      "options": [
+        "Using data analytics to identify matching and near-matching invoice records for further investigation",
+        "Selecting invoices solely from the first page of the accounts payable transaction report",
+        "Interviewing every accounts payable employee about the possibility of duplicate payments",
+        "Reviewing only the largest monthly accounts payable balance recorded during the year"
+      ],
+      "answer": "A",
+      "explanation": "Data analytics can efficiently evaluate entire transaction populations using predefined matching rules and anomaly detection techniques. Comparing supplier identifiers, invoice details, dates, and amounts helps identify duplicate or suspicious records. Potential matches require further examination because legitimate transactions may share similar characteristics.",
+      "topic": "Information Gathering, Analysis, and Evaluation",
+      "subtopic": "Data Analytics and Technology-Assisted Auditing",
+      "difficulty": "easy",
+      "source": "CIA Part 2 Syllabus, Section B.3, Technology Options for Engagements"
+    },
+    {
+      "stem": "During an engagement examining employee access to a financial system, the auditor discovers that the same employee can create suppliers, modify supplier bank account details, and authorize payments. Which analytical approach would BEST demonstrate the nature of this control weakness?",
+      "options": [
+        "Comparing the organization's total information technology expenditure with its annual revenue",
+        "Examining the employee's annual performance evaluation and training history",
+        "Mapping the payment process and developing a responsibility assignment matrix to identify incompatible duties",
+        "Reviewing the average number of transactions processed by the accounts payable department"
+      ],
+      "answer": "C",
+      "explanation": "Process mapping and responsibility assignment matrices help identify how tasks and decision rights are allocated across a workflow. Mapping supplier creation, bank account maintenance, and payment authorization to the same individual highlights incompatible duties and the opportunity for unauthorized payments. The findings can then support evaluation of compensating controls and associated risks.",
+      "topic": "Information Gathering, Analysis, and Evaluation",
+      "subtopic": "Process Mapping and Responsibility Assignment",
+      "difficulty": "medium",
+      "source": "CIA Part 2 Syllabus, Section B.4, Process Mapping Techniques"
+    },
+    {
+      "stem": "An internal auditor analyzing customer payment delays finds that the average collection period increased from 32 days to 49 days over six months. Management attributes the change entirely to seasonal fluctuations. Which additional analysis would be MOST useful for evaluating management's explanation?",
+      "options": [
+        "Comparing the current number of accounting employees with the approved staffing budget",
+        "Examining the total annual revenue without considering the timing of customer collections",
+        "Comparing current cash balances with the original fixed asset acquisition budget",
+        "Analyzing collection periods by customer segment and month against comparable seasonal historical data"
+      ],
+      "answer": "D",
+      "explanation": "Trend analysis and disaggregation help auditors assess whether an unusual movement is consistent with a proposed explanation. Comparing collection periods by customer segment and season can reveal whether the deterioration is widespread or concentrated in particular groups. This evidence can help distinguish ordinary seasonal changes from potential collection or credit control problems.",
+      "topic": "Information Gathering, Analysis, and Evaluation",
+      "subtopic": "Analytical Review and Trend Analysis",
+      "difficulty": "medium",
+      "source": "CIA Part 2 Syllabus, Section B.5, Analytical Review Techniques"
+    },
+    {
+      "stem": "During an audit of expense reimbursements, an auditor identifies several payments that exceed the organization's approved reimbursement limits. Further investigation reveals that supervisors routinely authorize exceptions because the expense system does not automatically flag amounts exceeding the limits. Which of the following BEST identifies the root cause of the observed control deficiency?",
+      "options": [
+        "The total monetary value of reimbursement payments exceeding approved limits",
+        "The absence of an effective exception-identification and review mechanism within the reimbursement process",
+        "The possibility that excessive reimbursement payments could increase operating costs",
+        "The difference between the actual reimbursements and the organization's approved policy limits"
+      ],
+      "answer": "B",
+      "explanation": "The root cause explains why the identified condition occurred rather than describing the condition or its consequences. An ineffective exception-identification and review mechanism allows noncompliant payments to proceed without adequate scrutiny. The excessive payments are the condition, while increased costs represent a potential effect.",
+      "topic": "Information Gathering, Analysis, and Evaluation",
+      "subtopic": "Root Cause Analysis and Engagement Findings",
+      "difficulty": "medium",
+      "source": "CIA Part 2 Syllabus, Section B.6; Global Internal Audit Standards, 14.2 and 14.3"
+    },
+    {
+      "stem": "An internal auditor finds that a revenue recognition control failed for 3 of 40 transactions selected from a high-value contract population. The three exceptions involve different contract types, and additional testing suggests that manual adjustments may bypass the automated control. Before determining the significance of the finding, which action is MOST appropriate?",
+      "options": [
+        "Conclude that the control is effective because most of the transactions tested complied",
+        "Classify the finding as insignificant because only three exceptions were identified",
+        "Investigate the causes and potential effects of the exceptions and assess whether further testing is needed",
+        "Project the three exceptions to the entire population without considering the sampling method"
+      ],
+      "answer": "C",
+      "explanation": "The significance of a finding depends on factors such as the nature of the deviation, root cause, potential impact, likelihood, and relevant risk tolerance. Exceptions involving different contract types and possible control bypass warrant further investigation. A simple exception count does not establish significance, and projecting sample results requires a suitable sampling methodology.",
+      "topic": "Information Gathering, Analysis, and Evaluation",
+      "subtopic": "Evaluation and Significance of Findings",
+      "difficulty": "hard",
+      "source": "CIA Part 2 Syllabus, Section B.6; Global Internal Audit Standards, 14.3"
+    },
+    {
+      "stem": "An audit team has completed an engagement evaluating access controls across three business applications. Each application has several moderate control deficiencies, but the combined deficiencies may permit unauthorized access to sensitive information across the organization. Which approach is MOST appropriate when developing the overall engagement conclusion?",
+      "options": [
+        "Consider the individual and combined effects of the deficiencies on the engagement objectives and related risks",
+        "Base the conclusion exclusively on the application with the smallest number of identified deficiencies",
+        "Report each deficiency separately without considering whether their combined impact is significant",
+        "Treat all moderate deficiencies as insignificant because none was individually classified as high risk"
+      ],
+      "answer": "A",
+      "explanation": "Engagement conclusions should reflect the results of the engagement as a whole, including the aggregate significance of findings. Multiple deficiencies that appear moderate individually may combine to create a substantial exposure. Professional judgment is required to evaluate their combined effect on governance, risk management, and control effectiveness.",
+      "topic": "Information Gathering, Analysis, and Evaluation",
+      "subtopic": "Developing Engagement Conclusions",
+      "difficulty": "hard",
+      "source": "CIA Part 2 Syllabus, Section B.8; Global Internal Audit Standards, 14.5"
+    },
+    {
+      "stem": "According to IIA guidance, which of the following BEST describes the engagement supervisor's responsibility when reviewing audit workpapers?",
+      "options": [
+        "Confirming that the workpapers use a consistent format without evaluating the supporting evidence",
+        "Reviewing only the workpapers associated with findings classified as high risk",
+        "Allowing auditors to finalize all conclusions before examining the engagement documentation",
+        "Evaluating whether the work performed and documented evidence adequately support the findings and conclusions"
+      ],
+      "answer": "D",
+      "explanation": "Engagement supervision includes reviewing workpapers to determine whether the work has been adequately performed and the evidence supports the results. Supervisory review also helps identify incomplete procedures, unsupported conclusions, and opportunities to improve audit quality. Supervision should occur throughout the engagement rather than only after completion.",
+      "topic": "Engagement Supervision and Communication",
+      "subtopic": "Engagement Supervision and Workpaper Review",
+      "difficulty": "easy",
+      "source": "CIA Part 2 Syllabus, Section C.1; Global Internal Audit Standards, 12.3"
+    },
+    {
+      "stem": "During an operational audit, the audit team identifies a significant control failure that may expose the organization to continuing financial losses. Fieldwork is not yet complete, and the final engagement communication is scheduled for the following month. What is the MOST appropriate communication approach?",
+      "options": [
+        "Delay discussion of the issue until the final engagement communication has been approved",
+        "Communicate the significant issue promptly to appropriate management and escalate it as warranted by its urgency and risk",
+        "Inform only the employees who operate the control and exclude responsible management until fieldwork is finished",
+        "Include the issue in an informal team discussion without creating any record of the communication"
+      ],
+      "answer": "B",
+      "explanation": "Significant or urgent engagement matters should be communicated in a timely manner to stakeholders positioned to evaluate and address the risks. Interim communication allows management to take appropriate action before the final report is issued. The communication and any necessary escalation should follow the internal audit function's established methodologies.",
+      "topic": "Engagement Supervision and Communication",
+      "subtopic": "Stakeholder Communication and Escalation",
+      "difficulty": "medium",
+      "source": "CIA Part 2 Syllabus, Section C.2; Global Internal Audit Standards, 13.1"
+    }
+  ]
+}

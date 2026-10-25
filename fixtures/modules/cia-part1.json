@@ -1,0 +1,31 @@
+{
+  "id": "cia-part1",
+  "display_name": "CIA Part 1 – Internal Audit Fundamentals",
+  "body": "The IIA",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by The Institute of Internal Auditors, Inc. (The IIA); the names are used only to identify the exam. CIA®, Certified Internal Auditor®, The IIA and The Institute of Internal Auditors® are trademarks or registered trademarks of The Institute of Internal Auditors, Inc. The topic names and weights are from the CIA Examination Expanded Test Specifications (the CIA exam syllabus) The IIA publishes; source: The Institute of Internal Auditors, https://www.theiia.org.",
+  "taxonomy": {
+    "Foundations of Internal Auditing": [],
+    "Ethics and Professionalism": [],
+    "Governance, Risk Management, and Control": [],
+    "Fraud Risks": []
+  },
+  "weights": {
+    "Foundations of Internal Auditing": 35,
+    "Ethics and Professionalism": 20,
+    "Governance, Risk Management, and Control": 30,
+    "Fraud Risks": 15
+  },
+  "options": { "min": 4, "max": 4 },
+  "multi_select": false,
+  "banned_option_text": ["all of the above", "none of the above"],
+  "stem_hints": [
+    "Which of the following actions should the audit committee take to promote organizational independence for the internal audit function?",
+    "Which of the following is an example of a management control technique?",
+    "Which of the following handbook policies has the greatest risk of compromising audit objectivity?"
+  ],
+  "uncovered_item_types": [],
+  "exam_mode": { "questions": 125, "minutes": 150 },
+  "verified_outline": "CIA Examination Expanded Test Specifications V2.09.2024 (the 2025 CIA exam syllabus), Part 1 – Internal Audit Fundamentals",
+  "verified_on": "2026-10-25",
+  "next_review": "2027-10-25"
+}

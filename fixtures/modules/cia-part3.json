@@ -1,0 +1,31 @@
+{
+  "id": "cia-part3",
+  "display_name": "CIA Part 3 – Internal Audit Function",
+  "body": "The IIA",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by The Institute of Internal Auditors, Inc. (The IIA); the names are used only to identify the exam. CIA®, Certified Internal Auditor®, The IIA and The Institute of Internal Auditors® are trademarks or registered trademarks of The Institute of Internal Auditors, Inc. The topic names and weights are from the CIA Examination Expanded Test Specifications (the CIA exam syllabus) The IIA publishes; source: The Institute of Internal Auditors, https://www.theiia.org.",
+  "taxonomy": {
+    "Internal Audit Operations": [],
+    "Internal Audit Plan": [],
+    "Quality of the Internal Audit Function": [],
+    "Engagement Results and Monitoring": []
+  },
+  "weights": {
+    "Internal Audit Operations": 25,
+    "Internal Audit Plan": 15,
+    "Quality of the Internal Audit Function": 15,
+    "Engagement Results and Monitoring": 45
+  },
+  "options": { "min": 4, "max": 4 },
+  "multi_select": false,
+  "banned_option_text": ["all of the above", "none of the above"],
+  "stem_hints": [
+    "Which of the following is the most appropriate objective for establishing a professional development plan for the internal audit function?",
+    "Which of the following is most appropriate for internal auditors to do with regard to the internal audit recommendations monitoring process?",
+    "Which of the following is the most appropriate reason for a chief audit executive to conduct an external assessment more frequently than five years?"
+  ],
+  "uncovered_item_types": [],
+  "exam_mode": { "questions": 100, "minutes": 120 },
+  "verified_outline": "CIA Examination Expanded Test Specifications V2.09.2024 (the 2025 CIA exam syllabus), Part 3 – Internal Audit Function",
+  "verified_on": "2026-10-25",
+  "next_review": "2027-10-25"
+}

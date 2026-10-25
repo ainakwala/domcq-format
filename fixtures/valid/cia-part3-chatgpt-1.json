@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "cia-part3",
+  "set": "CIA Part 3 – Internal Audit Function practice – Risk and Quality",
+  "questions": [
+    {
+      "stem": "An internal audit function plans to engage an external service provider to perform a specialized cybersecurity audit. Which of the following actions is most appropriate for the chief audit executive (CAE) to take before the engagement begins?",
+      "options": [
+        "Transfer responsibility for the engagement's quality and conclusions to the external provider.",
+        "Allow the external provider to determine the engagement scope without internal audit oversight.",
+        "Evaluate the provider's competence, independence, and objectivity and establish oversight arrangements.",
+        "Require the external provider to use only the organization's existing internal audit staff."
+      ],
+      "answer": "C",
+      "explanation": "The CAE remains accountable for the quality and conformance of internal audit services even when external providers perform the work. Evaluating qualifications and potential conflicts of interest, defining expectations, and establishing oversight help ensure that outsourced services meet professional standards.",
+      "topic": "Internal Audit Operations",
+      "subtopic": "Managing external service providers",
+      "difficulty": "medium",
+      "source": "CIA Part 3 Syllabus, Section A.1; Global Internal Audit Standards, Standard 10.2 Human Resources Management"
+    },
+    {
+      "stem": "Which of the following is the most appropriate objective for establishing a professional development plan for the internal audit function?",
+      "options": [
+        "Develop the competencies auditors need to fulfill the internal audit mandate and address relevant organizational risks.",
+        "Ensure that every auditor completes the same training courses regardless of assigned responsibilities.",
+        "Prepare auditors primarily for promotion into operational management positions.",
+        "Reduce the need for engagement supervision by requiring auditors to complete annual training."
+      ],
+      "answer": "A",
+      "explanation": "Professional development should address competency gaps and prepare auditors to fulfill the internal audit mandate effectively. Training priorities should reflect current responsibilities, evolving organizational risks, and the internal audit strategy rather than applying identical training to every employee.",
+      "topic": "Internal Audit Operations",
+      "subtopic": "Training and professional development",
+      "difficulty": "easy",
+      "source": "CIA Part 3 Syllabus, Section A.2; Global Internal Audit Standards, Standard 10.2 Human Resources Management"
+    },
+    {
+      "stem": "The CAE is preparing the internal audit function's annual budget. Which of the following approaches is most appropriate for determining the resources required?",
+      "options": [
+        "Apply the previous year's budget without adjustment to preserve consistency.",
+        "Calculate resource requirements solely from the number of audits completed in the previous year.",
+        "Limit planned expenditure to the amount remaining after other departments receive funding.",
+        "Estimate the resources needed to execute the risk-based audit plan and support the internal audit strategy."
+      ],
+      "answer": "D",
+      "explanation": "The budget should reflect the financial, human, and technological resources necessary to fulfill the internal audit mandate and execute the approved plan. The CAE should consider anticipated engagements, required expertise, technology, and other operating needs and communicate resource insufficiencies to the board.",
+      "topic": "Internal Audit Operations",
+      "subtopic": "Financial resource management",
+      "difficulty": "medium",
+      "source": "CIA Part 3 Syllabus, Section A.2; Global Internal Audit Standards, Standard 10.1 Financial Resource Management"
+    },
+    {
+      "stem": "An organization has introduced artificial intelligence into several critical business processes. The internal audit function's existing methodologies do not address the associated risks or the techniques needed to evaluate these systems. Which action is most appropriate for the CAE?",
+      "options": [
+        "Continue using existing methodologies until the next external quality assessment.",
+        "Review and update internal audit methodologies to address the new risks and required audit techniques.",
+        "Transfer responsibility for all technology-related engagements to operational management.",
+        "Remove technology-related engagements from the audit plan until the organization develops new policies."
+      ],
+      "answer": "B",
+      "explanation": "Internal audit methodologies should evolve when organizational risks, technologies, or professional requirements change. The CAE should evaluate whether existing procedures remain effective and introduce appropriate updates, training, and tools to maintain the quality of internal audit services.",
+      "topic": "Internal Audit Operations",
+      "subtopic": "Review and revision of audit methodologies",
+      "difficulty": "medium",
+      "source": "CIA Part 3 Syllabus, Section A.1; Global Internal Audit Standards, Standard 9.3 Methodologies"
+    },
+    {
+      "stem": "An internal audit function has limited resources and receives several requests for advisory engagements while its approved plan includes assurance work over significant risks. Which of the following is the most appropriate approach for the CAE?",
+      "options": [
+        "Prioritize advisory engagements because management requests should always take precedence over planned assurance work.",
+        "Reject advisory engagements because they fall outside the responsibilities of the internal audit function.",
+        "Evaluate the requests against risk priorities, available resources, and the internal audit mandate before adjusting the work program.",
+        "Allocate equal staff hours to assurance and advisory engagements regardless of their significance."
+      ],
+      "answer": "C",
+      "explanation": "The CAE should balance assurance and advisory services in a manner that supports organizational objectives and risk priorities. Advisory requests can provide value, but accepting them should not unintentionally compromise coverage of significant risks or the internal audit function's independence.",
+      "topic": "Internal Audit Operations",
+      "subtopic": "Balancing assurance and advisory services",
+      "difficulty": "hard",
+      "source": "CIA Part 3 Syllabus, Section A.1; Global Internal Audit Standards, Standard 9.4 Internal Audit Plan"
+    },
+    {
+      "stem": "Which of the following is the most appropriate basis for identifying potential engagements when developing the internal audit plan?",
+      "options": [
+        "The organizational units that have not been audited during the previous calendar year.",
+        "The operational activities that management identifies as easiest for auditors to examine.",
+        "The business areas with the largest number of employees, regardless of their risk exposure.",
+        "An audit universe that reflects the organization's objectives, activities, processes, and significant risks."
+      ],
+      "answer": "D",
+      "explanation": "An audit universe provides a structured view of the areas and activities that may be subject to internal audit. It supports comprehensive risk assessment and helps the CAE identify potential engagements in alignment with organizational objectives and significant risks.",
+      "topic": "Internal Audit Plan",
+      "subtopic": "Defining the audit universe",
+      "difficulty": "easy",
+      "source": "CIA Part 3 Syllabus, Section B.1; Global Internal Audit Standards, Standard 9.4 Internal Audit Plan"
+    },
+    {
+      "stem": "An organization acquires a company operating in a highly regulated industry midway through the year. The acquired operations introduce significant risks not considered when the internal audit plan was approved. Which of the following actions should the CAE take?",
+      "options": [
+        "Reassess the risks, propose appropriate changes to the internal audit plan, and obtain board approval for significant revisions.",
+        "Retain the existing plan because changes after annual approval would undermine the planning process.",
+        "Add the acquired company to the next year's audit universe without reconsidering the current risk assessment.",
+        "Replace the current plan with management's proposed audits without consulting the board."
+      ],
+      "answer": "A",
+      "explanation": "The internal audit plan should be dynamic and responsive to significant changes in organizational risks and circumstances. The CAE should reassess priorities, evaluate available resources, and communicate proposed significant plan changes to the board for approval.",
+      "topic": "Internal Audit Plan",
+      "subtopic": "Updating the risk-based audit plan",
+      "difficulty": "medium",
+      "source": "CIA Part 3 Syllabus, Section B.2; Global Internal Audit Standards, Standard 9.4 Internal Audit Plan"
+    },
+    {
+      "stem": "The CAE plans to rely on compliance testing performed by another internal assurance provider when determining internal audit coverage. Which of the following factors is most important to evaluate before relying on that work?",
+      "options": [
+        "Whether the provider reports to the same executive who approves the internal audit budget.",
+        "Whether the provider is sufficiently competent and objective and performs work of adequate quality.",
+        "Whether the provider uses the same audit software as the internal audit function.",
+        "Whether the provider completed more engagements than the internal audit function during the year."
+      ],
+      "answer": "B",
+      "explanation": "Coordinating with other assurance providers may reduce duplication and improve coverage, but reliance must be justified. The CAE should evaluate the provider's competence, objectivity, and the quality and suitability of the work before deciding how much reliance is appropriate.",
+      "topic": "Internal Audit Plan",
+      "subtopic": "Coordination and reliance on assurance providers",
+      "difficulty": "hard",
+      "source": "CIA Part 3 Syllabus, Section B.3; Global Internal Audit Standards, Standard 9.5 Coordination and Reliance"
+    },
+    {
+      "stem": "Which of the following best describes the required components of a quality assurance and improvement program for an internal audit function?",
+      "options": [
+        "An annual financial review of the audit budget and a report on staff utilization.",
+        "A review conducted by operational management after every completed engagement.",
+        "Internal assessments and external assessments of the internal audit function.",
+        "An external assessment performed only when senior management identifies an audit failure."
+      ],
+      "answer": "C",
+      "explanation": "A quality assurance and improvement program includes both internal and external assessments to evaluate conformance with the Global Internal Audit Standards and progress toward performance objectives. Internal assessments include ongoing monitoring and periodic self-assessments, while external assessments provide independent evaluation.",
+      "topic": "Quality of the Internal Audit Function",
+      "subtopic": "Quality assurance and improvement program",
+      "difficulty": "easy",
+      "source": "CIA Part 3 Syllabus, Section C.1; Global Internal Audit Standards, Standards 8.3 and 12.1"
+    },
+    {
+      "stem": "A CAE is arranging an external quality assessment of the internal audit function. Which of the following arrangements best meets the Global Internal Audit Standards?",
+      "options": [
+        "An assessment conducted by the organization's finance director, who has extensive operational experience.",
+        "An assessment conducted by an experienced internal audit manager responsible for supervising the function being assessed.",
+        "An assessment conducted by a qualified consulting team whose members have no internal audit assessment experience.",
+        "An assessment conducted by a qualified, independent assessor or assessment team with at least one active Certified Internal Auditor."
+      ],
+      "answer": "D",
+      "explanation": "External quality assessments must be performed at least once every five years by a qualified, independent assessor or assessment team. The Global Internal Audit Standards also require at least one team member to hold an active CIA designation, supporting both professional competence and independent evaluation.",
+      "topic": "Quality of the Internal Audit Function",
+      "subtopic": "External quality assessments",
+      "difficulty": "medium",
+      "source": "CIA Part 3 Syllabus, Section C.1; Global Internal Audit Standards, Standard 8.4 External Quality Assessment"
+    },
+    {
+      "stem": "The CAE is developing a performance scorecard for the internal audit function. Which of the following combinations provides the most balanced assessment of the function's performance?",
+      "options": [
+        "Progress against the audit plan, stakeholder feedback, engagement quality, and achievement of performance targets.",
+        "Number of audit reports issued, total findings raised, and total hours charged to engagements.",
+        "Percentage of the audit budget spent, staff attendance, and average engagement duration.",
+        "Number of recommendations accepted, number of audit meetings held, and volume of working papers prepared."
+      ],
+      "answer": "A",
+      "explanation": "A balanced scorecard incorporates quantitative and qualitative measures of efficiency, effectiveness, quality, and stakeholder value. Output measures alone may encourage auditors to maximize activity rather than improve performance or achieve the internal audit function's objectives.",
+      "topic": "Quality of the Internal Audit Function",
+      "subtopic": "Internal audit performance indicators",
+      "difficulty": "medium",
+      "source": "CIA Part 3 Syllabus, Section C.3; Global Internal Audit Standards, Standard 12.2 Performance Measurement"
+    },
+    {
+      "stem": "An internal audit report describes a control weakness using highly technical terminology that the intended operational audience is unlikely to understand. Which of the following attributes of effective communication most directly needs improvement?",
+      "options": [
+        "Accuracy",
+        "Clarity",
+        "Timeliness",
+        "Completeness"
+      ],
+      "answer": "B",
+      "explanation": "Clear communication uses language and structure that the intended audience can readily understand. Technical terms should be explained or replaced with appropriate business language so that stakeholders can understand the finding, its implications, and the required action.",
+      "topic": "Engagement Results and Monitoring",
+      "subtopic": "Attributes of effective communication",
+      "difficulty": "easy",
+      "source": "CIA Part 3 Syllabus, Section D.1; Global Internal Audit Standards, Standard 11.2 Effective Communication"
+    },
+    {
+      "stem": "During an engagement, internal auditors identify a significant weakness in the approval of vendor payments. Which of the following descriptions provides the most useful information for an engagement finding?",
+      "options": [
+        "A statement that vendor payment controls are inadequate and that management should improve them.",
+        "A summary of the affected transactions and the names of employees responsible for processing them.",
+        "A description of the audit procedures performed and the total number of transactions examined.",
+        "A comparison of the required and actual control conditions, supported by evidence, with relevant causes and effects."
+      ],
+      "answer": "D",
+      "explanation": "An effective audit finding explains the expected condition, the actual condition, and the significance of the difference. Identifying the cause and effect helps stakeholders understand the underlying control weakness and develop actions that address the associated risk.",
+      "topic": "Engagement Results and Monitoring",
+      "subtopic": "Development and communication of findings",
+      "difficulty": "medium",
+      "source": "CIA Part 3 Syllabus, Section D.2; Global Internal Audit Standards, Standards 14.3 and 15.1"
+    },
+    {
+      "stem": "Internal auditors are preparing the final communication for an engagement in which management denied access to a significant portion of the records needed to achieve an engagement objective. Which of the following actions is most appropriate?",
+      "options": [
+        "Omit the restricted area from the communication because sufficient evidence was unavailable.",
+        "Present conclusions for the restricted area based on management's verbal representations.",
+        "Disclose the scope limitation and explain its effect on the ability to achieve the engagement objectives.",
+        "Describe the engagement as fully completed because the remaining procedures were performed."
+      ],
+      "answer": "C",
+      "explanation": "A significant restriction on access to information can prevent auditors from obtaining sufficient evidence to support their conclusions. The final communication should disclose relevant scope limitations and their effect so that recipients can properly interpret the results.",
+      "topic": "Engagement Results and Monitoring",
+      "subtopic": "Reporting scope limitations",
+      "difficulty": "medium",
+      "source": "CIA Part 3 Syllabus, Section D.2; Global Internal Audit Standards, Standard 15.1 Final Engagement Communication"
+    },
+    {
+      "stem": "Internal auditors identify repeated delays in correcting unauthorized user access. Their investigation finds that employee departures are not consistently communicated to the system administration team. Which of the following recommendations most directly addresses the root cause?",
+      "options": [
+        "Establish a reliable employee termination notification process with defined ownership and timely access revocation.",
+        "Increase the frequency of reports identifying accounts that remain active after employee termination.",
+        "Require system administrators to confirm that they understand the existing access removal policy.",
+        "Add a temporary manual review of unauthorized accounts during the next internal audit engagement."
+      ],
+      "answer": "A",
+      "explanation": "The underlying problem is the failure to communicate employee departures to the individuals responsible for removing access. A defined notification and revocation process directly addresses this cause, whereas additional reporting or periodic reviews primarily detect the consequences after they occur.",
+      "topic": "Engagement Results and Monitoring",
+      "subtopic": "Recommendations addressing root causes",
+      "difficulty": "medium",
+      "source": "CIA Part 3 Syllabus, Section D.3; Global Internal Audit Standards, Standard 14.4 Recommendations and Action Plans"
+    },
+    {
+      "stem": "Which of the following is the primary purpose of conducting an engagement closing meeting with the management responsible for the activity under review?",
+      "options": [
+        "To transfer responsibility for preparing and approving the final report to operational management.",
+        "To discuss findings and conclusions, resolve factual misunderstandings, and consider proposed corrective actions.",
+        "To obtain management's agreement that every finding must be reported using the auditor's initial risk rating.",
+        "To obtain confirmation that management has completed all agreed corrective actions before issuing the report."
+      ],
+      "answer": "B",
+      "explanation": "A closing meeting facilitates discussion of the engagement results, including factual accuracy, differing perspectives, and potential corrective actions. It improves communication and allows auditors to consider management's input without compromising their independent professional judgment.",
+      "topic": "Engagement Results and Monitoring",
+      "subtopic": "Engagement closing communication",
+      "difficulty": "easy",
+      "source": "CIA Part 3 Syllabus, Section D.4; Global Internal Audit Standards, Standards 13.1 and 15.1"
+    },
+    {
+      "stem": "After a final engagement report has been issued, the internal audit function discovers that a material calculation error significantly understated the potential financial exposure described in the report. Which of the following actions is most appropriate for the CAE?",
+      "options": [
+        "Wait until the next scheduled audit to determine whether the financial exposure has changed.",
+        "Correct the error in the engagement working papers without notifying recipients of the original report.",
+        "Request that operational management determine whether recipients should receive an updated report.",
+        "Promptly communicate the corrected information to all parties who received the original final communication."
+      ],
+      "answer": "D",
+      "explanation": "When a final engagement communication contains a significant error or omission, the CAE must communicate corrected information to the parties who received the original communication. This ensures that stakeholders do not continue making decisions based on materially inaccurate information.",
+      "topic": "Engagement Results and Monitoring",
+      "subtopic": "Correction of significant reporting errors",
+      "difficulty": "medium",
+      "source": "CIA Part 3 Syllabus, Section D.4; Global Internal Audit Standards, Standard 11.4 Errors and Omissions"
+    },
+    {
+      "stem": "Internal auditors determine that several controls over a critical business process are properly designed but frequently fail during operation. Management argues that the process has adequate controls because all required procedures are documented. Which of the following is the most appropriate basis for the engagement's overall control assessment?",
+      "options": [
+        "The documented design of the controls, because approved procedures demonstrate adequate risk mitigation.",
+        "The number of controls established, because a larger control inventory indicates stronger risk coverage.",
+        "The combined evaluation of control design and operating effectiveness, considering the remaining risk exposure.",
+        "The historical absence of major losses, because past performance establishes that the controls are adequate."
+      ],
+      "answer": "C",
+      "explanation": "Control design adequacy alone does not establish that risks are effectively mitigated. The engagement assessment must also consider whether controls operate as intended and whether the remaining residual risk is acceptable in relation to the relevant objectives and risk criteria.",
+      "topic": "Engagement Results and Monitoring",
+      "subtopic": "Assessment of residual risk",
+      "difficulty": "hard",
+      "source": "CIA Part 3 Syllabus, Section D.5; Global Internal Audit Standards, Standard 14.5 Engagement Conclusions"
+    },
+    {
+      "stem": "The CAE concludes that senior management has accepted a significant residual risk that exceeds the organization's established risk appetite. After discussing the concern with senior management, the CAE determines that the matter remains unresolved. Which of the following actions is most appropriate?",
+      "options": [
+        "Escalate the matter to the board for consideration and retain documentation of the discussions.",
+        "Direct the operational manager to implement the preferred control regardless of management's decision.",
+        "Remove the finding from the final engagement communication because senior management accepted the risk.",
+        "Ask the external auditor to assume responsibility for resolving the risk acceptance disagreement."
+      ],
+      "answer": "A",
+      "explanation": "When the CAE determines that management has accepted a risk beyond the organization's risk appetite or risk tolerance, the concern must be discussed with senior management. If the matter is not resolved, the CAE must escalate it to the board, while responsibility for risk management remains with management and the board.",
+      "topic": "Engagement Results and Monitoring",
+      "subtopic": "Communication of unacceptable risk acceptance",
+      "difficulty": "hard",
+      "source": "CIA Part 3 Syllabus, Section D.6; Global Internal Audit Standards, Standard 11.5 Communicating the Acceptance of Risks"
+    },
+    {
+      "stem": "Management reports that a corrective action addressing a high-risk audit finding has been completed. The action involved introducing an automated control to prevent unauthorized changes to supplier bank account details. Which of the following is the most appropriate follow-up procedure for internal auditors?",
+      "options": [
+        "Close the action based on the responsible manager's written confirmation of completion.",
+        "Examine evidence that the automated control has been implemented and is operating effectively.",
+        "Delay follow-up until the next full-scope audit of the supplier payment process.",
+        "Ask management to provide a revised target date for completing the corrective action."
+      ],
+      "answer": "B",
+      "explanation": "Internal audit's monitoring process should establish whether management's agreed actions have been effectively implemented. For a high-risk finding, examining configuration evidence and testing relevant transactions can provide a reasonable basis for confirming that the new control operates as intended rather than relying solely on management's assertion.",
+      "topic": "Engagement Results and Monitoring",
+      "subtopic": "Monitoring and confirming corrective actions",
+      "difficulty": "medium",
+      "source": "CIA Part 3 Syllabus, Sections D.7–D.8; Global Internal Audit Standards, Standard 15.2 Confirming the Implementation of Recommendations or Action Plans"
+    }
+  ]
+}
