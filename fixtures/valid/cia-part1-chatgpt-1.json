@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "cia-part1",
+  "set": "CIA Part 1 – Internal Audit Fundamentals practice – Set 1",
+  "questions": [
+    {
+      "stem": "Which of the following best describes the primary purpose of internal auditing according to The IIA's Global Internal Audit Standards?",
+      "options": [
+        "To ensure that management achieves all approved financial and operational targets",
+        "To strengthen the organization's ability to create, protect, and sustain value by providing independent, risk-based, and objective assurance, advice, insight, and foresight",
+        "To establish the organization's internal controls and assume responsibility for their effectiveness",
+        "To verify the accuracy of financial statements before they are submitted to external auditors"
+      ],
+      "answer": "B",
+      "explanation": "The purpose of internal auditing is to strengthen an organization's ability to create, protect, and sustain value through independent, risk-based, and objective assurance, advice, insight, and foresight. Internal auditing supports governance, risk management, and control without assuming management's responsibilities or guaranteeing organizational outcomes.",
+      "topic": "Foundations of Internal Auditing",
+      "subtopic": "Purpose of Internal Auditing",
+      "difficulty": "easy",
+      "source": "Global Internal Audit Standards, Domain I: Purpose of Internal Auditing"
+    },
+    {
+      "stem": "The board of a newly established organization is determining the mandate of its internal audit function. Which of the following actions is most consistent with the Global Internal Audit Standards?",
+      "options": [
+        "Delegate responsibility for determining the mandate entirely to the chief financial officer",
+        "Allow individual department heads to determine which activities internal audit may examine",
+        "Require the external auditor to establish the mandate before internal audit begins operating",
+        "Work with the chief audit executive and senior management to establish the function's authority, role, and responsibilities"
+      ],
+      "answer": "D",
+      "explanation": "The board is responsible for establishing the internal audit mandate, which defines the function's authority, role, and responsibilities. The chief audit executive provides the board and senior management with information necessary to establish or update the mandate. Involvement of these parties helps align internal audit with organizational needs while preserving its independence.",
+      "topic": "Foundations of Internal Auditing",
+      "subtopic": "Internal Audit Mandate",
+      "difficulty": "medium",
+      "source": "Global Internal Audit Standards, Standard 6.1: Internal Audit Mandate"
+    },
+    {
+      "stem": "An organization's chief audit executive has drafted an internal audit charter describing the function's mandate, organizational position, reporting relationships, and services. Who is responsible for approving the charter?",
+      "options": [
+        "The board",
+        "The chief financial officer",
+        "The external auditor",
+        "The chief operating officer"
+      ],
+      "answer": "A",
+      "explanation": "The board approves the internal audit charter, which formally documents the internal audit mandate and other required elements. The chief audit executive develops and maintains the charter and discusses it with the board and senior management. Board approval reinforces the authority and organizational independence of the function.",
+      "topic": "Foundations of Internal Auditing",
+      "subtopic": "Internal Audit Charter",
+      "difficulty": "easy",
+      "source": "Global Internal Audit Standards, Standard 6.2: Internal Audit Charter"
+    },
+    {
+      "stem": "A company's procurement director asks internal audit to facilitate a workshop to identify procurement risks and possible control improvements. Management will evaluate the suggestions and retain responsibility for all decisions and implementation. Which of the following best describes this service?",
+      "options": [
+        "An assurance engagement providing an independent conclusion on control effectiveness",
+        "An operational engagement transferring control responsibility to internal audit",
+        "An advisory engagement intended to assist management without assuming management responsibility",
+        "A compliance engagement intended to certify adherence to procurement regulations"
+      ],
+      "answer": "C",
+      "explanation": "Advisory services involve providing advice or assistance without internal auditors assuming management responsibilities. Facilitating risk discussions and suggesting control improvements are appropriate advisory activities when management retains decision-making and implementation responsibilities. Assurance engagements, by contrast, involve objective assessments intended to provide confidence about a subject.",
+      "topic": "Foundations of Internal Auditing",
+      "subtopic": "Assurance and Advisory Services",
+      "difficulty": "medium",
+      "source": "CIA Part 1 Expanded Test Specifications, Section A: Assurance and Advisory Services"
+    },
+    {
+      "stem": "An internal audit function is preparing an assurance engagement covering the effectiveness of access controls over a financial reporting system. Which of the following statements most accurately describes reasonable assurance?",
+      "options": [
+        "It confirms that every unauthorized access attempt during the period has been identified",
+        "It provides a high, but not absolute, level of confidence based on sufficient and appropriate evidence",
+        "It establishes that the organization's information security risks have been completely eliminated",
+        "It guarantees that the control system will prevent all material reporting errors in future periods"
+      ],
+      "answer": "B",
+      "explanation": "Reasonable assurance provides a high level of confidence but does not constitute a guarantee. Audit procedures, sampling limitations, judgment, and inherent control limitations prevent absolute certainty. Internal auditors obtain sufficient, reliable, and relevant information to support their assessment and conclusions.",
+      "topic": "Foundations of Internal Auditing",
+      "subtopic": "Levels of Assurance",
+      "difficulty": "medium",
+      "source": "CIA Part 1 Expanded Test Specifications, Section A: Assurance Services"
+    },
+    {
+      "stem": "An internal auditor is reviewing a new expense reimbursement process and discovers that the approval thresholds allow unusually large payments without secondary authorization. Management requests an immediate recommendation. Which of the following responses is most appropriate?",
+      "options": [
+        "Personally approve reimbursements above the threshold until management revises the process",
+        "Assume temporary ownership of the reimbursement controls to prevent further exposure",
+        "Direct accounting personnel to stop processing all reimbursements until audit fieldwork ends",
+        "Recommend revised authorization controls while leaving their approval and implementation to management"
+      ],
+      "answer": "D",
+      "explanation": "Internal auditors may recommend control improvements but must avoid assuming management's operational responsibilities. Management is accountable for selecting, approving, implementing, and operating controls. Providing recommendations while preserving this separation allows internal audit to offer valuable advice without impairing its objectivity.",
+      "topic": "Foundations of Internal Auditing",
+      "subtopic": "Internal Audit Responsibilities and Boundaries",
+      "difficulty": "medium",
+      "source": "Global Internal Audit Standards, Domain I: Purpose of Internal Auditing"
+    },
+    {
+      "stem": "The chief executive officer controls the internal audit function's budget, approves all engagement scopes, and can prevent unfavorable audit reports from reaching the audit committee. The chief audit executive has no direct access to the board. Which of the following changes would most effectively address the resulting threat to organizational independence?",
+      "options": [
+        "Establish direct functional reporting to the board, including board oversight of the chief audit executive and internal audit resources",
+        "Require the chief executive officer to provide written explanations whenever an engagement scope is restricted",
+        "Assign an external consultant to review internal audit reports before the chief executive officer receives them",
+        "Create a management committee to approve engagement scopes and decide which findings should reach the board"
+      ],
+      "answer": "A",
+      "explanation": "Organizational independence is supported by a direct reporting relationship between the chief audit executive and the board. The board should oversee matters such as the internal audit charter, resources, and the chief audit executive's appointment and removal, while ensuring appropriate access and communications. Written explanations or additional management review do not resolve management's ability to restrict audit activities and reporting.",
+      "topic": "Foundations of Internal Auditing",
+      "subtopic": "Organizational Independence",
+      "difficulty": "hard",
+      "source": "Global Internal Audit Standards, Standards 7.1 and 8.2"
+    },
+    {
+      "stem": "During an engagement, an internal auditor discovers that a close relative is the manager responsible for the activity being audited. Which of the following actions is most appropriate?",
+      "options": [
+        "Continue the engagement because a family relationship does not necessarily produce biased findings",
+        "Complete the engagement but disclose the relationship only if an unfavorable finding arises",
+        "Promptly disclose the relationship to the appropriate party so that the threat to objectivity can be evaluated and addressed",
+        "Ask the relative to confirm in writing that the auditor will receive unrestricted access to information"
+      ],
+      "answer": "C",
+      "explanation": "Personal relationships may create actual, potential, or perceived impairments to an internal auditor's objectivity. The auditor must disclose such circumstances promptly so appropriate safeguards or changes in assignment can be considered. Disclosure is necessary even when the auditor believes personal judgment will remain unbiased.",
+      "topic": "Ethics and Professionalism",
+      "subtopic": "Individual Objectivity and Impairment",
+      "difficulty": "easy",
+      "source": "Global Internal Audit Standards, Standards 2.1 and 2.3"
+    },
+    {
+      "stem": "An internal auditor has been assigned to evaluate a highly specialized cybersecurity system but lacks the technical knowledge necessary to assess its security architecture. Which of the following actions best demonstrates professional competency?",
+      "options": [
+        "Proceed with the engagement using general internal control knowledge and avoid technical conclusions",
+        "Inform the appropriate supervisor of the competency gap and arrange for qualified assistance or expertise",
+        "Rely entirely on management's explanation because management is responsible for cybersecurity controls",
+        "Exclude technical controls from the engagement without informing stakeholders of the revised scope"
+      ],
+      "answer": "B",
+      "explanation": "Internal auditors must possess or obtain the competencies needed to perform their responsibilities effectively. When an auditor lacks specialized expertise, the gap should be addressed through appropriate supervision, training, or qualified assistance. Proceeding without necessary expertise could undermine the reliability of the engagement's conclusions.",
+      "topic": "Ethics and Professionalism",
+      "subtopic": "Professional Competency",
+      "difficulty": "medium",
+      "source": "Global Internal Audit Standards, Standard 3.1: Competency"
+    },
+    {
+      "stem": "During an audit of an organization's acquisition process, an internal auditor obtains confidential information about a planned transaction. A friend who invests in the organization's securities asks whether any significant acquisitions are expected. Which response is most appropriate?",
+      "options": [
+        "Provide the information if the friend agrees not to disclose the source",
+        "Confirm that a transaction is expected without revealing its financial details",
+        "Share the information after checking that the acquisition is financially beneficial",
+        "Decline to disclose the information because it was obtained through professional responsibilities and is not authorized for release"
+      ],
+      "answer": "D",
+      "explanation": "Internal auditors must protect confidential information acquired through their professional activities. They must not disclose or use such information for unauthorized purposes or personal benefit. The obligation applies even when the disclosure would be informal or limited to a trusted individual.",
+      "topic": "Ethics and Professionalism",
+      "subtopic": "Confidentiality and Use of Information",
+      "difficulty": "easy",
+      "source": "Global Internal Audit Standards, Standard 5.2: Protection of Information"
+    },
+    {
+      "stem": "An internal auditor is evaluating a revenue recognition process. Management provides an internally prepared reconciliation showing that all material transactions were recorded correctly. However, the auditor identifies inconsistencies between the reconciliation and independent transaction records. Management insists that further examination is unnecessary. Which of the following actions best demonstrates professional skepticism?",
+      "options": [
+        "Investigate the inconsistencies and obtain additional reliable evidence before reaching a conclusion",
+        "Accept the reconciliation because management is accountable for the accuracy of financial records",
+        "Conclude that intentional financial misstatement has occurred because the evidence is inconsistent",
+        "Disregard management's reconciliation entirely and base the conclusion only on prior audit results"
+      ],
+      "answer": "A",
+      "explanation": "Professional skepticism requires a questioning mindset and critical evaluation of information rather than unquestioning acceptance of representations. Conflicting evidence should be investigated and resolved sufficiently to support the engagement conclusion. Neither automatically accepting management's explanation nor assuming fraud without adequate evidence reflects appropriate professional judgment.",
+      "topic": "Ethics and Professionalism",
+      "subtopic": "Professional Skepticism",
+      "difficulty": "hard",
+      "source": "Global Internal Audit Standards, Standard 4.3: Professional Skepticism"
+    },
+    {
+      "stem": "Which of the following activities is primarily a responsibility of the board in an organization's governance framework?",
+      "options": [
+        "Executing daily operating procedures approved by department managers",
+        "Maintaining detailed transaction records for all business units",
+        "Overseeing organizational strategy, management accountability, and the effectiveness of governance arrangements",
+        "Performing individual control activities within operational processes"
+      ],
+      "answer": "C",
+      "explanation": "The board provides strategic direction and oversight, including holding senior management accountable for organizational performance and appropriate governance. Management is responsible for executing strategy, managing operations, and operating controls. Effective governance depends on a clear distinction between oversight and operational responsibilities.",
+      "topic": "Governance, Risk Management, and Control",
+      "subtopic": "Organizational Governance",
+      "difficulty": "easy",
+      "source": "CIA Part 1 Expanded Test Specifications, Section C: Governance"
+    },
+    {
+      "stem": "An organization has identified the possibility that its primary supplier may experience a prolonged production interruption. Management estimates the likelihood and potential financial consequences of this event before considering additional mitigation measures. Which of the following risk concepts is management primarily assessing?",
+      "options": [
+        "Residual risk after implementing the proposed mitigation measures",
+        "Inherent risk before considering the effects of relevant risk responses and controls",
+        "Risk appetite representing the amount of disruption the organization is prepared to accept",
+        "Control risk representing the possibility that an internal control fails to operate"
+      ],
+      "answer": "B",
+      "explanation": "Inherent risk is the level of risk that exists in the absence of actions taken to alter its likelihood or impact. Assessing the potential supplier disruption before considering mitigation helps management understand the underlying exposure. Residual risk is the remaining risk after relevant responses or controls have been considered.",
+      "topic": "Governance, Risk Management, and Control",
+      "subtopic": "Inherent and Residual Risk",
+      "difficulty": "medium",
+      "source": "CIA Part 1 Expanded Test Specifications, Section C: Risk Management Concepts"
+    },
+    {
+      "stem": "An organization has documented a risk appetite that permits up to $2 million in annual losses from a particular operational risk. Management's latest assessment estimates residual annual loss exposure of $4 million. Which of the following actions is most appropriate?",
+      "options": [
+        "Treat the exposure as acceptable because existing controls have already reduced inherent risk",
+        "Transfer responsibility for accepting the exposure to the internal audit function",
+        "Exclude the risk from reporting until actual losses exceed the organization's limit",
+        "Evaluate additional risk responses or obtain appropriate authorization to accept exposure beyond the stated appetite"
+      ],
+      "answer": "D",
+      "explanation": "Residual risk exceeding an organization's stated risk appetite requires management attention and an appropriate response. Management may consider reducing, sharing, avoiding, or formally escalating the exposure for acceptance by the appropriate authority. Internal audit may evaluate and report on the situation but does not own the decision to accept organizational risk.",
+      "topic": "Governance, Risk Management, and Control",
+      "subtopic": "Risk Appetite and Risk Response",
+      "difficulty": "medium",
+      "source": "CIA Part 1 Expanded Test Specifications, Section C: Risk Management and Risk Responses"
+    },
+    {
+      "stem": "A company requires purchase orders above $25,000 to be approved by a designated senior manager before they are issued to suppliers. Which of the following best classifies this requirement?",
+      "options": [
+        "A preventive control designed to reduce the likelihood of unauthorized purchases",
+        "A detective control designed to identify unauthorized purchases after payment",
+        "A corrective control designed to recover losses from unauthorized purchases",
+        "A monitoring control designed to evaluate the overall purchasing control system"
+      ],
+      "answer": "A",
+      "explanation": "A required approval before a purchase order is issued is a preventive control because it is intended to stop unauthorized transactions from occurring. Detective controls identify events after they occur, while corrective controls address identified problems. Timely authorization is a common management control technique.",
+      "topic": "Governance, Risk Management, and Control",
+      "subtopic": "Types of Internal Controls",
+      "difficulty": "easy",
+      "source": "CIA Part 1 Expanded Test Specifications, Section C: Internal Controls"
+    },
+    {
+      "stem": "A small business has only two employees available to handle customer payments. One employee receives payments, records receipts, and prepares bank deposits. The second employee manages unrelated administrative duties. Management cannot afford additional staff. Which of the following measures would provide the strongest compensating control over the payment process?",
+      "options": [
+        "Require the payment-processing employee to take annual leave and document the deposit procedures",
+        "Ask the administrative employee to review monthly sales forecasts against budgeted collections",
+        "Have the business owner independently reconcile bank deposits to customer payment records and investigate differences",
+        "Require the payment-processing employee to certify monthly that all receipts were deposited"
+      ],
+      "answer": "C",
+      "explanation": "When staffing limitations prevent effective segregation of duties, independent review can serve as a compensating control. Reconciliation by the owner using bank information and payment records can help detect omissions or diversion of receipts. Self-certification by the employee responsible for the transactions provides weaker assurance because the review is not independent.",
+      "topic": "Governance, Risk Management, and Control",
+      "subtopic": "Segregation of Duties and Compensating Controls",
+      "difficulty": "hard",
+      "source": "CIA Part 1 Expanded Test Specifications, Section C: Internal Control Design and Effectiveness"
+    },
+    {
+      "stem": "An organization uses The IIA's Three Lines Model. The risk management department establishes enterprise risk policies, assists operating managers in identifying risks, and monitors compliance with risk limits. Internal audit independently evaluates the effectiveness of these arrangements. Which of the following best describes the risk management department's role?",
+      "options": [
+        "A first-line role because it owns all operational decisions and performs transaction processing",
+        "A second-line role because it provides expertise, support, monitoring, and challenge regarding risk management",
+        "A third-line role because it independently assures the board about the entire governance framework",
+        "A governing body role because it determines the organization's strategic objectives and approves risk appetite"
+      ],
+      "answer": "B",
+      "explanation": "Under The IIA's Three Lines Model, second-line roles provide specialized expertise, support, monitoring, and challenge concerning risk-related matters. First-line roles are associated with managing operations and related risks, while internal audit provides independent third-line assurance and advice. Second-line activities remain part of management and are not a substitute for internal audit's independent assessment.",
+      "topic": "Governance, Risk Management, and Control",
+      "subtopic": "The IIA Three Lines Model",
+      "difficulty": "hard",
+      "source": "The IIA's Three Lines Model: An Update of the Three Lines of Defense"
+    },
+    {
+      "stem": "An internal auditor reviews a company's vendor master file and identifies several suppliers that share the same bank account numbers as employees. Which of the following is the most appropriate initial interpretation of this observation?",
+      "options": [
+        "It confirms that employees have established fictitious suppliers to divert company payments",
+        "It proves that accounts payable personnel have deliberately overridden purchasing controls",
+        "It demonstrates that the organization has suffered losses from fraudulent supplier payments",
+        "It represents a potential fraud indicator that requires further investigation and evaluation"
+      ],
+      "answer": "D",
+      "explanation": "Matching employee and supplier bank accounts may indicate fictitious vendors, undisclosed relationships, or other improper payment arrangements. However, an unusual pattern is a fraud red flag rather than conclusive proof of misconduct. Internal auditors should obtain corroborating evidence and evaluate the circumstances before forming conclusions.",
+      "topic": "Fraud Risks",
+      "subtopic": "Fraud Indicators and Red Flags",
+      "difficulty": "medium",
+      "source": "CIA Part 1 Expanded Test Specifications, Section D: Fraud Risks and Red Flags"
+    },
+    {
+      "stem": "A warehouse supervisor can create inventory adjustment transactions, approve those adjustments, and modify supporting records without independent review. Which element of the fraud triangle is most directly increased by this control weakness?",
+      "options": [
+        "Opportunity",
+        "Financial pressure",
+        "Rationalization",
+        "Personal motivation"
+      ],
+      "answer": "A",
+      "explanation": "Opportunity arises when weaknesses in controls or oversight make fraud easier to commit or conceal. Combining incompatible responsibilities and removing independent review increases the supervisor's ability to manipulate inventory records without detection. Financial pressure and rationalization relate to other aspects of the fraud triangle.",
+      "topic": "Fraud Risks",
+      "subtopic": "Fraud Triangle",
+      "difficulty": "medium",
+      "source": "CIA Part 1 Expanded Test Specifications, Section D: Fraud Risk Concepts"
+    },
+    {
+      "stem": "During a routine operational audit, an internal auditor discovers credible evidence suggesting that a senior purchasing manager may be receiving undisclosed payments from a supplier. The organization's fraud response policy assigns investigations to a specialized team. Which of the following actions should the internal auditor take?",
+      "options": [
+        "Confront the purchasing manager immediately and demand an explanation before notifying anyone",
+        "Report the suspected misconduct through established channels and preserve relevant evidence in accordance with organizational procedures",
+        "Extend the operational audit into a full fraud investigation without involving the designated investigation team",
+        "Inform the supplier that payments will be suspended until the purchasing manager establishes that no fraud occurred"
+      ],
+      "answer": "B",
+      "explanation": "Internal auditors must exercise due professional care regarding fraud risks and follow appropriate escalation procedures when suspected fraud is identified. Reporting through established channels and protecting relevant evidence enables qualified personnel to conduct a proper investigation. Internal auditors should not independently assume investigative responsibilities beyond their authority or expertise, and premature confrontation may compromise the investigation.",
+      "topic": "Fraud Risks",
+      "subtopic": "Internal Audit's Responsibilities for Suspected Fraud",
+      "difficulty": "medium",
+      "source": "CIA Part 1 Expanded Test Specifications, Section D: Internal Audit Roles Related to Fraud"
+    }
+  ]
+}
