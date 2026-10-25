@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "shrm-cp",
+  "set": "SHRM Certified Professional (SHRM-CP) practice – Operational HR Scenarios and Knowledge",
+  "questions": [
+    {
+      "stem": "Several warehouse employees express frustration and anxiety regarding the rollout of a new automated inventory and attendance logging system, fearing it will penalize them unfairly for minor delays. Which action should the HR generalist take to facilitate adoption and reduce resistance?",
+      "options": [
+        "Mandate that department supervisors enforce strict disciplinary penalties for any employee who fails to log in correctly.",
+        "Partner with respected front-line peer champions to model system usage and conduct hands-on training sessions that demonstrate practical benefits.",
+        "Postpone system implementation indefinitely until all affected employees confirm in writing that they support the change.",
+        "Issue a company-wide email reaffirming executive leadership's authority to select workplace tracking tools."
+      ],
+      "answer": "B",
+      "explanation": "Effective change management at the operational level requires HR professionals to engage informal leaders and provide practical, hands-on learning opportunities. Enlisting peer champions helps demystify the technology and addresses anxiety directly, which builds trust and sustainable user adoption. Mandates or indefinite delays do not resolve underlying employee concerns.",
+      "topic": "Leadership Cluster",
+      "subtopic": "Leadership & Navigation",
+      "difficulty": "medium",
+      "source": "SHRM BASK, Leadership Cluster: Leadership & Navigation"
+    },
+    {
+      "stem": "A hiring manager insists on extending an offer to a final candidate at a rate significantly below the established salary band midpoint, noting that the candidate's prior pay was low and that the department needs to preserve its quarterly budget. Which action should the HR specialist take?",
+      "options": [
+        "Approve the manager's recommended salary offer to help the department meet its quarterly fiscal targets.",
+        "Advise the candidate during the offer discussion that their prior compensation history negatively affected their starting pay.",
+        "Refer the candidate directly to the chief financial officer to negotiate an individual compensation package.",
+        "Explain the organization's internal equity principles and salary range structure, and advocate for an offer aligned with the candidate's qualifications and pay parity."
+      ],
+      "answer": "D",
+      "explanation": "Ethical practice requires HR professionals to uphold pay equity, prevent wage disparities rooted in prior compensation history, and maintain organizational integrity. By anchoring compensation decisions to objective job evaluation bands and market-aligned equity standards, HR ensures fair treatment and mitigates compliance risks. Yielding to short-term budget desires compromises institutional standards.",
+      "topic": "Leadership Cluster",
+      "subtopic": "Ethical Practice",
+      "difficulty": "hard",
+      "source": "SHRM BASK, Leadership Cluster: Ethical Practice"
+    },
+    {
+      "stem": "An HR coordinator notices that several remote team members who speak English as a second language rarely contribute during rapid-fire, synchronous virtual brainstorming sessions. Which approach should the HR coordinator recommend to the team manager to foster an inclusive environment?",
+      "options": [
+        "Distribute agenda topics and background materials prior to meetings and establish asynchronous channels for submitting written ideas before and after sessions.",
+        "Call directly on silent team members during live discussions to ensure equal speaking time on the agenda.",
+        "Reassign non-native English speakers to localized internal projects where synchronous participation is not required.",
+        "Replace all group brainstorming meetings with individual one-on-one evaluations conducted exclusively by the manager."
+      ],
+      "answer": "A",
+      "explanation": "Fostering an inclusive mindset involves recognizing diverse communication styles and linguistic comfort levels, then adapting workflows accordingly. Providing materials in advance and offering multiple modalities, such as asynchronous written contributions, allows all team members equitable opportunity to process information and contribute their insights. Calling on individuals unexpectedly can induce performance anxiety rather than psychological safety.",
+      "topic": "Leadership Cluster",
+      "subtopic": "Inclusive Mindset",
+      "difficulty": "medium",
+      "source": "SHRM BASK, Leadership Cluster: Inclusive Mindset"
+    },
+    {
+      "stem": "Under Hersey and Blanchard's Situational Leadership model, which leadership behavior is most effective when managing employees who demonstrate high enthusiasm and commitment but low task-specific competence?",
+      "options": [
+        "Delegating, characterized by low task behavior and low relationship behavior",
+        "Supporting, characterized by low task behavior and high relationship behavior",
+        "Directing, characterized by high task behavior and low relationship behavior",
+        "Coaching, characterized by low task behavior and moderate relationship behavior"
+      ],
+      "answer": "C",
+      "explanation": "Hersey and Blanchard's Situational Leadership model matches leadership style to follower readiness. A directing (or telling) style is tailored for followers who have high commitment but lack competence (D1 readiness), requiring high task direction and clear, explicit instructions on how, when, and where to perform duties.",
+      "topic": "Leadership Cluster",
+      "subtopic": "Leadership & Navigation",
+      "difficulty": "easy",
+      "source": "SHRM BASK, Leadership Cluster: Leadership & Navigation"
+    },
+    {
+      "stem": "Two production supervisors disagree over how to share specialized diagnostic equipment, resulting in missed delivery targets and finger-pointing during shift handoffs. Which action should the HR generalist take first to resolve this workplace conflict?",
+      "options": [
+        "Reassign diagnostic duties permanently to an external vendor to eliminate internal competition for equipment.",
+        "Facilitate a structured meeting with both supervisors to examine their operational workflows and establish an agreed-upon sharing schedule.",
+        "Escalate the situation immediately to the plant manager with a recommendation to issue written reprimands to both supervisors.",
+        "Instruct the more tenured supervisor to take primary ownership of the schedule and dictate equipment priority."
+      ],
+      "answer": "B",
+      "explanation": "Relationship management emphasizes collaborative problem-solving and interest-based conflict resolution. Facilitating a structured conversation encourages the disputing supervisors to share operational data, understand reciprocal needs, and co-create an equitable schedule, which builds lasting cooperation and accountability.",
+      "topic": "Interpersonal Cluster",
+      "subtopic": "Relationship Management",
+      "difficulty": "medium",
+      "source": "SHRM BASK, Interpersonal Cluster: Relationship Management"
+    },
+    {
+      "stem": "An organization must notify a multi-shift logistics workforce about an updated safety reporting procedure. Which communication approach should the HR specialist use to ensure maximum comprehension and compliance?",
+      "options": [
+        "Deploy a multi-channel communication plan combining supervisor-led shift huddles, printed wall posters, and digital portal updates.",
+        "Send an all-hands email blast at midnight so night-shift employees receive it during their working hours.",
+        "Publish the revised policy manual on the company intranet and require employees to locate and read it independently.",
+        "Rely solely on informal word-of-mouth updates delivered by safety committee members during break periods."
+      ],
+      "answer": "A",
+      "explanation": "Effective communication across diverse, multi-shift environments requires redundancy across multiple channels. Combining face-to-face verbal briefings with visual aids and digital reference materials ensures that workers with varying access to computers and differing communication preferences receive and absorb the critical message.",
+      "topic": "Interpersonal Cluster",
+      "subtopic": "Communication",
+      "difficulty": "easy",
+      "source": "SHRM BASK, Interpersonal Cluster: Communication"
+    },
+    {
+      "stem": "An HR professional using the Thomas-Kilmann Conflict Mode Instrument prioritizes pursuing their own operational goals at the other party's expense during an emergency safety shutdown. Which conflict-handling style does this approach represent?",
+      "options": [
+        "Accommodating",
+        "Collaborating",
+        "Avoiding",
+        "Competing"
+      ],
+      "answer": "D",
+      "explanation": "In the Thomas-Kilmann model, competing represents a conflict-handling style characterized by high assertiveness and low cooperativeness. A competing style is power-oriented, where one individual pursues their own concerns at the expense of others, which is often vital in crisis situations requiring decisive, non-negotiable action.",
+      "topic": "Interpersonal Cluster",
+      "subtopic": "Relationship Management",
+      "difficulty": "hard",
+      "source": "SHRM BASK, Interpersonal Cluster: Relationship Management"
+    },
+    {
+      "stem": "An HR specialist seeks executive approval to purchase an automated onboarding software platform. Which action should the HR specialist take to present the most compelling business case to executive leadership?",
+      "options": [
+        "Emphasize that rival organizations have already adopted similar software across their operations.",
+        "Reassure the executive committee that onboarding software simplifies HR administrative paperwork.",
+        "Quantify projected financial benefits, such as decreased administrative hours and faster time-to-productivity, compared against software licensing costs.",
+        "Present an employee survey showing that new hires express general interest in digital communication platforms."
+      ],
+      "answer": "C",
+      "explanation": "Business acumen requires translating HR initiatives into measurable organizational outcomes. Demonstrating return on investment by contrasting upfront implementation and licensing costs against tangible cost savings, reclaimed staff hours, and accelerated revenue generation builds a persuasive, financially sound business case.",
+      "topic": "Business Cluster",
+      "subtopic": "Business Acumen",
+      "difficulty": "medium",
+      "source": "SHRM BASK, Business Cluster: Business Acumen"
+    },
+    {
+      "stem": "A customer support director reports that customer satisfaction scores are declining because of poor employee morale and requests that HR immediately launch an employee recognition incentive. Which action should the HR consultant take first?",
+      "options": [
+        "Purchase gift cards immediately to launch the recognition program requested by the department director.",
+        "Collect and analyze relevant workplace data, including exit interview feedback, quality assurance metrics, and scheduling logs, to diagnose the root cause.",
+        "Design a mandatory customer service refresher course for all front-line support staff members.",
+        "Inform the director that customer satisfaction scores fall outside HR's core functional scope and responsibilities."
+      ],
+      "answer": "B",
+      "explanation": "Effective internal consultation requires a diagnostic approach before prescribing interventions. Rather than jumping directly to the stakeholder's requested solution, the HR professional must collect and analyze objective operational data to verify whether morale, training, scheduling, or technical systems are truly driving the performance decline.",
+      "topic": "Business Cluster",
+      "subtopic": "Consultation",
+      "difficulty": "hard",
+      "source": "SHRM BASK, Business Cluster: Consultation"
+    },
+    {
+      "stem": "Which formula correctly calculates an organization's annualized voluntary turnover rate?",
+      "options": [
+        "(Total voluntary separations during the year / Average active headcount during the year) × 100",
+        "(Total voluntary separations during the year / Total hires during the year) × 100",
+        "(Total terminations during the year / Ending active headcount at year-end) × 100",
+        "(Average active headcount during the year / Total voluntary separations during the year) × 100"
+      ],
+      "answer": "A",
+      "explanation": "The annualized voluntary turnover rate is standardly calculated by dividing the total number of voluntary separations occurring within the calendar year by the average number of active workers employed over that same period, then multiplying by 100 to yield a percentage. This metric isolates voluntary attrition against baseline workforce capacity.",
+      "topic": "Business Cluster",
+      "subtopic": "Analytical Aptitude",
+      "difficulty": "easy",
+      "source": "SHRM BASK, Business Cluster: Analytical Aptitude"
+    },
+    {
+      "stem": "Which selection method asks candidates to describe how they handled specific work dilemmas in prior roles to evaluate their competencies?",
+      "options": [
+        "Cognitive ability testing",
+        "Hypothetical situational interviewing",
+        "Behavioral interviewing",
+        "Psychomotor dexterity assessment"
+      ],
+      "answer": "C",
+      "explanation": "Behavioral interviewing operates on the premise that past performance in relevant situations is the best predictor of future performance. Interviewers prompt candidates using the STAR framework (Situation, Task, Action, Result) to evaluate demonstrated competencies under real-world conditions, unlike situational interviews that focus on hypothetical scenarios.",
+      "topic": "People Knowledge Domain",
+      "subtopic": "Talent Acquisition",
+      "difficulty": "medium",
+      "source": "SHRM BASK, People: Talent Acquisition"
+    },
+    {
+      "stem": "In the Job Characteristics Model developed by Hackman and Oldham, which core job dimension leads directly to the critical psychological state of experienced responsibility for work outcomes?",
+      "options": [
+        "Task significance",
+        "Skill variety",
+        "Feedback",
+        "Autonomy"
+      ],
+      "answer": "D",
+      "explanation": "Hackman and Oldham's Job Characteristics Model posits that autonomy—the degree of freedom, independence, and discretion granted to an employee in scheduling and executing work—fosters experienced responsibility for outcomes. Skill variety, task identity, and task significance foster experienced meaningfulness, while feedback fosters knowledge of results.",
+      "topic": "People Knowledge Domain",
+      "subtopic": "Employee Engagement & Retention",
+      "difficulty": "medium",
+      "source": "SHRM BASK, People: Employee Engagement & Retention"
+    },
+    {
+      "stem": "An HR department administers an evaluation survey at the end of a supervisory training seminar to assess how much participants enjoyed the session and found the instructor engaging. Which level of Kirkpatrick's Four-Level Training Evaluation Model does this survey represent?",
+      "options": [
+        "Level 1: Reaction",
+        "Level 2: Learning",
+        "Level 3: Behavior",
+        "Level 4: Results"
+      ],
+      "answer": "A",
+      "explanation": "Level 1 (Reaction) in Kirkpatrick's model evaluates participants' immediate reactions, satisfaction, and perceived relevance of the learning experience. Level 2 measures knowledge acquisition, Level 3 measures post-training behavior change back on the job, and Level 4 evaluates business impact and organizational results.",
+      "topic": "People Knowledge Domain",
+      "subtopic": "Learning & Development",
+      "difficulty": "easy",
+      "source": "SHRM BASK, People: Learning & Development"
+    },
+    {
+      "stem": "An employee's base salary is $54,000 per year, and the midpoint of the established salary band for their job classification is $60,000 per year. What is the employee's compa-ratio?",
+      "options": [
+        "80%",
+        "90%",
+        "110%",
+        "111%"
+      ],
+      "answer": "B",
+      "explanation": "A compa-ratio (comparative ratio) is calculated by dividing an employee's actual base pay rate by the midpoint of the salary range for that position: $54,000 / $60,000 = 0.90, or 90%. A compa-ratio below 100% indicates that the employee is paid below the established market midpoint for their role.",
+      "topic": "People Knowledge Domain",
+      "subtopic": "Total Rewards",
+      "difficulty": "medium",
+      "source": "SHRM BASK, People: Total Rewards"
+    },
+    {
+      "stem": "In David Ulrich's HR structural model, which component is dedicated to developing centralized policies, program designs, and specialized expertise in areas such as total rewards, talent management, and compliance?",
+      "options": [
+        "Shared Service Centers",
+        "Embedded HR Business Partners",
+        "Centers of Excellence",
+        "Operational Service Desks"
+      ],
+      "answer": "C",
+      "explanation": "Centers of Excellence (COEs) are specialized units within an HR structural model that house subject matter experts who design enterprise-wide policies, programs, and tools in functional areas like compensation, talent acquisition, and leadership development. Shared services manage transactional operations, while HR business partners align strategies with specific business units.",
+      "topic": "Organization Knowledge Domain",
+      "subtopic": "Structure of the HR Function",
+      "difficulty": "easy",
+      "source": "SHRM BASK, Organization: Structure of the HR Function"
+    },
+    {
+      "stem": "According to Kurt Lewin's Three-Stage Change Model, which phase focuses on reinforcing new behaviors and establishing supportive policies to prevent employees from reverting to prior practices?",
+      "options": [
+        "Unfreezing",
+        "Transitioning",
+        "Moving",
+        "Refreezing"
+      ],
+      "answer": "D",
+      "explanation": "In Lewin's Three-Stage Change Model, refreezing occurs after the change has been implemented. This phase solidifies the new behaviors, workflows, and mindsets into institutional norms through updated policies, ongoing feedback, rewards, and performance metrics, thereby preventing regression to old habits.",
+      "topic": "Organization Knowledge Domain",
+      "subtopic": "Organizational Effectiveness & Development",
+      "difficulty": "hard",
+      "source": "SHRM BASK, Organization: Organizational Effectiveness & Development"
+    },
+    {
+      "stem": "What is a primary distinction between succession planning and replacement planning?",
+      "options": [
+        "Succession planning focuses on developing broad talent pools for future leadership needs, while replacement planning identifies immediate backup individuals for specific critical roles.",
+        "Succession planning addresses only entry-level hourly positions, while replacement planning focuses exclusively on senior corporate executives.",
+        "Succession planning is conducted solely during organizational downsizing, while replacement planning is utilized exclusively during expansion.",
+        "Succession planning identifies external recruiting pipelines, while replacement planning evaluates only internal employees."
+      ],
+      "answer": "A",
+      "explanation": "Succession planning is a proactive, long-term developmental process aimed at building a deep pipeline of talent capable of filling future leadership and critical roles across the organization. In contrast, replacement planning is a reactive, short-term risk management tool that identifies designated substitutes ready to step into specific positions immediately in the event of an unexpected vacancy.",
+      "topic": "Organization Knowledge Domain",
+      "subtopic": "Workforce Management",
+      "difficulty": "medium",
+      "source": "SHRM BASK, Organization: Workforce Management"
+    },
+    {
+      "stem": "Under U.S. labor law, which statement accurately reflects an employee's rights under the Supreme Court's NLRB v. J. Weingarten, Inc. ruling?",
+      "options": [
+        "An employee has the right to legal counsel during routine annual performance appraisal meetings.",
+        "A unionized employee has the right to request union representation during an investigatory interview that they reasonably believe could result in disciplinary action.",
+        "A non-union employee can refuse to attend an investigatory meeting unless a personal attorney is present.",
+        "An employer must affirmatively offer union representation before questioning any employee regarding workplace misconduct."
+      ],
+      "answer": "B",
+      "explanation": "Weingarten rights guarantee that an employee covered by a collective bargaining agreement has the legal right to request union representation during an investigatory interview that the employee reasonably believes may lead to disciplinary action. The employee must affirmatively invoke this right; the employer is not legally obligated to offer it unprompted.",
+      "topic": "Organization Knowledge Domain",
+      "subtopic": "Employee & Labor Relations",
+      "difficulty": "medium",
+      "source": "SHRM BASK, Organization: Employee & Labor Relations"
+    },
+    {
+      "stem": "Under U.S. Occupational Safety and Health Administration (OSHA) regulations, which workplace safety incident must an employer report to OSHA within eight hours of learning about it?",
+      "options": [
+        "Any work-related injury that requires prescription medication",
+        "Any work-related incident that results in an employee's loss of consciousness",
+        "Any work-related employee fatality",
+        "Any work-related incident resulting in an in-patient hospitalization"
+      ],
+      "answer": "C",
+      "explanation": "OSHA regulations mandate that employers report all work-related fatalities within eight hours of occurrence. In contrast, in-patient hospitalizations, amputations, or the loss of an eye must be reported within 24 hours, while injuries requiring prescription medications or involving loss of consciousness are recorded on the OSHA 300 log rather than immediately reported.",
+      "topic": "Workplace Knowledge Domain",
+      "subtopic": "Risk Management",
+      "difficulty": "medium",
+      "source": "SHRM BASK, Workplace: Risk Management"
+    },
+    {
+      "stem": "Under the U.S. Family and Medical Leave Act (FMLA), which baseline eligibility requirement must an employee meet to qualify for job-protected leave?",
+      "options": [
+        "Have completed at least six months of continuous service with the employer",
+        "Work at a worksite location with at least 25 employees within a 50-mile radius",
+        "Have accrued a minimum of 2,000 paid hours of work during the prior calendar year",
+        "Have worked for a covered employer for at least 12 months and logged at least 1,250 hours of service during the preceding 12-month period"
+      ],
+      "answer": "D",
+      "explanation": "To be eligible for FMLA leave, an employee must work for a covered employer (50 or more employees within a 75-mile radius), have been employed by that employer for at least 12 months (which need not be consecutive), and have completed at least 1,250 hours of service during the 12-month period immediately preceding the start of the leave.",
+      "topic": "Workplace Knowledge Domain",
+      "subtopic": "U.S. Employment Law & Regulations",
+      "difficulty": "easy",
+      "source": "SHRM BASK, Workplace: U.S. Employment Law & Regulations"
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "shrm-scp",
+  "set": "SHRM Senior Certified Professional (SHRM-SCP) practice – Strategic HR Leadership",
+  "questions": [
+    {
+      "stem": "A multinational manufacturing company is shifting from a product-based structure to regional business units. Several senior executives oppose the change because they believe regional leaders will weaken corporate standards. The CHRO has been asked to lead the HR aspects of the transformation. What should the CHRO do FIRST to improve the likelihood of successful implementation?",
+      "options": [
+        "Develop a communication campaign explaining the organizational benefits of regional decision-making.",
+        "Implement the new reporting structure in one region before expanding it across the organization.",
+        "Engage executive stakeholders to identify strategic concerns and establish shared transformation objectives.",
+        "Ask the CEO to formally mandate the organizational changes and establish implementation deadlines."
+      ],
+      "answer": "C",
+      "explanation": "Strategic transformation requires executive alignment before implementation. Engaging stakeholders helps uncover resistance, reconcile competing priorities, and establish common objectives that support the organization's strategy. Communication and implementation planning become more effective after leadership alignment is achieved.",
+      "topic": "Leadership Cluster",
+      "subtopic": "Leadership & Navigation",
+      "difficulty": "medium",
+      "source": "SHRM BASK 2026: Leadership & Navigation – Navigating the Organization; Managing HR Initiatives"
+    },
+    {
+      "stem": "The CEO of a publicly traded company privately asks the CHRO to delay documenting a substantiated harassment complaint against a high-performing executive until after a major acquisition closes. The CEO argues that immediate action could undermine investor confidence. What is the MOST appropriate response by the CHRO?",
+      "options": [
+        "Insist on following established investigation and reporting procedures while preserving appropriate confidentiality.",
+        "Delay the formal investigation until the acquisition closes while retaining confidential interview notes.",
+        "Transfer the executive temporarily to another business unit while postponing formal documentation.",
+        "Request written authorization from the CEO before suspending the company's normal investigation procedures."
+      ],
+      "answer": "A",
+      "explanation": "Ethical Practice requires HR leaders to maintain professional integrity and apply organizational standards consistently, including when influential executives are involved. Delaying or concealing a substantiated complaint introduces legal, ethical, and reputational risks. The CHRO should follow established procedures and appropriate escalation requirements without compromising confidentiality.",
+      "topic": "Leadership Cluster",
+      "subtopic": "Ethical Practice",
+      "difficulty": "medium",
+      "source": "SHRM BASK 2026: Ethical Practice – Professional Integrity; Ethical Agent"
+    },
+    {
+      "stem": "An international technology company has introduced a leadership development initiative intended to expand advancement opportunities. After one year, participation has increased, but promotion rates remain uneven across employee groups. Senior managers argue that the initiative is successful because participation targets were exceeded. What should the CHRO do NEXT?",
+      "options": [
+        "Increase participation targets and expand leadership workshops to additional business units.",
+        "Communicate the program's participation achievements before considering changes to promotion policies.",
+        "Allow business units to establish independent promotion standards that reflect local management practices.",
+        "Analyze promotion criteria and advancement outcomes to identify potential systemic barriers and improve fairness."
+      ],
+      "answer": "D",
+      "explanation": "Participation is an activity measure, whereas advancement outcomes reveal whether an initiative is producing meaningful results. A strategic HR leader should examine promotion criteria, selection processes, and outcome patterns for barriers that may undermine fairness. Evidence from this assessment can guide improvements without assuming that differences alone establish discrimination.",
+      "topic": "Leadership Cluster",
+      "subtopic": "Inclusive Mindset",
+      "difficulty": "hard",
+      "source": "SHRM BASK 2026: Inclusive Mindset – Ensuring Impartiality & Fairness; Connecting I&D to Organizational Performance"
+    },
+    {
+      "stem": "A CHRO is developing a succession strategy for an organization whose long-term success depends on innovation, organizational adaptability, and employee empowerment. Which leadership approach is MOST closely associated with inspiring employees to pursue a shared vision and exceed conventional performance expectations?",
+      "options": [
+        "Transactional leadership emphasizing performance-linked rewards and corrective actions",
+        "Transformational leadership emphasizing shared vision, inspiration, and individual development",
+        "Autocratic leadership emphasizing centralized decisions and adherence to executive direction",
+        "Laissez-faire leadership emphasizing limited managerial intervention and individual independence"
+      ],
+      "answer": "B",
+      "explanation": "Transformational leadership emphasizes inspirational motivation, intellectual stimulation, individualized consideration, and idealized influence. It can support innovation and organizational change by encouraging employees to contribute beyond routine expectations. Transactional leadership focuses more directly on exchanges involving performance and rewards.",
+      "topic": "Leadership Cluster",
+      "subtopic": "Leadership & Navigation",
+      "difficulty": "easy",
+      "source": "SHRM BASK 2026: Leadership & Navigation – Leadership and Motivation Theories"
+    },
+    {
+      "stem": "Two senior vice presidents are competing for control of a newly established corporate analytics team. Their disagreement has delayed several enterprise initiatives, and both have asked the CHRO to support their position. The CHRO determines that each executive has legitimate business needs and that ongoing cooperation is essential. Which approach should the CHRO take?",
+      "options": [
+        "Recommend dividing the analytics team's budget equally between the two executives.",
+        "Ask the CEO to assign ownership to whichever executive has the larger operating budget.",
+        "Facilitate a joint discussion to identify underlying interests and develop an enterprise-focused operating agreement.",
+        "Transfer responsibility for the analytics team to HR until the executives resolve their disagreement."
+      ],
+      "answer": "C",
+      "explanation": "A collaborative conflict management approach addresses underlying interests rather than simply dividing resources or imposing authority. Facilitated problem-solving can produce an agreement that supports enterprise priorities and preserves important working relationships. This is particularly appropriate when both parties have legitimate concerns and continued cooperation is necessary.",
+      "topic": "Interpersonal Cluster",
+      "subtopic": "Relationship Management",
+      "difficulty": "medium",
+      "source": "SHRM BASK 2026: Relationship Management – Conflict Management; Negotiation"
+    },
+    {
+      "stem": "A global organization is introducing a new performance management framework. During regional leadership meetings, managers express concern that the proposed feedback procedures may conflict with local expectations about hierarchy and communication. What should the CHRO do to communicate the change MOST effectively?",
+      "options": [
+        "Use a standardized presentation across all regions to preserve consistency in the change message.",
+        "Delegate all communication responsibilities to regional HR teams without establishing central guidelines.",
+        "Emphasize the financial benefits of the framework and postpone discussion of local implementation concerns.",
+        "Explain the common strategic objectives while adapting communication and implementation guidance to regional needs."
+      ],
+      "answer": "D",
+      "explanation": "Effective global communication combines consistency in strategic purpose with sensitivity to the audience's context. Maintaining shared objectives while adapting delivery and implementation guidance improves understanding and commitment. Ignoring regional concerns can create resistance even when the underlying strategy is sound.",
+      "topic": "Interpersonal Cluster",
+      "subtopic": "Communication",
+      "difficulty": "medium",
+      "source": "SHRM BASK 2026: Communication – Delivering Messages; Listening; Exchanging Organizational Information"
+    },
+    {
+      "stem": "During negotiations over a new workforce scheduling agreement, management and employee representatives have conflicting positions on shift flexibility. Both parties have interests that could be accommodated through alternative scheduling arrangements. Which negotiation approach is MOST likely to produce a durable agreement?",
+      "options": [
+        "Interest-based negotiation that identifies shared objectives and explores mutually beneficial alternatives",
+        "Distributive negotiation that divides a fixed set of scheduling concessions between the parties",
+        "Positional negotiation that seeks agreement through successive reductions in each party's demands",
+        "Competitive negotiation that prioritizes management's preferred scheduling outcome"
+      ],
+      "answer": "A",
+      "explanation": "Interest-based negotiation focuses on the needs and concerns underlying each party's stated position. By exploring alternatives that satisfy important interests on both sides, the parties can create solutions that are more sustainable than simple concessions. It is especially useful when the parties must maintain an ongoing working relationship.",
+      "topic": "Interpersonal Cluster",
+      "subtopic": "Relationship Management",
+      "difficulty": "easy",
+      "source": "SHRM BASK 2026: Relationship Management – Negotiation; Relationship Building"
+    },
+    {
+      "stem": "A retail organization plans to expand into a market where labor costs are lower but employee turnover is substantially higher than in its existing locations. The CFO recommends proceeding based primarily on expected wage savings. What should the CHRO recommend before the investment decision?",
+      "options": [
+        "Estimate the wage savings using the current compensation structures of comparable local employers.",
+        "Develop a workforce cost model incorporating turnover, recruitment, training, productivity, and retention assumptions.",
+        "Recommend entering the market immediately and measuring workforce costs after the first operating year.",
+        "Compare average employee engagement scores in the target market with those at existing locations."
+      ],
+      "answer": "B",
+      "explanation": "Strategic business acumen requires evaluating the total economic implications of workforce decisions rather than isolated wage differences. Turnover can increase recruiting, onboarding, training, and productivity costs, potentially offsetting lower compensation expenses. A comprehensive workforce model allows executives to assess the investment using more realistic assumptions.",
+      "topic": "Business Cluster",
+      "subtopic": "Business Acumen",
+      "difficulty": "medium",
+      "source": "SHRM BASK 2026: Business Acumen – Business Analysis; Strategic Alignment"
+    },
+    {
+      "stem": "A company's executive team wants to reduce voluntary turnover among high-performing employees. Business leaders have already proposed increasing salaries, but exit interviews indicate inconsistent management practices and limited career opportunities. The CHRO has been asked to recommend an enterprise-wide solution. What should the CHRO do FIRST?",
+      "options": [
+        "Introduce targeted retention bonuses for high-performing employees in the most affected departments.",
+        "Implement mandatory management training focused on employee engagement and career development.",
+        "Conduct a structured diagnostic assessment using turnover data, employee feedback, and business-unit comparisons.",
+        "Establish a company-wide salary adjustment program based on current market compensation benchmarks."
+      ],
+      "answer": "C",
+      "explanation": "Effective consultation begins with defining and diagnosing the business problem before selecting interventions. Combining quantitative turnover patterns with qualitative feedback helps determine which causes are most significant and where they occur. This prevents the organization from committing resources to a solution that may address only one part of the problem.",
+      "topic": "Business Cluster",
+      "subtopic": "Consultation",
+      "difficulty": "medium",
+      "source": "SHRM BASK 2026: Consultation – Evaluating Business Challenges; Designing HR Solutions"
+    },
+    {
+      "stem": "A company introduces an AI-assisted candidate screening system. After six months, recruitment time has fallen by 25%, but preliminary analysis suggests that selection rates differ substantially across demographic groups. The vendor maintains that its model is objective because the same algorithm evaluates every applicant. What should the CHRO do NEXT?",
+      "options": [
+        "Continue using the system because reduced recruitment time demonstrates improved selection efficiency.",
+        "Ask the vendor to certify that the screening system applies identical scoring rules to every applicant.",
+        "Suspend demographic analysis until enough additional hiring cycles provide a larger candidate sample.",
+        "Initiate a validation and adverse-impact assessment and review the system's job-related selection criteria."
+      ],
+      "answer": "D",
+      "explanation": "Uniform application of an algorithm does not establish that its outcomes are fair, valid, or legally defensible. HR should assess adverse impact, job-relatedness, validity, and the quality of the underlying data, with appropriate legal and technical expertise. Efficiency improvements should not substitute for evidence that selection procedures meet organizational and legal requirements.",
+      "topic": "Business Cluster",
+      "subtopic": "Analytical Aptitude",
+      "difficulty": "hard",
+      "source": "SHRM BASK 2026: Analytical Aptitude – Data Analysis; Evidence-Based Decision-Making"
+    },
+    {
+      "stem": "A diversified corporation is developing its three-year business strategy. The organization expects to expand digital services while reducing its dependence on traditional distribution channels. Which HR planning activity MOST directly supports strategic alignment?",
+      "options": [
+        "Forecasting future workforce capabilities and identifying gaps relative to strategic business requirements",
+        "Reviewing existing employee handbook provisions to standardize administrative procedures",
+        "Comparing current employee benefit utilization across all operating divisions",
+        "Evaluating historical training attendance against the previous year's departmental budgets"
+      ],
+      "answer": "A",
+      "explanation": "Strategic workforce planning translates business objectives into future talent and capability requirements. Forecasting demand and supply enables HR to identify gaps and establish priorities for recruiting, development, redeployment, and succession. Administrative measures alone do not establish whether the workforce can execute the business strategy.",
+      "topic": "People Knowledge Domain",
+      "subtopic": "HR Strategy",
+      "difficulty": "easy",
+      "source": "SHRM BASK 2026: People Knowledge Domain – HR Strategy"
+    },
+    {
+      "stem": "A multinational engineering company is considering a build-versus-buy talent strategy to address a projected shortage of specialized technical leaders. The required capabilities are organization-specific, difficult to recruit externally, and expected to remain important for at least five years. Which condition would MOST strongly support developing internal talent rather than relying primarily on external recruitment?",
+      "options": [
+        "External candidates have higher initial compensation expectations than current employees.",
+        "The organization has employees with foundational capabilities and sufficient time to develop the required expertise.",
+        "The organization's recruitment function has historically filled vacancies within its target hiring period.",
+        "Internal employees report greater satisfaction with career opportunities than external labor-market candidates."
+      ],
+      "answer": "B",
+      "explanation": "A build strategy is particularly appropriate when critical capabilities are firm-specific and the organization has sufficient internal potential and development time. It can preserve institutional knowledge and establish a sustainable leadership pipeline. External hiring may still be needed, but internal capability and the time horizon are central considerations.",
+      "topic": "People Knowledge Domain",
+      "subtopic": "Talent Acquisition",
+      "difficulty": "medium",
+      "source": "SHRM BASK 2026: People Knowledge Domain – Talent Acquisition; Workforce Planning"
+    },
+    {
+      "stem": "A company has invested in leadership training to improve the quality of managers' performance conversations. Executives want to determine whether the training has changed managerial behavior in the workplace rather than merely improved participant satisfaction or knowledge. Which evaluation measure BEST addresses this objective?",
+      "options": [
+        "The percentage of enrolled managers who successfully completed the training program",
+        "The average satisfaction rating recorded by managers immediately after the training",
+        "Observed changes in managers' feedback practices several months after training completion",
+        "The percentage improvement in participants' scores between pretraining and posttraining tests"
+      ],
+      "answer": "C",
+      "explanation": "Kirkpatrick's Level 3 evaluation examines whether participants apply learning through changed workplace behavior. Follow-up observations or structured assessments of feedback practices directly measure transfer to the job. Completion rates and satisfaction represent participation and reaction, while test scores primarily measure learning.",
+      "topic": "People Knowledge Domain",
+      "subtopic": "Learning & Development",
+      "difficulty": "easy",
+      "source": "SHRM BASK 2026: People Knowledge Domain – Learning & Development; Training Evaluation"
+    },
+    {
+      "stem": "An organization is redesigning executive compensation to support a long-term strategy focused on sustainable growth. Its existing annual bonus plan rewards revenue growth without considering profitability, risk, or the durability of results. Which compensation design would BEST align executive incentives with the new strategy?",
+      "options": [
+        "Increase fixed executive salaries and reduce the proportion of compensation linked to organizational outcomes.",
+        "Provide larger annual bonuses based on revenue targets while adding discretionary performance reviews.",
+        "Link incentive payouts exclusively to annual operating profit to discourage unprofitable revenue growth.",
+        "Use a balanced combination of long-term financial and strategic performance measures with appropriate risk safeguards."
+      ],
+      "answer": "D",
+      "explanation": "Executive incentives should reflect the outcomes the organization intends to achieve over its strategic time horizon. A balanced design can incorporate profitability, sustainable growth, strategic execution, and risk considerations while discouraging excessive short-term decision-making. Relying on a single annual metric can create unintended incentives and weaken alignment.",
+      "topic": "People Knowledge Domain",
+      "subtopic": "Total Rewards",
+      "difficulty": "hard",
+      "source": "SHRM BASK 2026: People Knowledge Domain – Total Rewards; Compensation Strategy"
+    },
+    {
+      "stem": "A multinational company wants to reorganize its HR function so routine transactions are delivered efficiently, specialized expertise is available across business units, and HR professionals work directly with business leaders on strategic needs. Which HR operating model BEST fits these requirements?",
+      "options": [
+        "A shared services, centers of expertise, and HR business partner model",
+        "A decentralized HR model with each business unit maintaining all HR functions",
+        "A centralized generalist model in which one corporate HR team handles all activities",
+        "An outsourced HR model in which external providers manage all strategic and operational functions"
+      ],
+      "answer": "A",
+      "explanation": "The commonly used three-part HR operating model separates transactional delivery, specialized expertise, and strategic business partnership. Shared services support efficient operations, centers of expertise develop specialized solutions, and HR business partners align HR priorities with business needs. This structure can provide both scale and strategic responsiveness.",
+      "topic": "Organization Knowledge Domain",
+      "subtopic": "Structure of the HR Function",
+      "difficulty": "easy",
+      "source": "SHRM BASK 2026: Organization Knowledge Domain – Structure of the HR Function"
+    },
+    {
+      "stem": "A company has acquired a smaller competitor and is designing an integration program. Leaders want to measure whether the combined organization is achieving the intended operating synergies without losing critical capabilities. Which combination of measures provides the MOST balanced assessment of organizational integration?",
+      "options": [
+        "Reduction in employee headcount and total administrative expenditure",
+        "Achievement of synergy targets, retention of critical talent, and performance of integrated business processes",
+        "Completion of organizational charts and the percentage of employees assigned new reporting lines",
+        "Number of integration meetings conducted and the proportion of managers attending those meetings"
+      ],
+      "answer": "B",
+      "explanation": "Effective post-acquisition integration must deliver business value while preserving capabilities needed for future performance. Financial synergies, critical talent retention, and operational effectiveness provide complementary evidence of integration success. Activity measures such as meetings or organizational chart completion do not establish whether intended outcomes have been achieved.",
+      "topic": "Organization Knowledge Domain",
+      "subtopic": "Organizational Effectiveness & Development",
+      "difficulty": "medium",
+      "source": "SHRM BASK 2026: Organization Knowledge Domain – Organizational Effectiveness & Development"
+    },
+    {
+      "stem": "A manufacturing organization expects demand for one product line to decline while demand for another product line increases. Management wants to avoid unnecessary layoffs and preserve technical expertise. Which workforce management approach BEST supports this objective?",
+      "options": [
+        "Freeze external recruitment across all business units until demand becomes stable.",
+        "Reduce staffing proportionately across production units and replace employees as demand increases.",
+        "Use skills inventories and demand forecasts to guide employee redeployment and targeted reskilling.",
+        "Expand temporary staffing in the growing product line while retaining current assignments elsewhere."
+      ],
+      "answer": "C",
+      "explanation": "Workforce redeployment based on capability inventories and demand forecasts enables the organization to shift talent toward emerging needs. Targeted reskilling can preserve organizational knowledge while reducing displacement and external hiring requirements. Broad hiring freezes or proportional staffing reductions may fail to account for differences in future skill demand.",
+      "topic": "Organization Knowledge Domain",
+      "subtopic": "Workforce Management",
+      "difficulty": "medium",
+      "source": "SHRM BASK 2026: Organization Knowledge Domain – Workforce Management"
+    },
+    {
+      "stem": "A large employer is selecting a new integrated human resource information system. The proposed platform will consolidate employee records across countries with different privacy and data protection requirements. Which governance arrangement provides the STRONGEST foundation for implementation?",
+      "options": [
+        "Allow the technology vendor to establish data access and retention rules based on its standard implementation practices.",
+        "Give regional HR departments unrestricted control of employee information to preserve local operational flexibility.",
+        "Centralize all personal information in one location and apply the headquarters' privacy policies uniformly.",
+        "Establish cross-functional data governance covering access, retention, security, and applicable jurisdictional requirements."
+      ],
+      "answer": "D",
+      "explanation": "Enterprise HR technology requires coordinated governance across HR, legal, privacy, information security, and technology functions. A cross-functional framework establishes accountability for data classification, lawful processing, access controls, retention, and compliance across jurisdictions. Neither vendor defaults nor a single country's rules can automatically address every applicable requirement.",
+      "topic": "Organization Knowledge Domain",
+      "subtopic": "Technology Management",
+      "difficulty": "hard",
+      "source": "SHRM BASK 2026: Organization Knowledge Domain – Technology Management; HR Information Systems"
+    },
+    {
+      "stem": "A U.S.-based multinational organization is evaluating whether to use home-country or local-market compensation practices for employees permanently hired in a foreign subsidiary. Which factor is MOST important when establishing a sustainable compensation structure for these local employees?",
+      "options": [
+        "The subsidiary's local labor market, legal requirements, and business strategy",
+        "The headquarters' compensation ranges converted directly into local currency",
+        "The average compensation provided to expatriates assigned from headquarters",
+        "The parent company's standard benefit package without local modifications"
+      ],
+      "answer": "A",
+      "explanation": "Compensation for locally hired employees should reflect local market competitiveness, applicable employment requirements, and the organization's objectives. Simply converting headquarters salaries or replicating expatriate packages may produce unsustainable costs or inappropriate pay structures. Global compensation strategy therefore requires balancing enterprise principles with local conditions.",
+      "topic": "Workplace Knowledge Domain",
+      "subtopic": "Managing a Global Workforce",
+      "difficulty": "easy",
+      "source": "SHRM BASK 2026: Workplace Knowledge Domain – Managing a Global Workforce"
+    },
+    {
+      "stem": "A U.S. employer covered by the federal WARN Act operates a single-site facility with 250 full-time employees. It plans a permanent shutdown that will cause employment losses for all 250 employees, and no statutory exception applies. What is the employer's general federal WARN notice obligation?",
+      "options": [
+        "Provide 30 calendar days' written notice to affected employees and the relevant government agencies.",
+        "Provide at least 60 calendar days' written notice to affected employees or their representatives and designated government entities.",
+        "Provide written notice only after the shutdown decision is approved and employment losses begin.",
+        "Provide at least 90 calendar days' written notice exclusively to affected employees and their labor representatives."
+      ],
+      "answer": "B",
+      "explanation": "The federal Worker Adjustment and Retraining Notification Act generally requires covered employers to provide at least 60 calendar days' advance written notice of a covered plant closing or mass layoff. Notice recipients include affected employees or their representatives, the state dislocated worker unit, and the appropriate local government official. State mini-WARN laws may impose additional requirements.",
+      "topic": "Workplace Knowledge Domain",
+      "subtopic": "U.S. Employment Law & Regulations",
+      "difficulty": "medium",
+      "source": "SHRM BASK 2026: Workplace Knowledge Domain – U.S. Employment Law & Regulations; Federal WARN Act, 29 U.S.C. §§ 2101–2109"
+    }
+  ]
+}

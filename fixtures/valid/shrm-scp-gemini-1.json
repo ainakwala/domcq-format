@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "shrm-scp",
+  "set": "SHRM Senior Certified Professional (SHRM-SCP) practice – Strategic Human Resource Practice Set",
+  "questions": [
+    {
+      "stem": "Following the merger of two regional hospital networks, the chief human resources officer (CHRO) notices that department heads in the newly acquired network actively resist adopting the unified clinical performance management system, citing threats to patient care culture. How should the CHRO strategically lead this change to secure cross-organizational alignment?",
+      "options": [
+        "Mandate compliance by tying executive bonuses across all regional divisions directly to the timely adoption of the unified performance system.",
+        "Deploy an external change management consultancy to audit the acquired network's operational workflow and implement the standardized system.",
+        "Establish a joint clinical leadership advisory coalition to evaluate cultural differences and co-design tailored implementation milestones.",
+        "Postpone the system integration for the acquired network indefinitely while proceeding with implementation solely in the legacy facilities."
+      ],
+      "answer": "C",
+      "explanation": "Strategic leadership during post-merger integration requires building shared ownership and forming a guiding coalition rather than relying on unilateral mandates or avoidance. Establishing a joint clinical advisory group addresses the root cause of resistance—fear of cultural erosion—by actively involving key stakeholders in designing the implementation path. This builds long-term commitment while safeguarding core clinical standards and organizational performance.",
+      "topic": "Leadership Cluster",
+      "subtopic": "Leadership & Navigation",
+      "difficulty": "hard",
+      "source": "SHRM BASK, Leadership & Navigation: Leading and Managing Change; Kotter's Change Acceleration Model."
+    },
+    {
+      "stem": "The vice president of human resources at an industrial equipment manufacturer discovers during an internal audit that a high-performing plant manager systematically bypassed environmental safety reporting protocols to achieve record quarterly production numbers. When confronted, the plant manager argues that stopping production would trigger major contractual penalties for the enterprise. What is the most appropriate action for the VP of HR to take?",
+      "options": [
+        "Immediately report the compliance breach to executive leadership and initiate an independent investigation to determine corrective accountability.",
+        "Negotiate a compromise with the plant manager allowing retroactive documentation while maintaining current manufacturing output levels.",
+        "Issue a private written reprimand to the manager while keeping the finding internal to avoid damaging enterprise market valuation.",
+        "Recommend transferring the plant manager to another facility before notifying environmental authorities to shield operations from scrutiny."
+      ],
+      "answer": "A",
+      "explanation": "Senior HR leaders are bound by the Ethical Practice competency to maintain personal and organizational integrity, which supersedes short-term financial performance. Ignoring, concealing, or compromising on statutory and ethical safety violations exposes the organization to severe legal, financial, and reputational risk. Promptly escalating the violation and conducting an independent investigation ensures accountability, regulatory compliance, and reinforces an ethical corporate culture.",
+      "topic": "Leadership Cluster",
+      "subtopic": "Ethical Practice",
+      "difficulty": "medium",
+      "source": "SHRM BASK, Ethical Practice: Personal and Professional Integrity, Ethical Business Principles."
+    },
+    {
+      "stem": "A global technology corporation headquartered in the United States plans to expand its research and development operations into three countries across the Asia-Pacific region. The corporate executive committee instructs the Chief Diversity Officer (CDO) to replicate the U.S.-based diversity, equity, and inclusion (DEI) program directly in the new regional hubs. How should the CDO strategically advise executive leadership?",
+      "options": [
+        "Fully implement the corporate headquarters program to ensure standard brand messaging and uniform demographic target metrics globally.",
+        "Eliminate all diversity initiatives in the regional offices to respect local autonomy and prevent friction with regional business norms.",
+        "Delegate complete authority for diversity program design to local country directors without establishing shared corporate core principles.",
+        "Adapt the global diversity framework to align with local sociocultural norms and legal definitions while upholding core organizational values."
+      ],
+      "answer": "D",
+      "explanation": "An inclusive global mindset requires balancing global integration with local responsiveness. Transporting home-country demographic definitions and programs directly into foreign jurisdictions often clashes with local laws, cultural values, and social structures. The senior HR leader must anchor the framework in universal organizational values while empowering regional teams to tailor programs to local societal contexts and regulations.",
+      "topic": "Leadership Cluster",
+      "subtopic": "Inclusive Mindset",
+      "difficulty": "medium",
+      "source": "SHRM BASK, Inclusive Mindset: Global Diversity, Equity, and Inclusion Strategies."
+    },
+    {
+      "stem": "Which characteristic fundamentally distinguishes transformational leadership from transactional leadership when driving enterprise-wide organizational change?",
+      "options": [
+        "Relying on contingent rewards and negative sanctions to secure compliance with newly established operational procedures.",
+        "Inspiring followers through a compelling shared vision, intellectual stimulation, and individualized consideration to exceed expectations.",
+        "Maintaining strict adherence to established organizational hierarchies and standardized administrative protocols across all business units.",
+        "Focusing primarily on short-term tactical milestones and routine performance appraisals to maintain operational equilibrium."
+      ],
+      "answer": "B",
+      "explanation": "Transformational leadership focuses on inspiring and motivating stakeholders to embrace a shared vision, encouraging innovation, and developing followers' potential to achieve fundamental change. In contrast, transactional leadership relies on contingent rewards, disciplinary corrections, and contractual exchanges to maintain existing organizational standards and operational efficiency.",
+      "topic": "Leadership Cluster",
+      "subtopic": "Leadership & Navigation",
+      "difficulty": "easy",
+      "source": "SHRM BASK, Leadership & Navigation: Leadership Theories (Transformational vs. Transactional Leadership)."
+    },
+    {
+      "stem": "During annual enterprise budgeting, an impasse arises between the Chief Financial Officer (CFO), who demands a 15% reduction in enterprise technology expenses, and the Chief Information Officer (CIO), who insists that slashing the planned HRIS modernization will jeopardize payroll compliance. The CEO asks the CHRO to intervene and facilitate a resolution. What is the most effective approach for the CHRO to take?",
+      "options": [
+        "Advise the CEO to unilaterally support the CIO's modernization budget to ensure human capital operational compliance remains intact.",
+        "Conduct an executive arbitration session where both officers present their cases and the CHRO casts the deciding budget vote.",
+        "Facilitate a collaborative interest-based negotiation to identify underlying financial priorities and phase the HRIS capital deployment.",
+        "Recommend splitting the budget variance evenly down the middle to quickly resolve executive friction without further strategic delay."
+      ],
+      "answer": "C",
+      "explanation": "Senior HR leaders leverage relationship management and conflict resolution competencies by using principled, interest-based negotiation rather than taking sides, imposing compromises, or using split-the-difference tactics. Uncovering underlying business needs (cost efficiency and technological compliance) allows the parties to co-create integrative solutions, such as phased implementations or deferred capital outlays, preserving both financial discipline and technological integrity.",
+      "topic": "Interpersonal Cluster",
+      "subtopic": "Relationship Management",
+      "difficulty": "medium",
+      "source": "SHRM BASK, Relationship Management: Principled Negotiation, Conflict Management, and Collaborative Problem Solving."
+    },
+    {
+      "stem": "An international manufacturing company is executing a complex restructuring that requires closing two regional production plants and relocating technical operations to a centralized facility. Employee rumors regarding mass terminations are causing widespread anxiety, absenteeism, and declining output. How should the CHRO design the executive communication plan to mitigate negative workforce impact?",
+      "options": [
+        "Coordinate a cascading transparent communication schedule that delivers clear business rationales, timelines, and transition support details.",
+        "Restrict all formal communications until the exact transition date to avoid premature employee turnover and maintain operational output.",
+        "Direct regional plant managers to independently address workforce rumors informally without distributing documented enterprise materials.",
+        "Issue an enterprise-wide email highlighting positive corporate growth projections while deferring severance and closure logistics."
+      ],
+      "answer": "A",
+      "explanation": "Strategic communication during organizational crisis or restructuring requires proactive transparency, structured cascading channels, and actionable details to combat uncertainty and maintain trust. Delaying communication or withholding critical transition support information fuels rumors, exacerbates anxiety, and accelerates disengagement. A well-orchestrated cascading plan delivers the strategic context, honest timelines, and support resources directly from credible leadership tiers.",
+      "topic": "Interpersonal Cluster",
+      "subtopic": "Communication",
+      "difficulty": "hard",
+      "source": "SHRM BASK, Communication: Change Communication Strategy, Transparent and Cascading Communication."
+    },
+    {
+      "stem": "In the principled negotiation framework developed by Fisher and Ury, which foundational principle distinguishes integrative bargaining from traditional positional bargaining?",
+      "options": [
+        "Making aggressive initial concessions to build interpersonal rapport and establish goodwill with the counterparty.",
+        "Maintaining rigid adherence to predetermined positions while applying pressure to test the opposing party's resolve.",
+        "Focusing primarily on personal relationship dynamics rather than the objective business facts underlying the dispute.",
+        "Separating people from the problem and focusing on underlying interests rather than locked bargaining positions."
+      ],
+      "answer": "D",
+      "explanation": "Principled negotiation (integrative bargaining) is defined by four core tenets: separating people from the problem, focusing on interests rather than positions, inventing options for mutual gain, and insisting on objective criteria. Positional bargaining locks participants into rigid stances, fostering adversarial conflict, whereas identifying underlying interests enables win-win, value-creating solutions.",
+      "topic": "Interpersonal Cluster",
+      "subtopic": "Relationship Management",
+      "difficulty": "easy",
+      "source": "SHRM BASK, Relationship Management: Negotiation Principles and Conflict Management (Fisher and Ury Model)."
+    },
+    {
+      "stem": "A publicly traded enterprise software company is shifting its primary business model from selling multi-year perpetual on-premise software licenses to a cloud-based software-as-a-service (SaaS) subscription model. This strategic shift temporarily suppresses upfront cash flow while prioritizing long-term customer recurring revenue and retention. How should the Chief Human Resources Officer realign the enterprise human capital strategy to support this transformation?",
+      "options": [
+        "Increase commission rates on initial contract values while discontinuing sales enablement programs for customer lifecycle managers.",
+        "Restructure sales incentives around annual recurring revenue and customer retention while reskilling sales teams in consultative selling.",
+        "Reduce research and development headcounts across cloud architecture teams to offset the short-term decline in enterprise cash flow.",
+        "Maintain existing quota structures and performance metrics across sales teams until the company returns to historical operating margin levels."
+      ],
+      "answer": "B",
+      "explanation": "Aligning human capital strategy with business transformation requires understanding the core financial and operational drivers of the business model. In a SaaS environment, enterprise value is driven by annual recurring revenue (ARR), net revenue retention, and customer lifetime value rather than one-time transaction fees. Reconfiguring incentive plans toward recurring metrics and reskilling the workforce to consultative selling aligns employee behaviors directly with the organization's strategic monetization pivot.",
+      "topic": "Business Cluster",
+      "subtopic": "Business Acumen",
+      "difficulty": "hard",
+      "source": "SHRM BASK, Business Acumen: Strategic Alignment, Business Models, and Revenue Generation."
+    },
+    {
+      "stem": "The head of customer operations approaches the senior HR business partner (HRBP) requesting an off-site team-building retreat, asserting that interpersonal friction among frontline supervisors is the primary driver of a recent 25% drop in department productivity. How should the HRBP strategically respond to this executive request?",
+      "options": [
+        "Immediately approve and organize the off-site retreat using standard experiential team-building activities to foster interpersonal trust.",
+        "Decline the request directly and advise the executive to resolve team interpersonal issues through formal progressive discipline.",
+        "Partner with the executive to conduct a comprehensive performance needs assessment and root-cause analysis before recommending solutions.",
+        "Survey frontline supervisors regarding their management preferences and deliver a targeted conflict resolution workshop to them."
+      ],
+      "answer": "C",
+      "explanation": "The consultation competency dictates that senior HR professionals act as strategic advisors rather than mere transactional order-takers. Before committing resources to a requested intervention, the HR leader must conduct a thorough needs assessment and root-cause analysis to verify whether the performance gap stems from interpersonal dynamics, workflow bottlenecks, inadequate training, flawed incentives, or technology failures.",
+      "topic": "Business Cluster",
+      "subtopic": "Consultation",
+      "difficulty": "medium",
+      "source": "SHRM BASK, Consultation: Needs Assessment, Root-Cause Analysis, and Strategic Problem Solving."
+    },
+    {
+      "stem": "The Chief Human Resources Officer presents a comprehensive enterprise leadership development program to the board of directors. The board requests evidence evaluating whether the initiative drives measurable organizational performance rather than just participant satisfaction. How should the CHRO design the analytics evaluation strategy to demonstrate business impact at Level 4 of the Kirkpatrick-Phillips evaluation model?",
+      "options": [
+        "Isolate the program's specific effects using control groups or trend lines to measure improvements in business operational metrics.",
+        "Survey participants and their immediate managers immediately upon course completion to measure perceived relevance and instructional quality.",
+        "Administer rigorous standardized pre-tests and post-tests to calculate percentage gains in leadership theoretical knowledge.",
+        "Calculate the direct financial return on investment percentage by dividing net monetary program benefits by total implementation costs."
+      ],
+      "answer": "A",
+      "explanation": "Kirkpatrick's Level 4 measures business results (such as increased revenue, reduced turnover, or improved operational quality), and the Phillips methodology emphasizes isolating the effects of the intervention from other business variables using control groups, forecasting, or trend line analysis. Calculating net financial ROI represents Level 5, while participant surveys represent Level 1 (Reaction) and pre/post testing represents Level 2 (Learning).",
+      "topic": "Business Cluster",
+      "subtopic": "Analytical Aptitude",
+      "difficulty": "medium",
+      "source": "SHRM BASK, Analytical Aptitude: Metrics, Measurement, and Program Evaluation (Kirkpatrick-Phillips Model)."
+    },
+    {
+      "stem": "What is the primary purpose of developing a strategy map in strategic human resource management?",
+      "options": [
+        "To catalog all job descriptions and compensation grade bands across departmental business units for compliance reporting.",
+        "To outline the formal administrative hierarchy and operational reporting relationships across decentralized global subsidiaries.",
+        "To project future labor demand and supply shortages over a multi-year horizon using historical attrition trend calculations.",
+        "To visually depict the cause-and-effect relationships connecting human capital capabilities to internal processes and strategic business outcomes."
+      ],
+      "answer": "D",
+      "explanation": "A strategy map, originating from the balanced scorecard framework developed by Kaplan and Norton, visually illustrates the cause-and-effect linkages across four perspectives: learning and growth (human capital), internal business processes, customer value, and financial outcomes. It demonstrates to executive leadership exactly how investments in human talent and organizational culture drive operational excellence and enterprise financial performance.",
+      "topic": "People Knowledge Domain",
+      "subtopic": "HR Strategy",
+      "difficulty": "medium",
+      "source": "SHRM BASK, HR Strategy: Strategic Planning, Strategy Mapping, and the Balanced Scorecard."
+    },
+    {
+      "stem": "In strategic workforce planning, what is the primary operational value of conducting an internal talent supply analysis?",
+      "options": [
+        "Projecting external competitor hiring budgets and regional demographic wage trends across commercial labor markets.",
+        "Assessing the current competencies, readiness, and movement potential of the existing workforce to identify internal pipeline capability.",
+        "Benchmarking enterprise candidate acquisition costs against global industry averages to determine recruitment agency spend.",
+        "Standardizing applicant tracking system scoring matrices to screen high-volume entry-level employment applications."
+      ],
+      "answer": "B",
+      "explanation": "An internal talent supply analysis evaluates the organization's current workforce inventory, including existing headcounts, skills, competencies, performance levels, and promotional readiness. This enables strategic HR planners to determine internal bench strength, forecast natural attrition, and understand capability gaps before deciding whether to build, buy, or borrow talent externally.",
+      "topic": "People Knowledge Domain",
+      "subtopic": "Talent Acquisition",
+      "difficulty": "easy",
+      "source": "SHRM BASK, Talent Acquisition: Strategic Workforce Planning and Supply/Demand Analysis."
+    },
+    {
+      "stem": "According to contemporary organizational research on employee retention, which organizational factor consistently demonstrates the strongest long-term correlation with sustained employee engagement?",
+      "options": [
+        "Providing broad discretionary annual cash bonuses regardless of departmental business performance.",
+        "Offering luxury workplace amenities and subsidized personal lifestyle perks within corporate office facilities.",
+        "Fostering a supportive leadership climate characterized by meaningful work, autonomy, and career development pathways.",
+        "Enforcing strict standardized performance monitoring systems to maintain continuous daily employee accountability."
+      ],
+      "answer": "C",
+      "explanation": "Research consistently demonstrates that intrinsic motivators—such as purposeful work, perceived organizational support, autonomy, and transparent opportunities for professional growth—are the primary drivers of sustained employee engagement and retention. While competitive compensation is an essential hygiene factor (Herzberg's motivation-hygiene theory), discretionary perks or monetary bonuses alone fail to build enduring organizational commitment.",
+      "topic": "People Knowledge Domain",
+      "subtopic": "Employee Engagement & Retention",
+      "difficulty": "easy",
+      "source": "SHRM BASK, Employee Engagement & Retention: Drivers of Engagement and Retention, Motivation Theories."
+    },
+    {
+      "stem": "According to Malcolm Knowles' adult learning theory (andragogy), which instructional design principle is most critical when developing strategic leadership programs for senior executives?",
+      "options": [
+        "Anchoring curriculum around real-world problem-solving and immediate application rather than abstract subject-matter memorization.",
+        "Relying primarily on authoritative lecture-based delivery to ensure standardized knowledge transfer across all executive participants.",
+        "Structuring passive learning modules that require participants to follow predetermined, instructor-controlled instructional paces.",
+        "Utilizing external punitive motivators and mandatory testing benchmarks to drive executive compliance and course completion."
+      ],
+      "answer": "A",
+      "explanation": "Knowles' theory of andragogy posits that adult learners are self-directed, bring rich reservoirs of experience, are relevancy-oriented, and learn best through problem-centered approaches that have immediate operational applicability. Senior executive education must focus on real-world strategic challenges, collaborative inquiry, and experiential application rather than passive, subject-centric pedagogical instruction.",
+      "topic": "People Knowledge Domain",
+      "subtopic": "Learning & Development",
+      "difficulty": "medium",
+      "source": "SHRM BASK, Learning & Development: Adult Learning Theories (Andragogy) and Executive Development."
+    },
+    {
+      "stem": "In David Ulrich's classic HR operating model, what is the primary strategic responsibility designated to Centers of Excellence (COEs)?",
+      "options": [
+        "Managing routine transactional administrative workflows such as high-volume payroll processing and benefits enrollment.",
+        "Embedding directly within operational business units to provide daily human resource counsel to frontline operational supervisors.",
+        "Serving as the primary point of contact for employee grievances, workplace harassment investigations, and disciplinary actions.",
+        "Designing specialized, high-leverage HR programs, tools, and strategic frameworks that support enterprise-wide organizational capabilities."
+      ],
+      "answer": "D",
+      "explanation": "In the Ulrich HR operational model, Centers of Excellence (COEs) are centralized teams of subject matter experts responsible for designing, developing, and governing innovative, specialized HR solutions (e.g., executive compensation, talent management, OD, DEI) aligned with corporate strategy. Shared Services Centers handle transactional administration, and HR Business Partners embed within business units to deliver consultative strategic counsel.",
+      "topic": "Organization Knowledge Domain",
+      "subtopic": "Structure of the HR Function",
+      "difficulty": "medium",
+      "source": "SHRM BASK, Structure of the HR Function: HR Operating Models (Ulrich Model) and Functional Specialization."
+    },
+    {
+      "stem": "In organizational development diagnosis, how does the Nadler-Tushman Congruence Model explain why organizations with high-performing talent and robust assets may still fail to achieve desired performance outcomes?",
+      "options": [
+        "The enterprise lacks sufficient financial capitalization to subsidize ongoing technological and structural infrastructure investments.",
+        "Ineffective alignment or lack of fit among the critical organizational components—work, people, formal organization, and informal culture.",
+        "The external market environment remains entirely stable, eliminating competitive pressure to innovate product offerings.",
+        "Executive leadership fails to enforce strict compliance with centralized operational standard operating procedures."
+      ],
+      "answer": "B",
+      "explanation": "The Nadler-Tushman Congruence Model is an open-systems framework grounded in the premise that an organization's performance is determined by the degree of congruence (fit) among four fundamental internal components: the work, the people, the formal structure, and the informal culture. Misalignment between any of these elements—such as having high-performing employees operating within a contradictory culture or rigid formal structure—generates friction that undermines organizational effectiveness regardless of individual talent.",
+      "topic": "Organization Knowledge Domain",
+      "subtopic": "Organizational Effectiveness & Development",
+      "difficulty": "hard",
+      "source": "SHRM BASK, Organizational Effectiveness & Development: Organizational Design, Systems Thinking, and the Congruence Model."
+    },
+    {
+      "stem": "What is the primary strategic objective of establishing an enterprise-wide succession management system for mission-critical roles?",
+      "options": [
+        "Ensuring enterprise business continuity and accelerating talent readiness by identifying and developing high-potential leadership pipelines.",
+        "Automating replacement chart updates to immediately fill vacant frontline positions through external staffing vendor contracts.",
+        "Guaranteeing that tenured senior employees receive automated promotions without competitive performance evaluations.",
+        "Complying with statutory labor regulations regarding mandatory employment tenure ceilings and executive retirement thresholds."
+      ],
+      "answer": "A",
+      "explanation": "Succession management is a strategic, ongoing process designed to safeguard organizational continuity and resilience by identifying mission-critical competencies and systematically accelerating the development of internal high-potential successors. Unlike tactical replacement planning (which merely identifies immediate backups), succession management focuses on long-term leadership bench strength and talent readiness.",
+      "topic": "Organization Knowledge Domain",
+      "subtopic": "Workforce Management",
+      "difficulty": "easy",
+      "source": "SHRM BASK, Workforce Management: Succession Planning, Talent Pipelines, and Leadership Continuity."
+    },
+    {
+      "stem": "When an enterprise migrates its human capital management (HCM) infrastructure from an on-premises enterprise platform to a cloud-based Software as a Service (SaaS) architecture, how does the cost and maintenance profile typically shift?",
+      "options": [
+        "Annual subscription operational expenses are eliminated, but upfront internal hardware capital expenditures increase significantly.",
+        "Internal software customization reaches complete flexibility, while automated vendor security updates are discontinued.",
+        "Capital expenditures for internal hardware and major upgrade cycles shift toward recurring operating expenses managed by the service provider.",
+        "Enterprise database security oversight is transferred entirely to internal IT engineers, requiring expanded on-site data centers."
+      ],
+      "answer": "C",
+      "explanation": "Transitioning to SaaS transforms the enterprise technology cost profile from substantial upfront capital expenditures (CapEx)—such as purchasing servers, physical network infrastructure, and multi-year licensing cycles—into predictable, ongoing operational expenses (OpEx) based on subscription fees. Furthermore, routine maintenance, system infrastructure, and software updates are offloaded to the cloud vendor, freeing internal IT and HR resources for higher-value strategic initiatives.",
+      "topic": "Organization Knowledge Domain",
+      "subtopic": "Technology Management",
+      "difficulty": "medium",
+      "source": "SHRM BASK, Technology Management: HR Information Systems, SaaS vs. On-Premises Architecture, and Total Cost of Ownership."
+    },
+    {
+      "stem": "According to Geert Hofstede's cultural dimensions theory, how should an international HR executive strategically adapt performance management systems when operating in a high power distance culture compared to a low power distance culture?",
+      "options": [
+        "Implement peer-to-peer 360-degree feedback reviews where subordinates openly critique their direct managers' daily operational decisions.",
+        "Structure performance appraisals around hierarchical evaluations and directive guidance from senior managers, emphasizing formal authority.",
+        "Eliminate formal performance documentation entirely, relying exclusively on informal consensus-based team evaluations.",
+        "Encourage direct subordinate challenge to executive leadership decisions during public performance evaluation meetings."
+      ],
+      "answer": "B",
+      "explanation": "In high power distance societies, organizational hierarchies, centralization, and status differentials are accepted and respected as the cultural norm. Subordinates expect clear direction from superiors, and upward evaluation (such as peer or 360-degree reviews) can cause extreme discomfort and loss of face. Therefore, performance appraisals should be structured hierarchically with formal evaluations and directive coaching delivered from direct authority figures.",
+      "topic": "Workplace Knowledge Domain",
+      "subtopic": "Managing a Global Workforce",
+      "difficulty": "medium",
+      "source": "SHRM BASK, Managing a Global Workforce: Hofstede's Cultural Dimensions, Cross-Cultural Performance Management."
+    },
+    {
+      "stem": "Within the Committee of Sponsoring Organizations of the Treadway Commission (COSO) Enterprise Risk Management (ERM) framework, what is the primary role of senior human resources leadership in mitigating operational risk?",
+      "options": [
+        "Securing comprehensive third-party commercial property and casualty insurance policies for all enterprise physical assets.",
+        "Conducting financial forensic audits of accounts payable and receivable ledgers to eliminate enterprise liquidity risks.",
+        "Directly drafting and executing legal contracts for all international supply chain vendors to prevent cross-border contract breach.",
+        "Designing human capital governance structures, ethical compliance standards, and risk-aware talent management systems."
+      ],
+      "answer": "D",
+      "explanation": "In the COSO ERM framework, human resources plays a fundamental role in establishing the organization's governance, culture, and operational risk mitigation posture. Senior HR leaders ensure that human capital practices—including talent acquisition vetting, performance incentives, codes of conduct, and leadership accountability—reinforce ethical decision-making, prevent operational failures, and align workforce behavior with enterprise risk appetite.",
+      "topic": "Workplace Knowledge Domain",
+      "subtopic": "Risk Management",
+      "difficulty": "easy",
+      "source": "SHRM BASK, Risk Management: Enterprise Risk Management (COSO Framework), Human Capital Governance, and Compliance."
+    }
+  ]
+}
