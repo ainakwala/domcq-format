@@ -1,0 +1,71 @@
+{
+  "id": "mrcp-part1",
+  "display_name": "MRCP(UK) Part 1",
+  "body": "The Federation of the Royal Colleges of Physicians of the UK",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by The Federation of the Royal Colleges of Physicians of the UK (the Federation) or its member Royal Colleges; the names are used only to identify the exam. MRCP(UK) and the Federation's names are trademarks owned by or licensed to The Federation of the Royal Colleges of Physicians of the UK. The topic names and weights are from the Federation's MRCP(UK) Part 1 blueprint (its indicative number of questions per specialty, out of 200); source: The Federation of the Royal Colleges of Physicians of the UK, https://www.thefederation.uk.",
+  "taxonomy": {
+    "Cardiology": [],
+    "Clinical Pharmacology and Therapeutics": [],
+    "Clinical sciences": [
+      "Cell, molecular and membrane biology",
+      "Clinical anatomy",
+      "Clinical biochemistry and metabolism",
+      "Clinical physiology",
+      "Genetics",
+      "Immunology",
+      "Statistics, epidemiology and evidence-based medicine"
+    ],
+    "Dermatology": [],
+    "Endocrinology, diabetes and metabolic medicine": [],
+    "Gastroenterology and Hepatology": [],
+    "Geriatric medicine": [],
+    "Haematology": [],
+    "Infectious diseases": [],
+    "Neurology": [],
+    "Oncology": [],
+    "Medical ophthalmology": [],
+    "Palliative medicine and end of life care": [],
+    "Psychiatry": [],
+    "Renal medicine": [],
+    "Respiratory medicine": [],
+    "Rheumatology": []
+  },
+  "weights": {
+    "Cardiology": 7,
+    "Clinical Pharmacology and Therapeutics": 7.5,
+    "Clinical sciences": 12.5,
+    "Dermatology": 4,
+    "Endocrinology, diabetes and metabolic medicine": 7,
+    "Gastroenterology and Hepatology": 7,
+    "Geriatric medicine": 4,
+    "Haematology": 5,
+    "Infectious diseases": 7,
+    "Neurology": 7,
+    "Oncology": 2.5,
+    "Medical ophthalmology": 2,
+    "Palliative medicine and end of life care": 2,
+    "Psychiatry": 4.5,
+    "Renal medicine": 7,
+    "Respiratory medicine": 7,
+    "Rheumatology": 7
+  },
+  "options": {
+    "min": 5,
+    "max": 5
+  },
+  "multi_select": false,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [],
+  "uncovered_item_types": [],
+  "exam_mode": {
+    "questions": 200,
+    "minutes": 360,
+    "sections": 2
+  },
+  "verified_outline": "MRCP(UK) Part 1 blueprint (in use from the 2020/1 diet), on the Federation's Part 1 format page",
+  "verified_on": "2026-10-27",
+  "next_review": "2027-10-27"
+}
