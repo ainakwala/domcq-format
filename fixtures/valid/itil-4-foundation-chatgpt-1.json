@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "itil-4-foundation",
+  "set": "ITIL 4 Foundation practice – Service Management Essentials",
+  "questions": [
+    {
+      "stem": "Which statement BEST describes a service according to ITIL 4?",
+      "options": [
+        "A method of transferring ownership of products to customers",
+        "A means of enabling value co-creation by facilitating desired outcomes",
+        "A process for reducing the operating costs of an organization",
+        "A system for ensuring that technology meets agreed specifications"
+      ],
+      "answer": "B",
+      "explanation": "A service enables value co-creation by facilitating outcomes that customers want to achieve without requiring them to manage specific costs and risks. The service provider and service consumer both contribute to creating value. Services do not necessarily transfer product ownership or eliminate all costs and risks.",
+      "topic": "Key concepts of service management",
+      "subtopic": "Definition of a service",
+      "difficulty": "easy",
+      "source": "ITIL 4 Foundation syllabus, LO 1.1 – Service management and service definitions"
+    },
+    {
+      "stem": "Identify the missing word in the following sentence.\n\nA service [?] is a formal description of one or more services, designed to address the needs of a target consumer group.",
+      "options": [
+        "relationship",
+        "agreement",
+        "outcome",
+        "offering"
+      ],
+      "answer": "D",
+      "explanation": "A service offering is a formal description of services designed for a target consumer group. It may include goods, access to resources, and service actions. Different consumer groups may receive different service offerings from the same provider.",
+      "topic": "Key concepts of service management",
+      "subtopic": "Service offerings",
+      "difficulty": "easy",
+      "source": "ITIL 4 Foundation syllabus, LO 1.2 – Service offerings"
+    },
+    {
+      "stem": "A company pays a monthly subscription for a cloud-based accounting service instead of maintaining its own servers. Which statement BEST describes how the service affects the company's costs and risks?",
+      "options": [
+        "The company avoids managing certain costs and risks while retaining others",
+        "The company transfers all financial and operational risks to the provider",
+        "The company eliminates the need to manage any service-related costs",
+        "The company assumes full responsibility for the provider's infrastructure"
+      ],
+      "answer": "A",
+      "explanation": "Using a service can remove certain costs and risks from the consumer, such as maintaining physical servers. However, the consumer retains other risks, including dependence on the provider and the need to use the service appropriately. ITIL emphasizes that services facilitate outcomes without consumers having to manage specific costs and risks, not necessarily all of them.",
+      "topic": "Key concepts of service management",
+      "subtopic": "Costs and risks",
+      "difficulty": "medium",
+      "source": "ITIL 4 Foundation syllabus, LO 1.1 – Cost, risk, utility and warranty"
+    },
+    {
+      "stem": "An organization plans to replace its service management tool. Before choosing a replacement, it reviews the existing tool's capabilities, current processes, and available performance data. Which ITIL guiding principle is being applied?",
+      "options": [
+        "Focus on value",
+        "Optimize and automate",
+        "Start where you are",
+        "Think and work holistically"
+      ],
+      "answer": "C",
+      "explanation": "The 'start where you are' guiding principle recommends assessing the current situation before deciding what to change. Existing services, processes, tools, and data may contain useful elements that should be retained or improved. Replacing everything without evaluating the current state can waste resources and introduce unnecessary risk.",
+      "topic": "ITIL guiding principles",
+      "subtopic": "Start where you are",
+      "difficulty": "easy",
+      "source": "ITIL 4 Foundation syllabus, LO 2.2 – Start where you are"
+    },
+    {
+      "stem": "Which TWO statements about the ITIL guiding principle 'progress iteratively with feedback' are CORRECT?\n\n1. Large initiatives should be divided into smaller, manageable sections.\n2. Feedback should be collected only after an initiative is completed.\n3. Each iteration should produce useful progress toward the overall objective.\n4. All requirements must be finalized before the first iteration begins.",
+      "options": [
+        "1 and 3",
+        "1 and 4",
+        "2 and 3",
+        "2 and 4"
+      ],
+      "answer": "A",
+      "explanation": "Progressing iteratively means dividing work into manageable sections that deliver useful results while supporting an overall objective. Feedback should be gathered throughout the initiative and used to adjust subsequent work. It is not necessary to finalize every requirement before beginning, and waiting until completion to seek feedback defeats the purpose of iteration.",
+      "topic": "ITIL guiding principles",
+      "subtopic": "Progress iteratively with feedback",
+      "difficulty": "medium",
+      "source": "ITIL 4 Foundation syllabus, LO 2.2 – Progress iteratively with feedback"
+    },
+    {
+      "stem": "An IT department wants to automate its employee onboarding process. Several approval steps are redundant, and responsibilities between departments are unclear. According to the ITIL guiding principle 'optimize and automate', what should the department do FIRST?",
+      "options": [
+        "Automate the existing process to reduce manual processing time",
+        "Purchase an automation tool that supports every existing approval",
+        "Transfer responsibility for all onboarding decisions to the IT department",
+        "Simplify the process and clarify responsibilities before introducing automation"
+      ],
+      "answer": "D",
+      "explanation": "The 'optimize and automate' principle emphasizes optimizing work before automating it. Automating an inefficient process can preserve unnecessary steps and make problems more difficult to correct. The organization should first simplify workflows and clarify responsibilities, then determine where automation adds value.",
+      "topic": "ITIL guiding principles",
+      "subtopic": "Optimize and automate",
+      "difficulty": "hard",
+      "source": "ITIL 4 Foundation syllabus, LO 2.2 – Optimize and automate"
+    },
+    {
+      "stem": "Identify the missing words in the following sentence.\n\nThe four dimensions of service management are organizations and people, information and technology, partners and suppliers, and [?].",
+      "options": [
+        "Governance and compliance",
+        "Value streams and processes",
+        "Products and service offerings",
+        "Demand and opportunities"
+      ],
+      "answer": "B",
+      "explanation": "Value streams and processes form the fourth dimension of service management. This dimension considers how activities are coordinated and integrated to enable value creation. All four dimensions must be considered together to support effective service management.",
+      "topic": "Four dimensions of service management",
+      "subtopic": "Value streams and processes",
+      "difficulty": "easy",
+      "source": "ITIL 4 Foundation syllabus, LO 3.1 – Four dimensions of service management"
+    },
+    {
+      "stem": "Which TWO statements about the ITIL service value system (SVS) are CORRECT?\n\n1. The SVS describes how organizational components and activities work together to facilitate value creation.\n2. The SVS requires every organization to use an identical sequence of operational processes.\n3. The SVS includes guiding principles, governance, the service value chain, practices, and continual improvement.\n4. The SVS limits value creation to activities performed within the IT department.",
+      "options": [
+        "1 and 2",
+        "2 and 4",
+        "1 and 3",
+        "3 and 4"
+      ],
+      "answer": "C",
+      "explanation": "The ITIL service value system explains how an organization's components and activities work together to facilitate value creation. Its five components are guiding principles, governance, the service value chain, practices, and continual improvement. It supports flexible approaches and value co-creation across organizational boundaries rather than requiring a fixed sequence of IT-only activities.",
+      "topic": "Purpose and components of the ITIL service value system",
+      "subtopic": "Service value system components",
+      "difficulty": "medium",
+      "source": "ITIL 4 Foundation syllabus, LO 4.1 – Purpose and components of the ITIL SVS"
+    },
+    {
+      "stem": "A service provider is launching a new online booking service. It needs to ensure that the new service meets stakeholder expectations for quality, cost, and time to market. Which service value chain activity is MOST directly responsible for this?",
+      "options": [
+        "Engage",
+        "Obtain/build",
+        "Plan",
+        "Design and transition"
+      ],
+      "answer": "D",
+      "explanation": "The design and transition activity ensures that products and services continually meet stakeholder expectations for quality, costs, and time to market. It addresses how new or changed services are designed and moved into operation. Other value chain activities contribute to the launch, but design and transition has the most direct responsibility for these objectives.",
+      "topic": "Activities of the service value chain, and how they interconnect",
+      "subtopic": "Design and transition",
+      "difficulty": "medium",
+      "source": "ITIL 4 Foundation syllabus, LO 5.1 – Service value chain activities"
+    },
+    {
+      "stem": "Which ITIL practice is responsible for systematically observing services and service components and recording and reporting selected changes of state?",
+      "options": [
+        "Monitoring and event management",
+        "Service configuration management",
+        "Service level management",
+        "Information security management"
+      ],
+      "answer": "A",
+      "explanation": "Monitoring and event management systematically observes services and service components and records and reports selected changes of state identified as events. It helps organizations recognize conditions that may require attention or action. Monitoring can also provide information that supports incident management and other practices.",
+      "topic": "Purpose and key terms of 15 ITIL practices",
+      "subtopic": "Monitoring and event management",
+      "difficulty": "easy",
+      "source": "ITIL 4 Foundation syllabus, LO 6.1 – Monitoring and event management"
+    },
+    {
+      "stem": "A company maintains information about its servers, installed applications, and the relationships between these components. It needs this information to be accurate and available when required. Which ITIL practice BEST addresses this requirement?",
+      "options": [
+        "IT asset management",
+        "Deployment management",
+        "Service configuration management",
+        "Supplier management"
+      ],
+      "answer": "C",
+      "explanation": "Service configuration management ensures that accurate and reliable information about the configuration of services and the configuration items supporting them is available when and where needed. It includes information about how configuration items relate to one another. IT asset management has a different focus on managing the lifecycle of IT assets to maximize value, control costs, and manage risks.",
+      "topic": "Purpose and key terms of 15 ITIL practices",
+      "subtopic": "Service configuration management",
+      "difficulty": "medium",
+      "source": "ITIL 4 Foundation syllabus, LO 6.1 – Service configuration management"
+    },
+    {
+      "stem": "A software company has completed testing a new application version and has made it available for use. It now needs to move the new software components into its live production environment. Which ITIL practice is MOST directly responsible for this movement?",
+      "options": [
+        "Release management",
+        "Deployment management",
+        "Relationship management",
+        "Service level management"
+      ],
+      "answer": "B",
+      "explanation": "Deployment management moves new or changed hardware, software, documentation, processes, or other components into live environments. Release management focuses on making new and changed services and features available for use. A release may contain several components that must be deployed, so the two practices are related but have distinct purposes.",
+      "topic": "Purpose and key terms of 15 ITIL practices",
+      "subtopic": "Deployment management",
+      "difficulty": "medium",
+      "source": "ITIL 4 Foundation syllabus, LO 6.1 – Deployment management and release management"
+    },
+    {
+      "stem": "A critical business application becomes unavailable unexpectedly. The support team restores service using a temporary solution while the underlying cause remains unknown. Which statement BEST describes the primary objective of incident management in this situation?",
+      "options": [
+        "Restore normal service operation as quickly as possible",
+        "Identify and eliminate the root cause before restoring service",
+        "Prevent all future failures by permanently replacing the application",
+        "Complete a full risk assessment before taking recovery action"
+      ],
+      "answer": "A",
+      "explanation": "The purpose of incident management is to minimize the negative impact of incidents by restoring normal service operation as quickly as possible. Restoration can be achieved through a workaround or temporary solution without first identifying the underlying cause. Investigating and managing that cause is primarily the responsibility of problem management.",
+      "topic": "7 ITIL practices",
+      "subtopic": "Incident management",
+      "difficulty": "easy",
+      "source": "ITIL 4 Foundation syllabus, LO 7.1.c – Incident management"
+    },
+    {
+      "stem": "A support team has restored service after several recurring database failures. Engineers have identified the underlying cause, but a permanent fix is not yet available. They have documented a temporary workaround that reduces the impact of future failures. According to ITIL 4, how should the underlying problem now be classified?",
+      "options": [
+        "A standard change",
+        "A major incident",
+        "A service request",
+        "A known error"
+      ],
+      "answer": "D",
+      "explanation": "A known error is a problem that has been analyzed but has not been resolved. Once the underlying problem has been analyzed and a workaround documented, the organization can manage it as a known error while pursuing permanent resolution. This supports faster recovery when related incidents recur.",
+      "topic": "7 ITIL practices",
+      "subtopic": "Problem management and known errors",
+      "difficulty": "medium",
+      "source": "ITIL 4 Foundation syllabus, LO 7.1.d – Problem management"
+    },
+    {
+      "stem": "An organization receives frequent requests from employees for access to an approved collaboration application. These requests follow an established procedure and do not require individual risk assessments. Which approach is MOST appropriate?",
+      "options": [
+        "Treat every request as an incident requiring immediate investigation",
+        "Treat every request as a normal change requiring separate authorization",
+        "Use a predefined service request fulfillment procedure",
+        "Use problem management to determine why employees need access"
+      ],
+      "answer": "C",
+      "explanation": "Service request management handles predefined, user-initiated requests in an effective and user-friendly manner. Routine requests such as access to an approved application can follow standardized fulfillment procedures, often with automation where appropriate. They do not normally require the investigation associated with incidents or problems.",
+      "topic": "7 ITIL practices",
+      "subtopic": "Service request management",
+      "difficulty": "medium",
+      "source": "ITIL 4 Foundation syllabus, LO 7.1.e – Service request management"
+    },
+    {
+      "stem": "Identify the missing words in the following sentence.\n\nThe purpose of the [?] practice is to capture demand for incident resolution and service requests, and to be the entry point and single point of contact for the service provider with all of its users.",
+      "options": [
+        "Service level management",
+        "Service desk",
+        "Relationship management",
+        "Service request management"
+      ],
+      "answer": "B",
+      "explanation": "The service desk acts as the entry point and single point of contact between the service provider and its users. It captures demand for incident resolution and service requests and facilitates communication. The service desk may work with specialized teams to resolve issues, but it is not necessarily responsible for performing every resolution activity itself.",
+      "topic": "7 ITIL practices",
+      "subtopic": "Service desk",
+      "difficulty": "medium",
+      "source": "ITIL 4 Foundation syllabus, LO 7.1.f – Service desk"
+    },
+    {
+      "stem": "An organization regularly applies a pre-authorized, low-risk software configuration update using a documented and well-understood procedure. Which type of change does this BEST represent?",
+      "options": [
+        "Normal change",
+        "Emergency change",
+        "Major change",
+        "Standard change"
+      ],
+      "answer": "D",
+      "explanation": "A standard change is low risk, pre-authorized, and well understood, and it follows a documented procedure. Repeated standard changes do not require a new authorization each time if the approved conditions continue to be met. Normal changes follow an appropriate assessment and authorization process, while emergency changes are handled as quickly as possible under expedited procedures.",
+      "topic": "7 ITIL practices",
+      "subtopic": "Change enablement and change types",
+      "difficulty": "medium",
+      "source": "ITIL 4 Foundation syllabus, LO 7.1.b – Change enablement"
+    },
+    {
+      "stem": "A company wants to improve the speed of its customer support service. The improvement team has established the organization's vision and has agreed on the desired improvement objectives. According to the ITIL continual improvement model, what should the team establish before planning the actions needed to achieve those objectives?",
+      "options": [
+        "The current performance baseline of the support service",
+        "The final evaluation of the completed improvement initiative",
+        "The next improvement initiative to launch after implementation",
+        "The communication plan for celebrating the improvement results"
+      ],
+      "answer": "A",
+      "explanation": "The continual improvement model includes establishing the current state through the question 'Where are we now?' before developing an improvement plan. A reliable baseline helps the organization understand the gap between current and desired performance. Although the scenario states that objectives have already been agreed, establishing the baseline is still necessary before selecting appropriate improvement actions.",
+      "topic": "7 ITIL practices",
+      "subtopic": "Continual improvement model",
+      "difficulty": "hard",
+      "source": "ITIL 4 Foundation syllabus, LO 7.1.a – Continual improvement model"
+    },
+    {
+      "stem": "A service provider consistently achieves the response-time and availability targets in its service level agreements. However, customers remain dissatisfied because the service frequently fails to support important business activities. What should the service level management practice do to BEST address this situation?",
+      "options": [
+        "Increase technical availability targets without consulting customers",
+        "Engage with customers to identify measures that reflect actual business outcomes",
+        "Replace existing service level agreements with internal technical reports",
+        "Transfer responsibility for customer satisfaction to incident management"
+      ],
+      "answer": "B",
+      "explanation": "Service level management should ensure that agreed service targets and measures reflect the customer's actual experience and business needs. Meeting technical targets does not automatically mean that customers receive the value they expect. Regular customer engagement helps identify meaningful measures and keeps service level agreements relevant as business requirements change.",
+      "topic": "7 ITIL practices",
+      "subtopic": "Service level management and customer experience",
+      "difficulty": "hard",
+      "source": "ITIL 4 Foundation syllabus, LO 7.1.g – Service level management"
+    },
+    {
+      "stem": "A company is preparing an urgent change to restore a critical service after a major security vulnerability has been discovered. The change must be implemented quickly, but the organization still needs appropriate assessment and authorization. Which approach BEST aligns with ITIL 4 change enablement?",
+      "options": [
+        "Implement the change immediately and obtain all approvals afterward",
+        "Delay the change until the next scheduled change advisory board meeting",
+        "Use an expedited assessment and authorization process appropriate to the risk",
+        "Classify the change as standard because it addresses a security vulnerability"
+      ],
+      "answer": "C",
+      "explanation": "Emergency changes require implementation as soon as possible, but they still need appropriate assessment and authorization. Change enablement allows organizations to define expedited procedures and suitable change authorities for emergency situations. The objective is to manage risk effectively without introducing unnecessary delays when urgent action is required.",
+      "topic": "7 ITIL practices",
+      "subtopic": "Emergency changes and change authority",
+      "difficulty": "hard",
+      "source": "ITIL 4 Foundation syllabus, LO 7.1.b – Change enablement and change authority"
+    }
+  ]
+}
