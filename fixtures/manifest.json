@@ -293,6 +293,7 @@
     { "file": "valid/itil-4-foundation-claude-7.md", "errors": [], "fenced": true },
     { "file": "valid/itil-4-foundation-claude-8.md", "errors": [], "fenced": true },
     { "file": "valid/itil-4-foundation-chatgpt-1.json", "errors": [] },
+    { "file": "valid/itil-4-foundation-gemini-1.json", "errors": [] },
 
     { "file": "invalid/empty.txt", "errors": ["E001"] },
     { "file": "invalid/not-json.txt", "errors": ["E002"] },

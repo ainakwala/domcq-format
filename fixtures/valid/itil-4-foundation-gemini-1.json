@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "itil-4-foundation",
+  "set": "ITIL 4 Foundation practice – Core Syllabus Exam Prep",
+  "questions": [
+    {
+      "stem": "Identify the missing word in the following sentence.\n\nA service is a means of enabling value co-creation by facilitating [?] that customers want to achieve, without the customer having to manage specific costs and risks.",
+      "options": [
+        "outcomes",
+        "outputs",
+        "practices",
+        "warranties"
+      ],
+      "answer": "A",
+      "explanation": "A service enables value co-creation by facilitating outcomes that customers want to achieve, without requiring them to manage specific costs and risks. Outputs are the tangible or intangible deliverables that enable these outcomes. Practices and warranties represent organizational capabilities and performance assurances rather than customer goals.",
+      "topic": "Key concepts of service management",
+      "subtopic": "Service definition",
+      "difficulty": "easy",
+      "source": "ITIL Foundation ITIL 4 Edition, Section 2.1: Key Definitions"
+    },
+    {
+      "stem": "Which term describes a tangible or intangible deliverable of an activity?",
+      "options": [
+        "Outcome",
+        "Warranty",
+        "Output",
+        "Utility"
+      ],
+      "answer": "C",
+      "explanation": "An output is defined in ITIL 4 as a tangible or intangible deliverable of an activity. In contrast, an outcome is the result for a stakeholder enabled by one or more outputs. Utility and warranty describe functionality and operational assurance rather than deliverables produced by activities.",
+      "topic": "Key concepts of service management",
+      "subtopic": "Outputs and outcomes",
+      "difficulty": "easy",
+      "source": "ITIL Foundation ITIL 4 Edition, Section 2.3.1: Outputs and Outcomes"
+    },
+    {
+      "stem": "Which statement best describes the concept of 'warranty' in service management?",
+      "options": [
+        "The functionality offered by a product or service to meet a particular business need",
+        "The assurance that a product or service will meet agreed availability and security requirements",
+        "The financial authorization granted by a sponsor to procure required technical infrastructure",
+        "The tangible deliverable produced by executing an operational service management activity"
+      ],
+      "answer": "B",
+      "explanation": "Warranty represents the assurance that a product or service will meet agreed requirements, often summarized as 'how the service performs' or being 'fit for use'. It typically addresses attributes such as availability, capacity, continuity, and security. In contrast, utility represents 'what the service does' or being 'fit for purpose'.",
+      "topic": "Key concepts of service management",
+      "subtopic": "Utility and warranty",
+      "difficulty": "medium",
+      "source": "ITIL Foundation ITIL 4 Edition, Section 2.3.3: Utility and Warranty"
+    },
+    {
+      "stem": "What is the first step an organization should take when applying the 'focus on value' guiding principle?",
+      "options": [
+        "Automate complex manual workflows to minimize human error and operational costs",
+        "Design detailed performance scorecards for each internal technology delivery team",
+        "Identify all existing legacy processes that can be reused across the organization",
+        "Identify who the service consumer is and understand what they consider valuable"
+      ],
+      "answer": "D",
+      "explanation": "The first step in applying 'focus on value' is identifying who the service consumer is and understanding what constitutes value from their perspective. A service provider cannot deliver meaningful value without first understanding the stakeholders being served and their desired outcomes. Actions like automation, metric creation, or process reuse should only occur once customer value requirements are clearly understood.",
+      "topic": "ITIL guiding principles",
+      "subtopic": "Focus on value",
+      "difficulty": "medium",
+      "source": "ITIL Foundation ITIL 4 Edition, Section 4.3.1: Focus on Value"
+    },
+    {
+      "stem": "Which statements about the 'start where you are' guiding principle are CORRECT?\n\n1. Baseline states should be assessed through direct observation rather than relying solely on reports.\n2. Existing services, processes, and tools should be discarded to avoid inheriting technical debt.\n3. Historical reports should always be accepted as an accurate reflection of current performance.\n4. Elements of existing services that are functioning effectively should be preserved and leveraged.",
+      "options": [
+        "1 and 4",
+        "1 and 2",
+        "2 and 3",
+        "3 and 4"
+      ],
+      "answer": "A",
+      "explanation": "The 'start where you are' principle emphasizes directly observing the current state to understand what is actually happening, rather than relying unthinkingly on outdated reports. It also stresses that existing services, processes, and people often have valuable capabilities that should be retained and adapted rather than discarded. Starting from scratch without assessing the current state creates unnecessary risk and waste.",
+      "topic": "ITIL guiding principles",
+      "subtopic": "Start where you are",
+      "difficulty": "hard",
+      "source": "ITIL Foundation ITIL 4 Edition, Section 4.3.2: Start Where You Are"
+    },
+    {
+      "stem": "Which guiding principle recommends organizing work into smaller, manageable sections that can be executed and evaluated in a timely manner?",
+      "options": [
+        "Think and work holistically",
+        "Keep it simple and practical",
+        "Progress iteratively with feedback",
+        "Collaborate and promote visibility"
+      ],
+      "answer": "C",
+      "explanation": "The 'progress iteratively with feedback' guiding principle advises against attempting major initiatives all at once. By breaking initiatives into smaller, manageable iterations, organizations maintain greater control, deliver value sooner, and can use feedback gathered before, during, and after each step to adjust future actions.",
+      "topic": "ITIL guiding principles",
+      "subtopic": "Progress iteratively with feedback",
+      "difficulty": "easy",
+      "source": "ITIL Foundation ITIL 4 Edition, Section 4.3.3: Progress Iteratively with Feedback"
+    },
+    {
+      "stem": "Which dimension of service management focuses on the activities an organization undertakes and how they are coordinated to enable value creation?",
+      "options": [
+        "Organizations and people",
+        "Value streams and processes",
+        "Information and technology",
+        "Partners and suppliers"
+      ],
+      "answer": "B",
+      "explanation": "The 'value streams and processes' dimension defines the activities, workflows, controls, and procedures needed to achieve agreed objectives efficiently. It focuses on how an organization organizes and integrates its work to enable value creation for all stakeholders. The other three dimensions address human and organizational structures, information systems, and third-party vendor relationships.",
+      "topic": "Four dimensions of service management",
+      "subtopic": "Value streams and processes",
+      "difficulty": "medium",
+      "source": "ITIL Foundation ITIL 4 Edition, Section 3.4: Value Streams and Processes"
+    },
+    {
+      "stem": "Identify the missing word in the following sentence.\n\nThe purpose of the ITIL service value system is to ensure that the organization continually co-creates [?] with all stakeholders through the use and management of products and services.",
+      "options": [
+        "governance",
+        "outputs",
+        "warranty",
+        "value"
+      ],
+      "answer": "D",
+      "explanation": "The primary purpose of the ITIL Service Value System (SVS) is to ensure that the organization continually co-creates value with all stakeholders through the use and management of products and services. The SVS takes opportunity and demand as inputs and transforms them into value through guiding principles, governance, the service value chain, practices, and continual improvement.",
+      "topic": "Purpose and components of the ITIL service value system",
+      "subtopic": "Purpose of the SVS",
+      "difficulty": "easy",
+      "source": "ITIL Foundation ITIL 4 Edition, Section 4.1: Service Value System Overview"
+    },
+    {
+      "stem": "Which service value chain activity has the purpose of ensuring that service components are available when and where they are needed, and meet agreed specifications?",
+      "options": [
+        "Obtain/build",
+        "Design and transition",
+        "Deliver and support",
+        "Engage"
+      ],
+      "answer": "A",
+      "explanation": "The purpose of the 'obtain/build' value chain activity is to ensure that service components are available when and where they are needed, and that they meet agreed specifications. Components may be procured externally from vendors or built in-house. 'Design and transition' ensures that products and services meet stakeholder expectations for quality, costs, and time-to-market, while 'deliver and support' operates live services.",
+      "topic": "Activities of the service value chain, and how they interconnect",
+      "subtopic": "Obtain/build",
+      "difficulty": "medium",
+      "source": "ITIL Foundation ITIL 4 Edition, Section 4.5.5: Obtain/Build"
+    },
+    {
+      "stem": "Which ITIL practice has the purpose of making new and changed services and features available for use?",
+      "options": [
+        "Deployment management",
+        "Change enablement",
+        "Release management",
+        "Service configuration management"
+      ],
+      "answer": "C",
+      "explanation": "The purpose of the release management practice is to make new and changed services and features available for use by consumers. This is distinct from deployment management, which moves hardware, software, documentation, or other components to live environments. In modern delivery models, components may be deployed to production long before a release makes them accessible to users.",
+      "topic": "Purpose and key terms of 15 ITIL practices",
+      "subtopic": "Release management",
+      "difficulty": "hard",
+      "source": "ITIL Foundation ITIL 4 Edition, Section 5.2.8: Release Management"
+    },
+    {
+      "stem": "What is defined as any financially valuable component that can contribute to the delivery of an IT product or service?",
+      "options": [
+        "A configuration item",
+        "An IT asset",
+        "A service action",
+        "A standard change"
+      ],
+      "answer": "B",
+      "explanation": "An IT asset is specifically defined as any financially valuable component that can contribute to the delivery of an IT product or service. While many IT assets are also configuration items (CIs), the defining characteristic of an IT asset is its financial value and lifecycle management. A configuration item is any component that must be managed to deliver an IT service, regardless of whether it carries financial value.",
+      "topic": "Purpose and key terms of 15 ITIL practices",
+      "subtopic": "IT asset management",
+      "difficulty": "easy",
+      "source": "ITIL Foundation ITIL 4 Edition, Section 5.2.6: IT Asset Management"
+    },
+    {
+      "stem": "Which ITIL practice has the purpose of systematically observing services and service components, and recording and reporting selected changes of state?",
+      "options": [
+        "Incident management",
+        "Service level management",
+        "Problem management",
+        "Monitoring and event management"
+      ],
+      "answer": "D",
+      "explanation": "The purpose of the monitoring and event management practice is to systematically observe services and service components, and record and report selected changes of state identified as events. It identifies and prioritizes events to establish appropriate responses, often detecting issues before users experience disruptions. Incident management focuses on restoring normal service after an unplanned disruption occurs.",
+      "topic": "Purpose and key terms of 15 ITIL practices",
+      "subtopic": "Monitoring and event management",
+      "difficulty": "medium",
+      "source": "ITIL Foundation ITIL 4 Edition, Section 5.2.7: Monitoring and Event Management"
+    },
+    {
+      "stem": "Which step of the continual improvement model involves defining measurable targets, such as key performance indicators, to describe the desired state?",
+      "options": [
+        "Where do we want to be?",
+        "What is the vision?",
+        "Where are we now?",
+        "How do we get there?"
+      ],
+      "answer": "A",
+      "explanation": "The 'Where do we want to be?' step defines the target state by translating the high-level vision into clear, measurable objectives, critical success factors (CSFs), and key performance indicators (KPIs). 'What is the vision?' establishes the strategic direction and context, while 'Where are we now?' assesses current baseline performance. 'How do we get there?' develops the tactical plan to achieve those targets.",
+      "topic": "7 ITIL practices",
+      "subtopic": "Continual improvement",
+      "difficulty": "hard",
+      "source": "ITIL Foundation ITIL 4 Edition, Section 4.6: The Continual Improvement Model"
+    },
+    {
+      "stem": "Which type of change is pre-authorized, low risk, well understood, and follows an established procedure?",
+      "options": [
+        "An emergency change",
+        "A normal change",
+        "A standard change",
+        "A programmatic change"
+      ],
+      "answer": "C",
+      "explanation": "A standard change is a low-risk, pre-authorized change that is well understood, fully documented, and follows an established procedure. Because its risks have already been assessed and accepted by the change authority, it does not require additional authorization each time it is executed. Normal changes require assessment and approval, while emergency changes are implemented urgently to resolve critical incidents.",
+      "topic": "7 ITIL practices",
+      "subtopic": "Change enablement",
+      "difficulty": "easy",
+      "source": "ITIL Foundation ITIL 4 Edition, Section 5.2.4: Change Enablement"
+    },
+    {
+      "stem": "Which situation should NOT be handled as a service request?",
+      "options": [
+        "A user submitting a request for a replacement laptop keyboard",
+        "A user reporting that a critical sales database has unexpectedly failed",
+        "A user asking for authorization to access an internal file share",
+        "A user seeking information on how to generate an end-of-month report"
+      ],
+      "answer": "B",
+      "explanation": "An unexpected failure of a critical database is an unplanned interruption to a service, which is the definition of an incident and must be managed by the incident management practice. Service requests are reserved for normal, pre-agreed service actions such as requesting hardware, granting access, or seeking information and advice. Treating unplanned service disruptions as service requests can delay critical recovery efforts.",
+      "topic": "7 ITIL practices",
+      "subtopic": "Service request management",
+      "difficulty": "medium",
+      "source": "ITIL Foundation ITIL 4 Edition, Section 5.2.16: Service Request Management"
+    },
+    {
+      "stem": "Which technique involves bringing together a group of cross-functional specialists to collaborate on diagnosing and resolving a complex incident?",
+      "options": [
+        "Continual improvement",
+        "Design thinking",
+        "Service desk routing",
+        "Swarming"
+      ],
+      "answer": "D",
+      "explanation": "Swarming is an incident management technique where a cross-functional group of technical specialists and stakeholders work collaboratively on an incident until it is resolved or transferred. This replaces traditional hierarchical tier-to-tier escalations, reducing delay and fostering collective ownership. Once the nature of the issue is clear, only the specialists needed to complete resolution remain involved.",
+      "topic": "7 ITIL practices",
+      "subtopic": "Incident management",
+      "difficulty": "medium",
+      "source": "ITIL Foundation ITIL 4 Edition, Section 5.2.5: Incident Management"
+    },
+    {
+      "stem": "Identify the missing word(s) in the following sentence.\n\nA [?] is a problem that has been analyzed but has not been resolved.",
+      "options": [
+        "known error",
+        "workaround",
+        "standard change",
+        "major incident"
+      ],
+      "answer": "A",
+      "explanation": "In ITIL 4, a known error is defined as a problem that has been analyzed but has not been resolved. When problem analysis identifies the root cause and potentially develops a workaround, the problem becomes a known error. Documenting known errors helps the service desk and support teams resolve future related incidents much more rapidly.",
+      "topic": "7 ITIL practices",
+      "subtopic": "Problem management",
+      "difficulty": "medium",
+      "source": "ITIL Foundation ITIL 4 Edition, Section 5.2.7: Problem Management"
+    },
+    {
+      "stem": "Which statements about the service desk practice are CORRECT?\n\n1. The service desk requires an understanding of wider business processes and user needs.\n2. The service desk must always be delivered by an on-site, physically centralized team.\n3. The service desk serves as the primary communication point between users and the service provider.\n4. The service desk should only support communication through automated self-service portals.",
+      "options": [
+        "1 and 2",
+        "2 and 4",
+        "1 and 3",
+        "3 and 4"
+      ],
+      "answer": "C",
+      "explanation": "The service desk serves as the single point of contact between service providers and users, requiring a deep understanding of business processes, user empathy, and practical technical competence. Service desks can be implemented in various structures—including virtual, centralized, or follow-the-sun models—and must leverage multiple communication channels rather than restricting users to a single channel.",
+      "topic": "7 ITIL practices",
+      "subtopic": "Service desk",
+      "difficulty": "medium",
+      "source": "ITIL Foundation ITIL 4 Edition, Section 5.2.2: Service Desk"
+    },
+    {
+      "stem": "Which term describes a scenario where formal service metrics appear green and within targets, yet customer satisfaction remains poor and negative?",
+      "options": [
+        "The halo effect",
+        "The watermelon effect",
+        "The technical debt effect",
+        "The bottleneck effect"
+      ],
+      "answer": "B",
+      "explanation": "The 'watermelon effect' occurs when service level agreement (SLA) reports show green operational metrics on the outside (such as 99.9% server uptime), but customers inside are experiencing red (frustration, failed transactions, and poor service experience). Service level management addresses this by gathering qualitative feedback, understanding the customer journey, and focusing on business outcomes rather than isolated technical statistics.",
+      "topic": "7 ITIL practices",
+      "subtopic": "Service level management",
+      "difficulty": "medium",
+      "source": "ITIL Foundation ITIL 4 Edition, Section 5.2.3: Service Level Management"
+    },
+    {
+      "stem": "In an organization following ITIL change enablement, who is responsible for assessing and authorizing changes?",
+      "options": [
+        "An external audit committee reporting directly to organizational governance",
+        "The dedicated service desk manager assigned to user communications",
+        "The corporate executive board overseeing global business operations",
+        "The change authority assigned for that specific category of change"
+      ],
+      "answer": "D",
+      "explanation": "A change authority is a person or group responsible for authorizing a change. In ITIL 4, change enablement advocates decentralizing change authorization by assigning specific change authorities to different categories and risk levels of change (such as peer reviews for standard changes or specialized technical teams for low-risk normal changes), rather than directing all changes to a single centralized committee.",
+      "topic": "7 ITIL practices",
+      "subtopic": "Change enablement",
+      "difficulty": "hard",
+      "source": "ITIL Foundation ITIL 4 Edition, Section 5.2.4: Change Enablement"
+    }
+  ]
+}
