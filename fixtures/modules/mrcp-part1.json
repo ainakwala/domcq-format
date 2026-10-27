@@ -2,7 +2,7 @@
   "id": "mrcp-part1",
   "display_name": "MRCP(UK) Part 1",
   "body": "The Federation of the Royal Colleges of Physicians of the UK",
-  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by The Federation of the Royal Colleges of Physicians of the UK (the Federation) or its member Royal Colleges; the names are used only to identify the exam. MRCP(UK) and the Federation's names are trademarks owned by or licensed to The Federation of the Royal Colleges of Physicians of the UK. The topic names and weights are from the Federation's MRCP(UK) Part 1 blueprint (its indicative number of questions per specialty, out of 200); source: The Federation of the Royal Colleges of Physicians of the UK, https://www.thefederation.uk.",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by The Federation of the Royal Colleges of Physicians of the UK (the Federation) or the Royal Colleges of Physicians that form it; the names are used only to identify the exam. MRCP(UK) and the Federation's names may be trademarks owned by or licensed to The Federation of the Royal Colleges of Physicians of the UK. The topic names and weights are from the Federation's MRCP(UK) Part 1 blueprint (its indicative number of questions per specialty, out of 200); source: The Federation of the Royal Colleges of Physicians of the UK, https://www.thefederation.uk.",
   "taxonomy": {
     "Cardiology": [],
     "Clinical Pharmacology and Therapeutics": [],
