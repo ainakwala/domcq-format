@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "cissp",
+  "set": "CISSP Practice – Security Leadership and Applied Controls",
+  "questions": [
+    {
+      "stem": "A security manager learns that a proposed cloud migration will reduce infrastructure costs but introduce risks that exceed the organization's documented risk appetite. The project sponsor wants to proceed because the expected financial benefits are substantial. What should the security manager do FIRST?",
+      "options": [
+        "Implement additional technical controls and authorize the migration once testing is complete.",
+        "Transfer the identified risks to the cloud provider through contractual indemnification clauses.",
+        "Document the risks and present treatment options to the appropriate risk owner for a decision.",
+        "Reject the migration because projects exceeding documented risk appetite must never proceed."
+      ],
+      "answer": "C",
+      "explanation": "Risk acceptance and decisions about exceeding risk appetite belong to appropriately authorized business leadership, not solely to the security manager. The manager should communicate the assessed risks, business implications, and available treatment options so the risk owner can make an informed decision through the organization's governance process. Additional controls or contractual arrangements may subsequently be selected.",
+      "topic": "Security and Risk Management",
+      "subtopic": "Understand and apply risk management concepts",
+      "difficulty": "medium",
+      "source": "ISC2 CISSP Exam Outline, Domain 1, Section 1.9: Understand and apply risk management concepts"
+    },
+    {
+      "stem": "A multinational organization is establishing a security governance program. Its business strategy emphasizes rapid expansion into new markets and maintaining compliance with local regulations. Which approach BEST ensures the security program supports the organization?",
+      "options": [
+        "Align security objectives with business strategy, risk appetite, and applicable regulatory requirements.",
+        "Adopt a standardized technical control framework without allowing regional implementation differences.",
+        "Delegate all security decisions to the information technology department to improve operational consistency.",
+        "Require individual business units to independently establish security objectives and acceptance criteria."
+      ],
+      "answer": "A",
+      "explanation": "Effective security governance connects security priorities with organizational objectives, risk tolerance, and legal obligations. A common governance framework can provide consistency while allowing necessary adjustments for different business and regulatory environments. Treating security as an isolated technical function weakens business alignment.",
+      "topic": "Security and Risk Management",
+      "subtopic": "Evaluate and apply security governance principles",
+      "difficulty": "easy",
+      "source": "ISC2 CISSP Exam Outline, Domain 1, Section 1.3: Evaluate and apply security governance principles"
+    },
+    {
+      "stem": "A company operates a payment processing platform that must resume critical transactions within four hours after a major disruption. Management also requires that no more than fifteen minutes of transaction data be lost. Which combination of recovery objectives correctly expresses these requirements?",
+      "options": [
+        "A recovery time objective of fifteen minutes and a recovery point objective of four hours.",
+        "A recovery time objective of four hours and a maximum tolerable downtime of fifteen minutes.",
+        "A maximum tolerable downtime of four hours and a recovery time objective of fifteen minutes.",
+        "A recovery time objective of four hours and a recovery point objective of fifteen minutes."
+      ],
+      "answer": "D",
+      "explanation": "The recovery time objective specifies how quickly a service must be restored following disruption, while the recovery point objective specifies the maximum acceptable amount of data loss measured in time. The stated requirements therefore correspond to four hours for restoration and fifteen minutes for recoverable transaction data. Both objectives should inform business continuity and recovery architecture decisions.",
+      "topic": "Security and Risk Management",
+      "subtopic": "Identify, analyze, assess, prioritize, and implement Business Continuity (BC) requirements",
+      "difficulty": "easy",
+      "source": "ISC2 CISSP Exam Outline, Domain 1, Section 1.7: Business Continuity requirements and business impact analysis"
+    },
+    {
+      "stem": "A financial institution maintains customer records containing personally identifiable information. The security team is establishing classification and handling requirements. Who should be primarily responsible for determining the business classification and protection requirements of these records?",
+      "options": [
+        "The storage administrator responsible for maintaining the database infrastructure.",
+        "The designated information owner accountable for the records and their business use.",
+        "The security operations analyst responsible for reviewing access activity.",
+        "The application developer responsible for implementing database access controls."
+      ],
+      "answer": "B",
+      "explanation": "The information owner has accountability for determining the information's classification and associated protection requirements, consistent with organizational policy and applicable law. Custodians and technical teams implement and operate controls based on those requirements. Separating ownership from technical custody supports clear accountability.",
+      "topic": "Asset Security",
+      "subtopic": "Identify and classify information and assets",
+      "difficulty": "easy",
+      "source": "ISC2 CISSP Exam Outline, Domain 2, Sections 2.1 and 2.4: Information classification and data roles"
+    },
+    {
+      "stem": "An organization is retiring self-encrypting solid-state drives that previously stored regulated customer information. The drives used strong full-disk encryption, and the organization has verified that all copies of their media encryption keys can be securely destroyed. Which sanitization method is MOST appropriate if the organization wants to render the stored data inaccessible without physically destroying the drives?",
+      "options": [
+        "Perform a standard file deletion operation and clear the operating system's recycle bin.",
+        "Execute a single-pass overwrite of every logical block exposed by the operating system.",
+        "Perform verified cryptographic erasure by securely destroying the drives' media encryption keys.",
+        "Reformat each drive and remove existing file system metadata before reusing the device."
+      ],
+      "answer": "C",
+      "explanation": "Cryptographic erasure can render encrypted information computationally inaccessible by securely destroying the keys required to decrypt it. Its effectiveness depends on verified encryption implementation, adequate key strength, and elimination of all usable key copies. This approach is particularly useful for solid-state media where ordinary logical overwrites may not reach remapped physical storage locations.",
+      "topic": "Asset Security",
+      "subtopic": "Manage data lifecycle",
+      "difficulty": "hard",
+      "source": "ISC2 CISSP Exam Outline, Domain 2, Section 2.4: Data remanence and destruction; NIST SP 800-88, Media Sanitization"
+    },
+    {
+      "stem": "A hospital is implementing an information system that must prevent users from modifying clinical records at integrity levels higher than their own. The principal security objective is to protect the integrity of information rather than its confidentiality. Which security model BEST addresses this requirement?",
+      "options": [
+        "The Biba integrity model.",
+        "The Bell-LaPadula confidentiality model.",
+        "The Brewer-Nash conflict-of-interest model.",
+        "The Harrison-Ruzzo-Ullman access control model."
+      ],
+      "answer": "A",
+      "explanation": "The Biba model focuses on information integrity and uses rules that restrict improper information flows between integrity levels. Under strict Biba, the simple integrity axiom prevents a subject from reading lower-integrity information, while the star integrity axiom prevents writing to higher-integrity objects. Bell-LaPadula instead focuses on preserving confidentiality.",
+      "topic": "Security Architecture and Engineering",
+      "subtopic": "Understand the fundamental concepts of security models (e.g., Biba, Star Model, Bell-LaPadula)",
+      "difficulty": "medium",
+      "source": "ISC2 CISSP Exam Outline, Domain 3, Section 3.2: Fundamental concepts of security models"
+    },
+    {
+      "stem": "A company is designing a system that processes sensitive financial transactions. Management requires assurance that a single compromised control will not immediately expose the entire transaction processing environment. Which architectural principle BEST addresses this requirement?",
+      "options": [
+        "Minimize the number of independently managed security controls to reduce administration.",
+        "Consolidate all security functions into a single centralized enforcement mechanism.",
+        "Rely primarily on perimeter controls because they protect internal transaction systems.",
+        "Implement multiple complementary security controls across different architectural layers."
+      ],
+      "answer": "D",
+      "explanation": "Defense in depth uses multiple complementary controls so the failure or compromise of one mechanism does not necessarily lead to complete system compromise. Controls may include network segmentation, identity management, application protection, encryption, and monitoring. The layers should be selected to address distinct attack paths and reduce correlated failure risks.",
+      "topic": "Security Architecture and Engineering",
+      "subtopic": "Research, implement and manage engineering processes using secure design principles",
+      "difficulty": "easy",
+      "source": "ISC2 CISSP Exam Outline, Domain 3, Section 3.1: Secure design principles and defense in depth"
+    },
+    {
+      "stem": "A security architect is designing a document-signing service. Users must be able to verify that each signed document has not been altered and that the signature was produced using the private key associated with the claimed signer. The system must also support evidence of the signer's approval of the document. Which mechanism BEST meets these requirements?",
+      "options": [
+        "Encrypt each document using a shared symmetric key held by all authorized recipients.",
+        "Generate a digital signature using the signer's private key and validate it with the corresponding public key.",
+        "Compute an unkeyed cryptographic hash and store it beside the original document.",
+        "Authenticate each user with a password before allowing a document to be downloaded."
+      ],
+      "answer": "B",
+      "explanation": "Digital signatures bind a cryptographic verification result to a document and a signing private key, supporting integrity and signer authentication. When identity binding, private-key protection, and signing procedures are trustworthy, they can also support nonrepudiation and evidence of approval. Encryption and unkeyed hashing alone do not establish who signed a document.",
+      "topic": "Security Architecture and Engineering",
+      "subtopic": "Select and determine cryptographic solutions",
+      "difficulty": "medium",
+      "source": "ISC2 CISSP Exam Outline, Domain 3, Section 3.6: Cryptographic solutions and digital signatures"
+    },
+    {
+      "stem": "An enterprise is redesigning its internal network after discovering that an attacker who compromised a workstation could communicate directly with sensitive database servers. Which network architecture change would MOST effectively limit the attacker's ability to move laterally?",
+      "options": [
+        "Increase network bandwidth between workstation and server segments to reduce congestion.",
+        "Deploy additional perimeter intrusion prevention devices without changing internal traffic paths.",
+        "Segment the network into security zones and enforce restricted communication between them.",
+        "Replace internal IPv4 addressing with IPv6 addressing across all workstation networks."
+      ],
+      "answer": "C",
+      "explanation": "Network segmentation limits the connectivity available to a compromised endpoint and can restrict lateral movement through explicitly controlled traffic flows. Security zones should reflect system sensitivity and business communication requirements, with enforcement between zones. Greater bandwidth or a different addressing protocol does not inherently provide this containment.",
+      "topic": "Communication and Network Security",
+      "subtopic": "Apply secure design principles in network architectures",
+      "difficulty": "medium",
+      "source": "ISC2 CISSP Exam Outline, Domain 4, Section 4.1: Secure network architecture and segmentation"
+    },
+    {
+      "stem": "An organization needs to protect administrative access to routers and switches. Administrators currently use Telnet to configure devices across an untrusted management network. Which replacement provides the MOST appropriate protection for interactive administrative sessions?",
+      "options": [
+        "Secure Shell (SSH) with strong authentication and validated host keys.",
+        "Simple Network Management Protocol version 1 with community strings.",
+        "Trivial File Transfer Protocol with access restricted by source address.",
+        "Hypertext Transfer Protocol with passwords stored in the device configuration."
+      ],
+      "answer": "A",
+      "explanation": "SSH provides encrypted interactive sessions and supports authentication of both the administrator and the remote server. Validating host keys helps prevent an attacker from impersonating a managed device. Telnet transmits session information without encryption, making it inappropriate for sensitive administration across untrusted networks.",
+      "topic": "Communication and Network Security",
+      "subtopic": "Secure network components",
+      "difficulty": "easy",
+      "source": "ISC2 CISSP Exam Outline, Domain 4, Section 4.2: Secure network components and management protocols"
+    },
+    {
+      "stem": "A company operates an application across several data centers and uses a shared anycast IP address for the application service. Each data center advertises the same destination prefix through the routing infrastructure. What is the PRIMARY networking benefit of this design?",
+      "options": [
+        "It guarantees that every client connection is distributed evenly among all available servers.",
+        "It ensures that traffic remains encrypted while crossing external routing networks.",
+        "It prevents routing attacks by authenticating all advertised network paths automatically.",
+        "It allows routing to direct clients toward an available instance according to network path selection."
+      ],
+      "answer": "D",
+      "explanation": "Anycast allows multiple service instances to advertise the same IP prefix, with routing determining which reachable instance receives a client's traffic. This can improve geographic distribution and resiliency, although routing decisions do not necessarily identify the geographically closest instance. Anycast does not itself provide encryption, route authentication, or equal load distribution.",
+      "topic": "Communication and Network Security",
+      "subtopic": "Apply secure design principles in network architectures",
+      "difficulty": "hard",
+      "source": "ISC2 CISSP Exam Outline, Domain 4, Section 4.1: Network architecture, routing, and resiliency"
+    },
+    {
+      "stem": "A company wants employees to access a third-party software-as-a-service application using their existing corporate identities. The application must rely on the organization's identity provider for authentication without receiving employee passwords. Which solution BEST meets this requirement?",
+      "options": [
+        "Replicate employee password hashes into the third-party application's user directory.",
+        "Configure federated single sign-on using SAML assertions between the identity provider and service provider.",
+        "Create local employee accounts in the third-party application and synchronize passwords daily.",
+        "Provide the third-party application with a shared administrator account for user authentication."
+      ],
+      "answer": "B",
+      "explanation": "SAML federation enables a trusted identity provider to authenticate users and issue signed assertions to a service provider. The application can establish user sessions based on those assertions without collecting corporate passwords. Proper configuration of issuer trust, audience restrictions, signature validation, and assertion lifetime is essential.",
+      "topic": "Identity and Access Management (IAM)",
+      "subtopic": "Federated identity with a third-party service",
+      "difficulty": "medium",
+      "source": "ISC2 CISSP Exam Outline, Domain 5, Section 5.3: Federated identity with a third-party service"
+    },
+    {
+      "stem": "A financial institution must ensure that employees who initiate payments cannot independently approve the same payments. Which access control principle BEST addresses this requirement?",
+      "options": [
+        "Need to know.",
+        "Least privilege.",
+        "Separation of duties.",
+        "Mandatory access control."
+      ],
+      "answer": "C",
+      "explanation": "Separation of duties divides sensitive activities among multiple individuals or roles to reduce the opportunity for fraud or error. Payment initiation and approval should be assigned so that one individual cannot complete both steps for the same transaction. Least privilege complements this arrangement but does not, by itself, enforce the necessary division of responsibilities.",
+      "topic": "Identity and Access Management (IAM)",
+      "subtopic": "Implement and manage authorization mechanisms",
+      "difficulty": "easy",
+      "source": "ISC2 CISSP Exam Outline, Domain 5, Section 5.4: Authorization mechanisms and separation of duties"
+    },
+    {
+      "stem": "A large organization uses role-based access control to manage permissions. During an audit, the security team discovers that employees frequently retain privileges from previous positions after internal transfers. Which improvement would MOST effectively address this recurring problem?",
+      "options": [
+        "Integrate role changes with identity lifecycle workflows that revoke obsolete access and assign approved new access.",
+        "Require employees to change their passwords whenever they move to a different business department.",
+        "Provide managers with monthly reports of authentication failures for employees who have changed positions.",
+        "Increase the minimum password length for accounts that retain access to more than one business application."
+      ],
+      "answer": "A",
+      "explanation": "A properly designed joiner-mover-leaver process updates entitlements whenever an employee's organizational role changes. Automating removal of obsolete permissions and requiring approval for new permissions reduces privilege accumulation. Periodic access reviews provide an additional safeguard against provisioning errors and inappropriate retained access.",
+      "topic": "Identity and Access Management (IAM)",
+      "subtopic": "Manage the identity and access provisioning lifecycle",
+      "difficulty": "medium",
+      "source": "ISC2 CISSP Exam Outline, Domain 5, Section 5.5: Identity and access provisioning lifecycle"
+    },
+    {
+      "stem": "A security auditor is evaluating whether an organization's backup controls operate effectively. The documented policy requires daily backups, but management needs assurance that systems can actually be restored from those backups. Which audit activity provides the MOST persuasive evidence of recovery capability?",
+      "options": [
+        "Confirm that the backup policy has been approved by senior management.",
+        "Review the backup software's configuration settings and scheduled job definitions.",
+        "Interview system administrators about their knowledge of recovery procedures.",
+        "Perform or observe a controlled restoration test and verify the recovered information."
+      ],
+      "answer": "D",
+      "explanation": "A controlled restoration test provides direct evidence that backup media, recovery procedures, and stored data can support actual recovery. Configuration reviews and successful backup logs indicate that backups may have been created, but they do not establish that restoration will succeed. Verification should assess the restored information against defined recovery and integrity requirements.",
+      "topic": "Security Assessment and Testing",
+      "subtopic": "Conduct security control testing",
+      "difficulty": "medium",
+      "source": "ISC2 CISSP Exam Outline, Domain 6, Section 6.2: Conduct security control testing"
+    },
+    {
+      "stem": "An enterprise uses automated vulnerability scanning to evaluate thousands of servers. A scanner reports that a critical vulnerability affects a production server, but the operating system vendor's patch inventory shows that the relevant security update is installed. What should the security assessor do NEXT?",
+      "options": [
+        "Accept the scanner's finding as confirmed because automated detection is objective evidence.",
+        "Validate the finding using authenticated checks or other reliable evidence before assigning its final status.",
+        "Remove the server from future scans because patched systems generate unnecessary security alerts.",
+        "Immediately uninstall the reported software package to eliminate any possibility of exploitation."
+      ],
+      "answer": "B",
+      "explanation": "Vulnerability assessment results can contain false positives caused by incomplete detection logic, version identification errors, or compensating circumstances. The assessor should verify the reported condition through authenticated inspection, vendor evidence, or another suitable validation method. Confirmed findings should then be evaluated in the context of exploitability, exposure, and business impact.",
+      "topic": "Security Assessment and Testing",
+      "subtopic": "Analyze test output and generate report",
+      "difficulty": "medium",
+      "source": "ISC2 CISSP Exam Outline, Domain 6, Section 6.4: Analyze test output and generate report"
+    },
+    {
+      "stem": "A security operations team suspects that a production server has been compromised and may contain evidence relevant to criminal proceedings. Investigators need a forensic image of the server's storage. Which action is MOST important for establishing that the acquired image accurately represents the original evidence?",
+      "options": [
+        "Document the server's purchase date and original hardware warranty details.",
+        "Run the latest antivirus software against the original storage before imaging.",
+        "Use a forensically sound acquisition process and verify image integrity with cryptographic hashes.",
+        "Copy only files identified as suspicious and delete unrelated temporary system files."
+      ],
+      "answer": "C",
+      "explanation": "Forensic acquisition should preserve the original evidence and produce a verifiable copy suitable for analysis. Cryptographic hashes calculated and recorded as part of a controlled process help demonstrate that the acquired image has not changed. Investigators should also maintain chain-of-custody documentation, appropriate handling records, and evidence preservation procedures.",
+      "topic": "Security Operations",
+      "subtopic": "Understand and comply with investigations",
+      "difficulty": "medium",
+      "source": "ISC2 CISSP Exam Outline, Domain 7, Section 7.1: Investigations, evidence collection, and chain of custody"
+    },
+    {
+      "stem": "A multinational organization is implementing a disaster recovery strategy for a critical transaction system. The business requires recovery within one hour, and the system has dependencies on identity services, network connectivity, and external payment gateways. An isolated recovery test demonstrates that the transaction application can restart in thirty minutes. Why is this result INSUFFICIENT to establish that the business recovery requirement can be met?",
+      "options": [
+        "It does not demonstrate that dependent services and end-to-end business transactions can be restored within the required time.",
+        "It does not prove that the production system can continue operating without any interruption during a disaster.",
+        "It does not establish that all archived transaction records can be retained indefinitely after recovery.",
+        "It does not confirm that the disaster recovery environment uses hardware identical to production."
+      ],
+      "answer": "A",
+      "explanation": "The recovery time objective applies to the restoration of the required business capability, not merely the startup of one application component. A successful application-only test may overlook identity infrastructure, network connectivity, payment gateways, data consistency, and operational dependencies. Meaningful recovery validation must test the complete service and confirm that essential transactions can be processed within the required timeframe.",
+      "topic": "Security Operations",
+      "subtopic": "Test Disaster Recovery Plans (DRP)",
+      "difficulty": "hard",
+      "source": "ISC2 CISSP Exam Outline, Domain 7, Sections 7.10–7.12: Recovery strategies, disaster recovery processes, and DRP testing"
+    },
+    {
+      "stem": "A development team wants to identify potential security weaknesses in application source code before deploying the application to a testing environment. The team requires a tool that can inspect source code without executing the application. Which testing approach is MOST appropriate?",
+      "options": [
+        "Dynamic application security testing against the deployed application.",
+        "Static application security testing during the development pipeline.",
+        "Interactive application security testing during runtime execution.",
+        "External penetration testing against the production application."
+      ],
+      "answer": "B",
+      "explanation": "Static application security testing examines source code or other application representations without requiring the program to execute. It can identify categories of insecure coding patterns early in the development lifecycle and can be integrated into automated development pipelines. Dynamic and interactive testing instead depend on executing an application.",
+      "topic": "Software Development Security",
+      "subtopic": "Identify and apply security controls in software development ecosystems",
+      "difficulty": "medium",
+      "source": "ISC2 CISSP Exam Outline, Domain 8, Section 8.2: Application security testing and development ecosystems"
+    },
+    {
+      "stem": "A software company uses a continuous integration pipeline that automatically builds and deploys applications using third-party dependencies. A security review identifies the risk that a malicious actor could replace a legitimate dependency artifact with a modified version during the build process. Which control combination would BEST reduce this risk while supporting repeatable builds?",
+      "options": [
+        "Allow developers to download dependencies from any public repository and scan the final application after deployment.",
+        "Store all dependencies on developer workstations and manually copy them into each build environment.",
+        "Disable automated dependency updates and permit build servers to execute packages from unrestricted external sources.",
+        "Use an approved artifact repository, pin dependency versions, and verify artifact integrity and provenance during builds."
+      ],
+      "answer": "D",
+      "explanation": "An approved artifact repository, controlled dependency versions, and verification of integrity and provenance help protect the software supply chain from unauthorized artifact substitution. These measures also improve build reproducibility and provide a basis for detecting unexpected dependency changes. Additional safeguards such as protected build credentials, software bills of materials, and review of dependency updates strengthen the overall approach.",
+      "topic": "Software Development Security",
+      "subtopic": "Identify and apply security controls in software development ecosystems",
+      "difficulty": "hard",
+      "source": "ISC2 CISSP Exam Outline, Domain 8, Section 8.2: CI/CD and software development ecosystems; NIST SP 800-218, SSDF"
+    }
+  ]
+}
