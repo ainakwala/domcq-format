@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "sphr",
+  "set": "Senior Professional in Human Resources (SPHR) practice – Strategic HR Leadership",
+  "questions": [
+    {
+      "stem": "A manufacturing company plans to enter two international markets within three years. The CEO asks the CHRO to ensure that the organization has the human capital capabilities needed for expansion. Which action should the CHRO take FIRST?",
+      "options": [
+        "Increase the annual recruitment budget across all business units",
+        "Conduct a strategic workforce gap analysis linked to expansion objectives",
+        "Standardize employee benefits across existing international locations",
+        "Establish additional management positions in the corporate HR department"
+      ],
+      "answer": "B",
+      "explanation": "Strategic workforce planning begins by identifying the capabilities required to execute business objectives and comparing them with existing workforce capacity. A gap analysis reveals which skills, leadership capabilities, and staffing levels must be developed or acquired. Recruitment budgets and organizational changes should follow this assessment rather than precede it.",
+      "topic": "Leadership and Strategy",
+      "subtopic": "Strategic HR Alignment",
+      "difficulty": "medium",
+      "source": "HRCI SPHR Exam Content Outline, Functional Area 1, Responsibility 1.2"
+    },
+    {
+      "stem": "A company is developing a balanced scorecard to measure its strategic performance. Which measure is MOST directly associated with the learning and growth perspective?",
+      "options": [
+        "Operating profit margin",
+        "Customer satisfaction rating",
+        "Average customer order value",
+        "Percentage of employees achieving critical skill proficiency"
+      ],
+      "answer": "D",
+      "explanation": "The learning and growth perspective measures organizational capabilities that support future performance, including employee skills, knowledge, and development. Financial results belong to the financial perspective, while customer satisfaction and order value concern customer and financial outcomes. Skill proficiency measures the organization's ability to execute its strategy.",
+      "topic": "Leadership and Strategy",
+      "subtopic": "Strategic Performance Measurement",
+      "difficulty": "easy",
+      "source": "HRCI SPHR Exam Content Outline, Functional Area 1, Responsibility 1.4; Balanced Scorecard"
+    },
+    {
+      "stem": "A company has experienced repeated operational disruptions because only one employee understands a critical production system. The executive team wants to reduce this exposure without substantially increasing permanent staffing. Which TWO actions would MOST directly mitigate the human capital risk? Choose TWO.",
+      "options": [
+        "Cross-train qualified employees and document essential operating procedures",
+        "Increase the system specialist's annual performance bonus",
+        "Remove the specialist's position from the formal succession planning process",
+        "Develop a tested contingency plan for maintaining critical operations"
+      ],
+      "answer": "AD",
+      "explanation": "Cross-training and documentation reduce dependency on a single individual by distributing essential knowledge. A tested contingency plan enables the organization to continue operating when the specialist is unavailable. Additional compensation may support retention but does not independently eliminate the single-person dependency.",
+      "topic": "Leadership and Strategy",
+      "subtopic": "Enterprise Risk Management and Business Continuity",
+      "difficulty": "medium",
+      "source": "HRCI SPHR Exam Content Outline, Functional Area 1, Responsibility 1.3"
+    },
+    {
+      "stem": "A multinational organization is implementing a common performance management framework. Regional executives resist because some proposed practices conflict with established local business norms. Which approach is MOST likely to achieve strategic alignment while maintaining implementation effectiveness?",
+      "options": [
+        "Permit each region to establish completely independent performance standards",
+        "Require identical procedures in every region regardless of local conditions",
+        "Define common performance principles while adapting implementation to local requirements",
+        "Delay the global initiative until every regional executive supports identical procedures"
+      ],
+      "answer": "C",
+      "explanation": "A global framework should establish consistent strategic objectives, performance principles, and accountability while permitting appropriate local implementation. This approach balances organizational alignment with legitimate cultural, operational, and legal differences. Complete regional independence undermines consistency, while rigid standardization may reduce acceptance or create compliance problems.",
+      "topic": "Leadership and Strategy",
+      "subtopic": "Global HR Strategy and Organizational Alignment",
+      "difficulty": "hard",
+      "source": "HRCI SPHR Exam Content Outline, Functional Area 1, Responsibility 1.11"
+    },
+    {
+      "stem": "The board of directors asks the CHRO to evaluate whether an HR initiative creates financial value. A leadership development program costs $400,000 and produces estimated financial benefits of $520,000 attributable to the program. Using net benefits divided by program cost, what is the program's return on investment?",
+      "options": [
+        "30%",
+        "23%",
+        "77%",
+        "130%"
+      ],
+      "answer": "A",
+      "explanation": "Return on investment equals net benefits divided by investment cost, multiplied by 100. Net benefits are $520,000 minus $400,000, or $120,000. Dividing $120,000 by $400,000 produces an ROI of 30%, assuming the estimated benefits are valid and attributable to the program.",
+      "topic": "Leadership and Strategy",
+      "subtopic": "HR Financial Metrics and ROI",
+      "difficulty": "easy",
+      "source": "HRCI SPHR Exam Content Outline, Functional Area 1, Responsibility 1.8"
+    },
+    {
+      "stem": "An organization introduces a major restructuring initiative. Employee surveys reveal that supervisors understand the new operating model, but frontline employees distrust the stated reasons for the change. What should the CHRO recommend as the MOST effective initial response?",
+      "options": [
+        "Introduce financial incentives for employees who immediately support the restructuring",
+        "Establish two-way communication forums that explain the business rationale and address concerns",
+        "Require supervisors to document every employee who questions the restructuring",
+        "Suspend employee feedback activities until the restructuring is fully implemented"
+      ],
+      "answer": "B",
+      "explanation": "Effective change management requires credible communication, stakeholder participation, and mechanisms for addressing resistance. Two-way forums allow leadership to explain the rationale, identify concerns, and demonstrate responsiveness. Incentives alone cannot establish trust, while suppressing employee feedback may intensify resistance.",
+      "topic": "Leadership and Strategy",
+      "subtopic": "Organizational Change Management",
+      "difficulty": "medium",
+      "source": "HRCI SPHR Exam Content Outline, Functional Area 1, Responsibility 1.9"
+    },
+    {
+      "stem": "A corporation discovers that managers at several locations have been approving payments to external recruiters without the documentation required by its procurement policy. Senior leadership wants HR to address the governance weakness systematically. Which TWO measures would BEST strengthen controls? Choose TWO.",
+      "options": [
+        "Permit regional managers to approve exceptions without documenting their reasons",
+        "Replace periodic compliance monitoring with annual informal discussions",
+        "Establish documented approval authority and segregation of duties for recruiter payments",
+        "Implement periodic transaction audits and a confidential process for reporting suspected misconduct"
+      ],
+      "answer": "CD",
+      "explanation": "Documented authorization limits and segregation of duties reduce opportunities for unauthorized transactions. Periodic audits and confidential reporting mechanisms improve the detection and escalation of potential misconduct. Both preventive and detective controls are important elements of an effective governance and anti-corruption framework.",
+      "topic": "Leadership and Strategy",
+      "subtopic": "Ethics, Corporate Governance, and Internal Controls",
+      "difficulty": "hard",
+      "source": "HRCI SPHR Exam Content Outline, Functional Area 1, Responsibility 1.6"
+    },
+    {
+      "stem": "A technology company expects demand for cybersecurity specialists to increase over the next two years. Its internal supply forecast indicates that 45 qualified specialists will be available, while projected business requirements call for 70. What is the forecast workforce gap?",
+      "options": [
+        "15 specialists",
+        "45 specialists",
+        "70 specialists",
+        "25 specialists"
+      ],
+      "answer": "D",
+      "explanation": "A workforce shortage is calculated by subtracting forecast internal supply from projected workforce demand. The organization requires 70 specialists but expects only 45 to be available, resulting in a shortage of 25. This gap can inform recruitment, reskilling, outsourcing, and retention decisions.",
+      "topic": "Workforce Planning and Talent Acquisition",
+      "subtopic": "Workforce Demand and Supply Forecasting",
+      "difficulty": "easy",
+      "source": "HRCI SPHR Exam Content Outline, Functional Area 2, Responsibility 2.1"
+    },
+    {
+      "stem": "An organization has difficulty recruiting experienced engineers even though its base salaries match the market median. Candidate interviews indicate that competing employers are perceived as offering better development opportunities and more meaningful work. Which recruitment strategy should HR prioritize?",
+      "options": [
+        "Strengthen the employee value proposition around career development and meaningful contributions",
+        "Reduce the qualifications required for all engineering vacancies",
+        "Increase the number of external recruitment agencies without changing candidate messaging",
+        "Replace structured selection interviews with informal meetings"
+      ],
+      "answer": "A",
+      "explanation": "An employee value proposition communicates the distinctive benefits and experiences an employer offers. Because candidates identify development and meaningful work as weaknesses, HR should address and communicate these dimensions rather than focusing exclusively on pay or recruitment volume. A credible employer brand must reflect the actual employee experience.",
+      "topic": "Workforce Planning and Talent Acquisition",
+      "subtopic": "Employer Branding and Employee Value Proposition",
+      "difficulty": "medium",
+      "source": "HRCI SPHR Exam Content Outline, Functional Area 2, Responsibility 2.2"
+    },
+    {
+      "stem": "Following an acquisition, the acquiring company plans to integrate 600 employees from an organization with a highly decentralized culture into its more centralized operating model. Critical employees are already expressing uncertainty about their future roles. Which integration strategy is MOST appropriate?",
+      "options": [
+        "Apply the acquiring company's existing policies immediately without consulting acquired employees",
+        "Delay communication about role expectations until integration activities are completed",
+        "Conduct a cultural and talent assessment, communicate role expectations, and implement targeted integration support",
+        "Allow the acquired employees to retain all previous reporting structures permanently"
+      ],
+      "answer": "C",
+      "explanation": "Effective post-acquisition integration requires evaluating cultural differences, identifying critical talent risks, and communicating organizational expectations. Targeted integration and onboarding activities can reduce uncertainty while supporting the desired operating model. Immediate unilateral standardization or indefinite structural separation may undermine retention and strategic integration.",
+      "topic": "Workforce Planning and Talent Acquisition",
+      "subtopic": "Mergers, Acquisitions, and Cultural Integration",
+      "difficulty": "hard",
+      "source": "HRCI SPHR Exam Content Outline, Functional Area 2, Responsibility 2.3"
+    },
+    {
+      "stem": "A company's succession planning process identifies only the employees who could immediately replace senior executives. The board wants a more sustainable leadership pipeline. Which enhancement would BEST support that objective?",
+      "options": [
+        "Limit succession reviews to executives who plan to retire within one year",
+        "Identify critical roles, assess future leadership potential, and create targeted development plans",
+        "Guarantee promotion to employees who have completed the longest service",
+        "Replace succession planning with external executive recruitment contracts"
+      ],
+      "answer": "B",
+      "explanation": "Strategic succession planning considers critical organizational roles and develops talent for current and future leadership requirements. Assessing potential and implementing targeted development plans builds organizational bench strength. Focusing only on immediate replacements limits the organization's ability to sustain leadership continuity.",
+      "topic": "Talent Management",
+      "subtopic": "Succession Planning and Leadership Pipelines",
+      "difficulty": "medium",
+      "source": "HRCI SPHR Exam Content Outline, Functional Area 3, Responsibility 3.3"
+    },
+    {
+      "stem": "An organization wants to determine whether a newly introduced customer service training program improved employees' behavior on the job. Under the Kirkpatrick evaluation model, which evaluation level should HR use?",
+      "options": [
+        "Level 1: Reaction",
+        "Level 2: Learning",
+        "Level 4: Results",
+        "Level 3: Behavior"
+      ],
+      "answer": "D",
+      "explanation": "Level 3 evaluates whether participants apply what they learned in their work environment. Level 1 measures reactions, Level 2 measures learning, and Level 4 measures organizational results. Workplace observations and supervisor assessments can provide evidence of behavior change.",
+      "topic": "Talent Management",
+      "subtopic": "Learning and Development Evaluation",
+      "difficulty": "easy",
+      "source": "HRCI SPHR Exam Content Outline, Functional Area 3, Responsibility 3.2; Kirkpatrick Model"
+    },
+    {
+      "stem": "An organization's employee engagement scores have declined, and voluntary turnover among high-performing employees has increased. Exit interviews consistently identify limited internal career mobility as the primary reason for leaving. Which intervention would MOST directly address the underlying issue?",
+      "options": [
+        "Publish transparent career pathways and introduce structured internal mobility opportunities",
+        "Increase the frequency of company-wide recognition announcements",
+        "Require departing employees to complete additional exit surveys",
+        "Replace annual engagement surveys with quarterly pulse surveys"
+      ],
+      "answer": "A",
+      "explanation": "When employees leave because they cannot see opportunities for advancement, a career development and internal mobility strategy directly addresses the reported cause. Transparent pathways and access to internal opportunities strengthen retention by improving perceived career prospects. Recognition and additional surveys may provide value but do not resolve the identified development barrier.",
+      "topic": "Talent Management",
+      "subtopic": "Employee Retention and Career Development",
+      "difficulty": "medium",
+      "source": "HRCI SPHR Exam Content Outline, Functional Area 3, Responsibilities 3.4 and 3.8"
+    },
+    {
+      "stem": "An organization's managers consistently assign higher performance ratings to employees who share their communication styles and backgrounds. HR wants to improve the fairness and consistency of the performance management process. Which TWO interventions are MOST appropriate? Choose TWO.",
+      "options": [
+        "Allow each manager to create independent evaluation criteria after the review period",
+        "Provide rater training focused on recognizing and reducing evaluation bias",
+        "Use behaviorally anchored performance standards and cross-manager calibration",
+        "Require all departments to assign an equal percentage of employees to each rating category"
+      ],
+      "answer": "BC",
+      "explanation": "Rater training helps managers identify evaluation biases, including similarity bias, while behaviorally anchored standards focus evaluations on observable job performance. Calibration discussions can improve consistency across managers when grounded in reliable evidence. Arbitrary forced distributions and inconsistent evaluation criteria may introduce additional fairness problems.",
+      "topic": "Talent Management",
+      "subtopic": "Performance Management and Evaluation Bias",
+      "difficulty": "hard",
+      "source": "HRCI SPHR Exam Content Outline, Functional Area 3, Responsibilities 3.1 and 3.6"
+    },
+    {
+      "stem": "During negotiations for a new collective bargaining agreement at a unionized manufacturing facility, management wants to reduce the likelihood of future disputes over contract interpretation. Which provision would MOST directly support that objective?",
+      "options": [
+        "A provision allowing managers to change contract terms without bargaining",
+        "A provision removing all employee participation from workplace discussions",
+        "A provision requiring union representatives to approve individual performance ratings",
+        "A clearly defined grievance procedure with escalation steps and resolution timelines"
+      ],
+      "answer": "D",
+      "explanation": "A contractual grievance procedure establishes an orderly process for resolving disagreements about the interpretation or application of the collective bargaining agreement. Clearly defined stages and timelines help both parties address disputes consistently and reduce unnecessary escalation. It does not eliminate disagreements but provides an agreed mechanism for resolving them.",
+      "topic": "Talent Management",
+      "subtopic": "Collective Bargaining and Grievance Resolution",
+      "difficulty": "medium",
+      "source": "HRCI SPHR Exam Content Outline, Functional Area 3, Responsibility 3.10"
+    },
+    {
+      "stem": "A company establishes salary ranges for professional positions using external market compensation data. The compensation director calculates a compa-ratio for each employee. What does a compa-ratio of 0.90 indicate?",
+      "options": [
+        "The employee earns 90% of the maximum salary range value",
+        "The employee earns 10% more than the salary range minimum",
+        "The employee earns 90% of the salary range midpoint",
+        "The employee earns 10% more than the market's highest salary"
+      ],
+      "answer": "C",
+      "explanation": "A compa-ratio is calculated by dividing an employee's actual salary by the applicable salary range midpoint. A ratio of 0.90 means the employee earns 90% of that midpoint, or 10% below it. This measure helps compensation professionals analyze pay positioning within established salary structures.",
+      "topic": "Total Rewards",
+      "subtopic": "Compensation Structures and Compa-Ratios",
+      "difficulty": "easy",
+      "source": "HRCI SPHR Exam Content Outline, Functional Area 4, Responsibility 4.2"
+    },
+    {
+      "stem": "A growing company wants to shift its executive compensation philosophy toward sustainable long-term performance. Its existing incentive program rewards executives primarily for annual revenue growth, regardless of profitability or capital efficiency. Which redesign would BEST support the stated objective?",
+      "options": [
+        "Introduce multi-year equity incentives tied to profitability and risk-adjusted value creation",
+        "Increase annual cash bonuses based exclusively on gross revenue growth",
+        "Replace variable executive compensation with guaranteed annual bonuses",
+        "Pay executives additional incentives for increasing short-term operating expenditures"
+      ],
+      "answer": "A",
+      "explanation": "Long-term incentives tied to sustainable financial outcomes can better align executive interests with organizational value creation. Multi-year performance periods discourage excessive concentration on short-term revenue increases. Appropriate profitability and risk measures help balance growth objectives with financial sustainability.",
+      "topic": "Total Rewards",
+      "subtopic": "Executive Compensation and Long-Term Incentives",
+      "difficulty": "medium",
+      "source": "HRCI SPHR Exam Content Outline, Functional Area 4, Responsibility 4.2"
+    },
+    {
+      "stem": "An employer with a workforce spanning several generations is reviewing its employee benefits program. Employees report differing preferences for retirement savings, family support, and wellness benefits. The company wants to improve perceived value while maintaining a defined overall benefits budget. Which approach is MOST appropriate?",
+      "options": [
+        "Provide the same additional retirement contribution to every employee regardless of preferences",
+        "Evaluate employee preferences and consider a compliant flexible benefits arrangement within budget limits",
+        "Eliminate voluntary benefits to simplify administration and standardize employee choices",
+        "Allocate all new benefits funding to the largest employee age group"
+      ],
+      "answer": "B",
+      "explanation": "A flexible benefits strategy can accommodate diverse employee needs while allowing the employer to manage total spending. HR should assess workforce preferences, costs, administrative feasibility, and applicable legal requirements before designing the arrangement. A uniform approach may fail to deliver equivalent perceived value across different employee groups.",
+      "topic": "Total Rewards",
+      "subtopic": "Benefits Strategy and Workforce Segmentation",
+      "difficulty": "medium",
+      "source": "HRCI SPHR Exam Content Outline, Functional Area 4, Responsibilities 4.1 and 4.3"
+    },
+    {
+      "stem": "A multinational organization is implementing a cloud-based HR information system containing employee compensation records and personally identifiable information. Which control MOST directly limits employees' access to information necessary for their assigned responsibilities?",
+      "options": [
+        "Maintaining a common password for employees within the same department",
+        "Providing unrestricted access to all employees with a company email address",
+        "Disabling system activity logs after the implementation phase",
+        "Implementing role-based access controls following the principle of least privilege"
+      ],
+      "answer": "D",
+      "explanation": "Role-based access control assigns permissions according to job responsibilities, while the principle of least privilege limits access to the minimum necessary for authorized work. These controls reduce unnecessary exposure of confidential employee data. Shared credentials, unrestricted access, and disabled logs weaken security and accountability.",
+      "topic": "HR Information Management, Safety, and Security",
+      "subtopic": "HR Data Privacy and Access Controls",
+      "difficulty": "easy",
+      "source": "HRCI SPHR Exam Content Outline, Functional Area 5, Responsibility 5.1"
+    },
+    {
+      "stem": "A distribution company operates several facilities in areas exposed to severe storms. HR is reviewing the organization's emergency preparedness strategy following a recent evacuation that exposed gaps in employee accountability. Which action would BEST improve the organization's ability to protect employees during future emergencies?",
+      "options": [
+        "Transfer responsibility for all emergency communications to local employees without formal coordination",
+        "Focus emergency planning on restoring inventory systems after the facilities reopen",
+        "Establish site-specific emergency procedures, employee accountability protocols, and regularly tested communication processes",
+        "Rely on annual employee safety training without conducting evacuation or communication exercises"
+      ],
+      "answer": "C",
+      "explanation": "Effective emergency preparedness integrates site-specific response procedures, clear accountability, and reliable communication methods. Regular drills and tests help identify weaknesses before a real emergency occurs. Protecting people requires coordinated preparation rather than relying exclusively on training or post-event operational recovery.",
+      "topic": "HR Information Management, Safety, and Security",
+      "subtopic": "Workplace Safety and Emergency Preparedness",
+      "difficulty": "medium",
+      "source": "HRCI SPHR Exam Content Outline, Functional Area 5, Responsibility 5.2"
+    }
+  ]
+}

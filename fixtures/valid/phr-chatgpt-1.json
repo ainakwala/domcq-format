@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "phr",
+  "set": "Professional in Human Resources (PHR) practice – Applied HR Operations",
+  "questions": [
+    {
+      "stem": "A company plans to open a new distribution center. HR is asked to determine whether the local labor market can supply enough qualified employees at the proposed compensation levels. Which analysis would provide the MOST relevant information?",
+      "options": [
+        "An analysis of the company's historical employee engagement scores",
+        "An analysis of local labor supply, wage benchmarks, and competitor demand",
+        "An analysis of the company's current organizational reporting structure",
+        "An analysis of employee participation in existing benefit programs"
+      ],
+      "answer": "B",
+      "explanation": "External labor market analysis evaluates the availability of qualified workers, prevailing compensation, and competition for talent in a geographic area. This information helps HR assess recruiting feasibility and labor costs before the company commits to expansion. Internal engagement, organizational structure, and benefit participation data do not directly establish local talent availability.",
+      "topic": "Business Management",
+      "subtopic": "Business environment and workforce strategy",
+      "difficulty": "easy",
+      "source": "HRCI PHR Exam Content Outline, Functional Area 1, Responsibility 1.1"
+    },
+    {
+      "stem": "An organization is implementing a centralized HR shared services model. Department managers are concerned that routine HR requests will be delayed because local HR representatives will no longer handle every transaction. Which action should HR take FIRST to support an effective transition?",
+      "options": [
+        "Transfer all HR transactions immediately and resolve service issues as they arise",
+        "Require department managers to approve every request submitted to shared services",
+        "Maintain the existing decentralized structure until all departments agree to change",
+        "Map current HR processes, identify service requirements, and establish service expectations"
+      ],
+      "answer": "D",
+      "explanation": "Process mapping and stakeholder consultation identify essential services, workflow dependencies, and potential service gaps before implementation. Clear service expectations, often expressed through service-level agreements, help managers understand response times and accountability. Moving transactions without this analysis increases operational risk and resistance.",
+      "topic": "Business Management",
+      "subtopic": "Cross-functional stakeholders and shared services",
+      "difficulty": "medium",
+      "source": "HRCI PHR Exam Content Outline, Functional Area 1, Responsibilities 1.2 and 1.3"
+    },
+    {
+      "stem": "An HR department proposes a retention initiative costing $120,000 annually. Finance estimates that the initiative will prevent 18 voluntary departures each year. The average fully loaded replacement cost per departing employee is $10,000. Assuming these are the only measurable financial benefits and costs, what is the projected first-year return on investment (ROI), calculated as net benefit divided by program cost?",
+      "options": [
+        "50%",
+        "33%",
+        "150%",
+        "67%"
+      ],
+      "answer": "A",
+      "explanation": "Avoided replacement costs equal 18 multiplied by $10,000, or $180,000. Net financial benefit is $180,000 minus $120,000, or $60,000. Dividing $60,000 by the $120,000 program cost produces an ROI of 50%, assuming the estimated departures are actually prevented.",
+      "topic": "Business Management",
+      "subtopic": "HR metrics and return on investment",
+      "difficulty": "hard",
+      "source": "HRCI PHR Exam Content Outline, Functional Area 1, Responsibility 1.4"
+    },
+    {
+      "stem": "A manufacturing company expects several experienced technicians to retire within three years. HR wants to identify the competencies that future technicians must possess before developing a recruitment and training plan. Which activity should HR conduct?",
+      "options": [
+        "An employee satisfaction survey",
+        "A compensation satisfaction review",
+        "A job analysis of the technician position",
+        "A review of the company's benefit enrollment records"
+      ],
+      "answer": "C",
+      "explanation": "Job analysis systematically identifies the tasks, responsibilities, knowledge, skills, and abilities associated with a position. The results support accurate job descriptions, selection criteria, and workforce capability planning. Employee satisfaction and benefits information do not establish the technical competencies required for the role.",
+      "topic": "Workforce Planning and Talent Acquisition",
+      "subtopic": "Job analysis and workforce requirements",
+      "difficulty": "easy",
+      "source": "HRCI PHR Exam Content Outline, Functional Area 2, Responsibility 2.3"
+    },
+    {
+      "stem": "A national employer uses a preemployment cognitive assessment for entry-level positions. Selection data indicate that the assessment produces a substantially lower selection rate for a protected demographic group. The employer has not established that the assessment predicts successful job performance. What should HR recommend?",
+      "options": [
+        "Continue using the assessment because every applicant completes the same test",
+        "Evaluate the assessment's job-related validity and consider less discriminatory alternatives",
+        "Discontinue all preemployment assessments because demographic differences are prohibited",
+        "Apply different passing scores to demographic groups without conducting validation research"
+      ],
+      "answer": "B",
+      "explanation": "A selection procedure that causes adverse impact must be evaluated for compliance with Title VII and applicable selection guidelines. Employers should establish that the procedure is job related and consistent with business necessity, while considering suitable alternatives with less adverse impact. Identical administration does not, by itself, establish legal compliance.",
+      "topic": "Workforce Planning and Talent Acquisition",
+      "subtopic": "Adverse impact and selection validity",
+      "difficulty": "medium",
+      "source": "HRCI PHR Outline 2.1; Title VII of the Civil Rights Act; Uniform Guidelines on Employee Selection Procedures"
+    },
+    {
+      "stem": "A U.S. employer is reviewing its preemployment screening procedures for candidates who have received conditional job offers. The employer uses a third-party background screening company that provides consumer reports. Which TWO actions are generally required under the federal Fair Credit Reporting Act before obtaining these reports? Choose TWO.",
+      "options": [
+        "Require applicants to provide the same authorization directly to every prior employer",
+        "Provide a clear and conspicuous written disclosure in a standalone document",
+        "Obtain a signed release from the applicant's current supervisor",
+        "Obtain the applicant's written authorization for the background screening"
+      ],
+      "answer": "BD",
+      "explanation": "The Fair Credit Reporting Act generally requires an employer to provide a clear, conspicuous disclosure in a document consisting solely of the disclosure before procuring an employment consumer report. The employer must also obtain the applicant's written authorization, subject to applicable exceptions. Permission from a current supervisor or individual prior employers does not replace these federal requirements.",
+      "topic": "Workforce Planning and Talent Acquisition",
+      "subtopic": "Background checks and hiring compliance",
+      "difficulty": "hard",
+      "source": "HRCI PHR Outline 2.3; Fair Credit Reporting Act, 15 USC 1681b(b)(2)"
+    },
+    {
+      "stem": "An organization wants to determine whether employees can perform required tasks after completing a new software training program. Which evaluation method would provide the MOST direct evidence of skill acquisition?",
+      "options": [
+        "A practical skills assessment completed after training",
+        "A survey measuring satisfaction with the instructor",
+        "A report showing the number of training registrations",
+        "A comparison of the training budget with planned spending"
+      ],
+      "answer": "A",
+      "explanation": "A practical assessment directly measures whether participants acquired and can demonstrate the skills taught in the program. In the Kirkpatrick evaluation framework, this is evidence of learning rather than participant reaction or organizational results. Satisfaction surveys and participation counts cannot establish that employees have mastered the required tasks.",
+      "topic": "Learning and Development",
+      "subtopic": "Training effectiveness and learning evaluation",
+      "difficulty": "easy",
+      "source": "HRCI PHR Outline 3.1; Kirkpatrick Model, Level 2: Learning"
+    },
+    {
+      "stem": "A company is developing a succession plan for its regional operations manager positions. Several internal candidates have strong current performance ratings, but management is uncertain about their readiness for broader leadership responsibilities. Which approach would BEST support a reliable assessment of succession readiness?",
+      "options": [
+        "Rank candidates exclusively by their years of service with the company",
+        "Select the candidates with the highest compensation in their current positions",
+        "Evaluate candidates against future-role competencies using multiple assessment methods",
+        "Ask each regional manager to nominate a successor without applying formal criteria"
+      ],
+      "answer": "C",
+      "explanation": "Succession planning requires assessment of both current performance and potential to meet future role requirements. Competency-based evaluations, leadership assessments, and development evidence help distinguish employees who perform well today from those prepared for broader responsibilities. Seniority, compensation, and unsupported nominations alone are insufficient indicators of readiness.",
+      "topic": "Learning and Development",
+      "subtopic": "Succession planning and leadership development",
+      "difficulty": "medium",
+      "source": "HRCI PHR Exam Content Outline, Functional Area 3, Responsibility 3.2"
+    },
+    {
+      "stem": "A company wants to compare salaries for its accounting positions with compensation offered by other employers in the same geographic labor market. Which resource would BEST support this analysis?",
+      "options": [
+        "The company's internal employee engagement survey",
+        "A current external compensation benchmarking survey",
+        "The company's historical employee attendance records",
+        "A summary of employee training completion rates"
+      ],
+      "answer": "B",
+      "explanation": "External compensation surveys provide information about market pay for comparable jobs, helping employers assess the competitiveness of their compensation programs. Appropriate benchmarking also considers job content, location, and relevant employer characteristics. Engagement, attendance, and training records do not provide reliable external salary comparisons.",
+      "topic": "Total Rewards",
+      "subtopic": "Market pricing and compensation benchmarking",
+      "difficulty": "easy",
+      "source": "HRCI PHR Exam Content Outline, Functional Area 4, Responsibility 4.4"
+    },
+    {
+      "stem": "A nonexempt employee covered by the federal Fair Labor Standards Act earns $20 per hour and works 46 hours in a single workweek. The employee receives no bonuses or other compensation affecting the regular rate. Assuming no applicable exemption or special overtime arrangement, what is the employee's required gross pay for that week?",
+      "options": [
+        "$920",
+        "$960",
+        "$980",
+        "$1,060"
+      ],
+      "answer": "C",
+      "explanation": "The FLSA generally requires overtime pay of at least one and one-half times the regular rate for hours worked beyond 40 in a workweek. The employee earns $800 for the first 40 hours and $180 for six overtime hours at $30 each. Total required gross pay is therefore $980.",
+      "topic": "Total Rewards",
+      "subtopic": "FLSA overtime compensation",
+      "difficulty": "medium",
+      "source": "HRCI PHR Outline 4.4; FLSA, 29 USC 207(a)(1)"
+    },
+    {
+      "stem": "An employee covered by an employer-sponsored group health plan experiences a qualifying loss of coverage following a reduction in working hours. The employer is subject to federal COBRA requirements, and no special extension applies. What is the maximum standard continuation coverage period associated with this qualifying event?",
+      "options": [
+        "18 months",
+        "12 months",
+        "24 months",
+        "36 months"
+      ],
+      "answer": "A",
+      "explanation": "Under federal COBRA, termination of employment or reduction in hours generally provides a maximum continuation coverage period of 18 months for qualified beneficiaries. Certain circumstances can extend coverage, such as a qualifying disability determination or a subsequent qualifying event. The employer must also satisfy applicable COBRA notice and administration requirements.",
+      "topic": "Total Rewards",
+      "subtopic": "COBRA continuation coverage",
+      "difficulty": "medium",
+      "source": "HRCI PHR Outline 4.4; COBRA, 29 USC 1162"
+    },
+    {
+      "stem": "An HR team conducts an anonymous employee engagement survey. The results indicate that employees lack confidence that management considers their feedback. Which action would MOST directly demonstrate that management values employee input?",
+      "options": [
+        "Increase the number of questions in the next annual survey",
+        "Restrict access to the survey results to senior executives",
+        "Replace employee surveys with mandatory performance reviews",
+        "Communicate the findings and implement measurable improvement actions"
+      ],
+      "answer": "D",
+      "explanation": "Employees are more likely to trust engagement initiatives when management acknowledges concerns, communicates priorities, and follows through on visible improvements. Measurable action plans also establish accountability and allow progress to be assessed. Collecting feedback without communicating or acting on results can further reduce trust.",
+      "topic": "Employee Engagement",
+      "subtopic": "Employee surveys and engagement action plans",
+      "difficulty": "easy",
+      "source": "HRCI PHR Exam Content Outline, Functional Area 5, Responsibility 5.2"
+    },
+    {
+      "stem": "A supervisor reports that an employee has repeatedly missed established production targets over the past six weeks. The employee was previously meeting expectations, and the supervisor has not discussed the recent decline with the employee. Which action should HR recommend FIRST?",
+      "options": [
+        "Immediately issue a final written warning for failing to meet production targets",
+        "Transfer the employee to another department without discussing performance",
+        "Meet privately with the employee to review expectations and identify performance barriers",
+        "Begin involuntary termination procedures based solely on the supervisor's report"
+      ],
+      "answer": "C",
+      "explanation": "An initial performance discussion helps establish whether the decline reflects unclear expectations, inadequate resources, skill gaps, or other factors. The supervisor should use objective performance evidence, explain expectations, and allow the employee to respond. Corrective measures can then be selected based on verified circumstances and organizational policy.",
+      "topic": "Employee Engagement",
+      "subtopic": "Performance coaching and corrective action",
+      "difficulty": "medium",
+      "source": "HRCI PHR Exam Content Outline, Functional Area 5, Responsibilities 5.3 and 5.4"
+    },
+    {
+      "stem": "A company with employees in several states plans a reduction in force affecting multiple facilities. HR identifies employees for layoff using performance ratings, tenure, and role redundancy. Initial analysis shows that employees aged 40 and older are disproportionately represented among those selected. Which TWO actions should HR recommend before finalizing the decisions? Choose TWO.",
+      "options": [
+        "Evaluate whether the proposed selection criteria produce potentially discriminatory outcomes",
+        "Automatically remove every employee aged 40 or older from the proposed layoff list",
+        "Proceed without further review because the criteria appear neutral on their face",
+        "Examine the consistency and job-related justification of the selection criteria"
+      ],
+      "answer": "AD",
+      "explanation": "A reduction in force should use documented, consistently applied, legitimate selection criteria and be reviewed for potential disparate impact under applicable employment discrimination laws. HR should investigate whether observed age disparities are associated with inconsistent ratings or unjustified selection methods. Automatically excluding all employees aged 40 or older is not an appropriate substitute for a legally sound, individualized review.",
+      "topic": "Employee Engagement",
+      "subtopic": "Reduction in force and adverse impact analysis",
+      "difficulty": "hard",
+      "source": "HRCI PHR Outline 5.4; Age Discrimination in Employment Act, 29 USC 623"
+    },
+    {
+      "stem": "An employee informs HR that a coworker has repeatedly made unwelcome sexual comments. The employee asks HR not to take any action because they are concerned about retaliation. What is the MOST appropriate initial response?",
+      "options": [
+        "Explain the limits of confidentiality and initiate a prompt, impartial investigation",
+        "Promise complete confidentiality and agree not to document the complaint",
+        "Require the employee to confront the coworker before HR becomes involved",
+        "Transfer the complaining employee immediately without reviewing the allegations"
+      ],
+      "answer": "A",
+      "explanation": "Once an employer receives a harassment complaint, it should respond promptly and appropriately, even when the employee requests that no action be taken. HR should explain that information will be shared only as needed, assess potential immediate risks, and protect against retaliation. Ignoring the complaint or promising absolute confidentiality could undermine the employer's legal obligations.",
+      "topic": "Employee and Labor Relations",
+      "subtopic": "Workplace harassment investigations",
+      "difficulty": "medium",
+      "source": "HRCI PHR Outline 6.4; Title VII; EEOC Enforcement Guidance on Harassment in the Workplace"
+    },
+    {
+      "stem": "A warehouse employee reports an unguarded conveyor belt that presents a serious risk of injury. The employee has reported the hazard to the supervisor twice, but the condition remains unchanged. Which action should HR prioritize?",
+      "options": [
+        "Wait for the next scheduled annual safety inspection to review the equipment",
+        "Ask the employee to sign an acknowledgment accepting the identified workplace risk",
+        "Arrange immediate hazard assessment and corrective action through the safety function",
+        "Record the complaint in the employee's personnel file without further investigation"
+      ],
+      "answer": "C",
+      "explanation": "OSHA's general duty requirements and applicable machine-guarding standards require employers to address workplace safety hazards. HR should coordinate with responsible safety personnel to assess the conveyor, implement protective measures, and document corrective action. Waiting for an annual inspection could expose employees to preventable injury.",
+      "topic": "Employee and Labor Relations",
+      "subtopic": "Occupational safety and hazard response",
+      "difficulty": "medium",
+      "source": "HRCI PHR Outline 6.2; Occupational Safety and Health Act; 29 CFR 1910.212"
+    },
+    {
+      "stem": "During an organizing campaign at a private-sector employer covered by the National Labor Relations Act, several employees distribute union authorization materials to coworkers during their unpaid meal breaks in a nonworking break area. The employer allows employees to distribute other nonwork materials there during breaks. How should HR advise management?",
+      "options": [
+        "Prohibit union materials because employees have no organizing rights before union certification",
+        "Require employees to obtain management approval before discussing union representation",
+        "Allow distribution only when the materials express support for the current management team",
+        "Permit the protected distribution under a lawful, neutrally applied workplace policy"
+      ],
+      "answer": "D",
+      "explanation": "Section 7 of the NLRA protects covered employees who engage in concerted activity for mutual aid or protection, including many forms of union organizing. Employees generally have the right to distribute union literature during nonworking time in nonworking areas, subject to lawful and nondiscriminatory restrictions. Management cannot selectively prohibit protected union materials while permitting comparable nonwork distribution.",
+      "topic": "Employee and Labor Relations",
+      "subtopic": "Employee organizing rights under the NLRA",
+      "difficulty": "medium",
+      "source": "HRCI PHR Outline 6.5; National Labor Relations Act, Section 7"
+    },
+    {
+      "stem": "An HR representative receives a complaint that an employee's expense reimbursement was denied even though the submitted expenses appear to meet the written reimbursement policy. What should HR do FIRST?",
+      "options": [
+        "Approve reimbursement immediately without reviewing the underlying documentation",
+        "Review the applicable policy, submitted records, and reason for the denial",
+        "Recommend disciplinary action against the manager who denied reimbursement",
+        "Revise the reimbursement policy before investigating the individual complaint"
+      ],
+      "answer": "B",
+      "explanation": "Employee complaints involving policy interpretation should begin with an objective review of the relevant policy and supporting facts. HR must establish whether the expense was eligible and whether the established approval procedure was followed. Reimbursement decisions, corrective action, or policy changes should be based on the findings rather than assumptions.",
+      "topic": "Employee and Labor Relations",
+      "subtopic": "Policy interpretation and employee grievance resolution",
+      "difficulty": "easy",
+      "source": "HRCI PHR Exam Content Outline, Functional Area 6, Responsibilities 6.3 and 6.4"
+    },
+    {
+      "stem": "A multinational company uses an HR information system to maintain employee records. An internal audit discovers that regional supervisors can view employees' Social Security numbers, bank account details, and medical leave documentation even though these details are unnecessary for their responsibilities. Which action would MOST effectively reduce unauthorized disclosure risk while preserving legitimate operational access?",
+      "options": [
+        "Implement role-based access controls based on job duties and least-privilege requirements",
+        "Require supervisors to acknowledge a general confidentiality policy once each year",
+        "Move all employee records into one shared folder with a stronger password",
+        "Allow unrestricted access while reviewing system activity at the end of each quarter"
+      ],
+      "answer": "A",
+      "explanation": "Role-based access control restricts sensitive information according to legitimate job responsibilities. Applying least privilege limits unnecessary exposure and helps reduce the impact of compromised accounts or misuse of authorized credentials. Confidentiality acknowledgments and retrospective monitoring can supplement security but do not replace access restrictions.",
+      "topic": "HR Information Management",
+      "subtopic": "HRIS security and role-based access controls",
+      "difficulty": "hard",
+      "source": "HRCI PHR Outline 7.3; NIST SP 800-53, AC-2 and AC-6"
+    },
+    {
+      "stem": "A company discovers that its HR information system contains duplicate employee records and inconsistent termination dates. These errors are causing inaccurate headcount and turnover reports. Which action should HR take to improve the reliability of future reporting?",
+      "options": [
+        "Use manual estimates whenever the HRIS produces unexpected results",
+        "Limit workforce reports to employees who have been hired within the last year",
+        "Correct existing records and establish data validation and reconciliation controls",
+        "Publish reports directly from the system and investigate discrepancies only upon request"
+      ],
+      "answer": "C",
+      "explanation": "Accurate HR reporting depends on reliable source data, standardized definitions, and controls that prevent or detect data-entry errors. Correcting duplicate records and inconsistent dates addresses existing problems, while validation and reconciliation processes reduce recurrence. Manual estimates or unverified reporting can conceal data integrity weaknesses and distort workforce decisions.",
+      "topic": "HR Information Management",
+      "subtopic": "HR data integrity and reporting accuracy",
+      "difficulty": "medium",
+      "source": "HRCI PHR Exam Content Outline, Functional Area 7, Responsibilities 7.1, 7.2 and 7.3"
+    }
+  ]
+}
