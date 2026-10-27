@@ -1,6 +1,6 @@
 {
   "description": "Every fixture with the error and warning codes the validator must report for it (unique codes, sorted). Validated against the modules listed, plus Generic.",
-  "modules": ["modules/example.json", "modules/example-multi.json", "modules/pmp.json", "modules/cfa-l1.json", "modules/mbe.json", "modules/aws-saa.json", "modules/frm-p1.json", "modules/comptia-secplus.json", "modules/cpa-aud.json", "modules/usmle-step1.json", "modules/acca-bt.json", "modules/cpa-far.json", "modules/usmle-step2-ck.json", "modules/nclex-rn.json", "modules/acca-ma.json", "modules/cpa-reg.json", "modules/acca-fa.json", "modules/frm-p2.json", "modules/comptia-netplus.json", "modules/aws-clf.json", "modules/finra-sie.json", "modules/azure-az900.json", "modules/cisa.json", "modules/cism.json", "modules/cpa-tcp.json", "modules/comptia-aplus-core1.json", "modules/nclex-pn.json", "modules/capm.json", "modules/cpa-bar.json", "modules/pmi-acp.json", "modules/comptia-aplus-core2.json", "modules/cpa-isc.json", "modules/mpre.json", "modules/finra-series-7.json", "modules/series-63.json", "modules/series-65.json", "modules/series-66.json", "modules/sqe1-flk1.json", "modules/sqe1-flk2.json", "modules/cams.json", "modules/ea-part1.json", "modules/ea-part2.json", "modules/ea-part3.json", "modules/plab-1.json", "modules/cia-part1.json", "modules/cia-part2.json", "modules/cia-part3.json", "modules/shrm-cp.json", "modules/shrm-scp.json"],
+  "modules": ["modules/example.json", "modules/example-multi.json", "modules/pmp.json", "modules/cfa-l1.json", "modules/mbe.json", "modules/aws-saa.json", "modules/frm-p1.json", "modules/comptia-secplus.json", "modules/cpa-aud.json", "modules/usmle-step1.json", "modules/acca-bt.json", "modules/cpa-far.json", "modules/usmle-step2-ck.json", "modules/nclex-rn.json", "modules/acca-ma.json", "modules/cpa-reg.json", "modules/acca-fa.json", "modules/frm-p2.json", "modules/comptia-netplus.json", "modules/aws-clf.json", "modules/finra-sie.json", "modules/azure-az900.json", "modules/cisa.json", "modules/cism.json", "modules/cpa-tcp.json", "modules/comptia-aplus-core1.json", "modules/nclex-pn.json", "modules/capm.json", "modules/cpa-bar.json", "modules/pmi-acp.json", "modules/comptia-aplus-core2.json", "modules/cpa-isc.json", "modules/mpre.json", "modules/finra-series-7.json", "modules/series-63.json", "modules/series-65.json", "modules/series-66.json", "modules/sqe1-flk1.json", "modules/sqe1-flk2.json", "modules/cams.json", "modules/ea-part1.json", "modules/ea-part2.json", "modules/ea-part3.json", "modules/plab-1.json", "modules/cia-part1.json", "modules/cia-part2.json", "modules/cia-part3.json", "modules/shrm-cp.json", "modules/shrm-scp.json", "modules/itil-4-foundation.json"],
   "cases": [
     { "file": "valid/minimal-generic.json", "errors": [] },
     { "file": "valid/full-generic.json", "errors": [] },
@@ -284,6 +284,10 @@
     { "file": "valid/shrm-scp-claude-8.md", "errors": [], "fenced": true },
     { "file": "valid/shrm-scp-chatgpt-1.json", "errors": [] },
     { "file": "valid/shrm-scp-gemini-1.json", "errors": [] },
+    { "file": "valid/itil-4-foundation-claude-1.md", "errors": [], "fenced": true },
+    { "file": "valid/itil-4-foundation-claude-2.md", "errors": [], "fenced": true },
+    { "file": "valid/itil-4-foundation-claude-3.md", "errors": [], "fenced": true },
+    { "file": "valid/itil-4-foundation-claude-4.md", "errors": [], "fenced": true },
 
     { "file": "invalid/empty.txt", "errors": ["E001"] },
     { "file": "invalid/not-json.txt", "errors": ["E002"] },

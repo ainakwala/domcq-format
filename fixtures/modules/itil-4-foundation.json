@@ -1,0 +1,47 @@
+{
+  "id": "itil-4-foundation",
+  "display_name": "ITIL 4 Foundation",
+  "body": "PeopleCert",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by PeopleCert International Ltd. (PeopleCert); the names are used only to identify the exam. ITIL® and PeopleCert® are registered trademarks of the PeopleCert group. The topic names and weights are from the ITIL 4 Foundation Candidate Syllabus, copyright PeopleCert International Ltd.; source: PeopleCert, https://www.peoplecert.org.",
+  "taxonomy": {
+    "Key concepts of service management": [],
+    "ITIL guiding principles": [],
+    "Four dimensions of service management": [],
+    "Purpose and components of the ITIL service value system": [],
+    "Activities of the service value chain, and how they interconnect": [],
+    "Purpose and key terms of 15 ITIL practices": [],
+    "7 ITIL practices": []
+  },
+  "weights": {
+    "Key concepts of service management": 12.5,
+    "ITIL guiding principles": 15,
+    "Four dimensions of service management": 5,
+    "Purpose and components of the ITIL service value system": 2.5,
+    "Activities of the service value chain, and how they interconnect": 5,
+    "Purpose and key terms of 15 ITIL practices": 17.5,
+    "7 ITIL practices": 42.5
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": false,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [
+    "Which is a source of best practice?",
+    "Identify the missing word(s) in the following sentence.",
+    "Which is NOT a defined area of value?"
+  ],
+  "uncovered_item_types": [],
+  "exam_mode": {
+    "questions": 40,
+    "minutes": 60
+  },
+  "prompt_template": "@style\nThe real exam uses four question styles, all with four options and one correct answer:\n- Standard: a direct question, for example \"Which is a source of best practice?\". Most questions are in this style.\n- Missing word: the stem is \"Identify the missing word(s) in the following sentence.\", then a sentence with [?] where the missing word or words go; the options are the candidate words.\n- List: the stem asks which statements are CORRECT about something, then gives four numbered statements (1. to 4.), each on its own line, of which exactly two are correct; the options are pairs of statement numbers, such as \"1 and 2\", \"2 and 3\", \"3 and 4\" and \"1 and 4\". This is the one place where an option combines items. List questions are never negative.\n- Negative: a standard question worded negatively, with NOT in capitals, for example \"Which is NOT a defined area of value?\". Use it only as an exception, at most once in the set, where the point is that something is not done or should not occur.\nWrite most questions in the standard style, with a few missing word and a few list questions.\nKeep each stem self-contained, concrete and free of trick wording. Do not refer to other questions, images, tables or exhibits.",
+  "verified_outline": "ITIL 4 Foundation Candidate Syllabus (PeopleCert)",
+  "verified_on": "2026-10-27",
+  "next_review": "2027-10-27"
+}
