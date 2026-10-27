@@ -1,0 +1,327 @@
+{
+  "format": "domcq/1",
+  "exam": "mrcp-part1",
+  "set": "MRCP(UK) Part 1 practice – Clinical Medicine and Applied Sciences",
+  "questions": [
+    {
+      "stem": "A 76-year-old man presents with progressive exertional breathlessness, chest discomfort and two episodes of syncope while walking uphill. Examination reveals a slow-rising carotid pulse and a harsh ejection systolic murmur heard most prominently at the right second intercostal space, radiating to the carotid arteries. Which valvular abnormality is the most likely diagnosis?",
+      "options": [
+        "Mitral stenosis",
+        "Aortic stenosis",
+        "Pulmonary stenosis",
+        "Aortic regurgitation",
+        "Mitral regurgitation"
+      ],
+      "answer": "B",
+      "explanation": "Aortic stenosis classically produces an ejection systolic murmur radiating to the carotid arteries, accompanied by a slow-rising carotid pulse. Exertional syncope, angina and breathlessness are characteristic manifestations of severe symptomatic disease. Echocardiography confirms the diagnosis and assesses severity.",
+      "topic": "Cardiology",
+      "subtopic": "Valvular heart disease",
+      "difficulty": "easy",
+      "source": "MRCP(UK) Part 1 blueprint: Cardiology – valvular heart disease"
+    },
+    {
+      "stem": "A 72-year-old woman with atrial fibrillation takes digoxin for ventricular rate control and furosemide for heart failure. She develops nausea, yellow-green visual disturbances and frequent ventricular ectopic beats. Blood tests show potassium 2.8 mmol/L and an elevated serum digoxin concentration. Which mechanism best explains why her electrolyte abnormality increases the risk of digoxin toxicity?",
+      "options": [
+        "Increased hepatic metabolism of digoxin",
+        "Increased renal clearance of digoxin",
+        "Reduced gastrointestinal absorption of digoxin",
+        "Increased binding of digoxin to Na+/K+-ATPase",
+        "Reduced myocardial sensitivity to digoxin"
+      ],
+      "answer": "D",
+      "explanation": "Potassium competes with digoxin for binding to the Na+/K+-ATPase pump. Hypokalaemia increases digoxin binding and enhances its toxic effects, particularly cardiac arrhythmias. Loop diuretics such as furosemide can precipitate this interaction through potassium depletion.",
+      "topic": "Clinical Pharmacology and Therapeutics",
+      "subtopic": "Cardiac glycosides and drug toxicity",
+      "difficulty": "medium",
+      "source": "MRCP(UK) Part 1 blueprint: Clinical Pharmacology and Therapeutics – adverse drug reactions"
+    },
+    {
+      "stem": "A 35-year-old woman with epilepsy has been stable on lamotrigine for several years. She starts rifampicin for pulmonary tuberculosis. Several weeks later, she experiences breakthrough seizures despite taking her medication regularly. Which pharmacological mechanism most likely explains the reduction in lamotrigine effectiveness?",
+      "options": [
+        "Induction of hepatic drug-metabolising enzymes",
+        "Inhibition of hepatic drug-metabolising enzymes",
+        "Competition for renal tubular drug secretion",
+        "Displacement from plasma protein binding sites",
+        "Reduction in intestinal drug transporter activity"
+      ],
+      "answer": "A",
+      "explanation": "Rifampicin is a potent inducer of drug-metabolising enzymes, including UDP-glucuronosyltransferases involved in lamotrigine metabolism. This accelerates lamotrigine clearance and reduces its plasma concentration, potentially causing breakthrough seizures. Dose adjustment and clinical monitoring may be necessary.",
+      "topic": "Clinical Pharmacology and Therapeutics",
+      "subtopic": "Drug interactions and enzyme induction",
+      "difficulty": "medium",
+      "source": "MRCP(UK) Part 1 blueprint: Clinical Pharmacology and Therapeutics – pharmacokinetics and drug interactions"
+    },
+    {
+      "stem": "A 29-year-old man is diagnosed with autosomal dominant polycystic kidney disease. His father has the same condition, but his mother is unaffected. His partner does not have the disease or a family history of it. Assuming full penetrance and that the man is heterozygous for a pathogenic variant, what is the probability that each child will inherit the variant?",
+      "options": [
+        "10%",
+        "20%",
+        "25%",
+        "75%",
+        "50%"
+      ],
+      "answer": "E",
+      "explanation": "In autosomal dominant inheritance, an affected heterozygous parent has a 50% probability of transmitting the pathogenic variant to each child. This probability applies independently to every pregnancy, regardless of the sex of the child. Variable expressivity may cause differences in clinical severity among affected family members.",
+      "topic": "Clinical sciences",
+      "subtopic": "Genetics",
+      "difficulty": "easy",
+      "source": "MRCP(UK) Part 1 blueprint: Clinical sciences – Genetics"
+    },
+    {
+      "stem": "A randomised controlled trial evaluates a new treatment for preventing recurrent ischaemic stroke over five years. Recurrent stroke occurs in 12% of the control group and 8% of the treatment group. Assuming these event rates apply over the specified follow-up period, what is the number needed to treat to prevent one additional recurrent stroke?",
+      "options": [
+        "8",
+        "12",
+        "25",
+        "50",
+        "100"
+      ],
+      "answer": "C",
+      "explanation": "The absolute risk reduction is 12% minus 8%, giving 4%, or 0.04. Number needed to treat is the reciprocal of absolute risk reduction: 1/0.04 = 25. Therefore, 25 patients require treatment for five years to prevent one additional recurrent stroke.",
+      "topic": "Clinical sciences",
+      "subtopic": "Statistics, epidemiology and evidence-based medicine",
+      "difficulty": "easy",
+      "source": "MRCP(UK) Part 1 blueprint: Clinical sciences – Statistics, epidemiology and evidence-based medicine"
+    },
+    {
+      "stem": "A 42-year-old man develops fever, widespread urticarial rash, polyarthralgia and proteinuria nine days after receiving equine-derived antivenom. Investigations demonstrate reduced serum C3 and C4 concentrations. Which immunological mechanism most directly accounts for this presentation?",
+      "options": [
+        "IgE-mediated mast cell degranulation",
+        "Deposition of circulating antigen-antibody complexes",
+        "T-cell-mediated delayed hypersensitivity",
+        "Antibody-mediated receptor stimulation",
+        "Direct complement-independent cellular toxicity"
+      ],
+      "answer": "B",
+      "explanation": "Serum sickness is a type III hypersensitivity reaction caused by deposition of circulating antigen-antibody immune complexes in tissues. These complexes activate complement, causing inflammation and consumption of complement components. The delayed onset, systemic symptoms and reduced C3 and C4 concentrations support this mechanism.",
+      "topic": "Clinical sciences",
+      "subtopic": "Immunology",
+      "difficulty": "hard",
+      "source": "MRCP(UK) Part 1 blueprint: Clinical sciences – Immunology and hypersensitivity reactions"
+    },
+    {
+      "stem": "A 25-year-old woman presents with an intensely itchy rash affecting both wrists and ankles. Examination reveals multiple flat-topped, polygonal, violaceous papules with fine white lines on their surfaces. She also has a lacy white pattern on the buccal mucosa. Which diagnosis is most likely?",
+      "options": [
+        "Psoriasis vulgaris",
+        "Atopic dermatitis",
+        "Dermatitis herpetiformis",
+        "Lichen planus",
+        "Pityriasis rosea"
+      ],
+      "answer": "D",
+      "explanation": "Lichen planus typically presents with pruritic, purple, polygonal, flat-topped papules, often affecting the flexor wrists and ankles. Fine white markings are called Wickham striae, and a reticular white pattern may occur on the oral mucosa. The condition is associated with a T-cell-mediated inflammatory response.",
+      "topic": "Dermatology",
+      "subtopic": "Inflammatory dermatoses",
+      "difficulty": "easy",
+      "source": "MRCP(UK) Part 1 blueprint: Dermatology – inflammatory skin disorders"
+    },
+    {
+      "stem": "A 38-year-old woman presents with progressive weight gain, proximal muscle weakness, easy bruising and hypertension. Investigations confirm endogenous hypercortisolism. Her plasma ACTH concentration is elevated. Following administration of high-dose dexamethasone, serum cortisol falls by 65% from baseline. Which underlying cause is most likely?",
+      "options": [
+        "ACTH-secreting pituitary adenoma",
+        "Cortisol-secreting adrenal adenoma",
+        "Ectopic ACTH secretion from small-cell lung carcinoma",
+        "Exogenous glucocorticoid administration",
+        "Bilateral ACTH-independent adrenal hyperplasia"
+      ],
+      "answer": "A",
+      "explanation": "ACTH-dependent hypercortisolism with substantial cortisol suppression following high-dose dexamethasone is characteristic of pituitary Cushing disease. Many pituitary corticotroph adenomas retain partial glucocorticoid feedback responsiveness, whereas ectopic ACTH-producing tumours usually do not. The high-dose dexamethasone test is not definitive, and pituitary imaging and other investigations are needed to establish the source.",
+      "topic": "Endocrinology, diabetes and metabolic medicine",
+      "subtopic": "Cushing syndrome and adrenal disorders",
+      "difficulty": "hard",
+      "source": "MRCP(UK) Part 1 blueprint: Endocrinology, diabetes and metabolic medicine – adrenal disorders"
+    },
+    {
+      "stem": "A 45-year-old woman reports chronic diarrhoea, abdominal bloating and fatigue. Blood tests reveal haemoglobin 9.8 g/dL, mean corpuscular volume 72 fL and low serum ferritin. She eats a normal gluten-containing diet. Which serological investigation is most appropriate as an initial test for suspected coeliac disease in a patient without known IgA deficiency?",
+      "options": [
+        "Anti-mitochondrial antibodies alone",
+        "Anti-smooth muscle antibodies alone",
+        "Anti-nuclear antibodies with complement levels",
+        "Anti-intrinsic factor antibodies with vitamin B12",
+        "IgA anti-tissue transglutaminase with total serum IgA"
+      ],
+      "answer": "E",
+      "explanation": "IgA anti-tissue transglutaminase is the preferred initial serological test for coeliac disease in most adults. Total serum IgA is measured simultaneously because IgA deficiency can produce a false-negative result. Testing should be performed while the patient continues consuming gluten, and positive serology generally requires specialist assessment and duodenal biopsy in adults.",
+      "topic": "Gastroenterology and Hepatology",
+      "subtopic": "Coeliac disease and malabsorption",
+      "difficulty": "medium",
+      "source": "MRCP(UK) Part 1 blueprint: Gastroenterology and Hepatology – malabsorption"
+    },
+    {
+      "stem": "An 83-year-old man is admitted with community-acquired pneumonia. Two days later, he becomes intermittently confused, struggles to maintain attention and reports seeing animals in his hospital room. His mental state fluctuates markedly throughout the day. His family confirms that he was cognitively independent before admission. Which diagnosis best explains these findings?",
+      "options": [
+        "Alzheimer disease",
+        "Vascular dementia",
+        "Delirium",
+        "Major depressive disorder",
+        "Dementia with Lewy bodies"
+      ],
+      "answer": "C",
+      "explanation": "Delirium is an acute disturbance of attention and awareness that typically fluctuates over hours or days. Infection is a common precipitating factor in older patients, and visual hallucinations may occur. The acute onset and impaired attention distinguish delirium from most chronic neurodegenerative disorders.",
+      "topic": "Geriatric medicine",
+      "subtopic": "Delirium and acute confusion",
+      "difficulty": "easy",
+      "source": "MRCP(UK) Part 1 blueprint: Geriatric medicine – delirium"
+    },
+    {
+      "stem": "A 32-year-old woman presents with fatigue, jaundice and dark urine. Laboratory investigations show haemoglobin 8.4 g/dL, elevated unconjugated bilirubin, elevated lactate dehydrogenase and reduced haptoglobin. The direct antiglobulin test is positive for IgG, and the blood film shows numerous spherocytes. Which diagnosis is most likely?",
+      "options": [
+        "Hereditary spherocytosis",
+        "Warm autoimmune haemolytic anaemia",
+        "Glucose-6-phosphate dehydrogenase deficiency",
+        "Paroxysmal nocturnal haemoglobinuria",
+        "Microangiopathic haemolytic anaemia"
+      ],
+      "answer": "B",
+      "explanation": "Warm autoimmune haemolytic anaemia is caused by antibodies, usually IgG, that bind red blood cells at physiological temperatures. The IgG-positive direct antiglobulin test, evidence of haemolysis and spherocytes strongly support the diagnosis. Spherocytes arise when antibody-coated erythrocytes undergo partial phagocytosis, principally in the spleen.",
+      "topic": "Haematology",
+      "subtopic": "Autoimmune haemolytic anaemia",
+      "difficulty": "medium",
+      "source": "MRCP(UK) Part 1 blueprint: Haematology – haemolytic anaemias"
+    },
+    {
+      "stem": "A 28-year-old man presents with three weeks of fever, night sweats, weight loss and persistent cough. Chest radiography reveals right upper-lobe cavitation. Sputum testing confirms Mycobacterium tuberculosis. Which immunological response plays the central role in controlling intracellular tuberculosis infection?",
+      "options": [
+        "IgE-mediated eosinophil activation",
+        "Complement-mediated bacterial lysis",
+        "Th2-mediated interleukin-4 secretion",
+        "Th1-mediated interferon-gamma production",
+        "IgA-mediated mucosal neutralisation"
+      ],
+      "answer": "D",
+      "explanation": "Control of Mycobacterium tuberculosis depends heavily on cell-mediated immunity involving Th1 lymphocytes and macrophages. Interferon-gamma activates infected macrophages, enhancing their ability to restrict intracellular mycobacterial growth. Defects in the IL-12/interferon-gamma pathway increase susceptibility to mycobacterial infections.",
+      "topic": "Infectious diseases",
+      "subtopic": "Tuberculosis and host immune response",
+      "difficulty": "medium",
+      "source": "MRCP(UK) Part 1 blueprint: Infectious diseases – mycobacterial infections"
+    },
+    {
+      "stem": "A 67-year-old woman presents with sudden left-sided weakness and difficulty speaking. Examination reveals weakness of the left face, arm and leg, with the arm more severely affected than the leg. She has a rightward gaze preference and left-sided sensory neglect. Which vascular territory is most likely affected?",
+      "options": [
+        "Right middle cerebral artery",
+        "Left middle cerebral artery",
+        "Right anterior cerebral artery",
+        "Left posterior cerebral artery",
+        "Basilar artery"
+      ],
+      "answer": "A",
+      "explanation": "A right middle cerebral artery infarction typically causes left-sided face and arm weakness greater than leg weakness, accompanied by contralateral sensory deficits. Right hemispheric lesions commonly produce left-sided neglect, and a large frontal lesion may cause gaze deviation toward the affected hemisphere. These findings localise the lesion to the right MCA territory.",
+      "topic": "Neurology",
+      "subtopic": "Cerebrovascular disease and stroke localisation",
+      "difficulty": "medium",
+      "source": "MRCP(UK) Part 1 blueprint: Neurology – cerebrovascular disease"
+    },
+    {
+      "stem": "A 62-year-old man with a 40-pack-year smoking history presents with weight loss, persistent cough and severe muscle weakness that improves briefly after repeated muscle contractions. Examination reveals reduced tendon reflexes that become more prominent after exercise. CT imaging demonstrates a central lung mass. Which mechanism most likely explains his neuromuscular findings?",
+      "options": [
+        "Autoantibodies against postsynaptic acetylcholine receptors",
+        "Autoantibodies against muscle-specific tyrosine kinase",
+        "Autoantibodies against voltage-gated sodium channels",
+        "Autoantibodies against skeletal muscle ryanodine receptors",
+        "Autoantibodies against presynaptic voltage-gated calcium channels"
+      ],
+      "answer": "E",
+      "explanation": "Lambert-Eaton myasthenic syndrome results from antibodies targeting presynaptic P/Q-type voltage-gated calcium channels, reducing calcium-dependent acetylcholine release. Weakness that transiently improves with repeated activity and reduced reflexes are characteristic. It is strongly associated with small-cell lung carcinoma and may precede the cancer diagnosis.",
+      "topic": "Oncology",
+      "subtopic": "Paraneoplastic neurological syndromes",
+      "difficulty": "hard",
+      "source": "MRCP(UK) Part 1 blueprint: Oncology – paraneoplastic syndromes"
+    },
+    {
+      "stem": "A 74-year-old woman presents with a new severe temporal headache, scalp tenderness and jaw pain while chewing. She reports transient visual loss in the right eye lasting approximately three minutes. Examination reveals tenderness over the right temporal artery, and her ESR is 92 mm/hour. Which intervention is most appropriate immediately?",
+      "options": [
+        "Prescribe oral aspirin as sole initial treatment",
+        "Administer high-dose systemic glucocorticoids",
+        "Arrange temporal artery biopsy before treatment",
+        "Observe until permanent visual symptoms develop",
+        "Begin topical corticosteroid eye drops"
+      ],
+      "answer": "B",
+      "explanation": "This presentation strongly suggests giant cell arteritis with threatened visual loss. High-dose systemic glucocorticoids must be started immediately to reduce the risk of irreversible blindness, without waiting for confirmatory investigations. Transient visual loss warrants urgent specialist assessment, and intravenous glucocorticoids may be considered in this setting.",
+      "topic": "Medical ophthalmology",
+      "subtopic": "Giant cell arteritis and visual ischaemia",
+      "difficulty": "medium",
+      "source": "MRCP(UK) Part 1 blueprint: Medical ophthalmology – vascular disorders affecting vision"
+    },
+    {
+      "stem": "A 69-year-old man with metastatic pancreatic cancer receives regular oral morphine for persistent cancer pain. His pain is adequately controlled, but he develops infrequent bowel movements and hard stools. He has no vomiting, abdominal distension or clinical evidence of bowel obstruction. Which approach is most appropriate for managing this predictable adverse effect of opioid therapy?",
+      "options": [
+        "Stop all regular opioid analgesia immediately",
+        "Recommend increased dietary fibre without medication",
+        "Prescribe an antidiarrhoeal medication regularly",
+        "Prescribe regular stimulant and osmotic laxatives",
+        "Replace morphine with an oral benzodiazepine"
+      ],
+      "answer": "D",
+      "explanation": "Opioids reduce intestinal motility and secretion, causing constipation that generally does not resolve through pharmacological tolerance. Regular laxatives, commonly combining stimulant and osmotic agents, are recommended when opioids are prescribed for ongoing cancer pain. Fluid intake and dietary measures may help but are usually insufficient alone.",
+      "topic": "Palliative medicine and end of life care",
+      "subtopic": "Opioid-induced constipation",
+      "difficulty": "easy",
+      "source": "MRCP(UK) Part 1 blueprint: Palliative medicine and end of life care – symptom control"
+    },
+    {
+      "stem": "A 30-year-old man with schizophrenia develops fever, severe generalised muscular rigidity, confusion and autonomic instability four days after receiving a high-potency antipsychotic. Investigations show a markedly elevated creatine kinase concentration. Which diagnosis best explains this presentation?",
+      "options": [
+        "Serotonin syndrome",
+        "Acute dystonic reaction",
+        "Neuroleptic malignant syndrome",
+        "Malignant hyperthermia",
+        "Anticholinergic toxicity"
+      ],
+      "answer": "C",
+      "explanation": "Neuroleptic malignant syndrome is a potentially fatal reaction associated with dopamine receptor blockade, typically causing hyperthermia, severe rigidity, altered mental status and autonomic instability. Elevated creatine kinase reflects skeletal muscle injury. Immediate management includes stopping the offending drug and providing urgent supportive treatment.",
+      "topic": "Psychiatry",
+      "subtopic": "Antipsychotic adverse effects",
+      "difficulty": "medium",
+      "source": "MRCP(UK) Part 1 blueprint: Psychiatry – adverse effects of psychotropic medication"
+    },
+    {
+      "stem": "A 46-year-old woman is investigated for persistent hypokalaemia and metabolic alkalosis. She has blood pressure 116/74 mmHg, serum potassium 2.7 mmol/L and bicarbonate 34 mmol/L. Urinary chloride is elevated. Plasma renin activity and aldosterone concentration are both increased. Urinary calcium excretion is low, and she has no history of diuretic use or vomiting. Which inherited renal tubular disorder most closely explains this biochemical pattern?",
+      "options": [
+        "Gitelman syndrome",
+        "Liddle syndrome",
+        "Type 1 renal tubular acidosis",
+        "Apparent mineralocorticoid excess",
+        "Type 4 renal tubular acidosis"
+      ],
+      "answer": "A",
+      "explanation": "Gitelman syndrome results from defective sodium-chloride cotransport in the distal convoluted tubule. It produces hypokalaemic metabolic alkalosis, secondary hyperreninaemic hyperaldosteronism, usually normal or low blood pressure, and characteristic hypocalciuria. Hypomagnesaemia is another frequent feature and helps distinguish it from Bartter syndrome.",
+      "topic": "Renal medicine",
+      "subtopic": "Inherited renal tubular disorders",
+      "difficulty": "hard",
+      "source": "MRCP(UK) Part 1 blueprint: Renal medicine – tubular disorders and electrolyte abnormalities"
+    },
+    {
+      "stem": "A 59-year-old man with a 35-pack-year smoking history presents with progressive exertional dyspnoea and chronic cough. Spirometry after bronchodilator administration shows FEV1 1.6 L and FVC 3.2 L. His post-bronchodilator FEV1/FVC ratio is 0.50. Which physiological abnormality is demonstrated by this result?",
+      "options": [
+        "Restrictive ventilatory impairment",
+        "Normal ventilatory physiology",
+        "Isolated impairment of gas transfer",
+        "Isolated reduction in respiratory muscle strength",
+        "Persistent obstructive ventilatory impairment"
+      ],
+      "answer": "E",
+      "explanation": "A reduced post-bronchodilator FEV1/FVC ratio indicates persistent airflow obstruction. A ratio below 0.70 in a patient with appropriate symptoms and exposure history supports a diagnosis of chronic obstructive pulmonary disease. Restrictive impairment requires assessment of lung volumes and cannot be diagnosed from a low FEV1 alone.",
+      "topic": "Respiratory medicine",
+      "subtopic": "Spirometry and obstructive lung disease",
+      "difficulty": "medium",
+      "source": "MRCP(UK) Part 1 blueprint: Respiratory medicine – pulmonary function testing and COPD"
+    },
+    {
+      "stem": "A 34-year-old woman presents with symmetrical pain and swelling of the metacarpophalangeal and proximal interphalangeal joints for four months. Morning stiffness lasts approximately two hours. Examination confirms synovitis affecting both hands. Blood tests show elevated C-reactive protein and positive anti-cyclic citrullinated peptide antibodies. Which diagnosis is most likely?",
+      "options": [
+        "Osteoarthritis",
+        "Psoriatic arthritis",
+        "Rheumatoid arthritis",
+        "Reactive arthritis",
+        "Calcium pyrophosphate deposition disease"
+      ],
+      "answer": "C",
+      "explanation": "Rheumatoid arthritis commonly causes persistent symmetrical inflammatory polyarthritis involving the small joints of the hands. Prolonged morning stiffness, objective synovitis and elevated inflammatory markers support inflammatory arthritis. Anti-cyclic citrullinated peptide antibodies are highly specific for rheumatoid arthritis and are associated with an increased risk of erosive disease.",
+      "topic": "Rheumatology",
+      "subtopic": "Rheumatoid arthritis and inflammatory polyarthritis",
+      "difficulty": "medium",
+      "source": "MRCP(UK) Part 1 blueprint: Rheumatology – inflammatory arthritis"
+    }
+  ]
+}
