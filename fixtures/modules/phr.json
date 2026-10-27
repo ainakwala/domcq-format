@@ -1,0 +1,33 @@
+{
+  "id": "phr",
+  "display_name": "Professional in Human Resources (PHR)",
+  "body": "HRCI",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by HRCI (the HR Certification Institute); the names are used only to identify the exam. HRCI®, Professional in Human Resources® (PHR®) and Senior Professional in Human Resources® (SPHR®) are trademarks of HRCI.",
+  "taxonomy": {
+    "Business Management": [],
+    "Workforce Planning and Talent Acquisition": [],
+    "Learning and Development": [],
+    "Total Rewards": [],
+    "Employee Engagement": [],
+    "Employee and Labor Relations": [],
+    "HR Information Management": []
+  },
+  "weights": {
+    "Business Management": 14,
+    "Workforce Planning and Talent Acquisition": 14,
+    "Learning and Development": 10,
+    "Total Rewards": 15,
+    "Employee Engagement": 17,
+    "Employee and Labor Relations": 20,
+    "HR Information Management": 10
+  },
+  "options": { "min": 3, "max": 4 },
+  "multi_select": true,
+  "banned_option_text": ["all of the above", "none of the above"],
+  "stem_hints": [],
+  "uncovered_item_types": ["fill in the blank", "drag and drop", "scenarios followed by a series of questions"],
+  "exam_mode": { "questions": 115, "minutes": 120 },
+  "verified_outline": "PHR Exam Content Outline (effective 2024) and HRCI Certification Policies and Procedures Handbook (revised October 2026)",
+  "verified_on": "2026-10-27",
+  "next_review": "2027-10-27"
+}
