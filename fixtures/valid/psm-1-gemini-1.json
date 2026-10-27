@@ -1,0 +1,303 @@
+{
+  "format": "domcq/1",
+  "exam": "psm-1",
+  "set": "Professional Scrum Master I (PSM I) practice – Core Assessment Prep",
+  "questions": [
+    {
+      "stem": "Who is accountable for creating a plan for the Sprint, the Sprint Backlog?",
+      "options": [
+        "The Scrum Master",
+        "The Developers",
+        "The Product Owner",
+        "The entire Scrum Team together"
+      ],
+      "answer": "B",
+      "explanation": "The Developers are accountable for creating a plan for the Sprint, which is captured in the Sprint Backlog. While the Product Owner helps clarify selected items and the Scrum Master facilitates the event, the actual plan and task breakdown are created solely by the Developers.",
+      "topic": "Understanding and Applying the Scrum Framework",
+      "subtopic": "Scrum Team",
+      "difficulty": "easy",
+      "source": "Scrum Guide 2020: Scrum Team - Developers"
+    },
+    {
+      "stem": "An Increment must be released to production at the end of every Sprint.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "B",
+      "explanation": "An Increment must be in a usable state and meet the Definition of Done by the end of each Sprint, but releasing it is a business decision made by the Product Owner. Increments can be delivered to stakeholders before the end of a Sprint, and the Sprint Review is never considered a gate to release.",
+      "topic": "Understanding and Applying the Scrum Framework",
+      "subtopic": "Done",
+      "difficulty": "easy",
+      "source": "Scrum Guide 2020: Scrum Artifacts - Increment"
+    },
+    {
+      "stem": "Who holds the ultimate accountability for managing the Product Backlog in Scrum?",
+      "options": [
+        "The Developers with input from stakeholders",
+        "The Scrum Master acting on behalf of the customer",
+        "The Project Management Office and business analysts",
+        "The Product Owner, though they may delegate the work"
+      ],
+      "answer": "D",
+      "explanation": "The Product Owner is explicitly accountable for effective Product Backlog management, which includes defining, ordering, and clearly communicating Product Backlog items. While the Product Owner may represent the needs of many stakeholders or delegate tasks, they remain solely accountable for the outcomes.",
+      "topic": "Managing Products with Agility",
+      "subtopic": "Product Backlog Management",
+      "difficulty": "easy",
+      "source": "Scrum Guide 2020: Scrum Team - Product Owner"
+    },
+    {
+      "stem": "What does it mean for a Scrum Team to be self-managing?",
+      "options": [
+        "Team members internally decide who does what, when, and how.",
+        "Team members independently select which business stakeholders they will serve.",
+        "Team members operate without defined accountabilities or leadership.",
+        "Team members determine their own organizational salaries, bonuses, and titles."
+      ],
+      "answer": "A",
+      "explanation": "The Scrum Guide defines self-managing teams as groups that internally decide who does what, when, and how. This autonomy allows the team to organize and adapt their internal workflow effectively without depending on management instructions for day-to-day work.",
+      "topic": "Developing People and Teams",
+      "subtopic": "Self-Managing Teams",
+      "difficulty": "easy",
+      "source": "Scrum Guide 2020: Scrum Team"
+    },
+    {
+      "stem": "What is the primary purpose of the Daily Scrum?",
+      "options": [
+        "To provide a status update to the Scrum Master and Product Owner",
+        "To assign specific daily development tasks to individual team members",
+        "To demonstrate completed functional increments to key business stakeholders",
+        "To inspect progress toward the Sprint Goal and adapt the Sprint Backlog"
+      ],
+      "answer": "D",
+      "explanation": "The Daily Scrum is a 15-minute event specifically for the Developers to inspect progress toward the Sprint Goal and adapt the Sprint Backlog as needed. It is an internal tactical planning and synchronization event rather than a status report to leadership or stakeholders.",
+      "topic": "Understanding and Applying the Scrum Framework",
+      "subtopic": "Events",
+      "difficulty": "easy",
+      "source": "Scrum Guide 2020: Scrum Events - Daily Scrum"
+    },
+    {
+      "stem": "Which of the following are Scrum values? Choose THREE.",
+      "options": [
+        "Focus",
+        "Respect",
+        "Openness",
+        "Transparency"
+      ],
+      "answer": "ABC",
+      "explanation": "The five Scrum values are Commitment, Focus, Openness, Respect, and Courage. Transparency is one of the three empirical pillars upon which Scrum is founded (along with Inspection and Adaptation), rather than one of the five core values.",
+      "topic": "Understanding and Applying the Scrum Framework",
+      "subtopic": "Scrum Values",
+      "difficulty": "easy",
+      "source": "Scrum Guide 2020: Scrum Values"
+    },
+    {
+      "stem": "Each Scrum artifact contains a commitment to ensure transparency and focus. Which commitment is associated with the Product Backlog?",
+      "options": [
+        "The Product Goal",
+        "The Definition of Done",
+        "The Sprint Goal",
+        "The Release Plan"
+      ],
+      "answer": "A",
+      "explanation": "In the Scrum Guide, each artifact includes an explicit commitment: the Product Backlog commits to the Product Goal, the Sprint Backlog commits to the Sprint Goal, and the Increment commits to the Definition of Done. The Product Goal describes a future state of the product that serves as a target for planning.",
+      "topic": "Understanding and Applying the Scrum Framework",
+      "subtopic": "Artifacts",
+      "difficulty": "medium",
+      "source": "Scrum Guide 2020: Scrum Artifacts - Product Backlog"
+    },
+    {
+      "stem": "During Sprint Planning, the Developers and the Product Owner disagree on how many items can be completed in the upcoming Sprint. How should the Scrum Master handle this situation?",
+      "options": [
+        "Determine the final selection of items using historical team velocity.",
+        "Instruct the Product Owner to remove items until the Developers accept the scope.",
+        "Facilitate a discussion reminding them that Developers decide how much work to select.",
+        "Escalate the dispute to executive management to establish delivery priorities."
+      ],
+      "answer": "C",
+      "explanation": "The Scrum Master acts as a servant-leader by coaching the team and facilitating collaborative events. The Scrum Guide establishes that while the Product Owner proposes the objective, only the Developers can assess what they can accomplish during the Sprint.",
+      "topic": "Developing People and Teams",
+      "subtopic": "Facilitation",
+      "difficulty": "medium",
+      "source": "Scrum Guide 2020: Scrum Events - Sprint Planning"
+    },
+    {
+      "stem": "A Scrum Team inspects their work regularly, but their artifacts lack transparency because known defects and incomplete tasks are hidden. What is the most likely consequence of this practice?",
+      "options": [
+        "Inspection becomes flawed, leading to adaptations that waste effort or increase risk.",
+        "The team accelerates delivery velocity because fewer impediments block the workflow.",
+        "Empiricism is preserved as long as daily inspect-and-adapt events occur consistently.",
+        "The Product Owner can forecast releases more accurately by focusing only on finished work."
+      ],
+      "answer": "A",
+      "explanation": "Empirical process control relies on three interdependent pillars: transparency, inspection, and adaptation. Without transparency, inspections are based on incomplete or misleading information, which results in flawed adaptations that heighten risk and waste effort.",
+      "topic": "Understanding and Applying the Scrum Framework",
+      "subtopic": "Empiricism",
+      "difficulty": "medium",
+      "source": "Scrum Guide 2020: Scrum Theory - Empiricism"
+    },
+    {
+      "stem": "A Product Owner wants to maximize the value delivered by the Scrum Team. How is value primarily defined and realized in Scrum?",
+      "options": [
+        "By maximizing the number of story points completed per Sprint",
+        "By ensuring all planned scope is delivered within original budget estimates",
+        "By keeping team members working at full individual operational capacity",
+        "By delivering usable Increments that satisfy customer and business outcomes"
+      ],
+      "answer": "D",
+      "explanation": "Value in Scrum is realized by delivering usable, high-quality Increments that address genuine customer needs and deliver business benefits. Output metrics like velocity, adherence to initial estimates, or individual utilization do not represent value if the resulting product does not solve problems.",
+      "topic": "Managing Products with Agility",
+      "subtopic": "Product Value",
+      "difficulty": "medium",
+      "source": "Scrum Guide 2020: Scrum Definition and Product Owner"
+    },
+    {
+      "stem": "Stakeholders outside the Scrum Team repeatedly interrupt the Developers during the Sprint with urgent work requests. What should the Scrum Master do?",
+      "options": [
+        "Add the incoming requests to the current Sprint Backlog if capacity permits.",
+        "Coach the organization to direct all new requests through the Product Owner.",
+        "Direct the Developers to log overtime to complete both the Sprint work and requests.",
+        "Assign a Developer as a dedicated liaison to handle external interruptions."
+      ],
+      "answer": "B",
+      "explanation": "The Scrum Master serves the team and the broader organization by helping outsiders understand which interactions with the Scrum Team are helpful and which are disruptive. All product requirements must be routed through the Product Owner to be prioritized transparently within the Product Backlog.",
+      "topic": "Developing People and Teams",
+      "subtopic": "Coaching",
+      "difficulty": "medium",
+      "source": "Scrum Guide 2020: Scrum Master - Service to the Organization"
+    },
+    {
+      "stem": "If a Product Backlog item does not meet the Definition of Done by the end of the Sprint, what must happen to it?",
+      "options": [
+        "It is released to production with an open technical debt ticket.",
+        "It is presented at the Sprint Review to gain stakeholder feedback on partial progress.",
+        "It cannot be presented or included in the Increment and returns to the Product Backlog.",
+        "It is automatically split and the completed portion is counted in velocity."
+      ],
+      "answer": "C",
+      "explanation": "If a Product Backlog item does not meet the Definition of Done, it cannot be released or even presented at the Sprint Review. Instead, it returns to the Product Backlog for future re-estimation and consideration in subsequent Sprints.",
+      "topic": "Understanding and Applying the Scrum Framework",
+      "subtopic": "Done",
+      "difficulty": "medium",
+      "source": "Scrum Guide 2020: Scrum Artifacts - Definition of Done"
+    },
+    {
+      "stem": "Which two statements are true regarding forecasting and release planning in Scrum? Choose TWO.",
+      "options": [
+        "Burn-up and burn-down charts are mandatory Scrum practices for tracking progress.",
+        "Only the Product Owner can create release forecasts using empirical data.",
+        "Various practices can be used to forecast progress, but none replace the value of empiricism.",
+        "In complex environments, what will happen is unknown and only what has already occurred can be used for forward-looking decision-making."
+      ],
+      "answer": "CD",
+      "explanation": "The Scrum Guide notes that while burn charts, cumulative flow diagrams, and other forecasting tools can be helpful, they do not replace empiricism. In complex environments, future outcomes are unpredictable, so only past empirical evidence can serve as a dependable guide for forward-looking decisions.",
+      "topic": "Managing Products with Agility",
+      "subtopic": "Forecasting & Release Planning",
+      "difficulty": "medium",
+      "source": "Scrum Guide 2020: Scrum Artifacts - Product Backlog"
+    },
+    {
+      "stem": "Sprint Planning addresses three topics. Which topic was introduced in the 2020 Scrum Guide as the first topic to be addressed?",
+      "options": [
+        "Why is this Sprint valuable?",
+        "What can be Done this Sprint?",
+        "How will the chosen work get done?",
+        "Who will test the Increment?"
+      ],
+      "answer": "A",
+      "explanation": "The 2020 Scrum Guide structures Sprint Planning into three sequential topics: Topic One explores 'Why is this Sprint valuable?' (leading to the Sprint Goal); Topic Two explores 'What can be Done this Sprint?'; and Topic Three explores 'How will the chosen work get done?'",
+      "topic": "Understanding and Applying the Scrum Framework",
+      "subtopic": "Events",
+      "difficulty": "medium",
+      "source": "Scrum Guide 2020: Scrum Events - Sprint Planning"
+    },
+    {
+      "stem": "A Scrum Team can have multiple Product Owners if the product is very large and complex.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "B",
+      "explanation": "The Product Owner is always one person, never a committee. Even when multiple Scrum Teams collaborate on a single product, there remains only one Product Owner and one Product Backlog to ensure unified vision and accountability.",
+      "topic": "Understanding and Applying the Scrum Framework",
+      "subtopic": "Scrum Team",
+      "difficulty": "medium",
+      "source": "Scrum Guide 2020: Scrum Team - Product Owner"
+    },
+    {
+      "stem": "During a Sprint Review, a key stakeholder expresses frustration because a desired feature is not included in the Increment and demands it be built next. How should the Scrum Team respond?",
+      "options": [
+        "The Scrum Master immediately modifies the Sprint Goal to include the feature in the next Sprint.",
+        "The Product Owner collaborates with the stakeholder to review priorities and potentially update the Product Backlog.",
+        "The Developers negotiate directly with the stakeholder to adjust the system architecture.",
+        "The team informs the stakeholder that new requirements can only be introduced during annual planning."
+      ],
+      "answer": "B",
+      "explanation": "The Sprint Review is a collaborative working session where the Scrum Team and stakeholders review what was accomplished and discuss future adaptations. The Product Owner retains accountability for the Product Backlog and decides how stakeholder feedback influences the ordering of upcoming work.",
+      "topic": "Managing Products with Agility",
+      "subtopic": "Stakeholders & Customers",
+      "difficulty": "medium",
+      "source": "Scrum Guide 2020: Scrum Events - Sprint Review"
+    },
+    {
+      "stem": "Which two statements correctly describe the Sprint Backlog? Choose TWO.",
+      "options": [
+        "It is a highly detailed, immutable plan set in stone during Sprint Planning.",
+        "It is composed of the Sprint Goal, selected Product Backlog items, and an actionable plan for delivery.",
+        "It is updated and adapted throughout the Sprint by the Developers as more is learned.",
+        "It is owned collectively by the Product Owner and the customer."
+      ],
+      "answer": "BC",
+      "explanation": "The Sprint Backlog consists of three parts: the Sprint Goal (why), the selected Product Backlog items (what), and an actionable plan for delivering the Increment (how). It is created by and for the Developers, who continuously adapt it throughout the Sprint as new details emerge.",
+      "topic": "Understanding and Applying the Scrum Framework",
+      "subtopic": "Artifacts",
+      "difficulty": "hard",
+      "source": "Scrum Guide 2020: Scrum Artifacts - Sprint Backlog"
+    },
+    {
+      "stem": "Midway through a Sprint, the Developers realize they cannot deliver all selected Product Backlog items without compromising the Definition of Done. What should they do?",
+      "options": [
+        "Temporarily relax the Definition of Done for this Sprint to ensure all items are completed.",
+        "Ask the Scrum Master to extend the Sprint duration by several days to finish the work.",
+        "Immediately cancel the Sprint and schedule an emergency Sprint Planning session.",
+        "Work with the Product Owner to negotiate and adjust the scope of work without altering the Sprint Goal."
+      ],
+      "answer": "D",
+      "explanation": "As Developers learn more during the Sprint, they may negotiate the scope of the Sprint Backlog with the Product Owner without altering the Sprint Goal. Quality standards defined by the Definition of Done cannot be compromised, and the duration of a Sprint is fixed.",
+      "topic": "Developing People and Teams",
+      "subtopic": "Self-Managing Teams",
+      "difficulty": "hard",
+      "source": "Scrum Guide 2020: Scrum Artifacts - Sprint Backlog"
+    },
+    {
+      "stem": "Multiple Scrum Teams are working together on a single product. How should the Definition of Done be established and applied across these teams?",
+      "options": [
+        "All teams must mutually define and conform to at least one shared Definition of Done applied to the combined Increment.",
+        "Each team creates an independent Definition of Done tailored strictly to their own component.",
+        "The Scrum Master of each team enforces an organizational QA checklist regardless of team agreement.",
+        "Only the primary team defines the Definition of Done, while secondary teams define partial criteria."
+      ],
+      "answer": "A",
+      "explanation": "When multiple Scrum Teams collaborate on a product, they must mutually define and comply with the same Definition of Done. Their combined work must integrate seamlessly to create a single usable Increment that meets this shared quality standard.",
+      "topic": "Understanding and Applying the Scrum Framework",
+      "subtopic": "Done",
+      "difficulty": "hard",
+      "source": "Scrum Guide 2020: Scrum Artifacts - Definition of Done"
+    },
+    {
+      "stem": "During refinement, the Developers estimate the effort for several Product Backlog items. The Product Owner believes the estimates are too high and wants them reduced. Who has the final authority on item sizing and estimation?",
+      "options": [
+        "The Product Owner, because they are accountable for maximizing overall product value.",
+        "The Scrum Master, acting as an objective mediator using historical velocity trends.",
+        "The Developers who will perform the work, because they are accountable for sizing.",
+        "The project management office based on standardized organizational metrics."
+      ],
+      "answer": "C",
+      "explanation": "According to the Scrum Guide, the Developers who will be doing the work are accountable for sizing Product Backlog items. The Product Owner may help clarify requirements and propose trade-offs, but the ultimate authority on effort and sizing belongs to the Developers.",
+      "topic": "Managing Products with Agility",
+      "subtopic": "Product Backlog Management",
+      "difficulty": "hard",
+      "source": "Scrum Guide 2020: Scrum Artifacts - Product Backlog"
+    }
+  ]
+}
