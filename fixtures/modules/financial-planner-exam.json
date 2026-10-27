@@ -1,0 +1,125 @@
+{
+  "id": "financial-planner-exam",
+  "display_name": "CFP Certification Examination",
+  "body": "CFP Board",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by Certified Financial Planner Board of Standards, Inc. (CFP Board); the names are used only to identify the exam. Certified Financial Planner Board of Standards Center for Financial Planning, Inc. owns and licenses the certification marks CFP®, CERTIFIED FINANCIAL PLANNER®, and CFP® (with plaque design) in the United States to Certified Financial Planner Board of Standards, Inc., which authorizes individuals who successfully complete the organization’s initial and ongoing certification requirements to use the certification marks. CFP BOARD® is a trademark of Certified Financial Planner Board of Standards, Inc.",
+  "taxonomy": {
+    "Professional Conduct and Regulation": [
+      "CFP Board's Code of Ethics and Standards of Conduct",
+      "CFP Board’s Procedural Rules",
+      "Function, purpose, and general structure of financial institutions",
+      "Financial services regulations and requirements",
+      "Consumer protection laws",
+      "Fiduciary standard and application"
+    ],
+    "General Principles of Financial Planning": [
+      "Financial planning process",
+      "Financial statements",
+      "Cash flow management",
+      "Financing strategies and debt management",
+      "Economic concepts",
+      "Time value of money concepts and calculations",
+      "Education needs analysis",
+      "Education savings vehicles",
+      "Education funding",
+      "Gift/income tax strategies"
+    ],
+    "Risk Management and Insurance Planning": [
+      "Principles of risk and insurance",
+      "Analysis and evaluation of risk exposures",
+      "Health insurance and health care cost management (individual and group)",
+      "Disability income insurance (individual and group)",
+      "Long-term care insurance and long-term case planning (individual and group)",
+      "Qualified and Non-Qualified Annuities",
+      "Life insurance (individual and group)",
+      "Business owner insurance solutions",
+      "Insurance needs analysis",
+      "Insurance policy and company selection"
+    ],
+    "Investment Planning": [
+      "Characteristics, uses and taxation of investment vehicles",
+      "Types of investment risk",
+      "Market cycles",
+      "Quantitative investment concepts and measures of investment returns",
+      "Asset allocation and portfolio diversification",
+      "Bond and stock valuation concepts",
+      "Portfolio development and analysis",
+      "Investment strategies",
+      "Alternative investments and liquidity risk"
+    ],
+    "Tax Planning": [
+      "Fundamental and current tax law",
+      "Income tax fundamentals and calculations",
+      "Characteristics and income taxation of business entities",
+      "Income taxation of trusts and estates",
+      "Tax reduction/management techniques",
+      "Tax consequences of property transactions",
+      "Tax implications of special circumstances",
+      "Charitable/philanthropic contributions and deductions"
+    ],
+    "Retirement Savings and Income Planning": [
+      "Retirement needs analysis",
+      "Social Security and Medicare planning",
+      "Eldercare and special needs planning",
+      "Types of retirement plans",
+      "Qualified plan rules and options",
+      "Non-qualified plan rules and options",
+      "Key factors affecting plan selection for businesses",
+      "Distribution rules and taxation",
+      "Retirement income and distribution strategies",
+      "Business succession planning"
+    ],
+    "Estate Planning": [
+      "Property titling and beneficiary designations",
+      "Strategies to transfer property",
+      "Estate and incapacity planning documents",
+      "Gift, estate, and GST tax compliance and calculation",
+      "Sources for estate liquidity",
+      "Types, features, and taxation of trusts",
+      "Marital deduction",
+      "Intra-family and other business transfer techniques",
+      "Postmortem estate planning techniques",
+      "Planning for divorce, unmarried couples and other special circumstances",
+      "Planning for special needs and circumstances"
+    ],
+    "Psychology of Financial Planning": [
+      "Client and planner attitudes, values, biases",
+      "Behavioral finance",
+      "Sources of money conflict",
+      "Principles of counseling",
+      "General principles of effective communication",
+      "Crisis events with severe consequences"
+    ]
+  },
+  "weights": {
+    "Professional Conduct and Regulation": 8,
+    "General Principles of Financial Planning": 15,
+    "Risk Management and Insurance Planning": 11,
+    "Investment Planning": 17,
+    "Tax Planning": 14,
+    "Retirement Savings and Income Planning": 18,
+    "Estate Planning": 10,
+    "Psychology of Financial Planning": 7
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": false,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "uncovered_item_types": [
+    "short scenario (typically 3 questions share one scenario)",
+    "case study (typically 8 to 12 questions share one case)"
+  ],
+  "exam_mode": {
+    "questions": 170,
+    "minutes": 360,
+    "sections": 2
+  },
+  "verified_outline": "CFP Board's 2021 Principal Knowledge Topics (the exam blueprint since March 2022)",
+  "verified_on": "2026-10-27",
+  "next_review": "2027-10-27"
+}
