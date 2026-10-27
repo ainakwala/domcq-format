@@ -1,0 +1,46 @@
+{
+  "id": "psm-1",
+  "display_name": "Professional Scrum Master I (PSM I)",
+  "body": "Scrum.org",
+  "disclaimer": "DoMcq is an independent practice tool. It is not affiliated with Advanced Development Methods d/b/a Scrum.org (ADM) and does not constitute an endorsement of any product, service or point of view by ADM; the names are used only to identify the exam. Scrum.org™, Professional Scrum Master® and PSM™ are trademarks and/or registered trademarks of Advanced Development Methods, Inc., d/b/a Scrum.org.",
+  "taxonomy": {
+    "Understanding and Applying the Scrum Framework": [
+      "Empiricism",
+      "Scrum Values",
+      "Scrum Team",
+      "Events",
+      "Artifacts",
+      "Done"
+    ],
+    "Developing People and Teams": [
+      "Self-Managing Teams",
+      "Facilitation",
+      "Coaching"
+    ],
+    "Managing Products with Agility": [
+      "Forecasting & Release Planning",
+      "Product Value",
+      "Product Backlog Management",
+      "Stakeholders & Customers"
+    ]
+  },
+  "options": {
+    "min": 2,
+    "max": 4
+  },
+  "multi_select": true,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [],
+  "uncovered_item_types": [],
+  "exam_mode": {
+    "questions": 80,
+    "minutes": 60
+  },
+  "prompt_template": "@role\nYou are writing exam-style multiple-choice practice questions for me. I am preparing for {module}, set by Scrum.org. Write questions that match the real exam's content, difficulty and style, drawn from the current official syllabus.\nThe assessment tests Scrum as described in the Scrum Guide. Base every question and every answer on the current edition, the November 2020 Scrum Guide by Ken Schwaber and Jeff Sutherland, and use its terms, not those of earlier editions (for example \"Developers\", not \"Development Team\").\n@options\nGive each question 2 or 4 options, never 3. Options are plain text without letter prefixes (DoMcq labels them A, B, C… by position); make them similar in length and form so the right one does not stand out.\nWrite the real exam's three kinds of item. Most are multiple choice: exactly 4 options and exactly one correct, so `answer` is a single letter. Some are multiple answer: exactly 4 options, two or three of them correct and at least one incorrect, and the stem says how many to choose (\"Choose TWO.\", \"Choose THREE.\"); `answer` lists every correct letter in ascending order (\"BD\"). A few are true/false: the stem is a statement to judge, the options are exactly \"True\" and \"False\" in that order, and `answer` is \"A\" or \"B\".\nNever use these as an option: \"all of the above\", \"none of the above\". Avoid \"both A and B\" style options too.",
+  "verified_outline": "Professional Scrum Master I Certification: Focus Areas (Scrum.org)",
+  "verified_on": "2026-10-27",
+  "next_review": "2027-10-27"
+}
