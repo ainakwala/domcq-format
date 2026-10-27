@@ -1,0 +1,52 @@
+{
+  "id": "cima-e1",
+  "display_name": "E1: Managing Finance in a Digital World",
+  "body": "CIMA",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by The Chartered Institute of Management Accountants (CIMA) or the Association of International Certified Professional Accountants; the names are used only to identify the exam. CIMA® is a trademark of The Chartered Institute of Management Accountants, registered in the US, the EU, the UK and other countries. The topic names, subtopic names and weights are from the Operational level Examination Blueprint CIMA publishes; source: AICPA & CIMA, https://www.aicpa-cima.com.",
+  "taxonomy": {
+    "Role of the finance function": [
+      "The roles of the finance function in organisations",
+      "The activities that finance professionals perform to fulfil the roles"
+    ],
+    "Technology in a Digital World": [
+      "Technologies that affect business and finance",
+      "How the finance function uses digital technologies to fulfil its roles"
+    ],
+    "Data and Information in a Digital World": [
+      "Data and the finance function",
+      "Data to create and preserve value for organisations"
+    ],
+    "Shape and structure of the finance function": [
+      "The structure and shape of the finance function",
+      "What each level of the finance function does"
+    ],
+    "Finance Interacting with the Organisation": [
+      "The finance function’s relationship to operations",
+      "The finance function’s relationship to sales and marketing",
+      "The finance function’s relationship to human resources",
+      "The finance function’s relationship to IT"
+    ]
+  },
+  "weights": {
+    "Role of the finance function": 20,
+    "Technology in a Digital World": 20,
+    "Data and Information in a Digital World": 20,
+    "Shape and structure of the finance function": 20,
+    "Finance Interacting with the Organisation": 20
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": true,
+  "banned_option_text": ["all of the above", "none of the above"],
+  "stem_hints": [],
+  "uncovered_item_types": ["fill in the blank (number entry)", "drag and drop"],
+  "exam_mode": {
+    "questions": 60,
+    "minutes": 90
+  },
+  "verified_outline": "Operational level Examination Blueprint, Objective Tests from January 2026 to January 2027 (E1: Managing Finance in a Digital World)",
+  "verified_on": "2026-10-27",
+  "next_review": "2027-01-01"
+}

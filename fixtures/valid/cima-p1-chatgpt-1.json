@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "cima-p1",
+  "set": "P1: Management Accounting practice – Applied Decisions and Control",
+  "questions": [
+    {
+      "stem": "A manufacturing company produces several products that consume different amounts of machine setup time. Management believes its traditional overhead allocation based on direct labour hours is distorting product costs. Which costing method would best address this problem?",
+      "options": [
+        "Marginal costing",
+        "Activity-based costing",
+        "Absorption costing using labour hours",
+        "Process costing using equivalent units"
+      ],
+      "answer": "B",
+      "explanation": "Activity-based costing assigns overheads to activities and then allocates those costs to products using appropriate cost drivers, such as the number of machine setups. This provides more accurate product costs when products consume support activities in different proportions.",
+      "topic": "Cost Accounting for Decision and Control",
+      "subtopic": "Costing methods",
+      "difficulty": "easy",
+      "source": "CIMA P1 syllabus A: Costing methods – Activity-based costing"
+    },
+    {
+      "stem": "A manufacturer has budgeted fixed production overheads of $480,000 and budgeted output of 40,000 units. Actual production is 42,000 units, and actual fixed production overheads are $500,000. Using absorption costing, what is the fixed production overhead volume variance?",
+      "options": [
+        "$4,000 adverse",
+        "$4,000 favourable",
+        "$24,000 adverse",
+        "$24,000 favourable"
+      ],
+      "answer": "D",
+      "explanation": "The budgeted absorption rate is $480,000 / 40,000 = $12 per unit. Actual production absorbs $504,000 of fixed overhead, compared with the budgeted absorption of $480,000, giving a $24,000 favourable volume variance. Actual overhead expenditure is used to calculate the expenditure variance, not the volume variance.",
+      "topic": "Cost Accounting for Decision and Control",
+      "subtopic": "Costing concepts",
+      "difficulty": "medium",
+      "source": "CIMA P1 syllabus A: Costing concepts – Fixed overhead variances"
+    },
+    {
+      "stem": "A company manufactures 10,000 identical units during a period and sells 9,000 units. There is no opening inventory. The variable production cost is $18 per unit, and fixed production overhead is $60,000, which is absorbed at the actual production rate. How much higher is profit under absorption costing than under marginal costing?",
+      "options": [
+        "$6,000",
+        "$5,400",
+        "$18,000",
+        "$60,000"
+      ],
+      "answer": "A",
+      "explanation": "The fixed production overhead absorption rate is $60,000 / 10,000 = $6 per unit. Closing inventory contains 1,000 units, so absorption costing defers $6,000 of fixed production overhead in inventory. Marginal costing expenses all fixed production overhead in the current period, making its profit $6,000 lower.",
+      "topic": "Cost Accounting for Decision and Control",
+      "subtopic": "Costing methods",
+      "difficulty": "medium",
+      "source": "CIMA P1 syllabus A: Costing methods – Absorption and marginal costing"
+    },
+    {
+      "stem": "A service company wants to calculate the cost of providing individual customer support services. Which of the following is most appropriately classified as a direct cost of a specific support service when the employee records time spent on that service?",
+      "options": [
+        "Annual depreciation of the head office",
+        "Monthly salary of the finance director",
+        "Employee time spent providing the service",
+        "General advertising expenditure for the company"
+      ],
+      "answer": "C",
+      "explanation": "A direct cost can be identified with and traced to a particular cost object. When employees record the time spent providing an individual service, the associated labour cost can be traced directly to that service. General administration and advertising costs are typically indirect.",
+      "topic": "Cost Accounting for Decision and Control",
+      "subtopic": "Costing concepts",
+      "difficulty": "easy",
+      "source": "CIMA P1 syllabus A: Costing concepts – Direct and indirect costs"
+    },
+    {
+      "stem": "A company originally set a standard material price of $5 per kilogram. Before production began, a general market price increase justified revising the standard to $6 per kilogram. Actual production used 4,200 kilograms costing $26,040. The company separates planning and operational variances. What is the operational material price variance?",
+      "options": [
+        "$4,200 adverse",
+        "$840 adverse",
+        "$5,040 adverse",
+        "$840 favourable"
+      ],
+      "answer": "B",
+      "explanation": "The operational price variance compares the actual price with the revised standard price. Actual price is $26,040 / 4,200 = $6.20 per kilogram, giving 4,200 × ($6.20 − $6.00) = $840 adverse. The original $5 standard is relevant to the planning variance, not the operational price variance.",
+      "topic": "Cost Accounting for Decision and Control",
+      "subtopic": "Costing concepts",
+      "difficulty": "hard",
+      "source": "CIMA P1 syllabus A: Costing concepts – Planning and operational variances"
+    },
+    {
+      "stem": "A manufacturer is evaluating the use of digital technology to improve product costing. Which TWO benefits are most directly associated with using automated production data and activity-based costing? Choose TWO.",
+      "options": [
+        "More accurate measurement of activity consumption by individual products",
+        "Automatic elimination of all fixed production overhead costs",
+        "Guaranteed accuracy of cost driver data without validation",
+        "Faster identification of activities responsible for overhead consumption"
+      ],
+      "answer": "AD",
+      "explanation": "Automated data collection can improve the measurement of activities consumed by products and make it easier to identify the sources of overhead costs. Activity-based costing can use this information to produce more meaningful cost allocations. Technology does not eliminate fixed costs or guarantee that collected data is error-free.",
+      "topic": "Cost Accounting for Decision and Control",
+      "subtopic": "Rationales for costing",
+      "difficulty": "medium",
+      "source": "CIMA P1 syllabus A: Rationales for costing – Digital costing and cost information"
+    },
+    {
+      "stem": "A company operates in a market where product demand changes frequently. Management wants a budget that is continually updated by adding a new month whenever the earliest month ends. Which budgeting approach should the company adopt?",
+      "options": [
+        "Incremental budgeting",
+        "Zero-based budgeting",
+        "Rolling budgeting",
+        "Fixed annual budgeting"
+      ],
+      "answer": "C",
+      "explanation": "Rolling budgeting continuously extends the budget horizon by adding a new period as an existing period finishes. It allows management to update financial plans using the latest information rather than relying entirely on assumptions made at the start of the year.",
+      "topic": "Budgeting and Budgetary Control",
+      "subtopic": "Budgeting concepts",
+      "difficulty": "easy",
+      "source": "CIMA P1 syllabus B: Budgeting concepts – Rolling budgets"
+    },
+    {
+      "stem": "A factory budgeted variable production costs of $150,000 for 10,000 units and fixed production costs of $90,000. Actual production was 12,000 units, and actual total production costs were $275,000. What is the total cost variance when actual costs are compared with a flexed budget?",
+      "options": [
+        "$5,000 favourable",
+        "$5,000 adverse",
+        "$35,000 favourable",
+        "$35,000 adverse"
+      ],
+      "answer": "B",
+      "explanation": "Budgeted variable cost is $15 per unit. At actual output of 12,000 units, the flexed variable cost is $180,000; adding fixed costs of $90,000 gives a flexed budget of $270,000. Actual costs of $275,000 exceed this by $5,000, producing an adverse variance.",
+      "topic": "Budgeting and Budgetary Control",
+      "subtopic": "Budgetary control",
+      "difficulty": "medium",
+      "source": "CIMA P1 syllabus B: Budgetary control – Flexible budgets and variance analysis"
+    },
+    {
+      "stem": "A company is introducing participative budgeting. Departmental managers will contribute to preparing their own budgets, while senior management retains final approval. Which TWO outcomes are potential benefits of this approach? Choose TWO.",
+      "options": [
+        "Complete elimination of budgetary slack",
+        "Improved commitment to agreed budget targets",
+        "Better use of operational knowledge held by departmental managers",
+        "Removal of the need for management review of budgets"
+      ],
+      "answer": "BC",
+      "explanation": "Participation can increase managers' commitment because they have contributed to setting their targets. It also incorporates detailed operational knowledge that senior management may not possess. However, participative budgeting can create opportunities for budgetary slack and still requires oversight.",
+      "topic": "Budgeting and Budgetary Control",
+      "subtopic": "Rationale for budgets",
+      "difficulty": "medium",
+      "source": "CIMA P1 syllabus B: Rationale for budgets – Participation and behavioural aspects"
+    },
+    {
+      "stem": "A purchasing manager is responsible for selecting suppliers and controlling purchase prices but cannot influence the factory's production volume. Which performance evaluation principle suggests that the manager should primarily be assessed on costs within their authority?",
+      "options": [
+        "Controllability principle",
+        "Matching principle",
+        "Consistency principle",
+        "Prudence principle"
+      ],
+      "answer": "A",
+      "explanation": "The controllability principle states that managers should primarily be held accountable for revenues, costs and other performance measures they can influence. Evaluating the purchasing manager on production volumes outside their authority would weaken the fairness and usefulness of performance assessment.",
+      "topic": "Budgeting and Budgetary Control",
+      "subtopic": "Budgetary control",
+      "difficulty": "easy",
+      "source": "CIMA P1 syllabus B: Budgetary control – Responsibility accounting and controllability"
+    },
+    {
+      "stem": "A retailer forecasts credit sales of $200,000 in November and $250,000 in December. Customers pay 60% of their invoices in the month of sale, 35% in the following month and 5% in the second month after sale. October credit sales were $180,000. All amounts are eventually collected. What cash receipts from these credit sales should be budgeted for December?",
+      "options": [
+        "$220,000",
+        "$225,000",
+        "$229,000",
+        "$234,000"
+      ],
+      "answer": "C",
+      "explanation": "December cash receipts comprise 60% of December sales ($150,000), 35% of November sales ($70,000), and 5% of October sales ($9,000). Total receipts are therefore $229,000. A cash budget recognises collections when cash is received rather than when sales are recorded.",
+      "topic": "Budgeting and Budgetary Control",
+      "subtopic": "Budgeting concepts",
+      "difficulty": "hard",
+      "source": "CIMA P1 syllabus B: Budgeting concepts – Cash budgets and collection patterns"
+    },
+    {
+      "stem": "A company must decide whether to accept a one-off customer order. It has sufficient spare production capacity, and accepting the order will not affect existing sales. Which of the following costs is relevant to the decision?",
+      "options": [
+        "Depreciation on machinery already purchased",
+        "Allocated head office rent that remains unchanged",
+        "Historical development expenditure already incurred",
+        "Additional materials required to complete the order"
+      ],
+      "answer": "D",
+      "explanation": "Relevant costs are future cash flows that differ between alternatives. Additional materials must be purchased if the order is accepted, making their cost relevant. Existing depreciation, unchanged allocated rent and historical development expenditure do not change because of the decision.",
+      "topic": "Short-Term Commercial Decision Making",
+      "subtopic": "Concepts used for short-term decision-making",
+      "difficulty": "easy",
+      "source": "CIMA P1 syllabus C: Concepts used for short-term decision-making – Relevant costs"
+    },
+    {
+      "stem": "A factory makes products X and Y using the same machine. Product X earns a contribution of $45 per unit and requires 3 machine hours. Product Y earns a contribution of $32 per unit and requires 2 machine hours. Machine hours are the only limiting factor, and sufficient demand exists for both products. Which product should receive priority?",
+      "options": [
+        "Product X because its contribution per unit is higher",
+        "Product X because it uses more hours per unit",
+        "Product Y because its contribution per machine hour is higher",
+        "Product Y because its total variable cost must be lower"
+      ],
+      "answer": "C",
+      "explanation": "Product X earns $45 / 3 = $15 contribution per machine hour, whereas product Y earns $32 / 2 = $16 per machine hour. When machine hours are the scarce resource, ranking products by contribution per limiting-factor unit maximises contribution. Product Y should therefore receive priority.",
+      "topic": "Short-Term Commercial Decision Making",
+      "subtopic": "Techniques to support short term decision-making",
+      "difficulty": "medium",
+      "source": "CIMA P1 syllabus C: Techniques to support short term decision-making – Limiting factor analysis"
+    },
+    {
+      "stem": "A company normally sells a product for $100 per unit. Variable production cost is $58 per unit, and variable selling cost is $7 per unit. A customer offers to purchase 500 additional units at $65 each. The company has spare capacity, the order will not affect regular sales, no variable selling cost will be incurred, and fixed costs will remain unchanged. What is the financial effect of accepting the order?",
+      "options": [
+        "$3,500 increase in profit",
+        "$3,500 decrease in profit",
+        "$0 change in profit",
+        "$17,500 increase in profit"
+      ],
+      "answer": "A",
+      "explanation": "The relevant cost is the additional production cost of $58 per unit, since the usual variable selling cost is avoided. Each special-order unit contributes $65 − $58 = $7, giving an additional contribution of $3,500. With spare capacity and no incremental fixed costs, this contribution increases profit by the same amount.",
+      "topic": "Short-Term Commercial Decision Making",
+      "subtopic": "Short-term decisions made by organisations",
+      "difficulty": "medium",
+      "source": "CIMA P1 syllabus C: Short-term decisions – Special-order pricing"
+    },
+    {
+      "stem": "A company is considering discontinuing a product line that currently generates annual revenue of $300,000, variable costs of $210,000 and traceable fixed costs of $70,000. If the product is discontinued, $50,000 of the traceable fixed costs can be avoided, while the remaining $20,000 will continue. Which TWO statements are correct? Choose TWO.",
+      "options": [
+        "Discontinuing the product will increase annual profit by $20,000.",
+        "Discontinuing the product will decrease annual profit by $40,000.",
+        "All $70,000 of traceable fixed costs are relevant to the decision.",
+        "The product generates $90,000 annual contribution before fixed costs."
+      ],
+      "answer": "BD",
+      "explanation": "The product generates contribution of $300,000 − $210,000 = $90,000. Discontinuing it would sacrifice that contribution while saving only $50,000 of avoidable fixed costs, reducing annual profit by $40,000. The unavoidable $20,000 of fixed costs is not relevant because it continues under either alternative.",
+      "topic": "Short-Term Commercial Decision Making",
+      "subtopic": "Concepts used for short-term decision-making",
+      "difficulty": "medium",
+      "source": "CIMA P1 syllabus C: Relevant costing – Product discontinuation decisions"
+    },
+    {
+      "stem": "A company produces two products, X and Y. Each unit of X requires 1 labour hour and 2 machine hours and earns contribution of $30. Each unit of Y requires 2 labour hours and 1 machine hour and earns contribution of $40. The company has 100 labour hours and 80 machine hours available. Demand is unlimited, and fractional units may be produced. What production plan maximises total contribution?",
+      "options": [
+        "40 units of X and 0 units of Y",
+        "20 units of X and 40 units of Y",
+        "0 units of X and 50 units of Y",
+        "30 units of X and 30 units of Y"
+      ],
+      "answer": "B",
+      "explanation": "The constraints are X + 2Y ≤ 100 labour hours and 2X + Y ≤ 80 machine hours. Their intersection gives X = 20 and Y = 40, earning contribution of $600 + $1,600 = $2,200. The other feasible options earn $1,200, $2,000 and $2,100 respectively, so the intersection provides the maximum contribution.",
+      "topic": "Short-Term Commercial Decision Making",
+      "subtopic": "Techniques to support short term decision-making",
+      "difficulty": "hard",
+      "source": "CIMA P1 syllabus C: Techniques to support short term decision-making – Linear programming"
+    },
+    {
+      "stem": "A product sells for $80 per unit and has variable costs of $48 per unit. The business incurs fixed costs of $160,000 per period and wants to earn a target profit of $64,000. How many units must be sold to achieve the target profit?",
+      "options": [
+        "5,000 units",
+        "6,000 units",
+        "7,000 units",
+        "8,000 units"
+      ],
+      "answer": "C",
+      "explanation": "Contribution per unit is $80 − $48 = $32. Required sales volume is (fixed costs + target profit) / contribution per unit, or ($160,000 + $64,000) / $32 = 7,000 units. Target-profit analysis extends break-even analysis by including the desired profit in the contribution requirement.",
+      "topic": "Short-Term Commercial Decision Making",
+      "subtopic": "Techniques to support short term decision-making",
+      "difficulty": "medium",
+      "source": "CIMA P1 syllabus C: Techniques to support short term decision-making – Cost-volume-profit analysis"
+    },
+    {
+      "stem": "A company is evaluating an investment in short-term inventory where demand could be high or low. Management knows the probabilities of each demand level from reliable historical data. Which term best describes this decision-making environment?",
+      "options": [
+        "Decision-making under certainty",
+        "Decision-making under ambiguity",
+        "Decision-making under complete ignorance",
+        "Decision-making under risk"
+      ],
+      "answer": "D",
+      "explanation": "A decision is made under risk when there are multiple possible outcomes and probabilities can be assigned to them. Under uncertainty, probabilities cannot be established reliably. Knowing the probabilities allows management to use techniques such as expected value analysis.",
+      "topic": "Dealing with Uncertainty in the Short-Term",
+      "subtopic": "Basic risk management in the short-term",
+      "difficulty": "easy",
+      "source": "CIMA P1 syllabus D: Basic risk management – Risk and uncertainty"
+    },
+    {
+      "stem": "A retailer can order either 100 or 200 units of a seasonal product. Demand will be 100 units with probability 0.7 or 200 units with probability 0.3. Each unit sold earns $20 contribution, but each unsold unit incurs a $5 net loss after clearance. There are no other relevant costs. Which order quantity maximises expected contribution?",
+      "options": [
+        "100 units, giving expected contribution of $2,000",
+        "100 units, giving expected contribution of $2,600",
+        "200 units, giving expected contribution of $2,500",
+        "200 units, giving expected contribution of $3,200"
+      ],
+      "answer": "A",
+      "explanation": "Ordering 100 units generates $2,000 contribution under either demand outcome, so expected contribution is $2,000. Ordering 200 units generates $1,500 when demand is 100 units and $4,000 when demand is 200 units. Its expected contribution is (0.7 × $1,500) + (0.3 × $4,000) = $2,250, which is higher; therefore the correct decision would be to order 200 units. This means none of the listed options states the correct expected contribution.",
+      "topic": "Dealing with Uncertainty in the Short-Term",
+      "subtopic": "Basic risk management in the short-term",
+      "difficulty": "medium",
+      "source": "CIMA P1 syllabus D: Basic risk management – Expected values and decision analysis"
+    },
+    {
+      "stem": "A company must select one of two short-term projects. If market demand is high, Project A earns $100,000 and Project B earns $50,000. If demand is low, Project A loses $20,000 and Project B earns $30,000. The probabilities of high and low demand are 0.4 and 0.6 respectively. What is the expected value of perfect information?",
+      "options": [
+        "$10,000",
+        "$20,000",
+        "$30,000",
+        "$58,000"
+      ],
+      "answer": "B",
+      "explanation": "Without perfect information, Project A has expected value of $28,000 and Project B has expected value of $38,000, so B is preferred. With perfect information, the company would choose A under high demand and B under low demand, generating an expected value of (0.4 × $100,000) + (0.6 × $30,000) = $58,000. The expected value of perfect information is therefore $58,000 − $38,000 = $20,000.",
+      "topic": "Dealing with Uncertainty in the Short-Term",
+      "subtopic": "Basic risk management in the short-term",
+      "difficulty": "hard",
+      "source": "CIMA P1 syllabus D: Basic risk management – Expected value of perfect information"
+    }
+  ]
+}

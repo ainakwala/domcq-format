@@ -1,0 +1,48 @@
+{
+  "id": "cima-f1",
+  "display_name": "F1: Financial Reporting",
+  "body": "CIMA",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by The Chartered Institute of Management Accountants (CIMA) or the Association of International Certified Professional Accountants; the names are used only to identify the exam. CIMA® is a trademark of The Chartered Institute of Management Accountants, registered in the US, the EU, the UK and other countries. The topic names, subtopic names and weights are from the Operational level Examination Blueprint CIMA publishes; source: AICPA & CIMA, https://www.aicpa-cima.com.",
+  "taxonomy": {
+    "The Regulatory Environment of Financial Reporting": [
+      "Regulators and their role",
+      "Corporate governance principles and financial reporting"
+    ],
+    "Financial Statements": [
+      "The main elements of financial statements",
+      "Specific IFRS financial reporting standards",
+      "Financial reporting standards to prepare basic financial statements"
+    ],
+    "Principles of Taxation": [
+      "Different types of taxes",
+      "Tax for corporates",
+      "Relevant issues that affect taxation"
+    ],
+    "Managing Cash and Working Capital": [
+      "Types and sources of short term finance",
+      "Operating and cash cycles",
+      "Different techniques used to manage working capital"
+    ]
+  },
+  "weights": {
+    "The Regulatory Environment of Financial Reporting": 10,
+    "Financial Statements": 45,
+    "Principles of Taxation": 20,
+    "Managing Cash and Working Capital": 25
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": true,
+  "banned_option_text": ["all of the above", "none of the above"],
+  "stem_hints": [],
+  "uncovered_item_types": ["fill in the blank (number entry)", "drag and drop"],
+  "exam_mode": {
+    "questions": 60,
+    "minutes": 90
+  },
+  "verified_outline": "Operational level Examination Blueprint, Objective Tests from January 2026 to January 2027 (F1: Financial Reporting)",
+  "verified_on": "2026-10-27",
+  "next_review": "2027-01-01"
+}

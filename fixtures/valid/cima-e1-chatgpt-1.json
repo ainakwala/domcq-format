@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "cima-e1",
+  "set": "E1: Managing Finance in a Digital World practice – Digital Finance and Business",
+  "questions": [
+    {
+      "stem": "A manufacturing company is preparing its annual business plan. The finance team evaluates the expected financial consequences of alternative production volumes and recommends how the company's limited resources should be distributed. Which role of the finance function is MOST directly illustrated by recommending this distribution?",
+      "options": [
+        "Financial reporting",
+        "Performance control",
+        "Resource allocation",
+        "Transaction processing"
+      ],
+      "answer": "C",
+      "explanation": "Resource allocation involves advising how limited financial and other resources should be distributed among competing activities to support organisational objectives. Finance evaluates alternative uses of resources and their expected contribution to value creation. Financial reporting and performance control serve different purposes.",
+      "topic": "Role of the finance function",
+      "subtopic": "The roles of the finance function in organisations",
+      "difficulty": "easy",
+      "source": "CIMA E1 syllabus A1 – The roles of the finance function in organisations"
+    },
+    {
+      "stem": "A retailer is preparing a rolling cash flow forecast. Which TWO activities would finance professionals normally perform as part of this work? Choose TWO.",
+      "options": [
+        "Estimate future cash receipts using expected customer payment patterns",
+        "Authorise all marketing campaigns regardless of their financial implications",
+        "Determine employee performance ratings across operational departments",
+        "Estimate future cash payments using supplier terms and planned expenditure"
+      ],
+      "answer": "AD",
+      "explanation": "Cash flow forecasting requires estimating the timing and amount of future cash receipts and payments. Customer settlement patterns influence inflows, while supplier terms and planned expenditure influence outflows. Marketing authorisation and employee performance ratings are not inherently finance forecasting activities.",
+      "topic": "Role of the finance function",
+      "subtopic": "The activities that finance professionals perform to fulfil the roles",
+      "difficulty": "medium",
+      "source": "CIMA E1 syllabus A2 – Activities performed by finance professionals"
+    },
+    {
+      "stem": "A company reports that its operating profit is below budget. Its finance business partner investigates the causes, discusses corrective actions with departmental managers and monitors subsequent results. Which role of finance is MOST clearly demonstrated?",
+      "options": [
+        "External financial reporting",
+        "Performance management and control",
+        "Long-term corporate financing",
+        "Statutory compliance administration"
+      ],
+      "answer": "B",
+      "explanation": "Performance management and control involve comparing actual results with plans, investigating variances and supporting corrective action. The finance business partner uses performance information to help managers improve outcomes. This extends beyond merely recording or reporting financial results.",
+      "topic": "Role of the finance function",
+      "subtopic": "The roles of the finance function in organisations",
+      "difficulty": "easy",
+      "source": "CIMA E1 syllabus A1 – Planning, forecasting and performance management"
+    },
+    {
+      "stem": "A finance director is considering how the finance function can contribute to an organisation's long-term value creation. Which TWO activities BEST demonstrate finance acting as a strategic business partner rather than only a transaction processor? Choose TWO.",
+      "options": [
+        "Recording supplier invoices in the purchase ledger",
+        "Matching bank statement entries to cash book entries",
+        "Preparing routine payment files for authorised suppliers",
+        "Evaluating strategic investment alternatives with business managers"
+      ],
+      "answer": "D",
+      "explanation": "Evaluating strategic investments jointly with business managers is a business-partnering activity because it connects financial analysis to organisational decisions and future value creation. The other activities are routine financial operations. Only one option demonstrates strategic business partnering.",
+      "topic": "Role of the finance function",
+      "subtopic": "The activities that finance professionals perform to fulfil the roles",
+      "difficulty": "medium",
+      "source": "CIMA E1 syllabus A2 – Activities performed by finance professionals"
+    },
+    {
+      "stem": "A finance department wants to automatically extract information from supplier invoices and enter it into an accounting system using predefined rules. Which technology is MOST appropriate for automating repetitive, rules-based interactions with existing applications?",
+      "options": [
+        "Robotic process automation",
+        "Augmented reality technology",
+        "Three-dimensional printing",
+        "Geographic information systems"
+      ],
+      "answer": "A",
+      "explanation": "Robotic process automation uses software bots to perform repetitive, rules-based activities such as transferring invoice data between applications. It can reduce manual processing effort and improve consistency when processes are standardised. Complex exceptions may still require human judgement.",
+      "topic": "Technology in a Digital World",
+      "subtopic": "Technologies that affect business and finance",
+      "difficulty": "easy",
+      "source": "CIMA E1 syllabus B1 – Technologies that affect business and finance"
+    },
+    {
+      "stem": "An international organisation is considering a cloud-based financial reporting platform. Which TWO characteristics are commonly associated with cloud computing? Choose TWO.",
+      "options": [
+        "Every application must be installed on each employee's local computer",
+        "Computing capacity can be scaled as organisational demand changes",
+        "All information is automatically protected against every cyber threat",
+        "Users can access hosted services over a network with appropriate permissions"
+      ],
+      "answer": "BD",
+      "explanation": "Cloud computing allows organisations to access computing resources and applications over a network and to scale capacity according to requirements. Applications need not be installed separately on every user's computer. Cloud services still require appropriate security controls and access management.",
+      "topic": "Technology in a Digital World",
+      "subtopic": "Technologies that affect business and finance",
+      "difficulty": "medium",
+      "source": "CIMA E1 syllabus B1 – Digital technologies and cloud computing"
+    },
+    {
+      "stem": "A company's finance function is evaluating the use of machine learning to forecast customer payment delays. The proposed model would analyse historical payment behaviour and identify patterns. Which limitation creates the GREATEST risk of systematically misleading predictions?",
+      "options": [
+        "The model produces forecasts more frequently than the existing system",
+        "The model processes more transactions than finance staff could examine",
+        "The training data are unrepresentative of the customers being predicted",
+        "The forecasts are displayed graphically rather than in printed reports"
+      ],
+      "answer": "C",
+      "explanation": "Machine learning models depend on the relevance and quality of their training data. If historical observations are unrepresentative of the population being forecast, the model may learn patterns that do not generalise and produce systematically biased predictions. Processing speed and presentation format do not correct this underlying problem.",
+      "topic": "Technology in a Digital World",
+      "subtopic": "How the finance function uses digital technologies to fulfil its roles",
+      "difficulty": "hard",
+      "source": "CIMA E1 syllabus B2 – Using digital technologies in the finance function"
+    },
+    {
+      "stem": "A company wants a system in which approved participants maintain a shared record of transactions, with changes linked cryptographically so that unauthorised alterations are difficult to conceal. Which technology MOST directly supports this requirement?",
+      "options": [
+        "Optical character recognition",
+        "Robotic process automation",
+        "Enterprise resource planning",
+        "Distributed ledger technology"
+      ],
+      "answer": "D",
+      "explanation": "Distributed ledger technology maintains records across participating nodes, while cryptographic mechanisms can help make unauthorised changes detectable. Depending on its design, a permissioned ledger can restrict participation and transaction approval. It does not remove the need to verify whether information entered into the ledger is accurate.",
+      "topic": "Technology in a Digital World",
+      "subtopic": "Technologies that affect business and finance",
+      "difficulty": "medium",
+      "source": "CIMA E1 syllabus B1 – Blockchain and distributed ledger technologies"
+    },
+    {
+      "stem": "A finance analyst receives monthly sales files in which the same customer appears under several slightly different names. Before analysing total revenue by customer, which data-quality characteristic should the analyst address MOST directly?",
+      "options": [
+        "Uniqueness",
+        "Timeliness",
+        "Availability",
+        "Confidentiality"
+      ],
+      "answer": "A",
+      "explanation": "Uniqueness requires that the same real-world entity is not represented by unintended duplicate records. Different versions of a customer's name can cause revenue to be split across records or counted incorrectly. Identifying and resolving duplicates improves the reliability of customer-level analysis.",
+      "topic": "Data and Information in a Digital World",
+      "subtopic": "Data and the finance function",
+      "difficulty": "easy",
+      "source": "CIMA E1 syllabus C1 – Data and the finance function; data quality"
+    },
+    {
+      "stem": "A retailer combines historical transactions, weather observations and promotional information to examine why sales changed during the previous quarter. Which type of analytics is MOST directly involved when identifying factors associated with the historical changes?",
+      "options": [
+        "Prescriptive analytics",
+        "Diagnostic analytics",
+        "Predictive analytics",
+        "Descriptive analytics"
+      ],
+      "answer": "B",
+      "explanation": "Diagnostic analytics investigates why an outcome occurred by examining relationships and potential contributing factors in historical data. Descriptive analytics establishes what happened, predictive analytics estimates what may happen, and prescriptive analytics recommends actions. Identifying the causes of past sales changes is primarily diagnostic.",
+      "topic": "Data and Information in a Digital World",
+      "subtopic": "Data to create and preserve value for organisations",
+      "difficulty": "medium",
+      "source": "CIMA E1 syllabus C2 – Data analysis and creating organisational value"
+    },
+    {
+      "stem": "A finance team is preparing a business intelligence dashboard using sales data from several subsidiaries. The source systems use different currencies, product codes and date formats. Which TWO actions should normally occur before the combined information is used for group-level analysis? Choose TWO.",
+      "options": [
+        "Delete all transactions with values significantly above the average",
+        "Retain different product identifiers without documenting any relationships",
+        "Standardise relevant fields and measurement conventions",
+        "Reconcile transformed data against the underlying source records"
+      ],
+      "answer": "CD",
+      "explanation": "Data transformation should establish consistent currencies, classifications and formats so that records are comparable. Reconciliation helps establish that the transformation has not omitted, duplicated or misrepresented information. Unusual transactions should be investigated rather than automatically removed, and incompatible identifiers must be mapped appropriately.",
+      "topic": "Data and Information in a Digital World",
+      "subtopic": "Data to create and preserve value for organisations",
+      "difficulty": "hard",
+      "source": "CIMA E1 syllabus C2 – Data manipulation, transformation and validation"
+    },
+    {
+      "stem": "A finance department plans to introduce interactive dashboards containing employee-level payroll costs and departmental budgets. Senior managers need departmental summaries, while designated payroll staff require employee-level information. Which approach BEST balances usefulness with confidentiality?",
+      "options": [
+        "Allow every manager to download all employee-level records",
+        "Provide unrestricted access and rely on staff discretion",
+        "Remove all financial figures and show employee counts only",
+        "Apply role-based permissions with appropriate reporting detail"
+      ],
+      "answer": "D",
+      "explanation": "Role-based access control limits data visibility according to legitimate business responsibilities. Managers can receive useful aggregated information while authorised payroll staff retain access to detailed records necessary for their work. This supports confidentiality without eliminating the value of financial information.",
+      "topic": "Data and Information in a Digital World",
+      "subtopic": "Data to create and preserve value for organisations",
+      "difficulty": "medium",
+      "source": "CIMA E1 syllabus C2 – Data governance, security and information use"
+    },
+    {
+      "stem": "A multinational organisation moves routine accounts payable processing from individual country finance teams into one central unit serving the entire group. What is this organisational arrangement called?",
+      "options": [
+        "A strategic business partnership",
+        "A decentralised profit centre",
+        "A shared service centre",
+        "An independent audit committee"
+      ],
+      "answer": "C",
+      "explanation": "A shared service centre consolidates common activities that were previously performed separately in different business units or locations. This can create economies of scale, improve process consistency and support standardisation. The centre remains a service provider to the organisation's business units.",
+      "topic": "Shape and structure of the finance function",
+      "subtopic": "The structure and shape of the finance function",
+      "difficulty": "easy",
+      "source": "CIMA E1 syllabus D1 – Shared services and the structure of finance"
+    },
+    {
+      "stem": "An organisation automates much of its high-volume bookkeeping and develops a larger group of finance analysts who provide decision support. Which structural development is MOST consistent with this change?",
+      "options": [
+        "A return to a broad traditional pyramid with more clerical staff",
+        "A movement towards a diamond-shaped finance function",
+        "A complete elimination of specialist financial expertise",
+        "A replacement of business partnering with manual processing"
+      ],
+      "answer": "B",
+      "explanation": "Automation can reduce the number of people required for routine transaction processing while increasing the relative importance of analytical and business-partnering roles. This can produce a diamond-shaped finance function with a narrower transactional base and a broader middle layer. Specialist and senior finance responsibilities remain important.",
+      "topic": "Shape and structure of the finance function",
+      "subtopic": "The structure and shape of the finance function",
+      "difficulty": "medium",
+      "source": "CIMA E1 syllabus D1 – Evolution and shape of the finance function"
+    },
+    {
+      "stem": "A finance director is allocating responsibilities across operational processing, analytical support, specialist expertise and strategic leadership. Which TWO activities would MOST appropriately be assigned to the finance insight and analytical support level? Choose TWO.",
+      "options": [
+        "Analyse profitability trends to identify business performance drivers",
+        "Approve the organisation's overall corporate strategy independently",
+        "Provide managers with scenario analysis for operating decisions",
+        "Execute routine supplier payment runs according to approved schedules"
+      ],
+      "answer": "AC",
+      "explanation": "The insight and analytical support level interprets financial and operational information and provides analysis that helps managers make decisions. Profitability analysis and scenario modelling are typical activities at this level. Routine payment execution belongs to financial operations, while corporate strategy approval is a governance responsibility.",
+      "topic": "Shape and structure of the finance function",
+      "subtopic": "What each level of the finance function does",
+      "difficulty": "medium",
+      "source": "CIMA E1 syllabus D2 – Financial insight and levels of the finance function"
+    },
+    {
+      "stem": "A multinational company outsources transactional accounting to an external provider but retains financial planning, specialist tax advice and business partnering internally. During a review, the provider proposes changing the rules for approving unusual journal entries without involving the company. Which response BEST reflects effective governance of this finance operating model?",
+      "options": [
+        "Allow the provider to change approval rules because processing is outsourced",
+        "Transfer all responsibility for internal controls to the external provider",
+        "Discontinue oversight of journal entries once service targets are achieved",
+        "Retain control ownership and require approval of changes to key controls"
+      ],
+      "answer": "D",
+      "explanation": "Outsourcing transaction processing does not transfer ultimate accountability for the organisation's financial reporting and control environment. The retained finance function should establish control ownership, approval requirements and monitoring arrangements. Changes affecting journal approval controls therefore require appropriate organisational authorisation.",
+      "topic": "Shape and structure of the finance function",
+      "subtopic": "The structure and shape of the finance function",
+      "difficulty": "hard",
+      "source": "CIMA E1 syllabus D1–D2 – Outsourcing, retained finance and control responsibilities"
+    },
+    {
+      "stem": "A manufacturing manager asks finance to help determine why production costs have increased despite unchanged output volumes. Which activity BEST demonstrates effective interaction between finance and operations?",
+      "options": [
+        "Review material usage, labour efficiency and overhead costs with operations",
+        "Change the company's corporate identity to support stronger branding",
+        "Replace the human resources appraisal process without consulting HR",
+        "Prepare an investor relations presentation without operational input"
+      ],
+      "answer": "A",
+      "explanation": "Finance supports operations by analysing the cost and performance consequences of operational activities. Reviewing resource consumption, efficiency and overhead costs with operational managers helps identify the sources of cost increases. The resulting information can support targeted corrective action.",
+      "topic": "Finance Interacting with the Organisation",
+      "subtopic": "The finance function’s relationship to operations",
+      "difficulty": "easy",
+      "source": "CIMA E1 syllabus E1 – How finance interacts with operations"
+    },
+    {
+      "stem": "The marketing department proposes a substantial discount campaign to increase sales. Finance is asked to evaluate the proposal before launch. Which analysis would MOST directly establish whether the discount is expected to improve short-term operating profit?",
+      "options": [
+        "Compare total advertising expenditure with last year's marketing budget",
+        "Calculate the increase in customer enquiries expected from the campaign",
+        "Estimate incremental contribution after changes in price, volume and costs",
+        "Calculate the market share of the company's largest competitor"
+      ],
+      "answer": "C",
+      "explanation": "Discounting reduces revenue per unit and may increase sales volume and associated variable costs. Incremental contribution analysis combines these effects and accounts for relevant additional campaign costs to determine the expected profit impact. Customer enquiries and market share alone do not establish financial profitability.",
+      "topic": "Finance Interacting with the Organisation",
+      "subtopic": "The finance function’s relationship to sales and marketing",
+      "difficulty": "medium",
+      "source": "CIMA E1 syllabus E2 – Finance interaction with sales and marketing"
+    },
+    {
+      "stem": "A company is considering a staff development programme intended to improve employee productivity and reduce staff turnover. Which TWO types of information should finance obtain from human resources to evaluate the programme's financial impact? Choose TWO.",
+      "options": [
+        "The preferred colour scheme for training presentations",
+        "Historical staff turnover rates and replacement costs",
+        "The personal leisure preferences of department managers",
+        "Expected changes in employee productivity following training"
+      ],
+      "answer": "BD",
+      "explanation": "Finance and HR can evaluate training investments by estimating benefits such as lower recruitment and replacement costs and improved productivity. Historical turnover information provides a basis for assessing possible retention benefits, while productivity estimates support financial modelling. Unrelated personal preferences do not provide relevant financial evidence.",
+      "topic": "Finance Interacting with the Organisation",
+      "subtopic": "The finance function’s relationship to human resources",
+      "difficulty": "medium",
+      "source": "CIMA E1 syllabus E3 – Finance interaction with human resources"
+    },
+    {
+      "stem": "A business is introducing an integrated finance system connected to purchasing, inventory and payroll applications. IT is responsible for configuring system access, while finance is responsible for financial controls and reporting requirements. The proposed configuration allows purchasing staff to create suppliers, enter invoices and approve payments. What should finance and IT do FIRST to address the resulting control risk?",
+      "options": [
+        "Accept the configuration because the system records an audit trail",
+        "Separate incompatible access permissions and define exception controls",
+        "Give all purchasing employees administrator access to improve flexibility",
+        "Disable interfaces between purchasing and finance to prevent every error"
+      ],
+      "answer": "B",
+      "explanation": "Allowing the same person to create suppliers, record invoices and approve payments creates a significant segregation-of-duties risk. Finance should define appropriate control requirements, while IT implements access restrictions and any necessary compensating controls for justified exceptions. An audit trail helps detection but does not replace preventive controls.",
+      "topic": "Finance Interacting with the Organisation",
+      "subtopic": "The finance function’s relationship to IT",
+      "difficulty": "hard",
+      "source": "CIMA E1 syllabus E4 – Finance interaction with IT; systems controls and access"
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "cima-f1",
+  "set": "F1: Financial Reporting practice – Comprehensive Syllabus Review",
+  "questions": [
+    {
+      "stem": "An international company prepares its financial statements in accordance with IFRS Accounting Standards. Which organisation is primarily responsible for developing and issuing these standards?",
+      "options": [
+        "The International Organization of Securities Commissions (IOSCO)",
+        "The International Accounting Standards Board (IASB)",
+        "The International Federation of Accountants (IFAC)",
+        "The International Auditing and Assurance Standards Board (IAASB)"
+      ],
+      "answer": "B",
+      "explanation": "The IASB develops and issues IFRS Accounting Standards under the oversight of the IFRS Foundation. IOSCO promotes cooperation among securities regulators, while IFAC represents the accountancy profession and the IAASB develops auditing and assurance standards.",
+      "topic": "The Regulatory Environment of Financial Reporting",
+      "subtopic": "Regulators and their role",
+      "difficulty": "easy",
+      "source": "CIMA F1 Syllabus A1: Regulators and their role"
+    },
+    {
+      "stem": "A listed company is reviewing its corporate governance arrangements following concerns about the independence of its financial reporting oversight. Which TWO measures would most directly strengthen independent oversight of the financial reporting process? Choose TWO.",
+      "options": [
+        "Appoint the chief financial officer as chair of the audit committee",
+        "Delegate approval of accounting policies entirely to the finance director",
+        "Establish an audit committee composed of independent non-executive directors",
+        "Require the audit committee to review significant accounting judgements"
+      ],
+      "answer": "CD",
+      "explanation": "An audit committee with independent non-executive directors can provide objective oversight of financial reporting. Reviewing significant accounting judgements helps the committee challenge management and assess reporting quality. Executive control over the audit committee or its key decisions would weaken independence.",
+      "topic": "The Regulatory Environment of Financial Reporting",
+      "subtopic": "Corporate governance principles and financial reporting",
+      "difficulty": "medium",
+      "source": "CIMA F1 Syllabus A2: Corporate governance principles and financial reporting"
+    },
+    {
+      "stem": "A company receives $80,000 from a customer on 28 December 20X5 for goods that will be delivered in February 20X6. Its reporting date is 31 December 20X5. The company has not yet transferred control of the goods. How should the $80,000 be reported at the reporting date?",
+      "options": [
+        "As a current liability representing an obligation to supply goods",
+        "As revenue recognised when the customer makes the payment",
+        "As a trade receivable until the goods have been delivered",
+        "As other comprehensive income until the delivery takes place"
+      ],
+      "answer": "A",
+      "explanation": "Under IFRS 15, advance consideration received before performance creates a contract liability. Revenue is recognised when the entity satisfies its performance obligation by transferring control of the goods. Receiving cash does not, by itself, establish that revenue has been earned.",
+      "topic": "Financial Statements",
+      "subtopic": "The main elements of financial statements",
+      "difficulty": "easy",
+      "source": "IFRS 15: Contract liabilities and revenue recognition"
+    },
+    {
+      "stem": "On 1 January 20X5, a company purchases equipment for $240,000, with an estimated residual value of $24,000 and a useful life of six years. The equipment is available for use immediately, and the company applies straight-line depreciation. What is the carrying amount of the equipment at 31 December 20X6, assuming no impairment?",
+      "options": [
+        "$144,000",
+        "$156,000",
+        "$168,000",
+        "$192,000"
+      ],
+      "answer": "C",
+      "explanation": "The annual depreciation charge is ($240,000 - $24,000) / 6 = $36,000. Two years of depreciation total $72,000, leaving a carrying amount of $168,000. Under IAS 16, depreciable amount is cost less estimated residual value.",
+      "topic": "Financial Statements",
+      "subtopic": "Specific IFRS financial reporting standards",
+      "difficulty": "medium",
+      "source": "IAS 16: Property, Plant and Equipment – Depreciation"
+    },
+    {
+      "stem": "At 31 December 20X5, a retailer holds inventory with a purchase cost of $75,000. The expected selling price is $82,000, estimated selling costs are $9,000, and estimated costs necessary to complete the goods are $4,000. Under IAS 2, at what amount should the inventory be reported?",
+      "options": [
+        "$69,000",
+        "$73,000",
+        "$75,000",
+        "$82,000"
+      ],
+      "answer": "A",
+      "explanation": "IAS 2 requires inventory to be measured at the lower of cost and net realisable value. Net realisable value is $82,000 - $9,000 - $4,000 = $69,000. Because this is below the $75,000 cost, the inventory must be written down to $69,000.",
+      "topic": "Financial Statements",
+      "subtopic": "Specific IFRS financial reporting standards",
+      "difficulty": "medium",
+      "source": "IAS 2: Inventories – Lower of cost and net realisable value"
+    },
+    {
+      "stem": "A company is preparing its statement of cash flows using the indirect method in accordance with IAS 7. Profit before tax is $180,000, depreciation is $25,000, trade receivables have increased by $18,000, and trade payables have increased by $12,000. Assume these are the only adjustments required. What is cash generated from operations before interest and tax payments?",
+      "options": [
+        "$173,000",
+        "$185,000",
+        "$199,000",
+        "$235,000"
+      ],
+      "answer": "C",
+      "explanation": "Starting with profit before tax, depreciation is added back because it is a non-cash expense. The increase in receivables is deducted because it represents revenue not yet collected, while the increase in payables is added because it reduces cash paid to suppliers. Cash generated is $180,000 + $25,000 - $18,000 + $12,000 = $199,000.",
+      "topic": "Financial Statements",
+      "subtopic": "Financial reporting standards to prepare basic financial statements",
+      "difficulty": "medium",
+      "source": "IAS 7: Statement of Cash Flows – Indirect method"
+    },
+    {
+      "stem": "A company purchases machinery on 1 January 20X5 for $500,000. The machinery has a five-year useful life, no residual value and is depreciated using the straight-line method. At 31 December 20X5, after depreciation, its recoverable amount is $340,000. At 31 December 20X6, its recoverable amount has increased to $390,000. There have been no changes in estimated useful life or residual value. Under IAS 36, what is the machinery's carrying amount at 31 December 20X6?",
+      "options": [
+        "$255,000",
+        "$305,000",
+        "$320,000",
+        "$390,000"
+      ],
+      "answer": "C",
+      "explanation": "At the end of 20X5, depreciation reduces carrying amount to $400,000 and the asset is impaired to $340,000. Depreciation for 20X6 is $340,000 / 4 = $85,000, producing a carrying amount of $255,000 before reversal. The reversal is limited to the $300,000 carrying amount that would have existed without impairment, so the final amount is $300,000.",
+      "topic": "Financial Statements",
+      "subtopic": "Specific IFRS financial reporting standards",
+      "difficulty": "hard",
+      "source": "IAS 36: Impairment of Assets – Reversal of impairment losses"
+    },
+    {
+      "stem": "A company signs a four-year lease for a warehouse. The lease does not qualify for the short-term or low-value recognition exemptions under IFRS 16. At commencement, which TWO items must the lessee generally recognise? Choose TWO.",
+      "options": [
+        "A right-of-use asset",
+        "A lease liability",
+        "An immediate expense for all four years of lease payments",
+        "An intangible asset representing ownership of the warehouse"
+      ],
+      "answer": "AB",
+      "explanation": "IFRS 16 generally requires lessees to recognise a right-of-use asset representing the right to use the underlying asset and a lease liability representing the obligation to make lease payments. The right-of-use asset is subsequently depreciated and interest is recognised on the lease liability. The lessee does not thereby acquire ownership of the warehouse.",
+      "topic": "Financial Statements",
+      "subtopic": "Specific IFRS financial reporting standards",
+      "difficulty": "easy",
+      "source": "IFRS 16: Leases – Lessee recognition and measurement"
+    },
+    {
+      "stem": "A company has a reporting date of 31 December 20X5. On 20 January 20X6, before the financial statements are authorised for issue, a customer owing $90,000 is declared bankrupt. Financial difficulties existed at 31 December 20X5, and the bankruptcy confirms that the receivable was already credit-impaired at that date. What is the appropriate treatment?",
+      "options": [
+        "Disclose the bankruptcy without adjusting the receivable",
+        "Recognise the impairment only in the financial statements for 20X6",
+        "Recognise the loss directly in other comprehensive income",
+        "Adjust the receivable impairment in the financial statements for 20X5"
+      ],
+      "answer": "D",
+      "explanation": "Under IAS 10, an adjusting event provides evidence of conditions that existed at the reporting date. Bankruptcy occurring after year-end can confirm that a receivable was credit-impaired at year-end. The company must therefore adjust the 20X5 financial statements for the appropriate impairment.",
+      "topic": "Financial Statements",
+      "subtopic": "Specific IFRS financial reporting standards",
+      "difficulty": "medium",
+      "source": "IAS 10: Events after the Reporting Period – Adjusting events"
+    },
+    {
+      "stem": "An entity has the following balances at 31 December 20X5: ordinary share capital $300,000, share premium $70,000, retained earnings $125,000, revaluation surplus $45,000 and a five-year bank loan $180,000. What is the total equity reported in its statement of financial position?",
+      "options": [
+        "$495,000",
+        "$540,000",
+        "$610,000",
+        "$720,000"
+      ],
+      "answer": "B",
+      "explanation": "Total equity comprises ordinary share capital, share premium, retained earnings and the revaluation surplus. Their total is $300,000 + $70,000 + $125,000 + $45,000 = $540,000. The bank loan is a financial liability, not part of equity.",
+      "topic": "Financial Statements",
+      "subtopic": "Financial reporting standards to prepare basic financial statements",
+      "difficulty": "easy",
+      "source": "IAS 1: Presentation of Financial Statements – Equity components"
+    },
+    {
+      "stem": "A company owns a building that originally cost $600,000. Accumulated depreciation immediately before revaluation is $120,000. On 31 December 20X5, the building is revalued to $550,000 under the IAS 16 revaluation model. There have been no previous revaluations or impairment losses. How should the revaluation be recognised?",
+      "options": [
+        "Recognise a $50,000 gain in profit or loss",
+        "Recognise a $70,000 gain in profit or loss",
+        "Recognise a $70,000 gain in other comprehensive income",
+        "Recognise a $120,000 gain in other comprehensive income"
+      ],
+      "answer": "C",
+      "explanation": "Before revaluation, the carrying amount is $600,000 - $120,000 = $480,000. The increase to $550,000 is therefore $70,000. Under IAS 16, a revaluation increase is generally recognised in other comprehensive income and accumulated in the revaluation surplus, unless it reverses a previous revaluation decrease recognised in profit or loss.",
+      "topic": "Financial Statements",
+      "subtopic": "Specific IFRS financial reporting standards",
+      "difficulty": "medium",
+      "source": "IAS 16: Property, Plant and Equipment – Revaluation model"
+    },
+    {
+      "stem": "An entity reports current assets of $400,000 and current liabilities of $250,000 at 31 December 20X5. Its current assets include inventory of $110,000 and prepayments of $20,000. All remaining current assets are cash or trade receivables. What is its quick ratio at that date?",
+      "options": [
+        "0.92:1",
+        "1.00:1",
+        "1.08:1",
+        "1.60:1"
+      ],
+      "answer": "C",
+      "explanation": "The quick ratio excludes inventory and prepayments because these assets are not readily available to settle current liabilities. Quick assets are $400,000 - $110,000 - $20,000 = $270,000. Dividing by current liabilities of $250,000 gives a quick ratio of 1.08:1.",
+      "topic": "Financial Statements",
+      "subtopic": "The main elements of financial statements",
+      "difficulty": "medium",
+      "source": "CIMA F1: Financial statement analysis – Liquidity ratios"
+    },
+    {
+      "stem": "A government imposes a tax on the sale of goods. Registered businesses collect the tax from customers and normally recover tax paid on eligible business purchases. Which type of tax best describes this arrangement?",
+      "options": [
+        "A direct tax on business profits",
+        "An indirect tax on consumption",
+        "A direct tax on company capital",
+        "An indirect tax on employment income"
+      ],
+      "answer": "B",
+      "explanation": "Value added tax or a similar goods and services tax is an indirect consumption tax. Registered businesses generally collect output tax and recover eligible input tax, passing the net amount to the tax authority. The final burden is normally borne by consumers who cannot recover the tax.",
+      "topic": "Principles of Taxation",
+      "subtopic": "Different types of taxes",
+      "difficulty": "easy",
+      "source": "CIMA F1 Syllabus C1: Different types of taxes – Indirect taxation"
+    },
+    {
+      "stem": "A company has an accounting profit before tax of $800,000. The profit includes depreciation of $90,000, which is not deductible for tax purposes, and an expense of $20,000 that is permanently disallowed for tax. Tax legislation permits capital allowances of $130,000 for the year. Assume there are no other adjustments, losses or reliefs. If the corporate income tax rate is 25%, what is the company's current tax liability?",
+      "options": [
+        "$190,000",
+        "$195,000",
+        "$200,000",
+        "$205,000"
+      ],
+      "answer": "B",
+      "explanation": "Taxable profit is calculated by adding back non-deductible depreciation and the permanently disallowed expense, then deducting capital allowances. This gives $800,000 + $90,000 + $20,000 - $130,000 = $780,000. Current tax is therefore $780,000 × 25% = $195,000.",
+      "topic": "Principles of Taxation",
+      "subtopic": "Tax for corporates",
+      "difficulty": "medium",
+      "source": "CIMA F1 Syllabus C2: Corporate taxation – Adjusted taxable profits"
+    },
+    {
+      "stem": "A company operating in two countries sells goods from its subsidiary in Country A to its related subsidiary in Country B. The subsidiaries agree on a transfer price substantially below the price charged to independent customers for comparable transactions. Both countries apply the arm's length principle. Which TWO statements correctly describe the potential tax implications? Choose TWO.",
+      "options": [
+        "Tax authorities may adjust the transfer price to an arm's length amount",
+        "Related companies are automatically exempt from transfer pricing requirements",
+        "The agreed transfer price must be accepted because both subsidiaries consented",
+        "A transfer pricing adjustment may change the taxable profit allocated between countries"
+      ],
+      "answer": "AD",
+      "explanation": "The arm's length principle generally requires transactions between related parties to be priced consistently with comparable transactions between independent parties. Tax authorities may adjust non-arm's-length prices, changing the taxable profits reported in the relevant countries. Agreement between group companies does not remove transfer pricing obligations.",
+      "topic": "Principles of Taxation",
+      "subtopic": "Relevant issues that affect taxation",
+      "difficulty": "medium",
+      "source": "CIMA F1 Syllabus C3: International taxation – Transfer pricing"
+    },
+    {
+      "stem": "A company has equipment with a carrying amount of $420,000 at the reporting date and a tax base of $300,000. The applicable corporate income tax rate is 30%. Assume the difference is taxable, the company expects to recover the equipment's carrying amount through use, and no exemption applies. Under IAS 12, what deferred tax balance arises from this equipment?",
+      "options": [
+        "A deferred tax asset of $36,000",
+        "A deferred tax asset of $126,000",
+        "A deferred tax liability of $90,000",
+        "A deferred tax liability of $36,000"
+      ],
+      "answer": "D",
+      "explanation": "The equipment gives rise to a taxable temporary difference of $420,000 - $300,000 = $120,000. Applying the 30% tax rate produces a deferred tax liability of $36,000. The liability reflects the future tax consequences of recovering a carrying amount that exceeds the asset's tax base.",
+      "topic": "Principles of Taxation",
+      "subtopic": "Tax for corporates",
+      "difficulty": "hard",
+      "source": "IAS 12: Income Taxes – Taxable temporary differences and deferred tax liabilities"
+    },
+    {
+      "stem": "A manufacturing company holds inventory for an average of 50 days, takes 35 days to collect receivables and pays suppliers after an average of 40 days. Assuming these periods are measured consistently, what is the company's cash operating cycle?",
+      "options": [
+        "45 days",
+        "50 days",
+        "85 days",
+        "125 days"
+      ],
+      "answer": "A",
+      "explanation": "The cash operating cycle measures the time between paying suppliers and collecting cash from customers. It is calculated as inventory days plus receivables days minus payables days. The cycle is therefore 50 + 35 - 40 = 45 days.",
+      "topic": "Managing Cash and Working Capital",
+      "subtopic": "Operating and cash cycles",
+      "difficulty": "easy",
+      "source": "CIMA F1 Syllabus D2: Operating and cash cycles"
+    },
+    {
+      "stem": "A profitable business expects a temporary cash deficit lasting approximately six weeks because customer receipts are delayed. It already has an approved bank overdraft facility, and the expected deficit is within its agreed limit. Which financing source is most suitable for meeting this temporary requirement?",
+      "options": [
+        "Issue additional ordinary shares to existing shareholders",
+        "Arrange a fifteen-year secured loan to finance working capital",
+        "Use the existing bank overdraft to cover the temporary shortage",
+        "Issue long-term corporate bonds to finance the cash deficit"
+      ],
+      "answer": "C",
+      "explanation": "A bank overdraft is a flexible source of short-term finance that can meet temporary fluctuations in working capital. The company can draw on the approved facility and reduce the balance when customer receipts arrive. Long-term debt or equity financing would generally be inappropriate for such a brief cash requirement.",
+      "topic": "Managing Cash and Working Capital",
+      "subtopic": "Types and sources of short term finance",
+      "difficulty": "medium",
+      "source": "CIMA F1 Syllabus D1: Types and sources of short-term finance"
+    },
+    {
+      "stem": "A supplier offers a company credit terms of 2/10, net 40, meaning that a 2% discount is available if payment is made within 10 days; otherwise the full amount is payable after 40 days. Assume a 365-day year and simple annualisation. What is the approximate annualised cost of declining the discount?",
+      "options": [
+        "12.4%",
+        "18.6%",
+        "24.8%",
+        "31.7%"
+      ],
+      "answer": "C",
+      "explanation": "Declining the discount means paying an additional 2 for every 98 that could have been paid on day 10, in exchange for 30 extra days of credit. The simple annualised cost is (2 / 98) × (365 / 30) × 100 = approximately 24.8%. This effective cost of trade credit should be compared with alternative short-term financing costs.",
+      "topic": "Managing Cash and Working Capital",
+      "subtopic": "Different techniques used to manage working capital",
+      "difficulty": "hard",
+      "source": "CIMA F1 Syllabus D3: Working capital management – Trade credit discounts"
+    },
+    {
+      "stem": "A business sells 60,000 units annually and purchases inventory in equal-sized orders. Each order costs $45 to place, and annual inventory holding cost is $3 per unit. Assume constant demand, instantaneous replenishment, no quantity discounts and no shortages. Using the economic order quantity model, what order quantity minimises total ordering and holding costs?",
+      "options": [
+        "900 units",
+        "1,200 units",
+        "1,342 units",
+        "1,800 units"
+      ],
+      "answer": "C",
+      "explanation": "The economic order quantity is the square root of (2 × annual demand × ordering cost / annual holding cost per unit). Substituting the figures gives the square root of (2 × 60,000 × $45 / $3), or approximately 1,342 units. At this order size, annual ordering and holding costs are balanced, minimising their combined total under the model's assumptions.",
+      "topic": "Managing Cash and Working Capital",
+      "subtopic": "Different techniques used to manage working capital",
+      "difficulty": "hard",
+      "source": "CIMA F1 Syllabus D3: Inventory management – Economic order quantity"
+    }
+  ]
+}
