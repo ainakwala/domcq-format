@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "financial-planner-exam",
+  "set": "CFP Certification Examination practice – Integrated Financial Planning",
+  "questions": [
+    {
+      "stem": "A CFP professional recommends a variable annuity to a client despite knowing that a lower-cost investment portfolio would better meet the client's objectives. The annuity pays the CFP professional a higher commission. The professional fully discloses the commission and obtains the client's informed consent. Under CFP Board's Standards of Conduct, which statement is most accurate?",
+      "options": [
+        "The recommendation is permissible because the client provided informed consent.",
+        "The recommendation violates the fiduciary duty because disclosure does not eliminate the obligation to act in the client's best interests.",
+        "The recommendation is permissible if the annuity provider meets applicable financial strength requirements.",
+        "The recommendation violates the standards only if the client subsequently experiences a financial loss."
+      ],
+      "answer": "B",
+      "explanation": "CFP professionals owe a fiduciary duty whenever providing financial advice to a client. Although material conflicts must be disclosed, informed consent obtained, and conflicts properly managed, these steps do not eliminate the obligation to place the client's interests first. Recommending an unsuitable higher-commission product when a better alternative is known violates that obligation.",
+      "topic": "Professional Conduct and Regulation",
+      "subtopic": "Fiduciary standard and application",
+      "difficulty": "medium",
+      "source": "CFP Board Code of Ethics and Standards of Conduct, Standard A.1, Fiduciary Duty"
+    },
+    {
+      "stem": "A CFP professional is beginning an engagement that includes evaluating a client's retirement savings, investment portfolio, insurance coverage, and estate planning needs. Which action is most consistent with CFP Board's financial planning standards before developing recommendations?",
+      "options": [
+        "Implement the investment strategy before reviewing the client's other financial circumstances.",
+        "Limit the engagement to investment products with readily available performance information.",
+        "Develop recommendations using standard assumptions without obtaining client-specific information.",
+        "Understand the client's personal and financial circumstances and identify and select goals with the client.",
+      ],
+      "answer": "D",
+      "explanation": "Financial planning begins with understanding the client's circumstances and identifying and selecting goals. These activities provide the foundation for analyzing the client's current course of action and developing appropriate recommendations. Recommendations made without sufficient client-specific information may fail to address the client's actual needs.",
+      "topic": "Professional Conduct and Regulation",
+      "subtopic": "CFP Board's Code of Ethics and Standards of Conduct",
+      "difficulty": "easy",
+      "source": "CFP Board Standards of Conduct, Section B, Financial Planning and Application of the Practice Standards"
+    },
+    {
+      "stem": "A client has total assets of $850,000, total liabilities of $310,000, annual gross income of $180,000, and annual living expenses of $120,000. What is the client's net worth?",
+      "options": [
+        "$540,000",
+        "$670,000",
+        "$720,000",
+        "$850,000"
+      ],
+      "answer": "A",
+      "explanation": "Net worth equals total assets minus total liabilities. Therefore, $850,000 minus $310,000 equals $540,000. Income and living expenses affect cash flow but do not directly enter the net worth calculation.",
+      "topic": "General Principles of Financial Planning",
+      "subtopic": "Financial statements",
+      "difficulty": "easy",
+      "source": "CFP Board Principal Knowledge Topics, General Principles of Financial Planning: Financial statements"
+    },
+    {
+      "stem": "A client wants to accumulate $100,000 in five years for a home down payment. The client currently has $60,000 invested in an account earning a guaranteed 5% annual effective return, compounded annually. Assuming no additional contributions, approximately how much will the account contain after five years?",
+      "options": [
+        "$72,000",
+        "$74,400",
+        "$76,577",
+        "$81,000"
+      ],
+      "answer": "C",
+      "explanation": "The future value is calculated as $60,000 multiplied by (1.05)^5, which equals approximately $76,577. The account will fall short of the $100,000 goal without additional contributions or a change in assumptions. This illustrates how compound growth is incorporated into financial planning projections.",
+      "topic": "General Principles of Financial Planning",
+      "subtopic": "Time value of money concepts and calculations",
+      "difficulty": "medium",
+      "source": "CFP Board Principal Knowledge Topics, General Principles of Financial Planning: Time value of money concepts and calculations"
+    },
+    {
+      "stem": "A parent established a Section 529 education savings account 18 years ago for a child who has now completed college. The account has $45,000 remaining, consisting entirely of contributions and earnings attributable to contributions made more than five years ago. The child has earned income, no other IRA contributions, and is eligible to contribute to a Roth IRA. Under the special 529-to-Roth IRA rollover rules, which statement is correct?",
+      "options": [
+        "The entire $45,000 can be transferred tax-free in one year because the account is older than 15 years.",
+        "Up to $35,000 may be transferred over time, subject to annual Roth IRA contribution limits and other applicable requirements.",
+        "Only the original contributions can be transferred because investment earnings are always taxable.",
+        "The funds can be transferred to the parent's Roth IRA because the parent established the 529 account."
+      ],
+      "answer": "B",
+      "explanation": "Qualifying 529 funds may be rolled directly into a Roth IRA maintained for the 529 beneficiary, subject to a $35,000 lifetime limit and annual Roth IRA contribution limits. The 529 account must satisfy the 15-year requirement, and amounts attributable to contributions made during the preceding five years are excluded. The special rollover does not permit transferring the funds to the parent's Roth IRA merely because the parent established the account.",
+      "topic": "General Principles of Financial Planning",
+      "subtopic": "Education savings vehicles",
+      "difficulty": "hard",
+      "source": "IRS Publication 970, Tax Benefits for Education; IRS Publication 590-A, Qualified tuition program rollover to a Roth IRA"
+    },
+    {
+      "stem": "A 35-year-old client has a spouse, two young children, a mortgage, and limited savings. The client wants life insurance that provides substantial death benefit protection at a relatively low initial premium for the next 20 years. Which type of policy is generally most appropriate?",
+      "options": [
+        "Single-premium whole life insurance",
+        "Variable universal life insurance",
+        "Participating whole life insurance",
+        "Level term life insurance"
+      ],
+      "answer": "D",
+      "explanation": "Level term life insurance provides a fixed death benefit for a specified period, typically at a lower initial premium than comparable permanent coverage. It is particularly useful for protecting dependents during years when financial obligations are highest. Unlike permanent insurance, term insurance generally does not accumulate cash value.",
+      "topic": "Risk Management and Insurance Planning",
+      "subtopic": "Life insurance (individual and group)",
+      "difficulty": "easy",
+      "source": "CFP Board Principal Knowledge Topics, Risk Management and Insurance Planning: Life insurance"
+    },
+    {
+      "stem": "A self-employed consultant earns $150,000 annually and is purchasing an individual disability income insurance policy. The consultant wants to ensure that benefits remain available if a medical condition prevents performing the substantial and material duties of the consultant's own occupation, even if the consultant could work in another occupation. Which policy definition best meets this objective?",
+      "options": [
+        "An own-occupation disability definition",
+        "An any-occupation disability definition",
+        "A presumptive disability definition only",
+        "A residual disability definition only"
+      ],
+      "answer": "A",
+      "explanation": "An own-occupation definition generally provides benefits when the insured cannot perform the substantial and material duties of the insured's regular occupation, subject to the policy's precise terms. An any-occupation definition is more restrictive because it considers the insured's ability to perform other work. Presumptive and residual disability provisions address different circumstances and are not substitutes for the requested occupational definition.",
+      "topic": "Risk Management and Insurance Planning",
+      "subtopic": "Disability income insurance (individual and group)",
+      "difficulty": "medium",
+      "source": "CFP Board Principal Knowledge Topics, Risk Management and Insurance Planning: Disability income insurance"
+    },
+    {
+      "stem": "An investor holds shares in a diversified equity mutual fund. Which type of risk generally cannot be eliminated through diversification across individual stocks?",
+      "options": [
+        "Company-specific management risk",
+        "Individual company litigation risk",
+        "Systematic market risk",
+        "Single-company operational risk"
+      ],
+      "answer": "C",
+      "explanation": "Systematic risk affects the overall market and cannot be eliminated merely by holding more individual securities. Diversification can substantially reduce unsystematic risks associated with specific companies or industries. Market beta is commonly used to measure a security's sensitivity to systematic equity market risk.",
+      "topic": "Investment Planning",
+      "subtopic": "Types of investment risk",
+      "difficulty": "easy",
+      "source": "CFP Board Principal Knowledge Topics, Investment Planning: Types of investment risk"
+    },
+    {
+      "stem": "An investor has a portfolio consisting of 60% equities and 40% bonds. The equities have an expected annual return of 9%, and the bonds have an expected annual return of 4%. Assuming these expectations remain unchanged and ignoring fees, what is the portfolio's expected annual return?",
+      "options": [
+        "5.0%",
+        "7.0%",
+        "7.5%",
+        "8.0%"
+      ],
+      "answer": "B",
+      "explanation": "The expected portfolio return is the weighted average of the component returns. It equals (0.60 × 9%) + (0.40 × 4%) = 7.0%. The calculation does not require correlation information, although correlation is important when determining portfolio risk.",
+      "topic": "Investment Planning",
+      "subtopic": "Quantitative investment concepts and measures of investment returns",
+      "difficulty": "medium",
+      "source": "CFP Board Principal Knowledge Topics, Investment Planning: Quantitative investment concepts and measures of investment returns"
+    },
+    {
+      "stem": "A portfolio consists of two risky assets, A and B, each representing 50% of the portfolio. Asset A has an annual standard deviation of 20%, and Asset B has an annual standard deviation of 10%. The correlation between their returns is -0.50. Assuming these inputs accurately represent the assets' return distributions, what is the portfolio's annual standard deviation?",
+      "options": [
+        "Approximately 8.66%",
+        "Approximately 10.00%",
+        "Approximately 11.18%",
+        "Approximately 15.00%"
+      ],
+      "answer": "A",
+      "explanation": "Portfolio variance equals (0.5² × 0.20²) + (0.5² × 0.10²) + 2(0.5)(0.5)(0.20)(0.10)(-0.50), or 0.0075. The square root gives a standard deviation of approximately 8.66%. The negative correlation reduces portfolio volatility below what would result from perfectly positively correlated returns.",
+      "topic": "Investment Planning",
+      "subtopic": "Asset allocation and portfolio diversification",
+      "difficulty": "hard",
+      "source": "CFP Board Principal Knowledge Topics, Investment Planning: Asset allocation and portfolio diversification"
+    },
+    {
+      "stem": "An individual purchased publicly traded stock for $40,000 and sold it 15 months later for $55,000. The individual incurred $1,000 in selling commissions and has no other adjustments to basis. What is the recognized long-term capital gain?",
+      "options": [
+        "$13,000",
+        "$14,000",
+        "$15,000",
+        "$16,000"
+      ],
+      "answer": "B",
+      "explanation": "The amount realized is $55,000 less $1,000 in selling commissions, or $54,000. Subtracting the $40,000 adjusted basis produces a recognized gain of $14,000. Because the investment was held for more than one year, the gain is long-term.",
+      "topic": "Tax Planning",
+      "subtopic": "Tax consequences of property transactions",
+      "difficulty": "medium",
+      "source": "IRS Publication 550, Investment Income and Expenses: Capital Gains and Losses"
+    },
+    {
+      "stem": "A taxpayer owns a rental property that qualifies as an investment property under Section 1031. The taxpayer wants to exchange it for another property while deferring recognition of the capital gain. Which replacement asset generally qualifies for like-kind exchange treatment?",
+      "options": [
+        "A diversified portfolio of publicly traded common stocks",
+        "A certificate of deposit held for investment purposes",
+        "An ownership interest in a publicly traded real estate investment trust",
+        "An undeveloped parcel of land held for investment purposes"
+      ],
+      "answer": "D",
+      "explanation": "Section 1031 generally permits gain deferral on qualifying exchanges of real property held for investment or productive use in a trade or business. Investment rental property and undeveloped investment land are generally considered like-kind real property. Stocks, certificates of deposit, and publicly traded REIT shares are not qualifying replacement real property.",
+      "topic": "Tax Planning",
+      "subtopic": "Tax reduction/management techniques",
+      "difficulty": "medium",
+      "source": "Internal Revenue Code Section 1031; IRS Form 8824 Instructions, Like-Kind Exchanges"
+    },
+    {
+      "stem": "A married couple filing jointly owns a vacation home with an adjusted tax basis of $300,000 and a fair market value of $500,000. They convert the property to their principal residence and live there for exactly two years before selling it for $540,000. They never rented the home and have owned it for six years in total. They satisfy the general ownership and use tests and have not claimed another Section 121 exclusion during the preceding two years. Assuming no depreciation, selling expenses, or other adjustments, which statement is correct?",
+      "options": [
+        "The entire $240,000 gain is excluded because the couple satisfies the two-year ownership and use tests.",
+        "The entire $240,000 gain is taxable because the property was initially acquired as a vacation home.",
+        "The gain attributable to nonqualified use before conversion to a principal residence generally cannot be excluded.",
+        "The gain is excluded only if the proceeds are reinvested in another principal residence within two years."
+      ],
+      "answer": "C",
+      "explanation": "Although the couple meets the general ownership and use tests, Section 121 limits the exclusion for gain attributable to certain periods of nonqualified use after 2008. The four years of vacation-home use before the property became their principal residence generally constitute nonqualified use. The nonqualified-use allocation prevents exclusion of the corresponding portion of the gain, even though the overall gain is below the married-filing-jointly maximum exclusion.",
+      "topic": "Tax Planning",
+      "subtopic": "Tax implications of special circumstances",
+      "difficulty": "hard",
+      "source": "Internal Revenue Code Section 121(b)(5); IRS Publication 523, Selling Your Home: Nonqualified Use"
+    },
+    {
+      "stem": "A 45-year-old employee participates in a traditional 401(k) plan. The employee's contributions are made on a pretax basis, and the account earns investment income. Which statement correctly describes the general federal income tax treatment?",
+      "options": [
+        "Pretax contributions generally reduce current taxable income, and distributions are generally taxable when received.",
+        "Pretax contributions are taxable immediately, and qualified distributions are generally tax-free.",
+        "Pretax contributions are deductible only when the employee itemizes deductions.",
+        "Investment earnings are taxed annually even though they remain inside the 401(k) plan."
+      ],
+      "answer": "A",
+      "explanation": "Traditional pretax 401(k) elective deferrals are generally excluded from current federal taxable income, while investment earnings grow tax-deferred. Distributions are generally included in ordinary income when received, subject to applicable rules and exceptions. This contrasts with the tax treatment of designated Roth contributions and qualified Roth distributions.",
+      "topic": "Retirement Savings and Income Planning",
+      "subtopic": "Types of retirement plans",
+      "difficulty": "easy",
+      "source": "IRS Publication 560, Retirement Plans for Small Business; IRS, 401(k) Plan Overview"
+    },
+    {
+      "stem": "A retired individual reaches age 73 during 2026 and owns a traditional IRA with a December 31, 2025, balance of $530,000. The individual's spouse is not more than 10 years younger. Assume the applicable IRS Uniform Lifetime Table distribution period at age 73 is 26.5. What is the individual's required minimum distribution for 2026?",
+      "options": [
+        "$18,500",
+        "$19,250",
+        "$19,500",
+        "$20,000"
+      ],
+      "answer": "D",
+      "explanation": "The required minimum distribution is calculated by dividing the prior year-end IRA balance by the applicable IRS life expectancy factor. Dividing $530,000 by 26.5 results in $20,000. The individual may generally defer the first RMD until April 1, 2027, but doing so would also require taking the 2027 RMD by December 31, 2027.",
+      "topic": "Retirement Savings and Income Planning",
+      "subtopic": "Distribution rules and taxation",
+      "difficulty": "medium",
+      "source": "IRS Publication 590-B, Distributions from Individual Retirement Arrangements: Required Minimum Distributions"
+    },
+    {
+      "stem": "A 63-year-old client plans to retire immediately and is considering claiming Social Security retirement benefits at age 63 rather than waiting until full retirement age of 67. The client is concerned about the effect of the decision on lifetime retirement income. Which statement is most accurate?",
+      "options": [
+        "Claiming at age 63 provides the same monthly benefit as claiming at full retirement age.",
+        "Claiming at age 63 generally produces a permanently reduced monthly benefit compared with claiming at full retirement age.",
+        "Claiming at age 63 automatically maximizes lifetime benefits regardless of longevity.",
+        "Claiming at age 63 eliminates the possibility of future Social Security cost-of-living adjustments."
+      ],
+      "answer": "B",
+      "explanation": "Claiming Social Security retirement benefits before full retirement age generally results in a reduced monthly benefit based on the number of months claimed early. Delaying benefits can increase the monthly amount, although the optimal claiming age depends on health, longevity, marital circumstances, and other income resources. Early retirement benefits remain eligible for applicable cost-of-living adjustments.",
+      "topic": "Retirement Savings and Income Planning",
+      "subtopic": "Social Security and Medicare planning",
+      "difficulty": "medium",
+      "source": "Social Security Administration, Retirement Benefits: Early or Delayed Retirement"
+    },
+    {
+      "stem": "A 50-year-old business owner is the sole proprietor of a consulting business with no common-law employees. The owner wants a retirement arrangement allowing employee elective deferrals and employer contributions, subject to applicable limits. The owner also wants the option to make Roth elective deferrals if the plan permits. Which arrangement is generally most suitable?",
+      "options": [
+        "A SEP IRA, because it permits employee Roth salary deferrals.",
+        "A traditional IRA, because it permits employer profit-sharing contributions.",
+        "A one-participant 401(k), because it can accommodate employee deferrals and employer contributions.",
+        "A SIMPLE IRA, because it provides unlimited discretionary employer profit-sharing contributions."
+      ],
+      "answer": "C",
+      "explanation": "A one-participant 401(k), also called a solo 401(k), is designed for an eligible business owner with no common-law employees other than a spouse. It permits contributions in employee and employer capacities, subject to applicable limits, and may permit designated Roth elective deferrals. SEP IRAs do not provide employee elective salary deferrals, and SIMPLE IRAs have more restrictive employer contribution structures.",
+      "topic": "Retirement Savings and Income Planning",
+      "subtopic": "Key factors affecting plan selection for businesses",
+      "difficulty": "hard",
+      "source": "IRS, One-Participant 401(k) Plans; IRS Publication 560, Retirement Plans for Small Business"
+    },
+    {
+      "stem": "A married couple owns a brokerage account as joint tenants with rights of survivorship. One spouse dies, and the surviving spouse remains alive. Assuming the account is validly titled and there are no contrary legal restrictions, what generally happens to the deceased spouse's ownership interest?",
+      "options": [
+        "It passes automatically to the surviving joint tenant.",
+        "It passes according to the deceased spouse's will.",
+        "It passes equally to the deceased spouse's children.",
+        "It passes automatically into the deceased spouse's probate estate."
+      ],
+      "answer": "A",
+      "explanation": "Joint tenancy with rights of survivorship provides that the deceased owner's interest generally passes automatically to the surviving joint tenant. This transfer ordinarily occurs outside probate, although estate tax and basis consequences must be considered separately. The survivorship feature distinguishes this arrangement from tenancy in common.",
+      "topic": "Estate Planning",
+      "subtopic": "Property titling and beneficiary designations",
+      "difficulty": "easy",
+      "source": "CFP Board Principal Knowledge Topics, Estate Planning: Property titling and beneficiary designations"
+    },
+    {
+      "stem": "A client owns a $2 million life insurance policy and wants the death benefit to provide liquidity for heirs without having the proceeds included in the client's federal gross estate. The client is considering establishing an irrevocable life insurance trust (ILIT) that will apply for and own a new policy from inception. Assuming the client retains no incidents of ownership, has no rights that cause estate inclusion, and all other requirements are satisfied, which statement is correct?",
+      "options": [
+        "The proceeds must be included in the client's gross estate because the insured is the trust's grantor.",
+        "The proceeds must be included in the client's gross estate because the policy is held in a trust.",
+        "The proceeds are excluded only if the beneficiaries decline to receive any trust distributions.",
+        "The proceeds generally may be excluded from the client's gross estate because the trust owns the policy and the insured retains no incidents of ownership."
+      ],
+      "answer": "D",
+      "explanation": "An appropriately structured ILIT can own life insurance on the grantor's life without requiring the death benefit to be included in the insured's federal gross estate. Critical considerations include avoiding retained incidents of ownership and other powers that trigger estate inclusion. Having the trust acquire a new policy from inception also avoids the three-year inclusion issue associated with the insured's transfer of an existing policy.",
+      "topic": "Estate Planning",
+      "subtopic": "Types, features, and taxation of trusts",
+      "difficulty": "medium",
+      "source": "Internal Revenue Code Sections 2035 and 2042; CFP Board Estate Planning: Types, features, and taxation of trusts"
+    },
+    {
+      "stem": "A client experienced a substantial investment loss during a market decline. Although the client's diversified portfolio remains appropriate for the client's long-term goals, the client insists on selling every investment immediately and holding cash indefinitely. The client explains that the emotional pain of further losses would be unbearable. Which response best demonstrates effective behavioral financial planning and counseling?",
+      "options": [
+        "Explain that the client's emotional reaction is irrational and direct the client to maintain the original portfolio.",
+        "Agree to sell the entire portfolio immediately because emotional comfort should always take priority over long-term goals.",
+        "Acknowledge the client's concerns, explore the reasons for the reaction, revisit risk capacity and tolerance, and evaluate suitable alternatives collaboratively.",
+        "Avoid discussing the client's emotions and present only historical return statistics to support the original investment strategy."
+      ],
+      "answer": "C",
+      "explanation": "Effective financial counseling combines empathy, active listening, and an understanding of behavioral biases with sound financial analysis. The client's response may reflect loss aversion, but the planner should explore whether circumstances or risk tolerance have genuinely changed rather than dismissing the concern. A collaborative review helps align the financial strategy with both the client's objectives and ability to remain invested.",
+      "topic": "Psychology of Financial Planning",
+      "subtopic": "Principles of counseling",
+      "difficulty": "medium",
+      "source": "CFP Board Principal Knowledge Topics, Psychology of Financial Planning: Principles of counseling; Behavioral finance"
+    }
+  ]
+}

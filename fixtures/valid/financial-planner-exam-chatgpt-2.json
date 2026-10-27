@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "financial-planner-exam",
+  "set": "CFP Certification Examination practice – Integrated Financial Planning",
+  "questions": [
+    {
+      "stem": "A CFP professional recommends that a client purchase an investment product. The professional will receive a commission if the client purchases the product, but the client is unaware of this compensation arrangement. Under CFP Board's Standards of Conduct, which action is required before proceeding with the recommendation?",
+      "options": [
+        "Proceed if the product has historically outperformed comparable investments.",
+        "Disclose the material conflict, obtain informed consent, and properly manage the conflict.",
+        "Proceed if the commission is consistent with the financial services industry's customary rates.",
+        "Obtain approval from the professional's supervisor without discussing the commission with the client."
+      ],
+      "answer": "B",
+      "explanation": "CFP Board's fiduciary standard requires CFP professionals to place clients' interests above their own when providing financial advice. A material conflict must be avoided or fully disclosed, with informed client consent and proper management of the conflict. Disclosure alone does not eliminate the obligation to act in the client's best interests.",
+      "topic": "Professional Conduct and Regulation",
+      "subtopic": "Fiduciary standard and application",
+      "difficulty": "medium",
+      "source": "CFP Board Code of Ethics and Standards of Conduct, A.1 Fiduciary Duty"
+    },
+    {
+      "stem": "A CFP professional has agreed to provide comprehensive financial planning services to a new client. The client asks the professional to identify the most important financial planning decisions before developing specific recommendations. Under CFP Board's Financial Planning Practice Standards, what should the professional do after understanding the client's personal and financial circumstances and identifying and selecting the client's goals?",
+      "options": [
+        "Implement financial products that correspond to the client's stated objectives.",
+        "Prepare a performance report measuring the client's progress toward the goals.",
+        "Obtain the client's approval for a final investment allocation and insurance program.",
+        "Analyze the client's current course of action and potential alternative courses of action."
+      ],
+      "answer": "D",
+      "explanation": "The financial planning process requires analyzing the client's current course of action and potential alternatives after understanding the client's circumstances and identifying and selecting goals. This analysis evaluates the advantages and disadvantages of available strategies before recommendations are developed. Implementation and monitoring occur later in the process.",
+      "topic": "Professional Conduct and Regulation",
+      "subtopic": "CFP Board's Code of Ethics and Standards of Conduct",
+      "difficulty": "medium",
+      "source": "CFP Board Standards of Conduct, Financial Planning Practice Standards, Steps 1–7"
+    },
+    {
+      "stem": "A household has total assets of $850,000 and total liabilities of $310,000. What is the household's net worth?",
+      "options": [
+        "$540,000",
+        "$310,000",
+        "$850,000",
+        "$1,160,000"
+      ],
+      "answer": "A",
+      "explanation": "Net worth equals total assets minus total liabilities. Subtracting $310,000 from $850,000 produces net worth of $540,000. Net worth measures the household's financial position at a particular point in time.",
+      "topic": "General Principles of Financial Planning",
+      "subtopic": "Financial statements",
+      "difficulty": "easy",
+      "source": "CFP Board Principal Knowledge Topics, B.8 Financial statements"
+    },
+    {
+      "stem": "Parents are saving for their daughter's college education. They want an account in which investment earnings can be withdrawn free of federal income tax when used for qualified higher education expenses, subject to applicable requirements. They also want to retain control over the account and the ability to change the beneficiary to another eligible family member. Which savings vehicle is most appropriate?",
+      "options": [
+        "A traditional individual retirement account",
+        "An unrestricted taxable brokerage account",
+        "A Section 529 education savings plan",
+        "A Uniform Transfers to Minors Act account"
+      ],
+      "answer": "C",
+      "explanation": "A Section 529 plan offers tax-deferred growth and federal income tax-free withdrawals for qualified education expenses. The account owner generally retains control of the account and can change the beneficiary to an eligible family member without adverse federal tax consequences. A custodial account under UTMA generally transfers control to the beneficiary at the applicable statutory age.",
+      "topic": "General Principles of Financial Planning",
+      "subtopic": "Education savings vehicles",
+      "difficulty": "medium",
+      "source": "CFP Board B.14 Education savings vehicles; IRS Publication 970, Qualified Tuition Programs"
+    },
+    {
+      "stem": "A client wants to accumulate $250,000 exactly 12 years from today. The client can earn an effective annual investment return of 6%, compounded annually, with no taxes, fees, or additional contributions. Approximately how much must the client invest today to meet this goal?",
+      "options": [
+        "$108,200",
+        "$124,243",
+        "$139,750",
+        "$151,600"
+      ],
+      "answer": "B",
+      "explanation": "The present value of a future lump sum equals its future value divided by (1 + r) raised to the number of periods. Thus, $250,000 / (1.06)^12 is approximately $124,243. The calculation assumes the annual 6% return is earned consistently and all earnings remain invested.",
+      "topic": "General Principles of Financial Planning",
+      "subtopic": "Time value of money concepts and calculations",
+      "difficulty": "hard",
+      "source": "CFP Board B.12 Time value of money concepts and calculations"
+    },
+    {
+      "stem": "A 35-year-old physician depends on employment income to support a spouse and two children. The physician has substantial earning potential but limited investments. Which insurance policy primarily protects the family against the physician's loss of earned income due to a prolonged illness or injury?",
+      "options": [
+        "A decreasing term life insurance policy",
+        "A personal umbrella liability policy",
+        "A long-term care insurance policy",
+        "An individual disability income insurance policy"
+      ],
+      "answer": "D",
+      "explanation": "Disability income insurance replaces a portion of earned income when an insured person cannot work because of a covered illness or injury. It is particularly important for households whose financial security depends on ongoing employment income. Life insurance addresses death, while liability and long-term care insurance protect against different exposures.",
+      "topic": "Risk Management and Insurance Planning",
+      "subtopic": "Disability income insurance (individual and group)",
+      "difficulty": "easy",
+      "source": "CFP Board C.20 Disability income insurance (individual and group)"
+    },
+    {
+      "stem": "A married couple is evaluating life insurance needs. One spouse earns $160,000 annually, while the other provides full-time childcare and household management without receiving wages. Their children are ages 3 and 6. Which approach most appropriately evaluates the family's life insurance needs?",
+      "options": [
+        "Evaluate both spouses' contributions, including the cost of replacing unpaid household and childcare services.",
+        "Calculate coverage using only the employed spouse's annual salary and expected remaining working years.",
+        "Purchase equal amounts of insurance on each spouse without examining their respective economic contributions.",
+        "Exclude the nonworking spouse from insurance planning because that spouse generates no taxable employment income."
+      ],
+      "answer": "A",
+      "explanation": "Life insurance needs analysis should consider the economic consequences of either spouse's death, including replacement of unpaid household services and childcare. A nonworking spouse can provide services with substantial replacement costs. Appropriate coverage also depends on liabilities, existing resources, dependents' needs, and future financial obligations.",
+      "topic": "Risk Management and Insurance Planning",
+      "subtopic": "Insurance needs analysis",
+      "difficulty": "medium",
+      "source": "CFP Board C.25 Insurance needs analysis"
+    },
+    {
+      "stem": "An investor owns shares in only one publicly traded technology company. The investor wants to reduce company-specific risk without necessarily lowering the portfolio's expected return. Which strategy is most appropriate?",
+      "options": [
+        "Increase the investment in the existing company.",
+        "Replace the shares with another technology company.",
+        "Diversify across securities with imperfectly correlated returns.",
+        "Borrow funds to purchase additional shares in the company."
+      ],
+      "answer": "C",
+      "explanation": "Diversification reduces unsystematic risk by combining investments whose returns are not perfectly positively correlated. Company-specific adverse events then have less influence on the overall portfolio. Diversification cannot eliminate systematic market risk.",
+      "topic": "Investment Planning",
+      "subtopic": "Asset allocation and portfolio diversification",
+      "difficulty": "easy",
+      "source": "CFP Board D.30 Asset allocation and portfolio diversification"
+    },
+    {
+      "stem": "An investor holds a fixed-rate, investment-grade bond with 15 years remaining until maturity. Market interest rates rise substantially, while the issuer's creditworthiness remains unchanged. What is the most likely immediate effect on the bond's market value?",
+      "options": [
+        "Its market value increases because its coupon payments are fixed.",
+        "Its market value decreases because its fixed cash flows are discounted at higher market yields.",
+        "Its market value remains unchanged because the issuer's creditworthiness has not changed.",
+        "Its market value increases because the bond has a relatively long remaining maturity."
+      ],
+      "answer": "B",
+      "explanation": "Bond prices generally move inversely to market yields. When yields rise, the present value of a fixed-rate bond's remaining cash flows falls. Longer-maturity bonds generally exhibit greater interest rate sensitivity than otherwise comparable shorter-maturity bonds.",
+      "topic": "Investment Planning",
+      "subtopic": "Bond and stock valuation concepts",
+      "difficulty": "medium",
+      "source": "CFP Board D.31 Bond and stock valuation concepts"
+    },
+    {
+      "stem": "A portfolio consists of two assets. Asset X represents 60% of the portfolio, has an expected annual return of 10%, and has an annual standard deviation of 18%. Asset Y represents 40% of the portfolio, has an expected annual return of 5%, and has an annual standard deviation of 10%. The correlation between their returns is 0.25. What is the portfolio's approximate annual standard deviation?",
+      "options": [
+        "9.8%",
+        "11.2%",
+        "14.8%",
+        "12.5%"
+      ],
+      "answer": "D",
+      "explanation": "Portfolio variance equals wX²σX² + wY²σY² + 2wXwYσXσYρXY. Substituting the values gives 0.6²(0.18²) + 0.4²(0.10²) + 2(0.6)(0.4)(0.18)(0.10)(0.25) = 0.015424. Taking the square root gives approximately 12.42%, closest to 12.5%, reflecting the diversification benefit of imperfect correlation.",
+      "topic": "Investment Planning",
+      "subtopic": "Quantitative investment concepts and measures of investment returns",
+      "difficulty": "hard",
+      "source": "CFP Board D.29 Quantitative investment concepts and measures of investment returns"
+    },
+    {
+      "stem": "An investor purchases 100 shares of publicly traded stock for $50 per share and sells them 18 months later for $70 per share. Assume there are no commissions, adjustments to basis, or other transactions. What is the amount and character of the gain for federal income tax purposes?",
+      "options": [
+        "$2,000 long-term capital gain",
+        "$2,000 short-term capital gain",
+        "$7,000 long-term capital gain",
+        "$7,000 ordinary income"
+      ],
+      "answer": "A",
+      "explanation": "The investor's total cost basis is $5,000, and the sale proceeds are $7,000, resulting in a $2,000 realized gain. Because the stock was held for more than one year, the gain is classified as long-term capital gain. Long-term capital gains generally qualify for preferential federal income tax rates.",
+      "topic": "Tax Planning",
+      "subtopic": "Income tax fundamentals and calculations",
+      "difficulty": "medium",
+      "source": "CFP Board E.36 Income tax fundamentals and calculations; IRS Publication 550"
+    },
+    {
+      "stem": "A client owns a profitable business operated as an S corporation. The client asks how the entity is generally treated for federal income tax purposes. Which statement is correct, assuming the corporation retains its valid S corporation election?",
+      "options": [
+        "The corporation generally pays federal income tax on all operating earnings at corporate rates.",
+        "Shareholders report business income only to the extent that the corporation distributes cash.",
+        "Business income generally passes through to shareholders and is reported on their individual returns.",
+        "Shareholders exclude all distributed profits from income regardless of their stock basis."
+      ],
+      "answer": "C",
+      "explanation": "An S corporation generally passes its income, losses, deductions, and credits through to shareholders for federal income tax purposes. Shareholders generally report their allocated income even if the corporation does not distribute cash. The tax treatment of distributions depends on factors including stock basis and any accumulated earnings and profits.",
+      "topic": "Tax Planning",
+      "subtopic": "Characteristics and income taxation of business entities",
+      "difficulty": "medium",
+      "source": "CFP Board E.37 Characteristics and income taxation of business entities; IRS Instructions for Form 1120-S"
+    },
+    {
+      "stem": "On November 10, an investor sells 200 shares of stock at a realized loss of $6,000 in a taxable brokerage account. On November 20, the investor repurchases 200 shares of the same stock in the same taxable account. No other transactions occur, and the repurchased shares are not sold during the year. How is the $6,000 loss treated for federal income tax purposes?",
+      "options": [
+        "The loss is deductible immediately because both transactions occurred in a taxable account.",
+        "The loss is disallowed currently and generally added to the basis of the replacement shares.",
+        "The loss is converted into an ordinary loss because the shares were repurchased within 30 days.",
+        "The loss is permanently disallowed without any adjustment to the basis of the replacement shares."
+      ],
+      "answer": "B",
+      "explanation": "The wash-sale rule generally disallows a loss when substantially identical securities are purchased within 30 days before or after a loss sale. Since the investor repurchased the same shares 10 days after selling them, the entire loss is disallowed for the current tax year. In a taxable account, the disallowed loss is generally added to the replacement shares' basis, preserving its potential future tax benefit.",
+      "topic": "Tax Planning",
+      "subtopic": "Tax consequences of property transactions",
+      "difficulty": "hard",
+      "source": "CFP Board E.40 Tax consequences of property transactions; IRC Section 1091; IRS Publication 550"
+    },
+    {
+      "stem": "An employee participates in a traditional 401(k) plan. The employer matches 100% of employee contributions up to the first 4% of eligible salary contributed. The employee earns $100,000 annually and currently contributes 2% of salary. Assuming the employee can afford to save more and is eligible for the full match, what minimum employee contribution rate will capture the maximum employer match?",
+      "options": [
+        "2% of eligible salary",
+        "3% of eligible salary",
+        "6% of eligible salary",
+        "4% of eligible salary"
+      ],
+      "answer": "D",
+      "explanation": "The employer matches employee contributions dollar for dollar up to 4% of eligible salary. An employee contribution of $4,000 therefore produces the maximum $4,000 employer contribution under the stated formula. Contributing only 2% leaves part of the available employer match unclaimed.",
+      "topic": "Retirement Savings and Income Planning",
+      "subtopic": "Qualified plan rules and options",
+      "difficulty": "easy",
+      "source": "CFP Board F.47 Qualified plan rules and options"
+    },
+    {
+      "stem": "A healthy, single individual who has reached full retirement age is considering when to claim Social Security retirement benefits. The individual has sufficient savings to cover expenses until age 70 and wants to maximize the monthly retirement benefit payable for the remainder of life. Which strategy best meets this objective?",
+      "options": [
+        "Delay claiming retirement benefits until age 70.",
+        "Claim retirement benefits immediately at full retirement age.",
+        "Claim benefits now and suspend them permanently at age 70.",
+        "Wait until age 75 to receive additional delayed retirement credits."
+      ],
+      "answer": "A",
+      "explanation": "Delaying Social Security retirement benefits beyond full retirement age increases the monthly benefit through delayed retirement credits, up to age 70. Delaying beyond age 70 does not produce additional delayed retirement credits. Although claiming later maximizes the monthly benefit, a complete planning analysis should also consider longevity, liquidity needs, taxes, and other circumstances.",
+      "topic": "Retirement Savings and Income Planning",
+      "subtopic": "Social Security and Medicare planning",
+      "difficulty": "medium",
+      "source": "CFP Board F.44 Social Security and Medicare planning; Social Security Administration, Delayed Retirement Credits"
+    },
+    {
+      "stem": "A retired individual, age 62, established and first funded a Roth IRA 10 years ago. All contributions were made directly to the Roth IRA, and no conversions occurred. The individual now wants to withdraw the entire account balance, including investment earnings. How will the distribution generally be treated for federal income tax purposes?",
+      "options": [
+        "Contributions are tax-free, but all investment earnings are taxable as ordinary income.",
+        "The entire distribution is taxable because the individual has not reached age 65.",
+        "The entire distribution is tax-free because the qualified distribution requirements are satisfied.",
+        "Contributions are taxable, but investment earnings are excluded from gross income."
+      ],
+      "answer": "C",
+      "explanation": "A Roth IRA distribution is generally qualified when the applicable five-tax-year requirement has been satisfied and the distribution occurs after the owner reaches age 59½ or meets another qualifying condition. Here, the owner is age 62 and has maintained the Roth IRA for 10 years. Both contributions and earnings can therefore be distributed free of federal income tax.",
+      "topic": "Retirement Savings and Income Planning",
+      "subtopic": "Distribution rules and taxation",
+      "difficulty": "medium",
+      "source": "CFP Board F.50 Distribution rules and taxation; IRS Publication 590-B"
+    },
+    {
+      "stem": "A retired 76-year-old owns two traditional IRAs and one traditional 401(k) account from a former employer. The calculated required minimum distributions for the current year are $8,000 from IRA A, $5,000 from IRA B, and $12,000 from the 401(k). The individual wants to satisfy all required distributions while withdrawing money from as few accounts as possible. Which strategy is permissible under the federal required minimum distribution rules?",
+      "options": [
+        "Withdraw $25,000 from IRA A and nothing from the other retirement accounts.",
+        "Withdraw $13,000 from IRA A and $12,000 from the 401(k), with nothing from IRA B.",
+        "Withdraw $25,000 from the 401(k) and nothing from either traditional IRA.",
+        "Withdraw $13,000 from the 401(k) and $12,000 from IRA A, with nothing from IRA B."
+      ],
+      "answer": "B",
+      "explanation": "Required minimum distributions must be calculated separately for each traditional IRA, but the combined IRA requirement may generally be satisfied by withdrawing from one or more of those IRAs. Thus, the investor can withdraw $13,000 from IRA A to meet both IRA requirements. The traditional 401(k) has a separate $12,000 distribution requirement that must be satisfied from that plan rather than from the IRAs.",
+      "topic": "Retirement Savings and Income Planning",
+      "subtopic": "Retirement income and distribution strategies",
+      "difficulty": "hard",
+      "source": "CFP Board F.51 Retirement income and distribution strategies; IRS Required Minimum Distributions FAQs"
+    },
+    {
+      "stem": "A widow owns a home worth $600,000 in her name alone. She wants the property to pass directly to her adult daughter at death without going through probate, while retaining the ability to sell the property or change the beneficiary during her lifetime. Assuming the home is transferred properly and the trust is funded, which estate planning strategy best meets these objectives?",
+      "options": [
+        "Leave the property to the daughter through a valid will.",
+        "Make an immediate irrevocable gift of the property to the daughter.",
+        "Add the daughter as an equal tenant in common on the property deed.",
+        "Transfer the property to a revocable living trust with the daughter as successor beneficiary."
+      ],
+      "answer": "D",
+      "explanation": "A properly funded revocable living trust can allow the property to pass to beneficiaries without going through probate. The grantor generally retains the right to amend or revoke the trust and manage or dispose of the property during life. A will ordinarily requires probate, while an outright gift or transfer of an ownership interest can surrender some control.",
+      "topic": "Estate Planning",
+      "subtopic": "Types, features, and taxation of trusts",
+      "difficulty": "medium",
+      "source": "CFP Board G.58 Types, features, and taxation of trusts"
+    },
+    {
+      "stem": "An individual inherits publicly traded stock from a parent who died in 2026. The parent originally purchased the stock for $20,000, and its fair market value on the date of death was $75,000. No alternate valuation election or special basis exception applies. What is generally the beneficiary's initial federal income tax basis in the inherited shares?",
+      "options": [
+        "$75,000",
+        "$20,000",
+        "$55,000",
+        "$95,000"
+      ],
+      "answer": "A",
+      "explanation": "Inherited property generally receives an income tax basis equal to its fair market value on the decedent's date of death, subject to applicable exceptions. Therefore, the beneficiary's initial basis is $75,000 rather than the parent's original $20,000 cost. This basis adjustment can substantially reduce capital gains recognized on a subsequent sale.",
+      "topic": "Estate Planning",
+      "subtopic": "Strategies to transfer property",
+      "difficulty": "medium",
+      "source": "CFP Board G.54 Strategies to transfer property; IRC Section 1014; IRS Publication 551"
+    },
+    {
+      "stem": "An investor becomes much more upset after losing $5,000 in the stock market than pleased after earning an equivalent $5,000 gain. Which behavioral finance concept best explains this reaction?",
+      "options": [
+        "Anchoring bias",
+        "Recency bias",
+        "Loss aversion",
+        "Mental accounting"
+      ],
+      "answer": "C",
+      "explanation": "Loss aversion describes the tendency for people to experience the psychological impact of a loss more strongly than the satisfaction from an equivalent gain. This tendency can influence investment choices, including reluctance to sell losing securities. Financial planners can address it by discussing risk tolerance and establishing decision rules before market volatility occurs.",
+      "topic": "Psychology of Financial Planning",
+      "subtopic": "Behavioral finance",
+      "difficulty": "easy",
+      "source": "CFP Board H.64 Behavioral finance"
+    }
+  ]
+}
