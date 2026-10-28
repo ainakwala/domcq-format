@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "crisc",
+  "set": "Certified in Risk and Information Systems Control (CRISC) practice – Enterprise Risk and Controls",
+  "questions": [
+    {
+      "stem": "An organization is establishing an information systems risk management program following a significant change in its business strategy. Which of the following should be the PRIMARY consideration when defining the program's objectives?",
+      "options": [
+        "The maturity of existing information security controls",
+        "The organization's strategic objectives and critical business processes",
+        "The availability of personnel with risk management certifications",
+        "The implementation costs of recognized risk management frameworks"
+      ],
+      "answer": "B",
+      "explanation": "Information systems risk management should support the organization's strategic objectives and the processes necessary to achieve them. Understanding these priorities establishes the business context for identifying, assessing, and responding to risk. Control maturity, staffing, and framework costs are relevant implementation considerations but should not determine the program's objectives.",
+      "topic": "Governance",
+      "subtopic": "Strategy, Goals, and Objectives",
+      "difficulty": "medium",
+      "source": "ISACA CRISC Exam Content Outline (2025), Domain 1A1: Strategy, Goals, and Objectives"
+    },
+    {
+      "stem": "The board of directors has established a broad risk appetite for technology-related service disruptions. Which of the following BEST enables management to determine when operational risk exposure requires escalation?",
+      "options": [
+        "Establishing a common control framework for all technology services",
+        "Assigning accountability for each technology service to an executive",
+        "Preparing quarterly assessments of the organization's risk culture",
+        "Defining measurable risk tolerance thresholds and escalation criteria"
+      ],
+      "answer": "D",
+      "explanation": "Risk tolerance translates an organization's broad risk appetite into measurable boundaries for specific activities and exposures. Defined thresholds and escalation criteria allow management to identify deviations and initiate timely responses. Control frameworks and accountability structures support risk management but do not independently establish when exposure exceeds acceptable limits.",
+      "topic": "Governance",
+      "subtopic": "Risk Appetite and Risk Tolerance",
+      "difficulty": "medium",
+      "source": "ISACA CRISC Exam Content Outline (2025), Domain 1B4: Risk Appetite and Risk Tolerance"
+    },
+    {
+      "stem": "Under the three lines model, which of the following is PRIMARILY responsible for managing risks arising from day-to-day business operations?",
+      "options": [
+        "Operational management responsible for the business activities",
+        "Independent internal auditors evaluating risk management practices",
+        "The risk management function providing oversight and guidance",
+        "External assurance providers reviewing regulatory compliance"
+      ],
+      "answer": "A",
+      "explanation": "First-line management owns and manages risks associated with its business activities and is responsible for operating relevant controls. Second-line functions provide specialized guidance, support, and monitoring, while internal audit provides independent assurance as the third line. Accountability for operational risk remains with management responsible for the activity.",
+      "topic": "Governance",
+      "subtopic": "Lines of Defense",
+      "difficulty": "easy",
+      "source": "ISACA CRISC Exam Content Outline (2025), Domain 1B2: Lines of Defense; IIA Three Lines Model"
+    },
+    {
+      "stem": "An organization has acquired three companies, each using different likelihood scales, impact criteria, and risk acceptance thresholds. The board requests a consolidated enterprise risk profile within the next reporting cycle. Which of the following is the MOST important action before aggregating the subsidiaries' risk assessments?",
+      "options": [
+        "Normalize the numerical ratings while retaining each subsidiary's risk definitions",
+        "Rank the highest-rated risks within each subsidiary and combine the rankings",
+        "Establish consistent risk assessment criteria aligned with enterprise risk appetite",
+        "Calculate an average residual risk score using each subsidiary's existing methodology"
+      ],
+      "answer": "C",
+      "explanation": "Risk ratings are not directly comparable when the underlying likelihood, impact, and tolerance definitions differ. Establishing a common assessment basis aligned with enterprise risk appetite allows risks to be evaluated consistently before aggregation. Simply normalizing numbers or combining rankings can produce misleading comparisons and conceal material exposures.",
+      "topic": "Governance",
+      "subtopic": "Enterprise Risk Management (ERM)",
+      "difficulty": "hard",
+      "source": "ISACA CRISC Exam Content Outline (2025), Domain 1B1: Enterprise Risk Management (ERM)"
+    },
+    {
+      "stem": "An organization's corporate information retention policy requires customer records to be retained for seven years. A newly applicable privacy regulation requires a particular category of personal data to be deleted after three years, unless another lawful retention obligation applies. Which of the following is the BEST course of action?",
+      "options": [
+        "Retain all customer records for seven years until the corporate policy is formally reviewed",
+        "Determine the applicable legal obligations and update retention controls for the affected data",
+        "Delete all customer records after three years regardless of contractual and legal requirements",
+        "Request a temporary policy exception permitting continued retention of the affected records"
+      ],
+      "answer": "B",
+      "explanation": "Organizational policies must operate within applicable legal and regulatory requirements. The organization should establish which obligations govern the affected data and revise its retention and deletion controls accordingly. Internal policy exceptions cannot authorize noncompliance with applicable law, and blanket deletion may violate other legitimate retention obligations.",
+      "topic": "Governance",
+      "subtopic": "Risk Frameworks, Legal, Regulatory, and Contractual Requirements",
+      "difficulty": "medium",
+      "source": "ISACA CRISC Exam Content Outline (2025), Domain 1B5: Risk Frameworks, Legal, Regulatory, and Contractual Requirements"
+    },
+    {
+      "stem": "A risk analyst is developing a scenario involving unauthorized access to a company's customer database. Which of the following would provide the MOST useful basis for evaluating the associated information systems risk?",
+      "options": [
+        "A description of the threat event, affected assets, vulnerabilities, and potential business impacts",
+        "A description of the security technologies installed and the dates of their most recent upgrades",
+        "A listing of previous information security incidents and the personnel involved in their resolution",
+        "A comparison of the organization's security policies with commonly adopted industry standards"
+      ],
+      "answer": "A",
+      "explanation": "A useful risk scenario connects a credible threat event with relevant assets, vulnerabilities, and consequences for the business. These elements provide the foundation for assessing likelihood and impact. Technology inventories, incident histories, and standards comparisons may contribute evidence but do not independently describe the complete scenario.",
+      "topic": "Risk Assessment",
+      "subtopic": "Risk Scenario Development and Evaluation",
+      "difficulty": "medium",
+      "source": "ISACA CRISC Exam Content Outline (2025), Domain 2A4: Risk Scenario Development and Evaluation"
+    },
+    {
+      "stem": "A vulnerability assessment identifies several weaknesses across an organization's technology environment. Which of the following findings should receive the HIGHEST priority for remediation?",
+      "options": [
+        "A high-severity vulnerability on an isolated development server with no production access",
+        "A medium-severity vulnerability on an internal workstation with restricted user privileges",
+        "A critical vulnerability on a disconnected test system containing synthetic information",
+        "An actively exploited authentication vulnerability on an internet-facing system containing sensitive customer data"
+      ],
+      "answer": "D",
+      "explanation": "Risk-based vulnerability prioritization considers exploitability, exposure, asset criticality, and potential business impact rather than relying exclusively on technical severity scores. An actively exploited weakness on a publicly accessible system containing sensitive data presents a particularly urgent risk. The other findings may require remediation but have less immediate exposure under the stated conditions.",
+      "topic": "Risk Assessment",
+      "subtopic": "Vulnerability Management",
+      "difficulty": "medium",
+      "source": "ISACA CRISC Exam Content Outline (2025), Domain 2A3: Vulnerability Management"
+    },
+    {
+      "stem": "What is the PRIMARY purpose of conducting a business impact analysis (BIA) as part of an organization's business continuity planning?",
+      "options": [
+        "To determine which technical vulnerabilities require immediate remediation",
+        "To establish the security control configuration for each critical application",
+        "To identify critical business activities and evaluate the effects of their disruption over time",
+        "To verify whether existing disaster recovery procedures satisfy regulatory audit requirements"
+      ],
+      "answer": "C",
+      "explanation": "A BIA identifies critical business activities, their dependencies, and the consequences of disruptions over time. Its findings support prioritization and the establishment of recovery requirements, including recovery time objectives. It is not primarily a vulnerability assessment, technical configuration exercise, or compliance audit.",
+      "topic": "Risk Assessment",
+      "subtopic": "Business Impact Analysis (BIA)",
+      "difficulty": "easy",
+      "source": "ISACA CRISC Exam Content Outline (2025), Domain 2B2: Business Impact Analysis (BIA)"
+    },
+    {
+      "stem": "Which of the following BEST describes residual risk?",
+      "options": [
+        "The risk remaining after relevant controls and risk responses are considered",
+        "The risk present before any controls or risk responses are considered",
+        "The maximum amount of risk the organization is prepared to accept",
+        "The risk that has been completely eliminated through preventive controls"
+      ],
+      "answer": "A",
+      "explanation": "Residual risk is the exposure that remains after accounting for controls and other implemented risk responses. It must be evaluated against the organization's established risk appetite and tolerance to determine whether additional action is necessary. Inherent risk refers to exposure before controls, while risk appetite describes the amount and type of risk an organization is willing to pursue or retain.",
+      "topic": "Risk Assessment",
+      "subtopic": "Inherent and Residual Risk",
+      "difficulty": "easy",
+      "source": "ISACA CRISC Exam Content Outline (2025), Domain 2B5: Inherent and Residual Risk"
+    },
+    {
+      "stem": "A multinational organization is conducting a quantitative assessment of the financial impact of a potential cloud service outage. Reliable historical loss data are limited, business units provide substantially different estimates, and the likelihood of a prolonged outage is uncertain. Which of the following approaches would BEST support a defensible risk assessment?",
+      "options": [
+        "Calculate annualized loss expectancy using the average estimate as a fixed input",
+        "Model plausible ranges of impact and likelihood and perform sensitivity analysis",
+        "Use the highest impact estimate as the expected loss for all affected business units",
+        "Exclude uncertain scenarios from the assessment until sufficient historical data exist"
+      ],
+      "answer": "B",
+      "explanation": "When input data are uncertain, range-based scenario modeling and sensitivity analysis help reveal how assumptions influence estimated exposure. This approach makes uncertainty visible and supports more informed decisions than presenting a single estimate as precise. Selecting one average or maximum value conceals important variability, while excluding plausible scenarios leaves material risks unevaluated.",
+      "topic": "Risk Assessment",
+      "subtopic": "Risk Analysis Methodologies",
+      "difficulty": "hard",
+      "source": "ISACA CRISC Exam Content Outline (2025), Domain 2B4: Risk Analysis Methodologies"
+    },
+    {
+      "stem": "An organization decides to permanently discontinue an online payment service because its fraud exposure exceeds risk tolerance and implementing adequate safeguards would be economically unjustifiable. Which risk response strategy has the organization selected?",
+      "options": [
+        "Risk mitigation",
+        "Risk transfer",
+        "Risk acceptance",
+        "Risk avoidance"
+      ],
+      "answer": "D",
+      "explanation": "Risk avoidance involves eliminating the activity or exposure that gives rise to the risk. By discontinuing the payment service, the organization avoids the associated fraud exposure from that activity rather than reducing, sharing, or accepting it. Avoidance is appropriate when the activity's benefits do not justify the risk and available treatment costs.",
+      "topic": "Risk Response and Reporting",
+      "subtopic": "Risk Response Options",
+      "difficulty": "easy",
+      "source": "ISACA CRISC Exam Content Outline (2025), Domain 3A1: Risk Response Options"
+    },
+    {
+      "stem": "A financial institution outsources transaction processing to a service provider. The provider submits a SOC 2 Type 2 report with an unmodified opinion, but the report excludes a subcontractor that hosts the transaction database and identifies complementary user entity controls. Which of the following is MOST important before concluding that the outsourced service's residual risk is acceptable?",
+      "options": [
+        "Confirm that the service provider's independent auditor holds a recognized professional qualification",
+        "Require the service provider to replace the subcontractor before renewing the outsourcing agreement",
+        "Evaluate the excluded subcontractor's controls and verify relevant complementary user entity controls",
+        "Accept the service provider's report because the auditor issued an unmodified opinion on the controls examined"
+      ],
+      "answer": "C",
+      "explanation": "An unmodified SOC 2 opinion does not provide assurance over subcontractor controls excluded through the carve-out method. The financial institution must assess material risks associated with the excluded services and determine whether relevant complementary user entity controls are appropriately implemented. Without addressing these dependencies, the report alone does not establish that the end-to-end service risk is acceptable.",
+      "topic": "Risk Response and Reporting",
+      "subtopic": "Vendor/Supply Chain Risk Management",
+      "difficulty": "hard",
+      "source": "ISACA CRISC Exam Content Outline (2025), Domain 3A3: Vendor/Supply Chain Risk Management; AICPA SOC 2"
+    },
+    {
+      "stem": "A business unit requests a temporary exception to a corporate security standard because a legacy application cannot support the required authentication mechanism. Which of the following is the BEST approach to managing the exception?",
+      "options": [
+        "Allow the system administrator to authorize the exception until the next application upgrade",
+        "Document the exposure, obtain authorized risk-owner approval, and define compensating controls and an expiry date",
+        "Remove the application from the scope of security compliance reporting until modernization is complete",
+        "Treat the exception as accepted organizational risk once the business unit has submitted its request"
+      ],
+      "answer": "B",
+      "explanation": "A controlled exception process requires a documented risk assessment, appropriate authorization, defined conditions, and periodic review. Compensating controls can reduce exposure while remediation is pending, and an expiry date prevents an exception from becoming indefinite without reassessment. Submitting a request or obtaining technical approval alone does not constitute valid risk acceptance.",
+      "topic": "Risk Response and Reporting",
+      "subtopic": "Issues, Findings, Exceptions and Exemptions Management",
+      "difficulty": "medium",
+      "source": "ISACA CRISC Exam Content Outline (2025), Domain 3A4: Issues, Findings, Exceptions and Exemptions Management"
+    },
+    {
+      "stem": "A security control requires independent approval of all privileged access requests before access is granted. Management has documented the approval workflow and wants assurance that the control operated effectively throughout the previous quarter. Which of the following testing methods is MOST appropriate?",
+      "options": [
+        "Inspect a representative sample of completed access requests for evidence of timely independent approval",
+        "Review the documented access management policy for the required approval and authorization provisions",
+        "Interview the access management team to confirm its understanding of the approval responsibilities",
+        "Examine the system configuration to determine whether privileged accounts can be created by administrators"
+      ],
+      "answer": "A",
+      "explanation": "Testing operating effectiveness requires evidence that the control functioned as intended during the period under review. Examining a representative sample of actual transactions establishes whether approvals were obtained by authorized independent personnel before access was granted. Policy reviews and interviews primarily address design or understanding, while configuration inspection alone does not demonstrate consistent execution of the specified approval control.",
+      "topic": "Risk Response and Reporting",
+      "subtopic": "Control Testing Methodologies",
+      "difficulty": "medium",
+      "source": "ISACA CRISC Exam Content Outline (2025), Domain 3B3: Control Testing Methodologies"
+    },
+    {
+      "stem": "A financial services company wants to establish a key risk indicator (KRI) that provides early warning of increasing account takeover risk. Which of the following metrics is MOST appropriate?",
+      "options": [
+        "Percentage of customer service tickets resolved within the target period",
+        "Percentage of employees completing annual cybersecurity awareness training",
+        "Frequency of detected credential-stuffing attempts against customer authentication services",
+        "Percentage of scheduled authentication control reviews completed by the audit team"
+      ],
+      "answer": "C",
+      "explanation": "A KRI provides information about changing risk exposure and can indicate when intervention may be necessary. Increasing credential-stuffing activity signals a rising threat to customer accounts and can support escalation against established thresholds. The other measures primarily describe operational performance, training completion, or control review activity rather than directly tracking the changing threat.",
+      "topic": "Risk Response and Reporting",
+      "subtopic": "Risk and Control Metrics (e.g., KRIs, KCIs, KPIs)",
+      "difficulty": "easy",
+      "source": "ISACA CRISC Exam Content Outline (2025), Domain 3C3: Risk and Control Metrics (e.g., KRIs, KCIs, KPIs)"
+    },
+    {
+      "stem": "The board's risk committee reports that existing quarterly technology risk dashboards contain extensive technical information but provide little support for decisions about enterprise risk exposure. Which of the following changes would MOST improve the usefulness of reporting to the committee?",
+      "options": [
+        "Increase reporting frequency and include all unresolved technical control deficiencies",
+        "Replace qualitative risk assessments with a uniform numerical scoring methodology",
+        "Present detailed testing evidence for each control associated with a material risk",
+        "Summarize material exposures against risk appetite, business impacts, trends, and required decisions"
+      ],
+      "answer": "D",
+      "explanation": "Board-level risk reporting should communicate the significance of exposures in business terms and identify where governance decisions or additional responses are required. Comparing material risks with appetite, highlighting trends, and identifying potential impacts enables effective oversight. Increasing technical detail or reporting frequency does not necessarily improve the committee's ability to make informed risk decisions.",
+      "topic": "Risk Response and Reporting",
+      "subtopic": "Risk and Control Reporting Techniques (e.g., heatmap, scorecards, dashboards)",
+      "difficulty": "medium",
+      "source": "ISACA CRISC Exam Content Outline (2025), Domain 3C6: Risk and Control Reporting Techniques"
+    },
+    {
+      "stem": "An organization is developing a new mobile application that will process sensitive personal information. At which stage of the system development life cycle should privacy and security requirements FIRST be formally identified?",
+      "options": [
+        "During user acceptance testing before the production release",
+        "During initial requirements analysis and system planning",
+        "During deployment preparation after development is completed",
+        "During the first operational review following implementation"
+      ],
+      "answer": "B",
+      "explanation": "Identifying privacy and security requirements during planning and requirements analysis allows appropriate safeguards to be incorporated into system design from the beginning. Early integration reduces costly redesign and helps prevent controls from being omitted. Waiting until testing, deployment, or production may leave fundamental design weaknesses unresolved.",
+      "topic": "Technology and Security",
+      "subtopic": "System Development Life Cycle (SDLC)",
+      "difficulty": "easy",
+      "source": "ISACA CRISC Exam Content Outline (2025), Domain 4A4: System Development Life Cycle (SDLC)"
+    },
+    {
+      "stem": "During an active cyberattack, an operations team implements an emergency firewall rule without completing the organization's normal preimplementation change approval process. The emergency procedure permits this deviation when immediate containment is necessary. Which of the following BEST ensures that the change remains appropriately controlled?",
+      "options": [
+        "Record the emergency change and perform timely independent retrospective review and authorization",
+        "Require the operations team to reverse the change as soon as the immediate attack has stopped",
+        "Suspend routine change management requirements for all security-related modifications",
+        "Transfer responsibility for approving future emergency changes to the incident response team"
+      ],
+      "answer": "A",
+      "explanation": "Emergency changes may require accelerated implementation to protect critical services, but they should remain traceable and subject to appropriate oversight. Documenting the change and performing a timely independent retrospective review help validate its necessity, effects, and continuing authorization. Emergency procedures should streamline controls rather than eliminate accountability or require reversal of every justified change.",
+      "topic": "Technology and Security",
+      "subtopic": "Operations Management (e.g., change management, assets, DevOps, problems, incidents)",
+      "difficulty": "medium",
+      "source": "ISACA CRISC Exam Content Outline (2025), Domain 4A3: Operations Management"
+    },
+    {
+      "stem": "A bank's business impact analysis establishes a two-hour recovery time objective (RTO) for its online banking service. A disaster recovery test demonstrates that the banking application can be restored in 45 minutes, but its required identity management service cannot be restored for four hours. Which of the following is the MOST appropriate risk response?",
+      "options": [
+        "Accept the recovery test results because the banking application meets its individual restoration target",
+        "Increase the frequency of application backups to reduce the recovery time for transaction records",
+        "Change the banking application's recovery objective to match the identity management service",
+        "Improve identity management recovery capability so the complete banking service can meet its RTO"
+      ],
+      "answer": "D",
+      "explanation": "Recovery objectives must be achievable for the complete business service, including essential dependencies. Although the banking application can be restored quickly, the four-hour identity management recovery prevents the service from meeting its two-hour RTO. Improving the dependent service's recovery capability addresses the actual constraint; changing the business RTO merely to match technical limitations would require a separate, formally justified business decision.",
+      "topic": "Technology and Security",
+      "subtopic": "Technology Resilience and Disaster Response/Recovery",
+      "difficulty": "hard",
+      "source": "ISACA CRISC Exam Content Outline (2025), Domain 4A7: Technology Resilience and Disaster Response/Recovery"
+    },
+    {
+      "stem": "An organization proposes using a third-party generative AI service to summarize customer support records, some of which contain personal and commercially sensitive information. Before approving the pilot, which of the following should be the PRIMARY risk management activity?",
+      "options": [
+        "Evaluate whether the proposed service can process customer requests faster than existing systems",
+        "Establish productivity targets and assign ownership of the expected operational benefits",
+        "Assess data flows, provider processing practices, confidentiality safeguards, and applicable privacy obligations",
+        "Require employees to acknowledge an updated acceptable-use policy before accessing the service"
+      ],
+      "answer": "C",
+      "explanation": "Introducing an external AI service creates potential risks involving sensitive data disclosure, retention, secondary use, unauthorized access, and regulatory compliance. Assessing data flows and the provider's processing arrangements establishes whether the proposed use can be supported by appropriate safeguards and lawful processing conditions. Productivity goals and employee policies are useful but cannot substitute for evaluating the underlying technology and data protection risks.",
+      "topic": "Technology and Security",
+      "subtopic": "Emerging Technologies",
+      "difficulty": "medium",
+      "source": "ISACA CRISC Exam Content Outline (2025), Domain 4A8: Emerging Technologies; Domain 4B3: Data Privacy and Data Protection Principles"
+    }
+  ]
+}
