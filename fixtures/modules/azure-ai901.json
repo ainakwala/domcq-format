@@ -1,0 +1,36 @@
+{
+  "id": "azure-ai901",
+  "display_name": "AI-901: Microsoft Azure AI Fundamentals",
+  "body": "Microsoft",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, or authorized, sponsored, endorsed or approved by, Microsoft Corporation; the names are used only to identify the exam. Microsoft, Azure, Microsoft Defender, Microsoft Entra, Microsoft Purview and Microsoft Sentinel are trademarks of the Microsoft group of companies. All other trademarks are the property of their respective owners.",
+  "taxonomy": {
+    "Identify AI concepts and capabilities": [
+      "Describe principles of responsible AI",
+      "Identify AI model components and configurations",
+      "Identify AI workloads"
+    ],
+    "Implement AI solutions by using Microsoft Foundry": [
+      "Implement generative AI apps and agents by using Foundry",
+      "Implement AI solutions for text and speech by using Foundry",
+      "Implement AI solutions with computer vision and image-generation capabilities by using Foundry",
+      "Implement AI solutions for information extraction by using Foundry"
+    ]
+  },
+  "weights": {
+    "Identify AI concepts and capabilities": { "min": 40, "max": 45 },
+    "Implement AI solutions by using Microsoft Foundry": { "min": 55, "max": 60 }
+  },
+  "options": { "min": 4, "max": 4 },
+  "multi_select": true,
+  "banned_option_text": ["all of the above", "none of the above"],
+  "stem_hints": [],
+  "uncovered_item_types": ["active screen", "build list", "case study", "drag and drop", "hot area", "yes/no question"],
+  "exam_mode": {
+    "questions": 50,
+    "minutes": 45,
+    "note": "Microsoft does not publish the AI-901 question count: its Fundamentals exams are 45 minutes, and its pages say most of its exams have 35 to 50 or 40 to 60 questions."
+  },
+  "verified_outline": "Study guide for Exam AI-901: Microsoft Azure AI Fundamentals, skills measured as of April 15, 2026",
+  "verified_on": "2026-10-29",
+  "next_review": "2027-10-29"
+}

@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "azure-ai901",
+  "set": "AI-901: Microsoft Azure AI Fundamentals practice – Core Concepts and Foundry",
+  "questions": [
+    {
+      "stem": "A bank uses an AI model to evaluate loan applications. An audit finds that applicants from two demographic groups with similar financial qualifications receive significantly different approval rates. Which responsible AI principle is most directly relevant to investigating this issue?",
+      "options": [
+        "Reliability and safety",
+        "Fairness",
+        "Transparency",
+        "Privacy and security"
+      ],
+      "answer": "B",
+      "explanation": "Fairness requires AI systems to treat people equitably and avoid unjustified differences in outcomes across demographic groups. The bank should investigate whether the model's data, features, or decision rules produce discriminatory results and evaluate appropriate fairness metrics. Equal overall accuracy does not necessarily establish fairness across groups.",
+      "topic": "Identify AI concepts and capabilities",
+      "subtopic": "Describe principles of responsible AI",
+      "difficulty": "easy",
+      "source": "Microsoft AI-901 study guide: Describe principles of responsible AI – Fairness"
+    },
+    {
+      "stem": "A healthcare organization is introducing an AI system that recommends administrative actions to employees. Management wants to address the responsible AI principles of transparency and accountability. Which TWO practices most directly support these principles? Choose TWO.",
+      "options": [
+        "Explain the system's capabilities, limitations, and relevant factors influencing recommendations.",
+        "Suppress information about incorrect predictions to simplify the user experience.",
+        "Assign responsible personnel to review system failures and address harmful outcomes.",
+        "Allow the system to implement every recommendation without organizational oversight."
+      ],
+      "answer": "AC",
+      "explanation": "Transparency involves helping users understand an AI system's purpose, capabilities, limitations, and relevant decision factors. Accountability requires identifiable people or organizations to take responsibility for the system's operation and outcomes. Concealing failures and eliminating oversight undermine responsible AI practices.",
+      "topic": "Identify AI concepts and capabilities",
+      "subtopic": "Describe principles of responsible AI",
+      "difficulty": "medium",
+      "source": "Microsoft AI-901 study guide: Describe principles of responsible AI – Transparency and accountability"
+    },
+    {
+      "stem": "An organization develops a generative AI assistant that answers employee questions using retrieved HR documents. Some documents contain confidential salary information that only authorized managers may access. All documents are available in the retrieval index. Which design provides the strongest protection against unauthorized disclosure through the assistant?",
+      "options": [
+        "Instruct the model to avoid disclosing confidential information in its system prompt.",
+        "Increase the model's context window so it can examine more documents before answering.",
+        "Apply a content filter that removes offensive language from generated responses.",
+        "Enforce document-level authorization during retrieval before passing content to the model."
+      ],
+      "answer": "D",
+      "explanation": "Document-level authorization prevents confidential records from entering the model's context when the requesting user lacks permission to access them. System instructions and output filters are not substitutes for access controls because they cannot reliably enforce data permissions. This design supports the responsible AI principles of privacy and security.",
+      "topic": "Identify AI concepts and capabilities",
+      "subtopic": "Describe principles of responsible AI",
+      "difficulty": "hard",
+      "source": "Microsoft AI-901 study guide: Describe principles of responsible AI – Privacy and security"
+    },
+    {
+      "stem": "A developer uses a generative language model to produce a customer-service response from a written prompt. Which description best explains how a typical autoregressive language model generates the response?",
+      "options": [
+        "It predicts successive tokens based on the preceding context and learned patterns.",
+        "It retrieves complete sentences from a fixed database of approved responses.",
+        "It executes predefined decision rules for every possible combination of words.",
+        "It searches the public internet for an exact match before returning each sentence."
+      ],
+      "answer": "A",
+      "explanation": "Autoregressive generative language models produce text by predicting successive tokens using patterns learned during training and the context available in the prompt. Tokens may represent words, word fragments, or other text units. The model does not require a stored complete response or a live internet search to generate text.",
+      "topic": "Identify AI concepts and capabilities",
+      "subtopic": "Identify AI model components and configurations",
+      "difficulty": "easy",
+      "source": "Microsoft AI-901 study guide: Identify AI model components and configurations – How generative AI models work"
+    },
+    {
+      "stem": "A developer is configuring a deployed generative AI model to extract structured product information. Repeated requests with identical inputs produce unnecessarily varied wording. The selected model supports a temperature parameter. Which change is most appropriate for making outputs generally more consistent?",
+      "options": [
+        "Increase the top_p parameter toward its maximum value.",
+        "Increase the temperature parameter toward its maximum value.",
+        "Decrease the temperature parameter toward its minimum value.",
+        "Increase the maximum output token limit substantially."
+      ],
+      "answer": "C",
+      "explanation": "Temperature controls the randomness of token selection in supported generative models. Lower temperatures generally favor higher-probability tokens and produce more predictable outputs, although they do not guarantee identical responses. Increasing the output token limit affects response length capacity rather than directly improving consistency.",
+      "topic": "Identify AI concepts and capabilities",
+      "subtopic": "Identify AI model components and configurations",
+      "difficulty": "medium",
+      "source": "Microsoft AI-901 study guide: Identify AI model components and configurations – Model configuration parameters"
+    },
+    {
+      "stem": "A company must deploy a supported generative AI model in Microsoft Foundry. Its compliance policy requires prompts and responses to be processed within its selected Azure geography. Request volume is low and unpredictable, and the company wants usage-based pricing rather than reserved throughput. Which deployment type best meets these requirements?",
+      "options": [
+        "Global Standard deployment",
+        "Standard deployment",
+        "Global Provisioned deployment",
+        "Data Zone Batch deployment"
+      ],
+      "answer": "B",
+      "explanation": "A Standard deployment uses pay-per-token billing and processes inference data within the selected Azure geography, making it appropriate for variable workloads with geography-specific requirements. Global deployments can process requests across Azure regions worldwide. Provisioned deployments reserve capacity, while batch deployments are designed for asynchronous processing rather than ordinary interactive requests.",
+      "topic": "Identify AI concepts and capabilities",
+      "subtopic": "Identify AI model components and configurations",
+      "difficulty": "hard",
+      "source": "Microsoft Learn: Deployment types for Microsoft Foundry Models – Standard and data residency"
+    },
+    {
+      "stem": "A company wants to build an application that listens to spoken customer questions and converts the spoken words into written text for further processing. Which AI capability performs this conversion?",
+      "options": [
+        "Speech synthesis",
+        "Speaker verification",
+        "Image classification",
+        "Speech recognition"
+      ],
+      "answer": "D",
+      "explanation": "Speech recognition, also called speech to text, converts spoken audio into written text. It is commonly used for voice commands, transcription, and speech-enabled applications. Speech synthesis performs the reverse operation by generating audio from text.",
+      "topic": "Identify AI concepts and capabilities",
+      "subtopic": "Identify AI workloads",
+      "difficulty": "easy",
+      "source": "Microsoft AI-901 study guide: Identify AI workloads – Speech recognition and synthesis"
+    },
+    {
+      "stem": "A retailer wants to analyze thousands of customer messages. For each message, the system must identify names of people, organizations, and locations, and extract the most important phrases describing the customer's concerns. Which TWO text analysis techniques should the retailer use? Choose TWO.",
+      "options": [
+        "Named entity recognition",
+        "Sentiment analysis",
+        "Key phrase extraction",
+        "Language detection"
+      ],
+      "answer": "AC",
+      "explanation": "Named entity recognition identifies and categorizes entities such as people, organizations, and geographical locations in text. Key phrase extraction identifies the main terms or phrases that summarize important subjects within a document. Sentiment analysis evaluates opinions or emotional polarity, while language detection identifies the language in which text is written.",
+      "topic": "Identify AI concepts and capabilities",
+      "subtopic": "Identify AI workloads",
+      "difficulty": "medium",
+      "source": "Microsoft AI-901 study guide: Identify AI workloads – Named entity recognition and keyword extraction"
+    },
+    {
+      "stem": "A warehouse operator wants an AI system to inspect camera images and identify the position of every forklift visible in each image. The system must return bounding boxes around individual forklifts rather than simply determine whether a forklift is present. Which computer vision workload is most appropriate?",
+      "options": [
+        "Image classification",
+        "Object detection",
+        "Optical character recognition",
+        "Image generation"
+      ],
+      "answer": "B",
+      "explanation": "Object detection identifies individual objects within an image and provides their locations, commonly represented by bounding boxes. Image classification assigns labels to an image but does not necessarily locate separate object instances. Optical character recognition extracts text, while image generation creates new visual content.",
+      "topic": "Identify AI concepts and capabilities",
+      "subtopic": "Identify AI workloads",
+      "difficulty": "medium",
+      "source": "Microsoft AI-901 study guide: Identify AI workloads – Computer vision capabilities"
+    },
+    {
+      "stem": "A developer is creating a chat application using a generative AI model deployed in Microsoft Foundry. The assistant must consistently use a professional tone and provide concise answers, regardless of the individual questions submitted by users. Where should the developer place these persistent behavioral instructions?",
+      "options": [
+        "In the model deployment's resource name",
+        "In the application's network configuration",
+        "In the maximum output token setting",
+        "In the system instructions supplied to the model"
+      ],
+      "answer": "D",
+      "explanation": "System instructions establish the assistant's general role, behavior, and response requirements across user interactions. User messages ordinarily supply the specific questions or tasks. Deployment names, networking settings, and token limits do not define the assistant's communication style.",
+      "topic": "Implement AI solutions by using Microsoft Foundry",
+      "subtopic": "Implement generative AI apps and agents by using Foundry",
+      "difficulty": "easy",
+      "source": "Microsoft AI-901 study guide: Implement generative AI apps and agents – System and user prompts"
+    },
+    {
+      "stem": "A developer has created a Microsoft Foundry project and selected a supported chat model from the model catalog. The developer wants to make the model available through a named deployment for use by an external application and test it in the Foundry portal. Which workflow is appropriate?",
+      "options": [
+        "Create a deployment in the project, test it in the playground, and use its deployment details in the application.",
+        "Create a storage account, upload the model description, and use the storage URL as the inference endpoint.",
+        "Create an Azure virtual machine, install the Foundry portal, and retrieve the model's generated source code.",
+        "Create a monitoring dashboard, export its configuration, and submit user prompts through Azure Monitor."
+      ],
+      "answer": "A",
+      "explanation": "For a named model deployment, the developer deploys a supported model in the Foundry project and can test it through the portal's playground. An application can then use the appropriate project endpoint, authentication, and deployment name to submit inference requests. Storage accounts and monitoring dashboards do not replace model inference endpoints.",
+      "topic": "Implement AI solutions by using Microsoft Foundry",
+      "subtopic": "Implement generative AI apps and agents by using Foundry",
+      "difficulty": "medium",
+      "source": "Microsoft Learn: Get started with Microsoft Foundry SDK – Deploy and chat with a model"
+    },
+    {
+      "stem": "A Python developer has initialized an authenticated AIProjectClient named project using a Microsoft Foundry project endpoint and DefaultAzureCredential. The project contains a supported deployed language model named faq-deploy. Which Python expression correctly submits a new prompt through the Foundry SDK's OpenAI-compatible client?",
+      "options": [
+        "project.get_openai_client().files.create(model='faq-deploy', input='Hi')",
+        "project.get_openai_client().models.retrieve(model='faq-deploy', input='Hi')",
+        "project.get_openai_client().responses.create(model='faq-deploy', input='Hi')",
+        "project.get_openai_client().responses.retrieve(model='faq-deploy', input='Hi')"
+      ],
+      "answer": "C",
+      "explanation": "The AIProjectClient provides access to an OpenAI-compatible client through get_openai_client(). For a model that supports the Responses API, responses.create() submits a new inference request using the deployment name and input. Retrieval operations do not create new responses, and file-management operations are not used to generate model replies.",
+      "topic": "Implement AI solutions by using Microsoft Foundry",
+      "subtopic": "Implement generative AI apps and agents by using Foundry",
+      "difficulty": "hard",
+      "source": "Microsoft Learn: Get started with Microsoft Foundry SDK – AIProjectClient and Responses API"
+    },
+    {
+      "stem": "A support company creates a single AI agent in Microsoft Foundry. The agent must answer general customer questions and retrieve the current status of individual support tickets from an external ticket-management API. The company does not want the agent to invent ticket statuses. Which configuration best enables the required behavior?",
+      "options": [
+        "Increase the model's output token limit so it can generate more detailed ticket histories.",
+        "Connect an authorized API tool to the agent and provide instructions for when the tool should be used.",
+        "Reduce the model's temperature so it can recall all current ticket records without external access.",
+        "Add historical ticket examples to the system instructions and prevent the agent from calling external services."
+      ],
+      "answer": "B",
+      "explanation": "An agent can use connected tools to obtain information from external systems when responding to user requests. By connecting an appropriately authorized ticket-management tool and configuring suitable instructions, the developer enables the agent to retrieve current information instead of relying on generated guesses. Temperature and output length do not provide access to live business data.",
+      "topic": "Implement AI solutions by using Microsoft Foundry",
+      "subtopic": "Implement generative AI apps and agents by using Foundry",
+      "difficulty": "medium",
+      "source": "Microsoft AI-901 study guide: Implement generative AI apps and agents – Create and test a single-agent solution"
+    },
+    {
+      "stem": "A retailer is building a lightweight application that processes written product reviews. For each review, the application must determine whether the customer's opinion is positive, negative, or neutral. The team wants to use a prebuilt capability available through Foundry Tools. Which solution is most appropriate?",
+      "options": [
+        "Azure Speech with speech recognition",
+        "Azure Content Understanding with video segmentation",
+        "Azure Vision with object detection",
+        "Azure Language with sentiment analysis"
+      ],
+      "answer": "D",
+      "explanation": "Azure Language provides a prebuilt sentiment analysis capability that evaluates text and identifies positive, negative, neutral, or mixed sentiment. It can also provide confidence information and, where supported, sentence-level analysis. Speech recognition, video segmentation, and object detection solve different types of problems.",
+      "topic": "Implement AI solutions by using Microsoft Foundry",
+      "subtopic": "Implement AI solutions for text and speech by using Foundry",
+      "difficulty": "medium",
+      "source": "Microsoft Learn: Azure Language – Sentiment analysis and opinion mining"
+    },
+    {
+      "stem": "A developer wants to add an accessibility feature to an application. After generating a written answer, the application must read that answer aloud using a natural-sounding synthetic voice. Which Azure Speech capability should the developer integrate?",
+      "options": [
+        "Text to speech",
+        "Speech to text",
+        "Speaker recognition",
+        "Language detection"
+      ],
+      "answer": "A",
+      "explanation": "Text to speech converts written text into synthesized spoken audio and supports natural-sounding voices. Azure Speech in Foundry Tools exposes this capability through supported APIs and SDKs. Speech to text performs the opposite transformation by converting spoken input into written text.",
+      "topic": "Implement AI solutions by using Microsoft Foundry",
+      "subtopic": "Implement AI solutions for text and speech by using Foundry",
+      "difficulty": "easy",
+      "source": "Microsoft Learn: Azure Speech in Foundry Tools – Text to speech"
+    },
+    {
+      "stem": "A developer is building a voice-enabled assistant using a deployed multimodal model in Microsoft Foundry. The model's documentation confirms that it supports native audio input. The application must submit a user's recorded spoken question directly to the model and receive a relevant response. Which TWO implementation decisions are appropriate? Choose TWO.",
+      "options": [
+        "Insert the audio file's name into a text-only prompt and assume the model can hear its contents.",
+        "Provide the recorded audio in an input format supported by the deployed multimodal model.",
+        "Include task instructions or relevant conversational context alongside the audio input.",
+        "Convert the audio recording into an image and submit it through an image-generation endpoint."
+      ],
+      "answer": "BC",
+      "explanation": "A model that supports native audio input can process a recorded spoken prompt when the application supplies the audio using the required request format. Relevant instructions and conversation context help the model determine how to respond. Merely supplying a filename does not transmit audio content, and image-generation endpoints do not perform speech understanding.",
+      "topic": "Implement AI solutions by using Microsoft Foundry",
+      "subtopic": "Implement AI solutions for text and speech by using Foundry",
+      "difficulty": "hard",
+      "source": "Microsoft AI-901 study guide: Implement AI solutions for text and speech – Respond to spoken prompts using a multimodal model"
+    },
+    {
+      "stem": "A construction company wants to create an application that accepts an uploaded photograph and answers questions such as 'Which safety equipment is the worker wearing?' The company plans to use a deployed multimodal model in Microsoft Foundry. Which approach best meets this requirement?",
+      "options": [
+        "Extract any text from the photograph and ask a text-only model to identify the equipment.",
+        "Generate a new image of a construction worker and use it as evidence of the uploaded photograph.",
+        "Classify the photograph only by its file extension and supply that classification to the model.",
+        "Submit the photograph and the question together to a multimodal model that supports image input."
+      ],
+      "answer": "D",
+      "explanation": "A vision-capable multimodal model can interpret visual content supplied with a text prompt and answer questions about visible objects or activities. The application must use a model and request format that support image input. OCR alone cannot reliably identify non-textual safety equipment, and generating another image does not analyze the original photograph.",
+      "topic": "Implement AI solutions by using Microsoft Foundry",
+      "subtopic": "Implement AI solutions with computer vision and image-generation capabilities by using Foundry",
+      "difficulty": "medium",
+      "source": "Microsoft AI-901 study guide: Implement AI solutions with computer vision – Interpret visual input in prompts"
+    },
+    {
+      "stem": "A marketing application must create original illustrations from descriptions entered by users, such as 'A small cabin beside a snowy mountain at sunrise.' Which type of model should the developer select in Microsoft Foundry?",
+      "options": [
+        "An optical character recognition model",
+        "An image classification model",
+        "An image-generation model",
+        "An object detection model"
+      ],
+      "answer": "C",
+      "explanation": "Image-generation models create new visual content from prompts, including natural-language descriptions. They are appropriate for illustrations, concept artwork, and other synthetic images. OCR, image classification, and object detection analyze existing images rather than create new ones.",
+      "topic": "Implement AI solutions by using Microsoft Foundry",
+      "subtopic": "Implement AI solutions with computer vision and image-generation capabilities by using Foundry",
+      "difficulty": "easy",
+      "source": "Microsoft AI-901 study guide: Implement AI solutions with computer vision – Create visual outputs using generative models"
+    },
+    {
+      "stem": "An accounting department receives supplier invoices as PDF documents. It wants to use Azure Content Understanding in Foundry Tools to extract common invoice information, including supplier details, invoice dates, totals, and line items, while minimizing custom analyzer development. Which analyzer is the most appropriate starting point?",
+      "options": [
+        "The prebuilt-video analyzer",
+        "The prebuilt-invoice analyzer",
+        "The prebuilt-audio analyzer",
+        "The prebuilt-image analyzer"
+      ],
+      "answer": "B",
+      "explanation": "Azure Content Understanding provides a prebuilt-invoice analyzer designed to extract structured information from common invoice documents. Using a domain-specific analyzer reduces the need to define the entire extraction process from scratch. More general analyzers may process the underlying modality but are not specifically optimized for invoice fields.",
+      "topic": "Implement AI solutions by using Microsoft Foundry",
+      "subtopic": "Implement AI solutions for information extraction by using Foundry",
+      "difficulty": "medium",
+      "source": "Microsoft Learn: Azure Content Understanding in Foundry Tools – Prebuilt analyzers"
+    },
+    {
+      "stem": "A media company wants to analyze recorded training videos using Azure Content Understanding in Foundry Tools. Each video contains spoken explanations and demonstrations. The application must extract spoken content, divide videos into meaningful sections, and produce structured descriptions of those sections using a reusable analyzer. Which TWO actions are appropriate? Choose TWO.",
+      "options": [
+        "Use a video-capable Content Understanding analyzer to process the recordings and extract multimodal content.",
+        "Use optical character recognition alone because it automatically transcribes speech and identifies video scenes.",
+        "Use text sentiment analysis alone because it automatically creates video sections and visual descriptions.",
+        "Configure the analyzer with appropriate segmentation settings and a field schema for the required outputs."
+      ],
+      "answer": "AD",
+      "explanation": "Azure Content Understanding supports video processing that combines information from visual and audio content, including speech transcription and descriptions of visual events. A video-capable analyzer can be configured with segmentation options and a field schema to produce structured results for downstream applications. OCR alone does not interpret spoken audio, while text sentiment analysis does not perform comprehensive video understanding.",
+      "topic": "Implement AI solutions by using Microsoft Foundry",
+      "subtopic": "Implement AI solutions for information extraction by using Foundry",
+      "difficulty": "medium",
+      "source": "Microsoft Learn: Azure Content Understanding – Analyzer configuration, video processing, and segmentation"
+    }
+  ]
+}
