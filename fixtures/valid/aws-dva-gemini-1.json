@@ -1,0 +1,309 @@
+{
+  "format": "domcq/1",
+  "exam": "aws-dva",
+  "set": "AWS Certified Developer - Associate practice – Comprehensive DVA-C02 Exam Prep",
+  "questions": [
+    {
+      "stem": "A developer has written an AWS Lambda function that establishes a connection to an Amazon RDS MySQL database each time it handles an incoming event. During traffic spikes, the database reports connection exhaustion errors and rejects queries. Which code modification will reduce connection overhead on the database?",
+      "options": [
+        "Increase the Lambda function timeout so that idle connections close gracefully.",
+        "Initialize the database connection object outside the Lambda handler function.",
+        "Allocate maximum memory to the Lambda function so queries complete faster.",
+        "Store database credentials in AWS Systems Manager Parameter Store and query them on every call."
+      ],
+      "answer": "B",
+      "explanation": "Declaring and establishing the database connection outside the Lambda handler places it in the execution environment's global scope. Subsequent invocations that reuse the same warm execution environment can reuse the active connection, which dramatically lowers connection setup overhead and avoids exhausting connection pools on the Amazon RDS instance.",
+      "topic": "Development with AWS Services",
+      "subtopic": "Develop code for AWS Lambda",
+      "difficulty": "easy",
+      "source": "AWS Lambda Developer Guide - Optimizing Lambda execution environment reuse"
+    },
+    {
+      "stem": "An application queries an Amazon DynamoDB table that holds millions of customer orders partitioned by CustomerID. Individual query requests frequently exceed the 1 MB response limit imposed by DynamoDB. Which solution should the developer implement in the application code to retrieve all matching items?",
+      "options": [
+        "Switch from the Query API operation to the Scan API operation with parallel segments enabled.",
+        "Increase the provisioned read capacity units (RCUs) on the DynamoDB table before issuing the query.",
+        "Use projection expressions to return only the partition key and sort key attributes.",
+        "Check the response for LastEvaluatedKey and pass its value as ExclusiveStartKey in subsequent query calls."
+      ],
+      "answer": "D",
+      "explanation": "DynamoDB paginates results whenever an individual Query or Scan result set exceeds the 1 MB payload limit. When more results remain, DynamoDB returns a LastEvaluatedKey attribute in the response; passing that value into the ExclusiveStartKey parameter of the next request enables seamless pagination through the full result set.",
+      "topic": "Development with AWS Services",
+      "subtopic": "Use data stores during application development",
+      "difficulty": "medium",
+      "source": "Amazon DynamoDB Developer Guide - Paginating Table Query Results"
+    },
+    {
+      "stem": "An application uses an Amazon SQS standard queue to distribute asynchronous image-processing tasks to worker instances. Occasionally, a malformed message causes worker processes to crash repeatedly before deleting the message, blocking consumers and wasting compute capacity. Which TWO actions should the developer take to resolve this issue? (Choose TWO.)",
+      "options": [
+        "Configure a dead-letter queue (DLQ) on the source queue with a maximum receive count.",
+        "Enable content-based deduplication on the Amazon SQS standard queue.",
+        "Increase the visibility timeout of the queue to allow adequate time for message processing and error handling.",
+        "Convert the standard queue into a FIFO queue with message deduplication IDs.",
+        "Issue an explicit PurgeQueue API call from the worker when an unhandled exception occurs."
+      ],
+      "answer": "AC",
+      "explanation": "Setting up a dead-letter queue (DLQ) with an appropriate maxReceiveCount ensures that messages failing repeatedly are automatically isolated after reaching the retry limit, preventing worker thrashing. Adjusting the visibility timeout ensures worker processes have sufficient time to process tasks or catch exceptions without the message prematurely reappearing to other concurrent consumers.",
+      "topic": "Development with AWS Services",
+      "subtopic": "Develop code for applications that are hosted on AWS",
+      "difficulty": "medium",
+      "source": "Amazon SQS Developer Guide - Dead-Letter Queues and Visibility Timeout"
+    },
+    {
+      "stem": "A developer is building an inventory service backed by an Amazon DynamoDB table. Multiple instances update product stock levels concurrently. The developer must ensure that an update succeeds only if another process has not modified the item since it was retrieved, preventing lost updates and race conditions. Which solution meets these requirements?",
+      "options": [
+        "Include a version number attribute in the item, and use a conditional write expression that verifies the version before updating.",
+        "Enable DynamoDB Point-in-Time Recovery (PITR) to detect and roll back conflicting update operations.",
+        "Wrap the update request in a TransactWriteItems operation using the ReturnConsumedCapacity parameter.",
+        "Create a global secondary index (GSI) on the item quantity attribute and query the GSI before issuing the update."
+      ],
+      "answer": "A",
+      "explanation": "Optimistic locking in DynamoDB is implemented by adding a version attribute to each record. When writing updates, the client specifies a ConditionExpression that checks that the current version in the table matches the version read by the client; if another transaction updated the item first, the condition check fails and prevents overwriting newer data.",
+      "topic": "Development with AWS Services",
+      "subtopic": "Use data stores during application development",
+      "difficulty": "hard",
+      "source": "Amazon DynamoDB Developer Guide - Optimistic Locking with a Version Number"
+    },
+    {
+      "stem": "A developer has an AWS Lambda function that experiences cold start latency, which degrades user response times during sudden bursts of traffic. The developer needs to ensure that initialized execution environments are consistently available to handle incoming requests without latency spikes. Which solution meets this requirement with the LEAST operational overhead?",
+      "options": [
+        "Configure an Amazon EventBridge scheduled rule to invoke the Lambda function every 5 minutes.",
+        "Increase the Lambda function ephemeral storage (/tmp) to cache initialization artifacts across invocations.",
+        "Configure provisioned concurrency for a published version or alias of the Lambda function.",
+        "Deploy the Lambda function across multiple AWS Availability Zones using a virtual private cloud (VPC)."
+      ],
+      "answer": "C",
+      "explanation": "Provisioned concurrency initializes a requested fleet of execution environments in advance, keeping initialization code execution completed and ready to respond in double-digit milliseconds. Scheduled ping rules are ineffective under burst conditions because parallel invocations beyond the single warmed instance will still trigger cold starts.",
+      "topic": "Development with AWS Services",
+      "subtopic": "Develop code for AWS Lambda",
+      "difficulty": "medium",
+      "source": "AWS Lambda Developer Guide - Configuring provisioned concurrency"
+    },
+    {
+      "stem": "A developer needs to upload media files ranging in size from 500 MB to 5 GB to an Amazon S3 bucket. Network fluctuations frequently cause the uploads to fail mid-transfer, forcing the process to restart from the beginning. Which solution will improve upload reliability and performance?",
+      "options": [
+        "Use the Amazon S3 PutObject API call with gzip compression enabled in the HTTP headers.",
+        "Enable S3 Cross-Region Replication (CRR) on the destination bucket before uploading.",
+        "Generate an S3 presigned URL with an expiration period of 24 hours.",
+        "Use the Amazon S3 multipart upload API to upload the files in parts concurrently."
+      ],
+      "answer": "D",
+      "explanation": "The Amazon S3 multipart upload API breaks large objects into a collection of individual parts that can be uploaded independently and in parallel. If an individual part transmission fails due to network disruption, only that single part must be retried rather than restarting the entire multi-gigabyte upload.",
+      "topic": "Development with AWS Services",
+      "subtopic": "Develop code for applications that are hosted on AWS",
+      "difficulty": "easy",
+      "source": "Amazon S3 User Guide - Uploading and copying objects using multipart upload"
+    },
+    {
+      "stem": "A containerized application runs on Amazon Elastic Container Service (Amazon ECS) using the AWS Fargate launch type. The application code needs read and write access to an Amazon S3 bucket. How should the developer provide the application with the required AWS permissions according to security best practices?",
+      "options": [
+        "Store IAM user access keys as environment variables in the container definition within the task definition.",
+        "Assign an IAM role with the required S3 permissions to the ECS task definition as the task role.",
+        "Assign an IAM role with S3 permissions to the ECS task execution role.",
+        "Store IAM user credentials in AWS Systems Manager Parameter Store and retrieve them at container startup."
+      ],
+      "answer": "B",
+      "explanation": "The ECS task role (taskRoleArn) grants AWS permissions directly to the application containers running within a task, allowing the application code to retrieve temporary credentials via the AWS SDK. The task execution role (executionRoleArn), by contrast, is used solely by the ECS infrastructure agent to pull container images and publish logs.",
+      "topic": "Security",
+      "subtopic": "Implement authentication and authorization mechanisms for applications and AWS services",
+      "difficulty": "easy",
+      "source": "Amazon ECS Developer Guide - IAM roles for tasks"
+    },
+    {
+      "stem": "An application requires database connection credentials to connect to an Amazon RDS PostgreSQL DB instance. Company compliance policies dictate that database credentials must be encrypted at rest and automatically rotated every 30 days without application downtime. Which solution meets these requirements with the LEAST operational overhead?",
+      "options": [
+        "Store the credentials in AWS Secrets Manager and configure automatic rotation using an AWS Lambda function.",
+        "Store the credentials in AWS Systems Manager Parameter Store as a SecureString and write an Amazon EventBridge rule to rotate them.",
+        "Store the credentials in an Amazon S3 bucket encrypted with AWS KMS and enable S3 lifecycle rules.",
+        "Encrypt the credentials with an AWS KMS customer managed key and embed the ciphertext in the application configuration file."
+      ],
+      "answer": "A",
+      "explanation": "AWS Secrets Manager is specifically engineered for sensitive credentials and features native, out-of-the-box integration for automated secret rotation with Amazon RDS using managed Lambda templates. While Systems Manager Parameter Store can store encrypted strings, it does not provide native lifecycle rotation orchestration for databases.",
+      "topic": "Security",
+      "subtopic": "Implement encryption and manage sensitive data by using AWS services",
+      "difficulty": "medium",
+      "source": "AWS Secrets Manager User Guide - Rotating secrets"
+    },
+    {
+      "stem": "A developer is building a mobile application that allows end users to sign up, sign in, and manage their account profile. In addition, users need temporary, scoped AWS credentials to upload profile pictures directly to a private Amazon S3 bucket without routing data through a backend server. Which combination of services should the developer use?",
+      "options": [
+        "AWS IAM Identity Center for authentication and AWS STS AssumeRole API calls for obtaining S3 credentials.",
+        "Amazon Cognito User Pools for authentication and an IAM user policy for granting S3 permissions.",
+        "Amazon Cognito User Pools for user sign-up and authentication, and Amazon Cognito Identity Pools for temporary AWS credentials.",
+        "Amazon API Gateway Lambda authorizer for sign-up and authentication, and AWS Secrets Manager for S3 credentials."
+      ],
+      "answer": "C",
+      "explanation": "Amazon Cognito User Pools serve as an identity provider handling user registration, multi-factor authentication, and token management. Amazon Cognito Identity Pools (federated identities) take identity tokens from user pools and exchange them for short-lived, least-privilege AWS IAM credentials that enable client devices to interact directly with Amazon S3.",
+      "topic": "Security",
+      "subtopic": "Implement authentication and authorization mechanisms for applications and AWS services",
+      "difficulty": "medium",
+      "source": "Amazon Cognito Developer Guide - Common Amazon Cognito scenarios"
+    },
+    {
+      "stem": "A developer needs to encrypt sensitive 100 MB data files client-side before sending them over the network to external storage. The developer plans to use AWS Key Management Service (AWS KMS) customer managed keys (CMKs) to implement envelope encryption. Which procedure should the developer follow to encrypt the data?",
+      "options": [
+        "Call the KMS Encrypt API operation with the raw file contents to receive the ciphertext directly.",
+        "Call the KMS DescribeKey API operation to retrieve the public key, and encrypt the file locally using the public key.",
+        "Call the KMS CreateGrant API operation to obtain a temporary encryption key, and stream the file through AWS KMS.",
+        "Call the KMS GenerateDataKey API operation, use the plaintext data key to encrypt the file locally, erase the plaintext key from memory, and store the encrypted data key with the ciphertext."
+      ],
+      "answer": "D",
+      "explanation": "The AWS KMS Encrypt API has a maximum payload limit of 4 KB and cannot encrypt large files directly. Envelope encryption resolves this by using GenerateDataKey to produce a plaintext data key for local symmetric encryption and an encrypted copy of that data key, which is safely stored alongside the ciphertext file after the plaintext key is deleted from memory.",
+      "topic": "Security",
+      "subtopic": "Implement encryption and manage sensitive data by using AWS services",
+      "difficulty": "hard",
+      "source": "AWS Key Management Service Developer Guide - Envelope encryption and GenerateDataKey API"
+    },
+    {
+      "stem": "A developer is integrating Amazon Bedrock into a customer-facing financial web application. The application accepts free-form text input from users and generates personalized guidance using a foundation model. The developer must prevent prompt injection attacks, block toxic content, and mask personally identifiable information (PII) before responses are sent to users. Which TWO solutions should the developer implement to meet these security requirements? (Choose TWO.)",
+      "options": [
+        "Configure an AWS WAF rate-based rule on the Amazon API Gateway endpoint hosting the frontend.",
+        "Configure Amazon Bedrock Guardrails with sensitive information filters and content filters, and apply them to model invocations.",
+        "Encrypt all prompts with an AWS KMS customer managed key before passing them to the Amazon Bedrock runtime.",
+        "Implement an Amazon Cognito User Pool with multi-factor authentication (MFA) to restrict access to authenticated users.",
+        "Implement input and output contextual reasoning checks in Amazon Bedrock Guardrails to detect and block prompt injection attempts."
+      ],
+      "answer": "BE",
+      "explanation": "Amazon Bedrock Guardrails enables developers to define content filters to block harmful topics, configure sensitive information filters to identify and redact or mask PII (such as Social Security and account numbers), and evaluate inputs against contextual reasoning checks designed specifically to detect prompt injection attempts. WAF rate limiting and KMS encryption protect edge traffic and data at rest, but do not inspect or enforce semantic boundaries on AI model interactions.",
+      "topic": "Security",
+      "subtopic": "Identify and mitigate security risks associated with using and integrating AI services into application development",
+      "difficulty": "hard",
+      "source": "Amazon Bedrock User Guide - Guardrails for Amazon Bedrock"
+    },
+    {
+      "stem": "A developer is deploying updates to an AWS Lambda function using AWS CodeDeploy. The deployment must route 10 percent of traffic to the new Lambda function version initially, wait 10 minutes to verify error rates, and then route the remaining 90 percent of traffic if no alarms trigger. Which CodeDeploy deployment configuration should the developer choose?",
+      "options": [
+        "CodeDeployDefault.LambdaCanary10Percent10Minutes",
+        "CodeDeployDefault.LambdaLinear10PercentEvery10Minutes",
+        "CodeDeployDefault.LambdaAllAtOnce",
+        "CodeDeployDefault.LambdaCanary10Percent15Minutes"
+      ],
+      "answer": "A",
+      "explanation": "The CodeDeployDefault.LambdaCanary10Percent10Minutes configuration shifts 10 percent of traffic to the replacement version in the first increment, pauses for 10 minutes to evaluate CloudWatch alarms, and then shifts the remaining 90 percent in the second increment. Linear configurations, by comparison, shift equal percentages repeatedly over fixed intervals.",
+      "topic": "Testing and Deployment",
+      "subtopic": "Deploy code by using AWS continuous integration and continuous delivery (CI/CD) services",
+      "difficulty": "easy",
+      "source": "AWS CodeDeploy User Guide - Working with deployment configurations in CodeDeploy"
+    },
+    {
+      "stem": "A developer uses the AWS Serverless Application Model (AWS SAM) CLI to develop a serverless application. The SAM template references local Lambda source code directories. The developer needs to build the application dependencies, package the artifacts into an Amazon S3 bucket, and generate an AWS CloudFormation template ready for deployment. Which sequence of AWS SAM CLI commands should the developer execute?",
+      "options": [
+        "sam init followed by sam publish",
+        "sam validate followed by sam local invoke",
+        "sam build followed by sam package",
+        "sam deploy followed by sam sync"
+      ],
+      "answer": "C",
+      "explanation": "The sam build command compiles application dependencies and organizes runtime artifacts inside the .aws-sam build directory. Next, sam package uploads the local zip artifacts to the specified Amazon S3 deployment bucket and produces a packaged CloudFormation template where local file paths are replaced with S3 object locations.",
+      "topic": "Testing and Deployment",
+      "subtopic": "Prepare application artifacts to be deployed to AWS",
+      "difficulty": "medium",
+      "source": "AWS SAM Developer Guide - Building and packaging serverless applications"
+    },
+    {
+      "stem": "A developer maintains an AWS CodePipeline pipeline that deploys an application to staging and production environments. Management requires that the pipeline pause after deploying to the staging environment so a quality assurance lead can test the deployment and grant sign-off before production deployment proceeds. Which configuration meets this requirement?",
+      "options": [
+        "Add an AWS CodeBuild stage that queries Jira API endpoints before deploying to production.",
+        "Add a manual approval action to the pipeline between the staging and production stages, configured with an Amazon SNS topic.",
+        "Configure an Amazon EventBridge rule that disables the production stage transitions until a Lambda function enables it.",
+        "Use an AWS Lambda invoke action in CodePipeline that polls an Amazon DynamoDB approval table."
+      ],
+      "answer": "B",
+      "explanation": "AWS CodePipeline offers built-in manual approval actions designed to pause pipeline execution at a specific transition point. When configured, CodePipeline publishes a notification message to an Amazon SNS topic, notifying reviewers to review deployment artifacts and submit an approval or rejection decision.",
+      "topic": "Testing and Deployment",
+      "subtopic": "Deploy code by using AWS continuous integration and continuous delivery (CI/CD) services",
+      "difficulty": "medium",
+      "source": "AWS CodePipeline User Guide - Add a manual approval action in CodePipeline"
+    },
+    {
+      "stem": "A developer is configuring an AWS CodeBuild project to compile a Node.js web application and run automated unit tests. The developer defines a buildspec.yml file in the source repository. In which phase of the buildspec.yml file should the developer place the command to run the unit test suite?",
+      "options": [
+        "install",
+        "pre_build",
+        "post_build",
+        "build"
+      ],
+      "answer": "D",
+      "explanation": "In AWS CodeBuild, the build phase is designated for executing compilation, transpilations, and automated test suites (such as npm test or pytest). The install phase is used to set up runtime environments and dependencies, while pre_build handles prerequisite tasks like artifact verification and registry logins.",
+      "topic": "Testing and Deployment",
+      "subtopic": "Implement and automate application testing in AWS environments",
+      "difficulty": "medium",
+      "source": "AWS CodeBuild User Guide - Build spec reference for CodeBuild"
+    },
+    {
+      "stem": "A developer is configuring an Amazon ECS blue/green deployment managed by AWS CodeDeploy. The developer needs to validate that the new replacement task set responds correctly to synthetic health check requests before any production user traffic is redirected to it. Which lifecycle hook in the appspec.yaml file should the developer use to trigger this validation Lambda function?",
+      "options": [
+        "AfterAllowTestTraffic",
+        "BeforeInstall",
+        "AfterInstall",
+        "AfterAllowTraffic"
+      ],
+      "answer": "A",
+      "explanation": "During an Amazon ECS blue/green deployment, the AfterAllowTestTraffic hook triggers immediately after CodeDeploy routes test traffic to the replacement task set via the test listener. Executing test scripts during this hook confirms that the tasks function properly before production listener traffic shifts to the new set.",
+      "topic": "Testing and Deployment",
+      "subtopic": "Deploy code by using AWS continuous integration and continuous delivery (CI/CD) services",
+      "difficulty": "hard",
+      "source": "AWS CodeDeploy User Guide - AppSpec 'hooks' section for an Amazon ECS deployment"
+    },
+    {
+      "stem": "A developer is using the AWS X-Ray SDK in a microservices application to trace requests across distributed services. The developer wants to filter and group traces in the AWS X-Ray console based on a custom CustomerID field. Which feature of the AWS X-Ray SDK should the developer use?",
+      "options": [
+        "Metadata",
+        "Subsegment sampling rules",
+        "Annotations",
+        "Segment namespaces"
+      ],
+      "answer": "C",
+      "explanation": "AWS X-Ray annotations record key-value pairs that are indexed by the X-Ray service, allowing developers to search, group, and filter traces using filter expressions in the X-Ray console and API. By contrast, metadata key-value pairs can hold complex objects but are not indexed for querying.",
+      "topic": "Troubleshooting and Optimization",
+      "subtopic": "Apply logging, monitoring, and observability best practices",
+      "difficulty": "easy",
+      "source": "AWS X-Ray Developer Guide - Adding annotations and metadata to segments"
+    },
+    {
+      "stem": "A web application experiences high read traffic on an Amazon RDS database. A developer wants to introduce an Amazon ElastiCache for Redis cluster using the cache-aside (lazy loading) caching strategy to reduce database load. How should the application handle a read request under this strategy?",
+      "options": [
+        "Read data directly from the RDS database, and write asynchronously to the Redis cache.",
+        "Check the Redis cache for data; if found (cache hit), return it. If missing (cache miss), query the RDS database, write the data to the cache, and return it.",
+        "Write data to the Redis cache first, and configure the cache to write through to the RDS database automatically.",
+        "Query the RDS database and Redis cache simultaneously using parallel threads, returning the fastest response."
+      ],
+      "answer": "B",
+      "explanation": "Under the cache-aside (lazy loading) pattern, the application first requests the key from the cache. On a cache hit, the cached object is returned immediately; on a cache miss, the application retrieves the record from the primary database, populates the cache for future requests, and delivers the response to the caller.",
+      "topic": "Troubleshooting and Optimization",
+      "subtopic": "Optimize applications by using AWS services and features",
+      "difficulty": "medium",
+      "source": "AWS Whitepaper - Database Caching Strategies Using Redis"
+    },
+    {
+      "stem": "A developer needs to investigate unexpected HTTP 500 error spikes in an application running on Amazon EC2 instances. The application logs are streamed to an Amazon CloudWatch Logs log group. The developer needs to track the frequency of these HTTP 500 errors over time and trigger an alert if the error rate exceeds a threshold. Which solution meets these requirements?",
+      "options": [
+        "Configure an Amazon S3 lifecycle policy to export log data to Amazon Athena for ad-hoc SQL queries.",
+        "Use AWS CloudTrail Insights to detect abnormal API call volumes and generate CloudWatch events.",
+        "Enable AWS X-Ray active tracing on the EC2 instances and inspect the latency distribution graph.",
+        "Create a CloudWatch Logs metric filter that matches the HTTP 500 pattern, and create a CloudWatch alarm based on the generated metric."
+      ],
+      "answer": "D",
+      "explanation": "CloudWatch Logs metric filters evaluate incoming log streams against specified filter patterns (such as HTTP 500 status codes) and transform matched entries into numerical CloudWatch metrics. A standard CloudWatch alarm can then monitor that custom metric and trigger notifications or automated actions whenever error counts breach defined thresholds.",
+      "topic": "Troubleshooting and Optimization",
+      "subtopic": "Assist in a root cause analysis",
+      "difficulty": "medium",
+      "source": "Amazon CloudWatch Logs User Guide - Creating metrics from log events using filters"
+    },
+    {
+      "stem": "An e-commerce application uses an Amazon DynamoDB table to serve read-heavy product catalog pages. During promotional sales, read volume surges to tens of thousands of requests per second, resulting in high latency and read throttling. The developer wants to achieve microsecond response times for read operations with MINIMAL application code modifications. Which service should the developer implement?",
+      "options": [
+        "Amazon DynamoDB Accelerator (DAX)",
+        "Amazon ElastiCache for Memcached",
+        "Amazon CloudFront with S3 origin failover",
+        "Amazon RDS read replicas"
+      ],
+      "answer": "A",
+      "explanation": "Amazon DynamoDB Accelerator (DAX) is a fully managed, in-memory cache purpose-built for DynamoDB that reduces read latencies from milliseconds to microseconds. Because DAX is API-compatible with DynamoDB, integrating it requires minimal code modification—developers simply point their existing DynamoDB SDK calls to the DAX cluster endpoint.",
+      "topic": "Troubleshooting and Optimization",
+      "subtopic": "Optimize applications by using AWS services and features",
+      "difficulty": "easy",
+      "source": "Amazon DynamoDB Developer Guide - In-Memory Acceleration with DynamoDB Accelerator (DAX)"
+    }
+  ]
+}

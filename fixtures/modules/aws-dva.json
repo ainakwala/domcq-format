@@ -1,0 +1,44 @@
+{
+  "id": "aws-dva",
+  "display_name": "AWS Certified Developer - Associate",
+  "body": "AWS",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by Amazon Web Services. Amazon Web Services, AWS and AWS Certified are trademarks of Amazon.com, Inc. or its affiliates; the exam name is used here in plain text only to identify the exam.",
+  "taxonomy": {
+    "Development with AWS Services": [
+      "Develop code for applications that are hosted on AWS",
+      "Develop code for AWS Lambda",
+      "Use data stores during application development"
+    ],
+    "Security": [
+      "Implement authentication and authorization mechanisms for applications and AWS services",
+      "Implement encryption and manage sensitive data by using AWS services",
+      "Identify and mitigate security risks associated with using and integrating AI services into application development"
+    ],
+    "Testing and Deployment": [
+      "Prepare application artifacts to be deployed to AWS",
+      "Implement and automate application testing in AWS environments",
+      "Deploy code by using AWS continuous integration and continuous delivery (CI/CD) services"
+    ],
+    "Troubleshooting and Optimization": [
+      "Assist in a root cause analysis",
+      "Apply logging, monitoring, and observability best practices",
+      "Optimize applications by using AWS services and features"
+    ]
+  },
+  "weights": {
+    "Development with AWS Services": 30,
+    "Security": 26,
+    "Testing and Deployment": 22,
+    "Troubleshooting and Optimization": 22
+  },
+  "options": { "min": 4, "max": 6 },
+  "multi_select": true,
+  "banned_option_text": ["all of the above", "none of the above"],
+  "stem_hints": ["Which solution will meet these requirements?", "Which solution will resolve this issue?", "How can the developer maintain these environments with the LEAST amount of configuration?"],
+  "uncovered_item_types": [],
+  "exam_mode": { "questions": 65, "minutes": 130 },
+  "prompt_template": "@options\nGive each question between 4 and 6 options. Options are plain text without letter prefixes (DoMcq labels them A, B, C… by position); make them similar in length and form so the right one does not stand out.\nWrite the real exam's two kinds of item. Most are multiple choice: exactly 4 options and exactly one correct, so `answer` is a single letter. Some are multiple response: 5 or 6 options, two or more of them correct and at least one incorrect, and the stem says how many to choose (\"Choose TWO.\", \"Choose THREE.\"); `answer` lists every correct letter in ascending order (\"BD\").\nNever use these as an option: \"all of the above\", \"none of the above\". Avoid \"both A and B\" style options too.",
+  "verified_outline": "AWS Certified Developer - Associate (DVA-C03) Exam Guide",
+  "verified_on": "2026-10-28",
+  "next_review": "2027-10-28"
+}
