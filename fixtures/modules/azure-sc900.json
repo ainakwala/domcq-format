@@ -1,0 +1,49 @@
+{
+  "id": "azure-sc900",
+  "display_name": "SC-900: Microsoft Security, Compliance, and Identity Fundamentals",
+  "body": "Microsoft",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, or authorized, sponsored, endorsed or approved by, Microsoft Corporation; the names are used only to identify the exam. Microsoft, Azure, Microsoft Defender, Microsoft Entra, Microsoft Purview and Microsoft Sentinel are trademarks of the Microsoft group of companies. All other trademarks are the property of their respective owners.",
+  "taxonomy": {
+    "Describe the concepts of security, compliance, and identity": [
+      "Describe security and compliance concepts",
+      "Define identity concepts"
+    ],
+    "Describe the capabilities of Microsoft Entra": [
+      "Describe function and identity types of Microsoft Entra ID",
+      "Describe authentication capabilities of Microsoft Entra ID",
+      "Describe access management capabilities of Microsoft Entra ID",
+      "Describe identity protection and governance capabilities of Microsoft Entra"
+    ],
+    "Describe the capabilities of Microsoft security solutions": [
+      "Describe core infrastructure security services in Azure",
+      "Describe security management capabilities of Azure",
+      "Describe capabilities of Microsoft Sentinel",
+      "Describe threat protection with Microsoft Defender XDR"
+    ],
+    "Describe the capabilities of Microsoft compliance solutions": [
+      "Describe Microsoft Service Trust Portal and privacy principles",
+      "Describe compliance management capabilities of Microsoft Purview",
+      "Describe information protection, data lifecycle management, and data governance capabilities of Microsoft Purview",
+      "Describe insider risk, eDiscovery, and audit capabilities in Microsoft Purview"
+    ]
+  },
+  "weights": {
+    "Describe the concepts of security, compliance, and identity": { "min": 10, "max": 15 },
+    "Describe the capabilities of Microsoft Entra": { "min": 25, "max": 30 },
+    "Describe the capabilities of Microsoft security solutions": { "min": 35, "max": 40 },
+    "Describe the capabilities of Microsoft compliance solutions": { "min": 20, "max": 25 }
+  },
+  "options": { "min": 4, "max": 4 },
+  "multi_select": true,
+  "banned_option_text": ["all of the above", "none of the above"],
+  "stem_hints": [],
+  "uncovered_item_types": ["active screen", "build list", "case study", "drag and drop", "hot area", "yes/no question"],
+  "exam_mode": {
+    "questions": 50,
+    "minutes": 45,
+    "note": "Microsoft does not publish the SC-900 question count: the real exam is 45 minutes, and Microsoft's pages say most of its exams have 35 to 50 or 40 to 60 questions."
+  },
+  "verified_outline": "Study guide for Exam SC-900: Microsoft Security, Compliance, and Identity Fundamentals, skills measured as of October 21, 2026",
+  "verified_on": "2026-10-29",
+  "next_review": "2027-10-29"
+}

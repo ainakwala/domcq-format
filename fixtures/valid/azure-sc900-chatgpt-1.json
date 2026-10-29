@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "azure-sc900",
+  "set": "SC-900: Microsoft Security, Compliance, and Identity Fundamentals practice – Core Concepts and Solutions",
+  "questions": [
+    {
+      "stem": "A company deploys several Windows Server virtual machines in Microsoft Azure. Under the shared responsibility model, which security task remains the responsibility of the company?",
+      "options": [
+        "Maintaining the physical servers in Azure datacenters",
+        "Securing the physical network infrastructure in Azure",
+        "Installing security updates on the virtual machines' guest operating systems",
+        "Replacing failed storage hardware used by the virtual machines"
+      ],
+      "answer": "C",
+      "explanation": "For Azure infrastructure as a service (IaaS), customers are responsible for maintaining and securing the guest operating systems running in their virtual machines, including applying security updates. Microsoft manages the underlying physical infrastructure, including datacenter hardware, physical networking, and storage hardware. The division of responsibilities depends on the cloud service model.",
+      "topic": "Describe the concepts of security, compliance, and identity",
+      "subtopic": "Describe security and compliance concepts",
+      "difficulty": "easy",
+      "source": "SC-900 study guide: Describe security and compliance concepts — shared responsibility model"
+    },
+    {
+      "stem": "An employee enters a username and password to sign in to a company's application. The application checks the credentials against an identity provider before allowing the employee to proceed. Which security concept does this process primarily demonstrate?",
+      "options": [
+        "Authentication",
+        "Authorization",
+        "Auditing",
+        "Accounting"
+      ],
+      "answer": "A",
+      "explanation": "Authentication verifies that a user or other entity is who it claims to be, typically by validating credentials or other authentication factors. Authorization is a separate process that determines which resources and operations an authenticated identity is permitted to access.",
+      "topic": "Describe the concepts of security, compliance, and identity",
+      "subtopic": "Define identity concepts",
+      "difficulty": "easy",
+      "source": "SC-900 study guide: Define identity concepts — authentication and authorization"
+    },
+    {
+      "stem": "A company is adopting a Zero Trust security strategy for employees working from offices and remote locations. Which TWO practices are consistent with the Zero Trust model? Choose TWO.",
+      "options": [
+        "Verify access requests using identity, device, and contextual signals",
+        "Automatically trust network requests originating inside the corporate network",
+        "Design security controls assuming that attackers may already be present",
+        "Grant broad resource access after a user successfully authenticates once"
+      ],
+      "answer": "AC",
+      "explanation": "Zero Trust is based on three principles: verify explicitly, use least-privilege access, and assume breach. Explicit verification evaluates available signals rather than trusting requests based on network location. Assuming breach means designing controls to limit damage and detect malicious activity even when an attacker has already entered the environment.",
+      "topic": "Describe the concepts of security, compliance, and identity",
+      "subtopic": "Describe security and compliance concepts",
+      "difficulty": "medium",
+      "source": "SC-900 study guide: Describe security and compliance concepts — Zero Trust model"
+    },
+    {
+      "stem": "An Azure-hosted application needs to authenticate to another Azure service that supports Microsoft Entra authentication. The company wants to avoid storing application passwords or client secrets in its code or configuration. Which identity solution should it use?",
+      "options": [
+        "An external guest user account",
+        "A synchronized employee account",
+        "A traditional shared user account",
+        "A managed identity for the application"
+      ],
+      "answer": "D",
+      "explanation": "Managed identities provide Microsoft Entra identities for supported Azure resources and allow applications to obtain authentication tokens without managing credentials themselves. Azure manages the underlying credentials and their rotation. This reduces the risk associated with storing secrets in application code or configuration.",
+      "topic": "Describe the capabilities of Microsoft Entra",
+      "subtopic": "Describe function and identity types of Microsoft Entra ID",
+      "difficulty": "easy",
+      "source": "SC-900 study guide: Describe function and identity types of Microsoft Entra ID — workload identities"
+    },
+    {
+      "stem": "A company requires employees to use multifactor authentication when signing in to Microsoft 365. Which combination satisfies the requirement for two different authentication factors?",
+      "options": [
+        "A password and a security question",
+        "A password and an approval through Microsoft Authenticator",
+        "A password and a second independently configured password",
+        "A security question and a second security question"
+      ],
+      "answer": "B",
+      "explanation": "Multifactor authentication requires evidence from at least two different factor categories, such as something the user knows and something the user possesses. A password is a knowledge factor, while approval through a registered authenticator device is a possession factor. Using multiple passwords or security questions does not provide distinct authentication factors.",
+      "topic": "Describe the capabilities of Microsoft Entra",
+      "subtopic": "Describe authentication capabilities of Microsoft Entra ID",
+      "difficulty": "easy",
+      "source": "SC-900 study guide: Describe authentication capabilities of Microsoft Entra ID — multifactor authentication"
+    },
+    {
+      "stem": "A company maintains its employee identities in an on-premises Active Directory Domain Services environment. It wants those identities synchronized to Microsoft Entra ID so employees can use their existing organizational identities with Microsoft cloud services. Which solution is designed for this requirement?",
+      "options": [
+        "Microsoft Entra Privileged Identity Management",
+        "Microsoft Entra ID Protection",
+        "Microsoft Entra Connect Sync",
+        "Microsoft Entra access reviews"
+      ],
+      "answer": "C",
+      "explanation": "Microsoft Entra Connect Sync synchronizes supported identity information from on-premises Active Directory to Microsoft Entra ID. It is one of the technologies used to establish hybrid identity between traditional directory environments and Microsoft cloud services. Privileged Identity Management and access reviews address governance rather than directory synchronization.",
+      "topic": "Describe the capabilities of Microsoft Entra",
+      "subtopic": "Describe function and identity types of Microsoft Entra ID",
+      "difficulty": "medium",
+      "source": "SC-900 study guide: Describe function and identity types of Microsoft Entra ID — hybrid identity"
+    },
+    {
+      "stem": "A company wants employees to access a sensitive Microsoft 365 application only when their devices are marked compliant by the organization's device management solution. The company needs access decisions to consider the user's identity, the targeted application, and the device's compliance state. Which Microsoft Entra capability should it use?",
+      "options": [
+        "Microsoft Entra Conditional Access",
+        "Microsoft Entra access reviews",
+        "Microsoft Entra Connect Sync",
+        "Microsoft Entra password protection"
+      ],
+      "answer": "A",
+      "explanation": "Microsoft Entra Conditional Access evaluates signals such as user identity, application, location, and device compliance before applying access requirements. An organization can create a policy that requires a compliant device before access to a specified application is granted. This supports context-aware access decisions under a Zero Trust strategy.",
+      "topic": "Describe the capabilities of Microsoft Entra",
+      "subtopic": "Describe access management capabilities of Microsoft Entra ID",
+      "difficulty": "medium",
+      "source": "SC-900 study guide: Describe access management capabilities of Microsoft Entra ID — Conditional Access"
+    },
+    {
+      "stem": "An organization is improving its identity governance processes in Microsoft Entra. Administrators should receive privileged roles only for limited periods when needed, and department managers should periodically verify whether employees still require their assigned group memberships. Which TWO Microsoft Entra capabilities directly address these requirements? Choose TWO.",
+      "options": [
+        "Microsoft Entra ID Protection",
+        "Microsoft Entra Privileged Identity Management",
+        "Microsoft Entra Conditional Access",
+        "Microsoft Entra access reviews"
+      ],
+      "answer": "BD",
+      "explanation": "Microsoft Entra Privileged Identity Management supports just-in-time privileged role activation, helping reduce standing administrative access. Microsoft Entra access reviews enable designated reviewers to periodically evaluate and confirm whether users should retain access, including group memberships. Together, these capabilities support least privilege and ongoing access governance.",
+      "topic": "Describe the capabilities of Microsoft Entra",
+      "subtopic": "Describe identity protection and governance capabilities of Microsoft Entra",
+      "difficulty": "hard",
+      "source": "SC-900 study guide: Describe identity protection and governance capabilities — PIM and access reviews"
+    },
+    {
+      "stem": "A security administrator wants to identify potentially compromised Microsoft Entra user accounts and suspicious sign-in attempts. The solution should evaluate identity risk signals and support policies that respond to user risk or sign-in risk. Which capability should the administrator use?",
+      "options": [
+        "Microsoft Entra access reviews",
+        "Microsoft Entra Domain Services",
+        "Microsoft Entra ID Protection",
+        "Microsoft Entra Connect Sync"
+      ],
+      "answer": "C",
+      "explanation": "Microsoft Entra ID Protection detects and evaluates identity-related risks, including risky users and risky sign-ins. Organizations can use these signals in risk-based policies to require additional verification or remediation. Access reviews and directory synchronization do not provide the same identity risk detection capabilities.",
+      "topic": "Describe the capabilities of Microsoft Entra",
+      "subtopic": "Describe identity protection and governance capabilities of Microsoft Entra",
+      "difficulty": "medium",
+      "source": "SC-900 study guide: Describe identity protection and governance capabilities — Microsoft Entra ID Protection"
+    },
+    {
+      "stem": "A company hosts internet-facing services in an Azure virtual network. It wants additional managed protection against large-scale volumetric distributed denial-of-service attacks that attempt to overwhelm those services with network traffic. Which Azure service is designed for this purpose?",
+      "options": [
+        "Azure DDoS Protection",
+        "Azure Key Vault",
+        "Azure Bastion",
+        "Azure Web Application Firewall"
+      ],
+      "answer": "A",
+      "explanation": "Azure DDoS Protection helps protect Azure resources against distributed denial-of-service attacks at the network and transport layers. It uses traffic monitoring and mitigation techniques to address attacks that attempt to exhaust available network capacity or resources. Web Application Firewall instead focuses on protecting HTTP and HTTPS applications from application-layer attacks.",
+      "topic": "Describe the capabilities of Microsoft security solutions",
+      "subtopic": "Describe core infrastructure security services in Azure",
+      "difficulty": "easy",
+      "source": "SC-900 study guide: Describe core infrastructure security services in Azure — Azure DDoS Protection"
+    },
+    {
+      "stem": "A company operates multiple Azure virtual networks and wants centralized filtering of outbound network traffic. Security administrators need to create network and application rules, including rules that control access to destinations by fully qualified domain name. Which Azure service best meets these requirements?",
+      "options": [
+        "Azure Network Watcher",
+        "Azure Web Application Firewall",
+        "Azure Bastion",
+        "Azure Firewall"
+      ],
+      "answer": "D",
+      "explanation": "Azure Firewall is a managed, stateful network security service that provides centralized traffic filtering for Azure environments. It supports network rules and application rules, including FQDN-based filtering for supported protocols. Web Application Firewall specializes in web application protection, while Bastion provides secure administrative connectivity to virtual machines.",
+      "topic": "Describe the capabilities of Microsoft security solutions",
+      "subtopic": "Describe core infrastructure security services in Azure",
+      "difficulty": "medium",
+      "source": "SC-900 study guide: Describe core infrastructure security services in Azure — Azure Firewall"
+    },
+    {
+      "stem": "A company has several Windows and Linux virtual machines in an Azure virtual network. Administrators need to establish RDP and SSH sessions securely through the Azure portal without assigning public IP addresses to the virtual machines or exposing their management ports to the internet. Which Azure service should the company use?",
+      "options": [
+        "Azure Application Gateway",
+        "Azure Bastion",
+        "Azure Front Door",
+        "Azure DDoS Protection"
+      ],
+      "answer": "B",
+      "explanation": "Azure Bastion provides secure RDP and SSH connectivity to Azure virtual machines without requiring public IP addresses on the target machines. With the appropriate configuration, administrators can connect through the Azure portal while keeping the virtual machines' management ports inaccessible directly from the public internet. This reduces exposure to common remote administration attacks.",
+      "topic": "Describe the capabilities of Microsoft security solutions",
+      "subtopic": "Describe core infrastructure security services in Azure",
+      "difficulty": "medium",
+      "source": "SC-900 study guide: Describe core infrastructure security services in Azure — Azure Bastion"
+    },
+    {
+      "stem": "An organization manages resources across several Azure subscriptions. Its security team wants a centralized view of cloud security posture, recommendations for correcting misconfigurations, and a secure score that helps prioritize improvements. Which Microsoft service should it use?",
+      "options": [
+        "Microsoft Purview Compliance Manager",
+        "Microsoft Entra ID Protection",
+        "Microsoft Defender for Cloud",
+        "Microsoft Defender for Office 365"
+      ],
+      "answer": "C",
+      "explanation": "Microsoft Defender for Cloud provides cloud security posture management capabilities, including security recommendations and a secure score. These features help organizations identify configuration weaknesses and track improvements across supported cloud resources. Its cloud workload protection capabilities can also help protect workloads against threats.",
+      "topic": "Describe the capabilities of Microsoft security solutions",
+      "subtopic": "Describe security management capabilities of Azure",
+      "difficulty": "medium",
+      "source": "SC-900 study guide: Describe security management capabilities of Azure — Defender for Cloud and CSPM"
+    },
+    {
+      "stem": "A security operations center uses Microsoft Sentinel to ingest security events from Microsoft cloud services and third-party systems. Analysts want the solution to detect suspicious activity patterns and automatically initiate predefined response workflows when incidents occur. Which TWO Microsoft Sentinel capabilities directly support these requirements? Choose TWO.",
+      "options": [
+        "Analytics rules for detecting threats and generating incidents",
+        "Microsoft Entra access reviews for confirming memberships",
+        "Microsoft Purview retention policies for preserving content",
+        "Playbooks for orchestrating automated response workflows"
+      ],
+      "answer": "AD",
+      "explanation": "Microsoft Sentinel analytics rules can evaluate collected security data, detect defined patterns, and generate alerts and incidents. Sentinel playbooks, built on Azure Logic Apps, can orchestrate automated response actions and integrate with other services. Together, they support security information and event management (SIEM) and security orchestration, automation, and response (SOAR).",
+      "topic": "Describe the capabilities of Microsoft security solutions",
+      "subtopic": "Describe capabilities of Microsoft Sentinel",
+      "difficulty": "hard",
+      "source": "SC-900 study guide: Describe capabilities of Microsoft Sentinel — SIEM, SOAR, analytics, and automation"
+    },
+    {
+      "stem": "A company uses on-premises Active Directory Domain Services to authenticate employees. The security team wants to detect identity-based attacks against the directory environment, including suspicious lateral movement and attempts to compromise domain credentials. Which Microsoft security service is specifically designed for this scenario?",
+      "options": [
+        "Microsoft Defender for Office 365",
+        "Microsoft Defender for Identity",
+        "Microsoft Defender for Cloud Apps",
+        "Microsoft Defender for Endpoint"
+      ],
+      "answer": "B",
+      "explanation": "Microsoft Defender for Identity monitors identity-related signals from environments such as on-premises Active Directory to identify suspicious activities and identity-based attacks. It can detect behaviors associated with credential theft, reconnaissance, and lateral movement. Defender for Endpoint focuses on endpoint threats, while Defender for Office 365 focuses on threats involving email and collaboration workloads.",
+      "topic": "Describe the capabilities of Microsoft security solutions",
+      "subtopic": "Describe threat protection with Microsoft Defender XDR",
+      "difficulty": "medium",
+      "source": "SC-900 study guide: Describe threat protection with Microsoft Defender XDR — Defender for Identity"
+    },
+    {
+      "stem": "A company hosts a public web application behind Azure Application Gateway and runs internal virtual machines in a separate subnet. The security team must protect the web application against SQL injection attacks and restrict inbound traffic to the virtual machine subnet based on allowed TCP ports. Which TWO Azure security capabilities should the company use? Choose TWO.",
+      "options": [
+        "Azure Web Application Firewall to inspect and block malicious web requests",
+        "Azure Key Vault to manage keys and certificates used by applications",
+        "Network security groups to enforce subnet-level inbound traffic rules",
+        "Azure Bastion to provide secure administrative sessions to virtual machines"
+      ],
+      "answer": "AC",
+      "explanation": "Azure Web Application Firewall can protect applications behind Application Gateway against common web attacks, including SQL injection, by inspecting HTTP and HTTPS traffic. Network security groups enforce network traffic filtering rules at the subnet or network interface level, including rules based on TCP ports. These controls address different layers of security and can be used together as part of defense-in-depth.",
+      "topic": "Describe the capabilities of Microsoft security solutions",
+      "subtopic": "Describe core infrastructure security services in Azure",
+      "difficulty": "hard",
+      "source": "SC-900 study guide: Describe core infrastructure security services in Azure — WAF and NSGs"
+    },
+    {
+      "stem": "A compliance officer needs to obtain Microsoft cloud service audit reports, compliance certifications, and related documentation to support an organization's regulatory assessment. Which Microsoft resource should the officer use?",
+      "options": [
+        "Microsoft Service Trust Portal",
+        "Microsoft Entra admin center",
+        "Microsoft Defender portal",
+        "Microsoft Sentinel portal"
+      ],
+      "answer": "A",
+      "explanation": "The Microsoft Service Trust Portal provides access to Microsoft compliance-related documentation, including audit reports, certifications, and information about security and compliance practices. Organizations can use these materials as supporting evidence when evaluating Microsoft's cloud services against regulatory or contractual requirements. Access to some documents may require authentication and appropriate permissions.",
+      "topic": "Describe the capabilities of Microsoft compliance solutions",
+      "subtopic": "Describe Microsoft Service Trust Portal and privacy principles",
+      "difficulty": "easy",
+      "source": "SC-900 study guide: Describe Microsoft Service Trust Portal and privacy principles"
+    },
+    {
+      "stem": "An organization wants to evaluate its compliance posture against regulatory requirements and industry standards. It needs a Microsoft solution that provides assessments, recommended improvement actions, and a compliance score representing progress in implementing controls. Which capability should it use?",
+      "options": [
+        "Microsoft Purview Audit",
+        "Microsoft Purview eDiscovery",
+        "Microsoft Purview Insider Risk Management",
+        "Microsoft Purview Compliance Manager"
+      ],
+      "answer": "D",
+      "explanation": "Microsoft Purview Compliance Manager provides assessments and improvement actions to help organizations manage compliance obligations. Its compliance score reflects progress in completing recommended actions and implementing controls within the assessed environment. The score is a compliance management indicator rather than a guarantee that the organization fully satisfies every legal requirement.",
+      "topic": "Describe the capabilities of Microsoft compliance solutions",
+      "subtopic": "Describe compliance management capabilities of Microsoft Purview",
+      "difficulty": "medium",
+      "source": "SC-900 study guide: Describe compliance management capabilities of Microsoft Purview — Compliance Manager"
+    },
+    {
+      "stem": "A financial services organization stores confidential client documents in Microsoft 365. It needs one control to classify documents as confidential and apply encryption, and another control to detect sensitive information and prevent prohibited external sharing through supported Microsoft 365 workloads. Which TWO Microsoft Purview capabilities should it use? Choose TWO.",
+      "options": [
+        "Records management to declare documents as regulatory records",
+        "Sensitivity labels to classify content and apply protection settings",
+        "Data loss prevention policies to restrict prohibited sharing of sensitive information",
+        "eDiscovery to search and export content for legal investigations"
+      ],
+      "answer": "BC",
+      "explanation": "Microsoft Purview sensitivity labels can classify content and apply protection settings such as encryption and access restrictions. Microsoft Purview data loss prevention policies detect sensitive information and can block or restrict activities such as unauthorized external sharing in supported locations. These capabilities complement each other: labels protect classified content, while DLP policies govern how sensitive information is handled and shared.",
+      "topic": "Describe the capabilities of Microsoft compliance solutions",
+      "subtopic": "Describe information protection, data lifecycle management, and data governance capabilities of Microsoft Purview",
+      "difficulty": "hard",
+      "source": "SC-900 study guide: Describe information protection, data lifecycle management, and data governance — labels and DLP"
+    },
+    {
+      "stem": "A company receives a legal request requiring it to identify relevant emails and Microsoft Teams messages, preserve potentially relevant content, and export responsive information for review. Which Microsoft Purview capability is designed to support this process?",
+      "options": [
+        "Microsoft Purview eDiscovery",
+        "Microsoft Purview Data Map",
+        "Microsoft Purview Compliance Manager",
+        "Microsoft Purview Activity explorer"
+      ],
+      "answer": "A",
+      "explanation": "Microsoft Purview eDiscovery supports legal and investigative workflows involving the identification, preservation, searching, review, and export of electronically stored information. Depending on the available eDiscovery capabilities and licensing, organizations can place content on hold and manage relevant evidence. This differs from Compliance Manager, which focuses on compliance assessments and improvement actions.",
+      "topic": "Describe the capabilities of Microsoft compliance solutions",
+      "subtopic": "Describe insider risk, eDiscovery, and audit capabilities in Microsoft Purview",
+      "difficulty": "medium",
+      "source": "SC-900 study guide: Describe insider risk, eDiscovery, and audit capabilities in Microsoft Purview"
+    }
+  ]
+}
