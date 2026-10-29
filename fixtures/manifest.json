@@ -361,6 +361,11 @@
     { "file": "valid/aws-soa-claude-4.md", "errors": [], "fenced": true },
     { "file": "valid/aws-soa-chatgpt-1.json", "errors": [] },
     { "file": "valid/aws-soa-gemini-1.json", "errors": [] },
+    { "file": "valid/azure-sc900-claude-1.md", "errors": [], "fenced": true },
+    { "file": "valid/azure-sc900-claude-2.md", "errors": [], "fenced": true },
+    { "file": "valid/azure-sc900-claude-3.md", "errors": [], "fenced": true },
+    { "file": "valid/azure-sc900-claude-4.md", "errors": [], "fenced": true },
+    { "file": "valid/azure-sc900-chatgpt-1.json", "errors": [] },
 
     { "file": "invalid/empty.txt", "errors": ["E001"] },
     { "file": "invalid/not-json.txt", "errors": ["E002"] },
