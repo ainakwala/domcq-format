@@ -1,0 +1,48 @@
+{
+  "id": "aws-soa",
+  "display_name": "AWS Certified CloudOps Engineer - Associate",
+  "body": "AWS",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by Amazon Web Services. Amazon Web Services, AWS and AWS Certified are trademarks of Amazon.com, Inc. or its affiliates; the exam name is used here in plain text only to identify the exam.",
+  "taxonomy": {
+    "Monitoring, Logging, Analysis, Remediation, and Performance Optimization": [
+      "Implement metrics, alarms, and filters by using AWS monitoring and logging services",
+      "Identify and remediate issues by using monitoring and availability metrics",
+      "Implement performance optimization strategies for compute, storage, and database resources"
+    ],
+    "Reliability and Business Continuity": [
+      "Implement scalability and elasticity",
+      "Implement highly available and resilient environments",
+      "Implement backup and restore strategies"
+    ],
+    "Deployment, Provisioning, and Automation": [
+      "Provision and maintain cloud resources",
+      "Automate the management of existing resources"
+    ],
+    "Security and Compliance": [
+      "Implement and manage security and compliance tools and policies",
+      "Implement strategies to protect data and infrastructure"
+    ],
+    "Networking and Content Delivery": [
+      "Implement and optimize networking features and connectivity",
+      "Configure domains, DNS services, and content delivery",
+      "Troubleshoot network connectivity issues"
+    ]
+  },
+  "weights": {
+    "Monitoring, Logging, Analysis, Remediation, and Performance Optimization": 22,
+    "Reliability and Business Continuity": 22,
+    "Deployment, Provisioning, and Automation": 22,
+    "Security and Compliance": 16,
+    "Networking and Content Delivery": 18
+  },
+  "options": { "min": 4, "max": 6 },
+  "multi_select": true,
+  "banned_option_text": ["all of the above", "none of the above"],
+  "stem_hints": ["Which solution will meet these requirements with the LEAST amount of effort?", "Which of the following is the MOST operationally efficient solution that meets these requirements?", "What is a reason for this issue?"],
+  "uncovered_item_types": [],
+  "exam_mode": { "questions": 65, "minutes": 130 },
+  "prompt_template": "@options\nGive each question between 4 and 6 options. Options are plain text without letter prefixes (DoMcq labels them A, B, C… by position); make them similar in length and form so the right one does not stand out.\nWrite the real exam's two kinds of item. Most are multiple choice: exactly 4 options and exactly one correct, so `answer` is a single letter. Some are multiple response: 5 or 6 options, two or more of them correct and at least one incorrect, and the stem says how many to choose (\"Choose TWO.\", \"Choose THREE.\"); `answer` lists every correct letter in ascending order (\"BD\").\nNever use these as an option: \"all of the above\", \"none of the above\". Avoid \"both A and B\" style options too.",
+  "verified_outline": "AWS Certified CloudOps Engineer - Associate (SOA-C03) Exam Guide",
+  "verified_on": "2026-10-28",
+  "next_review": "2027-10-28"
+}

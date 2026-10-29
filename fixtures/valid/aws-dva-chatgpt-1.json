@@ -1,0 +1,311 @@
+{
+  "format": "domcq/1",
+  "exam": "aws-dva",
+  "set": "AWS Certified Developer - Associate practice – DVA-C03 Set 1",
+  "questions": [
+    {
+      "stem": "A company has an application that receives customer orders through an API. The application currently processes each order synchronously before returning a response. During periods of high traffic, processing delays cause API requests to time out. The company wants to decouple order submission from order processing while ensuring that submitted orders are retained until they can be processed. Which solution will meet these requirements with the LEAST operational overhead?",
+      "options": [
+        "Use Amazon EventBridge Scheduler to invoke the order-processing service at fixed intervals.",
+        "Send submitted orders to an Amazon SQS queue and process them asynchronously using AWS Lambda.",
+        "Store submitted orders in Amazon ElastiCache and have a scheduled process retrieve them.",
+        "Publish submitted orders to an Amazon SNS topic without configuring any subscribers."
+      ],
+      "answer": "B",
+      "explanation": "Amazon SQS provides durable message storage that decouples order submission from processing. AWS Lambda can consume messages asynchronously, allowing the API to respond without waiting for order processing to finish. SQS also supports retries and dead-letter queues for handling processing failures.",
+      "topic": "Development with AWS Services",
+      "subtopic": "Develop code for applications that are hosted on AWS",
+      "difficulty": "easy",
+      "source": "AWS DVA-C03 Exam Guide, Skills 1.1.1 and 1.1.2"
+    },
+    {
+      "stem": "A developer is building an Amazon API Gateway REST API that accepts JSON requests for creating customer profiles. Each request must contain a customerId string and an email string. Requests with missing required fields or incorrect data types must be rejected before the backend AWS Lambda function is invoked. Which solution will meet these requirements?",
+      "options": [
+        "Configure a Lambda authorizer to verify that each request includes a valid IAM signature.",
+        "Configure an API Gateway mapping template to forward the complete request body to Lambda.",
+        "Enable AWS WAF managed rule groups to validate the required JSON properties and data types.",
+        "Define an API Gateway request model and enable request body validation for the method."
+      ],
+      "answer": "D",
+      "explanation": "API Gateway REST APIs support request models that define the expected JSON structure and request validators that check incoming request bodies. When validation fails, API Gateway returns a client error without invoking the backend integration. This reduces unnecessary Lambda invocations and enforces the API contract at the gateway.",
+      "topic": "Development with AWS Services",
+      "subtopic": "Develop code for applications that are hosted on AWS",
+      "difficulty": "medium",
+      "source": "AWS DVA-C03 Exam Guide, Skill 1.1.4; API Gateway Request Validation"
+    },
+    {
+      "stem": "An AWS Lambda function must connect to an Amazon RDS for PostgreSQL database that is accessible only through private subnets in a VPC. The Lambda function currently uses the correct database endpoint and credentials but cannot establish a network connection. The database must remain private. Which solution will allow the Lambda function to connect?",
+      "options": [
+        "Configure the Lambda function to use private subnets in the VPC and a security group that the database security group allows to connect.",
+        "Attach an IAM policy granting rds:DescribeDBInstances to the Lambda execution role without changing the network configuration.",
+        "Enable public accessibility for the database and connect through its publicly reachable endpoint.",
+        "Configure the Lambda function and database to use the same Availability Zone without changing their security groups."
+      ],
+      "answer": "A",
+      "explanation": "A Lambda function can access private VPC resources when it is configured with appropriate VPC subnets and security groups. The RDS security group must permit inbound database traffic from the Lambda function's security group, and the VPC networking must support the connection. IAM permissions alone do not establish network connectivity to a private PostgreSQL endpoint.",
+      "topic": "Development with AWS Services",
+      "subtopic": "Develop code for AWS Lambda",
+      "difficulty": "medium",
+      "source": "AWS DVA-C03 Exam Guide, Skill 1.2.1; Lambda VPC Connectivity"
+    },
+    {
+      "stem": "A developer maintains an Amazon DynamoDB table that receives millions of event records per day. Events from a small number of popular tenants arrive in large bursts. The table uses tenantId as its partition key, and writes are frequently throttled for those tenants even though the table has sufficient overall capacity. The developer can modify the partition key design and update the application's read logic. Which TWO changes can help distribute write traffic more evenly? (Choose TWO.)",
+      "options": [
+        "Use the current calendar date as the partition key for all events written on that date.",
+        "Increase the table's read capacity without changing the partition key or write distribution.",
+        "Use a high-cardinality partition key formed by combining the tenant identifier with a unique event identifier.",
+        "Replace DynamoDB Query operations with Scan operations when retrieving tenant events.",
+        "Add a write-sharding suffix to tenant partition keys and modify reads to retrieve data from the relevant shards."
+      ],
+      "answer": "CE",
+      "explanation": "DynamoDB distributes data and requests according to partition key values. Combining tenant identifiers with highly variable event identifiers can spread writes across many partition key values, while write sharding deliberately distributes records across multiple keys. Both approaches require suitable read-access logic because records belonging to one tenant may be stored under multiple partition keys.",
+      "topic": "Development with AWS Services",
+      "subtopic": "Use data stores during application development",
+      "difficulty": "hard",
+      "source": "AWS DVA-C03 Exam Guide, Skill 1.3.4; DynamoDB Partition Key Design"
+    },
+    {
+      "stem": "A company stores temporary application-generated reports in an Amazon S3 bucket. Reports must remain available for 90 days after creation and must then be deleted automatically. The developer wants to implement this requirement without writing scheduled cleanup code. Which solution should the developer use?",
+      "options": [
+        "Configure an S3 bucket policy that denies GetObject requests after 90 days.",
+        "Enable S3 Versioning and configure the application to stop referencing older reports.",
+        "Configure an S3 Lifecycle rule that expires report objects 90 days after creation.",
+        "Configure an S3 event notification that invokes a Lambda function when a report is uploaded."
+      ],
+      "answer": "C",
+      "explanation": "S3 Lifecycle expiration rules automatically manage object retention based on object age. An expiration rule can remove eligible reports after 90 days without requiring application code or a scheduled cleanup process. Bucket policies control access but do not delete stored objects.",
+      "topic": "Development with AWS Services",
+      "subtopic": "Use data stores during application development",
+      "difficulty": "easy",
+      "source": "AWS DVA-C03 Exam Guide, Skill 1.3.1; S3 Lifecycle Management"
+    },
+    {
+      "stem": "An AWS Lambda function processes messages from an Amazon SQS standard queue in batches of 10. Occasionally, one message fails processing while the other nine messages succeed. Currently, the entire batch becomes available for retry, causing successfully processed messages to be processed again. The developer wants only failed messages to be retried when a partial batch failure occurs. Which solution will meet this requirement?",
+      "options": [
+        "Set the SQS visibility timeout to zero whenever an individual message fails processing.",
+        "Enable ReportBatchItemFailures on the event source mapping and return the failed message identifiers in the Lambda response.",
+        "Increase the Lambda batch size and configure the function to return a successful response after processing the batch.",
+        "Configure the Lambda function to publish all successfully processed messages to an Amazon SNS topic."
+      ],
+      "answer": "B",
+      "explanation": "Lambda supports partial batch responses for SQS event source mappings through ReportBatchItemFailures. The function returns the message identifiers that failed processing, allowing Lambda to delete successful messages while leaving failed messages available for retry. This reduces unnecessary duplicate processing, although application logic should still be idempotent.",
+      "topic": "Development with AWS Services",
+      "subtopic": "Develop code for AWS Lambda",
+      "difficulty": "medium",
+      "source": "AWS DVA-C03 Exam Guide, Skill 1.2.3; Lambda SQS Partial Batch Responses"
+    },
+    {
+      "stem": "A developer is creating a mobile application that allows customers to register, sign in, and access a protected REST API. The application must authenticate users and obtain JSON Web Tokens that can be validated by an Amazon API Gateway authorizer. The company wants a managed authentication solution without implementing its own user directory. Which AWS service should the developer use?",
+      "options": [
+        "AWS IAM Identity Center with permission sets for each mobile application user.",
+        "AWS Security Token Service with individual IAM roles permanently assigned to each customer.",
+        "AWS Directory Service with manually managed Active Directory accounts for each customer.",
+        "Amazon Cognito user pools with an API Gateway JWT-compatible authorizer."
+      ],
+      "answer": "D",
+      "explanation": "Amazon Cognito user pools provide managed user registration, authentication, and token issuance. Cognito issues JWTs that API Gateway can validate through an appropriate authorizer, such as a Cognito user pool authorizer for a REST API. This avoids maintaining a custom customer authentication system.",
+      "topic": "Security",
+      "subtopic": "Implement authentication and authorization mechanisms for applications and AWS services",
+      "difficulty": "easy",
+      "source": "AWS DVA-C03 Exam Guide, Skill 2.1.1; Amazon Cognito User Pools"
+    },
+    {
+      "stem": "A containerized application runs as Amazon ECS tasks on AWS Fargate. The application must read objects from a specific Amazon S3 bucket. The developer wants the application to obtain AWS credentials automatically and avoid storing long-term access keys in environment variables or container images. Which solution should the developer implement?",
+      "options": [
+        "Create an IAM task role with permission to read the S3 objects and associate the role with the ECS task definition.",
+        "Create an IAM user with S3 read permissions and inject its access keys into the container at build time.",
+        "Attach an S3 access policy to the ECS task execution role and use that role as the application's credential source.",
+        "Configure a bucket policy that grants anonymous read access to the objects required by the application."
+      ],
+      "answer": "A",
+      "explanation": "An ECS task role provides temporary AWS credentials to application containers through the ECS credential provider. The application can use the AWS SDK's default credential provider chain to obtain these credentials automatically. The task execution role is primarily used by ECS infrastructure for operations such as retrieving images and writing logs, rather than granting application code access to S3.",
+      "topic": "Security",
+      "subtopic": "Implement authentication and authorization mechanisms for applications and AWS services",
+      "difficulty": "medium",
+      "source": "AWS DVA-C03 Exam Guide, Skills 2.1.3 and 2.1.6; ECS Task IAM Roles"
+    },
+    {
+      "stem": "A company integrates an AI agent with internal tools that retrieve customer information and issue refunds. The application serves multiple customer accounts, and each agent session must access only the data and operations authorized for the current customer. Refunds exceeding $500 must also receive approval from a human employee before execution. Which TWO controls should the developer implement? (Choose TWO.)",
+      "options": [
+        "Assign one shared administrative IAM role to all agent sessions so tool calls can execute without permission failures.",
+        "Enforce customer-specific authorization on tool calls and isolate session state and context between customers.",
+        "Rely on the agent's system instructions to prevent unauthorized tool calls without validating permissions in the backend.",
+        "Require a human approval step before the refund tool executes transactions exceeding the specified amount.",
+        "Store complete unredacted customer records and tool results in application logs to simplify future investigations."
+      ],
+      "answer": "BD",
+      "explanation": "Agent tool calls must be subject to enforceable authorization checks, and session isolation prevents one customer's context from being exposed to another. Human-in-the-loop approval provides an additional control before sensitive or high-impact actions are executed. Model instructions alone are not a reliable authorization boundary, and broadly privileged shared roles increase the impact of compromised agent interactions.",
+      "topic": "Security",
+      "subtopic": "Identify and mitigate security risks associated with using and integrating AI services into application development",
+      "difficulty": "hard",
+      "source": "AWS DVA-C03 Exam Guide, Skills 2.3.3 and 2.3.4; AI Agent Security"
+    },
+    {
+      "stem": "A developer maintains an application that connects to an Amazon RDS database using a username and password. The database credentials must be stored securely and rotated automatically every 30 days. The application must retrieve the current credentials at runtime without embedding them in source code or container images. Which solution will meet these requirements with the LEAST custom development?",
+      "options": [
+        "Store the credentials in an encrypted Amazon S3 object and use a scheduled Lambda function to replace the object every 30 days.",
+        "Store the credentials in AWS Systems Manager Parameter Store as a String parameter and enable S3 Lifecycle expiration.",
+        "Store the credentials in AWS Secrets Manager, configure supported automatic rotation, and retrieve the secret through the AWS SDK.",
+        "Store the credentials in AWS Lambda environment variables and publish a new function version every 30 days."
+      ],
+      "answer": "C",
+      "explanation": "AWS Secrets Manager provides encrypted secret storage, controlled access, and supported automatic credential rotation workflows. Applications can retrieve the current secret through the AWS SDK, avoiding hardcoded database passwords. For supported RDS configurations, Secrets Manager can manage rotation using an appropriate rotation strategy.",
+      "topic": "Security",
+      "subtopic": "Implement encryption and manage sensitive data by using AWS services",
+      "difficulty": "medium",
+      "source": "AWS DVA-C03 Exam Guide, Skill 2.2.7; AWS Secrets Manager Rotation"
+    },
+    {
+      "stem": "A financial application stores confidential documents in an Amazon S3 bucket. The company requires server-side encryption at rest using an encryption key that it controls. Only authorized application roles must be able to decrypt the documents, and the company must be able to audit key-management operations. Which solution will meet these requirements?",
+      "options": [
+        "Configure S3 server-side encryption with an AWS KMS customer managed key and restrict key usage through appropriate IAM and key policies.",
+        "Configure S3 server-side encryption with Amazon S3 managed keys and grant all authenticated AWS principals access to the bucket.",
+        "Configure S3 server-side encryption with an AWS managed KMS key and disable CloudTrail logging for key-management operations.",
+        "Configure client-side Base64 encoding of document contents before uploading the documents to an S3 bucket."
+      ],
+      "answer": "A",
+      "explanation": "SSE-KMS with a customer managed KMS key allows the company to control key policies and grant decryption permissions only to authorized principals. AWS KMS integrates with AWS CloudTrail to provide an audit trail of key operations. S3-managed encryption keys do not offer the same level of customer control over cryptographic key permissions.",
+      "topic": "Security",
+      "subtopic": "Implement encryption and manage sensitive data by using AWS services",
+      "difficulty": "medium",
+      "source": "AWS DVA-C03 Exam Guide, Skills 2.2.1, 2.2.3 and 2.2.4; SSE-KMS"
+    },
+    {
+      "stem": "A development team packages a microservice as a Docker container image. The image will be deployed to Amazon ECS, and the team needs a managed AWS repository that supports image versioning, access control, and vulnerability scanning. Which service should the team use?",
+      "options": [
+        "Amazon S3 with object versioning enabled for each container image archive.",
+        "Amazon Elastic Container Registry with image tags and image scanning configured.",
+        "AWS CodeArtifact with a package repository configured for Docker deployment.",
+        "AWS CloudFormation with a separate stack created for each container image."
+      ],
+      "answer": "B",
+      "explanation": "Amazon Elastic Container Registry is a managed container image registry that integrates with ECS and other AWS container services. It supports image tags, repository access policies, and image scanning capabilities. ECR provides the container registry functionality required for storing and managing deployable Docker images.",
+      "topic": "Testing and Deployment",
+      "subtopic": "Prepare application artifacts to be deployed to AWS",
+      "difficulty": "easy",
+      "source": "AWS DVA-C03 Exam Guide, Skill 3.1.2; Amazon ECR"
+    },
+    {
+      "stem": "A company runs the same application in development, staging, and production environments. The developer needs to manage environment-specific feature flags and configuration values without rebuilding application artifacts. Production configuration changes must be introduced gradually, validated before deployment, and automatically rolled back if a configured Amazon CloudWatch alarm enters the ALARM state. Which solution will meet these requirements?",
+      "options": [
+        "Store configuration values in separate Amazon S3 buckets and immediately replace each application's configuration files.",
+        "Store configuration values in Docker image layers and create new container images for every environment change.",
+        "Store configuration values in AWS Lambda environment variables and update all function aliases simultaneously.",
+        "Use AWS AppConfig with environment-specific configurations, validators, deployment strategies, and CloudWatch alarms."
+      ],
+      "answer": "D",
+      "explanation": "AWS AppConfig supports controlled deployment of application configuration and feature flags across environments. Validators can check configurations before deployment, while deployment strategies control how changes are introduced. Integration with CloudWatch alarms enables automatic rollback when configured health conditions are violated.",
+      "topic": "Testing and Deployment",
+      "subtopic": "Prepare application artifacts to be deployed to AWS",
+      "difficulty": "medium",
+      "source": "AWS DVA-C03 Exam Guide, Skill 3.1.4; AWS AppConfig Deployments"
+    },
+    {
+      "stem": "A developer is implementing automated tests for an AWS Lambda function that serves as the backend for an Amazon API Gateway REST API. The function accepts JSON requests and calls an external payment service. The developer wants to execute tests locally with representative API Gateway events while preventing real payment requests from being sent during testing. Which TWO actions should the developer take? (Choose TWO.)",
+      "options": [
+        "Use the AWS SAM CLI to invoke the Lambda function locally with representative API Gateway event payloads.",
+        "Invoke the production API Gateway endpoint for every test to ensure that all dependencies remain active.",
+        "Replace the external payment service client with a mock or stub during the tests.",
+        "Temporarily remove the payment-processing logic from the production source code before each test run.",
+        "Use Amazon ECR image scanning as the sole method for validating the Lambda function's request-processing behavior."
+      ],
+      "answer": "AC",
+      "explanation": "The AWS SAM CLI supports local Lambda invocation with supplied event payloads, allowing developers to test API Gateway-style inputs. Mocking the external payment dependency isolates the function's logic and prevents real financial transactions. These techniques make automated tests more predictable and reduce dependence on external service availability.",
+      "topic": "Testing and Deployment",
+      "subtopic": "Implement and automate application testing in AWS environments",
+      "difficulty": "medium",
+      "source": "AWS DVA-C03 Exam Guide, Skills 3.2.1, 3.2.2 and 3.2.3"
+    },
+    {
+      "stem": "A company deploys new versions of an AWS Lambda function that processes customer transactions. Production traffic invokes a Lambda alias named prod. A new published version must initially receive 10% of production traffic while the previous version continues receiving 90%. After 10 minutes, the new version should receive all traffic if no deployment alarm has triggered. If a configured CloudWatch error-rate alarm enters the ALARM state during deployment, traffic must automatically return to the previous version. Which solution will meet these requirements with the LEAST custom code?",
+      "options": [
+        "Update the prod alias directly to the new version and configure CloudWatch Logs to capture any invocation failures.",
+        "Deploy the new version through AWS CodeBuild and configure an EventBridge scheduled rule to change the alias after 10 minutes.",
+        "Configure AWS CodeDeploy with the LambdaCanary10Percent10Minutes deployment configuration, the prod alias, and a CloudWatch alarm with automatic rollback.",
+        "Configure Lambda reserved concurrency to 10% of the current limit and increase it to 100% after 10 minutes."
+      ],
+      "answer": "C",
+      "explanation": "CodeDeploy supports canary traffic shifting between published Lambda versions through aliases. The LambdaCanary10Percent10Minutes configuration shifts 10% of traffic initially and the remaining traffic after 10 minutes. With CloudWatch alarms and automatic rollback configured, CodeDeploy can restore traffic to the previous version when a deployment alarm triggers.",
+      "topic": "Testing and Deployment",
+      "subtopic": "Deploy code by using AWS continuous integration and continuous delivery (CI/CD) services",
+      "difficulty": "hard",
+      "source": "AWS DVA-C03 Exam Guide, Skills 3.3.4, 3.3.6 and 3.3.7"
+    },
+    {
+      "stem": "A company uses AWS CodePipeline to release a containerized application. The source stage retrieves application code from a repository. Before the application is deployed, the team must install dependencies, run unit tests, build a Docker image, and publish the image to Amazon ECR. The pipeline must stop if any unit test fails. Which solution will meet these requirements?",
+      "options": [
+        "Add an AWS CodeBuild action with a buildspec file that runs the tests and builds and pushes the image, allowing failed commands to fail the build.",
+        "Add an AWS CodeDeploy action that compiles source code and executes unit tests after production traffic has been shifted.",
+        "Add an Amazon EventBridge rule that sends a notification whenever a new source revision reaches the pipeline.",
+        "Add an AWS CloudFormation action that creates the ECS infrastructure and skips the application build and test steps."
+      ],
+      "answer": "A",
+      "explanation": "AWS CodeBuild can install dependencies, execute test commands, build container images, and push them to ECR according to a buildspec file. CodePipeline can use CodeBuild as a build action and prevent subsequent deployment stages from proceeding when the action fails. This integrates automated testing directly into the release workflow.",
+      "topic": "Testing and Deployment",
+      "subtopic": "Deploy code by using AWS continuous integration and continuous delivery (CI/CD) services",
+      "difficulty": "medium",
+      "source": "AWS DVA-C03 Exam Guide, Skill 3.3.5; CodeBuild Buildspec and CodePipeline"
+    },
+    {
+      "stem": "A developer is investigating errors in an AWS Lambda function. The function writes structured JSON logs to Amazon CloudWatch Logs, including fields named requestId, operation, and statusCode. The developer needs to find all log events with statusCode equal to 500 during the previous hour and display the corresponding requestId values. Which AWS feature should the developer use?",
+      "options": [
+        "AWS CloudTrail event history to filter API calls by the function's requestId field.",
+        "Amazon CloudWatch Metrics Explorer to retrieve individual JSON log records.",
+        "Amazon CloudWatch Logs Insights with a query that filters statusCode and displays requestId.",
+        "AWS Config resource timelines to inspect the Lambda function's configuration changes."
+      ],
+      "answer": "C",
+      "explanation": "CloudWatch Logs Insights provides a query language for searching and analyzing application log events. It can extract fields from structured JSON logs, filter records by values such as statusCode, and display selected fields. CloudTrail records AWS API activity rather than serving as the primary tool for querying arbitrary application log fields.",
+      "topic": "Troubleshooting and Optimization",
+      "subtopic": "Assist in a root cause analysis",
+      "difficulty": "easy",
+      "source": "AWS DVA-C03 Exam Guide, Skills 4.1.2 and 4.1.3; CloudWatch Logs Insights"
+    },
+    {
+      "stem": "A web application uses Amazon API Gateway, AWS Lambda, and Amazon DynamoDB. Users intermittently experience slow responses, but the developer cannot determine whether the latency originates in API Gateway, Lambda processing, or downstream DynamoDB operations. The developer needs to inspect individual request paths and identify which components contribute most to end-to-end latency. Which solution will provide the MOST useful information?",
+      "options": [
+        "Enable AWS CloudTrail data events for the application and examine the chronological order of management API calls.",
+        "Instrument the application for distributed tracing with AWS X-Ray and examine the service map and request traces.",
+        "Enable Amazon S3 server access logging and compare object request timestamps with application response times.",
+        "Enable AWS Config recording and review historical configuration snapshots for the application resources."
+      ],
+      "answer": "B",
+      "explanation": "AWS X-Ray supports distributed tracing across application components and AWS service integrations. Traces and service maps help developers identify slow segments, downstream calls, and errors contributing to request latency. This provides request-level diagnostic information that is not available from configuration histories or general API audit logs.",
+      "topic": "Troubleshooting and Optimization",
+      "subtopic": "Apply logging, monitoring, and observability best practices",
+      "difficulty": "medium",
+      "source": "AWS DVA-C03 Exam Guide, Skill 4.2.4; AWS X-Ray Distributed Tracing"
+    },
+    {
+      "stem": "A company runs a synchronous AWS Lambda function behind Amazon API Gateway. During a predictable daily peak, traffic reaches approximately 40 concurrent invocations. Monitoring shows that cold-start initialization delays cause unacceptable response latency. The function also performs CPU-intensive calculations, and the developer wants to determine whether a different memory setting would improve execution performance. The company accepts additional charges to reduce latency. Which TWO actions should the developer take? (Choose TWO.)",
+      "options": [
+        "Configure provisioned concurrency of at least 40 on the published Lambda version or alias used by API Gateway.",
+        "Configure reserved concurrency of 40 without provisioned concurrency to guarantee that all execution environments are initialized before requests arrive.",
+        "Reduce the function's memory allocation to the minimum supported value to increase the amount of CPU power available.",
+        "Disable execution environment reuse so every request executes in a newly initialized environment.",
+        "Benchmark the function at different memory allocations and select an appropriate configuration based on execution duration and cost."
+      ],
+      "answer": "AE",
+      "explanation": "Provisioned concurrency keeps a configured number of Lambda execution environments initialized, reducing cold-start latency for requests within that capacity. Lambda allocates CPU resources proportionally to configured memory, so benchmarking different memory settings can identify performance improvements for CPU-intensive code. Reserved concurrency limits or reserves concurrency capacity but does not pre-initialize execution environments.",
+      "topic": "Troubleshooting and Optimization",
+      "subtopic": "Optimize applications by using AWS services and features",
+      "difficulty": "hard",
+      "source": "AWS DVA-C03 Exam Guide, Skills 4.3.1 and 4.3.2; Lambda Performance"
+    },
+    {
+      "stem": "An application runs on multiple Amazon EC2 instances and processes customer checkout requests. The developer wants to monitor the total number of failed checkout attempts across all instances, even though this value is not available as a standard Amazon EC2 metric. The metric must be available for CloudWatch alarms and dashboards. Which solution should the developer implement?",
+      "options": [
+        "Enable AWS CloudTrail management event logging on the EC2 instances and use the recorded events as checkout-failure metrics.",
+        "Configure AWS Config to record failed checkout attempts as resource configuration changes.",
+        "Enable EC2 detailed monitoring and use the CPUUtilization metric to represent failed checkout attempts.",
+        "Publish a custom checkout-failure metric to Amazon CloudWatch from the application by using the CloudWatch metrics API."
+      ],
+      "answer": "D",
+      "explanation": "Amazon CloudWatch supports custom metrics for application-specific measurements that AWS services do not publish automatically. The application can publish checkout-failure counts through the CloudWatch PutMetricData API, making them available for dashboards and alarms. Standard EC2 infrastructure metrics do not directly measure business events such as failed checkouts.",
+      "topic": "Troubleshooting and Optimization",
+      "subtopic": "Apply logging, monitoring, and observability best practices",
+      "difficulty": "easy",
+      "source": "AWS DVA-C03 Exam Guide, Skill 4.2.2; CloudWatch Custom Metrics"
+    }
+  ]
+}

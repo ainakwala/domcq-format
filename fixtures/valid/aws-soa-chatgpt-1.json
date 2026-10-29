@@ -1,0 +1,311 @@
+{
+  "format": "domcq/1",
+  "exam": "aws-soa",
+  "set": "AWS Certified CloudOps Engineer - Associate practice – Operations and Resilience",
+  "questions": [
+    {
+      "stem": "A company runs an application on Amazon EC2 instances. The operations team uses Amazon CloudWatch to monitor CPU utilization and network traffic. The team also needs to monitor memory utilization on the instances. However, memory utilization metrics are not available in CloudWatch. Which solution will meet this requirement with the LEAST operational effort?",
+      "options": [
+        "Enable EC2 detailed monitoring for all instances and select memory utilization as a metric.",
+        "Install and configure the CloudWatch agent on the instances to publish memory utilization metrics.",
+        "Enable AWS CloudTrail data events for the instances and create a dashboard for memory utilization.",
+        "Configure VPC Flow Logs for the instances and publish the collected data to CloudWatch."
+      ],
+      "answer": "B",
+      "explanation": "The CloudWatch agent collects operating system metrics, including memory utilization, that are not provided by default EC2 monitoring. After installation and configuration, the agent publishes these metrics to CloudWatch for use in dashboards and alarms. EC2 detailed monitoring increases the frequency of supported EC2 metrics but does not add operating system memory metrics.",
+      "topic": "Monitoring, Logging, Analysis, Remediation, and Performance Optimization",
+      "subtopic": "Implement metrics, alarms, and filters by using AWS monitoring and logging services",
+      "difficulty": "easy",
+      "source": "SOA-C03 Exam Guide, Task 1.1; Amazon CloudWatch User Guide, Collect metrics and logs with the CloudWatch agent"
+    },
+    {
+      "stem": "An ecommerce application runs on EC2 instances in an Auto Scaling group behind an Application Load Balancer. The application receives unpredictable traffic throughout the day. Load testing shows that each instance can process approximately 1,000 requests per minute while maintaining acceptable response times. The company wants the number of instances to adjust automatically as requests increase or decrease. Which solution is the MOST operationally efficient?",
+      "options": [
+        "Configure scheduled scaling actions to increase and decrease capacity during predicted peak periods.",
+        "Configure a simple scaling policy that adds one instance whenever the group's maximum CPU utilization exceeds 90%.",
+        "Configure an Auto Scaling lifecycle hook that launches an additional instance whenever a target is registered.",
+        "Configure a target tracking scaling policy using the ALBRequestCountPerTarget metric with an appropriate target value."
+      ],
+      "answer": "D",
+      "explanation": "Target tracking scaling automatically adjusts the Auto Scaling group's capacity to maintain a specified metric target. ALBRequestCountPerTarget measures requests per target, making it appropriate for applications whose capacity requirements are driven by request volume. Unlike scheduled scaling, target tracking responds to changes in actual demand without requiring predefined traffic schedules.",
+      "topic": "Reliability and Business Continuity",
+      "subtopic": "Implement scalability and elasticity",
+      "difficulty": "medium",
+      "source": "SOA-C03 Exam Guide, Task 2.1; Amazon EC2 Auto Scaling User Guide, Target tracking scaling policies"
+    },
+    {
+      "stem": "A company provisions its infrastructure by using AWS CloudFormation. An administrator manually changes the configuration of a security group that was created by a CloudFormation stack. The operations team needs to identify whether the deployed resource configuration differs from the configuration defined in the stack template. Which action should the team take?",
+      "options": [
+        "Run CloudFormation drift detection on the stack and review the resource differences.",
+        "Create a CloudFormation change set and execute it without modifying the stack template.",
+        "Enable CloudTrail Insights and review unusual API activity for the CloudFormation service.",
+        "Export the CloudFormation template and compare its parameters with those of another stack."
+      ],
+      "answer": "A",
+      "explanation": "CloudFormation drift detection compares the actual configuration of supported stack resources with the expected configuration defined in the stack template and parameters. It identifies resources that have been modified or deleted outside CloudFormation management. The team can then review the detected differences and decide how to restore configuration consistency.",
+      "topic": "Deployment, Provisioning, and Automation",
+      "subtopic": "Provision and maintain cloud resources",
+      "difficulty": "easy",
+      "source": "SOA-C03 Exam Guide, Task 3.1; AWS CloudFormation User Guide, Detect drift on stacks and resources"
+    },
+    {
+      "stem": "An organization uses AWS Organizations with all features enabled. Multiple development accounts belong to an organizational unit (OU). Developers have IAM permissions that allow them to launch EC2 instances in any AWS Region. The security team must prevent EC2 instance launches outside two approved Regions across all member accounts in the OU, without modifying individual developer IAM policies. Which solution meets these requirements?",
+      "options": [
+        "Create an AWS Config rule that evaluates EC2 instances against the approved Regions and sends compliance notifications.",
+        "Create an AWS Organizations tag policy that specifies the approved Regions and attach it to the development OU.",
+        "Attach a service control policy to the OU that explicitly denies ec2:RunInstances when aws:RequestedRegion is outside the approved Regions.",
+        "Enable IAM Access Analyzer in each development account and configure it to prevent EC2 launches in unapproved Regions."
+      ],
+      "answer": "C",
+      "explanation": "A service control policy (SCP) can establish organization-wide permission guardrails for member accounts. An explicit Deny for ec2:RunInstances conditioned on aws:RequestedRegion prevents launches in unapproved Regions even when an IAM identity policy otherwise permits them. AWS Config can detect noncompliant resources but does not independently prevent their creation.",
+      "topic": "Security and Compliance",
+      "subtopic": "Implement and manage security and compliance tools and policies",
+      "difficulty": "medium",
+      "source": "SOA-C03 Exam Guide, Task 4.1; AWS Organizations User Guide, Service control policies"
+    },
+    {
+      "stem": "A company has EC2 instances in a private subnet that must access Amazon S3 buckets in the same AWS Region. The subnet has no route to a NAT gateway or an internet gateway. The company wants the instances to access S3 privately while minimizing additional networking charges. Which solution will meet these requirements?",
+      "options": [
+        "Create an interface VPC endpoint for Amazon S3 and enable private DNS for the endpoint.",
+        "Create a gateway VPC endpoint for Amazon S3 and associate it with the private subnet's route table.",
+        "Deploy a NAT gateway in a public subnet and route the private subnet's internet-bound traffic through it.",
+        "Attach an egress-only internet gateway to the VPC and add a default route from the private subnet."
+      ],
+      "answer": "B",
+      "explanation": "An S3 gateway VPC endpoint allows resources in a VPC to communicate with Amazon S3 without traversing the public internet or requiring a NAT gateway. Gateway endpoints have no additional hourly or data processing charges. Associating the endpoint with the appropriate route table enables the private subnet to use the endpoint for supported S3 traffic.",
+      "topic": "Networking and Content Delivery",
+      "subtopic": "Implement and optimize networking features and connectivity",
+      "difficulty": "easy",
+      "source": "SOA-C03 Exam Guide, Task 5.1; Amazon VPC User Guide, Gateway endpoints for Amazon S3"
+    },
+    {
+      "stem": "An operations team receives a CloudWatch alarm indicating that an EBS-backed EC2 instance has a StatusCheckFailed_System metric value of 1. The StatusCheckFailed_Instance metric remains 0. The team has already rebooted the instance, but the system status check continues to fail. Which action is MOST likely to resolve the underlying problem?",
+      "options": [
+        "Increase the provisioned IOPS of the instance's root EBS volume.",
+        "Restart the application processes running on the instance.",
+        "Replace the IAM instance profile attached to the instance.",
+        "Stop and start the instance to allow EC2 to place it on different underlying hardware."
+      ],
+      "answer": "D",
+      "explanation": "A system status check failure generally indicates an issue with the underlying AWS infrastructure, such as physical host problems. Stopping and starting an EBS-backed instance typically moves it to different underlying hardware, which can resolve persistent system-level failures. Rebooting generally keeps the instance on the same host and might not resolve the underlying problem.",
+      "topic": "Monitoring, Logging, Analysis, Remediation, and Performance Optimization",
+      "subtopic": "Identify and remediate issues by using monitoring and availability metrics",
+      "difficulty": "medium",
+      "source": "SOA-C03 Exam Guide, Task 1.2; Amazon EC2 User Guide, Status checks for your instances"
+    },
+    {
+      "stem": "A company runs a production application that uses an Amazon RDS for PostgreSQL DB instance in a single Availability Zone. The database must remain available if the Availability Zone hosting the primary DB instance fails. The company wants AWS to manage the failover process automatically. Which solution meets this requirement?",
+      "options": [
+        "Modify the RDS DB instance to use a Multi-AZ DB instance deployment.",
+        "Create an RDS read replica in another Availability Zone for reporting queries.",
+        "Enable daily automated backups and restore the latest backup after a failure.",
+        "Configure an RDS Proxy endpoint for the existing Single-AZ DB instance."
+      ],
+      "answer": "A",
+      "explanation": "An RDS Multi-AZ DB instance deployment maintains a synchronous standby replica in a separate Availability Zone and supports automatic failover. If the primary instance or its Availability Zone fails, RDS can promote the standby and redirect database connectivity through the existing DB endpoint. A standard read replica does not provide the same automatic failover capability.",
+      "topic": "Reliability and Business Continuity",
+      "subtopic": "Implement highly available and resilient environments",
+      "difficulty": "easy",
+      "source": "SOA-C03 Exam Guide, Task 2.2; Amazon RDS User Guide, Multi-AZ DB instance deployments"
+    },
+    {
+      "stem": "A company manages 60 AWS accounts through AWS Organizations. Each account must have the same CloudFormation-defined monitoring infrastructure deployed in two AWS Regions. The company also wants the monitoring infrastructure to be deployed automatically when new accounts are added to a designated organizational unit. Which solution requires the LEAST ongoing administration?",
+      "options": [
+        "Create an AWS CloudFormation nested stack in the management account and reference it from each member account.",
+        "Use AWS Resource Access Manager to share a CloudFormation stack from the management account with the organizational unit.",
+        "Create an AWS CloudFormation StackSet with service-managed permissions and automatic deployment to the organizational unit.",
+        "Create an AWS Systems Manager Run Command association that executes the CloudFormation template in each member account."
+      ],
+      "answer": "C",
+      "explanation": "CloudFormation StackSets deploy and maintain stacks across multiple AWS accounts and Regions from a centrally managed configuration. With service-managed permissions integrated with AWS Organizations, StackSets can target organizational units and automatically deploy stack instances to newly added accounts. This reduces the need to manage individual account deployments and cross-account roles manually.",
+      "topic": "Deployment, Provisioning, and Automation",
+      "subtopic": "Provision and maintain cloud resources",
+      "difficulty": "medium",
+      "source": "SOA-C03 Exam Guide, Task 3.1; AWS CloudFormation User Guide, StackSets with service-managed permissions"
+    },
+    {
+      "stem": "An EC2 instance in subnet A connects to an interface VPC endpoint in subnet B of the same VPC over HTTPS. The EC2 security group allows outbound TCP port 443, and the endpoint security group allows inbound TCP port 443 from the EC2 security group. Both security groups use stateful connection tracking. The subnet A network ACL allows outbound TCP port 443 but denies all inbound traffic. The subnet B network ACL allows inbound TCP port 443 but denies all outbound traffic. The HTTPS connection fails. Which TWO changes are required to allow the connection? (Choose TWO.)",
+      "options": [
+        "Allow inbound TCP port 443 in the EC2 instance security group.",
+        "Allow inbound TCP traffic on the client's ephemeral return ports in the subnet A network ACL.",
+        "Allow outbound TCP traffic on the client's ephemeral return ports in the EC2 instance security group.",
+        "Allow outbound TCP traffic on the client's ephemeral return ports in the subnet B network ACL.",
+        "Allow outbound TCP port 443 in the subnet B network ACL."
+      ],
+      "answer": "BD",
+      "explanation": "Network ACLs are stateless, so they must explicitly permit both the request traffic and the corresponding return traffic. The HTTPS request leaves subnet A for destination port 443 and reaches subnet B, but the response must leave subnet B and enter subnet A on the client's ephemeral destination port. Security groups are stateful and automatically permit return traffic for an allowed connection, so additional security group rules are unnecessary.",
+      "topic": "Networking and Content Delivery",
+      "subtopic": "Troubleshoot network connectivity issues",
+      "difficulty": "hard",
+      "source": "SOA-C03 Exam Guide, Task 5.3; Amazon VPC User Guide, Network ACLs and security group connection tracking"
+    },
+    {
+      "stem": "An application has two CloudWatch metric alarms: HighCPUAlarm and HighLatencyAlarm. The operations team wants to send exactly one notification when both alarms are simultaneously in the ALARM state. The team does not want notifications when only one alarm is triggered and does not want to write custom code. Which TWO configurations will meet these requirements? (Choose TWO.)",
+      "options": [
+        "Create a CloudWatch composite alarm with the rule ALARM(HighCPUAlarm) AND ALARM(HighLatencyAlarm).",
+        "Create a CloudWatch composite alarm with the rule ALARM(HighCPUAlarm) OR ALARM(HighLatencyAlarm).",
+        "Create an EventBridge rule that sends notifications whenever either metric alarm changes to ALARM.",
+        "Configure each underlying metric alarm to publish its own notification to the same SNS topic.",
+        "Configure an Amazon SNS notification action on the composite alarm and disable notification actions on the underlying alarms."
+      ],
+      "answer": "AE",
+      "explanation": "A composite alarm evaluates Boolean expressions involving the states of other CloudWatch alarms. The AND expression requires both underlying alarms to be in the ALARM state before the composite alarm enters that state. Configuring the SNS action only on the composite alarm prevents separate notifications from the underlying alarms and reduces unnecessary alerts.",
+      "topic": "Monitoring, Logging, Analysis, Remediation, and Performance Optimization",
+      "subtopic": "Implement metrics, alarms, and filters by using AWS monitoring and logging services",
+      "difficulty": "hard",
+      "source": "SOA-C03 Exam Guide, Task 1.1; Amazon CloudWatch User Guide, Composite alarms"
+    },
+    {
+      "stem": "A company uses AWS Backup to protect production EBS volumes. The production account belongs to an AWS Organization that has already enabled cross-account backup and configured the required destination vault permissions. The EBS backups support cross-account and cross-Region copying. The company requires recovery points to be stored in a separate AWS account and Region. It also requires backup retention to be enforced so that even administrators cannot delete protected recovery points before their retention periods expire. Which TWO configurations meet these requirements? (Choose TWO.)",
+      "options": [
+        "Enable Amazon S3 Cross-Region Replication for a bucket in the production account.",
+        "Configure an AWS Backup copy rule that copies recovery points to a vault in the recovery account and another Region.",
+        "Enable automatic EBS snapshot creation through an EC2 instance user data script.",
+        "Configure AWS Config to aggregate resource configuration histories in the recovery account.",
+        "Enable AWS Backup Vault Lock in compliance mode on the destination vault and allow its grace period to expire."
+      ],
+      "answer": "BE",
+      "explanation": "AWS Backup copy rules can automatically copy supported recovery points to backup vaults in other AWS accounts and Regions, providing separation from the production environment. AWS Backup Vault Lock in compliance mode prevents protected recovery points from being deleted before their configured retention periods expire, including by highly privileged administrators. Once the compliance-mode grace period ends, the vault lock cannot be removed, so retention settings must be reviewed carefully.",
+      "topic": "Reliability and Business Continuity",
+      "subtopic": "Implement backup and restore strategies",
+      "difficulty": "hard",
+      "source": "SOA-C03 Exam Guide, Task 2.3; AWS Backup Developer Guide, Cross-account copies and Backup Vault Lock"
+    },
+    {
+      "stem": "A company operates hundreds of EC2 instances across multiple application environments. The operations team must install approved operating system patches during scheduled maintenance periods and maintain centralized patch compliance information. The team wants to minimize custom scripting and manual intervention. Which solution is the MOST operationally efficient?",
+      "options": [
+        "Use Systems Manager Run Command to install patches manually whenever administrators identify missing updates.",
+        "Use EC2 Image Builder to update AMIs and assume that existing running instances will receive the same patches.",
+        "Use CloudFormation drift detection to identify missing operating system patches and correct configuration differences.",
+        "Use AWS Systems Manager Patch Manager with patch baselines, Maintenance Windows, and compliance reporting."
+      ],
+      "answer": "D",
+      "explanation": "Systems Manager Patch Manager automates patch scanning and installation against defined patch baselines. Maintenance Windows allow patching tasks to run during approved periods, while Systems Manager compliance features provide centralized visibility into patch status. This approach reduces the need for custom scripts and repeated manual patching operations.",
+      "topic": "Deployment, Provisioning, and Automation",
+      "subtopic": "Automate the management of existing resources",
+      "difficulty": "medium",
+      "source": "SOA-C03 Exam Guide, Task 3.2; AWS Systems Manager User Guide, Patch Manager and Maintenance Windows"
+    },
+    {
+      "stem": "A security team wants to detect suspicious activity involving temporary IAM credentials associated with an EC2 instance. Specifically, the team needs alerts when the instance's credentials are used from an unusual external network location, indicating possible credential exfiltration. Which AWS service is designed to detect this type of threat?",
+      "options": [
+        "AWS Config, by evaluating changes to EC2 resource configurations.",
+        "Amazon Inspector, by scanning EC2 instances for software vulnerabilities.",
+        "Amazon GuardDuty, by analyzing activity and identifying potentially compromised instance credentials.",
+        "AWS Trusted Advisor, by examining EC2 service quotas and infrastructure optimization checks."
+      ],
+      "answer": "C",
+      "explanation": "Amazon GuardDuty analyzes supported activity sources, including CloudTrail management events, to identify potential threats such as the misuse of EC2 instance credentials from suspicious external locations. It generates security findings that operations teams can investigate and remediate. Amazon Inspector focuses primarily on vulnerability management rather than detecting this type of credential misuse.",
+      "topic": "Security and Compliance",
+      "subtopic": "Implement and manage security and compliance tools and policies",
+      "difficulty": "easy",
+      "source": "SOA-C03 Exam Guide, Task 4.2; Amazon GuardDuty User Guide, EC2 instance credential exfiltration findings"
+    },
+    {
+      "stem": "A company hosts an application behind an Application Load Balancer in the primary AWS Region and maintains a functioning disaster recovery deployment behind another Application Load Balancer in a secondary Region. Both environments have public DNS endpoints. The company uses Amazon Route 53 to manage the application's domain. The company wants DNS responses to direct users to the primary environment during normal operations and automatically direct new DNS queries to the secondary environment when the primary becomes unhealthy. Which solution meets these requirements?",
+      "options": [
+        "Configure Route 53 failover routing records with primary and secondary endpoints and appropriate health evaluation.",
+        "Configure Route 53 weighted routing records that distribute requests equally between the two environments.",
+        "Configure Route 53 latency-based routing records that always select the Region with the lowest network latency.",
+        "Configure Route 53 geolocation routing records that send users to environments based on their geographic locations."
+      ],
+      "answer": "A",
+      "explanation": "Route 53 failover routing is designed for active-passive disaster recovery configurations. With appropriate health checks or alias target health evaluation, Route 53 returns the primary endpoint while it is healthy and the secondary endpoint when the primary is unhealthy. DNS caching can delay how quickly individual clients observe the change, but the policy provides automatic DNS-level failover.",
+      "topic": "Networking and Content Delivery",
+      "subtopic": "Configure domains, DNS services, and content delivery",
+      "difficulty": "medium",
+      "source": "SOA-C03 Exam Guide, Task 5.2; Amazon Route 53 Developer Guide, Failover routing"
+    },
+    {
+      "stem": "A company runs a database workload on an EC2 instance with an attached gp3 EBS volume. The volume is provisioned for 3,000 IOPS and 125 MiB/s throughput. During peak processing, monitoring shows that the workload repeatedly reaches the volume's provisioned IOPS limit, while throughput remains far below its provisioned limit. The EC2 instance has sufficient unused EBS performance capacity. The workload requires more IOPS but does not require additional storage capacity. Which action is the MOST cost-effective way to improve performance?",
+      "options": [
+        "Increase the allocated storage size of the gp3 volume without changing its provisioned IOPS.",
+        "Modify the gp3 volume to increase provisioned IOPS without increasing its allocated storage size.",
+        "Increase the provisioned throughput of the gp3 volume while keeping provisioned IOPS unchanged.",
+        "Increase the EC2 instance's vCPU count while keeping the EBS volume configuration unchanged."
+      ],
+      "answer": "B",
+      "explanation": "Gp3 EBS volumes allow storage capacity, IOPS, and throughput to be provisioned independently within supported limits. Because the workload is constrained by IOPS rather than throughput or storage capacity, increasing the volume's provisioned IOPS directly addresses the bottleneck. Adding storage or throughput that the workload does not need would not resolve the identified limitation efficiently.",
+      "topic": "Monitoring, Logging, Analysis, Remediation, and Performance Optimization",
+      "subtopic": "Implement performance optimization strategies for compute, storage, and database resources",
+      "difficulty": "medium",
+      "source": "SOA-C03 Exam Guide, Task 1.3; Amazon EBS User Guide, Provisioned performance for gp3 volumes"
+    },
+    {
+      "stem": "A company stores important documents in an Amazon S3 bucket with versioning enabled. An employee accidentally uploads an incorrect document using the same object key as an existing document. The operations team must recover the previous document contents without restoring an entire bucket. What should the team do?",
+      "options": [
+        "Use S3 Lifecycle rules to transition the current document to S3 Standard-IA.",
+        "Enable S3 Cross-Region Replication and wait for the original document to be replicated.",
+        "Run an S3 Inventory report and use the report to reconstruct the original document.",
+        "Retrieve the previous object version and restore it as the current version of the object."
+      ],
+      "answer": "D",
+      "explanation": "S3 Versioning retains previous versions of an object when a new object is uploaded using the same key. The team can retrieve or copy the earlier version to restore the correct document contents. This allows recovery of an individual overwritten object without restoring other objects in the bucket.",
+      "topic": "Reliability and Business Continuity",
+      "subtopic": "Implement backup and restore strategies",
+      "difficulty": "easy",
+      "source": "SOA-C03 Exam Guide, Task 2.3; Amazon S3 User Guide, Retaining multiple versions of objects"
+    },
+    {
+      "stem": "An operations team manages a standalone EC2 instance that must remain running. A separate monitoring system may occasionally stop the instance by mistake. The team wants the instance to restart automatically whenever its state changes to stopped, without continuously polling EC2 and without maintaining custom application code. Which solution will meet these requirements with the LEAST operational effort?",
+      "options": [
+        "Create an EventBridge rule matching the instance's stopped state-change event and invoke the AWS-StartEC2Instance Systems Manager Automation runbook with the appropriate permissions.",
+        "Create an AWS Config rule that evaluates the instance's running state and sends a compliance report whenever the instance stops.",
+        "Create an EventBridge scheduled rule that invokes an EC2 status check every minute and records the result in CloudWatch Logs.",
+        "Create a CloudTrail trail that delivers EC2 state-change activity to Amazon S3 and manually review the delivered records."
+      ],
+      "answer": "A",
+      "explanation": "Amazon EventBridge can match EC2 instance state-change notifications and trigger a Systems Manager Automation runbook. The AWS-StartEC2Instance runbook can start the affected instance when invoked with the instance ID and appropriate execution permissions. This event-driven approach responds to state changes without polling or maintaining custom restart code.",
+      "topic": "Deployment, Provisioning, and Automation",
+      "subtopic": "Automate the management of existing resources",
+      "difficulty": "medium",
+      "source": "SOA-C03 Exam Guide, Task 3.2; EventBridge EC2 events; Systems Manager AWS-StartEC2Instance runbook"
+    },
+    {
+      "stem": "A company uses a customer managed symmetric AWS KMS key in Account A to encrypt sensitive application data. An application running under an IAM role in Account B must call the KMS Decrypt API using this key. The key policy currently permits use only by principals in Account A, and the application role has no KMS permissions. Both accounts belong to the same organization, and no service control policies or permission boundaries deny the operation. Which TWO permission changes are required to enable the application role to decrypt data with the key? (Choose TWO.)",
+      "options": [
+        "Create a CloudTrail trail in Account B that records AWS KMS API activity from Account A.",
+        "Update the KMS key policy in Account A to allow the application role in Account B to perform kms:Decrypt.",
+        "Enable automatic rotation on the KMS key in Account A and wait for the next rotation.",
+        "Create an Amazon S3 bucket policy in Account A that permits the application role to access encrypted objects.",
+        "Attach an IAM policy to the application role in Account B that allows kms:Decrypt on the key ARN in Account A."
+      ],
+      "answer": "BE",
+      "explanation": "Cross-account use of an AWS KMS key requires authorization from both the key policy in the key-owning account and an IAM policy in the caller's account. The key policy must permit the external principal to use the key, and the role's IAM policy must allow the required KMS operation on that key. Neither permission change alone is sufficient for this cross-account scenario.",
+      "topic": "Security and Compliance",
+      "subtopic": "Implement strategies to protect data and infrastructure",
+      "difficulty": "hard",
+      "source": "SOA-C03 Exam Guide, Task 4.2; AWS KMS Developer Guide, Allowing users in other accounts to use a KMS key"
+    },
+    {
+      "stem": "A company serves multilingual website content through Amazon CloudFront. The origin generates different HTML pages based on a query string parameter named lang. For example, lang=en requests English content and lang=fr requests French content. The existing origin request policy forwards lang to the origin, but the CloudFront cache policy does not include any query strings in the cache key. Users sometimes receive pages in the wrong language from the cache. Which change will resolve the issue while maintaining efficient caching?",
+      "options": [
+        "Configure CloudFront to include every viewer request header in the cache key.",
+        "Configure CloudFront to disable caching for all requests containing query string parameters.",
+        "Configure a CloudFront cache policy that includes the lang query string parameter in the cache key.",
+        "Configure a CloudFront origin request policy that removes the lang parameter before forwarding requests."
+      ],
+      "answer": "C",
+      "explanation": "CloudFront uses its cache key to determine whether requests can share a cached response. Including the lang query string parameter in the cache key causes CloudFront to cache separate responses for different language values while preserving cache reuse within each language. Forwarding a parameter only through an origin request policy does not make it part of the cache key.",
+      "topic": "Networking and Content Delivery",
+      "subtopic": "Troubleshoot network connectivity issues",
+      "difficulty": "medium",
+      "source": "SOA-C03 Exam Guide, Task 5.3; Amazon CloudFront Developer Guide, Control the cache key with a policy"
+    },
+    {
+      "stem": "A company runs a serverless application using AWS Lambda and Amazon RDS for PostgreSQL. During large bursts of concurrent Lambda invocations, the database reports too many connections even though CPU utilization remains moderate. Each Lambda execution environment establishes database connections, and the company wants to improve connection management without increasing the DB instance size. Which solution is the MOST operationally efficient?",
+      "options": [
+        "Enable Amazon RDS Multi-AZ deployment so the standby instance handles half of the application connections.",
+        "Configure an RDS read replica and redirect all database write operations to the replica endpoint.",
+        "Increase the Lambda function timeout so database connections remain available for longer periods.",
+        "Configure Amazon RDS Proxy and modify the Lambda application to connect through the proxy endpoint."
+      ],
+      "answer": "D",
+      "explanation": "Amazon RDS Proxy manages and pools database connections, allowing multiple application clients to reuse underlying database connections when possible. This is particularly useful for Lambda workloads with large variations in concurrency, which can otherwise create excessive database connection churn. The application connects through the proxy endpoint, reducing pressure on the database connection limit without requiring a larger DB instance.",
+      "topic": "Monitoring, Logging, Analysis, Remediation, and Performance Optimization",
+      "subtopic": "Implement performance optimization strategies for compute, storage, and database resources",
+      "difficulty": "medium",
+      "source": "SOA-C03 Exam Guide, Task 1.3; Amazon RDS User Guide, Using Amazon RDS Proxy"
+    }
+  ]
+}

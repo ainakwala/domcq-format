@@ -1,0 +1,310 @@
+{
+  "format": "domcq/1",
+  "exam": "aws-soa",
+  "set": "AWS Certified CloudOps Engineer - Associate practice – Comprehensive Exam Simulation",
+  "questions": [
+    {
+      "stem": "A CloudOps engineer needs to monitor the memory utilization of several Amazon EC2 Linux instances on an Amazon CloudWatch dashboard. By default, CloudWatch does not display OS-level memory metrics. Which solution will meet this requirement with the LEAST amount of operational overhead?",
+      "options": [
+        "Install the AWS Systems Manager Agent (SSM Agent) and configure an inventory collection schedule for memory data.",
+        "Create a custom shell script on each instance that runs as a cron job to push memory metrics using the AWS CLI.",
+        "Install and configure the unified Amazon CloudWatch agent on each instance to collect and publish memory metrics.",
+        "Enable detailed monitoring for the EC2 instances in the Amazon EC2 console to capture guest OS metrics."
+      ],
+      "answer": "C",
+      "explanation": "Standard Amazon EC2 metrics captured by the hypervisor include CPU, basic network, and disk I/O, but hypervisors cannot inspect guest operating system memory. Installing and configuring the unified Amazon CloudWatch agent allows native collection of OS-level metrics, such as memory utilization and disk space, and automatically transmits them to CloudWatch. Detailed monitoring merely increases metric publishing frequency from 5 minutes to 1 minute and does not capture internal OS metrics.",
+      "topic": "Monitoring, Logging, Analysis, Remediation, and Performance Optimization",
+      "subtopic": "Implement metrics, alarms, and filters by using AWS monitoring and logging services",
+      "difficulty": "easy",
+      "source": "AWS CloudWatch User Guide - Collecting Metrics and Logs from Amazon EC2 Instances with the CloudWatch Agent"
+    },
+    {
+      "stem": "An organization hosts a critical application on a standalone Amazon EC2 instance. The application must recover automatically if the underlying physical host encounters a hardware impairment. The solution must preserve the instance's private IP address, Elastic IP address, and all EBS volume attachments. Which solution meets these requirements?",
+      "options": [
+        "Create an Amazon EventBridge rule that triggers an AWS Lambda function to stop and start the instance when an instance status check fails.",
+        "Create an Amazon CloudWatch alarm for the StatusCheckFailed_System metric and configure an EC2 Recover alarm action.",
+        "Configure an EC2 Auto Scaling group with a minimum size of 1 and a maximum size of 1 using target tracking scaling.",
+        "Create an Amazon CloudWatch alarm for the StatusCheckFailed_Instance metric and configure an EC2 Reboot alarm action."
+      ],
+      "answer": "B",
+      "explanation": "Amazon CloudWatch provides an automated recovery action specifically for the StatusCheckFailed_System metric, which detects underlying hardware and physical infrastructure failures. When triggered, the recovery action moves the instance to new underlying hardware while retaining the instance ID, private IP addresses, Elastic IP addresses, and attached EBS volumes. In contrast, StatusCheckFailed_Instance indicates operating system or software-level issues that require instance rebooting or OS troubleshooting.",
+      "topic": "Monitoring, Logging, Analysis, Remediation, and Performance Optimization",
+      "subtopic": "Identify and remediate issues by using monitoring and availability metrics",
+      "difficulty": "medium",
+      "source": "Amazon EC2 User Guide - Recover your instance"
+    },
+    {
+      "stem": "A company uses an Amazon RDS for PostgreSQL DB instance. Application users report intermittent performance degradation during peak business hours. A CloudOps engineer must identify the specific SQL queries consuming the most CPU resources and determine which active database sessions are causing bottlenecks. Which feature should the engineer enable to achieve this visibility?",
+      "options": [
+        "Amazon RDS Performance Insights",
+        "Amazon CloudWatch Enhanced Monitoring",
+        "Amazon RDS Multi-AZ standby replica query logging",
+        "AWS X-Ray active tracing on the RDS DB instance"
+      ],
+      "answer": "A",
+      "explanation": "Amazon RDS Performance Insights monitors database application load and slices performance data by wait states, SQL statements, database hosts, and users. It allows administrators to isolate heavy SQL queries and investigate resource contention directly on the database engine. Enhanced Monitoring collects operating system-level metrics such as per-process CPU and memory utilization, but it does not analyze SQL statements or database wait events.",
+      "topic": "Monitoring, Logging, Analysis, Remediation, and Performance Optimization",
+      "subtopic": "Implement performance optimization strategies for compute, storage, and database resources",
+      "difficulty": "easy",
+      "source": "Amazon RDS User Guide - Monitoring DB Load with Performance Insights on Amazon RDS"
+    },
+    {
+      "stem": "A CloudOps engineer manages multiple Amazon CloudWatch alarms configured for an application's Amazon EC2 fleet. During minor network fluctuations, both the CPU utilization alarm and the application latency alarm trigger simultaneously, generating duplicate high-priority notifications to the on-call team. The engineer must ensure that notifications are sent only when BOTH CPU utilization and latency exceed their thresholds simultaneously. Which solution meets these requirements?",
+      "options": [
+        "Create a single metric math alarm combining the two metrics using an addition operator, and configure the notification action on that alarm.",
+        "Configure an Amazon EventBridge rule that evaluates CloudWatch alarm state changes using a cron expression before publishing to Amazon SNS.",
+        "Combine both metrics into a custom high-resolution CloudWatch metric via an AWS Lambda function running every minute.",
+        "Create a CloudWatch composite alarm that specifies a logical AND rule condition evaluating the states of the individual alarms."
+      ],
+      "answer": "D",
+      "explanation": "Amazon CloudWatch composite alarms allow you to consolidate multiple metric alarms using rule expressions with logical operators such as AND, OR, and NOT. By defining an alarm rule condition that evaluates whether both underlying alarms are in the ALARM state simultaneously, notifications are dispatched only during combined failure conditions, substantially reducing alert noise and duplicate notifications.",
+      "topic": "Monitoring, Logging, Analysis, Remediation, and Performance Optimization",
+      "subtopic": "Implement metrics, alarms, and filters by using AWS monitoring and logging services",
+      "difficulty": "medium",
+      "source": "Amazon CloudWatch User Guide - Creating a composite alarm"
+    },
+    {
+      "stem": "A fleet of Amazon EC2 instances running in a private subnet triggers alarms when root Amazon EBS volumes reach 90% capacity. A CloudOps engineer must implement an automated remediation workflow that identifies instances triggering the high disk utilization alarm and automatically runs a cleanup script to purge temporary log files without requiring SSH or bastion host access. Which combination of actions will achieve this? (Choose TWO.)",
+      "options": [
+        "Configure an Amazon SNS topic subscribed to an AWS Lambda function that establishes an SSH connection to run the cleanup script.",
+        "Configure an Amazon EventBridge rule that matches the CloudWatch alarm state change and targets an AWS Systems Manager Automation runbook.",
+        "Create an AWS Systems Manager Maintenance Window configured to execute the cleanup script across all instances every 15 minutes.",
+        "Configure a CloudWatch alarm action to execute the AWS-RunShellScript document directly using instance user data.",
+        "Create an AWS Systems Manager Automation runbook that executes the AWS-RunShellScript command on the affected instance ID passed in the event."
+      ],
+      "answer": "BE",
+      "explanation": "CloudWatch alarms dispatch state change events to Amazon EventBridge, which can parse the incident payload and invoke targets such as AWS Systems Manager Automation runbooks. The Systems Manager Automation runbook can take the specific instance ID from the event parameters and execute the AWS-RunShellScript document using the SSM Agent already on the instance. This securely executes the purge command inside the instance without requiring open inbound ports, bastion hosts, or direct SSH access.",
+      "topic": "Monitoring, Logging, Analysis, Remediation, and Performance Optimization",
+      "subtopic": "Identify and remediate issues by using monitoring and availability metrics",
+      "difficulty": "hard",
+      "source": "AWS Systems Manager User Guide - Remediating noncompliant resources using Systems Manager Automation"
+    },
+    {
+      "stem": "An application hosted on an Amazon EC2 Auto Scaling group behind an Application Load Balancer experiences sudden, rapid spikes in traffic. The instances take approximately 8 minutes to boot, initialize software dependencies, and pass health checks. During sudden traffic surges, existing instances become overloaded before newly launched instances become healthy, causing dropped requests. Which solution will solve this issue with the LEAST latency?",
+      "options": [
+        "Switch the Auto Scaling group launch template to use larger instance types that can absorb sudden traffic surges.",
+        "Configure an Auto Scaling group warm pool with pre-initialized instances in a Stopped or Running state.",
+        "Change the health check grace period on the Auto Scaling group to 0 seconds to make instances service traffic immediately.",
+        "Replace the Application Load Balancer with a Network Load Balancer to terminate TLS connections faster."
+      ],
+      "answer": "B",
+      "explanation": "An Amazon EC2 Auto Scaling warm pool maintains a pool of pre-initialized EC2 instances that sit alongside the Auto Scaling group in a stopped or running state. When a scale-out event occurs, instances from the warm pool can be transitioned into the active Auto Scaling group in seconds rather than undergoing the lengthy 8-minute bootstrap process. Changing the grace period to 0 seconds would cause instances to fail health checks prematurely, and resizing instance types does not resolve initialization delays.",
+      "topic": "Reliability and Business Continuity",
+      "subtopic": "Implement scalability and elasticity",
+      "difficulty": "medium",
+      "source": "Amazon EC2 Auto Scaling User Guide - Warm pools for Amazon EC2 Auto Scaling"
+    },
+    {
+      "stem": "A company operates an Amazon RDS for MySQL database in a Multi-AZ deployment. The primary DB instance suffers an unexpected underlying hardware failure. What will occur automatically during the failover process?",
+      "options": [
+        "Amazon RDS launches a new EC2 instance in a different Availability Zone and restores data from the latest automated snapshot.",
+        "Amazon RDS promotes a read replica to the primary role and generates a new database endpoint URL for the application.",
+        "The application must update its database connection string to point to the IP address of the standby DB instance.",
+        "Amazon RDS switches the canonical name (CNAME) record of the DB endpoint to point to the standby DB instance."
+      ],
+      "answer": "D",
+      "explanation": "In an Amazon RDS Multi-AZ deployment, synchronous replication maintains an identical standby copy in another Availability Zone. When an underlying hardware failure occurs on the primary instance, RDS automatically fails over by updating the database endpoint's canonical name (CNAME) DNS record to point to the standby instance. This allows the application to reconnect using the exact same endpoint without manual endpoint configuration or connection string changes.",
+      "topic": "Reliability and Business Continuity",
+      "subtopic": "Implement highly available and resilient environments",
+      "difficulty": "easy",
+      "source": "Amazon RDS User Guide - High availability (Multi-AZ) for Amazon RDS"
+    },
+    {
+      "stem": "A company uses AWS Backup to manage backups for Amazon EBS volumes and Amazon RDS databases across several AWS accounts managed by AWS Organizations. The company's compliance policy mandates that backups must be protected from accidental deletion and ransomware attacks, ensuring that no user, including the root user, can delete recovery points before their retention period expires. Which solution meets these compliance requirements?",
+      "options": [
+        "Enable AWS Backup Vault Lock in compliance mode on the backup vaults storing the recovery points.",
+        "Implement an Amazon S3 Glacier Vault Lock policy on the underlying backup storage buckets in each account.",
+        "Create an AWS Organizations Service Control Policy (SCP) that denies the backup:DeleteRecoveryPoint action for all IAM principals.",
+        "Enable AWS Backup Vault Lock in governance mode and restrict access using an IAM permission boundary."
+      ],
+      "answer": "A",
+      "explanation": "AWS Backup Vault Lock in compliance mode enforces immutable backups by preventing any user, including the AWS account root user, from deleting recovery points or shortening the retention period once the cooling-off period expires. Governance mode allows privileged users with specific IAM permissions to delete backups or modify retention. An SCP cannot prevent actions performed by the root user of the AWS Organizations management account.",
+      "topic": "Reliability and Business Continuity",
+      "subtopic": "Implement backup and restore strategies",
+      "difficulty": "medium",
+      "source": "AWS Backup Developer Guide - AWS Backup Vault Lock"
+    },
+    {
+      "stem": "A financial services company requires a disaster recovery architecture for an Amazon Aurora PostgreSQL database across separate AWS Regions. The business continuity plan specifies a Recovery Point Objective (RPO) of under 1 second and a Recovery Time Objective (RTO) of under 1 minute in the event of a regional outage. Which steps must a CloudOps engineer take to satisfy these requirements? (Choose TWO.)",
+      "options": [
+        "Create an Amazon Aurora Global Database spanning the primary Region and a designated secondary Region.",
+        "Configure AWS Backup cross-region copy rules to replicate snapshots to the secondary Region every 15 minutes.",
+        "Promote the secondary DB cluster in the secondary Region to standalone read/write status during a regional disaster.",
+        "Configure continuous replication using AWS Database Migration Service (AWS DMS) between standalone Aurora clusters.",
+        "Set up an Amazon S3 Cross-Region Replication (CRR) pipeline for daily database export dumps."
+      ],
+      "answer": "AC",
+      "explanation": "Amazon Aurora Global Database provides storage-level cross-region replication with typical latency of less than 1 second, fulfilling an RPO under 1 second. In the event of a regional degradation or outage, the secondary DB cluster in the recovery region can be promoted to standalone read/write status in under 1 minute, fulfilling the RTO requirement. Periodic snapshot copies or external logical replication via AWS DMS cannot match the sub-second RPO and rapid RTO provided natively by Aurora Global Database.",
+      "topic": "Reliability and Business Continuity",
+      "subtopic": "Implement backup and restore strategies",
+      "difficulty": "hard",
+      "source": "Amazon Aurora User Guide - Using Amazon Aurora Global Databases"
+    },
+    {
+      "stem": "A CloudOps engineer suspects that an administrator manually modified the rules of an Amazon EC2 security group that was originally deployed using an AWS CloudFormation template. The engineer needs to identify whether the deployed resource attributes differ from the current CloudFormation template definition without modifying any live infrastructure. Which feature should the engineer use?",
+      "options": [
+        "CloudFormation change sets",
+        "AWS Config configuration recorder",
+        "CloudFormation drift detection",
+        "AWS Systems Manager State Manager"
+      ],
+      "answer": "C",
+      "explanation": "AWS CloudFormation drift detection checks whether resources managed by a stack have been modified outside of CloudFormation management (such as through the AWS Management Console or AWS CLI). It compares the actual live properties of the resources with their expected property values defined in the stack template without modifying any infrastructure. Change sets evaluate proposed changes before updating a stack rather than detecting out-of-band drifts.",
+      "topic": "Deployment, Provisioning, and Automation",
+      "subtopic": "Provision and maintain cloud resources",
+      "difficulty": "easy",
+      "source": "AWS CloudFormation User Guide - Detecting unmanaged configuration changes to stacks and resources"
+    },
+    {
+      "stem": "An organization manages 200 Amazon EC2 instances running Amazon Linux 2. Security policy requires that all instances automatically receive critical operating system security patches every Tuesday at 02:00 UTC without manual operational intervention. Failed patch operations must be recorded for auditing. Which solution meets these requirements with the LEAST administrative effort?",
+      "options": [
+        "Configure AWS Systems Manager Patch Manager with a custom patch baseline, and attach it to an SSM Maintenance Window scheduled for Tuesday at 02:00 UTC.",
+        "Write an AWS Lambda function triggered by an Amazon EventBridge scheduled rule to connect to each instance over SSH and run yum update -y.",
+        "Configure an AWS Systems Manager Run Command task triggered by an Amazon CloudWatch alarm to execute the AWS-ApplyPatchBaseline document.",
+        "Use AWS CodeDeploy with a custom deployment group to redeploy new AMIs containing updated security patches on a weekly schedule."
+      ],
+      "answer": "A",
+      "explanation": "AWS Systems Manager Patch Manager automates the process of patching managed instances with security updates. By defining a patch baseline for critical operating system updates and scheduling execution through an SSM Maintenance Window (Tuesday at 02:00 UTC), patch deployment, auditing, and compliance tracking occur automatically across the fleet with no custom scripting or maintenance of deployment agents.",
+      "topic": "Deployment, Provisioning, and Automation",
+      "subtopic": "Automate the management of existing resources",
+      "difficulty": "medium",
+      "source": "AWS Systems Manager User Guide - AWS Systems Manager Patch Manager"
+    },
+    {
+      "stem": "A company uses AWS Organizations with 50 member accounts. A CloudOps engineer must deploy a standardized set of Amazon CloudWatch alarms and IAM roles across all current and future accounts in a specific organizational unit (OU). The deployment must be centralized and automatically apply to new accounts added to the OU. Which solution meets these requirements?",
+      "options": [
+        "Deploy a CloudFormation template in the management account, and use AWS Step Functions to assume IAM roles in each member account.",
+        "Create an AWS Service Catalog portfolio in the management account and share it with the organizational unit.",
+        "Write a Python script using the AWS SDK (boto3) to iterate through the member accounts and execute aws cloudformation create-stack.",
+        "Create an AWS CloudFormation StackSet with service-managed permissions targeted to the specified OU, and enable automatic deployments."
+      ],
+      "answer": "D",
+      "explanation": "AWS CloudFormation StackSets with service-managed permissions integrates directly with AWS Organizations. By targeting a specific Organizational Unit (OU) and enabling automatic deployments, StackSets automatically provisions the required resources into all existing accounts in the OU and automatically deploys them to any new accounts subsequently added to that OU, eliminating custom administrative scripting.",
+      "topic": "Deployment, Provisioning, and Automation",
+      "subtopic": "Provision and maintain cloud resources",
+      "difficulty": "medium",
+      "source": "AWS CloudFormation User Guide - Working with AWS CloudFormation StackSets"
+    },
+    {
+      "stem": "A company requires that a third-party security logging agent is installed and running continuously on all Amazon EC2 instances tagged Environment=Production. If an instance is rebooted, or if an administrator stops or removes the agent, the system must automatically reinstall and restart the agent to enforce configuration compliance. Which AWS service and feature should the CloudOps engineer use to fulfill this requirement?",
+      "options": [
+        "AWS CloudFormation with a creation policy and auto-rollback configuration",
+        "AWS Systems Manager State Manager with an association targeting the instance tag",
+        "Amazon EC2 User Data script executed during initial instance launch",
+        "AWS Systems Manager Run Command scheduled via an Amazon EventBridge rule every 24 hours"
+      ],
+      "answer": "B",
+      "explanation": "AWS Systems Manager State Manager automates the process of keeping managed instances in a defined state. By creating an association that targets instances matching the tag Environment=Production and applying a document that installs and starts the agent, State Manager periodically evaluates the instances and reapplies the configuration if drift occurs. EC2 user data only executes on the initial instance launch and cannot remediate subsequent configuration drift or manual agent removal.",
+      "topic": "Deployment, Provisioning, and Automation",
+      "subtopic": "Automate the management of existing resources",
+      "difficulty": "hard",
+      "source": "AWS Systems Manager User Guide - AWS Systems Manager State Manager"
+    },
+    {
+      "stem": "A company requires that all Amazon S3 buckets in its AWS accounts block public read access. If a non-compliant bucket is detected, public read access must be revoked immediately without human intervention. Which solution meets these requirements with the LEAST operational overhead?",
+      "options": [
+        "Create an AWS Lambda function that triggers every 5 minutes to list all S3 buckets and apply a restrictive bucket policy.",
+        "Configure an Amazon S3 Event Notification for s3:ObjectCreated:* to trigger an AWS Step Functions state machine that disables public access.",
+        "Deploy the AWS Config managed rule s3-bucket-public-read-prohibited and attach an automatic remediation using an SSM Automation document.",
+        "Create an Amazon EventBridge rule monitoring AWS CloudTrail for PutBucketPolicy events that triggers an AWS Systems Manager Run Command."
+      ],
+      "answer": "C",
+      "explanation": "AWS Config continuously monitors resource configurations against desired compliance baselines. The managed rule s3-bucket-public-read-prohibited identifies buckets with public read permissions, and configuring an automatic remediation action using an AWS Systems Manager Automation document (such as AWS-DisableS3BucketPublicReadWrite) immediately revokes public access upon detection without requiring custom Lambda polling scripts or event orchestration.",
+      "topic": "Security and Compliance",
+      "subtopic": "Implement and manage security and compliance tools and policies",
+      "difficulty": "medium",
+      "source": "AWS Config Developer Guide - Remediating Noncompliant Resources with AWS Config Rules"
+    },
+    {
+      "stem": "A CloudOps engineer must ensure that all data transmitted to and from an Amazon S3 bucket is encrypted in transit using Transport Layer Security (TLS). Any requests that do not use HTTPS must be rejected immediately. Which configuration on the S3 bucket will enforce this requirement?",
+      "options": [
+        "Enable default server-side encryption with AWS KMS keys (SSE-KMS) in the S3 bucket properties.",
+        "Add an S3 bucket policy with a Deny effect on all actions when the condition \"aws:SecureTransport\": \"false\" is met.",
+        "Configure an S3 Lifecycle rule to transition objects to Glacier if they were uploaded using unencrypted protocols.",
+        "Enable S3 Object Lock in compliance mode with a default retention period of 30 days."
+      ],
+      "answer": "B",
+      "explanation": "The aws:SecureTransport condition key evaluates whether a request was transmitted using an encrypted protocol (HTTPS/TLS). Applying an S3 bucket policy with an explicit Deny statement for all S3 actions where aws:SecureTransport equals false ensures that any unencrypted HTTP request is immediately blocked. Server-side encryption mechanisms (such as SSE-KMS) protect data at rest on disk, but do not enforce in-transit encryption.",
+      "topic": "Security and Compliance",
+      "subtopic": "Implement strategies to protect data and infrastructure",
+      "difficulty": "easy",
+      "source": "Amazon S3 User Guide - Enforcing encryption in transit"
+    },
+    {
+      "stem": "A CloudOps engineer is configuring automatic 30-day credential rotation for an Amazon RDS for MySQL database using AWS Secrets Manager. During testing, the rotation fails. The database is hosted inside a private subnet with no internet gateway, and the AWS Secrets Manager rotation Lambda function resides within the same VPC. Which configuration requirements must be met for rotation to succeed? (Choose TWO.)",
+      "options": [
+        "The Secrets Manager secret must be encrypted using the default AWS managed key aws/s3.",
+        "The rotation Lambda function must have network connectivity to the Secrets Manager service endpoint via a VPC interface endpoint or NAT gateway.",
+        "The rotation Lambda function must be assigned a public IP address and placed in an internet-facing public subnet.",
+        "The database security group must allow inbound connections on port 3306 from the security group attached to the rotation Lambda function.",
+        "An IAM permission boundary must be attached to the RDS DB instance to authorize local password modifications."
+      ],
+      "answer": "BD",
+      "explanation": "When an AWS Secrets Manager rotation Lambda function executes inside a VPC, it must communicate with both the Secrets Manager API service and the target database. Because the function is in a private subnet without direct internet access, it requires a VPC interface endpoint (AWS PrivateLink) or a NAT gateway to connect to Secrets Manager. Additionally, the RDS security group must permit inbound traffic on port 3306 from the Lambda function's security group so the function can connect and alter the database user credentials.",
+      "topic": "Security and Compliance",
+      "subtopic": "Implement and manage security and compliance tools and policies",
+      "difficulty": "hard",
+      "source": "AWS Secrets Manager User Guide - Troubleshooting rotation for AWS Secrets Manager"
+    },
+    {
+      "stem": "A company runs application workloads on Amazon EC2 instances in private subnets. The application frequently uploads and downloads large datasets to and from Amazon S3. The company wants to eliminate data transfer charges incurred by routing this traffic through a NAT gateway, while ensuring traffic to S3 never leaves the AWS network. Which solution achieves this with the LEAST cost and complexity?",
+      "options": [
+        "Configure an AWS Site-to-Site VPN connection from the private subnets to the Amazon S3 service endpoint.",
+        "Deploy an AWS Direct Connect connection with a public virtual interface attached to the VPC.",
+        "Deploy an Interface VPC Endpoint (AWS PrivateLink) for Amazon S3 and update DNS resolution.",
+        "Create a Gateway VPC Endpoint for Amazon S3 and associate it with the route tables of the private subnets."
+      ],
+      "answer": "D",
+      "explanation": "Gateway VPC Endpoints provide direct, private routing from a VPC to Amazon S3 without requiring internet access, NAT gateways, or VPNs. Gateway endpoints for Amazon S3 are provided at no additional cost and with no data processing charges, requiring only the addition of endpoint routes to the subnet route tables. Interface VPC endpoints for S3 incur hourly and per-gigabyte processing charges, making gateway endpoints the most cost-effective and operationally simple choice.",
+      "topic": "Networking and Content Delivery",
+      "subtopic": "Implement and optimize networking features and connectivity",
+      "difficulty": "easy",
+      "source": "Amazon VPC User Guide - Gateway VPC endpoints"
+    },
+    {
+      "stem": "An organization maintains an active-passive disaster recovery configuration across two AWS Regions. Web traffic is routed to the primary Region under normal operations, but must automatically fail over to a static disaster recovery website hosted on Amazon S3 in the secondary Region if health checks in the primary Region fail. Which Amazon Route 53 routing configuration should the CloudOps engineer implement?",
+      "options": [
+        "Create a Failover routing policy with a primary record pointing to the primary Region load balancer with an associated Route 53 health check, and a secondary record pointing to the S3 website endpoint.",
+        "Create a Latency-based routing policy with records pointing to both Regions, relying on internal AWS network latency measurements to redirect traffic during an outage.",
+        "Create a Weighted routing policy assigning a weight of 100 to the primary Region load balancer and a weight of 0 to the S3 website endpoint.",
+        "Create a Geolocation routing policy that routes users based on their geographic continent to the closest active regional endpoint."
+      ],
+      "answer": "A",
+      "explanation": "Amazon Route 53 Failover routing is designed specifically for active-passive disaster recovery architectures. By associating a Route 53 health check with the primary record pointing to the main load balancer, Route 53 continuously evaluates application availability. When health checks fail, Route 53 automatically suppresses the primary record and directs DNS queries to the secondary record pointing to the standby S3 static website.",
+      "topic": "Networking and Content Delivery",
+      "subtopic": "Configure domains, DNS services, and content delivery",
+      "difficulty": "medium",
+      "source": "Amazon Route 53 Developer Guide - Choosing a routing policy (Failover routing)"
+    },
+    {
+      "stem": "A CloudOps engineer launches a new Amazon EC2 instance into a subnet within a newly created VPC. The subnet's route table contains a route for 0.0.0.0/0 targeting an attached Internet Gateway (igw-xxxx), and the network ACL permits all inbound and outbound traffic. The instance's security group permits outbound traffic on all ports. However, the engineer is unable to reach the internet from the instance or access it remotely. What is the MOST likely cause of this issue?",
+      "options": [
+        "The instance does not have an attached IAM instance profile granting internet access permissions.",
+        "The Internet Gateway must be explicitly associated with the instance's Elastic Network Interface (ENI).",
+        "The instance has not been assigned a public IPv4 address or an Elastic IP address.",
+        "The subnet's DHCP options set does not specify an external third-party DNS resolver."
+      ],
+      "answer": "C",
+      "explanation": "For an Amazon EC2 instance in a VPC to communicate directly with the internet via an Internet Gateway, two networking requirements must be satisfied: the subnet route table must have a route for 0.0.0.0/0 pointing to an Internet Gateway, and the instance must have a public IPv4 address or an Elastic IP address. Without a public IP address, the Internet Gateway cannot perform Network Address Translation (NAT) to route traffic between the instance's private IP address and the public internet.",
+      "topic": "Networking and Content Delivery",
+      "subtopic": "Troubleshoot network connectivity issues",
+      "difficulty": "medium",
+      "source": "Amazon VPC User Guide - Enable internet access from a subnet"
+    },
+    {
+      "stem": "A CloudOps engineer is troubleshooting an issue where an application on an Amazon EC2 instance cannot establish a TCP connection to an Amazon RDS DB instance in another subnet within the same VPC. The engineer inspects VPC Flow Logs and observes records showing that TCP packets from the EC2 instance to the RDS instance have an action of ACCEPT, but the return packets from the RDS instance back to the EC2 instance have an action of REJECT. Which configuration is the MOST likely cause of this behavior?",
+      "options": [
+        "The security group attached to the EC2 instance does not permit inbound traffic from the RDS instance.",
+        "The network ACL associated with the RDS instance's subnet does not allow outbound ephemeral traffic.",
+        "The VPC route table lacks a local route for communication between the two subnets.",
+        "The security group attached to the RDS DB instance does not permit inbound traffic on the database port."
+      ],
+      "answer": "B",
+      "explanation": "Security groups are stateful: if inbound traffic is accepted, return traffic is automatically permitted regardless of outbound security group rules. In contrast, Network Access Control Lists (NACLs) are stateless. When an EC2 instance opens a TCP connection to a database, return traffic sent from the RDS instance is directed to an ephemeral client port (typically 1024-65535). If the NACL outbound rules on the RDS subnet do not allow ephemeral port traffic back to the EC2 instance, the return packets are rejected.",
+      "topic": "Networking and Content Delivery",
+      "subtopic": "Troubleshoot network connectivity issues",
+      "difficulty": "hard",
+      "source": "Amazon VPC User Guide - Network ACLs and VPC Flow Logs"
+    }
+  ]
+}
