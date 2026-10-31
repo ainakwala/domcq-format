@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "cima-e2",
+  "set": "E2: Managing Performance practice – Business, People and Projects",
+  "questions": [
+    {
+      "stem": "A manufacturer depends on suppliers, logistics providers, distributors and technology partners to deliver its products to customers. The managing director wants to understand how these organisations collectively create value. Which concept BEST describes these interconnected relationships?",
+      "options": [
+        "The organisation's internal value chain",
+        "The organisation's business ecosystem",
+        "The organisation's functional hierarchy",
+        "The organisation's corporate governance structure"
+      ],
+      "answer": "B",
+      "explanation": "A business ecosystem consists of interconnected organisations and stakeholders that cooperate, compete and depend on one another to create and deliver value. Unlike an internal value chain, an ecosystem extends beyond the boundaries of a single organisation and includes external partners whose actions can affect its performance.",
+      "topic": "Business Models and Value Creation",
+      "subtopic": "The ecosystems of organisations",
+      "difficulty": "easy",
+      "source": "CIMA E2 – Business Models and Value Creation: The ecosystems of organisations"
+    },
+    {
+      "stem": "A subscription-based software company identifies three major elements of its business model: providing cloud-based accounting software to small businesses, charging customers monthly subscriptions and using specialist developers to maintain the platform. Which element represents the company's revenue model?",
+      "options": [
+        "Providing cloud-based accounting software",
+        "Employing specialist software developers",
+        "Maintaining the company's technology platform",
+        "Charging customers recurring monthly subscriptions"
+      ],
+      "answer": "D",
+      "explanation": "The revenue model explains how an organisation earns income from the value it provides. Monthly subscription payments create recurring revenue, while the software service describes the value proposition and the developers represent an important resource.",
+      "topic": "Business Models and Value Creation",
+      "subtopic": "The elements of business models",
+      "difficulty": "easy",
+      "source": "CIMA E2 – Business Models and Value Creation: The elements of business models"
+    },
+    {
+      "stem": "An online marketplace connects independent sellers with buyers without purchasing the sellers' inventory. As more sellers join, buyers find a wider selection of products, while additional buyers make the platform more attractive to sellers. Which TWO statements correctly describe this business model? Choose TWO.",
+      "options": [
+        "It benefits from cross-side network effects between buyers and sellers.",
+        "It must purchase all goods before transactions can take place.",
+        "It facilitates exchanges between two distinct participant groups.",
+        "It generates value only through economies of scale in manufacturing."
+      ],
+      "answer": "AC",
+      "explanation": "A multi-sided platform facilitates interactions between distinct groups, such as buyers and sellers. Cross-side network effects occur when participation by one group increases the value of the platform to the other group. The marketplace need not own the inventory or manufacture the products.",
+      "topic": "Business Models and Value Creation",
+      "subtopic": "New business models in digital ecosystems",
+      "difficulty": "medium",
+      "source": "CIMA E2 – Business Models and Value Creation: New business models in digital ecosystems"
+    },
+    {
+      "stem": "A manufacturer currently earns most of its revenue from one-time equipment sales. It is considering offering equipment under a service contract in which customers pay according to machine operating hours, with maintenance included. Which change to the business model is MOST significant?",
+      "options": [
+        "Replacing recurring customer income with one-time equipment payments",
+        "Removing the manufacturer's responsibility for equipment maintenance",
+        "Changing the manufacturer into a distributor of third-party machinery",
+        "Shifting from product ownership transfers toward usage-based service revenue"
+      ],
+      "answer": "D",
+      "explanation": "The proposed arrangement changes how the manufacturer captures value, replacing or supplementing one-time sales with usage-based revenue. The manufacturer also assumes continuing service obligations, making equipment reliability and ongoing customer relationships more important to profitability.",
+      "topic": "Business Models and Value Creation",
+      "subtopic": "The elements of business models",
+      "difficulty": "medium",
+      "source": "CIMA E2 – Business Models and Value Creation: The elements of business models"
+    },
+    {
+      "stem": "A digital payments company relies on an external cloud provider and an identity-verification specialist. The cloud provider experiences repeated outages, while the verification specialist plans to introduce substantially higher fees. Which TWO actions would BEST improve the company's resilience within its business ecosystem? Choose TWO.",
+      "options": [
+        "Concentrate all critical services with the existing cloud provider.",
+        "Assess alternative providers and develop contingency arrangements.",
+        "Remove supplier performance measures from partnership agreements.",
+        "Monitor key partner dependencies and associated operational risks."
+      ],
+      "answer": "BD",
+      "explanation": "Ecosystem resilience depends on understanding dependencies and preparing for failures or changes affecting critical partners. Alternative providers and contingency arrangements reduce concentration risk, while ongoing monitoring enables earlier responses to operational or commercial threats.",
+      "topic": "Business Models and Value Creation",
+      "subtopic": "The ecosystems of organisations",
+      "difficulty": "hard",
+      "source": "CIMA E2 – Business Models and Value Creation: The ecosystems of organisations"
+    },
+    {
+      "stem": "A retailer introduces a mobile application that recommends products based on customer purchasing patterns. It also uses anonymised purchasing data to improve inventory forecasting. Which statement BEST explains how data contributes to value creation in this business model?",
+      "options": [
+        "Data can improve customer experience and internal operating decisions.",
+        "Data automatically eliminates the need for customer relationship management.",
+        "Data creates economic value only when sold to external organisations.",
+        "Data guarantees that inventory shortages and excess stock will disappear."
+      ],
+      "answer": "A",
+      "explanation": "Data can support both customer-facing value propositions and improvements in internal operations. Personalised recommendations may improve customer relevance, while better demand forecasting can reduce inventory costs. These benefits depend on data quality, appropriate analysis and effective implementation.",
+      "topic": "Business Models and Value Creation",
+      "subtopic": "New business models in digital ecosystems",
+      "difficulty": "medium",
+      "source": "CIMA E2 – Business Models and Value Creation: New business models in digital ecosystems"
+    },
+    {
+      "stem": "A newly appointed team manager regularly asks employees for suggestions, discusses alternative solutions with them and considers their views before making important decisions. Which leadership style is MOST clearly demonstrated?",
+      "options": [
+        "Autocratic leadership",
+        "Laissez-faire leadership",
+        "Democratic leadership",
+        "Transactional leadership"
+      ],
+      "answer": "C",
+      "explanation": "Democratic leadership involves employees in discussions and decision-making while the leader retains ultimate accountability. This approach can improve commitment and make use of team members' knowledge, although consultation may require additional time.",
+      "topic": "Managing People Performance",
+      "subtopic": "Different types of leadership and management styles",
+      "difficulty": "easy",
+      "source": "CIMA E2 – Managing People Performance: Different types of leadership and management styles"
+    },
+    {
+      "stem": "A manager is setting performance objectives for an accounts receivable employee. Which objective BEST meets the SMART criteria?",
+      "options": [
+        "Improve the effectiveness of the collections process whenever possible.",
+        "Become a leading performer in the accounts receivable department.",
+        "Develop a more professional approach to managing customer balances.",
+        "Reduce invoices overdue by more than 60 days from 12% to 8% within six months."
+      ],
+      "answer": "D",
+      "explanation": "SMART objectives are specific, measurable, achievable, relevant and time-bound. The selected objective identifies a defined performance indicator, a target improvement and a deadline. Its achievability must still be assessed against available resources and circumstances.",
+      "topic": "Managing People Performance",
+      "subtopic": "Individual and team performance",
+      "difficulty": "easy",
+      "source": "CIMA E2 – Managing People Performance: Individual and team performance"
+    },
+    {
+      "stem": "A finance department has introduced a new reporting system. An experienced analyst understands the system and is highly motivated to manage reporting independently. According to situational leadership principles, which approach is MOST appropriate?",
+      "options": [
+        "Provide detailed instructions and closely supervise every reporting activity.",
+        "Delegate responsibility while remaining available when support is required.",
+        "Make reporting decisions centrally and restrict the analyst's discretion.",
+        "Provide continuous coaching before allowing any independent decisions."
+      ],
+      "answer": "B",
+      "explanation": "Situational leadership adapts the leader's approach to a follower's competence and commitment for a particular task. An employee who is both capable and motivated is generally suited to a delegating approach, which allows autonomy with appropriate accountability.",
+      "topic": "Managing People Performance",
+      "subtopic": "Different types of leadership and management styles",
+      "difficulty": "medium",
+      "source": "CIMA E2 – Managing People Performance: Situational leadership"
+    },
+    {
+      "stem": "A project team has recently formed. Members are beginning to challenge one another's ideas, disagree about responsibilities and compete for influence. According to Tuckman's model of team development, which stage is the team MOST likely experiencing?",
+      "options": [
+        "Storming",
+        "Forming",
+        "Norming",
+        "Performing"
+      ],
+      "answer": "A",
+      "explanation": "During the storming stage, team members begin to express differences, challenge authority and negotiate roles or working arrangements. These conflicts can be a normal part of team development. Effective leadership helps the group establish constructive norms and move toward coordinated performance.",
+      "topic": "Managing People Performance",
+      "subtopic": "Individual and team performance",
+      "difficulty": "easy",
+      "source": "CIMA E2 – Managing People Performance: Tuckman's stages of team development"
+    },
+    {
+      "stem": "A department manager believes that employees will work harder if they receive larger bonuses. However, staff complain that promotion decisions are unfair and that their achievements are rarely recognised. According to Herzberg's two-factor theory, which TWO statements are correct? Choose TWO.",
+      "options": [
+        "Pay and perceived fairness are associated with hygiene factors.",
+        "Improving hygiene factors automatically creates lasting motivation.",
+        "Recognition and achievement are associated with motivator factors.",
+        "Job enrichment is irrelevant when employees receive competitive salaries."
+      ],
+      "answer": "AC",
+      "explanation": "Herzberg distinguishes hygiene factors, such as pay and company policies, from motivators, such as achievement, recognition and responsibility. Improving hygiene factors can reduce dissatisfaction but does not necessarily create sustained motivation. Motivators relate more directly to the content and meaningfulness of the work.",
+      "topic": "Managing People Performance",
+      "subtopic": "Individual and team performance",
+      "difficulty": "medium",
+      "source": "CIMA E2 – Managing People Performance: Herzberg's two-factor theory"
+    },
+    {
+      "stem": "Two senior managers disagree about the allocation of a limited technology budget. Both departments have legitimate needs, and the organisation requires a solution that protects long-term cooperation. Which conflict-management approach is MOST appropriate?",
+      "options": [
+        "Avoiding discussion until one department withdraws its request",
+        "Competing to secure the full budget for the stronger department",
+        "Accommodating the department with the more senior manager",
+        "Collaborating to identify a solution addressing both departments' interests"
+      ],
+      "answer": "D",
+      "explanation": "A collaborating approach seeks to understand the underlying interests of both parties and develop a mutually beneficial solution. It is especially appropriate when the issues are important and maintaining the relationship matters. Collaboration may involve joint prioritisation, alternative resources or redesigning requirements.",
+      "topic": "Managing People Performance",
+      "subtopic": "How to manage relationships",
+      "difficulty": "medium",
+      "source": "CIMA E2 – Managing People Performance: Conflict management"
+    },
+    {
+      "stem": "A finance manager is responsible for leading a team that includes highly experienced professionals and newly recruited graduates. The manager must allocate work, develop employee capabilities and ensure consistent delivery. Which THREE actions would support effective delegation and team performance? Choose THREE.",
+      "options": [
+        "Allocate responsibilities according to competence and development needs.",
+        "Retain direct personal control over every minor operational decision.",
+        "Communicate expected outcomes and decision-making authority clearly.",
+        "Establish review points and provide constructive performance feedback."
+      ],
+      "answer": "ACD",
+      "explanation": "Effective delegation matches responsibilities to capabilities, clarifies accountability and provides appropriate monitoring. Review points and feedback support development and help maintain performance standards. Excessive managerial control can undermine autonomy and create unnecessary bottlenecks.",
+      "topic": "Managing People Performance",
+      "subtopic": "Individual and team performance",
+      "difficulty": "medium",
+      "source": "CIMA E2 – Managing People Performance: Delegation and team performance"
+    },
+    {
+      "stem": "A multinational organisation introduces a new performance appraisal system. A manager discovers that employees in one subsidiary receive consistently lower ratings even though independently verified performance measures are comparable across subsidiaries. Interviews suggest local managers evaluate employees against culturally influenced expectations about communication styles. Which response is MOST appropriate?",
+      "options": [
+        "Require all employees to adopt the communication style preferred by headquarters.",
+        "Investigate potential appraisal bias and calibrate assessments using consistent evidence.",
+        "Replace all qualitative appraisal criteria with employee self-assessment scores.",
+        "Accept the differences because local managerial judgements should never be challenged."
+      ],
+      "answer": "B",
+      "explanation": "Performance management should use relevant evidence and minimise bias unrelated to actual job performance. Investigating appraisal patterns, training assessors and calibrating ratings can improve consistency while retaining valid contextual considerations. The objective is fair assessment rather than enforcing one cultural communication style.",
+      "topic": "Managing People Performance",
+      "subtopic": "How to manage relationships",
+      "difficulty": "hard",
+      "source": "CIMA E2 – Managing People Performance: Performance appraisal and managing relationships"
+    },
+    {
+      "stem": "A company establishes a temporary team to design and implement a new customer relationship management system. The team has a defined budget, delivery deadline and agreed requirements. Which characteristic MOST clearly distinguishes this activity as a project rather than routine operations?",
+      "options": [
+        "It involves employees from different functional departments.",
+        "It requires the use of information technology resources.",
+        "It is a temporary undertaking intended to deliver a unique outcome.",
+        "It requires managers to monitor expenditure against an agreed budget."
+      ],
+      "answer": "C",
+      "explanation": "A project is a temporary undertaking intended to create a unique product, service or result. Routine operations are ongoing and repetitive, whereas projects have defined objectives and an identifiable endpoint. Budgets, technology and cross-functional employees may exist in either type of activity.",
+      "topic": "Managing Projects",
+      "subtopic": "The concepts and phases of projects",
+      "difficulty": "easy",
+      "source": "CIMA E2 – Managing Projects: The concepts and phases of projects"
+    },
+    {
+      "stem": "A project manager is preparing the business case for replacing an outdated inventory management system. Which TWO considerations should be included when evaluating whether the project is economically justified? Choose TWO.",
+      "options": [
+        "The expected financial and non-financial benefits of the replacement system",
+        "The personal preference of the project manager for a software supplier",
+        "The number of employees who attended the initial project meeting",
+        "The estimated implementation, operating and ongoing support costs"
+      ],
+      "answer": "AD",
+      "explanation": "An investment business case evaluates whether expected benefits justify the resources and costs required. Both financial and non-financial benefits may be relevant, along with implementation costs and future operating commitments. Personal preferences and meeting attendance do not establish economic viability.",
+      "topic": "Managing Projects",
+      "subtopic": "The concepts and phases of projects",
+      "difficulty": "medium",
+      "source": "CIMA E2 – Managing Projects: Project business cases and feasibility"
+    },
+    {
+      "stem": "A project contains the following activities. Activity A takes 3 days. Activity B takes 4 days and starts after A. Activity C takes 6 days and also starts after A. Activity D takes 2 days and can start only when both B and C are complete. All activities start as early as possible, and no resource constraints apply. What is the minimum project duration?",
+      "options": [
+        "8 days",
+        "9 days",
+        "10 days",
+        "11 days"
+      ],
+      "answer": "D",
+      "explanation": "The two paths are A-B-D, taking 3 + 4 + 2 = 9 days, and A-C-D, taking 3 + 6 + 2 = 11 days. The longer path determines the minimum completion time because D cannot begin until both preceding activities finish. Therefore, A-C-D is the critical path.",
+      "topic": "Managing Projects",
+      "subtopic": "Tools and techniques to manage projects",
+      "difficulty": "medium",
+      "source": "CIMA E2 – Managing Projects: Critical path analysis"
+    },
+    {
+      "stem": "During a software implementation project, the project manager identifies a risk that a specialist supplier may deliver a critical component late. The project manager arranges for an alternative supplier to be available if delivery is delayed. Which risk response strategy is MOST accurately represented?",
+      "options": [
+        "Risk avoidance by eliminating the activity creating the exposure",
+        "Risk mitigation by preparing an alternative delivery arrangement",
+        "Risk acceptance without any planned response to the exposure",
+        "Risk transfer by assigning all project accountability to the supplier"
+      ],
+      "answer": "B",
+      "explanation": "Risk mitigation involves reducing the probability or impact of a threat. Establishing an alternative supplier provides a contingency that can reduce the consequences of late delivery. It does not eliminate the activity, transfer overall accountability or constitute passive risk acceptance.",
+      "topic": "Managing Projects",
+      "subtopic": "Tools and techniques to manage projects",
+      "difficulty": "medium",
+      "source": "CIMA E2 – Managing Projects: Project risk management"
+    },
+    {
+      "stem": "A systems implementation project has a planned value (PV) of $600,000, an earned value (EV) of $540,000 and an actual cost (AC) of $675,000 at the reporting date. The project manager uses earned value analysis to assess performance. Which statement correctly describes the project's position?",
+      "options": [
+        "The project is behind schedule and over budget.",
+        "The project is ahead of schedule and under budget.",
+        "The project is behind schedule and under budget.",
+        "The project is ahead of schedule and over budget."
+      ],
+      "answer": "A",
+      "explanation": "Schedule variance is EV minus PV, or $540,000 - $600,000 = -$60,000, indicating that less work has been completed than planned. Cost variance is EV minus AC, or $540,000 - $675,000 = -$135,000, indicating that the completed work has cost more than its budgeted value. Both variances are unfavourable.",
+      "topic": "Managing Projects",
+      "subtopic": "Tools and techniques to manage projects",
+      "difficulty": "hard",
+      "source": "CIMA E2 – Managing Projects: Earned value management"
+    },
+    {
+      "stem": "A project manager leads a cross-functional team implementing a new enterprise resource planning system. Functional managers retain authority over their employees, several team members disagree about priorities, and the project sponsor is concerned about delays. Which THREE actions would demonstrate effective project leadership in this situation? Choose THREE.",
+      "options": [
+        "Direct all team members to disregard their functional managers' responsibilities.",
+        "Negotiate resource commitments and priorities with functional managers.",
+        "Communicate delivery risks and proposed corrective actions to the sponsor.",
+        "Facilitate agreement on responsibilities, dependencies and shared objectives."
+      ],
+      "answer": "BCD",
+      "explanation": "Project leadership in a matrix environment requires influence, negotiation and coordination because authority is shared across functional and project structures. Agreeing resource commitments, communicating risks transparently and clarifying shared objectives improve alignment. Directing employees to ignore functional responsibilities would increase conflict and undermine governance.",
+      "topic": "Managing Projects",
+      "subtopic": "The concepts of project leadership",
+      "difficulty": "hard",
+      "source": "CIMA E2 – Managing Projects: Project leadership and matrix structures"
+    }
+  ]
+}
