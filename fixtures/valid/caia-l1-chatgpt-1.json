@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "caia-l1",
+  "set": "CAIA Level I Exam practice – Alternative Investments Core Concepts",
+  "questions": [
+    {
+      "stem": "An investment manager is evaluating a private equity fund for a pension client. The manager's employer receives higher compensation when clients select this fund, and the manager has not disclosed this arrangement. Which action is MOST consistent with the CAIA Ethical Principles?",
+      "options": [
+        "Recommend the fund if its historical returns exceed the client's required return.",
+        "Disclose the compensation arrangement and evaluate the fund based on the client's interests.",
+        "Recommend the fund if the manager believes its investment team has superior experience.",
+        "Avoid disclosure if the compensation arrangement is standard industry practice."
+      ],
+      "answer": "B",
+      "explanation": "Investment professionals must identify and disclose conflicts that could compromise their objectivity or independence. An undisclosed compensation incentive creates a potential conflict between the manager's financial interests and the client's interests. Disclosure and client-focused investment analysis support fiduciary responsibilities.",
+      "topic": "CAIA Ethical Principles",
+      "subtopic": "Ethics, Professionalism and Fiduciary Responsibilities",
+      "difficulty": "easy",
+      "source": "CAIA Ethical Principles – Ethics, Professionalism and Fiduciary Responsibilities"
+    },
+    {
+      "stem": "An investment adviser manages assets for a charitable foundation with a long-term spending commitment. The foundation's trustees request a large allocation to an illiquid private equity fund because of its attractive expected return. Before recommending the allocation, which factor should the adviser consider MOST carefully?",
+      "options": [
+        "Whether the fund has historically outperformed publicly traded equities.",
+        "Whether the fund's general partner has previously raised larger funds.",
+        "Whether the fund's expected return exceeds the foundation's inflation assumption.",
+        "Whether the foundation can meet its spending obligations despite the investment's illiquidity."
+      ],
+      "answer": "D",
+      "explanation": "Fiduciary responsibility requires evaluating an investment within the context of the client's objectives, constraints, and liquidity requirements. Even an attractive long-term investment may be unsuitable when its illiquidity threatens the foundation's ability to meet spending obligations. Expected return alone cannot establish suitability.",
+      "topic": "CAIA Ethical Principles",
+      "subtopic": "Ethics, Professionalism and Fiduciary Responsibilities",
+      "difficulty": "medium",
+      "source": "CAIA Ethical Principles – Fiduciary Responsibilities and Client Interests"
+    },
+    {
+      "stem": "An institutional investor wants to increase portfolio diversification by allocating to alternative investments. Which characteristic is MOST commonly associated with alternative investments relative to traditional publicly traded stocks and bonds?",
+      "options": [
+        "Greater valuation complexity and potentially lower liquidity.",
+        "Greater transparency and more frequent market-based pricing.",
+        "Lower investment costs and standardized contractual structures.",
+        "Lower manager-specific risk and more predictable cash flows."
+      ],
+      "answer": "A",
+      "explanation": "Many alternative investments involve less liquid assets, complex structures, and valuations that rely on models or appraisals rather than continuously observed market prices. These features can create additional due diligence and risk management challenges. However, alternative investments vary considerably in liquidity, transparency, and complexity.",
+      "topic": "Introduction to Alternative Investments",
+      "subtopic": "What is An Alternative Investment?",
+      "difficulty": "easy",
+      "source": "Introduction to Alternative Investments – What is An Alternative Investment?"
+    },
+    {
+      "stem": "An analyst is evaluating a hedge fund with an annual return of 14%, a risk-free rate of 4%, and an annual standard deviation of returns of 20%. What is the fund's Sharpe ratio?",
+      "options": [
+        "0.40",
+        "0.70",
+        "0.50",
+        "0.90"
+      ],
+      "answer": "C",
+      "explanation": "The Sharpe ratio measures excess return per unit of total return volatility. It equals (14% - 4%) / 20% = 0.50. A higher Sharpe ratio indicates more excess return per unit of measured volatility, although it may not capture the full risks of investments with nonlinear or illiquid returns.",
+      "topic": "Introduction to Alternative Investments",
+      "subtopic": "Measures of Risk and Performance",
+      "difficulty": "easy",
+      "source": "Introduction to Alternative Investments – Measures of Risk and Performance"
+    },
+    {
+      "stem": "An investor purchases a European call option on a non-dividend-paying stock. The current stock price is $100, the exercise price is $95, the continuously compounded risk-free interest rate is 5%, and the option expires in one year. Assuming frictionless markets, which expression gives the theoretical lower bound for the call's current value?",
+      "options": [
+        "Maximum of zero and $100 - $95",
+        "Maximum of zero and $100 - $95e^(-0.05)",
+        "Maximum of zero and $95 - $100e^(-0.05)",
+        "Maximum of zero and $95e^(-0.05) - $100"
+      ],
+      "answer": "B",
+      "explanation": "For a European call on a non-dividend-paying stock, the no-arbitrage lower bound is max(0, S0 - Ke^(-rT)). Substituting the given values produces approximately $9.63. Discounting the exercise price reflects the fact that the exercise payment, if made, occurs at expiration.",
+      "topic": "Introduction to Alternative Investments",
+      "subtopic": "Derivatives and Risk-Neutral Valuation",
+      "difficulty": "hard",
+      "source": "Introduction to Alternative Investments – Derivatives and Risk-Neutral Valuation"
+    },
+    {
+      "stem": "A portfolio manager has two assets with annual return standard deviations of 15% and 25%, respectively. The manager constructs a portfolio with 60% in the first asset and 40% in the second asset. Their return correlation is -0.20. What is the portfolio's annual standard deviation, assuming these are the only two assets?",
+      "options": [
+        "Approximately 11.0%",
+        "Approximately 15.2%",
+        "Approximately 20.0%",
+        "Approximately 12.0%"
+      ],
+      "answer": "D",
+      "explanation": "Portfolio variance equals w1²σ1² + w2²σ2² + 2w1w2σ1σ2ρ. Substituting the values gives 0.60²(0.15²) + 0.40²(0.25²) + 2(0.60)(0.40)(0.15)(0.25)(-0.20) = 0.0145. The square root is approximately 12.04%, demonstrating the diversification benefit of negatively correlated returns.",
+      "topic": "Introduction to Alternative Investments",
+      "subtopic": "Financial Economics Foundations",
+      "difficulty": "medium",
+      "source": "Introduction to Alternative Investments – Financial Economics Foundations; Portfolio Risk"
+    },
+    {
+      "stem": "An analyst is examining the historical monthly returns of a hedge fund. The return distribution exhibits significant negative skewness and positive excess kurtosis. Which TWO conclusions are supported by these statistics? Choose TWO.",
+      "options": [
+        "The distribution is asymmetric toward more extreme negative outcomes.",
+        "The distribution must have a positive arithmetic average return.",
+        "The distribution is necessarily symmetric around its median.",
+        "The distribution has heavier tails than a normal distribution in the kurtosis sense."
+      ],
+      "answer": "AD",
+      "explanation": "Negative skewness describes a distribution with greater asymmetry toward negative outcomes. Positive excess kurtosis indicates heavier tails in the kurtosis sense than those of a normal distribution, suggesting greater potential for extreme observations. Neither statistic determines the arithmetic mean, and negative skewness is inconsistent with symmetry.",
+      "topic": "Introduction to Alternative Investments",
+      "subtopic": "Statistical Foundations",
+      "difficulty": "medium",
+      "source": "Introduction to Alternative Investments – Statistical Foundations; Skewness and Kurtosis"
+    },
+    {
+      "stem": "A commodity investor observes that the spot price of crude oil is $75 per barrel and a three-month futures contract trades at $78 per barrel. Assuming no unusual market frictions, which explanation is MOST consistent with the cost-of-carry model?",
+      "options": [
+        "The commodity must have a convenience yield exceeding all carrying costs.",
+        "The futures price necessarily reflects a shortage of available storage.",
+        "The net financing and storage costs exceed the convenience yield over the contract period.",
+        "The expected future spot price must equal $78 under the physical probability measure."
+      ],
+      "answer": "C",
+      "explanation": "Under the standard cost-of-carry framework, a commodity futures price reflects financing costs, storage expenses, and the offsetting benefit of convenience yield. A futures price above spot is consistent with positive net carrying costs. The futures price does not necessarily equal the expected future spot price under real-world probabilities.",
+      "topic": "Real Assets",
+      "subtopic": "Commodities",
+      "difficulty": "medium",
+      "source": "Real Assets – Commodities; Cost of Carry and Futures Pricing"
+    },
+    {
+      "stem": "An investor acquires a commercial property for $20 million. The property's annual net operating income is $1.4 million. Assuming the purchase price represents market value, what is its capitalization rate?",
+      "options": [
+        "7.0%",
+        "5.5%",
+        "6.5%",
+        "8.0%"
+      ],
+      "answer": "A",
+      "explanation": "The capitalization rate is net operating income divided by property value. Dividing $1.4 million by $20 million gives 7%. The cap rate is an unlevered income yield measure and should not be confused with the leveraged equity investor's return.",
+      "topic": "Real Assets",
+      "subtopic": "Real Estate Methods",
+      "difficulty": "easy",
+      "source": "Real Assets – Real Estate Methods; Capitalization Rate"
+    },
+    {
+      "stem": "A government grants a private operator the right to manage an existing toll road for 30 years in exchange for an upfront payment. The operator receives toll revenues and bears specified operating and maintenance costs. Which classification BEST describes this investment?",
+      "options": [
+        "An investment in an exploration-stage natural resource project.",
+        "An investment in a development-stage residential real estate project.",
+        "An investment in a publicly traded infrastructure equipment manufacturer.",
+        "An investment in an operating infrastructure concession."
+      ],
+      "answer": "D",
+      "explanation": "An infrastructure concession grants an operator contractual rights to operate an infrastructure asset and receive associated revenues over a specified period. Toll roads are transportation infrastructure assets, and their cash flows can depend on traffic volumes, tariffs, and operating costs. An existing road is generally considered an operating or brownfield infrastructure asset.",
+      "topic": "Real Assets",
+      "subtopic": "Infrastructure",
+      "difficulty": "easy",
+      "source": "Real Assets – Infrastructure; Infrastructure Ownership and Concessions"
+    },
+    {
+      "stem": "An investor is evaluating timberland as a long-term portfolio allocation. Which TWO features can contribute to timberland's investment characteristics? Choose TWO.",
+      "options": [
+        "Timberland eliminates exposure to fluctuations in commodity prices.",
+        "Biological tree growth can increase the volume of harvestable timber over time.",
+        "Harvest timing may be adjusted in response to timber prices and biological constraints.",
+        "Timberland values are unaffected by environmental regulations and natural disasters."
+      ],
+      "answer": "BC",
+      "explanation": "Trees generally increase in harvestable volume through biological growth, providing a source of return distinct from market price movements. Owners may have flexibility to defer harvesting when market conditions are unfavorable, subject to biological, financial, and operational constraints. Timberland nevertheless remains exposed to commodity prices, environmental rules, and natural hazards.",
+      "topic": "Real Assets",
+      "subtopic": "Natural Resources and Land",
+      "difficulty": "medium",
+      "source": "Real Assets – Natural Resources and Land; Timberland Investments"
+    },
+    {
+      "stem": "A private equity firm acquires a company using substantial borrowed funds and plans to improve its operations before selling it after five years. Which factor MOST directly increases the potential equity return from a leveraged buyout, assuming the enterprise exit value and all other factors remain unchanged?",
+      "options": [
+        "An increase in the borrowing rate on outstanding acquisition debt.",
+        "An increase in the company's outstanding net debt at the time of exit.",
+        "A reduction in the amount of debt repaid before the investment is sold.",
+        "A reduction in outstanding debt through operating cash flow during the holding period."
+      ],
+      "answer": "D",
+      "explanation": "In a leveraged buyout, equity value at exit is determined by enterprise value less net debt. Debt repayment from operating cash flows reduces remaining net debt and increases proceeds attributable to equity investors when enterprise value is unchanged. This deleveraging can be a significant source of buyout equity returns.",
+      "topic": "Private Equity",
+      "subtopic": "Buyout",
+      "difficulty": "medium",
+      "source": "Private Equity – Buyout; Sources of Leveraged Buyout Returns"
+    },
+    {
+      "stem": "A venture capital investor purchases newly issued preferred shares for $8 million in a startup with a pre-money equity valuation of $24 million. Assuming no other changes to capitalization and that the investment is priced on a fully diluted basis, what percentage of the company's post-money equity does the investor acquire?",
+      "options": [
+        "20%",
+        "25%",
+        "30%",
+        "33.3%"
+      ],
+      "answer": "B",
+      "explanation": "Post-money valuation equals pre-money valuation plus new investment, or $24 million + $8 million = $32 million. The investor's ownership is $8 million / $32 million = 25%. Using pre-money valuation as the denominator would overstate the ownership percentage.",
+      "topic": "Private Equity",
+      "subtopic": "Venture Capital & Growth Equity",
+      "difficulty": "medium",
+      "source": "Private Equity – Venture Capital & Growth Equity; Pre-Money and Post-Money Valuation"
+    },
+    {
+      "stem": "An investment manager is evaluating a privately negotiated senior secured loan to a middle-market company. Compared with an otherwise identical unsecured loan to the same borrower, which characteristic is MOST likely to reduce the secured loan's expected credit loss?",
+      "options": [
+        "A higher contractual coupon without any change in the borrower's default probability.",
+        "A longer maturity without any change in the borrower's operating performance.",
+        "A lower loss given default because the lender has enforceable claims on collateral.",
+        "A lower market liquidity premium because the loan is privately negotiated."
+      ],
+      "answer": "C",
+      "explanation": "Expected credit loss is commonly expressed as probability of default multiplied by loss given default and exposure at default. Enforceable security interests in valuable collateral can increase expected recoveries and therefore reduce loss given default. Collateral does not necessarily prevent default, and recovery depends on its value and the lender's legal rights.",
+      "topic": "Private Debt",
+      "subtopic": "Private Credit and Cash Based Strategies",
+      "difficulty": "easy",
+      "source": "Private Debt – Private Credit and Cash Based Strategies; Senior Secured Lending"
+    },
+    {
+      "stem": "An investor sells credit protection through a credit default swap on a corporate reference entity. A contractually defined credit event occurs, and the recovery value of the reference obligation is 35% of par. Assuming a $10 million notional amount and cash settlement based on this recovery value, what is the protection seller's payment?",
+      "options": [
+        "$3.5 million",
+        "$6.5 million",
+        "$10.0 million",
+        "$13.5 million"
+      ],
+      "answer": "B",
+      "explanation": "In a simplified cash-settled credit default swap, the protection seller pays notional principal multiplied by one minus the recovery rate. The payment is $10 million × (1 - 0.35) = $6.5 million. The protection seller receives premiums for taking credit risk but must compensate the protection buyer following a covered credit event.",
+      "topic": "Private Debt",
+      "subtopic": "Credit Risk and Credit Derivatives",
+      "difficulty": "medium",
+      "source": "Private Debt – Credit Risk and Credit Derivatives; Credit Default Swaps"
+    },
+    {
+      "stem": "An insurance-linked security has a principal amount of $20 million and covers specified hurricane losses. Its principal is invested in a collateral account, and investors receive a premium for assuming catastrophe risk. At maturity, a qualifying catastrophe has caused a contractual principal loss of 40%. Assuming no other losses or adjustments, how much principal is returned to investors?",
+      "options": [
+        "$12 million",
+        "$8 million",
+        "$16 million",
+        "$20 million"
+      ],
+      "answer": "A",
+      "explanation": "Catastrophe bonds can transfer defined insurance event risks to capital market investors. A 40% principal loss on $20 million reduces the repayable principal to $20 million × 60% = $12 million. The premium compensates investors for accepting the possibility of losses triggered by contractually specified catastrophic events.",
+      "topic": "Private Debt",
+      "subtopic": "Insurance Linked Strategies",
+      "difficulty": "medium",
+      "source": "Private Debt – Insurance Linked Strategies; Catastrophe Bonds"
+    },
+    {
+      "stem": "An equity long/short hedge fund holds $120 million in long equity positions and $80 million in short equity positions, supported by $100 million in investor equity capital. What are its net exposure and gross exposure, respectively, expressed as percentages of investor equity?",
+      "options": [
+        "80% net exposure and 120% gross exposure.",
+        "120% net exposure and 200% gross exposure.",
+        "200% net exposure and 40% gross exposure.",
+        "40% net exposure and 200% gross exposure."
+      ],
+      "answer": "D",
+      "explanation": "Net exposure equals long positions minus short positions, divided by investor equity: ($120 million - $80 million) / $100 million = 40%. Gross exposure equals the sum of the absolute long and short positions divided by investor equity: ($120 million + $80 million) / $100 million = 200%. Net exposure approximates directional positioning, while gross exposure helps describe total invested exposure and leverage.",
+      "topic": "Hedge Funds",
+      "subtopic": "Equity Hedge Funds",
+      "difficulty": "medium",
+      "source": "Hedge Funds – Equity Hedge Funds; Net and Gross Exposure"
+    },
+    {
+      "stem": "A merger arbitrage fund purchases shares of a company being acquired for $48 per share. The announced all-cash acquisition price is $52 per share, payable in six months if the transaction closes. If the transaction fails, the fund expects the shares to trade at $38. Ignoring financing costs and assuming the transaction either completes at $52 or fails with a share value of $38, what is the minimum probability of completion required for the position's expected profit to be positive?",
+      "options": [
+        "Greater than 28.6%",
+        "Greater than 40.0%",
+        "Greater than 71.4%",
+        "Greater than 76.9%"
+      ],
+      "answer": "C",
+      "explanation": "The expected profit is p($52 - $48) + (1 - p)($38 - $48), where p is the probability of completion. Setting expected profit equal to zero gives 4p - 10(1 - p) = 0, so p = 10/14, or approximately 71.4%. A positive expected profit requires a completion probability above this break-even level.",
+      "topic": "Hedge Funds",
+      "subtopic": "Event-Driven Hedge Funds",
+      "difficulty": "hard",
+      "source": "Hedge Funds – Event-Driven Hedge Funds; Merger Arbitrage"
+    },
+    {
+      "stem": "A relative value hedge fund holds a leveraged position in a government bond that it believes is undervalued and shorts a closely related bond that it considers overvalued. The fund expects the valuation spread to converge. During a market disruption, the spread widens and the fund faces margin calls. Which risk BEST explains why the fund may be forced to close a fundamentally attractive position at a loss?",
+      "options": [
+        "Basis risk arising exclusively from unexpected foreign exchange fluctuations.",
+        "Funding liquidity risk arising from leverage and collateral requirements.",
+        "Reinvestment risk arising exclusively from declining interest rates.",
+        "Settlement risk arising exclusively from a delayed coupon payment."
+      ],
+      "answer": "B",
+      "explanation": "Relative value strategies often depend on leveraged positions whose valuation differences may eventually converge. When spreads move adversely, margin and collateral requirements can create immediate funding pressures even if the long-term investment thesis remains valid. Forced liquidation before convergence can turn a potentially profitable strategy into a realized loss.",
+      "topic": "Hedge Funds",
+      "subtopic": "Relative Value Hedge Funds",
+      "difficulty": "hard",
+      "source": "Hedge Funds – Relative Value Hedge Funds; Leverage and Funding Liquidity Risk"
+    },
+    {
+      "stem": "An investor is considering cryptocurrencies for a diversified portfolio and is evaluating the underlying distributed ledger technology. Which TWO statements accurately describe characteristics of a public permissionless blockchain? Choose TWO.",
+      "options": [
+        "Transactions can be validated through a consensus mechanism without requiring one central administrator.",
+        "Every transaction is guaranteed to remain confidential from all network participants.",
+        "A participant must obtain approval from a central institution before accessing the network.",
+        "The ledger can maintain a shared transaction history replicated across multiple network nodes."
+      ],
+      "answer": "AD",
+      "explanation": "Public permissionless blockchains use distributed consensus mechanisms to maintain a shared ledger without relying on a single central administrator. Multiple network nodes can retain and verify copies of the transaction history. Public blockchains do not inherently guarantee transaction confidentiality, and participation generally does not require permission from a central authority.",
+      "topic": "Digital Assets",
+      "subtopic": "Distributed Ledger Technology",
+      "difficulty": "hard",
+      "source": "Digital Assets – Distributed Ledger Technology; Public Blockchains and Consensus Mechanisms"
+    }
+  ]
+}
