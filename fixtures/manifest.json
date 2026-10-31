@@ -375,6 +375,7 @@
     { "file": "valid/isc2-cc-claude-2.md", "errors": [], "fenced": true },
     { "file": "valid/isc2-cc-claude-3.md", "errors": [], "fenced": true },
     { "file": "valid/isc2-cc-claude-4.md", "errors": [], "fenced": true },
+    { "file": "valid/isc2-cc-chatgpt-1.json", "errors": [] },
 
     { "file": "invalid/empty.txt", "errors": ["E001"] },
     { "file": "invalid/not-json.txt", "errors": ["E002"] },

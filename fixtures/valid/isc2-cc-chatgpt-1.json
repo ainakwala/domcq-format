@@ -1,0 +1,308 @@
+
+{
+  "format": "domcq/1",
+  "exam": "isc2-cc",
+  "set": "Certified in Cybersecurity (CC) practice – Core Concepts and Scenarios",
+  "questions": [
+    {
+      "stem": "An attacker gains unauthorized access to a company's payroll database and changes several employees' bank account numbers. The database remains available, and the attacker does not disclose the records. Which fundamental security principle has been MOST directly compromised?",
+      "options": [
+        "Confidentiality",
+        "Availability",
+        "Integrity",
+        "Non-repudiation"
+      ],
+      "answer": "C",
+      "explanation": "Integrity ensures that information remains accurate, complete, and protected against unauthorized modification. Changing payroll records without authorization compromises their integrity, even when the information remains accessible and has not been disclosed. Confidentiality concerns unauthorized disclosure, while availability concerns access to information and systems.",
+      "topic": "Security Principles",
+      "subtopic": "Understand cybersecurity concepts",
+      "difficulty": "easy",
+      "source": "ISC2 CC Exam Outline (Sep 2026), 1.1 – Understand cybersecurity concepts"
+    },
+    {
+      "stem": "A company plans to launch an online service that would process sensitive customer information. A risk assessment identifies a substantial privacy risk that cannot be reduced to an acceptable level with available controls. Management decides not to launch the service. Which risk treatment strategy has management selected?",
+      "options": [
+        "Risk avoidance",
+        "Risk mitigation",
+        "Risk transfer",
+        "Risk acceptance"
+      ],
+      "answer": "A",
+      "explanation": "Risk avoidance eliminates exposure to a particular risk by deciding not to undertake the activity that creates it. In this scenario, management removes the identified exposure by canceling the service launch. Mitigation reduces risk through controls, transfer shifts some financial consequences to another party, and acceptance acknowledges the remaining exposure.",
+      "topic": "Security Principles",
+      "subtopic": "Understand risk management concepts",
+      "difficulty": "medium",
+      "source": "ISC2 CC Exam Outline (Sep 2026), 1.2 – Understand risk management concepts"
+    },
+    {
+      "stem": "An organization requires every company-managed laptop to use full-disk encryption with an approved algorithm and a specified minimum key length. The security team documents these mandatory technical requirements for all departments. Which type of governance document BEST describes these requirements?",
+      "options": [
+        "A security policy",
+        "An operating procedure",
+        "A recommended guideline",
+        "A technical standard"
+      ],
+      "answer": "D",
+      "explanation": "A standard establishes specific, mandatory requirements that support an organization's broader policies. Specifying approved encryption algorithms and minimum key lengths is an example of a technical standard. Policies express management's expectations, procedures describe implementation steps, and guidelines generally provide recommended practices.",
+      "topic": "Security Principles",
+      "subtopic": "Understand governance concepts",
+      "difficulty": "medium",
+      "source": "ISC2 CC Exam Outline (Sep 2026), 1.3 – Understand governance concepts"
+    },
+    {
+      "stem": "An organization wants to protect information stored on employee laptops if those devices are lost or stolen. Which of the following is an example of a technical security control that directly protects the stored information?",
+      "options": [
+        "Conducting annual security awareness training",
+        "Enabling full-disk encryption on the laptops",
+        "Installing reinforced locks on office doors",
+        "Publishing an employee information security policy"
+      ],
+      "answer": "B",
+      "explanation": "Full-disk encryption is a technical control that protects stored information by making it unreadable without the appropriate decryption credentials or keys. Security awareness training and policies are administrative controls, while door locks are physical controls. Encryption provides protection even when an unauthorized person possesses the device.",
+      "topic": "Security Principles",
+      "subtopic": "Understand cybersecurity controls",
+      "difficulty": "easy",
+      "source": "ISC2 CC Exam Outline (Sep 2026), 1.4 – Understand cybersecurity controls"
+    },
+    {
+      "stem": "A security analyst discovers evidence that a company system has exposed customers' personal information. The analyst's supervisor instructs the analyst to conceal the finding to avoid negative publicity. Which action BEST aligns with the ISC2 Code of Ethics?",
+      "options": [
+        "Follow the supervisor's instruction to protect the employer's reputation",
+        "Publish the evidence publicly without following authorized procedures",
+        "Document the finding and escalate it through appropriate authorized channels",
+        "Modify the investigation records to reduce the reported incident severity"
+      ],
+      "answer": "C",
+      "explanation": "The ISC2 Code of Ethics requires professionals to protect society and the public interest while acting honorably, responsibly, and lawfully. Concealing material security findings or falsifying records conflicts with these obligations. Documenting the issue and escalating it through appropriate channels supports responsible remediation and lawful handling of sensitive information.",
+      "topic": "Security Principles",
+      "subtopic": "Maintain professional and ethical conduct",
+      "difficulty": "medium",
+      "source": "ISC2 CC Exam Outline (Sep 2026), 1.5 – Maintain professional and ethical conduct; ISC2 Code of Ethics"
+    },
+    {
+      "stem": "A financial services company is introducing an AI-powered customer support system that will process personal information. Management wants to ensure that relevant legal obligations, identified cybersecurity risks, and responsibility for required controls are addressed before deployment. Which action BEST supports governance, risk, and compliance (GRC) planning?",
+      "options": [
+        "Map applicable requirements and risks to controls and accountable owners",
+        "Allow each development team to determine its own regulatory obligations",
+        "Defer compliance reviews until the system has operated for several months",
+        "Treat the cloud provider as responsible for all legal and security decisions"
+      ],
+      "answer": "A",
+      "explanation": "Effective GRC planning connects business objectives, regulatory obligations, identified risks, and security controls to clear accountability. Mapping these elements before deployment allows management to identify compliance gaps and make informed risk decisions. Outsourcing technology or delegating development does not eliminate an organization's governance responsibilities.",
+      "topic": "Security Governance",
+      "subtopic": "Plan Governance, Risk, and Compliance (GRC)",
+      "difficulty": "medium",
+      "source": "ISC2 CC Exam Outline (Sep 2026), 2.1 – Plan Governance, Risk, and Compliance (GRC)"
+    },
+    {
+      "stem": "An online retailer relies on a single internet connection to process customer orders. A business impact assessment identifies that a prolonged connection failure would interrupt critical operations. Which proposed measure would BEST improve service continuity through redundancy?",
+      "options": [
+        "Store additional copies of the company's security policies",
+        "Conduct monthly reviews of employee password requirements",
+        "Increase the frequency of scheduled vulnerability assessments",
+        "Install an independent internet connection with automatic failover"
+      ],
+      "answer": "D",
+      "explanation": "Redundancy reduces reliance on a single component whose failure could interrupt critical business operations. An independent connection with automatic failover provides an alternate communication path when the primary connection fails. Security policies, password reviews, and vulnerability assessments support security management but do not directly provide network connectivity redundancy.",
+      "topic": "Security Governance",
+      "subtopic": "Understand redundancy",
+      "difficulty": "medium",
+      "source": "ISC2 CC Exam Outline (Sep 2026), 2.2 – Understand redundancy"
+    },
+    {
+      "stem": "An accounts payable employee receives a convincing AI-generated voice message that appears to come from the chief financial officer. The message urgently requests a payment to a new bank account. Which response BEST demonstrates appropriate security awareness?",
+      "options": [
+        "Process the payment because the caller's voice matches the executive",
+        "Verify the request through an independently established communication channel",
+        "Approve the payment if the message includes the executive's correct title",
+        "Forward the message to another employee and request immediate payment"
+      ],
+      "answer": "B",
+      "explanation": "AI-generated voice impersonation can make social engineering attacks appear credible even when the request is fraudulent. Verifying unusual financial instructions through a previously established, trusted channel helps confirm the requester's identity. A familiar voice, accurate personal details, or apparent urgency should not replace established approval procedures.",
+      "topic": "Security Governance",
+      "subtopic": "Understand security awareness",
+      "difficulty": "easy",
+      "source": "ISC2 CC Exam Outline (Sep 2026), 2.3 – Understand security awareness"
+    },
+    {
+      "stem": "A cybersecurity manager is developing a dashboard to provide early warning that the organization's exposure to exploitable vulnerabilities is increasing. The organization has established remediation deadlines for critical vulnerabilities on internet-facing systems. Which measurement is the BEST key risk indicator (KRI) for this purpose?",
+      "options": [
+        "The monthly number of completed employee security training sessions",
+        "The total number of malware messages blocked by the email gateway",
+        "The percentage of critical internet-facing vulnerabilities overdue for remediation",
+        "The number of scheduled maintenance activities completed by the IT department"
+      ],
+      "answer": "C",
+      "explanation": "A KRI provides insight into conditions that may increase the likelihood or impact of adverse events. The percentage of overdue critical vulnerabilities on internet-facing systems directly indicates increasing exposure to potentially exploitable weaknesses. The other measurements describe security activities or operational volume without directly measuring this particular risk.",
+      "topic": "Security Governance",
+      "subtopic": "Measure cybersecurity effectiveness",
+      "difficulty": "hard",
+      "source": "ISC2 CC Exam Outline (Sep 2026), 2.4 – Measure cybersecurity effectiveness"
+    },
+    {
+      "stem": "An organization permanently retires an automated reporting application. The application used a dedicated service account with permission to read confidential financial data. What should the identity management team do with this account?",
+      "options": [
+        "Disable the account and revoke its associated access permissions and tokens",
+        "Keep the account enabled in case the application is needed again",
+        "Change the account password while preserving its existing permissions",
+        "Transfer the account credentials to the next application development team"
+      ],
+      "answer": "A",
+      "explanation": "Identity lifecycle management includes deprovisioning accounts when their business purpose ends. Disabling the service account and revoking its permissions and active credentials prevents unnecessary access from persisting after application retirement. Service accounts, including those used by automated and AI systems, require the same lifecycle discipline as human identities.",
+      "topic": "Identity And Access Management (IAM) Concepts",
+      "subtopic": "Understand identity life cycle management",
+      "difficulty": "easy",
+      "source": "ISC2 CC Exam Outline (Sep 2026), 3.1 – Understand identity life cycle management"
+    },
+    {
+      "stem": "During a quarterly identity access review, a manager discovers that several contractors still have access to confidential project folders even though their assignments changed two months ago. Which action BEST addresses this finding?",
+      "options": [
+        "Retain the permissions until the contractors leave the organization",
+        "Replace the contractors' passwords without modifying their access",
+        "Extend the existing permissions to avoid disrupting future projects",
+        "Revalidate their current responsibilities and remove unnecessary permissions"
+      ],
+      "answer": "D",
+      "explanation": "Periodic access reviews ensure that permissions remain appropriate for an identity's current responsibilities. When assignments change, access that is no longer justified should be removed through the organization's authorization process. Changing passwords does not correct excessive permissions, and retaining unnecessary access increases security risk.",
+      "topic": "Identity And Access Management (IAM) Concepts",
+      "subtopic": "Understand identity life cycle management",
+      "difficulty": "medium",
+      "source": "ISC2 CC Exam Outline (Sep 2026), 3.1 – Understand identity life cycle management"
+    },
+    {
+      "stem": "A new employee is responsible only for viewing customer support tickets and does not need to modify or delete them. Which access assignment BEST follows the principle of least privilege?",
+      "options": [
+        "Full administrative access to the customer support system",
+        "Read-only access to the tickets required for the employee's role",
+        "Read-and-write access to every customer support ticket",
+        "Temporary administrator access renewed automatically each month"
+      ],
+      "answer": "B",
+      "explanation": "The principle of least privilege requires granting only the permissions necessary to perform authorized tasks. Read-only access is sufficient when the employee only needs to view relevant tickets. Giving modification or administrative privileges creates unnecessary opportunities for errors, misuse, or compromise.",
+      "topic": "Identity And Access Management (IAM) Concepts",
+      "subtopic": "Understand logical access controls",
+      "difficulty": "easy",
+      "source": "ISC2 CC Exam Outline (Sep 2026), 3.2 – Understand logical access controls"
+    },
+    {
+      "stem": "A company is redesigning its privileged access workflow. Currently, a system administrator can request elevated permissions, approve the same request, and activate those permissions without another person's involvement. Which redesign BEST applies separation of duties (SoD)?",
+      "options": [
+        "Require administrators to change their passwords before activating elevated access",
+        "Allow administrators to approve their own requests after completing security training",
+        "Require an independent authorized approver to approve requests before access is granted",
+        "Require administrators to document their own approval decisions after privileges are activated"
+      ],
+      "answer": "C",
+      "explanation": "Separation of duties reduces the risk of fraud, abuse, and error by preventing one individual from controlling all stages of a sensitive transaction. Requiring independent approval separates privilege requests from authorization decisions. Password changes, training, and self-documentation may provide other benefits but do not resolve the underlying conflict of responsibilities.",
+      "topic": "Identity And Access Management (IAM) Concepts",
+      "subtopic": "Understand logical access controls",
+      "difficulty": "hard",
+      "source": "ISC2 CC Exam Outline (Sep 2026), 3.2 – Understand logical access controls"
+    },
+    {
+      "stem": "A company allows employees to work remotely and access internal applications that are not exposed directly to the internet. Employees frequently connect through untrusted public Wi-Fi networks. Which technology is MOST appropriate for establishing an encrypted network tunnel to the corporate environment?",
+      "options": [
+        "A remote-access virtual private network (VPN)",
+        "A public Domain Name System (DNS) resolver",
+        "A local Dynamic Host Configuration Protocol (DHCP) server",
+        "A wireless network access point operating in bridge mode"
+      ],
+      "answer": "A",
+      "explanation": "A remote-access VPN establishes an encrypted tunnel across an untrusted network, allowing authorized users to communicate securely with internal corporate resources. DNS resolves names, DHCP supplies network configuration, and bridging connects network segments. These services do not independently provide the encrypted remote-access tunnel required in the scenario.",
+      "topic": "Networking and Cloud Security Concepts",
+      "subtopic": "Understand network security",
+      "difficulty": "medium",
+      "source": "ISC2 CC Exam Outline (Sep 2026), 4.1 – Understand network security"
+    },
+    {
+      "stem": "A manufacturer connects internet-enabled environmental sensors to its corporate network. The sensors require communication only with a designated monitoring server. The security team wants to reduce the risk that a compromised sensor could access employee workstations or financial systems. Which network design BEST satisfies this requirement?",
+      "options": [
+        "Place the sensors on the employee network and monitor their activity",
+        "Permit the sensors to reach all corporate systems through the central firewall",
+        "Connect the sensors directly to the internet without internal restrictions",
+        "Place the sensors in a separate network segment with narrowly defined firewall rules"
+      ],
+      "answer": "D",
+      "explanation": "Network segmentation isolates devices into separate security zones and restricts communication between them. Placing sensors in a dedicated segment with firewall rules allowing only required traffic to the monitoring server limits lateral movement if a sensor is compromised. This is especially important for IoT and embedded devices that may have limited security capabilities.",
+      "topic": "Networking and Cloud Security Concepts",
+      "subtopic": "Understand network security architecture",
+      "difficulty": "medium",
+      "source": "ISC2 CC Exam Outline (Sep 2026), 4.2 – Understand network security architecture"
+    },
+    {
+      "stem": "An organization is adopting a Zero Trust security architecture. Historically, users who connected from the corporate office network were automatically considered trustworthy when accessing internal applications. Which change BEST reflects Zero Trust principles?",
+      "options": [
+        "Grant unrestricted application access to all devices connected through office Wi-Fi",
+        "Evaluate identity, device security, and applicable policies when authorizing access requests",
+        "Allow authenticated users to retain permanent access to every internal application",
+        "Remove authentication requirements for traffic originating inside the corporate network"
+      ],
+      "answer": "B",
+      "explanation": "Zero Trust does not grant implicit trust merely because a user or device is located on an internal network. Access decisions should consider verified identity, device posture, contextual signals, and applicable authorization policies, with reassessment as appropriate. This approach limits exposure when internal devices or credentials become compromised.",
+      "topic": "Networking and Cloud Security Concepts",
+      "subtopic": "Understand network security architecture",
+      "difficulty": "medium",
+      "source": "ISC2 CC Exam Outline (Sep 2026), 4.2 – Understand network security architecture"
+    },
+    {
+      "stem": "A company migrates an application to an Infrastructure as a Service (IaaS) cloud environment. The cloud provider manages the physical servers, storage hardware, networking infrastructure, and hypervisor. The company creates and administers its own virtual machines and operating systems. Under the shared security responsibility model, who is generally responsible for applying security patches to the guest operating systems?",
+      "options": [
+        "The cloud provider, because the virtual machines run on its physical hardware",
+        "The network carrier, because the virtual machines communicate across its network",
+        "The customer organization, because it administers the guest operating systems",
+        "The hypervisor vendor, because the operating systems run on virtualized hardware"
+      ],
+      "answer": "C",
+      "explanation": "In a typical IaaS arrangement, the cloud provider secures the underlying infrastructure, including physical facilities and the hypervisor. The customer remains responsible for the operating systems, applications, and configurations it manages within its virtual machines. Understanding this division of responsibilities prevents important security tasks from being overlooked.",
+      "topic": "Networking and Cloud Security Concepts",
+      "subtopic": "Understand cloud security",
+      "difficulty": "hard",
+      "source": "ISC2 CC Exam Outline (Sep 2026), 4.3 – Understand cloud security"
+    },
+    {
+      "stem": "An employee wants to use a publicly accessible AI service to summarize a customer complaint report. The report contains customer names, personal contact information, and confidential account details. The organization's policy permits use of the AI service only with appropriately sanitized data. What should the employee do BEFORE submitting the report?",
+      "options": [
+        "Remove or mask confidential and identifying information according to policy",
+        "Upload the complete report and delete the conversation immediately afterward",
+        "Submit the report using a personal account instead of the company's account",
+        "Encrypt the report locally but paste its original contents into the AI service"
+      ],
+      "answer": "A",
+      "explanation": "Data sanitization and masking help prevent unnecessary disclosure of sensitive information to external services. The employee should follow the organization's approved handling requirements and remove or mask protected information before submission. Deleting a conversation afterward or switching accounts does not eliminate the exposure created by submitting the original sensitive data.",
+      "topic": "Security Operations and Incident Response",
+      "subtopic": "Understand data security",
+      "difficulty": "easy",
+      "source": "ISC2 CC Exam Outline (Sep 2026), 5.1 – Understand data security"
+    },
+    {
+      "stem": "A security operations team confirms that an employee's cloud account has been compromised. Authentication logs show successful unauthorized access, and the attacker may still have active sessions and access tokens. The approved incident response plan requires rapid containment while preserving evidence. Which coordinated action BEST meets these requirements?",
+      "options": [
+        "Change the password but leave existing sessions active while reviewing access history",
+        "Block the last observed source IP address and retain all currently issued access tokens",
+        "Collect screenshots of the account activity and postpone restricting the compromised credentials",
+        "Revoke active sessions and tokens, restrict the compromised account, and preserve authentication logs"
+      ],
+      "answer": "D",
+      "explanation": "Effective containment must address the attacker's current means of access while retaining information needed for investigation. Revoking sessions and tokens and restricting compromised credentials reduces the opportunity for continued unauthorized activity, while preserving authentication logs supports analysis. A password change alone may not invalidate existing sessions, and blocking one IP address may not stop an attacker using other infrastructure.",
+      "topic": "Security Operations and Incident Response",
+      "subtopic": "Understand Incident Response (IR)",
+      "difficulty": "hard",
+      "source": "ISC2 CC Exam Outline (Sep 2026), 5.3 – Understand Incident Response (IR)"
+    },
+    {
+      "stem": "A software development team wants to identify potential security weaknesses in application source code before executing the application. The team plans to use an automated testing approach that examines code for insecure patterns and possible vulnerabilities. Which testing technique BEST meets this objective?",
+      "options": [
+        "Dynamic application security testing against the running application",
+        "Static application security testing through source code analysis",
+        "Network vulnerability scanning of the production server infrastructure",
+        "Physical penetration testing of the application hosting facility"
+      ],
+      "answer": "B",
+      "explanation": "Static application security testing (SAST) examines source code or other static program representations without requiring the application to run. It can identify potentially insecure coding patterns early in the development lifecycle. Dynamic testing evaluates running applications, while network scanning and physical penetration testing address different aspects of security.",
+      "topic": "Security Operations and Incident Response",
+      "subtopic": "Understand security testing",
+      "difficulty": "medium",
+      "source": "ISC2 CC Exam Outline (Sep 2026), 5.5 – Understand security testing"
+    }
+  ]
+}
