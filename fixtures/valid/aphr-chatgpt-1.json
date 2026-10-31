@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "aphr",
+  "set": "Associate Professional in Human Resources (aPHR) practice – Core HR Foundations",
+  "questions": [
+    {
+      "stem": "A manufacturing company is opening a second facility and needs to determine the duties, responsibilities, and required qualifications for several new positions. Which HR activity should be completed before developing job descriptions?",
+      "options": [
+        "Conducting a job analysis",
+        "Preparing an orientation schedule",
+        "Establishing a performance rating system",
+        "Conducting an employee engagement survey"
+      ],
+      "answer": "A",
+      "explanation": "Job analysis systematically identifies the tasks, responsibilities, working conditions, and knowledge, skills, and abilities associated with a position. The information supports accurate job descriptions, job specifications, and selection criteria. It should be completed before recruiting for newly defined positions.",
+      "topic": "Talent Acquisition",
+      "subtopic": "Job analysis and workforce planning",
+      "difficulty": "easy",
+      "source": "HRCI aPHR Exam Content Outline, Functional Area 01: Talent Acquisition, Knowledge 01"
+    },
+    {
+      "stem": "An organization wants to improve the consistency of interviews for a customer service position. Several managers currently ask different questions and make hiring decisions based largely on personal impressions. Which approach would BEST improve the reliability and job-relatedness of candidate evaluations?",
+      "options": [
+        "Allowing interviewers to select questions based on each applicant's personality",
+        "Using standardized job-related questions and anchored scoring criteria",
+        "Replacing interviews with informal conversations involving team members",
+        "Prioritizing applicants who demonstrate similar interests to existing employees"
+      ],
+      "answer": "B",
+      "explanation": "Structured interviews use consistent, job-related questions and predefined rating criteria to evaluate candidates. This reduces opportunities for subjective judgments and makes comparisons more reliable. Behaviorally anchored scoring helps interviewers distinguish stronger responses from weaker ones using evidence relevant to the position.",
+      "topic": "Talent Acquisition",
+      "subtopic": "Structured interviewing and selection",
+      "difficulty": "medium",
+      "source": "HRCI aPHR Exam Content Outline, Functional Area 01: Talent Acquisition, Knowledge 03"
+    },
+    {
+      "stem": "An HR department spent $12,000 on job advertisements, $8,000 on recruiting agency fees, and $5,000 on allocated internal recruiting costs during a quarter. The organization hired 10 employees during that period. What was the cost-per-hire?",
+      "options": [
+        "$1,200",
+        "$2,000",
+        "$2,500",
+        "$3,000"
+      ],
+      "answer": "C",
+      "explanation": "Cost-per-hire is calculated by dividing total internal and external recruiting costs by the number of hires. Total recruiting costs were $25,000, divided by 10 hires, producing $2,500 per hire. This metric helps HR assess recruiting efficiency and compare sourcing approaches.",
+      "topic": "Talent Acquisition",
+      "subtopic": "Recruitment metrics and cost-per-hire",
+      "difficulty": "medium",
+      "source": "HRCI aPHR Exam Content Outline, Functional Area 01: Talent Acquisition, Knowledge 05"
+    },
+    {
+      "stem": "A company must recruit 40 temporary warehouse workers for a three-month seasonal demand increase. The work requires standard skills, and the company wants to avoid adding permanent positions. Which staffing approach BEST meets these requirements?",
+      "options": [
+        "Launching an internal succession planning program",
+        "Converting existing part-time positions into permanent roles",
+        "Recruiting management trainees for future leadership positions",
+        "Engaging a staffing agency to supply temporary workers"
+      ],
+      "answer": "D",
+      "explanation": "Temporary staffing agencies provide access to workers for defined periods without requiring an organization to create permanent positions. This approach can accommodate seasonal fluctuations and reduce the administrative burden of short-term recruitment. HR should still verify that the arrangement complies with applicable employment and safety requirements.",
+      "topic": "Talent Acquisition",
+      "subtopic": "Alternative staffing approaches",
+      "difficulty": "easy",
+      "source": "HRCI aPHR Exam Content Outline, Functional Area 01: Talent Acquisition, Knowledge 01-02"
+    },
+    {
+      "stem": "An organization discovers that employees are making frequent errors when entering orders into a newly implemented software system. HR is asked to develop training. According to the ADDIE instructional design model, what should HR do FIRST?",
+      "options": [
+        "Analyze performance gaps and identify the employees' learning needs",
+        "Develop instructional materials and prepare training presentations",
+        "Deliver software training sessions to all affected employees",
+        "Evaluate learner satisfaction with the completed training"
+      ],
+      "answer": "A",
+      "explanation": "The ADDIE model begins with Analysis, which determines the performance problem, learning needs, audience characteristics, and desired outcomes. HR should establish whether errors result from missing knowledge or skills before creating training. Problems caused by poor software design or unclear procedures may require solutions other than training.",
+      "topic": "Learning & Development",
+      "subtopic": "ADDIE model and training needs assessment",
+      "difficulty": "medium",
+      "source": "HRCI aPHR Exam Content Outline, Functional Area 02: Learning & Development, Knowledge 02"
+    },
+    {
+      "stem": "A hospital wants nurses to practice responding to difficult patient conversations in a controlled setting where they can receive immediate feedback without affecting actual patients. Which training method is MOST appropriate?",
+      "options": [
+        "Self-paced reading assignments",
+        "Facilitated role-playing exercises",
+        "Recorded policy presentations",
+        "Independent knowledge quizzes"
+      ],
+      "answer": "B",
+      "explanation": "Role-playing allows participants to practice interpersonal communication and decision-making in realistic but controlled situations. Facilitators can provide immediate feedback, and participants can repeat the activity to improve their responses. Reading and quizzes may develop knowledge but provide less opportunity to practice the behavior itself.",
+      "topic": "Learning & Development",
+      "subtopic": "Training delivery methods",
+      "difficulty": "easy",
+      "source": "HRCI aPHR Exam Content Outline, Functional Area 02: Learning & Development, Knowledge 03"
+    },
+    {
+      "stem": "A company provided customer service training to 100 employees. Three months later, HR wants to determine whether employees have applied the techniques during actual customer interactions. Which TWO methods would provide the MOST direct evidence of behavioral transfer? Choose TWO.",
+      "options": [
+        "Reviewing participant satisfaction ratings collected immediately after training",
+        "Comparing training expenditures against the approved annual budget",
+        "Observing customer interactions using a job-related behavior checklist",
+        "Reviewing supervisor assessments of demonstrated customer service behaviors"
+      ],
+      "answer": "CD",
+      "explanation": "Behavioral transfer concerns whether employees apply learned skills in their work. Direct observation and supervisor assessments using defined behavioral standards can show whether targeted practices are being performed. Participant satisfaction and training spending measure different aspects of training and do not establish workplace behavior change.",
+      "topic": "Learning & Development",
+      "subtopic": "Training evaluation and behavioral transfer",
+      "difficulty": "hard",
+      "source": "HRCI aPHR Exam Content Outline, Functional Area 02: Learning & Development, Knowledge 05; Kirkpatrick Evaluation Model, Level 3"
+    },
+    {
+      "stem": "An employer increases an employee's base salary from $50,000 to $52,000 because the employee exceeded established annual performance goals. What type of pay adjustment is this?",
+      "options": [
+        "Cost-of-living adjustment",
+        "Shift differential",
+        "Seniority allowance",
+        "Merit increase"
+      ],
+      "answer": "D",
+      "explanation": "A merit increase adjusts base pay based on an employee's performance against established expectations. It differs from a cost-of-living adjustment, which addresses changes in purchasing power, and from a shift differential, which compensates employees for working designated schedules.",
+      "topic": "Compensation & Benefits",
+      "subtopic": "Pay adjustments and merit increases",
+      "difficulty": "easy",
+      "source": "HRCI aPHR Exam Content Outline, Functional Area 03: Compensation & Benefits, Knowledge 01"
+    },
+    {
+      "stem": "An employee enrolled in an HSA-qualified high-deductible health plan wants to save money for eligible medical expenses using an account whose unused balance can generally remain available in future years. Which account BEST meets this objective?",
+      "options": [
+        "Health Savings Account (HSA)",
+        "Traditional Health Flexible Spending Arrangement (FSA)",
+        "Dependent Care Flexible Spending Arrangement (FSA)",
+        "Employer-funded group term life insurance account"
+      ],
+      "answer": "A",
+      "explanation": "An HSA allows eligible individuals enrolled in qualifying high-deductible health plans to save funds for qualified medical expenses. Unused HSA balances carry forward from year to year and remain owned by the account holder. Traditional health FSAs generally have more restrictive carryover rules and are employer-established arrangements.",
+      "topic": "Compensation & Benefits",
+      "subtopic": "Health savings accounts and benefit plan designs",
+      "difficulty": "medium",
+      "source": "HRCI aPHR Exam Content Outline, Functional Area 03: Compensation & Benefits, Knowledge 02; IRS Publication 969"
+    },
+    {
+      "stem": "An employer with a 401(k) plan offers a dollar-for-dollar matching contribution on the first 4% of an employee's eligible annual compensation that the employee contributes. An employee earning $60,000 contributes 6% of eligible compensation. Assuming the employee satisfies all plan requirements, how much will the employer contribute for the year?",
+      "options": [
+        "$1,200",
+        "$2,400",
+        "$3,600",
+        "$4,800"
+      ],
+      "answer": "B",
+      "explanation": "The employer matches contributions only up to 4% of eligible compensation. Multiplying $60,000 by 4% produces an employer contribution of $2,400. Although the employee contributes 6%, contributions above the matching threshold do not generate additional employer matching funds under the stated formula.",
+      "topic": "Compensation & Benefits",
+      "subtopic": "Retirement plan matching contributions",
+      "difficulty": "medium",
+      "source": "HRCI aPHR Exam Content Outline, Functional Area 03: Compensation & Benefits, Knowledge 04"
+    },
+    {
+      "stem": "An organization wants to learn why experienced employees are considering leaving before they actually resign. Which HR method is MOST appropriate?",
+      "options": [
+        "Conducting exit interviews after employees leave",
+        "Reviewing applicant interview scores from recent hiring rounds",
+        "Conducting stay interviews with current employees",
+        "Analyzing completed employee termination paperwork"
+      ],
+      "answer": "C",
+      "explanation": "Stay interviews are conversations with current employees intended to identify what encourages them to remain and what might cause them to leave. Their findings help managers address retention concerns before employees resign. Exit interviews can reveal reasons for departures but occur after the employee has decided to leave.",
+      "topic": "Employee Relations",
+      "subtopic": "Employee engagement and retention",
+      "difficulty": "easy",
+      "source": "HRCI aPHR Exam Content Outline, Functional Area 04: Employee Relations, Knowledge 03"
+    },
+    {
+      "stem": "A supervisor notices that an employee has repeatedly arrived late despite receiving an informal reminder about attendance expectations. The organization has a progressive discipline policy that normally begins with a documented verbal warning and escalates for repeated violations. No serious misconduct or special circumstances are involved. What should the supervisor do NEXT?",
+      "options": [
+        "Immediately terminate employment for repeated lateness",
+        "Suspend the employee without reviewing the attendance records",
+        "Remove the employee from future promotional consideration",
+        "Issue a documented verbal warning consistent with the policy"
+      ],
+      "answer": "D",
+      "explanation": "Progressive discipline uses escalating corrective actions to communicate expectations and provide opportunities to improve. Under the stated policy, a documented verbal warning is the appropriate next step. Supervisors should apply policies consistently, verify relevant facts, and document the employee's response and expected improvement.",
+      "topic": "Employee Relations",
+      "subtopic": "Progressive discipline and attendance management",
+      "difficulty": "medium",
+      "source": "HRCI aPHR Exam Content Outline, Functional Area 04: Employee Relations, Knowledge 04"
+    },
+    {
+      "stem": "An employee files a complaint alleging that a supervisor has repeatedly made inappropriate comments. The employee requests that nobody else be informed. Which action BEST balances an appropriate investigation with confidentiality?",
+      "options": [
+        "Explain that information will be shared only as needed for a fair investigation and response",
+        "Promise that no information about the complaint will be disclosed to anyone",
+        "Postpone the investigation until the employee authorizes unrestricted disclosure",
+        "Ask the employee to investigate the allegations privately before HR intervenes"
+      ],
+      "answer": "A",
+      "explanation": "HR should handle complaints discreetly while explaining that absolute confidentiality cannot always be guaranteed. An effective investigation may require interviewing witnesses, informing the accused of relevant allegations, and sharing information with responsible decision-makers. HR should also explain protections against retaliation and document the investigation objectively.",
+      "topic": "Employee Relations",
+      "subtopic": "Employee complaints and workplace investigations",
+      "difficulty": "medium",
+      "source": "HRCI aPHR Exam Content Outline, Functional Area 04: Employee Relations, Knowledge 05; EEOC Enforcement Guidance on Harassment"
+    },
+    {
+      "stem": "A manager consistently gives employees higher performance ratings when they demonstrate strong interpersonal communication, even when their technical performance and work accuracy are below expectations. Which performance appraisal bias is MOST evident?",
+      "options": [
+        "Recency bias",
+        "Halo effect",
+        "Central tendency bias",
+        "Contrast error"
+      ],
+      "answer": "B",
+      "explanation": "The halo effect occurs when a favorable impression in one area influences ratings in other, unrelated performance dimensions. In this scenario, strong interpersonal skills are improperly influencing assessments of technical work. Using behavior-based criteria and reviewing evidence separately for each performance dimension helps reduce this bias.",
+      "topic": "Employee Relations",
+      "subtopic": "Performance appraisal errors and biases",
+      "difficulty": "medium",
+      "source": "HRCI aPHR Exam Content Outline, Functional Area 04: Employee Relations, Knowledge 04"
+    },
+    {
+      "stem": "An organization has experienced declining employee engagement. HR proposes two initiatives: establishing employee resource groups that are open to interested employees and training managers to recognize unconscious bias. Which TWO organizational outcomes are these initiatives MOST directly intended to support? Choose TWO.",
+      "options": [
+        "Replacing performance evaluations with demographic targets",
+        "Eliminating the need for employee grievance procedures",
+        "Increasing employees' sense of inclusion and belonging",
+        "Improving awareness of assumptions that can influence workplace decisions"
+      ],
+      "answer": "CD",
+      "explanation": "Employee resource groups can create opportunities for connection, support, and a stronger sense of belonging. Unconscious bias training can help managers recognize assumptions that may affect how they evaluate and interact with employees, although training alone does not guarantee behavior change. Neither initiative replaces established performance management or complaint resolution processes.",
+      "topic": "Employee Relations",
+      "subtopic": "Diversity, inclusion and unconscious bias",
+      "difficulty": "hard",
+      "source": "HRCI aPHR Exam Content Outline, Functional Area 04: Employee Relations, Knowledge 06"
+    },
+    {
+      "stem": "A private-sector employer covered by Title VII of the Civil Rights Act of 1964 is reviewing its hiring policies. Which practice would MOST clearly violate Title VII?",
+      "options": [
+        "Using a validated skills assessment relevant to the position",
+        "Requiring applicants to demonstrate essential job-related competencies",
+        "Conducting consistent reference checks for finalists",
+        "Rejecting qualified applicants because of their religion"
+      ],
+      "answer": "D",
+      "explanation": "Title VII prohibits covered employers from discriminating in employment decisions because of race, color, religion, sex, or national origin. Rejecting qualified applicants because of religion is unlawful unless a specific statutory exception applies. Consistent, job-related selection methods can support defensible hiring decisions when implemented without discrimination.",
+      "topic": "Compliance & Risk Management",
+      "subtopic": "Title VII and employment discrimination",
+      "difficulty": "easy",
+      "source": "HRCI aPHR Exam Content Outline, Functional Area 05: Compliance & Risk Management, Knowledge 01; Civil Rights Act, Title VII"
+    },
+    {
+      "stem": "A newly hired employee begins paid work on Monday. The employer is subject to the federal Form I-9 requirements, and no special receipt or remote verification exception applies. By when must the employee complete Section 1 of Form I-9?",
+      "options": [
+        "No later than the first day of employment",
+        "No later than the third business day after starting work",
+        "Within seven calendar days after starting work",
+        "Before the end of the first payroll processing cycle"
+      ],
+      "answer": "A",
+      "explanation": "Employees must complete and sign Section 1 of Form I-9 no later than their first day of employment for pay. They may complete it after accepting a job offer but before beginning work. The employer generally must complete Section 2 within three business days of the first day of employment, subject to applicable exceptions.",
+      "topic": "Compliance & Risk Management",
+      "subtopic": "Employment eligibility verification and Form I-9",
+      "difficulty": "medium",
+      "source": "HRCI aPHR Exam Content Outline, Functional Area 05: Compliance & Risk Management, Knowledge 01; USCIS Form I-9 Instructions"
+    },
+    {
+      "stem": "A nonexempt employee covered by the Fair Labor Standards Act works 46 hours during one workweek at a regular hourly rate of $20. The employee receives no bonuses or other compensation affecting the regular rate and is not subject to an overtime exemption. What is the MINIMUM total gross pay required under federal overtime rules for that week?",
+      "options": [
+        "$920",
+        "$940",
+        "$980",
+        "$1,000"
+      ],
+      "answer": "C",
+      "explanation": "The FLSA generally requires nonexempt employees to receive at least one and one-half times their regular rate for hours worked beyond 40 in a workweek. The employee earns $800 for the first 40 hours and $180 for six overtime hours at $30 per hour. Total required gross compensation is therefore $980, assuming no more protective state or local rule applies.",
+      "topic": "Compliance & Risk Management",
+      "subtopic": "FLSA overtime and wage requirements",
+      "difficulty": "medium",
+      "source": "HRCI aPHR Exam Content Outline, Functional Area 05: Compliance & Risk Management, Knowledge 03; FLSA, Section 7"
+    },
+    {
+      "stem": "A private-sector employer with 120 full-time employees plans to close a single employment site, resulting in employment losses for 55 full-time employees within a 30-day period. All 55 employees have worked at least 20 hours per week and for more than six months. The employer is covered by the federal WARN Act, the losses meet its definition of employment loss, and no statutory exception or alternative notice period applies. Which action is generally required?",
+      "options": [
+        "Provide affected employees with 15 calendar days of written notice",
+        "Provide the required recipients with at least 60 calendar days of written notice",
+        "Provide notice only after the employment losses have occurred",
+        "Provide notice only if more than 100 employees lose their jobs at that site"
+      ],
+      "answer": "B",
+      "explanation": "Under the federal WARN Act, a covered employer generally must provide at least 60 calendar days of advance written notice of a qualifying plant closing. A shutdown affecting at least 50 qualifying employees at a single site can meet the plant-closing threshold, assuming the statutory conditions are satisfied. Notice must be provided to the appropriate employees or representatives, state dislocated worker unit, and local government officials.",
+      "topic": "Compliance & Risk Management",
+      "subtopic": "WARN Act and workforce reductions",
+      "difficulty": "hard",
+      "source": "HRCI aPHR Exam Content Outline, Functional Area 05: Compliance & Risk Management, Knowledge 02 and 06; WARN Act, 29 USC 2101-2102"
+    },
+    {
+      "stem": "An HR department is developing a business continuity and workplace emergency program for an office exposed to severe weather and extended power outages. The organization wants to protect employees and maintain essential operations. Which TWO activities should be prioritized as preventive planning measures? Choose TWO.",
+      "options": [
+        "Waiting until an incident occurs before identifying alternate work locations",
+        "Relying exclusively on employees to create individual emergency response arrangements",
+        "Establishing documented evacuation and employee accountability procedures",
+        "Identifying critical business functions and testing recovery arrangements"
+      ],
+      "answer": "CD",
+      "explanation": "Evacuation and accountability procedures help protect employees during emergencies by clarifying how people should respond and how their safety will be confirmed. Identifying critical functions and testing recovery arrangements helps the organization restore essential operations when disruptions occur. Business continuity planning is most effective when responsibilities, resources, and procedures are established before an incident.",
+      "topic": "Compliance & Risk Management",
+      "subtopic": "Emergency preparedness and business continuity",
+      "difficulty": "hard",
+      "source": "HRCI aPHR Exam Content Outline, Functional Area 05: Compliance & Risk Management, Knowledge 05; OSHA Emergency Action Plans, 29 CFR 1910.38"
+    }
+  ]
+}

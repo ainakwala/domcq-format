@@ -1,0 +1,29 @@
+{
+  "id": "aphr",
+  "display_name": "Associate Professional in Human Resources (aPHR)",
+  "body": "HRCI",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by HRCI (the HR Certification Institute); the names are used only to identify the exam. HRCI®, Associate Professional in Human Resources® (aPHR®), Professional in Human Resources® (PHR®) and Senior Professional in Human Resources® (SPHR®) are trademarks of HRCI.",
+  "taxonomy": {
+    "Talent Acquisition": [],
+    "Learning & Development": [],
+    "Compensation & Benefits": [],
+    "Employee Relations": [],
+    "Compliance & Risk Management": []
+  },
+  "weights": {
+    "Talent Acquisition": 19,
+    "Learning & Development": 15,
+    "Compensation & Benefits": 17,
+    "Employee Relations": 24,
+    "Compliance & Risk Management": 25
+  },
+  "options": { "min": 3, "max": 4 },
+  "multi_select": true,
+  "banned_option_text": ["all of the above", "none of the above"],
+  "stem_hints": [],
+  "uncovered_item_types": ["fill in the blank", "drag and drop", "scenarios followed by a series of questions"],
+  "exam_mode": { "questions": 90, "minutes": 105 },
+  "verified_outline": "aPHR Exam Content Outline (effective 2021) and HRCI Certification Policies and Procedures Handbook (revised October 2026)",
+  "verified_on": "2026-10-31",
+  "next_review": "2027-10-31"
+}
