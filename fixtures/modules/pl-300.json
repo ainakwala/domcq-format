@@ -1,0 +1,72 @@
+{
+  "id": "pl-300",
+  "display_name": "PL-300: Microsoft Power BI Data Analyst",
+  "body": "Microsoft",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, or authorized, sponsored, endorsed or approved by, Microsoft Corporation; the names are used only to identify the exam. Microsoft, Azure, DAX, Microsoft Defender, Microsoft Entra, Microsoft Purview, Microsoft Sentinel and Power BI are trademarks of the Microsoft group of companies. All other trademarks are the property of their respective owners.",
+  "taxonomy": {
+    "Prepare the data": [
+      "Get or connect to data",
+      "Profile and clean the data",
+      "Transform and load the data"
+    ],
+    "Model the data": [
+      "Design and implement a data model",
+      "Create model calculations by using DAX",
+      "Optimize model performance"
+    ],
+    "Visualize and analyze the data": [
+      "Create reports",
+      "Enhance reports for usability and storytelling",
+      "Identify patterns and trends"
+    ],
+    "Manage and secure Power BI": [
+      "Create and manage workspaces and assets",
+      "Secure and govern Power BI items"
+    ]
+  },
+  "weights": {
+    "Prepare the data": {
+      "min": 25,
+      "max": 30
+    },
+    "Model the data": {
+      "min": 25,
+      "max": 30
+    },
+    "Visualize and analyze the data": {
+      "min": 25,
+      "max": 30
+    },
+    "Manage and secure Power BI": {
+      "min": 15,
+      "max": 20
+    }
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": true,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [],
+  "uncovered_item_types": [
+    "active screen",
+    "build list",
+    "case study",
+    "drag and drop",
+    "hot area",
+    "lab",
+    "yes/no question"
+  ],
+  "exam_mode": {
+    "questions": 60,
+    "minutes": 100,
+    "note": "Microsoft does not publish the PL-300 question count: the real exam is 100 minutes, and Microsoft's pages say most of its exams have 40 to 60 questions."
+  },
+  "verified_outline": "Study guide for Exam PL-300: Microsoft Power BI Data Analyst, skills measured as of April 20, 2026",
+  "verified_on": "2026-10-31",
+  "next_review": "2027-10-31"
+}
