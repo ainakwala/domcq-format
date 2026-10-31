@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "cima-f2",
+  "set": "F2: Advanced Financial Reporting practice – Comprehensive Set 1",
+  "questions": [
+    {
+      "stem": "A company wishes to raise long-term finance for a major expansion. The directors want funding that does not require mandatory interest payments or repayment of principal at a specified maturity date. They are prepared to accept dilution of existing shareholders' ownership. Which source of finance best meets these requirements?",
+      "options": [
+        "A five-year secured bank loan",
+        "An issue of ordinary shares",
+        "An issue of redeemable preference shares",
+        "A seven-year fixed-coupon bond"
+      ],
+      "answer": "B",
+      "explanation": "Ordinary shares provide permanent equity capital without contractual interest payments or a mandatory redemption date. Dividends are generally discretionary, although issuing new shares dilutes existing shareholders' ownership and potentially their control. Debt and redeemable preference shares normally involve contractual financing obligations.",
+      "topic": "Financing Capital Projects",
+      "subtopic": "Types and sources of long-term funds",
+      "difficulty": "easy",
+      "source": "CIMA F2: Financing Capital Projects – Types and sources of long-term funds"
+    },
+    {
+      "stem": "A company's ordinary shares currently trade at $80 each. The dividend just paid was $4 per share, and dividends are expected to grow at a constant annual rate of 5% indefinitely. Assuming the dividend growth model applies, what is the company's cost of ordinary equity?",
+      "options": [
+        "9.75%",
+        "10.00%",
+        "10.25%",
+        "10.50%"
+      ],
+      "answer": "C",
+      "explanation": "The dividend growth model calculates the cost of equity as the next expected dividend divided by the current share price, plus the growth rate. The next dividend is $4 × 1.05 = $4.20. Therefore, the cost of equity is ($4.20 ÷ $80) + 5% = 10.25%.",
+      "topic": "Financing Capital Projects",
+      "subtopic": "Cost of long-term funds",
+      "difficulty": "medium",
+      "source": "CIMA F2: Cost of long-term funds – Dividend growth valuation model"
+    },
+    {
+      "stem": "A company has ordinary equity with a market value of $9 million and long-term debt with a market value of $6 million. Its cost of equity is 13%, and its before-tax cost of debt is 8%. The corporate income tax rate is 25%, and interest is fully tax deductible. Using market-value weights, what is the company's weighted average cost of capital?",
+      "options": [
+        "9.3%",
+        "9.8%",
+        "11.0%",
+        "10.2%"
+      ],
+      "answer": "D",
+      "explanation": "The equity weight is $9 million ÷ $15 million = 60%, while the debt weight is 40%. The after-tax cost of debt is 8% × (1 − 0.25) = 6%. WACC is therefore (60% × 13%) + (40% × 6%) = 10.2%.",
+      "topic": "Financing Capital Projects",
+      "subtopic": "Cost of long-term funds",
+      "difficulty": "medium",
+      "source": "CIMA F2: Cost of long-term funds – Weighted average cost of capital"
+    },
+    {
+      "stem": "A consulting company enters into a five-year contract to provide routine monthly support services. The customer simultaneously receives and consumes the benefits of each month's services as they are performed. Under IFRS 15, when should the consulting company recognise revenue?",
+      "options": [
+        "Over time as the monthly services are provided",
+        "When the customer pays the final contract invoice",
+        "When the entire five-year contract has been completed",
+        "When both parties initially sign the service agreement"
+      ],
+      "answer": "A",
+      "explanation": "IFRS 15 requires revenue recognition over time when the customer simultaneously receives and consumes the benefits of the entity's performance. The consulting services satisfy this criterion because the customer benefits as each month's work is performed. Revenue should therefore reflect progress in satisfying the performance obligation.",
+      "topic": "Financial Reporting Standards",
+      "subtopic": "Relevant financial reporting standards for revenue, leases, financial instruments, intangible assets and provisions",
+      "difficulty": "easy",
+      "source": "IFRS 15 Revenue from Contracts with Customers, paragraph 35(a)"
+    },
+    {
+      "stem": "At the commencement of a three-year property lease, a lessee calculates the present value of unpaid lease payments as $136,000. The lessee also incurs $4,000 of initial direct costs and recognises a $10,000 provision representing the present value of its contractual obligation to restore the property. There are no lease incentives or payments made before commencement. Under IFRS 16, what is the initial cost of the right-of-use asset?",
+      "options": [
+        "$136,000",
+        "$150,000",
+        "$140,000",
+        "$146,000"
+      ],
+      "answer": "B",
+      "explanation": "The initial cost of a right-of-use asset includes the initial lease liability, initial direct costs and the estimated cost of required restoration obligations. Therefore, the recognised asset is $136,000 + $4,000 + $10,000 = $150,000. The restoration obligation is also recognised separately as a liability.",
+      "topic": "Financial Reporting Standards",
+      "subtopic": "Relevant financial reporting standards for revenue, leases, financial instruments, intangible assets and provisions",
+      "difficulty": "medium",
+      "source": "IFRS 16 Leases, paragraphs 23–25"
+    },
+    {
+      "stem": "An entity purchases a debt instrument and manages it within a business model whose objective is to hold financial assets to collect contractual cash flows. The instrument's contractual cash flows consist solely of payments of principal and interest on specified dates. The entity has not designated the instrument at fair value through profit or loss. Under IFRS 9, how should the instrument be classified?",
+      "options": [
+        "Fair value through other comprehensive income",
+        "Fair value through profit or loss",
+        "Amortised cost",
+        "Cost without subsequent interest recognition"
+      ],
+      "answer": "C",
+      "explanation": "IFRS 9 requires a debt financial asset to be measured at amortised cost when it is held to collect contractual cash flows and those cash flows are solely payments of principal and interest. Both conditions are satisfied in this scenario. Subsequent measurement generally uses the effective interest method and includes applicable expected credit loss requirements.",
+      "topic": "Financial Reporting Standards",
+      "subtopic": "Relevant financial reporting standards for revenue, leases, financial instruments, intangible assets and provisions",
+      "difficulty": "medium",
+      "source": "IFRS 9 Financial Instruments, paragraph 4.1.2"
+    },
+    {
+      "stem": "A manufacturing company is preparing its annual financial statements under IFRS Accounting Standards. Its activities include research into new technology, development of products, potential litigation and planned future operations. Which TWO accounting treatments comply with IAS 38 and IAS 37? Choose TWO.",
+      "options": [
+        "Expense expenditure incurred during the research phase of a new technology project.",
+        "Recognise a provision for a possible legal obligation when the probability of an outflow is remote.",
+        "Recognise a provision for forecast future operating losses once the annual budget is approved.",
+        "Capitalise development expenditure from the date all IAS 38 recognition criteria are demonstrated."
+      ],
+      "answer": "AD",
+      "explanation": "IAS 38 requires expenditure in the research phase to be expensed, while development expenditure must be capitalised once all specified recognition conditions are met. IAS 37 does not permit provisions for future operating losses because no present obligation exists. A possible obligation with only a remote likelihood of an outflow is not recognised as a provision.",
+      "topic": "Financial Reporting Standards",
+      "subtopic": "Relevant financial reporting standards for revenue, leases, financial instruments, intangible assets and provisions",
+      "difficulty": "medium",
+      "source": "IAS 38 Intangible Assets, paragraphs 54 and 57; IAS 37 Provisions, paragraphs 14 and 63"
+    },
+    {
+      "stem": "A parent company presents its consolidated financial statements in US dollars. Its foreign subsidiary has the euro as its functional currency, and the euro is not the currency of a hyperinflationary economy. During the year, the subsidiary earned revenue of €400,000 evenly throughout the period and had trade receivables of €100,000 at year-end. Exchange rates were €1 = $1.10 at the beginning of the year, $1.15 on average during the year and $1.20 at year-end. The average rate appropriately approximates transaction-date rates. Which translation treatment is correct under IAS 21?",
+      "options": [
+        "Revenue of $460,000, receivables of $115,000, and translation differences recognised in other comprehensive income.",
+        "Revenue of $460,000, receivables of $120,000, and translation differences recognised in other comprehensive income.",
+        "Revenue of $480,000, receivables of $120,000, and translation differences recognised in profit or loss.",
+        "Revenue of $440,000, receivables of $110,000, and translation differences recognised in other comprehensive income."
+      ],
+      "answer": "B",
+      "explanation": "Revenue is translated using transaction-date exchange rates or an appropriate average rate, giving €400,000 × $1.15 = $460,000. Assets and liabilities are translated at the closing rate, giving receivables of €100,000 × $1.20 = $120,000. The resulting translation differences for the foreign operation are recognised in other comprehensive income.",
+      "topic": "Financial Reporting Standards",
+      "subtopic": "Relevant financial reporting standards for group accounts",
+      "difficulty": "hard",
+      "source": "IAS 21 The Effects of Changes in Foreign Exchange Rates, paragraphs 39–41"
+    },
+    {
+      "stem": "Parent Ltd owns 70% of the voting shares of Subsidiary Ltd and has the current ability to direct its relevant activities. Parent Ltd is exposed to variable returns from its investment and can use its power to affect those returns. Parent Ltd is not an investment entity. How should the subsidiary's assets and liabilities be presented in the consolidated statement of financial position?",
+      "options": [
+        "Include 100% of the subsidiary's assets and liabilities and recognise a 30% non-controlling interest.",
+        "Include 70% of the subsidiary's assets and liabilities without recognising a non-controlling interest.",
+        "Present the investment as a single asset accounted for using the equity method.",
+        "Present the investment as a financial asset measured at fair value through profit or loss."
+      ],
+      "answer": "A",
+      "explanation": "IFRS 10 requires a parent that controls a subsidiary to consolidate its assets and liabilities in full. The 30% interest owned by other shareholders is presented as a non-controlling interest within equity. Proportionate consolidation is not used for subsidiaries.",
+      "topic": "Group Accounts",
+      "subtopic": "Group accounts based on IFRS",
+      "difficulty": "easy",
+      "source": "IFRS 10 Consolidated Financial Statements, paragraphs 19–22 and B86"
+    },
+    {
+      "stem": "On 1 July, Parent Ltd acquired 80% of Subsidiary Ltd. The acquisition involved cash consideration of $900,000 and contingent consideration with an acquisition-date fair value of $100,000. The fair value of the non-controlling interest was $220,000, and the fair value of the subsidiary's identifiable net assets was $1,050,000. Assuming the full goodwill method is used and all relevant deferred tax effects have already been reflected in the net assets, what goodwill should be recognised at acquisition?",
+      "options": [
+        "$70,000",
+        "$150,000",
+        "$170,000",
+        "$270,000"
+      ],
+      "answer": "C",
+      "explanation": "Under the full goodwill method, goodwill equals the fair value of consideration transferred plus the fair value of the non-controlling interest, less the fair value of identifiable net assets. The consideration includes the acquisition-date fair value of contingent consideration. Goodwill is therefore $900,000 + $100,000 + $220,000 − $1,050,000 = $170,000.",
+      "topic": "Group Accounts",
+      "subtopic": "Group accounts based on IFRS",
+      "difficulty": "hard",
+      "source": "IFRS 3 Business Combinations, paragraphs 19 and 32–33"
+    },
+    {
+      "stem": "Parent Ltd sells inventory to its 80%-owned subsidiary for $150,000. The transfer price includes a mark-up of 25% on the original cost to Parent Ltd. At the reporting date, 40% of the transferred inventory remains unsold to customers outside the group. Ignoring tax effects, by how much should consolidated inventory be reduced to eliminate unrealised profit?",
+      "options": [
+        "$10,000",
+        "$12,000",
+        "$15,000",
+        "$30,000"
+      ],
+      "answer": "B",
+      "explanation": "A 25% mark-up on cost means the original inventory cost was $150,000 ÷ 1.25 = $120,000. The total intragroup profit was $30,000, of which 40% remains unrealised. Consolidated inventory must therefore be reduced by $12,000, eliminating profit not yet earned from an external customer.",
+      "topic": "Group Accounts",
+      "subtopic": "Group accounts based on IFRS",
+      "difficulty": "medium",
+      "source": "IFRS 10 Consolidated Financial Statements, paragraph B86(c)"
+    },
+    {
+      "stem": "Investor Ltd acquired a 30% interest in Associate Ltd for $500,000 and exercises significant influence over its financial and operating policy decisions. During the following reporting year, Associate Ltd earned profit of $150,000 and paid total dividends of $50,000 to all shareholders. There were no other comprehensive income items, impairment losses or fair value adjustments. Under the equity method, what is the investment's year-end carrying amount?",
+      "options": [
+        "$485,000",
+        "$515,000",
+        "$545,000",
+        "$530,000"
+      ],
+      "answer": "D",
+      "explanation": "Under the equity method, the carrying amount increases by the investor's share of the associate's profit and decreases by dividends received. Investor Ltd recognises 30% × $150,000 = $45,000 of profit and 30% × $50,000 = $15,000 of dividends. The closing investment balance is $500,000 + $45,000 − $15,000 = $530,000.",
+      "topic": "Group Accounts",
+      "subtopic": "Group accounts based on IFRS",
+      "difficulty": "medium",
+      "source": "IAS 28 Investments in Associates and Joint Ventures, paragraph 10"
+    },
+    {
+      "stem": "A parent company prepares consolidated financial statements under IFRS Accounting Standards. One of its subsidiaries has non-controlling interests that are material to the reporting group. Under IFRS 12, which TWO items must be disclosed in relation to that subsidiary? Choose TWO.",
+      "options": [
+        "The proportion of ownership interests held by non-controlling interests.",
+        "A three-year forecast of dividends payable to non-controlling shareholders.",
+        "Summarised financial information for the subsidiary before intragroup eliminations.",
+        "The identity and individual remuneration of every non-controlling shareholder."
+      ],
+      "answer": "AC",
+      "explanation": "IFRS 12 requires information enabling users to understand the interests that non-controlling shareholders have in material subsidiaries. This includes their ownership proportion and summarised financial information, which is presented before intragroup eliminations. Forecast dividend schedules and individual shareholder remuneration are not general requirements of IFRS 12.",
+      "topic": "Group Accounts",
+      "subtopic": "Additional disclosure issues related to the group accounts",
+      "difficulty": "hard",
+      "source": "IFRS 12 Disclosure of Interests in Other Entities, paragraph 12 and paragraphs B10–B11"
+    },
+    {
+      "stem": "An organisation invests heavily in employee training, professional development and specialist technical skills. Management wishes to explain how this investment contributes to long-term value creation using the six capitals in the Integrated Reporting Framework. Which capital is most directly enhanced?",
+      "options": [
+        "Intellectual capital",
+        "Human capital",
+        "Social and relationship capital",
+        "Manufactured capital"
+      ],
+      "answer": "B",
+      "explanation": "Human capital includes people's competencies, capabilities, experience and motivation to innovate. Employee education and professional development increase these resources and support the organisation's ability to create value. Intellectual capital primarily concerns organisational knowledge-based intangibles such as systems, procedures and intellectual property.",
+      "topic": "Integrated Reporting and Sustainability Reporting",
+      "subtopic": "The six capitals of integrated reporting",
+      "difficulty": "easy",
+      "source": "International Integrated Reporting Framework – The six capitals"
+    },
+    {
+      "stem": "A listed manufacturing company is preparing climate-related financial disclosures in accordance with IFRS S2. Its management has identified material physical and transition risks affecting the business. Which TWO types of information are required by the standard? Choose TWO.",
+      "options": [
+        "Information about how governance bodies oversee climate-related risks and opportunities.",
+        "Details of every minor environmental issue regardless of its financial materiality.",
+        "A mandatory net-zero emissions target prescribed uniformly for every reporting entity.",
+        "Information about climate-related performance metrics, targets and progress towards those targets."
+      ],
+      "answer": "AD",
+      "explanation": "IFRS S2 requires disclosures about governance, strategy, risk management, and metrics and targets relating to climate-related risks and opportunities. These disclosures help users assess the potential effects on an entity's prospects and its progress in managing climate-related matters. The standard does not prescribe a universal net-zero target or require disclosure of every immaterial environmental issue.",
+      "topic": "Integrated Reporting and Sustainability Reporting",
+      "subtopic": "Sustainability reporting",
+      "difficulty": "medium",
+      "source": "IFRS S2 Climate-related Disclosures – Core content: Governance, strategy, risk management, metrics and targets"
+    },
+    {
+      "stem": "A company's statement of financial position reports current assets of $450,000 and current liabilities of $300,000 at the reporting date. What is the company's current ratio?",
+      "options": [
+        "0.67:1",
+        "1.33:1",
+        "1.50:1",
+        "2.00:1"
+      ],
+      "answer": "C",
+      "explanation": "The current ratio measures the relationship between current assets and current liabilities. It is calculated as $450,000 ÷ $300,000 = 1.50:1. This indicates that the company reports $1.50 of current assets for every $1 of current liabilities, although it does not establish whether those assets can readily be converted into cash.",
+      "topic": "Working with Financial Statements",
+      "subtopic": "Financial statements",
+      "difficulty": "easy",
+      "source": "CIMA F2: Working with Financial Statements – Liquidity ratios"
+    },
+    {
+      "stem": "A retail company has calculated the following working capital ratios for its latest financial year: inventory holding period of 70 days, trade receivables collection period of 50 days and trade payables payment period of 45 days. Assuming the ratios are calculated consistently, what is the company's cash operating cycle?",
+      "options": [
+        "75 days",
+        "115 days",
+        "120 days",
+        "165 days"
+      ],
+      "answer": "A",
+      "explanation": "The cash operating cycle measures the time between paying suppliers and collecting cash from customers. It equals inventory days plus receivables days minus payables days. Therefore, the cycle is 70 + 50 − 45 = 75 days; shortening this cycle can reduce working capital financing needs.",
+      "topic": "Working with Financial Statements",
+      "subtopic": "Financial statements",
+      "difficulty": "medium",
+      "source": "CIMA F2: Working with Financial Statements – Working capital and operating cycle analysis"
+    },
+    {
+      "stem": "Two manufacturing companies report returns on capital employed of 14% and 18%. Both operate in similar markets, but one company periodically revalues its properties while the other continues to report comparable properties at historical cost less depreciation. Which limitation of ratio analysis is particularly relevant when comparing their reported returns?",
+      "options": [
+        "Return on capital employed excludes the effects of asset carrying values.",
+        "Return on capital employed measures liquidity rather than profitability.",
+        "Return on capital employed is unaffected by accounting policy differences.",
+        "Return on capital employed can differ because asset valuations change reported capital employed."
+      ],
+      "answer": "D",
+      "explanation": "Different accounting policies and asset measurement bases can reduce the comparability of financial ratios. Revaluing properties may increase reported capital employed and consequently reduce ROCE, even if operating performance is unchanged. Analysts should assess accounting policy differences before drawing conclusions from comparisons.",
+      "topic": "Working with Financial Statements",
+      "subtopic": "The limitations of the tools used for interpreting financial statements",
+      "difficulty": "easy",
+      "source": "CIMA F2: Working with Financial Statements – Limitations of ratio analysis"
+    },
+    {
+      "stem": "A company's operating profit margin declined from 12% in the previous year to 10% in the current year. Over the same period, its capital turnover, measured as revenue divided by average capital employed, increased from 1.4 times to 1.8 times. Using the relationship between operating profit margin, capital turnover and return on capital employed, which statement correctly describes the change in ROCE?",
+      "options": [
+        "ROCE fell from 16.8% to 14.0% because the operating margin declined.",
+        "ROCE rose from 16.8% to 18.0% because higher capital turnover outweighed the lower margin.",
+        "ROCE rose from 12.0% to 18.0% because the capital turnover ratio increased.",
+        "ROCE fell from 18.0% to 16.8% because capital employed became less productive."
+      ],
+      "answer": "B",
+      "explanation": "ROCE can be decomposed into operating profit margin multiplied by capital turnover. The previous year's ROCE was 12% × 1.4 = 16.8%, while the current year's ROCE is 10% × 1.8 = 18.0%. Although profitability per dollar of revenue declined, the company generated sufficiently more revenue per dollar of capital employed to improve its overall return by 1.2 percentage points.",
+      "topic": "Working with Financial Statements",
+      "subtopic": "Actions based on insights from the interpretation of financial statements",
+      "difficulty": "hard",
+      "source": "CIMA F2: Working with Financial Statements – ROCE decomposition and performance interpretation"
+    },
+    {
+      "stem": "A wholesale distributor reports annual revenue growth of 6%, but its trade receivables collection period has increased from 45 days to 78 days. Operating cash flow has declined, and the percentage of receivables written off as uncollectible has risen. Management wants to improve liquidity and reduce the risk of further bad debts. Which action should the finance team recommend?",
+      "options": [
+        "Extend credit periods to all customers to encourage additional sales growth.",
+        "Increase depreciation charges to reduce the company's reported operating profit.",
+        "Review customer credit limits, aged receivables and collection procedures.",
+        "Increase inventory purchases to raise the reported balance of current assets."
+      ],
+      "answer": "C",
+      "explanation": "The increase in receivables days, together with weaker operating cash flow and higher write-offs, indicates deterioration in collection performance and credit quality. Reviewing credit limits, overdue balances and collection procedures directly addresses these risks. The other actions do not resolve the underlying receivables problem and may worsen liquidity.",
+      "topic": "Working with Financial Statements",
+      "subtopic": "Actions based on insights from the interpretation of financial statements",
+      "difficulty": "medium",
+      "source": "CIMA F2: Working with Financial Statements – Interpretation of liquidity and working capital ratios"
+    }
+  ]
+}
