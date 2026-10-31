@@ -1,0 +1,325 @@
+{
+  "format": "domcq/1",
+  "exam": "pance",
+  "set": "PANCE practice – Comprehensive Clinical Board Simulation",
+  "questions": [
+    {
+      "stem": "A 74-year-old male presents to the clinic reporting progressive exertional shortness of breath, lightheadedness, and two recent episodes of presyncope while walking uphill. Physical examination reveals a delayed and diminished carotid arterial pulse and a harsh, crescendo-decrescendo systolic murmur heard loudest at the right second intercostal space that radiates to the carotid arteries. Which of the following is the most likely diagnosis?",
+      "options": [
+        "Aortic regurgitation",
+        "Tricuspid regurgitation",
+        "Aortic stenosis",
+        "Pulmonic stenosis",
+        "Mitral valve prolapse"
+      ],
+      "answer": "C",
+      "explanation": "Aortic stenosis classically presents with the triad of exertional dyspnea, angina, and syncope due to fixed left ventricular outflow tract obstruction. Physical examination characteristically reveals a harsh crescendo-decrescendo systolic murmur at the right second intercostal space with carotid radiation, alongside pulsus parvus et tardus (delayed, weak carotid pulses). Echocardiography confirms the diagnosis and quantifies the aortic valve area and transvalvular gradient.",
+      "topic": "Cardiovascular System",
+      "subtopic": "Valvular disorders",
+      "difficulty": "medium",
+      "source": "NCCPA Content Blueprint: Cardiovascular System - Valvular disorders"
+    },
+    {
+      "stem": "A 63-year-old male presents to the emergency department with acute substernal crushing chest pain, diaphoresis, and nausea that began one hour ago. His electrocardiogram demonstrates 3-mm ST-segment elevation in leads II, III, and aVF, with reciprocal ST-segment depression in leads I and aVL. Shortly after administration of sublingual nitroglycerin, his blood pressure drops from 124/78 mm Hg to 78/48 mm Hg, and his lungs remain clear to auscultation bilaterally. Which of the following coronary arteries is most likely occluded?",
+      "options": [
+        "Circumflex coronary artery",
+        "Left anterior descending artery",
+        "Left main coronary artery",
+        "Obtuse marginal artery",
+        "Right coronary artery"
+      ],
+      "answer": "E",
+      "explanation": "ST-segment elevation in leads II, III, and aVF indicates an acute inferior myocardial infarction, which is caused by occlusion of the right coronary artery in approximately 85% to 90% of individuals. Inferior infarctions frequently involve the right ventricle, making cardiac output dependent on adequate preload; administration of venodilators like nitrates causes sudden venous pooling and severe hypotension. Initial management of right ventricular infarction centers on volume expansion with isotonic fluids while avoiding nitrates and diuretics.",
+      "topic": "Cardiovascular System",
+      "subtopic": "Coronary artery disease",
+      "difficulty": "hard",
+      "source": "NCCPA Content Blueprint: Cardiovascular System - Coronary artery disease"
+    },
+    {
+      "stem": "A 34-year-old female presents to the clinic with persistent skin lesions on her elbows and knees that have worsened over the past three months. Physical examination reveals well-demarcated, erythematous plaques covered by coarse, silvery-white scales over the extensor surfaces of both upper and lower extremities. Mechanical removal of a scale produces punctate bleeding spots, and examination of the fingernails reveals small pinpoint pits. Which of the following is the most likely diagnosis?",
+      "options": [
+        "Atopic dermatitis",
+        "Plaque psoriasis",
+        "Pityriasis rosea",
+        "Lichen planus",
+        "Seborrheic dermatitis"
+      ],
+      "answer": "B",
+      "explanation": "Plaque psoriasis is an immune-mediated chronic inflammatory skin disease characterized by well-demarcated erythematous plaques with silvery micaceous scales on extensor surfaces. The elicitation of pinpoint bleeding following scale removal represents Auspitz sign, and nail changes like pitting and oil-drop discoloration are classic associated features. Mild to moderate localized disease is typically managed with high-potency topical corticosteroids and topical vitamin D analogs.",
+      "topic": "Dermatologic System",
+      "subtopic": "Papulosquamous disorders",
+      "difficulty": "easy",
+      "source": "NCCPA Content Blueprint: Dermatologic System - Papulosquamous disorders"
+    },
+    {
+      "stem": "A 42-year-old female presents with progressive fatigue, unintentional weight loss, generalized weakness, and salt cravings over the past four months. Physical examination reveals blood pressure of 88/56 mm Hg with an orthostatic drop, along with noticeable hyperpigmentation of the buccal mucosa, palmar creases, and recent surgical scars. Serum laboratory evaluation reveals a sodium level of 128 mEq/L and a potassium level of 5.8 mEq/L. Which of the following is the most appropriate initial diagnostic study?",
+      "options": [
+        "24-hour urinary free cortisol excretion test",
+        "High-dose dexamethasone suppression test",
+        "Low-dose dexamethasone suppression test",
+        "Synthetic ACTH (cosyntropin) stimulation test",
+        "Overnight metyrapone stimulation test"
+      ],
+      "answer": "D",
+      "explanation": "The clinical presentation of hypotension, mucosal hyperpigmentation, hyponatremia, and hyperkalemia points directly to primary adrenal insufficiency (Addison disease). The standard confirmatory test is the synthetic ACTH (cosyntropin) stimulation test, wherein a blunted cortisol response (<18 mcg/dL) confirms adrenocortical failure. Once established, lifelong replacement therapy with oral glucocorticoids and mineralocorticoids is required.",
+      "topic": "Endocrine System",
+      "subtopic": "Adrenal disorders",
+      "difficulty": "medium",
+      "source": "NCCPA Content Blueprint: Endocrine System - Adrenal disorders"
+    },
+    {
+      "stem": "A 68-year-old female presents to the emergency department reporting acute, severe right eye pain accompanied by a severe headache, nausea, and vomiting that began two hours ago while watching a movie in a dark theater. She describes seeing rainbow halos around overhead lights and severely blurred vision in the right eye. Physical examination reveals an injected conjunctiva, a cloudy, steamy cornea, and a mid-dilated, nonreactive right pupil. Which of the following is the most likely diagnosis?",
+      "options": [
+        "Acute angle-closure glaucoma",
+        "Central retinal artery occlusion",
+        "Central retinal vein occlusion",
+        "Acute anterior uveitis",
+        "Primary open-angle glaucoma"
+      ],
+      "answer": "A",
+      "explanation": "Acute angle-closure glaucoma develops when the peripheral iris blocks aqueous humor egress through the trabecular meshwork, precipitating rapid and severe elevation of intraocular pressure. Symptoms are frequently provoked by pupillary dilation in dim light and include severe eye pain, headache, nausea, cloudy cornea, and a mid-dilated sluggish pupil. Emergent treatment aims to lower intraocular pressure with topical and systemic pressure-reducing agents followed by definitive laser peripheral iridotomy.",
+      "topic": "Eyes, Ears, Nose, and Throat",
+      "subtopic": "Eye disorders",
+      "difficulty": "easy",
+      "source": "NCCPA Content Blueprint: Eyes, Ears, Nose, and Throat - Eye disorders"
+    },
+    {
+      "stem": "A 56-year-old male presents to the emergency department with a two-day history of right upper quadrant abdominal pain, shaking chills, and yellowing of the eyes. Vital signs include temperature 39.2°C (102.6°F), blood pressure 92/58 mm Hg, heart rate 116 beats/min, and respiratory rate 22 breaths/min. On physical examination, he appears lethargic, mildly confused, and deeply jaundiced, with marked tenderness in the right upper quadrant. Laboratory studies show leukocytosis and hyperbilirubinemia. Which of the following is the most appropriate next step in management?",
+      "options": [
+        "Administration of high-dose oral ursodeoxycholic acid",
+        "Elective laparoscopic cholecystectomy within forty-eight hours",
+        "Emergent endoscopic retrograde cholangiopancreatography",
+        "Percutaneous transhepatic gallbladder aspiration alone",
+        "Placement of an elective transjugular intrahepatic portosystemic shunt"
+      ],
+      "answer": "C",
+      "explanation": "This patient exhibits Reynolds pentad (fever, right upper quadrant pain, jaundice, hypotension, and altered mental status), indicating acute suppurative cholangitis with sepsis. In addition to broad-spectrum intravenous antibiotics and fluid resuscitation, emergent biliary decompression via endoscopic retrograde cholangiopancreatography (ERCP) is lifesaving. Elective procedures or noninvasive medications are insufficient in the setting of acute biliary sepsis.",
+      "topic": "Gastrointestinal System/Nutrition",
+      "subtopic": "Biliary disorders",
+      "difficulty": "medium",
+      "source": "NCCPA Content Blueprint: Gastrointestinal System/Nutrition - Biliary disorders"
+    },
+    {
+      "stem": "A 27-year-old male presents to the clinic with a six-week history of recurrent crampy lower abdominal pain, tenesmus, and six to eight episodes per day of small-volume, bloody diarrhea. Flexible sigmoidoscopy reveals continuous, circumferential mucosal inflammation characterized by erythema, friability, and superficial ulcerations extending proximally from the anal verge. Histopathologic examination of biopsies demonstrates crypt abscesses confined to the mucosal and submucosal layers without granulomas. Which of the following is the most likely diagnosis?",
+      "options": [
+        "Celiac sprue",
+        "Crohn disease",
+        "Infectious colitis",
+        "Microscopic colitis",
+        "Ulcerative colitis"
+      ],
+      "answer": "E",
+      "explanation": "Ulcerative colitis is an inflammatory bowel disease restricted to the mucosa and submucosa of the colon, beginning continuously at the rectum and extending proximally without skip areas. Typical histological hallmarks include architectural crypt distortion and crypt abscesses, while transmural involvement and granulomas are distinctly absent. In contrast, Crohn disease features transmural inflammation, cobblestoning, skip lesions, and noncaseating granulomas.",
+      "topic": "Gastrointestinal System/Nutrition",
+      "subtopic": "Colorectal disorders",
+      "difficulty": "easy",
+      "source": "NCCPA Content Blueprint: Gastrointestinal System/Nutrition - Colorectal disorders"
+    },
+    {
+      "stem": "A 16-year-old male presents to the emergency department with sudden, severe left scrotal pain that awoke him from sleep two hours ago, accompanied by nausea and two episodes of nonbilious vomiting. Physical examination reveals an exquisitely tender, swollen, high-riding left testicle with a transverse lie. The left cremasteric reflex is absent, and elevation of the left hemiscrotum provides no relief of pain. Which of the following is the most appropriate next step in management?",
+      "options": [
+        "Administer intramuscular ceftriaxone and oral doxycycline",
+        "Emergent surgical exploration and bilateral orchidopexy",
+        "Obtain an elective outpatient scrotal computed tomography scan",
+        "Perform manual testicular elevation and observe for four hours",
+        "Prescribe oral ciprofloxacin and schedule a one-week follow-up"
+      ],
+      "answer": "B",
+      "explanation": "Testicular torsion is a surgical emergency caused by spermatic cord rotation that cuts off testicular vascular perfusion, evidenced by a high-riding transverse testicle, absent cremasteric reflex, and negative Prehn sign. Surgical exploration must take place within six hours to maximize testicular viability, and bilateral orchidopexy is performed because the anatomical bell-clapper deformity is typically bilateral. Antibiotic regimens treat epididymitis rather than mechanical testicular ischemia.",
+      "topic": "Genitourinary System",
+      "subtopic": "Testicular disorders",
+      "difficulty": "hard",
+      "source": "NCCPA Content Blueprint: Genitourinary System - Testicular disorders"
+    },
+    {
+      "stem": "A 65-year-old female presents with fatigue, lightheadedness, and bilateral lower extremity tingling and numbness over the past six months. Laboratory evaluation reveals a hemoglobin of 8.9 g/dL, a mean corpuscular volume (MCV) of 114 fL, and hypersegmented neutrophils on peripheral blood smear. Which of the following laboratory findings best differentiates vitamin B12 (cobalamin) deficiency from folate deficiency in this patient?",
+      "options": [
+        "Decreased reticulocyte production index",
+        "Elevated serum total homocysteine level",
+        "Increased serum indirect bilirubin level",
+        "Markedly elevated serum methylmalonic acid level",
+        "Reduced serum iron and ferritin concentration"
+      ],
+      "answer": "D",
+      "explanation": "Both vitamin B12 and folate deficiencies cause macrocytic megaloblastic anemia with hypersegmented neutrophils and elevated serum homocysteine levels. Vitamin B12 is specifically required as a cofactor for the conversion of methylmalonyl-CoA to succinyl-CoA, so its deficiency results in elevated serum methylmalonic acid (MMA) levels alongside neurologic pathology. In folate deficiency, serum MMA concentrations remain completely normal.",
+      "topic": "Hematologic System",
+      "subtopic": "Cytopenias",
+      "difficulty": "medium",
+      "source": "NCCPA Content Blueprint: Hematologic System - Cytopenias"
+    },
+    {
+      "stem": "A 38-year-old male presents to an urgent care clinic in Connecticut in July with a rash on his right thigh that appeared five days ago, accompanied by mild fatigue, malaise, and low-grade fever. He recalls hiking in a wooded area two weeks earlier. Physical examination reveals an expanding 9-cm erythematous annular plaque with central clearing on the right posterior thigh. Which of the following is the most appropriate initial treatment?",
+      "options": [
+        "Oral doxycycline for ten days",
+        "Intravenous ceftriaxone for twenty-eight days",
+        "Oral ciprofloxacin for fourteen days",
+        "Oral trimethoprim-sulfamethoxazole for ten days",
+        "Intravenous vancomycin for fourteen days"
+      ],
+      "answer": "A",
+      "explanation": "Erythema migrans is the pathognomonic cutaneous manifestation of early localized Lyme disease caused by the spirochete Borrelia burgdorferi. In endemic geographic areas, the presence of erythema migrans warrants immediate clinical treatment without waiting for two-tier serologic testing, which often yields false-negative results in early infection. Oral doxycycline for 10 to 14 days is the first-line regimen for nonpregnant adult patients.",
+      "topic": "Infectious Diseases",
+      "subtopic": "Spirochetal diseases",
+      "difficulty": "medium",
+      "source": "NCCPA Content Blueprint: Infectious Diseases - Spirochetal diseases"
+    },
+    {
+      "stem": "A 21-year-old college student is brought to the emergency department due to sudden onset of high fever, severe headache, confusion, and neck stiffness that developed over the past twelve hours. Physical examination reveals a temperature of 39.4°C (103°F), petechial lesions across the trunk and extremities, and positive Kernig and Brudzinski signs. A lumbar puncture is performed after computed tomography of the head is cleared. Which of the following cerebrospinal fluid analysis patterns is most consistent with this patient's condition?",
+      "options": [
+        "Lymphocytic pleocytosis, normal glucose, and normal protein",
+        "Lymphocytic pleocytosis, markedly reduced glucose, and markedly elevated protein",
+        "Neutrophilic pleocytosis, markedly reduced glucose, and markedly elevated protein",
+        "Normal leukocyte count, normal glucose, and markedly elevated gamma globulin"
+      ],
+      "answer": "C",
+      "explanation": "Acute community-acquired bacterial meningitis classically produces cerebrospinal fluid marked by neutrophilic pleocytosis (typically >80% polymorphonuclear cells), markedly decreased glucose (<40 mg/dL or CSF:serum ratio <0.4), and elevated protein (>100 mg/dL). Viral meningitis typically presents with lymphocytic pleocytosis and normal glucose levels. Fungal and tuberculous meningitis exhibit lymphocytic predominance with reduced glucose.",
+      "topic": "Infectious Diseases",
+      "subtopic": "Bacterial diseases",
+      "difficulty": "hard",
+      "source": "NCCPA Content Blueprint: Infectious Diseases - Bacterial diseases"
+    },
+    {
+      "stem": "A 24-year-old male presents to the urgent care clinic following a fall onto his outstretched right hand during a basketball game yesterday. Physical examination reveals maximal localized tenderness over the anatomical snuffbox and with axial loading of the thumb, but no visible deformity or swelling. Standard posteroanterior and lateral radiographs of the right wrist demonstrate no evidence of an acute fracture or dislocation. Which of the following is the most appropriate next step in management?",
+      "options": [
+        "Application of an elastic bandage and immediate active range-of-motion exercises",
+        "Immobilization in a thumb spica splint and repeat radiographs in ten to fourteen days",
+        "Immediate referral to an orthopedic surgeon for emergent open reduction and fixation",
+        "Placement of a short-arm circular cast for twelve weeks without follow-up imaging",
+        "Prescription of oral nonsteroidal anti-inflammatory drugs and discharge without splinting"
+      ],
+      "answer": "B",
+      "explanation": "Tenderness in the anatomical snuffbox following a fall on an outstretched hand carries high clinical suspicion for a scaphoid fracture, even when initial radiographs appear normal. Because the scaphoid's blood supply enters distally and flows retrogradely, occult fractures carry substantial risk for nonunion and avascular necrosis if left unprotected. Standard care mandates immobilization in a thumb spica splint and repeating radiographs (or ordering MRI) in 10 to 14 days.",
+      "topic": "Musculoskeletal System",
+      "subtopic": "Upper extremity disorders",
+      "difficulty": "medium",
+      "source": "NCCPA Content Blueprint: Musculoskeletal System - Upper extremity disorders"
+    },
+    {
+      "stem": "A 54-year-old male presents to the clinic with severe, throbbing pain, warmth, erythema, and swelling of his right first metatarsophalangeal joint that woke him from sleep early this morning. He reports drinking several beers and eating a large steak dinner the previous evening. Arthrocentesis of the affected joint is performed to establish a definitive diagnosis. Which of the following synovial fluid analysis findings confirms the diagnosis?",
+      "options": [
+        "Gram-positive cocci in clusters with numerous degenerate neutrophils",
+        "Non-birefringent polygonal lipid inclusions with mild lymphocytosis",
+        "Positively birefringent, rhomboid-shaped calcium pyrophosphate crystals",
+        "Strongly birefringent, needle-shaped calcium oxalate crystal aggregates",
+        "Strongly negatively birefringent, needle-shaped monosodium urate crystals"
+      ],
+      "answer": "E",
+      "explanation": "Acute gouty arthritis classically affects the first metatarsophalangeal joint (podagra), triggered by dietary purine loads or alcohol intake that precipitate hyperuricemia. Polarized light microscopy of aspirated synovial fluid provides definitive confirmation by demonstrating needle-shaped monosodium urate crystals showing strong negative birefringence (yellow parallel to the compensator axis). In contrast, pseudogout is characterized by rhomboid-shaped crystals with weak positive birefringence.",
+      "topic": "Musculoskeletal System",
+      "subtopic": "Rheumatologic disorders",
+      "difficulty": "easy",
+      "source": "NCCPA Content Blueprint: Musculoskeletal System - Rheumatologic disorders"
+    },
+    {
+      "stem": "A 67-year-old male is evaluated for a six-month history of difficulty initiating movement, a soft voice, and a persistent resting tremor in his right hand described as \"pill-rolling\" that improves when reaching for objects. Physical examination demonstrates masked facial expressions, cogwheel rigidity in both upper extremities, and a slow, shuffling gait with decreased arm swing. Which of the following pathophysiologic mechanisms is primarily responsible for this patient's condition?",
+      "options": [
+        "Autoimmune destruction of postsynaptic nicotinic acetylcholine receptors",
+        "Demyelination of upper motor neuron axons within the lateral corticospinal tracts",
+        "Expansion of unstable cytosine-adenine-guanine trinucleotide repeats",
+        "Loss of dopaminergic neurons in the substantia nigra pars compacta",
+        "Progressive degeneration of lower motor neurons in the anterior horn"
+      ],
+      "answer": "D",
+      "explanation": "Parkinson disease is an idiopathic neurodegenerative movement disorder characterized by the cardinal motor features of resting tremor, bradykinesia, cogwheel rigidity, and postural instability. The primary neuropathology is the selective degeneration of dopamine-producing neurons within the substantia nigra pars compacta, disrupting basal ganglia motor circuits and producing cytoplasmic alpha-synuclein inclusions (Lewy bodies). Treatment strategies focus on restoring central dopaminergic activity using agents such as levodopa-carbidopa or dopamine agonists.",
+      "topic": "Neurologic System",
+      "subtopic": "Movement disorders",
+      "difficulty": "medium",
+      "source": "NCCPA Content Blueprint: Neurologic System - Movement disorders"
+    },
+    {
+      "stem": "A 28-year-old female is brought to the clinic by her family because of drastic behavioral changes over the past eight days. Her family reports that she has slept only one to two hours per night without feeling tired, has spent her entire savings on luxury electronics, and talks continuously and rapidly, jumping erratically from one topic to another. On mental status examination, she speaks with rapid, pressured speech, demonstrates flight of ideas, and insists that she has been selected by foreign governments to lead an international intelligence operation. Which of the following is the most likely diagnosis?",
+      "options": [
+        "Bipolar I disorder",
+        "Bipolar II disorder",
+        "Borderline personality disorder",
+        "Generalized anxiety disorder",
+        "Major depressive disorder with psychotic features"
+      ],
+      "answer": "A",
+      "explanation": "The patient is experiencing a manic episode, defined by an abnormally elevated or irritable mood and increased goal-directed energy lasting at least one week, accompanied by grandiosity, decreased need for sleep, pressured speech, and flight of ideas that cause marked functional impairment. The occurrence of at least one manic episode fulfills the diagnostic criteria for bipolar I disorder. Bipolar II disorder requires hypomanic episodes (which do not cause severe functional impairment or psychosis) and at least one major depressive episode.",
+      "topic": "Psychiatry/Behavioral Science",
+      "subtopic": "Bipolar and related disorders",
+      "difficulty": "medium",
+      "source": "NCCPA Content Blueprint: Psychiatry/Behavioral Science - Bipolar and related disorders"
+    },
+    {
+      "stem": "A 23-year-old female presents to the pulmonary clinic reporting recurrent episodes of wheezing, shortness of breath, and chest tightness that occur predominantly at night and after running outdoors. She has no tobacco history. Pre-bronchodilator spirometry demonstrates an FEV1/FVC ratio of 64% and an FEV1 that is 68% of predicted. Which of the following spirometry findings following administration of an inhaled short-acting beta-2 agonist confirms the diagnosis of asthma?",
+      "options": [
+        "Complete normalization of residual volume with zero change in expiratory flow",
+        "Fixed airflow obstruction with less than five percent improvement in forced vital capacity",
+        "Increase in FEV1 by greater than twelve percent and at least two hundred milliliters",
+        "Isolated improvement in diffusing capacity of carbon monoxide exceeding twenty percent",
+        "Reduction in total lung capacity by greater than fifteen percent from baseline measurement"
+      ],
+      "answer": "C",
+      "explanation": "Asthma is characterized by variable and reversible airway obstruction. Reversibility on pulmonary function testing is defined as an increase in FEV1 of greater than 12% and at least 200 mL following inhalation of a short-acting bronchodilator. This reversible airflow limitation contrasts with chronic obstructive pulmonary disease, where post-bronchodilator airflow obstruction typically remains fixed.",
+      "topic": "Pulmonary System",
+      "subtopic": "Obstructive pulmonary diseases",
+      "difficulty": "easy",
+      "source": "NCCPA Content Blueprint: Pulmonary System - Obstructive pulmonary diseases"
+    },
+    {
+      "stem": "A 52-year-old female presents to the emergency department with sudden-onset shortness of breath and right-sided pleuritic chest pain that began two hours ago. Yesterday, she completed a twelve-hour automobile trip. Vital signs are blood pressure 132/84 mm Hg, heart rate 114 beats/min, respiratory rate 26 breaths/min, and oxygen saturation 91% on room air. Physical examination reveals asymmetric right lower extremity swelling and calf tenderness. Which of the following is the most appropriate initial diagnostic study to confirm the suspected diagnosis?",
+      "options": [
+        "Computed tomography pulmonary angiography",
+        "Magnetic resonance angiography of the chest",
+        "Plain posterior-anterior chest radiography",
+        "Transthoracic echocardiography with bubble study"
+      ],
+      "answer": "A",
+      "explanation": "The patient presents with classic signs and symptoms of acute pulmonary embolism (pleuritic chest pain, tachypnea, tachycardia, hypoxia, and asymmetric leg swelling) following prolonged immobility, establishing a high pretest probability (Wells score > 4). In hemodynamically stable patients with high clinical suspicion, computed tomography pulmonary angiography (CTPA) is the initial diagnostic test of choice due to its high diagnostic accuracy. D-dimer testing is reserved for low or intermediate probability cases to rule out disease.",
+      "topic": "Pulmonary System",
+      "subtopic": "Pulmonary circulation",
+      "difficulty": "hard",
+      "source": "NCCPA Content Blueprint: Pulmonary System - Pulmonary circulation"
+    },
+    {
+      "stem": "A 32-year-old male is brought to the emergency department after completing his first marathon in high ambient heat. He reports severe generalized muscle aches, profound weakness, and passing dark, reddish-brown urine. Physical examination reveals diffuse muscle tenderness without compartment tenseness. Urinalysis reveals 3+ blood on chemical dipstick examination, but microscopic examination demonstrates zero to one red blood cell per high-power field. Which of the following laboratory findings is most characteristic of this condition?",
+      "options": [
+        "Broad waxy casts on urine microscopy with normal serum electrolyte levels",
+        "Markedly elevated serum creatine kinase level exceeding five times the upper limit of normal",
+        "Marked serum hypernatremia accompanied by severe hypokalemia and hypocalcemia",
+        "Microscopic hematuria with numerous dysmorphic erythrocytes and erythrocyte casts",
+        "Presence of white blood cell casts and significant peripheral blood eosinophilia"
+      ],
+      "answer": "B",
+      "explanation": "Rhabdomyolysis is caused by skeletal muscle necrosis with leakage of intracellular components into circulation, typically following strenuous exertion or trauma. The urine dipstick detects the heme pigment in both hemoglobin and myoglobin, producing a positive reading for \"blood\" despite the absence of intact erythrocytes on microscopy. The definitive hallmark is a marked elevation of serum creatine kinase (often >1,000 U/L or >5 times normal), and early aggressive isotonic fluid administration is essential to prevent myoglobin-induced acute tubular necrosis.",
+      "topic": "Renal System",
+      "subtopic": "Rhabdomyolysis",
+      "difficulty": "medium",
+      "source": "NCCPA Content Blueprint: Renal System - Rhabdomyolysis"
+    },
+    {
+      "stem": "A 26-year-old female presents to the emergency department with acute crampy right lower quadrant abdominal pain and light vaginal spotting. Her last menstrual period was six weeks ago, and a urine pregnancy test is positive. Vital signs are blood pressure 118/74 mm Hg, heart rate 82 beats/min, and temperature 37.0°C (98.6°F). Physical examination reveals mild right adnexal tenderness without peritoneal signs. Transvaginal ultrasonography reveals an empty uterine cavity with a thickened endometrium, a 2.5-cm complex right adnexal mass, and a small amount of fluid in the pouch of Douglas. Her serum beta-human chorionic gonadotropin level is 2,400 mIU/mL. Which of the following is the most likely diagnosis?",
+      "options": [
+        "Complete hydatidiform mole",
+        "Incomplete spontaneous abortion",
+        "Ruptured corpus luteum cyst",
+        "Tubal ectopic pregnancy",
+        "Acute pelvic inflammatory disease"
+      ],
+      "answer": "D",
+      "explanation": "An ectopic pregnancy occurs when a fertilized ovum implants outside the uterine cavity, most commonly within the ampulla of the fallopian tube. The absence of an intrauterine gestational sac on transvaginal ultrasound when serum beta-hCG is above the discriminatory threshold (usually 1,500 to 2,000 mIU/mL), paired with a complex adnexal mass, strongly supports the diagnosis. In a hemodynamically stable patient without contraindications, treatment can be accomplished medically with methotrexate or surgically via laparoscopy.",
+      "topic": "Reproductive System",
+      "subtopic": "Pregnancy",
+      "difficulty": "medium",
+      "source": "NCCPA Content Blueprint: Reproductive System - Pregnancy"
+    },
+    {
+      "stem": "A 58-year-old male with severe upper gastrointestinal bleeding due to a bleeding peptic ulcer is admitted to the intensive care unit. His hemoglobin drops acutely from 11.2 g/dL to 5.8 g/dL, and he is tachycardic and pale. The physician assistant discusses the necessity of a lifesaving packed red blood cell transfusion. The patient, who is fully alert, oriented, and demonstrates intact decision-making capacity, calmly refuses blood products because of his devout religious convictions as a Jehovah's Witness, despite understanding that refusal may result in his death. Which of the following ethical principles requires the physician assistant to honor the patient's refusal of blood transfusion?",
+      "options": [
+        "Beneficence",
+        "Distributive justice",
+        "Nonmaleficence",
+        "Paternalism",
+        "Patient autonomy"
+      ],
+      "answer": "E",
+      "explanation": "Patient autonomy is the core medical ethics principle dictating that a competent adult patient possessing decision-making capacity has the moral and legal right to accept or refuse any medical treatment, even if that refusal leads to death. While beneficence urges the clinician to save the patient's life, competent patient autonomy supersedes beneficence in the absence of surrogate coercion. Attempting to force transfusion against an informed competent refusal violates both ethical standards and bodily integrity.",
+      "topic": "Professional Practice",
+      "subtopic": "Legal/medical ethics",
+      "difficulty": "easy",
+      "source": "NCCPA Content Blueprint: Professional Practice - Legal/medical ethics"
+    }
+  ]
+}

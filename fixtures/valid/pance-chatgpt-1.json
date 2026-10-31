@@ -1,0 +1,328 @@
+
+{
+  "format": "domcq/1",
+  "exam": "pance",
+  "set": "PANCE Practice – Comprehensive Clinical Review 01",
+  "questions": [
+    {
+      "stem": "A 67-year-old man presents to the emergency department with severe chest pain radiating to his left arm for 45 minutes. He is diaphoretic and nauseated. Blood pressure is 138/84 mm Hg, and heart rate is 92/min. A 12-lead ECG shows ST-segment elevations in leads II, III, and aVF. A hospital with percutaneous coronary intervention capability is immediately available. Which of the following is the most appropriate next step in management?",
+      "options": [
+        "Administer intravenous alteplase as the preferred reperfusion strategy",
+        "Arrange immediate coronary angiography with primary percutaneous coronary intervention",
+        "Obtain serial troponin measurements before initiating reperfusion therapy",
+        "Perform an exercise stress test to determine the extent of myocardial ischemia",
+        "Initiate oral beta-blocker therapy and observe for resolution of the ST elevations"
+      ],
+      "answer": "B",
+      "explanation": "This patient has an acute inferior ST-elevation myocardial infarction requiring immediate reperfusion. Primary percutaneous coronary intervention is preferred when it can be performed within the recommended time frame. Reperfusion must not be delayed while awaiting troponin results because the diagnostic ECG findings and clinical presentation are sufficient to initiate treatment.",
+      "topic": "Cardiovascular System",
+      "subtopic": "Coronary artery disease",
+      "difficulty": "easy",
+      "source": "NCCPA PANCE Blueprint 2025: Cardiovascular System – Coronary artery disease; ACC/AHA acute coronary syndrome guidelines"
+    },
+    {
+      "stem": "A 74-year-old woman presents with progressive exertional dyspnea, fatigue, and two episodes of syncope while walking. Examination reveals a harsh crescendo-decrescendo systolic murmur at the right second intercostal space that radiates to both carotid arteries. The carotid pulse has a delayed upstroke. Echocardiography shows a heavily calcified aortic valve, a valve area of 0.7 cm2, and a mean transvalvular gradient of 48 mm Hg. Which of the following is the most appropriate definitive management?",
+      "options": [
+        "Initiate long-term oral nitrate therapy",
+        "Perform balloon mitral valvotomy",
+        "Begin high-dose loop diuretic therapy alone",
+        "Recommend permanent pacemaker implantation",
+        "Refer for aortic valve replacement evaluation"
+      ],
+      "answer": "E",
+      "explanation": "The patient has severe symptomatic aortic stenosis, indicated by exertional syncope, a characteristic murmur, and echocardiographic measurements. Symptomatic severe aortic stenosis is an indication for aortic valve replacement, either surgical or transcatheter depending on patient characteristics. Medical therapy does not correct the fixed valvular obstruction.",
+      "topic": "Cardiovascular System",
+      "subtopic": "Valvular disorders",
+      "difficulty": "medium",
+      "source": "NCCPA PANCE Blueprint 2025: Cardiovascular System – Valvular disorders; ACC/AHA valvular heart disease guidelines"
+    },
+    {
+      "stem": "A 58-year-old man presents with a 4-month history of a slowly enlarging lesion on his nose. Examination reveals a 7-mm pearly papule with rolled borders, superficial telangiectasias, and central ulceration. He has a history of extensive sun exposure. Which of the following is the most likely diagnosis?",
+      "options": [
+        "Basal cell carcinoma",
+        "Squamous cell carcinoma",
+        "Seborrheic keratosis",
+        "Actinic keratosis",
+        "Keratoacanthoma"
+      ],
+      "answer": "A",
+      "explanation": "Basal cell carcinoma typically presents as a slowly growing pearly papule with rolled borders, telangiectasias, and sometimes central ulceration. Chronic ultraviolet exposure is a major risk factor. Although metastasis is rare, untreated lesions can invade and destroy surrounding tissues.",
+      "topic": "Dermatologic System",
+      "subtopic": "Neoplasms",
+      "difficulty": "easy",
+      "source": "NCCPA PANCE Blueprint 2025: Dermatologic System – Neoplasms; Basal cell carcinoma"
+    },
+    {
+      "stem": "A 32-year-old woman presents with fatigue, weight loss, nausea, and dizziness when standing. Examination reveals diffuse hyperpigmentation, particularly over the palmar creases and oral mucosa. Blood pressure is 88/56 mm Hg. Laboratory findings show sodium 128 mEq/L, potassium 5.8 mEq/L, and fasting glucose 62 mg/dL. Morning serum cortisol is low, and plasma ACTH is markedly elevated. Which of the following is the most likely diagnosis?",
+      "options": [
+        "Secondary adrenal insufficiency",
+        "Syndrome of inappropriate antidiuretic hormone secretion",
+        "Primary adrenal insufficiency",
+        "Primary hyperaldosteronism",
+        "ACTH-independent Cushing syndrome"
+      ],
+      "answer": "C",
+      "explanation": "Primary adrenal insufficiency causes deficient cortisol and aldosterone production, resulting in hypotension, hyponatremia, hyperkalemia, and sometimes hypoglycemia. Elevated ACTH stimulates melanocortin receptors, producing characteristic hyperpigmentation. Secondary adrenal insufficiency generally lacks hyperkalemia because aldosterone secretion is relatively preserved.",
+      "topic": "Endocrine System",
+      "subtopic": "Adrenal disorders",
+      "difficulty": "medium",
+      "source": "NCCPA PANCE Blueprint 2025: Endocrine System – Adrenal disorders; Primary adrenal insufficiency"
+    },
+    {
+      "stem": "A 45-year-old woman presents with sudden severe pain and blurred vision in her right eye, accompanied by headache, nausea, and vomiting. Examination reveals conjunctival injection, a cloudy cornea, a mid-dilated poorly reactive pupil, and an intraocular pressure of 48 mm Hg. Which of the following is the most appropriate next step?",
+      "options": [
+        "Prescribe topical corticosteroids and reassess in 24 hours",
+        "Administer oral antihistamines and arrange outpatient follow-up",
+        "Apply an eye patch and prescribe topical antibiotic drops",
+        "Initiate urgent intraocular pressure-lowering therapy and obtain ophthalmology consultation",
+        "Perform routine visual field testing before initiating treatment"
+      ],
+      "answer": "D",
+      "explanation": "Acute angle-closure glaucoma is an ophthalmologic emergency characterized by severe ocular pain, decreased vision, corneal edema, and markedly elevated intraocular pressure. Immediate pressure reduction with appropriate medications and urgent ophthalmologic management are required to prevent permanent optic nerve damage. Definitive treatment generally involves laser peripheral iridotomy once the acute attack is controlled.",
+      "topic": "Eyes, Ears, Nose, and Throat",
+      "subtopic": "Eye disorders",
+      "difficulty": "medium",
+      "source": "NCCPA PANCE Blueprint 2025: Eyes, Ears, Nose, and Throat – Eye disorders; Acute angle-closure glaucoma"
+    },
+    {
+      "stem": "A 46-year-old woman presents with fever, nausea, and constant right upper quadrant abdominal pain lasting 12 hours. Examination reveals tenderness and inspiratory arrest during deep palpation below the right costal margin. Laboratory studies show leukocytosis and mildly elevated liver enzymes. Which of the following is the most appropriate initial diagnostic imaging study?",
+      "options": [
+        "Contrast-enhanced CT of the abdomen",
+        "Right upper quadrant abdominal ultrasonography",
+        "Endoscopic retrograde cholangiopancreatography",
+        "Magnetic resonance cholangiopancreatography",
+        "Hepatobiliary scintigraphy"
+      ],
+      "answer": "B",
+      "explanation": "The presentation strongly suggests acute cholecystitis, with right upper quadrant pain, fever, and a positive Murphy sign. Ultrasonography is the preferred initial imaging examination because it can identify gallstones, gallbladder wall thickening, pericholecystic fluid, and sonographic Murphy sign. Hepatobiliary scintigraphy is useful when ultrasound results are equivocal and suspicion remains high.",
+      "topic": "Gastrointestinal System/Nutrition",
+      "subtopic": "Biliary disorders",
+      "difficulty": "easy",
+      "source": "NCCPA PANCE Blueprint 2025: Gastrointestinal System/Nutrition – Biliary disorders; Acute cholecystitis"
+    },
+    {
+      "stem": "A 54-year-old man with a history of alcohol-associated cirrhosis presents with large-volume hematemesis and dizziness. Blood pressure is 86/52 mm Hg, and heart rate is 122/min. After immediate initiation of intravenous access and resuscitation, which of the following treatments should be started promptly while arranging urgent endoscopy?",
+      "options": [
+        "Oral propranolol and oral iron supplementation",
+        "Intravenous pantoprazole as the only pharmacologic therapy",
+        "Intravenous tranexamic acid and oral lactulose",
+        "Intravenous metoclopramide and oral sucralfate",
+        "Intravenous octreotide and intravenous ceftriaxone"
+      ],
+      "answer": "E",
+      "explanation": "Massive upper gastrointestinal bleeding in a patient with cirrhosis strongly suggests bleeding esophageal varices. Vasoactive therapy such as octreotide reduces portal venous inflow, while prophylactic antibiotics such as ceftriaxone reduce infections and improve outcomes. These therapies should begin promptly alongside resuscitation and preparation for urgent endoscopic intervention.",
+      "topic": "Gastrointestinal System/Nutrition",
+      "subtopic": "Gastrointestinal bleeding",
+      "difficulty": "hard",
+      "source": "NCCPA PANCE Blueprint 2025: Gastrointestinal System/Nutrition – Gastrointestinal bleeding; AASLD guidance on variceal hemorrhage"
+    },
+    {
+      "stem": "A 23-year-old sexually active man presents with 2 days of gradually worsening unilateral testicular pain, dysuria, and scrotal swelling. He has no fever, nausea, or vomiting. Examination reveals a tender, swollen epididymis and a preserved cremasteric reflex. Color Doppler ultrasonography shows increased blood flow to the affected epididymis and preserved testicular perfusion. A nucleic acid amplification test is positive for Chlamydia trachomatis, and gonorrhea has not yet been excluded. Which of the following is the most appropriate antibiotic regimen?",
+      "options": [
+        "Intramuscular ceftriaxone plus oral doxycycline",
+        "Oral trimethoprim-sulfamethoxazole alone",
+        "Oral nitrofurantoin alone",
+        "Intravenous vancomycin plus cefepime",
+        "Oral metronidazole plus fluconazole"
+      ],
+      "answer": "A",
+      "explanation": "Sexually transmitted epididymitis in a young adult is commonly associated with Chlamydia trachomatis and Neisseria gonorrhoeae. When gonorrhea has not been excluded, recommended empiric treatment includes intramuscular ceftriaxone plus oral doxycycline. The gradual onset and Doppler findings support epididymitis rather than testicular torsion.",
+      "topic": "Genitourinary System",
+      "subtopic": "Testicular disorders",
+      "difficulty": "medium",
+      "source": "NCCPA PANCE Blueprint 2025: Genitourinary System – Testicular disorders; CDC STI Treatment Guidelines – Epididymitis"
+    },
+    {
+      "stem": "A 29-year-old woman presents with fatigue and intermittent jaundice. Her hemoglobin is 8.7 g/dL, reticulocyte count is 9%, indirect bilirubin is elevated, and serum haptoglobin is undetectable. Peripheral blood smear shows numerous spherocytes without schistocytes. Direct antiglobulin testing is positive for IgG. Which of the following is the most appropriate initial treatment?",
+      "options": [
+        "Oral ferrous sulfate",
+        "Plasma exchange",
+        "Intravenous vitamin K",
+        "Systemic glucocorticoids",
+        "Subcutaneous erythropoietin"
+      ],
+      "answer": "D",
+      "explanation": "The combination of hemolytic anemia, spherocytes, and a positive IgG direct antiglobulin test establishes warm autoimmune hemolytic anemia. Glucocorticoids are the usual first-line treatment because they suppress antibody-mediated red blood cell destruction. Rituximab and other therapies may be used for refractory or relapsing disease.",
+      "topic": "Hematologic System",
+      "subtopic": "Autoimmune disorders",
+      "difficulty": "medium",
+      "source": "NCCPA PANCE Blueprint 2025: Hematologic System – Autoimmune disorders; Warm autoimmune hemolytic anemia"
+    },
+    {
+      "stem": "A 19-year-old college student presents with fever, severe headache, neck stiffness, and confusion. Examination reveals a temperature of 39.6 degrees C and a petechial rash over the trunk and extremities. Lumbar puncture, performed without delaying treatment, reveals turbid cerebrospinal fluid with elevated opening pressure, predominantly neutrophilic pleocytosis, low glucose, and elevated protein. Gram staining shows gram-negative diplococci. Which of the following is the most likely causative organism?",
+      "options": [
+        "Streptococcus pneumoniae",
+        "Listeria monocytogenes",
+        "Neisseria meningitidis",
+        "Haemophilus influenzae",
+        "Staphylococcus aureus"
+      ],
+      "answer": "C",
+      "explanation": "Neisseria meningitidis is a gram-negative diplococcus that causes acute bacterial meningitis, particularly among adolescents and young adults in close-contact environments. A petechial or purpuric rash is an important clue to meningococcal infection. Suspected bacterial meningitis requires immediate empiric antibiotics, and confirmed meningococcal disease warrants appropriate prophylaxis for close contacts.",
+      "topic": "Infectious Diseases",
+      "subtopic": "Bacterial diseases",
+      "difficulty": "easy",
+      "source": "NCCPA PANCE Blueprint 2025: Infectious Diseases – Bacterial diseases; Meningococcal infection"
+    },
+    {
+      "stem": "A 42-year-old man with advanced HIV infection and a CD4 count of 38 cells/mm3 presents with a 3-week history of worsening headache, fever, and nausea. Brain imaging shows no mass lesion or obstructive hydrocephalus. Lumbar puncture reveals an opening pressure of 34 cm H2O, and cerebrospinal fluid cryptococcal antigen testing is positive. Which of the following is the most appropriate initial antifungal regimen?",
+      "options": [
+        "Oral fluconazole monotherapy",
+        "Intravenous liposomal amphotericin B plus oral flucytosine",
+        "Intravenous caspofungin plus oral itraconazole",
+        "Oral voriconazole plus intravenous micafungin",
+        "Intravenous acyclovir plus oral fluconazole"
+      ],
+      "answer": "B",
+      "explanation": "Cryptococcal meningitis is a major opportunistic infection in patients with advanced HIV and is frequently associated with elevated intracranial pressure. Induction treatment commonly uses liposomal amphotericin B with flucytosine, followed by fluconazole consolidation and maintenance; exact induction schedules depend on the treatment setting. Elevated intracranial pressure also requires active management, often with serial therapeutic lumbar punctures.",
+      "topic": "Infectious Diseases",
+      "subtopic": "Fungal diseases",
+      "difficulty": "hard",
+      "source": "NCCPA PANCE Blueprint 2025: Infectious Diseases – Fungal diseases; NIH HIV Opportunistic Infection Guidelines – Cryptococcosis"
+    },
+    {
+      "stem": "A 68-year-old woman presents with gradually worsening right knee pain over 3 years. The pain increases with walking and improves with rest. Morning stiffness lasts approximately 10 minutes. Examination shows crepitus, mild bony enlargement, and reduced knee flexion without significant warmth or erythema. Radiographs reveal asymmetric joint-space narrowing, marginal osteophytes, and subchondral sclerosis. Which of the following is the most likely diagnosis?",
+      "options": [
+        "Rheumatoid arthritis",
+        "Septic arthritis",
+        "Calcium pyrophosphate deposition disease",
+        "Reactive arthritis",
+        "Osteoarthritis"
+      ],
+      "answer": "E",
+      "explanation": "Osteoarthritis is a degenerative joint disease characterized by activity-related pain, brief morning stiffness, crepitus, and bony enlargement. Typical radiographic findings include joint-space narrowing, osteophytes, and subchondral sclerosis. Rheumatoid arthritis more often causes prolonged morning stiffness and inflammatory synovitis.",
+      "topic": "Musculoskeletal System",
+      "subtopic": "Degenerative diseases",
+      "difficulty": "easy",
+      "source": "NCCPA PANCE Blueprint 2025: Musculoskeletal System – Degenerative diseases; Osteoarthritis"
+    },
+    {
+      "stem": "A 31-year-old man is brought to the emergency department after sustaining a closed tibial shaft fracture in a motorcycle collision. Four hours after splinting, he develops progressively severe leg pain despite intravenous analgesia. Examination reveals a tense anterior compartment and severe pain with passive extension of the toes. Distal pulses are palpable, and capillary refill remains normal. Intracompartmental pressure is 44 mm Hg, and diastolic blood pressure is 68 mm Hg. Which of the following is the most appropriate next step?",
+      "options": [
+        "Perform immediate surgical fasciotomy",
+        "Elevate the leg substantially above heart level",
+        "Apply a tighter circumferential compression dressing",
+        "Obtain repeat compartment pressure measurements in 6 hours",
+        "Initiate anticoagulation for presumed deep venous thrombosis"
+      ],
+      "answer": "A",
+      "explanation": "Acute compartment syndrome is a limb-threatening surgical emergency marked by pain out of proportion to the injury, pain with passive stretching, and tense compartments. The compartment pressure is only 24 mm Hg below diastolic pressure, supporting a critically reduced perfusion gradient. Immediate fasciotomy is required, and palpable distal pulses do not exclude compartment syndrome.",
+      "topic": "Musculoskeletal System",
+      "subtopic": "Compartment syndrome",
+      "difficulty": "hard",
+      "source": "NCCPA PANCE Blueprint 2025: Musculoskeletal System – Compartment syndrome; Acute compartment syndrome management"
+    },
+    {
+      "stem": "A 72-year-old man presents 90 minutes after developing sudden right-sided weakness and difficulty speaking. Examination reveals right facial droop, right arm weakness, and expressive aphasia. Noncontrast head CT shows no intracranial hemorrhage. CT angiography shows no large-vessel occlusion. Blood pressure is 166/92 mm Hg, platelet count is 210,000/mm3, glucose is 118 mg/dL, and he has no anticoagulant use or other thrombolysis contraindications. Which of the following is the most appropriate treatment?",
+      "options": [
+        "Begin therapeutic intravenous heparin",
+        "Administer aspirin and defer reperfusion therapy",
+        "Administer intravenous thrombolytic therapy",
+        "Perform emergency carotid endarterectomy",
+        "Initiate oral warfarin for immediate anticoagulation"
+      ],
+      "answer": "C",
+      "explanation": "This patient has an acute disabling ischemic stroke within the standard intravenous thrombolysis treatment window, with intracranial hemorrhage excluded and no stated contraindications. Intravenous thrombolysis with an approved agent such as alteplase or tenecteplase is appropriate. Aspirin alone is not the preferred initial treatment when an eligible patient can receive timely thrombolysis.",
+      "topic": "Neurologic System",
+      "subtopic": "Cerebrovascular disorders",
+      "difficulty": "medium",
+      "source": "NCCPA PANCE Blueprint 2025: Neurologic System – Cerebrovascular disorders; AHA/ASA acute ischemic stroke guidelines"
+    },
+    {
+      "stem": "A 26-year-old woman presents with recurrent episodes of sudden intense fear, palpitations, trembling, shortness of breath, and a sensation that she is about to die. The episodes peak within several minutes and resolve spontaneously. Over the past 3 months, she has experienced repeated unexpected attacks and has persistently worried about having another attack, avoiding exercise because she fears it will trigger symptoms. Physical examination, thyroid function tests, ECG, and evaluation for substance use are unremarkable. Which of the following is the most likely diagnosis?",
+      "options": [
+        "Generalized anxiety disorder",
+        "Social anxiety disorder",
+        "Acute stress disorder",
+        "Somatic symptom disorder",
+        "Panic disorder"
+      ],
+      "answer": "E",
+      "explanation": "Panic disorder involves recurrent unexpected panic attacks followed by at least one month of persistent concern about further attacks or maladaptive behavioral changes. The patient's spontaneous episodes, anticipatory anxiety, and avoidance of exercise satisfy this pattern. Generalized anxiety disorder is characterized by more persistent, broad-based worry rather than recurrent unexpected panic attacks.",
+      "topic": "Psychiatry/Behavioral Science",
+      "subtopic": "Anxiety disorders",
+      "difficulty": "medium",
+      "source": "NCCPA PANCE Blueprint 2025: Psychiatry/Behavioral Science – Anxiety disorders; DSM-5-TR panic disorder"
+    },
+    {
+      "stem": "A 24-year-old woman with known asthma presents with worsening wheezing and shortness of breath after exposure to dust. She is alert and able to speak in full sentences. Respiratory rate is 24/min, oxygen saturation is 96% on room air, and peak expiratory flow is 65% of her personal best. Examination reveals diffuse expiratory wheezing without accessory muscle use. Which of the following is the most appropriate initial pharmacologic treatment for this acute exacerbation?",
+      "options": [
+        "Oral montelukast as the only rescue treatment",
+        "Inhaled albuterol administered promptly",
+        "Inhaled tiotropium as the only rescue treatment",
+        "Oral theophylline administered promptly",
+        "Intravenous magnesium sulfate as the sole initial therapy"
+      ],
+      "answer": "B",
+      "explanation": "Inhaled short-acting beta2 agonists such as albuterol provide rapid bronchodilation and are appropriate immediate reliever therapy for acute asthma exacerbations. Severity should be reassessed after treatment, with systemic corticosteroids added when clinically indicated. Leukotriene modifiers and long-acting antimuscarinic drugs are not substitutes for rapid-acting rescue bronchodilation.",
+      "topic": "Pulmonary System",
+      "subtopic": "Obstructive pulmonary diseases",
+      "difficulty": "easy",
+      "source": "NCCPA PANCE Blueprint 2025: Pulmonary System – Obstructive pulmonary diseases; GINA asthma exacerbation management"
+    },
+    {
+      "stem": "A 65-year-old man with recent hip replacement surgery presents with sudden pleuritic chest pain, dyspnea, and tachycardia. Blood pressure is 124/76 mm Hg, heart rate is 116/min, respiratory rate is 26/min, and oxygen saturation is 91% on room air. The left calf is swollen and tender. He has no known contrast allergy, his estimated glomerular filtration rate is 78 mL/min/1.73 m2, and he is sufficiently stable for CT imaging. Which of the following is the most appropriate diagnostic study?",
+      "options": [
+        "Transthoracic echocardiography",
+        "Ventilation-perfusion scanning",
+        "Plain chest radiography",
+        "CT pulmonary angiography",
+        "Exercise treadmill testing"
+      ],
+      "answer": "D",
+      "explanation": "Recent surgery, unilateral leg swelling, tachycardia, hypoxemia, and sudden pleuritic pain create a high clinical suspicion for acute pulmonary embolism. CT pulmonary angiography is the preferred diagnostic imaging test in a hemodynamically stable patient when iodinated contrast is not contraindicated. Echocardiography is more useful for assessing right ventricular strain and risk in selected patients than for definitively diagnosing embolism.",
+      "topic": "Pulmonary System",
+      "subtopic": "Pulmonary circulation",
+      "difficulty": "medium",
+      "source": "NCCPA PANCE Blueprint 2025: Pulmonary System – Pulmonary circulation; Pulmonary embolism diagnostic algorithms"
+    },
+    {
+      "stem": "A 59-year-old man with stage 4 chronic kidney disease presents with generalized weakness. Laboratory testing reveals potassium 7.1 mEq/L, creatinine 3.8 mg/dL, and bicarbonate 18 mEq/L. ECG shows tall peaked T waves and widening of the QRS complexes. Intravenous access and continuous cardiac monitoring have been established. Which of the following is the most appropriate immediate treatment?",
+      "options": [
+        "Intravenous calcium gluconate",
+        "Oral sodium polystyrene sulfonate",
+        "Intravenous furosemide alone",
+        "Oral sodium bicarbonate alone",
+        "Subcutaneous regular insulin without glucose assessment"
+      ],
+      "answer": "A",
+      "explanation": "Severe hyperkalemia with ECG changes poses an immediate risk of life-threatening ventricular dysrhythmias. Intravenous calcium rapidly stabilizes cardiac cell membranes but does not lower serum potassium. Additional treatment, including insulin with glucose as appropriate and potassium removal strategies, must follow promptly.",
+      "topic": "Renal System",
+      "subtopic": "Electrolyte disorders",
+      "difficulty": "medium",
+      "source": "NCCPA PANCE Blueprint 2025: Renal System – Electrolyte disorders; Emergency treatment of hyperkalemia"
+    },
+    {
+      "stem": "A 28-year-old woman with 7 weeks of amenorrhea presents with lower abdominal pain and vaginal spotting. Her urine pregnancy test is positive. Blood pressure is 112/70 mm Hg, and pulse is 88/min. Transvaginal ultrasonography reveals an empty uterus and a 2.2-cm right tubal adnexal mass without embryonic cardiac activity or free intraperitoneal fluid. Serum beta-hCG is 1,450 mIU/mL. She has normal liver and renal function, no contraindications to methotrexate, and is able to comply with follow-up. Which of the following is the most appropriate management?",
+      "options": [
+        "Administer oral misoprostol",
+        "Perform immediate exploratory laparotomy",
+        "Administer intramuscular methotrexate",
+        "Begin oral progesterone supplementation",
+        "Schedule elective dilation and curettage"
+      ],
+      "answer": "C",
+      "explanation": "This patient has a confirmed, unruptured tubal ectopic pregnancy and is hemodynamically stable. Methotrexate is an appropriate treatment for carefully selected patients with a small ectopic pregnancy, relatively low beta-hCG, no embryonic cardiac activity, and reliable follow-up. Serial beta-hCG monitoring is essential to confirm treatment response and identify persistent trophoblastic tissue.",
+      "topic": "Reproductive System",
+      "subtopic": "Pregnancy",
+      "difficulty": "medium",
+      "source": "NCCPA PANCE Blueprint 2025: Reproductive System – Pregnancy; ACOG guidance on tubal ectopic pregnancy"
+    },
+    {
+      "stem": "A 63-year-old man with decision-making capacity is hospitalized for severe community-acquired pneumonia. He is alert, oriented, and able to explain his diagnosis, the proposed treatment, and the potential consequences of refusing treatment. After a detailed discussion, he declines intravenous antibiotics because of his personal beliefs. He is not under any court order for treatment, and no emergency exception to informed consent applies. Which of the following is the most appropriate course of action for the physician assistant?",
+      "options": [
+        "Administer antibiotics because the infection could become life-threatening",
+        "Request that the patient's adult child authorize treatment despite his refusal",
+        "Obtain a psychiatric consultation solely because the patient declined treatment",
+        "Discharge the patient immediately without discussing alternative treatment options",
+        "Respect the informed refusal, discuss alternatives, and document the decision"
+      ],
+      "answer": "E",
+      "explanation": "A patient with decision-making capacity generally has the right to refuse recommended medical treatment, even when refusal may lead to serious harm. The physician assistant should confirm understanding, explain material risks and reasonable alternatives, and document the informed refusal. Disagreement with a patient's decision does not, by itself, establish incapacity.",
+      "topic": "Professional Practice",
+      "subtopic": "Legal/medical ethics",
+      "difficulty": "hard",
+      "source": "NCCPA PANCE Blueprint 2025: Professional Practice – Legal/medical ethics; Informed consent and refusal"
+    }
+  ]
+}
