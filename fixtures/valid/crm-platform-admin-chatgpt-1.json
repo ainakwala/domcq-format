@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "crm-platform-admin",
+  "set": "Salesforce Certified Platform Administrator practice – Core Administration and Agentforce",
+  "questions": [
+    {
+      "stem": "A Salesforce administrator needs to give five sales representatives permission to export reports. All five users already have the same profile, which is also assigned to employees who must not receive this permission. What should the administrator do?",
+      "options": [
+        "Create a permission set containing the required permission and assign it to the five representatives.",
+        "Create a public group containing the five representatives and enable report exporting for the group.",
+        "Create a role containing the five representatives and enable report exporting in the role hierarchy.",
+        "Create a sharing rule granting the five representatives access to export reports."
+      ],
+      "answer": "A",
+      "explanation": "Permission sets grant additional permissions to selected users without changing their existing profiles. A public group, role hierarchy, or sharing rule can influence access to records but does not independently grant the system permission required to export reports. Using a permission set follows the principle of granting only the access users need.",
+      "topic": "Configuration and Setup",
+      "subtopic": "User management and permission sets",
+      "difficulty": "easy",
+      "source": "Salesforce Platform Administrator Exam Guide: Configuration and Setup; Trailhead: Permission Set Basics"
+    },
+    {
+      "stem": "An organization has set the organization-wide default for Opportunities to Private. Sales managers should automatically receive access to opportunity records owned by representatives below them in the management hierarchy. Which configuration should the administrator use?",
+      "options": [
+        "Create a public group containing all sales managers and representatives.",
+        "Configure the role hierarchy so managers are positioned above their representatives.",
+        "Create an opportunity record type for managers and assign it to their profiles.",
+        "Configure a page layout that exposes opportunities to users with manager profiles."
+      ],
+      "answer": "B",
+      "explanation": "The role hierarchy allows users higher in the hierarchy to access records owned by users below them when the applicable hierarchy access is enabled. Opportunities are standard objects for which hierarchy access applies. Public groups, record types, and page layouts do not automatically establish this hierarchical record visibility.",
+      "topic": "Configuration and Setup",
+      "subtopic": "Organization-wide defaults and role hierarchy",
+      "difficulty": "medium",
+      "source": "Salesforce Help: Role Hierarchy; Control Access to Records"
+    },
+    {
+      "stem": "A company uses a custom Project object with organization-wide defaults set to Private and Grant Access Using Hierarchies disabled. Project records are owned by employees in several departments. A compliance team must receive read-only access to every Project record without gaining editing privileges. Which TWO configurations can independently satisfy this requirement? Choose TWO.",
+      "options": [
+        "Create a public group for the compliance team and assign it to a custom Project page layout.",
+        "Enable field history tracking on the Project object for every compliance team member.",
+        "Create a criteria-based sharing rule that shares all Project records as Read Only with a compliance public group.",
+        "Grant the compliance team View All access to the Project object through a permission set."
+      ],
+      "answer": "CD",
+      "explanation": "A criteria-based sharing rule can share all records meeting a universally satisfied criterion with a public group at Read Only access. The View All object permission independently allows users to view every record of that object regardless of record-level sharing, without granting editing rights. Neither page layouts nor field history tracking provide record access.",
+      "topic": "Configuration and Setup",
+      "subtopic": "Record-level security and sharing",
+      "difficulty": "hard",
+      "source": "Salesforce Help: Sharing Rules; View All and Modify All Permissions; Grant Access Using Hierarchies"
+    },
+    {
+      "stem": "A recruiting company needs to store information about job applications. Each application must be associated with a Contact and must automatically be deleted if that Contact is deleted. The company also wants application records to inherit their record-level access from the related Contact. Which relationship should the administrator create on the custom Job Application object?",
+      "options": [
+        "Lookup relationship to Contact",
+        "Master-detail relationship to Contact",
+        "Hierarchical relationship to Contact",
+        "External lookup relationship to Contact"
+      ],
+      "answer": "B",
+      "explanation": "A master-detail relationship tightly couples the detail record to its master. Detail records inherit ownership and sharing behavior from the master, and deleting the master normally cascades to its detail records. A standard lookup relationship does not provide this combination of inherited access and cascade deletion.",
+      "topic": "Object Manager and Lightning App Builder",
+      "subtopic": "Object relationships",
+      "difficulty": "easy",
+      "source": "Trailhead: Object Relationships; Salesforce Help: Master-Detail Relationship"
+    },
+    {
+      "stem": "An administrator wants a custom field on the Opportunity object to display the number of days remaining until the Close Date. The value should update automatically as the current date changes, without a scheduled process or manual edits. Which field type should the administrator use?",
+      "options": [
+        "Number field with a default value",
+        "Date field with a validation rule",
+        "Roll-up summary field using Close Date",
+        "Formula field using Close Date minus TODAY()"
+      ],
+      "answer": "D",
+      "explanation": "A formula field calculates its displayed result from an expression rather than storing a manually updated value. Subtracting TODAY() from a date field returns the difference in days and recalculates when the field is evaluated. A roll-up summary aggregates related records and is not suitable for this calculation.",
+      "topic": "Object Manager and Lightning App Builder",
+      "subtopic": "Custom fields and formulas",
+      "difficulty": "easy",
+      "source": "Trailhead: Formula Fields; Salesforce Help: Formula Operators and Functions"
+    },
+    {
+      "stem": "An organization uses a single Account record type. Its sales and support users require different components on the Account Lightning record page. Sales users need a pipeline component, while support users need a service history component. The administrator wants each group to see the appropriate component without maintaining separate Lightning pages. Which feature best meets this requirement?",
+      "options": [
+        "Use separate compact layouts assigned to the sales and support profiles.",
+        "Use separate field sets and associate them with the sales and support roles.",
+        "Use component visibility filters based on the appropriate user permissions.",
+        "Use different Account list views assigned to the sales and support teams."
+      ],
+      "answer": "C",
+      "explanation": "Lightning App Builder supports component visibility rules that conditionally display components on the same record page. The administrator can use supported user-based criteria, such as custom permissions, to control which group sees each component. Compact layouts, field sets, and list views do not provide equivalent control over Lightning page component visibility.",
+      "topic": "Object Manager and Lightning App Builder",
+      "subtopic": "Lightning App Builder and dynamic visibility",
+      "difficulty": "medium",
+      "source": "Salesforce Help: Set Component Visibility in Lightning App Builder"
+    },
+    {
+      "stem": "A sales representative has qualified a Lead and is ready to convert it. The company wants Salesforce to create an Account, a Contact, and an Opportunity during conversion. Which statement correctly describes standard Lead conversion?",
+      "options": [
+        "Salesforce converts the Lead into a Case and creates an Opportunity after the Case is closed.",
+        "Salesforce creates a Contact but requires a separate automation to create an Account.",
+        "Salesforce creates an Account and a Contact but cannot create an Opportunity during conversion.",
+        "Salesforce creates an Account and a Contact and can create an Opportunity during the conversion process."
+      ],
+      "answer": "D",
+      "explanation": "Standard Lead conversion creates or associates an Account and a Contact and can optionally create an Opportunity. Users can choose not to create an Opportunity when converting a Lead. Lead conversion is a standard Sales Cloud capability and does not require a custom automation for these records.",
+      "topic": "Sales and Marketing Applications",
+      "subtopic": "Lead management and conversion",
+      "difficulty": "easy",
+      "source": "Trailhead: Leads and Opportunities; Salesforce Help: Convert Leads"
+    },
+    {
+      "stem": "A sales organization manages two types of Opportunity: New Business and Contract Renewal. Each type requires a different set of Stage values and a different sales process. Sales representatives should select the appropriate type when creating an Opportunity. Which TWO configurations are required? Choose TWO.",
+      "options": [
+        "Create separate sales processes containing the relevant Stage values.",
+        "Create Opportunity record types associated with the appropriate sales processes.",
+        "Create separate role hierarchies for New Business and Contract Renewal.",
+        "Create separate organization-wide defaults for each Opportunity type."
+      ],
+      "answer": "AB",
+      "explanation": "Sales processes define the Stage values available for opportunities, while Opportunity record types associate users with the appropriate sales process. Together they allow different opportunity categories to follow different stage sequences. Roles and organization-wide defaults govern record visibility rather than sales process selection.",
+      "topic": "Sales and Marketing Applications",
+      "subtopic": "Opportunity sales processes and record types",
+      "difficulty": "medium",
+      "source": "Trailhead: Customize Sales Processes and Opportunity Record Types"
+    },
+    {
+      "stem": "A customer support center receives cases through email and wants cases to be distributed automatically to available support agents according to their work capacity. The administrator also needs agents to receive the work inside the Salesforce console. Which feature should the administrator configure?",
+      "options": [
+        "Web-to-Case",
+        "Case escalation rules",
+        "Omni-Channel routing",
+        "Case auto-response rules"
+      ],
+      "answer": "C",
+      "explanation": "Omni-Channel routes supported work items, including cases, to agents according to configured routing rules, availability, and capacity. Web-to-Case captures submissions, escalation rules handle time-based escalation, and auto-response rules send automatic replies. These other features do not provide capacity-aware agent routing.",
+      "topic": "Service and Support Applications",
+      "subtopic": "Omni-Channel case routing",
+      "difficulty": "medium",
+      "source": "Trailhead: Omni-Channel for Lightning Experience; Salesforce Help: Omni-Channel Routing"
+    },
+    {
+      "stem": "A company requires high-priority cases to be reassigned to a specialist queue if they remain unresolved for more than four business hours after creation. The reassignment must follow the company's configured business hours. Which feature should the administrator use?",
+      "options": [
+        "Case assignment rules based on case priority",
+        "Case escalation rules using business hours",
+        "Case auto-response rules with a delayed response",
+        "Support processes with additional case statuses"
+      ],
+      "answer": "B",
+      "explanation": "Case escalation rules support time-based actions such as reassignment and can use configured business hours when calculating escalation times. An escalation rule can target qualifying high-priority cases that remain open beyond the specified threshold. Assignment rules route cases based on criteria but do not provide the same elapsed-business-time escalation mechanism.",
+      "topic": "Service and Support Applications",
+      "subtopic": "Case escalation and business hours",
+      "difficulty": "medium",
+      "source": "Salesforce Help: Set Up Escalation Rules; Set Business Hours"
+    },
+    {
+      "stem": "A sales representative wants to create a follow-up item assigned to a colleague, with a due date and a completion status, so that the colleague can track the work in Salesforce. Which standard activity should the representative create?",
+      "options": [
+        "Task",
+        "Event",
+        "Campaign",
+        "Note"
+      ],
+      "answer": "A",
+      "explanation": "Tasks are Salesforce activities used to track work that needs to be completed. They can have an assigned user, a due date, and a status such as Not Started or Completed. Events are primarily used for scheduled appointments or meetings rather than task completion tracking.",
+      "topic": "Productivity and Collaboration",
+      "subtopic": "Activity management",
+      "difficulty": "easy",
+      "source": "Trailhead: Activity Management; Salesforce Help: Tasks"
+    },
+    {
+      "stem": "A company uses Salesforce Chatter for collaboration. An administrator creates a private Chatter group for a confidential product launch. The administrator must explain how group membership affects the visibility of group discussions. Which TWO statements are correct? Choose TWO.",
+      "options": [
+        "Any Salesforce user can view private group posts if the user has access to the related records.",
+        "Members can view posts and files shared in the private group, subject to applicable file access controls.",
+        "Private group posts automatically appear in the feeds of all users above members in the role hierarchy.",
+        "Users who are not members generally cannot view the private group's discussions unless they have appropriate administrative access."
+      ],
+      "answer": "BD",
+      "explanation": "Private Chatter groups restrict their discussions to members and users with applicable administrative access. Group membership allows members to collaborate and view group content, although files and other referenced resources can have additional access considerations. Role hierarchy placement and access to a related CRM record do not automatically grant access to private group discussions.",
+      "topic": "Productivity and Collaboration",
+      "subtopic": "Chatter groups and collaboration",
+      "difficulty": "medium",
+      "source": "Salesforce Help: Chatter Group Types; Private Chatter Groups"
+    },
+    {
+      "stem": "An administrator needs to import 35,000 Contact records from a CSV file into Salesforce. The import should support matching against existing Contacts to help prevent duplicate records. The administrator wants to use a built-in wizard without installing software. Which tool is the best choice?",
+      "options": [
+        "Data Export Service",
+        "Salesforce Report Builder",
+        "Data Import Wizard",
+        "Salesforce Schema Builder"
+      ],
+      "answer": "C",
+      "explanation": "The Data Import Wizard supports importing Contacts from CSV files and provides matching options for adding new records or updating existing ones. Its supported import size accommodates 35,000 records within the normal 50,000-record limit per import. The Data Export Service extracts data, while Report Builder and Schema Builder are not CSV import tools.",
+      "topic": "Data and Analytics Management",
+      "subtopic": "Data import and duplicate prevention",
+      "difficulty": "easy",
+      "source": "Trailhead: Data Import; Salesforce Help: Data Import Wizard"
+    },
+    {
+      "stem": "A reporting team wants to create a single Salesforce report showing all Accounts, including Accounts with no Opportunities. For Accounts that have Opportunities, the report must display the related Opportunity details. Which report type relationship should the administrator configure?",
+      "options": [
+        "Accounts with Opportunities",
+        "Opportunities with Accounts",
+        "Accounts without Opportunities",
+        "Accounts with or without Opportunities"
+      ],
+      "answer": "D",
+      "explanation": "A custom report type using Accounts with or without Opportunities includes all Accounts, whether or not they have related Opportunity records. Opportunities are displayed where they exist, while Accounts with no Opportunities remain in the results. The with-only relationship excludes Accounts that lack related Opportunities.",
+      "topic": "Data and Analytics Management",
+      "subtopic": "Custom report types and reporting relationships",
+      "difficulty": "medium",
+      "source": "Trailhead: Custom Report Types; Salesforce Help: Define the Relationships Between Objects for Custom Report Types"
+    },
+    {
+      "stem": "A finance team has discovered that some imported Opportunity records have the wrong owner. The administrator has a CSV file containing the correct Salesforce Opportunity record IDs and replacement owner user IDs. The administrator must update the ownership of 120,000 existing Opportunities without creating duplicates. Which approach best meets this requirement?",
+      "options": [
+        "Use Data Loader in Update mode, matching on Opportunity ID and mapping OwnerId.",
+        "Use Data Import Wizard to insert the Opportunities with the replacement owner IDs.",
+        "Use Data Loader in Insert mode, matching on Opportunity Name and mapping OwnerId.",
+        "Use the Data Export Service to import the replacement owners from the CSV file."
+      ],
+      "answer": "A",
+      "explanation": "Data Loader supports bulk updates of existing records using their Salesforce IDs. Mapping the supplied Opportunity IDs and OwnerId values allows the administrator to update ownership without inserting new Opportunity records, provided the operation has the necessary permissions and valid target owners. Insert operations would create new records, and Data Export Service does not perform imports.",
+      "topic": "Data and Analytics Management",
+      "subtopic": "Bulk data updates and ownership",
+      "difficulty": "hard",
+      "source": "Salesforce Data Loader Guide: Updating Records; Salesforce Help: Change Record Owners"
+    },
+    {
+      "stem": "An administrator must automatically set an Opportunity's Priority__c field to High whenever its Amount exceeds 100,000 and its Stage changes to Negotiation. The update must be completed before the record is saved to the database and must not use Apex. Which automation is most appropriate?",
+      "options": [
+        "A scheduled-triggered flow that runs every night",
+        "A before-save record-triggered flow on Opportunity",
+        "A screen flow launched from the Opportunity page",
+        "An approval process submitted by the Opportunity owner"
+      ],
+      "answer": "B",
+      "explanation": "A before-save record-triggered flow is designed for efficient updates to fields on the record that initiates the flow. The administrator can configure entry criteria and a condition checking the transition to the specified Stage. The new field value is applied during the save transaction without requiring another record update operation.",
+      "topic": "Automation",
+      "subtopic": "Before-save record-triggered flows",
+      "difficulty": "medium",
+      "source": "Trailhead: Record-Triggered Flows; Salesforce Help: Before-Save Flow Considerations"
+    },
+    {
+      "stem": "A company needs a Salesforce automation to perform the following actions whenever an Opportunity first becomes Closed Won: create a related onboarding Task, send a notification email, and update a field on the related Account. The process must run without user interaction. Which automation should the administrator build?",
+      "options": [
+        "A before-save record-triggered flow on Opportunity",
+        "A screen flow requiring the representative to start the process",
+        "An after-save record-triggered flow on Opportunity",
+        "A validation rule on Opportunity with a custom error message"
+      ],
+      "answer": "C",
+      "explanation": "An after-save record-triggered flow can create related records, update other records, and perform supported actions such as sending email notifications. The administrator can configure the flow to run when the Opportunity enters the Closed Won state. Before-save flows are intended primarily for updates to the triggering record, while screen flows require interaction and validation rules only validate record changes.",
+      "topic": "Automation",
+      "subtopic": "After-save record-triggered flows",
+      "difficulty": "medium",
+      "source": "Trailhead: Record-Triggered Flows; Salesforce Help: Record-Triggered Flow Actions"
+    },
+    {
+      "stem": "An organization has a record-triggered flow on Case that sends a notification through an external integration whenever a Case is closed. The integration occasionally fails, and administrators want the Salesforce Case closure to succeed even when the external service is unavailable. The organization also wants the integration call to occur after the database transaction commits. Which flow design best satisfies these requirements?",
+      "options": [
+        "Use a before-save flow and invoke the integration before updating the Case status.",
+        "Use a validation rule and require the integration to approve each Case closure.",
+        "Use an immediate after-save path and make the external response mandatory before the transaction finishes.",
+        "Use an asynchronous path in an after-save record-triggered flow for the integration action."
+      ],
+      "answer": "D",
+      "explanation": "An asynchronous path runs after the original record transaction commits, separating supported downstream processing from the Case save transaction. This helps prevent an external integration failure from rolling back the Case closure. Administrators should still design appropriate error handling and retry behavior because asynchronous execution does not guarantee that every external request will succeed.",
+      "topic": "Automation",
+      "subtopic": "Asynchronous flow execution and transaction handling",
+      "difficulty": "hard",
+      "source": "Salesforce Help: Asynchronous Paths in Record-Triggered Flows; Flow Transaction Considerations"
+    },
+    {
+      "stem": "A company is configuring an Agentforce Service agent to answer customer questions about order status. The agent will interact with external website visitors who are not logged in. The agent uses a dedicated agent user to access Salesforce records. Which TWO actions should the administrator take to enforce appropriate data security? Choose TWO.",
+      "options": [
+        "Grant the agent user the minimum necessary object, field, and record access for its approved actions.",
+        "Assign the System Administrator profile to the agent user to prevent permission errors.",
+        "Review the permission sets assigned to the agent user when enabling additional agent actions.",
+        "Disable organization-wide sharing defaults for objects queried by the agent."
+      ],
+      "answer": "AC",
+      "explanation": "An Agentforce Service agent operating through a dedicated agent user is governed by that user's applicable permissions and sharing access. The administrator should grant only the object, field, record, and action access necessary for approved operations and reassess permissions when new actions are added. Broad administrator access or weakening sharing controls would unnecessarily expose data.",
+      "topic": "Agentforce",
+      "subtopic": "Agent user access and least privilege",
+      "difficulty": "hard",
+      "source": "Salesforce Help: Configure Service Agent Access; Agentforce Service Agent Security"
+    },
+    {
+      "stem": "A customer service team wants an Agentforce Service agent to answer questions about product return policies using the organization's approved Salesforce Knowledge articles. The team wants the agent's responses to be based on those articles rather than relying only on the language model's general knowledge. Which approach best meets this requirement?",
+      "options": [
+        "Increase the agent user's role hierarchy level so it can generate more detailed responses.",
+        "Configure a Knowledge-based retrieval or grounding capability with access to the relevant articles.",
+        "Create a validation rule requiring every Knowledge article to have a publication date.",
+        "Create a dashboard displaying the number of Knowledge articles published each month."
+      ],
+      "answer": "B",
+      "explanation": "Knowledge grounding allows an Agentforce Service agent to retrieve relevant approved content and use it as context when generating responses. This improves the relevance and factual basis of answers about company-specific policies, subject to the retrieval configuration and applicable access permissions. Role hierarchies, validation rules, and dashboards do not independently ground agent responses in Knowledge content.",
+      "topic": "Agentforce",
+      "subtopic": "Knowledge grounding and agent responses",
+      "difficulty": "medium",
+      "source": "Salesforce Help: Ground Agentforce Service Agents with Knowledge; Agentforce Builder"
+    }
+  ]
+}

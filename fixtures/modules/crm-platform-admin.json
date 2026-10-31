@@ -1,0 +1,44 @@
+{
+  "id": "crm-platform-admin",
+  "display_name": "Salesforce Certified Platform Administrator",
+  "body": "Salesforce",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by Salesforce, Inc.; it is not a Salesforce partner or an authorized training provider, and the names are used only to identify the exam. Salesforce, Agentforce, Lightning App Builder and the names of Salesforce certifications, including Salesforce Certified Platform Administrator, are trademarks of Salesforce, Inc. The topic names and weights are from the Salesforce Certified Platform Administrator Exam Guide, which is a copyright of Salesforce, Inc.",
+  "taxonomy": {
+    "Configuration and Setup": [],
+    "Object Manager and Lightning App Builder": [],
+    "Sales and Marketing Applications": [],
+    "Service and Support Applications": [],
+    "Productivity and Collaboration": [],
+    "Data and Analytics Management": [],
+    "Automation": [],
+    "Agentforce": []
+  },
+  "weights": {
+    "Configuration and Setup": 15,
+    "Object Manager and Lightning App Builder": 15,
+    "Sales and Marketing Applications": 10,
+    "Service and Support Applications": 10,
+    "Productivity and Collaboration": 10,
+    "Data and Analytics Management": 17,
+    "Automation": 15,
+    "Agentforce": 8
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": true,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [],
+  "uncovered_item_types": [],
+  "exam_mode": {
+    "questions": 65,
+    "minutes": 105
+  },
+  "verified_outline": "Salesforce Certified Platform Administrator Exam Guide (exam updated December 15, 2025; questions aligned to Summer ’25)",
+  "verified_on": "2026-10-31",
+  "next_review": "2027-10-31"
+}
