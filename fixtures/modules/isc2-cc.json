@@ -1,0 +1,64 @@
+{
+  "id": "isc2-cc",
+  "display_name": "Certified in Cybersecurity (CC)",
+  "body": "ISC2",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by ISC2, Inc.; the names are used only to identify the exam. ISC2®, CISSP® and ISC2's other certification marks are registered marks of ISC2, Inc.",
+  "taxonomy": {
+    "Security Principles": [
+      "Understand cybersecurity concepts",
+      "Understand risk management concepts",
+      "Understand governance concepts",
+      "Understand cybersecurity controls",
+      "Maintain professional and ethical conduct"
+    ],
+    "Security Governance": [
+      "Plan Governance, Risk, and Compliance (GRC)",
+      "Understand redundancy",
+      "Understand security awareness",
+      "Measure cybersecurity effectiveness"
+    ],
+    "Identity And Access Management (IAM) Concepts": [
+      "Understand identity life cycle management",
+      "Understand logical access controls"
+    ],
+    "Networking and Cloud Security Concepts": [
+      "Understand network security",
+      "Understand network security architecture",
+      "Understand cloud security"
+    ],
+    "Security Operations and Incident Response": [
+      "Understand data security",
+      "Understand security operations",
+      "Understand Incident Response (IR)",
+      "Understand asset protection",
+      "Understand security testing"
+    ]
+  },
+  "weights": {
+    "Security Principles": 24,
+    "Security Governance": 17.3,
+    "Identity And Access Management (IAM) Concepts": 20,
+    "Networking and Cloud Security Concepts": 21.3,
+    "Security Operations and Incident Response": 17.3
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": false,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "uncovered_item_types": [
+    "advanced item types"
+  ],
+  "exam_mode": {
+    "questions": 100,
+    "minutes": 96,
+    "note": "The real CC is adaptive: 100 to 125 items in up to 2 hours."
+  },
+  "verified_outline": "Certified in Cybersecurity Certification Exam Outline (effective September 1, 2026)",
+  "verified_on": "2026-10-31",
+  "next_review": "2027-10-31"
+}
