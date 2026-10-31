@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "pl-300",
+  "set": "PL-300: Microsoft Power BI Data Analyst practice – Comprehensive Exam Preparation Set",
+  "questions": [
+    {
+      "stem": "You are creating a Power BI dataset that connects to a local network folder containing monthly sales CSV files with identical column structures. You need to combine all current and future monthly files into a single table with minimal administrative effort. Which action should you perform in Power Query?",
+      "options": [
+        "Create individual queries for each file and apply an Append Queries as New operation.",
+        "Use the Web connector and enter the local folder path to import all files.",
+        "Use the Folder connector and select Combine Files.",
+        "Create individual queries for each file and apply a Merge Queries operation."
+      ],
+      "answer": "C",
+      "explanation": "The Folder connector combined with the Combine Files feature automatically analyzes the files in the directory and creates a parameterized helper query. When new files with identical schemas are added to the directory, they are incorporated during refresh without manual query modifications.",
+      "topic": "Prepare the data",
+      "subtopic": "Get or connect to data",
+      "difficulty": "easy",
+      "source": "PL-300 study guide, Prepare the data: Get or connect to data"
+    },
+    {
+      "stem": "You connect Power BI Desktop to an Azure SQL database table containing billions of historical transaction rows. The business requires real-time data inspection for current-day transactions while maintaining rapid query performance on historical aggregations. You decide to configure composite models. Which TWO storage mode configurations should you implement? (Choose TWO.)",
+      "options": [
+        "Set the aggregated historical table to Import mode.",
+        "Set all dimension and fact tables to DirectQuery mode.",
+        "Set the real-time transaction detail table to DirectQuery mode.",
+        "Set the aggregated historical table to Dual mode."
+      ],
+      "answer": "AC",
+      "explanation": "Composite models allow combining Import and DirectQuery modes in the same model. Setting the aggregated historical table to Import mode optimizes query speed and compression for high-volume historical reporting, while DirectQuery on the current-day detail table ensures data freshness for real-time analysis.",
+      "topic": "Prepare the data",
+      "subtopic": "Get or connect to data",
+      "difficulty": "medium",
+      "source": "PL-300 study guide, Prepare the data: Get or connect to data"
+    },
+    {
+      "stem": "In Power Query Editor, you examine a column containing customer phone numbers. The Column Quality profiling tool indicates 5% errors and 10% empty values. By default, Power Query calculates these profiling statistics based on which data sample?",
+      "options": [
+        "The entire dataset loaded into memory.",
+        "The top 1,000 rows of the table.",
+        "A randomized sample of 5,000 rows.",
+        "The top 10,000 rows of the table."
+      ],
+      "answer": "B",
+      "explanation": "Power Query calculates column profiling statistics—such as Column Quality, Column Distribution, and Column Profile—based on the top 1,000 rows by default. You can change this behavior via the status bar at the bottom to profile the entire dataset when needed.",
+      "topic": "Prepare the data",
+      "subtopic": "Profile and clean the data",
+      "difficulty": "easy",
+      "source": "PL-300 study guide, Prepare the data: Profile and clean the data"
+    },
+    {
+      "stem": "In Power Query Editor, you enable Column Distribution for a column named CustomerID across a 1,000-row preview. The distribution summary displays \"850 distinct, 700 unique\". What does the count of 700 unique values indicate?",
+      "options": [
+        "The total count of values that do not contain null or empty strings.",
+        "The total count of values that appear more than once in the dataset.",
+        "The total count of non-repeating values after duplicates have been removed.",
+        "The count of values that appear exactly once in the profiled rows."
+      ],
+      "answer": "D",
+      "explanation": "In Power Query data profiling, distinct values represent the total count of different values regardless of how many times they appear. Unique values specifically count only the values that appear exactly once in the sampled rows.",
+      "topic": "Prepare the data",
+      "subtopic": "Profile and clean the data",
+      "difficulty": "medium",
+      "source": "PL-300 study guide, Prepare the data: Profile and clean the data"
+    },
+    {
+      "stem": "You are importing data from a Microsoft SQL Server database using Power Query. You want to maximize query performance by ensuring transformations fold back to the source database. Which transformation will prevent query folding from continuing on subsequent steps?",
+      "options": [
+        "Inserting an Index column to generate row numbers.",
+        "Filtering rows using a date greater than a specific literal.",
+        "Grouping rows to compute an aggregate sum.",
+        "Removing unneeded columns from the table."
+      ],
+      "answer": "A",
+      "explanation": "Adding an Index column in Power Query breaks query folding because relational databases such as SQL Server do not have an equivalent native operation for generating sequential row numbers without explicit window functions or order clauses. Filtering, column removal, and standard grouping can fold natively into SQL WHERE, SELECT, and GROUP BY clauses.",
+      "topic": "Prepare the data",
+      "subtopic": "Transform and load the data",
+      "difficulty": "hard",
+      "source": "PL-300 study guide, Prepare the data: Transform and load the data"
+    },
+    {
+      "stem": "You import a financial summary spreadsheet into Power Query where the first column contains account names and each subsequent column header is a month name (for example, Jan, Feb, Mar) containing monthly expenditure figures. You need to transform this data into a normalized table with three columns: Account, Month, and Amount. Which transformation should you apply?",
+      "options": [
+        "Select the Account column and click Transpose.",
+        "Select all monthly columns and click Pivot Column.",
+        "Select the Account column and click Unpivot Other Columns.",
+        "Select all monthly columns and click Group By."
+      ],
+      "answer": "C",
+      "explanation": "Selecting the Account column and executing \"Unpivot Other Columns\" transforms wide, crosstab-formatted data into normalized rows. This operation is dynamic, meaning any new monthly columns added to the source data in the future will automatically unpivot into rows without modifying query steps.",
+      "topic": "Prepare the data",
+      "subtopic": "Transform and load the data",
+      "difficulty": "medium",
+      "source": "PL-300 study guide, Prepare the data: Transform and load the data"
+    },
+    {
+      "stem": "You are modeling data in Power BI Desktop consisting of a Customers dimension table and a Sales transaction fact table. Each customer has a single row in Customers identified by CustomerID, while customers can have multiple orders in Sales. What cardinality should you configure for the relationship from Sales to Customers?",
+      "options": [
+        "One-to-many (1:*)",
+        "Many-to-one (*:1)",
+        "One-to-one (1:1)",
+        "Many-to-many (*:*)"
+      ],
+      "answer": "B",
+      "explanation": "When defining the relationship from the Sales table (the \"many\" side) to the Customers table (the \"one\" side), the relationship cardinality is Many-to-one (*:1). The Customers table contains unique primary keys, while the Sales table contains repeating foreign keys.",
+      "topic": "Model the data",
+      "subtopic": "Design and implement a data model",
+      "difficulty": "easy",
+      "source": "PL-300 study guide, Model the data: Design and implement a data model"
+    },
+    {
+      "stem": "A Sales table contains both OrderDate and ShipDate fields. You have a single Date dimension table connected to Sales[OrderDate] via an active relationship. You need to calculate total sales by ShipDate within the same model without duplicating the Date dimension table. Which strategy should you implement?",
+      "options": [
+        "Change the active relationship cross-filter direction to Both.",
+        "Add a calculated column to Sales combining OrderDate and ShipDate into a single surrogate key.",
+        "Create an active relationship between Sales[ShipDate] and Date[Date] and disable relationship validation.",
+        "Create an inactive relationship between Sales[ShipDate] and Date[Date], and activate it in DAX using USERELATIONSHIP."
+      ],
+      "answer": "D",
+      "explanation": "Power BI allows only one active relationship between two tables at a time. By creating an inactive relationship between Sales[ShipDate] and Date[Date], you can invoke the USERELATIONSHIP function inside a CALCULATE measure to temporarily activate it for specific calculations without duplicating the dimension.",
+      "topic": "Model the data",
+      "subtopic": "Design and implement a data model",
+      "difficulty": "medium",
+      "source": "PL-300 study guide, Model the data: Design and implement a data model"
+    },
+    {
+      "stem": "You need to create a DAX measure that computes total sales strictly for the \"Accessories\" category, regardless of any user selections on the Category slicer, while continuing to respect slicers applied to other tables and columns. Which TWO DAX expressions fulfill this requirement? (Choose TWO.)",
+      "options": [
+        "CALCULATE([Total Sales], KEEPFILTERS(Product[Category] = \"Accessories\"))",
+        "CALCULATE([Total Sales], Product[Category] = \"Accessories\")",
+        "CALCULATE([Total Sales], FILTER(ALL(Product[Category]), Product[Category] = \"Accessories\"))",
+        "CALCULATE([Total Sales], ALL(Product))"
+      ],
+      "answer": "BC",
+      "explanation": "In DAX, writing a predicate filter such as Product[Category] = \"Accessories\" inside CALCULATE is syntactic shorthand for FILTER(ALL(Product[Category]), Product[Category] = \"Accessories\"). Both expressions remove existing filters solely from Product[Category] and apply the \"Accessories\" filter while leaving filters on other columns intact.",
+      "topic": "Model the data",
+      "subtopic": "Create model calculations by using DAX",
+      "difficulty": "medium",
+      "source": "PL-300 study guide, Model the data: Create model calculations by using DAX"
+    },
+    {
+      "stem": "You add a calculated column to the Customer table using the formula: TotalCustomerSales = CALCULATE(SUM(Sales[Amount])). Why does this formula return the total sales for each individual customer row rather than the aggregate sales of the entire table?",
+      "options": [
+        "The CALCULATE function triggers context transition, converting the current row context into an equivalent filter context.",
+        "Calculated columns automatically apply relationship filtering without requiring evaluation context modifiers.",
+        "The SUM function natively evaluates against related foreign keys when executed inside calculated columns.",
+        "Power BI generates an implicit bi-directional filter across all related tables when CALCULATE is invoked."
+      ],
+      "answer": "A",
+      "explanation": "In DAX, CALCULATE automatically performs context transition when evaluated inside a row context (such as within a calculated column or an iterator). It transforms the current row values across all columns of the Customer table into an active filter context, filtering the related Sales table to only the corresponding customer.",
+      "topic": "Model the data",
+      "subtopic": "Create model calculations by using DAX",
+      "difficulty": "hard",
+      "source": "PL-300 study guide, Model the data: Create model calculations by using DAX"
+    },
+    {
+      "stem": "You need to write a DAX measure that calculates the year-to-date total of the Sales[Amount] column based on the date range selected in the report visual. Which DAX time-intelligence function is designed specifically to calculate this value directly without nesting additional filter functions?",
+      "options": [
+        "SAMEPERIODLASTYEAR",
+        "PARALLELPERIOD",
+        "DATEADD",
+        "TOTALYTD"
+      ],
+      "answer": "D",
+      "explanation": "TOTALYTD evaluates an expression across the year-to-date interval based on the current filter context in a single, dedicated function. While CALCULATE can combine DATESYTD with an expression, TOTALYTD directly wraps this calculation without requiring explicit filter nesting.",
+      "topic": "Model the data",
+      "subtopic": "Create model calculations by using DAX",
+      "difficulty": "easy",
+      "source": "PL-300 study guide, Model the data: Create model calculations by using DAX"
+    },
+    {
+      "stem": "Using DAX Studio, you discover that a single DateTime column in an imported fact table with 40 million rows consumes a significant portion of the total model memory due to having millions of distinct values. Which optimization technique will most effectively reduce the VertiPaq memory footprint while preserving reporting precision down to the minute?",
+      "options": [
+        "Convert the column data type from DateTime to Text formatted as \"YYYY-MM-DD HH:MM\".",
+        "Split the DateTime column into two separate columns: one Date column and one Time column rounded to the minute.",
+        "Switch the fact table storage mode from Import to DirectQuery while leaving dimension tables in Dual mode.",
+        "Create a calculated column that uses FORMAT to extract only the year, month, and day."
+      ],
+      "answer": "B",
+      "explanation": "The VertiPaq storage engine compresses data on a per-column basis based on column cardinality (the count of unique values). A single combined DateTime column contains millions of unique combinations; splitting it into a Date column (a few thousand unique values) and a Time column (1,440 unique values for minute precision) drastically reduces distinct values and dictionary memory.",
+      "topic": "Model the data",
+      "subtopic": "Optimize model performance",
+      "difficulty": "hard",
+      "source": "PL-300 study guide, Model the data: Optimize model performance"
+    },
+    {
+      "stem": "You are developing a multi-page Power BI report. You want users to be able to right-click a specific store location on a high-level summary map and navigate directly to a detailed store analysis page that is automatically filtered to that selected store. Which feature should you configure?",
+      "options": [
+        "Report-level filters in the Filters pane.",
+        "Sync slicers across the summary and detail pages.",
+        "A Drillthrough filter on the store analysis page.",
+        "Cross-highlighting interactions on the summary map visual."
+      ],
+      "answer": "C",
+      "explanation": "Setting up a Drillthrough filter on the destination page enables contextual navigation. When a user right-clicks a data point (like a store location) on any source visual that includes that field, Power BI displays the Drillthrough option and passes the active filter context to the destination page.",
+      "topic": "Visualize and analyze the data",
+      "subtopic": "Create reports",
+      "difficulty": "easy",
+      "source": "PL-300 study guide, Visualize and analyze the data: Create reports"
+    },
+    {
+      "stem": "You are designing an executive dashboard page where space is limited. You need to allow users to toggle between viewing a clustered column chart and a tabular matrix in the exact same screen position by clicking on two tab buttons. Which combination of Power BI features should you use?",
+      "options": [
+        "Bookmarks and the Selection pane.",
+        "Page navigation buttons and Drillthrough.",
+        "Sync slicers and conditional visual formatting.",
+        "Tooltip pages and cross-filtering interactions."
+      ],
+      "answer": "A",
+      "explanation": "Combining bookmarks with the Selection pane allows report creators to show and hide specific visual elements. By creating two bookmarks—one where the chart is visible and the matrix is hidden, and another with the reverse visibility—you can assign these bookmarks to buttons to create an interactive toggle.",
+      "topic": "Visualize and analyze the data",
+      "subtopic": "Create reports",
+      "difficulty": "medium",
+      "source": "PL-300 study guide, Visualize and analyze the data: Create reports"
+    },
+    {
+      "stem": "You are configuring a Power BI report to meet accessibility standards for keyboard and screen-reader users. You need to ensure that pressing the Tab key moves focus through visual elements, slicers, and buttons in a logical, top-to-bottom reading sequence. Which configuration should you adjust?",
+      "options": [
+        "The layer order in the Format ribbon.",
+        "The visual header toggle settings for each visual.",
+        "The Alt text descriptions in the General visual properties.",
+        "The Tab order settings in the Selection pane."
+      ],
+      "answer": "D",
+      "explanation": "In Power BI Desktop, the Selection pane contains a dedicated Tab order view. Report authors can customize the numerical sequence in which interactive controls and visuals receive keyboard focus, ensuring screen-reader and keyboard users navigate content in an intuitive order.",
+      "topic": "Visualize and analyze the data",
+      "subtopic": "Enhance reports for usability and storytelling",
+      "difficulty": "medium",
+      "source": "PL-300 study guide, Visualize and analyze the data: Enhance reports for usability and storytelling"
+    },
+    {
+      "stem": "You want to display a mini trend chart whenever a user hovers over any data bar in a main sales visual. You build a new report page to host this trend chart. Which setting must you enable in the Page Information options of the new report page?",
+      "options": [
+        "Enable Cross-report drillthrough.",
+        "Turn on Allow use as tooltip.",
+        "Set Page type to Drillthrough.",
+        "Enable Keep all filters on the page canvas."
+      ],
+      "answer": "B",
+      "explanation": "To use a report page as a custom hover card, you must toggle the \"Allow use as tooltip\" option to On under Page Information in the Page formatting pane. You typically also set the Canvas settings Type to Tooltip to size the canvas appropriately.",
+      "topic": "Visualize and analyze the data",
+      "subtopic": "Enhance reports for usability and storytelling",
+      "difficulty": "medium",
+      "source": "PL-300 study guide, Visualize and analyze the data: Enhance reports for usability and storytelling"
+    },
+    {
+      "stem": "You are analyzing a line chart showing daily online order counts over two years. You want Power BI to automatically detect unexpected outliers and display natural language explanations of potential drivers when an outlier is selected. Which TWO steps should you perform? (Choose TWO.)",
+      "options": [
+        "Enable Find anomalies in the Analytics pane of the line chart.",
+        "Add a Key Influencers visual and configure Order Count as the metric to analyze.",
+        "Enable the Forecast feature and set seasonality to 365 days.",
+        "Add contextual fields to the Explain by field well in the Anomaly detection settings."
+      ],
+      "answer": "AD",
+      "explanation": "Anomaly detection is enabled directly on time-series line charts via the Analytics pane by adding \"Find anomalies\". To help Power BI provide explanations for why an anomaly occurred, you populate the \"Explain by\" field well with potential influencing dimensions (such as Promotion or Region).",
+      "topic": "Visualize and analyze the data",
+      "subtopic": "Identify patterns and trends",
+      "difficulty": "medium",
+      "source": "PL-300 study guide, Visualize and analyze the data: Identify patterns and trends"
+    },
+    {
+      "stem": "You are configuring role access for a departmental Power BI workspace. A business analyst needs to create, edit, and publish reports and semantic models within the workspace. However, this analyst must NOT have permission to publish or update the workspace app or modify user workspace roles. Which workspace role should you assign?",
+      "options": [
+        "Member",
+        "Viewer",
+        "Contributor",
+        "Admin"
+      ],
+      "answer": "C",
+      "explanation": "The Contributor role allows users to create, edit, and delete workspace content (such as reports, dashboards, and semantic models), but they cannot update workspace apps, manage workspace permissions, or delete the workspace. Members and Admins have permission to publish and update workspace apps.",
+      "topic": "Manage and secure Power BI",
+      "subtopic": "Create and manage workspaces and assets",
+      "difficulty": "easy",
+      "source": "PL-300 study guide, Manage and secure Power BI: Create and manage workspaces and assets"
+    },
+    {
+      "stem": "You use Power BI deployment pipelines to promote semantic models and reports across Development, Test, and Production stages. When deploying content from Development to Test, you need the semantic model to connect automatically to the test database server without manually editing queries in Power BI Desktop. What should you configure in the deployment pipeline?",
+      "options": [
+        "Deployment parameter and data source rules in the target stage.",
+        "Scheduled refresh credentials and sensitivity labels in the source stage.",
+        "Row-level security roles mapped to Microsoft Entra security groups.",
+        "Workspace access policies assigned to the Deployment Pipeline administrator."
+      ],
+      "answer": "A",
+      "explanation": "Deployment rules in Power BI deployment pipelines allow you to specify data source rules or parameter rules for the target stage (e.g., Test or Production). When items are deployed, the pipeline automatically updates connection parameters or server/database connection strings to point to the appropriate target environment.",
+      "topic": "Manage and secure Power BI",
+      "subtopic": "Create and manage workspaces and assets",
+      "difficulty": "medium",
+      "source": "PL-300 study guide, Manage and secure Power BI: Create and manage workspaces and assets"
+    },
+    {
+      "stem": "You are configuring dynamic Row-Level Security (RLS) in Power BI Desktop so that sales representatives can only view data associated with their assigned territory. You have a UserTerritory mapping table containing UserEmail and TerritoryID columns, related to the Sales table via TerritoryID. In the Manage Roles dialog, which DAX filter expression should you apply to the UserTerritory table?",
+      "options": [
+        "[UserEmail] = USERNAME() && [TerritoryID] = SELECTEDVALUE(Sales[TerritoryID])",
+        "[TerritoryID] = LOOKUPVALUE(Sales[TerritoryID], Sales[UserEmail], USERPRINCIPALNAME())",
+        "[UserEmail] = CUSTOMDATA()",
+        "[UserEmail] = USERPRINCIPALNAME()"
+      ],
+      "answer": "D",
+      "explanation": "In Power BI Service, USERPRINCIPALNAME() returns the user's Microsoft Entra ID (Azure AD) user principal name (typically their email address). Applying [UserEmail] = USERPRINCIPALNAME() directly on the security mapping table filters the table to the current user's row, and relationship cross-filtering propagates that territory restriction down to the Sales table.",
+      "topic": "Manage and secure Power BI",
+      "subtopic": "Secure and govern Power BI items",
+      "difficulty": "hard",
+      "source": "PL-300 study guide, Manage and secure Power BI: Secure and govern Power BI items"
+    }
+  ]
+}
