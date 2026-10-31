@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "cima-p2",
+  "set": "P2: Advanced Management Accounting practice – Applied Decisions and Performance",
+  "questions": [
+    {
+      "stem": "A manufacturing company uses activity-based costing to allocate production setup costs. Annual setup costs are $180,000, and the company expects to perform 300 setups during the year. Product X requires 18 setups. What amount of setup cost should be allocated to Product X?",
+      "options": [
+        "$9,000",
+        "$10,800",
+        "$12,000",
+        "$18,000"
+      ],
+      "answer": "B",
+      "explanation": "The setup cost driver rate is $180,000 divided by 300 setups, giving $600 per setup. Product X requires 18 setups, so its allocated cost is 18 × $600 = $10,800. Activity-based costing assigns overheads according to activities consumed rather than relying solely on volume-based allocation measures.",
+      "topic": "Managing the Costs of Creating Value",
+      "subtopic": "Cost management and cost transformation methodology to manage costs and improve profitability",
+      "difficulty": "medium",
+      "source": "CIMA P2A: Activity-based costing and activity-based management"
+    },
+    {
+      "stem": "A company is implementing total quality management and wants to increase spending specifically on prevention activities rather than appraisal or failure costs. Which TWO activities represent prevention costs? Choose TWO.",
+      "options": [
+        "Training employees in defect prevention and process improvement",
+        "Inspecting finished products before delivery to customers",
+        "Auditing supplier processes before approving new suppliers",
+        "Repairing defective products returned under customer warranties"
+      ],
+      "answer": "AC",
+      "explanation": "Employee training and preventive supplier audits are prevention activities because they aim to stop defects before they occur. Finished-product inspection is an appraisal cost, while warranty repairs are external failure costs. Investing in prevention can reduce total quality costs by avoiding expensive failures.",
+      "topic": "Managing the Costs of Creating Value",
+      "subtopic": "Quality management methodologies",
+      "difficulty": "easy",
+      "source": "CIMA P2A: Total quality management and costs of quality"
+    },
+    {
+      "stem": "A company plans to launch a product with a target selling price of $240 per unit. Management requires a profit margin of 30% of selling price. The product's estimated production cost is currently $182 per unit. By how much must the estimated unit cost be reduced to achieve the target cost?",
+      "options": [
+        "$10",
+        "$12",
+        "$16",
+        "$14"
+      ],
+      "answer": "D",
+      "explanation": "The target profit is 30% × $240 = $72 per unit, so the target cost is $240 − $72 = $168. The estimated cost of $182 therefore exceeds the target by $14. Target costing identifies this cost gap before production and encourages design and process improvements to close it.",
+      "topic": "Managing the Costs of Creating Value",
+      "subtopic": "Value management techniques to manage costs and improve value creation",
+      "difficulty": "medium",
+      "source": "CIMA P2A: Target costing and value engineering"
+    },
+    {
+      "stem": "A manufacturer is reviewing the design of an existing product using value analysis. Customers require the product to deliver a specified level of reliability and functionality. Which proposed action is most consistent with the principles of value analysis?",
+      "options": [
+        "Reduce material costs by removing a component essential to reliability",
+        "Increase product features regardless of whether customers value them",
+        "Replace an expensive component with a cheaper one that performs the same required function",
+        "Reduce testing expenses even though this increases expected warranty failures"
+      ],
+      "answer": "C",
+      "explanation": "Value analysis seeks to improve the relationship between required functionality and the resources consumed to provide it. Replacing an expensive component with an equally effective alternative reduces cost without sacrificing customer-required functions. Removing essential functionality or increasing failure costs can destroy rather than create value.",
+      "topic": "Managing the Costs of Creating Value",
+      "subtopic": "Value management techniques to manage costs and improve value creation",
+      "difficulty": "medium",
+      "source": "CIMA P2A: Value analysis and value engineering"
+    },
+    {
+      "stem": "A company is evaluating a three-year investment that will use a warehouse it already owns. The warehouse could instead be rented to another business for $42,000 annually throughout the three years. The project also requires an immediate refurbishment costing $8,000. Existing depreciation charges of $18,000 annually are allocated to the warehouse but will not change if the project proceeds. Which costs should be included in the project's relevant cash flows?",
+      "options": [
+        "$42,000 annually and $8,000 immediately",
+        "$18,000 annually and $8,000 immediately",
+        "$60,000 annually and $8,000 immediately",
+        "$42,000 annually with no immediate cost"
+      ],
+      "answer": "A",
+      "explanation": "The forgone rental income of $42,000 annually is an opportunity cost arising from using the warehouse for the project. The $8,000 refurbishment is an additional cash outflow required to proceed. The existing depreciation allocation is non-cash and unchanged by the decision, so it is irrelevant to this appraisal.",
+      "topic": "Capital Investment Decision Making",
+      "subtopic": "Data required for decision-making",
+      "difficulty": "easy",
+      "source": "CIMA P2B: Relevant cash flows and opportunity costs"
+    },
+    {
+      "stem": "A company is evaluating a two-year investment requiring equipment costing $100,000 immediately and additional working capital of $10,000 immediately. The equipment will have no residual value. Annual operating cash inflows before tax are $60,000 in each year. Tax-allowable depreciation is $50,000 in each year, and the corporation tax rate is 25%. Tax is paid in the same year as the taxable income arises. The working capital will be fully recovered at the end of Year 2. The discount rate is 10%, and all annual cash flows occur at year-end. What is the project's net present value, rounded to the nearest dollar?",
+      "options": [
+        "Positive $1,942",
+        "Negative $1,942",
+        "Negative $10,207",
+        "Positive $8,058"
+      ],
+      "answer": "B",
+      "explanation": "Annual taxable profit is $60,000 − $50,000 = $10,000, giving annual tax of $2,500 and after-tax operating cash flow of $57,500. The initial outflow is $110,000, while Year 2 includes the additional $10,000 working capital recovery. NPV = −$110,000 + $57,500/1.10 + $67,500/1.10² = approximately negative $1,942, indicating that the investment does not meet the required return.",
+      "topic": "Capital Investment Decision Making",
+      "subtopic": "Investment appraisal techniques",
+      "difficulty": "hard",
+      "source": "CIMA P2B: Discounted cash flow appraisal incorporating taxation and working capital"
+    },
+    {
+      "stem": "A company must select one of two machines that provide identical services and will be replaced indefinitely by equivalent machines. Machine A costs $90,000, lasts three years and has annual operating costs of $20,000. Machine B costs $70,000, lasts two years and has annual operating costs of $18,000. Neither has a residual value. The cost of capital is 10%, and operating costs are paid at each year-end. The three-year annuity factor is 2.487, and the two-year annuity factor is 1.736. Which decision is financially preferable using equivalent annual costs?",
+      "options": [
+        "Machine A, with an equivalent annual cost of approximately $58,300",
+        "Machine B, with an equivalent annual cost of approximately $56,200",
+        "Machine A, with an equivalent annual cost of approximately $56,200",
+        "Machine B, with an equivalent annual cost of approximately $58,300"
+      ],
+      "answer": "C",
+      "explanation": "Machine A's equivalent annual cost is $90,000/2.487 + $20,000 = approximately $56,200. Machine B's equivalent annual cost is $70,000/1.736 + $18,000 = approximately $58,300. Machine A is preferable because it provides the same service at a lower annualised cost, allowing a valid comparison despite the different asset lives.",
+      "topic": "Capital Investment Decision Making",
+      "subtopic": "Investment appraisal techniques",
+      "difficulty": "medium",
+      "source": "CIMA P2B: Equivalent annual cost and replacement decisions"
+    },
+    {
+      "stem": "A project has an initial cash outflow, followed by substantial operating inflows, and then a large environmental restoration payment in its final year. The resulting net cash-flow stream changes sign twice. Management is considering whether internal rate of return is a reliable method for evaluating the project. Which statement is most appropriate?",
+      "options": [
+        "The internal rate of return must equal the project's accounting rate of return",
+        "The internal rate of return will always identify exactly one acceptable discount rate",
+        "The internal rate of return automatically includes the value of all strategic options",
+        "The cash-flow pattern may produce multiple internal rates of return, making NPV preferable"
+      ],
+      "answer": "D",
+      "explanation": "Non-conventional cash-flow patterns with multiple sign changes may generate more than one internal rate of return, or no economically meaningful IRR. This can make the IRR decision rule ambiguous. NPV calculated using the appropriate cost of capital provides a clearer measure of the project's contribution to shareholder wealth.",
+      "topic": "Capital Investment Decision Making",
+      "subtopic": "Investment appraisal techniques",
+      "difficulty": "medium",
+      "source": "CIMA P2B: Limitations of internal rate of return and NPV"
+    },
+    {
+      "stem": "A pharmaceutical company can invest in a new production facility immediately or wait one year for the results of an important regulatory trial. Waiting would allow management to abandon the investment proposal if the trial results are unfavourable. The company does not lose its legal right to invest by waiting. Which investment appraisal concept best captures the additional benefit of this flexibility?",
+      "options": [
+        "The real option to defer an investment until uncertainty is reduced",
+        "The accounting benefit of depreciating the investment over fewer years",
+        "The reduction in the initial investment's historical acquisition cost",
+        "The certainty that the project's eventual internal rate of return will increase"
+      ],
+      "answer": "A",
+      "explanation": "The option to defer allows management to wait for new information before committing substantial resources. This flexibility may have value because the company can avoid investing after unfavourable trial results. Real-options analysis recognises benefits that a simple invest-now NPV calculation may overlook.",
+      "topic": "Capital Investment Decision Making",
+      "subtopic": "The steps and pertinent issues in the decision-making process",
+      "difficulty": "easy",
+      "source": "CIMA P2B: Capital investment decisions and real options"
+    },
+    {
+      "stem": "A monopolistic supplier estimates that the demand for its product follows the equation P = 160 − 0.4Q, where P is the selling price in dollars and Q is the number of units sold per period. Variable cost is $40 per unit, and fixed costs are unaffected by the quantity sold. The company has sufficient capacity to satisfy demand. Assuming the demand relationship is accurate, which price and sales volume will maximise total period profit?",
+      "options": [
+        "Price $80 and volume 200 units",
+        "Price $100 and volume 150 units",
+        "Price $120 and volume 100 units",
+        "Price $140 and volume 50 units"
+      ],
+      "answer": "B",
+      "explanation": "Profit maximisation occurs where marginal revenue equals marginal cost. Total revenue is 160Q − 0.4Q², so marginal revenue is 160 − 0.8Q; equating this to the marginal cost of $40 gives Q = 150. Substituting into the demand equation gives P = $100, producing the maximum contribution and therefore the maximum profit.",
+      "topic": "Capital Investment Decision Making",
+      "subtopic": "Pricing strategies",
+      "difficulty": "hard",
+      "source": "CIMA P2B: Profit-maximising pricing using demand and marginal revenue"
+    },
+    {
+      "stem": "A company has a capital investment budget of $160,000 and four independent, indivisible projects. Project A requires $100,000 and has an NPV of $35,000. Project B requires $60,000 and has an NPV of $18,000. Project C requires $90,000 and has an NPV of $31,000. Project D requires $70,000 and has an NPV of $24,000. All NPVs are calculated using the appropriate cost of capital. The company may undertake any combination that stays within the budget, but projects cannot be partially undertaken. Which selection maximises total NPV?",
+      "options": [
+        "Projects A and B, with a combined NPV of $53,000",
+        "Projects B and C, with a combined NPV of $49,000",
+        "Projects C and D, with a combined NPV of $55,000",
+        "Projects B and D, with a combined NPV of $42,000"
+      ],
+      "answer": "C",
+      "explanation": "Projects C and D require $90,000 + $70,000 = $160,000 and generate a combined NPV of $55,000. Projects A and B also fit the budget but generate only $53,000. Because the projects are indivisible, management must compare feasible combinations rather than simply rank individual projects by profitability index.",
+      "topic": "Capital Investment Decision Making",
+      "subtopic": "Investment appraisal techniques",
+      "difficulty": "hard",
+      "source": "CIMA P2B: Capital rationing and indivisible investment projects"
+    },
+    {
+      "stem": "A manufacturing department manager is responsible for staffing, material usage, overtime expenditure and production efficiency. The manager has no authority over selling prices, product marketing, major capital investments or the sales volume achieved by the company. Which type of responsibility centre best describes this department?",
+      "options": [
+        "Revenue centre",
+        "Profit centre",
+        "Investment centre",
+        "Cost centre"
+      ],
+      "answer": "D",
+      "explanation": "A cost centre manager is primarily accountable for costs incurred within their area of responsibility. The manufacturing manager controls resource consumption but does not control revenue generation or major investment decisions. Profit centres and investment centres involve broader financial responsibilities.",
+      "topic": "Managing and Controlling the Performance of Organisational Units",
+      "subtopic": "Responsibility centres reporting",
+      "difficulty": "easy",
+      "source": "CIMA P2C: Types of responsibility centres"
+    },
+    {
+      "stem": "An investment division currently earns annual controllable profit of $170,000 on capital employed of $1,000,000. A proposed investment would require an additional $200,000 and generate annual controllable profit of $28,000. The company's minimum required return is 12%, while the divisional manager is rewarded primarily for increasing divisional ROI. Which statement correctly describes the potential behavioural conflict?",
+      "options": [
+        "The investment increases residual income but reduces the division's ROI",
+        "The investment reduces residual income but increases the division's ROI",
+        "The investment reduces both residual income and the division's ROI",
+        "The investment increases both residual income and the division's ROI"
+      ],
+      "answer": "A",
+      "explanation": "The existing ROI is 17%, while the new investment earns 14%, reducing overall divisional ROI to 16.5%. However, the investment earns more than the required 12%, increasing residual income by $28,000 − ($200,000 × 12%) = $4,000. An ROI-focused manager may therefore reject a project that creates value for the company.",
+      "topic": "Managing and Controlling the Performance of Organisational Units",
+      "subtopic": "Approaches to the performance and control of organisations",
+      "difficulty": "medium",
+      "source": "CIMA P2C: Return on investment, residual income and behavioural consequences"
+    },
+    {
+      "stem": "A business unit reports net operating profit after tax of $1,200,000 for the year. Its average invested capital is $9,000,000, and its weighted average cost of capital is 10%. Assume that all relevant accounting adjustments have already been made to the reported figures. What is the business unit's economic value added for the year?",
+      "options": [
+        "$120,000",
+        "$300,000",
+        "$900,000",
+        "$1,200,000"
+      ],
+      "answer": "B",
+      "explanation": "Economic value added is net operating profit after tax less the capital charge. The capital charge is $9,000,000 × 10% = $900,000, giving EVA of $1,200,000 − $900,000 = $300,000. Positive EVA indicates that operating profit exceeds the cost of capital employed.",
+      "topic": "Managing and Controlling the Performance of Organisational Units",
+      "subtopic": "Approaches to the performance and control of organisations",
+      "difficulty": "medium",
+      "source": "CIMA P2C: Economic value added and divisional performance measurement"
+    },
+    {
+      "stem": "Division X manufactures components that can be sold externally or transferred internally to Division Y. Division X is operating at full capacity, and an internal transfer would displace external production. The variable cost of the component requested by Division Y is $76 per unit, and its production requires 1.5 machine hours per unit. The displaced external production generates a contribution of $32 per machine hour. There are no avoidable external selling costs and no other relevant costs. What is Division X's minimum acceptable transfer price per unit?",
+      "options": [
+        "$76",
+        "$108",
+        "$116",
+        "$124"
+      ],
+      "answer": "D",
+      "explanation": "The minimum transfer price is the incremental cost of producing the transferred item plus the opportunity cost of the resources used. Each transferred unit sacrifices 1.5 × $32 = $48 of external contribution. Adding this to the $76 variable production cost gives a minimum acceptable transfer price of $124.",
+      "topic": "Managing and Controlling the Performance of Organisational Units",
+      "subtopic": "Behavioural and transfer pricing issues related to the management of responsibility centres",
+      "difficulty": "hard",
+      "source": "CIMA P2C: Transfer pricing under capacity constraints and opportunity costs"
+    },
+    {
+      "stem": "A production manager's monthly performance report includes overtime premiums authorised by the manager and a fixed head-office administration charge allocated according to factory floor area. The production manager cannot influence the head-office charge or the allocation method during the assessment period. Which approach is most consistent with the controllability principle when evaluating the manager?",
+      "options": [
+        "Assess authorised overtime premiums but exclude the uncontrollable head-office charge",
+        "Assess the head-office charge but exclude all authorised overtime premiums",
+        "Assess both items because every cost must be attributed to an individual manager",
+        "Exclude both items because neither affects the division's reported sales revenue"
+      ],
+      "answer": "A",
+      "explanation": "The controllability principle states that managers should be evaluated primarily on items they can significantly influence. Authorised overtime premiums fall within the production manager's control, while the unavoidable head-office allocation does not. Separating controllable and uncontrollable items improves fairness and managerial motivation.",
+      "topic": "Managing and Controlling the Performance of Organisational Units",
+      "subtopic": "Responsibility centres reporting",
+      "difficulty": "easy",
+      "source": "CIMA P2C: Controllable costs and responsibility accounting reports"
+    },
+    {
+      "stem": "A service business uses a balanced scorecard to implement a strategy based on employee capability and fast responses to customer enquiries. Management wants non-financial leading indicators rather than financial results. Which TWO measures are most appropriate for this purpose? Choose TWO.",
+      "options": [
+        "Operating profit margin achieved during the reporting period",
+        "Percentage of employees completing relevant skills training",
+        "Net cash generated from operating activities during the period",
+        "Average time taken to respond to customer enquiries"
+      ],
+      "answer": "BD",
+      "explanation": "Training completion measures the development of employee capabilities, while customer response time monitors the operational process needed to deliver the service strategy. Both can provide early indications of future performance. Profit margin and operating cash flow are financial outcome measures rather than non-financial leading indicators.",
+      "topic": "Managing and Controlling the Performance of Organisational Units",
+      "subtopic": "Approaches to the performance and control of organisations",
+      "difficulty": "medium",
+      "source": "CIMA P2C: Balanced scorecard and leading performance indicators"
+    },
+    {
+      "stem": "A company is comparing two investment decisions. For Project A, management has sufficient historical evidence to estimate the probabilities of several possible cash-flow outcomes. For Project B, the technology is entirely new and management cannot assign credible probabilities to the possible outcomes. Which classification best describes the two situations?",
+      "options": [
+        "Project A involves risk, while Project B involves uncertainty",
+        "Project A involves uncertainty, while Project B involves risk",
+        "Both projects involve risk because future outcomes are not guaranteed",
+        "Both projects involve certainty because management can identify possible outcomes"
+      ],
+      "answer": "A",
+      "explanation": "Risk exists when possible outcomes and their associated probabilities can be reasonably estimated. Uncertainty describes situations where reliable probabilities cannot be assigned to outcomes. This distinction influences whether probability-based techniques or broader judgement and scenario analysis are appropriate.",
+      "topic": "Risk and Control",
+      "subtopic": "Risk and uncertainty associated with medium-term decision-making",
+      "difficulty": "easy",
+      "source": "CIMA P2D: Distinction between risk and uncertainty"
+    },
+    {
+      "stem": "A company is considering using Monte Carlo simulation to assess the risk of a proposed capital investment. Management can estimate probability distributions for sales volume, selling price and variable costs. Which TWO statements correctly describe what a properly constructed Monte Carlo simulation can provide? Choose TWO.",
+      "options": [
+        "An estimated probability distribution of project NPV based on the modelled inputs",
+        "Elimination of the need to consider relationships between uncertain variables",
+        "A guarantee that the simulated average NPV will be the actual outcome",
+        "An estimated probability that project NPV will be below zero"
+      ],
+      "answer": "AD",
+      "explanation": "Monte Carlo simulation repeatedly samples uncertain input values to generate a distribution of possible project outcomes, including the probability of a negative NPV. It does not guarantee an actual outcome or remove the need to model correlations and dependencies. Simulation results are only as reliable as the assumptions and probability distributions used.",
+      "topic": "Risk and Control",
+      "subtopic": "Risk and uncertainty associated with medium-term decision-making",
+      "difficulty": "medium",
+      "source": "CIMA P2D: Monte Carlo simulation and investment risk analysis"
+    },
+    {
+      "stem": "A company must choose between two mutually exclusive projects. Economic conditions will either be strong, with probability 0.6, or weak, with probability 0.4. Project A produces an NPV of $150,000 under strong conditions and negative $30,000 under weak conditions. Project B produces an NPV of $90,000 under strong conditions and $50,000 under weak conditions. Management is considering purchasing information that would perfectly identify the economic condition before selecting a project. What is the expected value of perfect information?",
+      "options": [
+        "$4,000",
+        "$20,000",
+        "$32,000",
+        "$36,000"
+      ],
+      "answer": "C",
+      "explanation": "Without perfect information, Project A has the higher expected NPV: (0.6 × $150,000) + (0.4 × −$30,000) = $78,000, compared with $74,000 for Project B. With perfect information, management would select Project A under strong conditions and Project B under weak conditions, producing an expected NPV of (0.6 × $150,000) + (0.4 × $50,000) = $110,000. The expected value of perfect information is therefore $110,000 − $78,000 = $32,000, representing the maximum amount worth paying for perfect information.",
+      "topic": "Risk and Control",
+      "subtopic": "Types of risk in the medium-term",
+      "difficulty": "medium",
+      "source": "CIMA P2D: Decision analysis, expected values and value of perfect information"
+    }
+  ]
+}
