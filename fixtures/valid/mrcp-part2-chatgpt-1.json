@@ -1,0 +1,327 @@
+{
+  "format": "domcq/1",
+  "exam": "mrcp-part2",
+  "set": "MRCP(UK) Part 2 Written practice – Clinical Reasoning Set 1",
+  "questions": [
+    {
+      "stem": "A 68-year-old man with hypertension and type 2 diabetes underwent successful catheter ablation for paroxysmal atrial fibrillation 12 months ago. He has remained asymptomatic, and repeated ambulatory rhythm monitoring has shown no atrial fibrillation. He takes apixaban 5 mg twice daily, has normal renal function and has experienced no bleeding complications. He asks whether anticoagulation can now be discontinued. What is the most appropriate recommendation?",
+      "options": [
+        "Discontinue apixaban because the ablation has been successful",
+        "Replace apixaban with aspirin 75 mg once daily",
+        "Continue apixaban because his thromboembolic risk remains elevated",
+        "Replace apixaban with clopidogrel 75 mg once daily",
+        "Use apixaban only during documented recurrences of atrial fibrillation"
+      ],
+      "answer": "C",
+      "explanation": "The patient has a CHA2DS2-VASc score of 3, reflecting age, hypertension and diabetes, and therefore has an indication for long-term anticoagulation. Successful catheter ablation does not establish that future atrial fibrillation or thromboembolic risk has been eliminated. NICE recommends that decisions about discontinuing anticoagulation should be based on reassessment of stroke and bleeding risks rather than the apparent absence of atrial fibrillation alone.",
+      "topic": "Cardiology",
+      "subtopic": "Atrial fibrillation and stroke prevention",
+      "difficulty": "medium",
+      "source": "NICE NG196: Atrial fibrillation, sections 1.6 and 1.11."
+    },
+    {
+      "stem": "A 76-year-old man presents with progressive exertional breathlessness, peripheral oedema and orthostatic hypotension. He previously underwent bilateral carpal tunnel surgery. Echocardiography demonstrates increased left ventricular wall thickness, biatrial enlargement and preserved ejection fraction with impaired longitudinal strain and relative apical sparing. Technetium-99m DPD scintigraphy with SPECT demonstrates grade 3 myocardial uptake. Serum free light chains and serum and urine immunofixation do not identify a monoclonal protein. Which investigation is most appropriate to distinguish the hereditary and wild-type forms of his established cardiac disease?",
+      "options": [
+        "Transthyretin gene sequencing",
+        "Endomyocardial biopsy with Congo red staining",
+        "Serum angiotensin-converting enzyme measurement",
+        "Exercise stress echocardiography",
+        "Plasma aldosterone-to-renin ratio"
+      ],
+      "answer": "A",
+      "explanation": "Grade 2 or 3 cardiac uptake on appropriate bone-tracer scintigraphy, together with characteristic cardiac findings and exclusion of a monoclonal gammopathy, establishes transthyretin cardiac amyloidosis non-invasively. Transthyretin gene sequencing is subsequently required to distinguish hereditary ATTR amyloidosis from wild-type ATTR amyloidosis. This distinction is relevant to genetic counselling and assessment of relatives.",
+      "topic": "Cardiology",
+      "subtopic": "Cardiac amyloidosis",
+      "difficulty": "hard",
+      "source": "2023 ESC Guidelines for the management of cardiomyopathies: Cardiac amyloidosis."
+    },
+    {
+      "stem": "A 34-year-old woman with Crohn's disease has persistent symptoms despite treatment with mesalazine and a course of corticosteroids. Her gastroenterologist plans to commence azathioprine as maintenance therapy. Baseline full blood count, liver function and renal function are normal. Which additional investigation is specifically recommended before starting azathioprine to assess the risk of severe drug-induced myelosuppression?",
+      "options": [
+        "Glucose-6-phosphate dehydrogenase activity",
+        "Serum angiotensin-converting enzyme activity",
+        "Anti-cyclic citrullinated peptide antibodies",
+        "Plasma renin activity",
+        "Thiopurine methyltransferase activity"
+      ],
+      "answer": "E",
+      "explanation": "Thiopurine methyltransferase (TPMT) is involved in the metabolism of azathioprine and mercaptopurine. Reduced TPMT activity increases the risk of severe myelosuppression, while absent activity generally requires avoiding thiopurines. Pretreatment TPMT assessment guides prescribing, although regular blood count monitoring remains essential even when TPMT activity is normal.",
+      "topic": "Clinical pharmacology and therapeutics",
+      "subtopic": "Thiopurine pharmacogenetics",
+      "difficulty": "easy",
+      "source": "NHS Specialist Pharmacy Service: Azathioprine monitoring, baseline TPMT assessment."
+    },
+    {
+      "stem": "A 61-year-old man with bipolar affective disorder has taken lithium carbonate for eight years with consistently therapeutic serum concentrations. Two weeks after an additional antihypertensive medication was prescribed, he develops nausea, a coarse tremor and unsteadiness. His lithium concentration is 1.8 mmol/L, compared with 0.7 mmol/L previously. His other medicines are unchanged, and he has no intercurrent illness. Which newly prescribed medication is most likely to have precipitated lithium toxicity?",
+      "options": [
+        "Bisoprolol",
+        "Bendroflumethiazide",
+        "Felodipine",
+        "Salbutamol",
+        "Atorvastatin"
+      ],
+      "answer": "B",
+      "explanation": "Thiazide diuretics increase renal lithium reabsorption by producing sodium depletion and compensatory proximal tubular sodium reabsorption, which also increases lithium retention. This can substantially raise serum lithium concentrations and cause neurological and gastrointestinal toxicity. Lithium should be withheld and the patient urgently assessed, including renal function, hydration status and the need for enhanced elimination.",
+      "topic": "Clinical pharmacology and therapeutics",
+      "subtopic": "Lithium toxicity and drug interactions",
+      "difficulty": "medium",
+      "source": "British National Formulary: Lithium, interactions, monitoring and toxicity."
+    },
+    {
+      "stem": "An 81-year-old woman presents with a six-week history of severe itching followed by the appearance of multiple large, tense blisters over her lower abdomen and thighs. The surrounding skin is erythematous, and there is no mucosal involvement. Histology demonstrates subepidermal blister formation with eosinophils. Direct immunofluorescence of perilesional skin shows linear IgG and C3 deposition along the basement membrane zone, and circulating anti-BP180 antibodies are detected. What is the most likely diagnosis?",
+      "options": [
+        "Pemphigus vulgaris",
+        "Dermatitis herpetiformis",
+        "Linear IgA bullous dermatosis",
+        "Bullous pemphigoid",
+        "Epidermolysis bullosa acquisita"
+      ],
+      "answer": "D",
+      "explanation": "Bullous pemphigoid commonly affects older adults and produces intensely pruritic, tense blisters because the separation occurs beneath the epidermis. Linear IgG and C3 deposition along the basement membrane and antibodies against BP180 strongly support the diagnosis. Pemphigus vulgaris typically produces flaccid blisters with intercellular rather than linear basement membrane immunoglobulin deposition.",
+      "topic": "Dermatology",
+      "subtopic": "Autoimmune blistering disorders",
+      "difficulty": "easy",
+      "source": "EADV 2022 guidelines: Diagnosis and management of bullous pemphigoid."
+    },
+    {
+      "stem": "A 57-year-old woman with type 2 diabetes treated with metformin and empagliflozin presents with abdominal pain, vomiting and rapid breathing following three days of influenza-like symptoms and reduced oral intake. Her capillary glucose is 8.9 mmol/L, blood beta-hydroxybutyrate is 5.6 mmol/L, venous pH is 7.17 and bicarbonate is 11 mmol/L. Serum lactate is 1.4 mmol/L. Which diagnosis best explains these findings?",
+      "options": [
+        "Euglycaemic diabetic ketoacidosis",
+        "Alcoholic ketoacidosis",
+        "Hyperosmolar hyperglycaemic state",
+        "Metformin-associated lactic acidosis",
+        "Uncomplicated starvation ketosis"
+      ],
+      "answer": "A",
+      "explanation": "SGLT2 inhibitors can precipitate diabetic ketoacidosis with normal or only mildly elevated blood glucose because they promote urinary glucose loss. Significant ketonaemia and metabolic acidosis establish ketoacidosis despite the glucose concentration being below the usual hyperglycaemic range. Management requires stopping the SGLT2 inhibitor and administering intravenous fluids, insulin and sufficient dextrose to permit continued ketone clearance.",
+      "topic": "Endocrinology, diabetes and metabolic medicine",
+      "subtopic": "SGLT2 inhibitors and diabetic ketoacidosis",
+      "difficulty": "medium",
+      "source": "2024 Consensus Report: Hyperglycaemic crises in adults with diabetes, diagnostic criteria and management."
+    },
+    {
+      "stem": "A 49-year-old man has resistant hypertension despite treatment with three antihypertensive medications. His potassium is 3.0 mmol/L. Investigation demonstrates suppressed plasma renin, elevated aldosterone and biochemically confirmed primary aldosteronism. Adrenal CT reveals a 1.6 cm left adrenal nodule with benign imaging characteristics and a normal-appearing right adrenal gland. He wishes to undergo surgery if the aldosterone excess is unilateral. Which investigation should be performed before deciding on unilateral adrenalectomy?",
+      "options": [
+        "Repeat the plasma aldosterone-to-renin ratio",
+        "Perform a 24-hour urinary free cortisol measurement",
+        "Perform bilateral adrenal venous sampling",
+        "Perform an overnight dexamethasone suppression test",
+        "Perform an iodine-123 thyroid uptake scan"
+      ],
+      "answer": "C",
+      "explanation": "Adrenal venous sampling determines whether aldosterone secretion is unilateral or bilateral and is recommended for most surgical candidates with primary aldosteronism. A unilateral adrenal nodule on CT may be non-functioning, while the aldosterone excess may arise from the opposite gland or both glands. The exception allowing surgery without sampling generally concerns carefully selected much younger patients with particularly convincing unilateral disease.",
+      "topic": "Endocrinology, diabetes and metabolic medicine",
+      "subtopic": "Primary aldosteronism and adrenal lateralisation",
+      "difficulty": "hard",
+      "source": "Endocrine Society 2025 Primary Aldosteronism Guideline, Recommendation 6."
+    },
+    {
+      "stem": "A 72-year-old woman presents with fever, rigors, right upper quadrant pain and jaundice. Her temperature is 39.1°C, blood pressure is 108/67 mmHg and heart rate is 112 beats/minute. Blood tests show bilirubin 94 micromol/L, alkaline phosphatase 410 U/L and raised inflammatory markers. Ultrasound demonstrates a dilated common bile duct containing a 9 mm stone. Intravenous fluids and broad-spectrum antibiotics have been commenced. What is the most appropriate next definitive intervention?",
+      "options": [
+        "Magnetic resonance cholangiopancreatography alone",
+        "Elective laparoscopic cholecystectomy",
+        "Diagnostic colonoscopy",
+        "Transient elastography",
+        "Endoscopic retrograde cholangiopancreatography"
+      ],
+      "answer": "E",
+      "explanation": "This patient has acute ascending cholangitis caused by an obstructing common bile duct stone. Antibiotics and resuscitation are essential, but adequate treatment generally also requires biliary decompression. ERCP provides endoscopic drainage and, when feasible, stone extraction, making it the preferred definitive intervention.",
+      "topic": "Gastroenterology and hepatology",
+      "subtopic": "Acute cholangitis and biliary obstruction",
+      "difficulty": "medium",
+      "source": "ASGE guideline on the management of cholangitis, 2021."
+    },
+    {
+      "stem": "A 59-year-old man with alcohol-related cirrhosis and tense ascites is admitted with fever, abdominal discomfort and worsening renal function. Diagnostic paracentesis produces clear yellow fluid containing 720 neutrophils/mm3, and ascitic fluid culture is pending. His serum bilirubin is 112 micromol/L and creatinine has increased from 85 to 176 micromol/L. Intravenous empirical antibiotics have been started for spontaneous bacterial peritonitis. Which additional treatment is most appropriate to reduce his risk of renal failure and death?",
+      "options": [
+        "Intravenous sodium bicarbonate",
+        "Intravenous human albumin",
+        "Oral lactulose",
+        "Intravenous furosemide",
+        "Oral rifaximin"
+      ],
+      "answer": "B",
+      "explanation": "Spontaneous bacterial peritonitis can cause circulatory dysfunction and acute kidney injury in patients with cirrhosis. Intravenous albumin given alongside appropriate antibiotics reduces renal failure and mortality, with particular benefit in patients who have renal dysfunction or significant hyperbilirubinaemia. A commonly recommended regimen is 1.5 g/kg on the first day and 1 g/kg on the third day, with monitoring for fluid overload.",
+      "topic": "Gastroenterology and hepatology",
+      "subtopic": "Spontaneous bacterial peritonitis and renal complications",
+      "difficulty": "hard",
+      "source": "AASLD Practice Guidance: Ascites, spontaneous bacterial peritonitis and hepatorenal syndrome, 2021."
+    },
+    {
+      "stem": "An 84-year-old woman who previously lived independently is admitted with a urinary tract infection. Within 24 hours she becomes disorientated and has difficulty maintaining attention during conversation. Her level of alertness fluctuates markedly throughout the day, and she reports seeing unfamiliar people in her hospital room. Her daughter confirms that she had no preceding cognitive decline or hallucinations. What is the most likely explanation for this acute change?",
+      "options": [
+        "Alzheimer disease",
+        "Dementia with Lewy bodies",
+        "Vascular dementia",
+        "Delirium",
+        "Frontotemporal dementia"
+      ],
+      "answer": "D",
+      "explanation": "Delirium is characterised by an acute disturbance of attention and awareness with a fluctuating course, commonly precipitated by infection or another physiological stressor. The rapid onset, impaired attention and marked fluctuation favour delirium over a progressive neurodegenerative disorder. Management focuses on identifying and treating the precipitating cause while providing supportive, non-pharmacological care.",
+      "topic": "Geriatric medicine",
+      "subtopic": "Delirium and acute cognitive impairment",
+      "difficulty": "easy",
+      "source": "NICE CG103: Delirium, recognition, diagnosis and management."
+    },
+    {
+      "stem": "A 36-year-old woman presents with new bruising, headache and intermittent confusion. Her haemoglobin is 76 g/L, platelet count is 14 × 10^9/L and lactate dehydrogenase is markedly elevated. Blood film examination reveals numerous schistocytes, and serum haptoglobin is undetectable. Her creatinine is 108 micromol/L, and both prothrombin time and activated partial thromboplastin time are normal. There is no history of diarrhoeal illness. A plasma sample has been collected for ADAMTS13 activity, but the result will not be available for 48 hours. What is the most appropriate immediate treatment?",
+      "options": [
+        "Urgent therapeutic plasma exchange and corticosteroids",
+        "Prophylactic platelet transfusion and observation",
+        "Intravenous immunoglobulin as sole initial treatment",
+        "Oral folic acid and red cell transfusion alone",
+        "Therapeutic heparin anticoagulation as sole treatment"
+      ],
+      "answer": "A",
+      "explanation": "The combination of microangiopathic haemolytic anaemia, severe thrombocytopenia, neurological symptoms and normal coagulation studies strongly suggests thrombotic thrombocytopenic purpura. Untreated immune-mediated TTP has a high mortality, so therapeutic plasma exchange and corticosteroids must begin immediately rather than awaiting ADAMTS13 results. Specialist-directed treatment may also include caplacizumab and rituximab.",
+      "topic": "Haematology",
+      "subtopic": "Thrombotic thrombocytopenic purpura",
+      "difficulty": "hard",
+      "source": "British Society for Haematology 2023 guideline: Thrombotic thrombocytopenic purpura and thrombotic microangiopathies."
+    },
+    {
+      "stem": "A 42-year-old man with untreated HIV infection presents with three weeks of progressive exertional breathlessness, dry cough and low-grade fever. His CD4 count is 48 cells/microlitre. Oxygen saturation is 89% on room air, and he becomes markedly breathless with minimal exertion. Chest CT demonstrates diffuse bilateral ground-glass opacities without focal consolidation or significant lymphadenopathy. Serum beta-D-glucan is elevated. What is the most likely diagnosis?",
+      "options": [
+        "Pulmonary cryptococcosis",
+        "Cytomegalovirus pneumonitis",
+        "Pneumocystis jirovecii pneumonia",
+        "Miliary tuberculosis",
+        "Community-acquired bacterial pneumonia"
+      ],
+      "answer": "C",
+      "explanation": "Pneumocystis jirovecii pneumonia is a major opportunistic infection in patients with advanced HIV, especially when the CD4 count is below 200 cells/microlitre. Progressive dry cough, breathlessness, hypoxaemia and diffuse ground-glass opacities are characteristic findings. Elevated beta-D-glucan supports the diagnosis but is not specific, so respiratory sampling is generally used for microbiological confirmation.",
+      "topic": "Infectious diseases",
+      "subtopic": "HIV-associated opportunistic infections",
+      "difficulty": "easy",
+      "source": "NIH HIV Opportunistic Infection Guidelines: Pneumocystis pneumonia."
+    },
+    {
+      "stem": "A 67-year-old man with type 2 diabetes is admitted with Staphylococcus aureus bacteraemia and has commenced appropriate intravenous antibiotics. He reports worsening focal lower back pain that began one week before admission. Examination reveals lumbar spinal tenderness, but lower limb power, sensation and sphincter function are normal. His C-reactive protein remains markedly elevated. Which investigation is most appropriate to assess for a spinal focus of infection?",
+      "options": [
+        "Plain radiography of the lumbar spine",
+        "Ultrasonography of the paraspinal muscles",
+        "Dual-energy X-ray absorptiometry of the lumbar spine",
+        "Non-contrast computed tomography of the head",
+        "Magnetic resonance imaging of the spine"
+      ],
+      "answer": "E",
+      "explanation": "S. aureus bacteraemia can cause haematogenous vertebral osteomyelitis, discitis and spinal epidural infection. New focal back pain in a bacteraemic patient warrants assessment for these complications even when neurological examination is normal. MRI is the preferred imaging investigation because it detects vertebral, disc-space and epidural involvement more sensitively than plain radiography.",
+      "topic": "Infectious diseases",
+      "subtopic": "Staphylococcus aureus bacteraemia and vertebral osteomyelitis",
+      "difficulty": "medium",
+      "source": "IDSA 2015 Clinical Practice Guideline: Native vertebral osteomyelitis in adults."
+    },
+    {
+      "stem": "A 64-year-old man with a 45-pack-year smoking history develops progressive difficulty climbing stairs and rising from a chair. Examination demonstrates symmetrical proximal leg weakness and reduced tendon reflexes that improve briefly after maximal voluntary contraction. He also reports persistent dry mouth. Electrophysiological testing demonstrates an incremental compound muscle action potential response following exercise, supporting Lambert-Eaton myasthenic syndrome. Which investigation should be arranged to assess for the most important associated malignancy?",
+      "options": [
+        "Magnetic resonance imaging of the brain",
+        "Computed tomography of the chest",
+        "Computed tomography of the abdomen",
+        "Lumbar puncture with cerebrospinal fluid cytology",
+        "Open biopsy of the quadriceps muscle"
+      ],
+      "answer": "B",
+      "explanation": "Lambert-Eaton myasthenic syndrome is a presynaptic neuromuscular junction disorder associated with antibodies against voltage-gated calcium channels. It is strongly associated with small-cell lung carcinoma, particularly in older patients with a substantial smoking history. CT of the chest is an appropriate initial investigation for the associated malignancy, with further surveillance if initial screening is negative.",
+      "topic": "Neurology",
+      "subtopic": "Lambert-Eaton myasthenic syndrome",
+      "difficulty": "medium",
+      "source": "MRCP(UK) Neurology: Neuromuscular junction disorders and paraneoplastic syndromes."
+    },
+    {
+      "stem": "A 29-year-old woman taking a combined oral contraceptive presents with a severe progressive headache, vomiting and a generalised seizure. CT venography confirms extensive superior sagittal sinus thrombosis. Brain imaging also demonstrates a small haemorrhagic venous infarction. She is haemodynamically stable, has no major neurological deficit and has no other contraindications to anticoagulation. What is the most appropriate initial antithrombotic management?",
+      "options": [
+        "Commence aspirin alone",
+        "Withhold anticoagulation for two weeks",
+        "Administer prophylactic-dose heparin",
+        "Commence therapeutic-dose heparin",
+        "Administer routine intravenous thrombolysis"
+      ],
+      "answer": "D",
+      "explanation": "Therapeutic anticoagulation is recommended for cerebral venous sinus thrombosis even when imaging demonstrates an associated haemorrhagic venous infarction. The haemorrhage results from impaired venous drainage, and preventing thrombus propagation improves the prospects of recovery. Full-dose heparin is therefore appropriate unless a separate contraindication exists.",
+      "topic": "Neurology",
+      "subtopic": "Cerebral venous sinus thrombosis",
+      "difficulty": "medium",
+      "source": "NICE NG128: Stroke and TIA, recommendation 1.4.13, acute venous stroke."
+    },
+    {
+      "stem": "A 62-year-old man with longstanding type 2 diabetes and chronic kidney disease is referred for persistent hyperkalaemia. His serum sodium is 140 mmol/L, potassium 5.9 mmol/L, chloride 112 mmol/L and bicarbonate 17 mmol/L. His estimated glomerular filtration rate is 52 mL/min/1.73 m2. He has no diarrhoea and is not taking potassium supplements or medications that inhibit the renin-angiotensin-aldosterone system. The clinical assessment suggests diabetic hyporeninaemic hypoaldosteronism. Which acid-base disorder best explains these findings?",
+      "options": [
+        "Type 4 renal tubular acidosis",
+        "Type 1 distal renal tubular acidosis",
+        "Type 2 proximal renal tubular acidosis",
+        "High anion gap lactic acidosis",
+        "Acidosis caused by advanced uraemia"
+      ],
+      "answer": "A",
+      "explanation": "Type 4 renal tubular acidosis is associated with reduced aldosterone activity or responsiveness and classically causes hyperkalaemia with a normal anion gap metabolic acidosis. Diabetic hyporeninaemic hypoaldosteronism is an important cause. The combination of hyperkalaemia, low bicarbonate and relatively preserved kidney filtration makes this diagnosis more likely than distal or proximal renal tubular acidosis.",
+      "topic": "Renal medicine",
+      "subtopic": "Type 4 renal tubular acidosis",
+      "difficulty": "medium",
+      "source": "MRCP(UK) Renal Medicine: Renal tubular acidosis and electrolyte disorders."
+    },
+    {
+      "stem": "A 43-year-old man presents with haemoptysis, breathlessness and rapidly worsening kidney function. His serum creatinine has risen from 92 to 348 micromol/L over 10 days. Urinalysis shows haematuria and proteinuria, and microscopy demonstrates red cell casts. Chest imaging shows bilateral alveolar infiltrates compatible with pulmonary haemorrhage. Serum anti-glomerular basement membrane antibodies are strongly positive, and renal biopsy reveals crescentic glomerulonephritis with linear IgG deposition. What is the most appropriate disease-specific treatment?",
+      "options": [
+        "High-dose loop diuretics without immunosuppression",
+        "Oral mycophenolate mofetil as monotherapy",
+        "Plasma exchange with glucocorticoids and cyclophosphamide",
+        "Rituximab monotherapy without plasma exchange",
+        "Haemodialysis without immunosuppressive treatment"
+      ],
+      "answer": "C",
+      "explanation": "Anti-GBM disease causes rapidly progressive glomerulonephritis and may produce life-threatening pulmonary haemorrhage. Treatment requires prompt removal of circulating pathogenic antibodies with plasma exchange and suppression of further antibody production using glucocorticoids and cyclophosphamide. Early treatment is critical because irreversible kidney injury can develop rapidly.",
+      "topic": "Renal medicine",
+      "subtopic": "Anti-GBM disease and pulmonary-renal syndrome",
+      "difficulty": "medium",
+      "source": "KDIGO 2021 Clinical Practice Guideline for Glomerular Diseases: Anti-GBM disease."
+    },
+    {
+      "stem": "A 71-year-old man presents with an 18-month history of progressive exertional breathlessness and persistent dry cough. Examination reveals bilateral fine end-inspiratory basal crackles and digital clubbing. High-resolution chest CT demonstrates predominantly basal and subpleural reticulation, traction bronchiectasis and honeycombing without extensive ground-glass change. He has no relevant occupational exposures, connective tissue disease or history of taking pneumotoxic medication. What is the most likely diagnosis?",
+      "options": [
+        "Pulmonary sarcoidosis",
+        "Chronic hypersensitivity pneumonitis",
+        "Non-specific interstitial pneumonia",
+        "Cryptogenic organising pneumonia",
+        "Idiopathic pulmonary fibrosis"
+      ],
+      "answer": "E",
+      "explanation": "Idiopathic pulmonary fibrosis typically presents in older adults with progressive breathlessness, dry cough, basal inspiratory crackles and sometimes clubbing. Basal and subpleural honeycombing with traction bronchiectasis is characteristic of a usual interstitial pneumonia pattern. In the absence of an identifiable underlying cause, this pattern strongly supports idiopathic pulmonary fibrosis.",
+      "topic": "Respiratory medicine",
+      "subtopic": "Idiopathic pulmonary fibrosis",
+      "difficulty": "easy",
+      "source": "NICE CG163: Idiopathic pulmonary fibrosis in adults, diagnosis."
+    },
+    {
+      "stem": "A 56-year-old man is admitted with right lower lobe pneumonia and a moderate right-sided pleural effusion. Despite appropriate intravenous antibiotics, he remains febrile and breathless. Ultrasound-guided diagnostic aspiration yields cloudy but non-purulent fluid with a pH of 7.11, glucose of 2.1 mmol/L and lactate dehydrogenase of 1,250 IU/L. Ultrasound confirms a substantial volume of pleural fluid that can be safely drained. What is the most appropriate next treatment in addition to continuing antibiotics?",
+      "options": [
+        "Repeat diagnostic aspiration after seven days",
+        "Insert an intercostal chest drain",
+        "Commence high-dose oral diuretics",
+        "Commence systemic corticosteroid therapy",
+        "Arrange outpatient interval chest imaging"
+      ],
+      "answer": "B",
+      "explanation": "A pleural fluid pH of 7.2 or below in the setting of a parapneumonic effusion indicates a high risk of complicated pleural infection. The 2023 British Thoracic Society guideline recommends intercostal drainage when there is sufficient safely accessible pleural fluid. Antibiotics alone are unlikely to provide adequate source control in this situation.",
+      "topic": "Respiratory medicine",
+      "subtopic": "Complicated parapneumonic effusion and pleural infection",
+      "difficulty": "medium",
+      "source": "British Thoracic Society Guideline for Pleural Disease, 2023: Pleural infection."
+    },
+    {
+      "stem": "A 74-year-old woman presents with a new persistent temporal headache, scalp tenderness and jaw pain when chewing. Examination reveals a tender, thickened right temporal artery. Her erythrocyte sedimentation rate is 96 mm/hour and C-reactive protein is 88 mg/L. She denies visual loss, transient visual disturbance or diplopia, and visual examination is normal. Giant cell arteritis is strongly suspected, and urgent temporal artery ultrasonography has been requested. What is the most appropriate immediate treatment?",
+      "options": [
+        "Withhold treatment until temporal artery ultrasonography is completed",
+        "Commence oral prednisolone 15 mg daily",
+        "Commence intravenous aciclovir empirically",
+        "Commence oral prednisolone 40–60 mg daily",
+        "Commence weekly methotrexate as monotherapy"
+      ],
+      "answer": "D",
+      "explanation": "Giant cell arteritis is a medical emergency because untreated arterial inflammation can cause irreversible visual loss. In a patient without visual ischaemic manifestations, immediate high-dose oral prednisolone, usually 40–60 mg daily, is recommended. Treatment must not be delayed while awaiting ultrasound or temporal artery biopsy.",
+      "topic": "Rheumatology",
+      "subtopic": "Giant cell arteritis and urgent glucocorticoid treatment",
+      "difficulty": "easy",
+      "source": "British Society for Rheumatology Guideline on Giant Cell Arteritis, 2020: Initial glucocorticoid treatment."
+    }
+  ]
+}
