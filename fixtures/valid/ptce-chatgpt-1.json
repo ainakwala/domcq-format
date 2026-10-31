@@ -1,0 +1,308 @@
+
+{
+  "format": "domcq/1",
+  "exam": "ptce",
+  "set": "PTCE 2026 – Comprehensive Practice Set 1",
+  "questions": [
+    {
+      "stem": "A pharmacy receives a prescription for Glucophage 500 mg tablets. Which generic medication should the technician select?",
+      "options": [
+        "Glipizide",
+        "Metformin",
+        "Glyburide",
+        "Sitagliptin"
+      ],
+      "answer": "B",
+      "explanation": "Glucophage is a brand name for metformin, a biguanide used primarily to manage type 2 diabetes mellitus. It decreases hepatic glucose production and improves insulin sensitivity. Glipizide and glyburide are sulfonylureas, while sitagliptin is a DPP-4 inhibitor.",
+      "topic": "Medications",
+      "subtopic": "Generic names, brand names, and classifications of medications",
+      "difficulty": "easy",
+      "source": "PTCB 2026 PTCE Content Outline, 1.1 – Generic names, brand names, and classifications of medications"
+    },
+    {
+      "stem": "A patient asks which prescribed medication is commonly used for rapid relief of acute bronchospasm associated with asthma. Which medication should the pharmacy technician identify for pharmacist confirmation?",
+      "options": [
+        "Montelukast tablets",
+        "Fluticasone nasal spray",
+        "Tiotropium inhalation capsules",
+        "Albuterol inhalation aerosol"
+      ],
+      "answer": "D",
+      "explanation": "Albuterol is a short-acting beta-2 adrenergic agonist that rapidly relaxes bronchial smooth muscle, making it useful as a rescue medication for acute bronchospasm. Montelukast is a leukotriene receptor antagonist, while fluticasone nasal spray treats nasal inflammation. Tiotropium is a long-acting bronchodilator used for maintenance rather than immediate rescue.",
+      "topic": "Medications",
+      "subtopic": "Indications of medications",
+      "difficulty": "easy",
+      "source": "PTCB 2026 PTCE Content Outline, 1.6 – Indications of medications"
+    },
+    {
+      "stem": "A pharmacy technician reviews a patient's active medication profile and notices prescriptions for both lisinopril and enalapril. Which potential medication-related problem should the technician flag for pharmacist review?",
+      "options": [
+        "Therapeutic duplication",
+        "Incorrect dosage form",
+        "Duplicate brand names",
+        "Incompatible administration routes"
+      ],
+      "answer": "A",
+      "explanation": "Lisinopril and enalapril are both angiotensin-converting enzyme inhibitors, so their concurrent use generally represents therapeutic duplication. Combining medications from the same therapeutic class can increase adverse effects without providing a meaningful additional benefit. The technician should refer the duplication to the pharmacist rather than independently changing either prescription.",
+      "topic": "Medications",
+      "subtopic": "Therapeutic duplications",
+      "difficulty": "medium",
+      "source": "PTCB 2026 PTCE Content Outline, 1.2 – Therapeutic duplications"
+    },
+    {
+      "stem": "A patient taking isosorbide mononitrate for chronic angina presents a new prescription for sildenafil. Which risk makes this combination particularly concerning?",
+      "options": [
+        "Severe elevation in blood glucose",
+        "Rapid reduction in kidney filtration",
+        "Potentially dangerous hypotension",
+        "Marked reduction in platelet count"
+      ],
+      "answer": "C",
+      "explanation": "Sildenafil inhibits phosphodiesterase type 5, while isosorbide mononitrate increases nitric oxide-mediated vasodilation. Using them together can produce a profound and potentially life-threatening decrease in blood pressure. This combination is contraindicated and requires immediate pharmacist intervention.",
+      "topic": "Medications",
+      "subtopic": "Common or life-threatening drug interactions and contraindications",
+      "difficulty": "medium",
+      "source": "PTCB 2026 PTCE Content Outline, 1.3 – Drug interactions and contraindications"
+    },
+    {
+      "stem": "A prescription is written for metoprolol succinate extended-release tablets. The patient asks whether the tablet can be crushed and mixed into applesauce. Which response is most appropriate?",
+      "options": [
+        "Crushing is acceptable when mixed with soft food.",
+        "Crushing should be avoided because it alters extended release.",
+        "Crushing is required to improve medication absorption.",
+        "Crushing is acceptable if the dose is taken with water."
+      ],
+      "answer": "B",
+      "explanation": "Metoprolol succinate extended-release tablets are formulated to release medication gradually and should not be crushed or chewed. Crushing can disrupt the extended-release mechanism and alter drug delivery. Certain scored formulations may be split according to their labeling, but the technician should refer administration questions to the pharmacist.",
+      "topic": "Medications",
+      "subtopic": "Dosage forms and special administration instructions",
+      "difficulty": "medium",
+      "source": "PTCB 2026 PTCE Content Outline, 1.4 – Dosage forms and administration instructions"
+    },
+    {
+      "stem": "A patient stabilized on warfarin receives a new prescription for trimethoprim-sulfamethoxazole. The pharmacy system generates a major interaction alert. Which clinical consequence is the primary concern?",
+      "options": [
+        "Decreased INR with increased clotting risk",
+        "Decreased warfarin absorption from binding",
+        "Increased platelet production and thrombosis",
+        "Increased INR with elevated bleeding risk"
+      ],
+      "answer": "D",
+      "explanation": "Trimethoprim-sulfamethoxazole can potentiate warfarin's anticoagulant effect, partly through inhibition of CYP2C9-mediated metabolism of S-warfarin. This may increase the INR and significantly elevate bleeding risk. The pharmacist should assess the interaction and coordinate any necessary monitoring or therapy changes.",
+      "topic": "Medications",
+      "subtopic": "Clinically significant anticoagulant drug interactions",
+      "difficulty": "hard",
+      "source": "PTCB 2026 PTCE Content Outline, 1.3 – Common or life-threatening drug interactions"
+    },
+    {
+      "stem": "A pharmacy technician receives an unopened vial of insulin glargine that will be stored before dispensing. According to typical manufacturer labeling, which storage condition is appropriate?",
+      "options": [
+        "Refrigerate between 2°C and 8°C without freezing.",
+        "Freeze between -20°C and -10°C until dispensing.",
+        "Store between 25°C and 35°C near a heat source.",
+        "Store at room temperature indefinitely before opening."
+      ],
+      "answer": "A",
+      "explanation": "Unopened insulin glargine vials are normally refrigerated at 2°C to 8°C (36°F to 46°F) and must not be frozen. Freezing or excessive heat can compromise insulin stability and effectiveness. Storage requirements and in-use expiration periods should always be checked against the specific manufacturer's product labeling.",
+      "topic": "Medications",
+      "subtopic": "Proper storage and drug stability",
+      "difficulty": "medium",
+      "source": "PTCB 2026 PTCE Content Outline, 1.7 and 1.8 – Drug stability and proper storage"
+    },
+    {
+      "stem": "Under federal law, a pharmacy receives a valid prescription for a Schedule II controlled substance that includes a request for three refills. How many refills may legally be dispensed under that prescription?",
+      "options": [
+        "One refill",
+        "Two refills",
+        "Zero refills",
+        "Three refills"
+      ],
+      "answer": "C",
+      "explanation": "Federal law prohibits refills of Schedule II controlled substance prescriptions. Each additional dispensing generally requires a new valid prescription, although properly issued multiple prescriptions may be permitted under specific conditions. State regulations may impose additional restrictions.",
+      "topic": "Federal Requirements",
+      "subtopic": "Controlled substance prescriptions and DEA schedules",
+      "difficulty": "easy",
+      "source": "PTCB 2026 PTCE Content Outline, 2.2; 21 CFR 1306.12 – Refilling prescriptions"
+    },
+    {
+      "stem": "A pharmacy needs to order oxycodone tablets, a Schedule II controlled substance, from its authorized wholesaler. Which DEA document is generally required for a paper-based Schedule II order?",
+      "options": [
+        "DEA Form 41",
+        "DEA Form 222",
+        "DEA Form 106",
+        "DEA Form 224"
+      ],
+      "answer": "B",
+      "explanation": "DEA Form 222 is used to order Schedule I and II controlled substances when the paper ordering process is used. Authorized electronic orders may instead be placed through the Controlled Substance Ordering System (CSOS). DEA Form 106 reports theft or significant loss, while DEA Form 41 documents certain controlled substance destructions.",
+      "topic": "Federal Requirements",
+      "subtopic": "Federal requirements for ordering controlled substances",
+      "difficulty": "medium",
+      "source": "PTCB 2026 PTCE Content Outline, 2.3; 21 CFR Part 1305 – Orders for controlled substances"
+    },
+    {
+      "stem": "A pharmacy dispenses pseudoephedrine products subject to federal sales restrictions. An adult customer has already purchased 2.4 grams of pseudoephedrine base from the pharmacy today and requests another 1.8 grams. Assuming no applicable prescription exception, what should the technician do?",
+      "options": [
+        "Complete the sale because the total is under 9 grams.",
+        "Complete the sale after recording the customer's address.",
+        "Complete the sale if the customer presents identification.",
+        "Decline the sale because it exceeds the daily retail limit."
+      ],
+      "answer": "D",
+      "explanation": "The federal retail sales limit for pseudoephedrine is generally 3.6 grams of base per purchaser per day. The requested additional amount would bring the day's total to 4.2 grams, exceeding that limit. Federal law also includes identification, logging, and other requirements under the Combat Methamphetamine Epidemic Act.",
+      "topic": "Federal Requirements",
+      "subtopic": "Restricted drug programs and pseudoephedrine requirements",
+      "difficulty": "medium",
+      "source": "PTCB 2026 PTCE Content Outline, 2.4; 21 USC 830 – Regulated transactions"
+    },
+    {
+      "stem": "During receipt of prescription medications from a trading partner, a pharmacy identifies a package with an altered product identifier and evidence suggesting possible counterfeiting. Under the Drug Supply Chain Security Act, which immediate handling procedure is appropriate?",
+      "options": [
+        "Quarantine the product while an investigation is conducted.",
+        "Dispense the product if its expiration date is valid.",
+        "Return the product directly to unrestricted inventory.",
+        "Relabel the package using the supplier's invoice details."
+      ],
+      "answer": "A",
+      "explanation": "The Drug Supply Chain Security Act requires trading partners to identify and quarantine suspect products while determining whether they are illegitimate. A product with a potentially falsified identifier must not enter the dispensable supply chain during the investigation. Confirmed illegitimate products trigger additional notification and disposition requirements.",
+      "topic": "Federal Requirements",
+      "subtopic": "Drug Supply Chain Security Act verification and quarantine",
+      "difficulty": "hard",
+      "source": "PTCB 2026 PTCE Content Outline, 2.6; FD&C Act Section 582 – Suspect and illegitimate products"
+    },
+    {
+      "stem": "A technician is selecting a medication from pharmacy inventory. Which of the following medications is commonly classified as a high-alert medication because errors can cause significant patient harm?",
+      "options": [
+        "Loratadine",
+        "Docusate sodium",
+        "Insulin",
+        "Calcium carbonate"
+      ],
+      "answer": "C",
+      "explanation": "Insulin is a high-alert medication because incorrect doses, products, or routes can cause serious hypoglycemia or hyperglycemia. High-alert medications require additional safeguards because the consequences of errors can be severe. Examples of safeguards include independent checks, standardized procedures, and barcode verification.",
+      "topic": "Patient Safety and Quality Assurance",
+      "subtopic": "High-alert medications",
+      "difficulty": "easy",
+      "source": "PTCB 2026 PTCE Content Outline, 3.1 – High-alert medications; ISMP High-Alert Medications List"
+    },
+    {
+      "stem": "A technician is entering a handwritten prescription with a dose written as 5.0 mg. Which notation best follows medication-error prevention recommendations?",
+      "options": [
+        "5.0 mg",
+        "5 mg",
+        "5.00 mg",
+        "05.0 mg"
+      ],
+      "answer": "B",
+      "explanation": "Unnecessary trailing zeros should be avoided because a decimal point may be overlooked, potentially turning 5.0 mg into 50 mg. Writing 5 mg eliminates this hazard. A leading zero is recommended for doses below one unit, such as 0.5 mg, but unnecessary leading zeros should also be avoided.",
+      "topic": "Patient Safety and Quality Assurance",
+      "subtopic": "Medication error prevention and unsafe dose notation",
+      "difficulty": "medium",
+      "source": "PTCB 2026 PTCE Content Outline, 3.2 – Error prevention; ISMP Error-Prone Abbreviations List"
+    },
+    {
+      "stem": "A patient arrives to collect an antibiotic prescription and reports having previously experienced facial swelling and difficulty breathing after taking the same antibiotic. What should the pharmacy technician do?",
+      "options": [
+        "Dispense the prescription with advice to take it after food.",
+        "Replace the antibiotic with another from the same class.",
+        "Ask the patient to take a smaller dose for the first day.",
+        "Stop the dispensing process and alert the pharmacist."
+      ],
+      "answer": "D",
+      "explanation": "Facial swelling and difficulty breathing after taking an antibiotic may indicate a serious hypersensitivity reaction, including anaphylaxis. Re-exposure could cause a life-threatening reaction. The technician must alert the pharmacist before dispensing and must not independently modify or substitute the prescribed therapy.",
+      "topic": "Patient Safety and Quality Assurance",
+      "subtopic": "Pharmacist intervention for serious medication allergies",
+      "difficulty": "medium",
+      "source": "PTCB 2026 PTCE Content Outline, 3.3 – Issues requiring pharmacist intervention"
+    },
+    {
+      "stem": "A pharmacy discovers that two patients received each other's prescription medications because their similar names were confused during pickup. The pharmacy initiates a root-cause analysis. Which approach best reflects the purpose of this process?",
+      "options": [
+        "Identify system failures and implement preventive controls.",
+        "Identify the employee responsible and apply punishment.",
+        "Record the incident without examining contributing factors.",
+        "Replace the affected stock without reviewing workflow."
+      ],
+      "answer": "A",
+      "explanation": "Root-cause analysis investigates underlying system and process failures that contributed to a medication error. The goal is to develop effective corrective actions, such as improved patient identification procedures and workflow safeguards. A systems-focused approach addresses contributing conditions rather than relying solely on individual blame.",
+      "topic": "Patient Safety and Quality Assurance",
+      "subtopic": "Root-cause analysis and continuous quality improvement",
+      "difficulty": "hard",
+      "source": "PTCB 2026 PTCE Content Outline, 3.4 – Event reporting and root-cause analysis"
+    },
+    {
+      "stem": "A pharmacy technician has finished counting penicillin tablets on a reusable counting tray. Before counting tablets for another patient, which procedure is most appropriate to prevent cross-contamination?",
+      "options": [
+        "Wipe the tray with a dry paper towel only.",
+        "Use the tray immediately if no powder is visible.",
+        "Clean the tray according to the pharmacy's established procedure.",
+        "Rinse the tray with drinking water and immediately reuse it."
+      ],
+      "answer": "C",
+      "explanation": "Medication residue may remain on counting equipment even when it is not visibly apparent. Cleaning according to an established procedure reduces cross-contamination risk, particularly for patients with drug allergies. Equipment cleaning is an important part of routine infection prevention and medication safety practices.",
+      "topic": "Patient Safety and Quality Assurance",
+      "subtopic": "Cleaning standards and cross-contamination prevention",
+      "difficulty": "medium",
+      "source": "PTCB 2026 PTCE Content Outline, 3.6 – Infection prevention procedures and cleaning standards"
+    },
+    {
+      "stem": "A prescription instructs a patient to take one tablet by mouth twice daily for 15 days. How many tablets should the pharmacy technician dispense?",
+      "options": [
+        "15 tablets",
+        "30 tablets",
+        "45 tablets",
+        "60 tablets"
+      ],
+      "answer": "B",
+      "explanation": "Twice-daily dosing requires two tablets each day. Multiplying two tablets per day by 15 days gives 30 tablets. The quantity should correspond to the prescribed dose, frequency, and treatment duration.",
+      "topic": "Order Entry and Processing",
+      "subtopic": "Prescription quantity and days-supply calculations",
+      "difficulty": "easy",
+      "source": "PTCB 2026 PTCE Content Outline, 4.1 – Calculations for quantity and days supply"
+    },
+    {
+      "stem": "A prescription instructs a patient to take 7.5 mL of an oral suspension twice daily for 10 days. The suspension is supplied in 150 mL bottles. How many milliliters are required for the full prescribed course?",
+      "options": [
+        "75 mL",
+        "100 mL",
+        "125 mL",
+        "150 mL"
+      ],
+      "answer": "D",
+      "explanation": "The patient requires 7.5 mL per dose multiplied by two doses daily, or 15 mL per day. Over 10 days, the total volume required is 150 mL. One 150 mL bottle provides the prescribed quantity.",
+      "topic": "Order Entry and Processing",
+      "subtopic": "Liquid medication calculations",
+      "difficulty": "medium",
+      "source": "PTCB 2026 PTCE Content Outline, 4.1 – Formulas, calculations, and quantity"
+    },
+    {
+      "stem": "A patient is prescribed a liquid oral medication and needs a device to measure 2.5 mL accurately at home. Which device is most appropriate?",
+      "options": [
+        "A calibrated 5 mL oral syringe",
+        "A standard household teaspoon",
+        "A disposable 30 mL medicine cup",
+        "An insulin syringe with an attached needle"
+      ],
+      "answer": "A",
+      "explanation": "A calibrated oral syringe is appropriate for measuring small volumes of liquid medication accurately. Household teaspoons vary in size, and large medicine cups may not provide adequate precision for small doses. Oral syringes are designed for enteral administration and help reduce dosing errors.",
+      "topic": "Order Entry and Processing",
+      "subtopic": "Medication administration equipment and supplies",
+      "difficulty": "medium",
+      "source": "PTCB 2026 PTCE Content Outline, 4.2 – Equipment and supplies required for drug administration"
+    },
+    {
+      "stem": "A pharmacy technician must prepare 120 mL of a 10% w/v solution using a 25% w/v stock solution and a drug-free diluent. Assuming additive volumes and no loss during preparation, how much of the 25% stock solution is required?",
+      "options": [
+        "30 mL",
+        "40 mL",
+        "48 mL",
+        "60 mL"
+      ],
+      "answer": "C",
+      "explanation": "Apply the dilution equation C1V1 = C2V2, where the initial concentration is 25%, the desired concentration is 10%, and the final volume is 120 mL. Solving gives V1 = (10 × 120) / 25 = 48 mL of stock solution. The remaining 72 mL is drug-free diluent under the stated additive-volume assumption.",
+      "topic": "Order Entry and Processing",
+      "subtopic": "Concentration and dilution calculations",
+      "difficulty": "hard",
+      "source": "PTCB 2026 PTCE Content Outline, 4.1 – Formulas, calculations, ratios, proportions, and dilutions"
+    }
+  ]
+}

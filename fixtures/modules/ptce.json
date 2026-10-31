@@ -1,0 +1,36 @@
+{
+  "id": "ptce",
+  "display_name": "Pharmacy Technician Certification Exam (PTCE)",
+  "body": "PTCB",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by the Pharmacy Technician Certification Board (PTCB); the names are used only to identify the exam. PTCB®, Pharmacy Technician Certification Board™, Pharmacy Technician Certification Exam® and PTCE® are trademarks of the Pharmacy Technician Certification Board.",
+  "taxonomy": {
+    "Medications": [],
+    "Federal Requirements": [],
+    "Patient Safety and Quality Assurance": [],
+    "Order Entry and Processing": []
+  },
+  "weights": {
+    "Medications": 35,
+    "Federal Requirements": 18.75,
+    "Patient Safety and Quality Assurance": 23.75,
+    "Order Entry and Processing": 22.5
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": false,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [],
+  "uncovered_item_types": [],
+  "exam_mode": {
+    "questions": 90,
+    "minutes": 110
+  },
+  "verified_outline": "PTCE Content Outline (effective January 6, 2026)",
+  "verified_on": "2026-10-31",
+  "next_review": "2027-10-31"
+}
