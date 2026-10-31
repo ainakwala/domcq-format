@@ -66,6 +66,7 @@
     "minutes": 100,
     "note": "Microsoft does not publish the PL-300 question count: the real exam is 100 minutes, and Microsoft's pages say most of its exams have 40 to 60 questions."
   },
+  "prompt_template": "@sources\nIn `source`, give one short reference I can check: the study guide's skill area and skill group, for example \"PL-300 study guide, Model the data: Optimize model performance\", optionally followed by the title of one Microsoft Learn page. Keep it under 150 characters (the import refuses more than 200); never invent a page number or a quotation.",
   "verified_outline": "Study guide for Exam PL-300: Microsoft Power BI Data Analyst, skills measured as of April 20, 2026",
   "verified_on": "2026-10-31",
   "next_review": "2027-10-31"
