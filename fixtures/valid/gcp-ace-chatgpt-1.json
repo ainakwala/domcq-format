@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "gcp-ace",
+  "set": "Associate Cloud Engineer practice – Cloud Operations and Deployment",
+  "questions": [
+    {
+      "stem": "Your organization has 15 Google Cloud projects used by three departments. The security team wants to enforce a policy that prevents the creation of external IP addresses on Compute Engine VM instances in all projects belonging to the finance department. You want to minimize ongoing administration. What should you do?",
+      "options": [
+        "Create a custom IAM role that excludes permissions to assign external IP addresses and grant it to finance users.",
+        "Configure a VPC firewall rule that denies inbound traffic from the internet in each finance project.",
+        "Place the finance projects in a dedicated folder and enforce the relevant organization policy constraint on that folder.",
+        "Create an organization policy separately in each finance project and review the policies whenever a project is added."
+      ],
+      "answer": "C",
+      "explanation": "Organization policies can be applied at the organization, folder, or project level and are inherited by descendant resources. Applying the VM external IP access constraint to a finance folder centralizes enforcement and automatically covers projects placed under that folder. IAM roles control permissions, while firewall rules control traffic rather than whether external IP addresses can be assigned.",
+      "topic": "Setting up a cloud solution environment",
+      "subtopic": "Setting up cloud projects and accounts",
+      "difficulty": "medium",
+      "source": "Google Cloud ACE exam guide, Section 1.1; Organization Policy Service – Understanding resource hierarchy"
+    },
+    {
+      "stem": "You are creating a new Google Cloud project for a development team. The team needs to deploy Compute Engine virtual machines, but the Compute Engine API is currently disabled. You have the required permissions to manage project services. What should you do before creating the instances?",
+      "options": [
+        "Enable the Compute Engine API in the project using the Google Cloud console or gcloud CLI.",
+        "Create a new organization containing the project and configure its default service account.",
+        "Configure an organization policy that automatically permits the use of all Google Cloud APIs.",
+        "Create a new VPC network and associate the project's billing account with that network."
+      ],
+      "answer": "A",
+      "explanation": "Google Cloud services generally require their corresponding APIs to be enabled in the project before their resources can be created or managed. The Compute Engine API can be enabled through the console or with gcloud services enable compute.googleapis.com. Creating a network or changing the resource hierarchy does not enable the API.",
+      "topic": "Setting up a cloud solution environment",
+      "subtopic": "Setting up cloud projects and accounts",
+      "difficulty": "easy",
+      "source": "Google Cloud ACE exam guide, Section 1.1; Service Usage – Enabling and disabling services"
+    },
+    {
+      "stem": "A company has a Google Cloud project with several production workloads. The finance department wants to receive email notifications when monthly project spending reaches 50%, 80%, and 100% of a specified amount. The workloads must continue operating when these thresholds are reached. What should you configure?",
+      "options": [
+        "A project-level quota reduction with limits corresponding to the required spending thresholds.",
+        "A spend cap budget that pauses eligible services when the monthly budget is reached.",
+        "A Cloud Monitoring uptime check with notifications at the required percentage thresholds.",
+        "An alerts-only Cloud Billing budget scoped to the project with the required threshold rules."
+      ],
+      "answer": "D",
+      "explanation": "An alerts-only Cloud Billing budget supports configurable spending thresholds and email notifications without automatically stopping workloads. A spend cap budget can pause eligible services when its limit is enforced, which would violate the requirement to keep workloads operating. Budgets can be scoped to individual projects even when multiple projects share a billing account.",
+      "topic": "Setting up a cloud solution environment",
+      "subtopic": "Managing billing configuration",
+      "difficulty": "easy",
+      "source": "Google Cloud ACE exam guide, Section 1.2; Cloud Billing – Create, edit, or delete budgets and budget alerts"
+    },
+    {
+      "stem": "Your organization uses a single Cloud Billing account for multiple Google Cloud projects. The finance team needs to perform detailed SQL analysis of daily cloud costs, including project identifiers, services, SKUs, and applicable resource-level cost information. They also want the data to be available for historical reporting. What should you do?",
+      "options": [
+        "Enable Cloud Audit Logs for each project and query the logs using Cloud Logging.",
+        "Enable detailed Cloud Billing export to BigQuery and analyze the exported billing tables.",
+        "Export Cloud Monitoring metrics to Cloud Storage and calculate costs from resource utilization.",
+        "Configure monthly billing budget alerts and analyze their notification history in Pub/Sub."
+      ],
+      "answer": "B",
+      "explanation": "Detailed Cloud Billing export to BigQuery provides cost and usage records, including project, service, SKU, and supported resource-level information. BigQuery enables SQL analysis and historical reporting over the exported data. Billing exports do not necessarily backfill all spending that occurred before export was enabled, so they should be configured early.",
+      "topic": "Setting up a cloud solution environment",
+      "subtopic": "Managing billing configuration",
+      "difficulty": "medium",
+      "source": "Google Cloud ACE exam guide, Section 1.2; Cloud Billing – Export Cloud Billing data to BigQuery"
+    },
+    {
+      "stem": "Your team has developed a stateless HTTP API packaged as a container image. Traffic is unpredictable, and the API can receive no requests for several hours. You want Google Cloud to manage the underlying infrastructure and automatically scale the application to zero when idle. Which compute service should you use?",
+      "options": [
+        "Compute Engine with a managed instance group and autoscaling enabled.",
+        "Google Kubernetes Engine Standard with horizontal Pod autoscaling enabled.",
+        "Cloud Run with a service configured to use request-based autoscaling.",
+        "Compute Engine with a single VM configured to stop during periods of inactivity."
+      ],
+      "answer": "C",
+      "explanation": "Cloud Run runs containerized HTTP applications on managed infrastructure and supports automatic scaling, including scaling to zero when no instances are required. It is well suited to stateless services with intermittent traffic. Compute Engine and GKE Standard require more infrastructure management and do not provide the same straightforward serverless scaling behavior.",
+      "topic": "Planning and implementing a cloud solution",
+      "subtopic": "Planning and implementing compute resources",
+      "difficulty": "easy",
+      "source": "Google Cloud ACE exam guide, Compute resources; Cloud Run – About instance autoscaling"
+    },
+    {
+      "stem": "A company runs a custom batch-processing application on Compute Engine. Jobs can be interrupted and restarted from checkpoints without losing completed work. The team wants to minimize compute costs and accepts the possibility that Google Cloud may terminate instances when capacity is needed. Which VM provisioning option should you select?",
+      "options": [
+        "Spot VMs configured with the required machine types and checkpoint recovery.",
+        "Standard VMs covered by a three-year committed use discount agreement.",
+        "Sole-tenant VMs configured to provide dedicated physical host capacity.",
+        "Standard VMs with automatic restart and live migration enabled."
+      ],
+      "answer": "A",
+      "explanation": "Spot VMs provide substantial discounts in exchange for the possibility of preemption. They are appropriate for fault-tolerant, interruptible batch workloads that can resume from checkpoints. Standard and sole-tenant VMs do not offer the same discounted, preemptible capacity model.",
+      "topic": "Planning and implementing a cloud solution",
+      "subtopic": "Planning and implementing compute resources",
+      "difficulty": "medium",
+      "source": "Google Cloud ACE exam guide, Compute resources; Compute Engine – Spot VMs"
+    },
+    {
+      "stem": "A development team needs a managed relational database for a transactional web application. The application uses PostgreSQL, requires SQL joins and ACID transactions, and should require minimal database administration. The expected workload fits within the capacity of a conventional managed database instance. Which Google Cloud service should you choose?",
+      "options": [
+        "Bigtable with a single cluster and automatic storage scaling.",
+        "Firestore in Native mode with document-based queries.",
+        "BigQuery with on-demand query processing and partitioned tables.",
+        "Cloud SQL for PostgreSQL with automated backups enabled."
+      ],
+      "answer": "D",
+      "explanation": "Cloud SQL provides a fully managed PostgreSQL database with relational queries, transactions, backups, and maintenance capabilities. It is a natural choice when an existing application requires PostgreSQL compatibility and does not need a globally distributed database architecture. Bigtable, Firestore, and BigQuery serve different storage and analytical workloads.",
+      "topic": "Planning and implementing a cloud solution",
+      "subtopic": "Planning and implementing storage and data solutions",
+      "difficulty": "easy",
+      "source": "Google Cloud ACE exam guide, Storage and data options; Cloud SQL – Overview"
+    },
+    {
+      "stem": "You are designing storage for compliance records that must be retained for seven years. The records will rarely be accessed, typically less than once per year, and retrieval does not need to be free of additional charges. You want the lowest storage cost among Cloud Storage's standard storage classes while keeping the objects available for online retrieval. Which storage class should you select?",
+      "options": [
+        "Standard storage class with a regional bucket location.",
+        "Archive storage class with the required retention configuration.",
+        "Nearline storage class with the required retention configuration.",
+        "Coldline storage class with the required retention configuration."
+      ],
+      "answer": "B",
+      "explanation": "Archive is Cloud Storage's lowest-cost standard storage class for data that is accessed very infrequently and retained for long periods. Archive objects remain available for online access, although retrieval charges and minimum storage duration rules apply. A separate retention configuration can enforce the seven-year retention requirement.",
+      "topic": "Planning and implementing a cloud solution",
+      "subtopic": "Planning and implementing storage and data solutions",
+      "difficulty": "medium",
+      "source": "Google Cloud ACE exam guide, Storage options; Cloud Storage – Storage classes and retention policies"
+    },
+    {
+      "stem": "A company is deploying a public web application on Compute Engine VM instances in two Google Cloud regions. Users connect over HTTPS from multiple countries. The company needs one global external IP address, TLS termination, and request distribution to healthy backends in either region. Which load balancing solution should you implement?",
+      "options": [
+        "An external regional passthrough Network Load Balancer with regional backends.",
+        "An internal Application Load Balancer with backends in both regions.",
+        "A global external Application Load Balancer with regional backend services or instance groups.",
+        "An external regional proxy Network Load Balancer with a regional forwarding rule."
+      ],
+      "answer": "C",
+      "explanation": "A global external Application Load Balancer provides a global frontend for HTTP and HTTPS traffic, supports TLS termination, and can distribute requests across healthy backends in multiple regions. Regional load balancers do not provide the required single global frontend. An internal Application Load Balancer is intended for private application traffic rather than direct public access.",
+      "topic": "Planning and implementing a cloud solution",
+      "subtopic": "Planning and implementing networking resources",
+      "difficulty": "hard",
+      "source": "Google Cloud ACE exam guide, Network resources; Cloud Load Balancing – Application Load Balancer overview"
+    },
+    {
+      "stem": "Your operations team manages infrastructure across development, staging, and production projects. The team wants to define Google Cloud resources in version-controlled configuration files, review infrastructure changes before deployment, and consistently recreate environments. Which approach should you use?",
+      "options": [
+        "Use Terraform configurations with a remote state backend and review execution plans before applying changes.",
+        "Use Cloud Shell commands manually and save terminal output in a shared Cloud Storage bucket.",
+        "Use Cloud Monitoring dashboards to record infrastructure settings and reconstruct environments.",
+        "Use the Google Cloud console to create each resource and document its configuration in a spreadsheet."
+      ],
+      "answer": "A",
+      "explanation": "Terraform supports declarative infrastructure as code, allowing resource configurations to be version-controlled and reused across environments. Terraform plans show proposed changes before they are applied, and remote state supports coordinated infrastructure management. Manual console or CLI procedures are less reproducible and harder to audit consistently.",
+      "topic": "Planning and implementing a cloud solution",
+      "subtopic": "Planning and implementing resources using tooling",
+      "difficulty": "medium",
+      "source": "Google Cloud ACE exam guide, Deploying and implementing resources; Terraform on Google Cloud – Overview"
+    },
+    {
+      "stem": "A production application runs on a Compute Engine VM that has a persistent boot disk and an attached persistent data disk. You need to preserve a point-in-time copy of the data disk so it can be restored later or used to create another disk. What should you create?",
+      "options": [
+        "A machine image containing the VM configuration and attached disks.",
+        "A Cloud Storage object containing the VM's serial port output.",
+        "A new instance template referencing the existing VM's machine type.",
+        "A snapshot of the persistent data disk using Compute Engine."
+      ],
+      "answer": "D",
+      "explanation": "Compute Engine disk snapshots provide point-in-time copies of Persistent Disk data and can be used to create or restore disks. After the initial snapshot, subsequent snapshots can store incremental changes. Machine images serve broader whole-instance backup and replication purposes, while instance templates do not back up disk contents.",
+      "topic": "Ensuring the successful operation of a cloud solution",
+      "subtopic": "Managing compute resources",
+      "difficulty": "easy",
+      "source": "Google Cloud ACE exam guide, Managing Compute Engine resources; Compute Engine – Persistent Disk snapshots"
+    },
+    {
+      "stem": "Your team operates a Google Kubernetes Engine Standard cluster. The existing node pool uses machine types that are too small for a new workload. You want to migrate the workload to larger nodes while minimizing disruption and avoiding an in-place change to the existing node pool's machine type. What should you do?",
+      "options": [
+        "Resize the existing node pool to zero nodes and immediately recreate its nodes with a larger machine type.",
+        "Create a new node pool with larger machine types, migrate workloads by draining old nodes, and remove the old pool.",
+        "Change the machine type of each running GKE node directly through the Compute Engine console.",
+        "Delete the Kubernetes Deployments and recreate them after replacing the entire GKE cluster."
+      ],
+      "answer": "B",
+      "explanation": "GKE Standard supports multiple node pools with different node configurations. Creating a replacement pool allows workloads to be rescheduled onto the new nodes while the old nodes are carefully cordoned and drained. Existing GKE node machine types are not changed by directly editing their underlying Compute Engine instances.",
+      "topic": "Ensuring the successful operation of a cloud solution",
+      "subtopic": "Managing compute resources",
+      "difficulty": "medium",
+      "source": "Google Cloud ACE exam guide, Managing GKE resources; GKE – Add and manage node pools"
+    },
+    {
+      "stem": "A Cloud Run service has two revisions: revision A is serving all production traffic, and revision B contains a new application release. You want to direct 10% of incoming requests to revision B and keep 90% on revision A without changing application code. What should you configure?",
+      "options": [
+        "Set the maximum instance count of revision B to 10% of the instance count of revision A.",
+        "Create a Cloud DNS weighted record that directs 10% of requests to the new container image.",
+        "Configure Cloud Run traffic splitting with weights of 90% for revision A and 10% for revision B.",
+        "Configure a VPC firewall rule that permits only 10% of inbound connections to revision B."
+      ],
+      "answer": "C",
+      "explanation": "Cloud Run supports percentage-based traffic allocation among revisions of the same service. Assigning 90% to revision A and 10% to revision B enables a gradual rollout without modifying the application. Instance limits control scaling capacity, not the proportion of requests sent to each revision.",
+      "topic": "Ensuring the successful operation of a cloud solution",
+      "subtopic": "Managing compute resources",
+      "difficulty": "medium",
+      "source": "Google Cloud ACE exam guide, Managing Cloud Run resources; Cloud Run – Manage traffic to services"
+    },
+    {
+      "stem": "A company uses Cloud SQL for PostgreSQL in production. The database must remain available if the primary instance's zone experiences an outage. The company wants Google Cloud to manage the failover process and maintain a synchronously replicated standby in another zone of the same region. What should you configure?",
+      "options": [
+        "Configure a regional Cloud SQL instance with high availability enabled.",
+        "Create a Cloud SQL read replica in the primary instance's zone.",
+        "Schedule daily logical database exports to a Cloud Storage bucket.",
+        "Enable point-in-time recovery on a single-zone Cloud SQL instance."
+      ],
+      "answer": "A",
+      "explanation": "Cloud SQL high availability uses a regional configuration with a standby in another zone and supports automatic failover when the primary becomes unavailable. Synchronous replication helps maintain data consistency between the primary and standby. Backups, point-in-time recovery, and read replicas serve different purposes and do not individually provide equivalent automatic zonal failover.",
+      "topic": "Ensuring the successful operation of a cloud solution",
+      "subtopic": "Managing storage and data solutions",
+      "difficulty": "medium",
+      "source": "Google Cloud ACE exam guide, Managing storage and data solutions; Cloud SQL – High availability overview"
+    },
+    {
+      "stem": "Two Compute Engine VMs are deployed in the same VPC network but in different subnets. The subnets use nonoverlapping IP ranges. Both VMs have internal IP addresses, but a newly configured restrictive firewall policy prevents communication from the first VM to TCP port 5432 on the second VM. You need to permit this database connection while restricting access to the intended source subnet. What should you do?",
+      "options": [
+        "Assign an external IP address to both VMs and connect through the public internet.",
+        "Create a Cloud NAT gateway to enable incoming database traffic between the subnets.",
+        "Create a VPC Network Peering connection between the two subnets in the same VPC.",
+        "Add an ingress firewall allow rule for TCP port 5432 with the source subnet CIDR range and the intended destination target."
+      ],
+      "answer": "D",
+      "explanation": "Subnets within the same VPC can communicate through Google Cloud's internal VPC routing when firewall policies permit the traffic. An appropriately scoped ingress allow rule can permit TCP port 5432 from the specified source CIDR range to the database VM. Cloud NAT and external IP addresses are unnecessary for this internal communication, and VPC peering connects separate VPC networks rather than subnets within one VPC.",
+      "topic": "Ensuring the successful operation of a cloud solution",
+      "subtopic": "Managing networking resources",
+      "difficulty": "medium",
+      "source": "Google Cloud ACE exam guide, Managing networking resources; VPC – Firewall rules and implied rules"
+    },
+    {
+      "stem": "A production application on Google Cloud intermittently returns HTTP 500 errors. The operations team needs to investigate individual application error messages across several services, filter records by severity and timestamp, and identify recurring failure patterns. Which Google Cloud capability should the team use first?",
+      "options": [
+        "Cloud Billing reports with filtering by project and service.",
+        "Cloud Logging Logs Explorer with filters for severity, resource, and time.",
+        "Cloud Monitoring uptime checks with an increased polling frequency.",
+        "Cloud Asset Inventory with an export of resource configuration history."
+      ],
+      "answer": "B",
+      "explanation": "Cloud Logging Logs Explorer lets operators search and filter log entries by resource, severity, timestamp, and structured fields. It is appropriate for investigating application errors and identifying repeated error messages. Uptime checks establish whether an endpoint is responding, but do not provide the same detailed application log analysis.",
+      "topic": "Ensuring the successful operation of a cloud solution",
+      "subtopic": "Monitoring and logging",
+      "difficulty": "easy",
+      "source": "Google Cloud ACE exam guide, Monitoring and logging; Cloud Logging – Logs Explorer"
+    },
+    {
+      "stem": "A security team wants an employee to view Compute Engine VM configuration and status in one Google Cloud project. The employee must not be able to create, modify, start, stop, or delete VM instances. You want to follow the principle of least privilege. Which predefined IAM role should you grant?",
+      "options": [
+        "Compute Admin on the project.",
+        "Project Editor on the project.",
+        "Compute Viewer on the project.",
+        "Compute Instance Admin (v1) on the project."
+      ],
+      "answer": "C",
+      "explanation": "The Compute Viewer role provides read-only access to Compute Engine resources without granting VM modification permissions. Compute Admin and Compute Instance Admin provide substantial administrative privileges, while Project Editor is broader than necessary. Granting a focused predefined role follows the principle of least privilege.",
+      "topic": "Configuring access and security",
+      "subtopic": "Managing IAM",
+      "difficulty": "easy",
+      "source": "Google Cloud ACE exam guide, Section 5.1; IAM – Compute Engine predefined roles"
+    },
+    {
+      "stem": "A company manages 40 Google Cloud projects under one organization. A security auditor needs to view IAM policies for resources across these projects but must not be able to modify access permissions. The auditor's responsibilities cover the entire organization, including new projects added later. What should you do?",
+      "options": [
+        "Grant the Security Reviewer predefined role at the organization level.",
+        "Grant the Project Viewer basic role separately in every existing project.",
+        "Grant the Security Admin predefined role at the organization level.",
+        "Grant the Organization Administrator role at the organization level."
+      ],
+      "answer": "A",
+      "explanation": "The Security Reviewer role provides read-only access to security-related resource configurations, including IAM policies, within its granted scope. Granting it at the organization level allows the auditor to inspect relevant resources across descendant projects, including newly added projects. Security Admin and Organization Administrator provide unnecessary modification privileges.",
+      "topic": "Configuring access and security",
+      "subtopic": "Managing IAM",
+      "difficulty": "medium",
+      "source": "Google Cloud ACE exam guide, Section 5.1; IAM – Security roles and resource hierarchy"
+    },
+    {
+      "stem": "A Compute Engine VM runs an application that reads objects from one Cloud Storage bucket. The organization prohibits user-managed service account keys and requires least-privilege access. You need the application to authenticate using Google-recommended practices. Which TWO actions should you take?",
+      "options": [
+        "Generate a JSON key for the Compute Engine default service account and store it on the VM.",
+        "Create a dedicated user-managed service account and attach it to the Compute Engine VM.",
+        "Grant the VM's service account the Project Editor role to avoid future permission failures.",
+        "Grant the dedicated service account the Storage Object Viewer role on the required bucket."
+      ],
+      "answer": "BD",
+      "explanation": "Attaching a dedicated service account to the VM lets applications obtain short-lived credentials through the metadata server without storing service account keys. Granting Storage Object Viewer on the specific bucket provides the permissions required to read objects while limiting access to other resources. The VM must also have an appropriate OAuth access scope, such as cloud-platform, for the credentials to access Cloud Storage.",
+      "topic": "Configuring access and security",
+      "subtopic": "Managing service accounts",
+      "difficulty": "hard",
+      "source": "Google Cloud ACE exam guide, Section 5.2; Compute Engine – Service accounts and access scopes"
+    },
+    {
+      "stem": "A developer needs to troubleshoot a production application by running gcloud commands with the permissions of a production service account. Organization policy prohibits downloading or creating persistent service account keys. The security team also requires that the developer's own identity be authenticated and explicitly authorized before obtaining service account credentials. Which TWO actions should you take?",
+      "options": [
+        "Grant the developer the Project Owner role so they can directly access all production resources.",
+        "Create a user-managed private key for the production service account and share it securely.",
+        "Grant the developer the Service Account Token Creator role on the production service account.",
+        "Have the developer authenticate with their own identity and use gcloud's service account impersonation option."
+      ],
+      "answer": "CD",
+      "explanation": "Service account impersonation allows an authenticated principal to obtain short-lived credentials for a service account without creating or distributing a persistent private key. The Service Account Token Creator role grants the necessary impersonation capability when scoped to the target service account. The developer can use the gcloud --impersonate-service-account option, and the resulting operations are authorized according to the service account's permissions.",
+      "topic": "Configuring access and security",
+      "subtopic": "Managing service accounts",
+      "difficulty": "hard",
+      "source": "Google Cloud ACE exam guide, Section 5.2; Authentication – Use service account impersonation"
+    }
+  ]
+}
