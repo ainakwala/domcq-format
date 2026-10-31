@@ -1,0 +1,57 @@
+{
+  "id": "gcp-ace",
+  "display_name": "Associate Cloud Engineer",
+  "body": "Google",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by Google LLC; the names are used only to identify the exam. Google and Google Cloud are trademarks of Google LLC.",
+  "taxonomy": {
+    "Setting up a cloud solution environment": [
+      "Setting up cloud projects and accounts",
+      "Managing billing configuration"
+    ],
+    "Planning and implementing a cloud solution": [
+      "Planning and implementing compute resources",
+      "Planning and implementing storage and data solutions",
+      "Planning and implementing networking resources",
+      "Planning and implementing resources using tooling"
+    ],
+    "Ensuring the successful operation of a cloud solution": [
+      "Managing compute resources",
+      "Managing storage and data solutions",
+      "Managing networking resources",
+      "Monitoring and logging"
+    ],
+    "Configuring access and security": [
+      "Managing IAM",
+      "Managing service accounts"
+    ]
+  },
+  "weights": {
+    "Setting up a cloud solution environment": 20,
+    "Planning and implementing a cloud solution": 30,
+    "Ensuring the successful operation of a cloud solution": 30,
+    "Configuring access and security": 20
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": true,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [
+    "You want to apply the principle of least privilege and follow Google-recommended practices.",
+    "What should you do?",
+    "Which Google Cloud product should the transactions be sent to?"
+  ],
+  "uncovered_item_types": [],
+  "exam_mode": {
+    "questions": 60,
+    "minutes": 120,
+    "note": "Google prints 50 to 60 questions in 2 hours and no fixed count, so exam mode uses 60, the faster end of that range."
+  },
+  "verified_outline": "Associate Cloud Engineer Certification exam guide (the standard exam guide Google links; live from June 30, year not printed)",
+  "verified_on": "2026-10-31",
+  "next_review": "2027-10-31"
+}
