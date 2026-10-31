@@ -1,0 +1,64 @@
+{
+  "id": "comptia-cysa",
+  "display_name": "CompTIA CySA+ (CS0-004)",
+  "body": "CompTIA",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, endorsed by or sponsored by CompTIA. Students write their own practice questions to the objectives validated by CompTIA; DoMcq holds no CompTIA materials. CompTIA® and the names of CompTIA certifications are trademarks or registered trademarks of CompTIA, Inc., used here only to identify the exam.",
+  "taxonomy": {
+    "Security Operations": [
+      "Explain concepts related to system and network architecture in security operations",
+      "Given a scenario, analyze indicators of potential malicious activity",
+      "Given a scenario, use tools to determine malicious activity",
+      "Explain threat intelligence and threat-hunting concepts",
+      "Explain the importance of efficiency and process improvement in security operations",
+      "Summarize concepts related to the use of AI in security operations"
+    ],
+    "Vulnerability Management": [
+      "Given a scenario, implement the appropriate vulnerability scanning method",
+      "Given a scenario, analyze output from vulnerability assessment tools",
+      "Given a scenario, analyze data to prioritize and mitigate vulnerabilities",
+      "Explain concepts related to control types, risks, and vulnerability management"
+    ],
+    "Incident Response and Management": [
+      "Summarize concepts related to attack methodology frameworks",
+      "Summarize the incident response process",
+      "Given a scenario, implement incident response techniques"
+    ],
+    "Reporting and Communication": [
+      "Explain the importance of vulnerability management reporting and communication",
+      "Explain the importance of security operations and incident response reporting and communication"
+    ]
+  },
+  "weights": {
+    "Security Operations": 34,
+    "Vulnerability Management": 26,
+    "Incident Response and Management": 24,
+    "Reporting and Communication": 16
+  },
+  "options": {
+    "min": 4,
+    "max": 6
+  },
+  "multi_select": true,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [
+    "Which of the following attacks has most likely occurred?",
+    "Which of the following is the next step?",
+    "Which of the following processes requires further investigation?",
+    "Which of the following should the analyst take into consideration for future scans?"
+  ],
+  "uncovered_item_types": [
+    "performance-based",
+    "drag-and-drop"
+  ],
+  "exam_mode": {
+    "questions": 85,
+    "minutes": 165
+  },
+  "prompt_template": "@options\nGive each question between 4 and 6 options. Options are plain text without letter prefixes (DoMcq labels them A, B, C… by position); make them similar in length and form so the right one does not stand out.\nWrite the real exam's two kinds of multiple-choice item, as CompTIA's own CySA+ practice questions show them. Most are single answer: exactly one correct option, so `answer` is a single letter, and almost always exactly 4 options (CompTIA's samples give a single-answer question 5 options only now and then, never 6). A few are multiple response: 5 or 6 options, two or more of them correct and at least one incorrect, and the stem says how many to choose (\"Choose TWO.\", \"Choose THREE.\"); `answer` lists every correct letter in ascending order (\"BD\").\nNever use these as an option: \"all of the above\", \"none of the above\". Avoid \"both A and B\" style options too.",
+  "verified_outline": "CompTIA Cybersecurity Analyst (CySA+) Certification Exam Objectives, CS0-004 V4 (Document Version 2.0)",
+  "verified_on": "2026-10-31",
+  "next_review": "2027-10-31"
+}

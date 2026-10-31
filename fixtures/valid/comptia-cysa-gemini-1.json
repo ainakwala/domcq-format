@@ -1,0 +1,309 @@
+{
+  "format": "domcq/1",
+  "exam": "comptia-cysa",
+  "set": "CompTIA CySA+ (CS0-004) practice – Comprehensive Exam Preparation Set",
+  "questions": [
+    {
+      "stem": "A security analyst needs to automate the ingestion of structured cyber threat intelligence feeds into the organization's SIEM over HTTPS. Which of the following standards should the analyst implement to transmit this intelligence?",
+      "options": [
+        "Structured Threat Information Expression",
+        "Trusted Automated Exchange of Intelligence Information",
+        "Open Indicators of Compromise",
+        "Traffic Light Protocol"
+      ],
+      "answer": "B",
+      "explanation": "Trusted Automated Exchange of Intelligence Information (TAXII) is an application-layer protocol designed specifically to exchange cyber threat intelligence over HTTPS. STIX provides the standardized language and data structure for threat information, whereas TAXII serves as the transport mechanism. OpenIOC is an older XML framework for indicators of compromise, and TLP is a schema used to designate sharing restrictions.",
+      "topic": "Security Operations",
+      "subtopic": "Explain threat intelligence and threat-hunting concepts",
+      "difficulty": "easy",
+      "source": "CompTIA CySA+ CS0-004 Objective 1.4: Explain threat intelligence and threat-hunting concepts"
+    },
+    {
+      "stem": "A security analyst reviewing endpoint detection and response telemetry discovers that a workstation executed certutil.exe with the parameters -urlcache -split -f to retrieve an executable file from an external IP address. Which of the following techniques is the adversary utilizing?",
+      "options": [
+        "Living-off-the-land binary execution",
+        "Dynamic-link library side-loading",
+        "Process hollowing injection",
+        "Windows Management Instrumentation subscription"
+      ],
+      "answer": "A",
+      "explanation": "The adversary is executing a living-off-the-land binary (LOLBin), which involves repurposing legitimate, pre-installed operating system utilities such as certutil.exe to download unauthorized payloads. This technique allows attackers to bypass standard application whitelisting and evade signature-based detection mechanisms. DLL side-loading, process hollowing, and WMI subscriptions are separate execution and persistence techniques.",
+      "topic": "Security Operations",
+      "subtopic": "Given a scenario, analyze indicators of potential malicious activity",
+      "difficulty": "medium",
+      "source": "CompTIA CySA+ CS0-004 Objective 1.2: Given a scenario, analyze indicators of potential malicious activity"
+    },
+    {
+      "stem": "A security analyst inspects network traffic from an internal host and observes recurring DNS queries sent to randomized subdomains under a single root domain every 45 seconds, with each response returning TXT records containing base64 strings. Which of the following attacks has most likely occurred?",
+      "options": [
+        "DNS amplification attack",
+        "Domain name hijacking",
+        "Fast flux DNS resolution",
+        "DNS tunneling and data exfiltration"
+      ],
+      "answer": "D",
+      "explanation": "DNS tunneling encapsulates non-DNS traffic and encoded data within standard DNS queries and TXT responses to establish command-and-control channels or exfiltrate data. The regular 45-second beaconing interval, randomized subdomains, and base64 payloads inside TXT records represent characteristic indicators of DNS tunneling. Fast flux dynamically alters IP addresses to obscure hosting infrastructure, whereas DNS amplification is a reflection-based denial-of-service attack.",
+      "topic": "Security Operations",
+      "subtopic": "Given a scenario, use tools to determine malicious activity",
+      "difficulty": "medium",
+      "source": "CompTIA CySA+ CS0-004 Objective 1.3: Given a scenario, use tools to determine malicious activity"
+    },
+    {
+      "stem": "A security team implements a generative AI system that automatically summarizes inbound suspicious emails and suggests firewall block rules. An adversary sends an email containing hidden white-on-white text instructing the model to whitelist the sender's external subnet, which the system executes. Which of the following attacks has occurred?",
+      "options": [
+        "Training data poisoning",
+        "Indirect prompt injection",
+        "Model inversion attack",
+        "Adversarial transferability"
+      ],
+      "answer": "B",
+      "explanation": "Indirect prompt injection occurs when an AI application ingests untrusted third-party inputs containing embedded adversarial instructions that hijack the model's intended workflow. In this scenario, the hidden text in the email successfully coerced the model into executing unauthorized administrative actions. Training data poisoning manipulates model weights during the training phase, while model inversion attempts to reconstruct proprietary training samples from outputs.",
+      "topic": "Security Operations",
+      "subtopic": "Summarize concepts related to the use of AI in security operations",
+      "difficulty": "hard",
+      "source": "CompTIA CySA+ CS0-004 Objective 1.6: Summarize concepts related to the use of AI in security operations"
+    },
+    {
+      "stem": "A security operations manager observes severe alert fatigue and extended response times among Tier 1 analysts. Which of the following initiatives should the manager implement to improve operational efficiency? (Choose TWO.)",
+      "options": [
+        "Implement security orchestration, automation, and response playbooks for repetitive triage tasks",
+        "Tune SIEM correlation rules to suppress known high-volume benign alerts",
+        "Disable endpoint telemetry ingestion across all non-critical client subnets",
+        "Configure low-severity alerts to automatically generate high-priority escalation tickets",
+        "Route all firewall connection drop logs directly into the Tier 1 analyst incident queue"
+      ],
+      "answer": "AB",
+      "explanation": "Deploying SOAR playbooks automates repetitive enrichment and triage tasks, substantially reducing analyst workload and mean time to respond (MTTR). Tuning correlation rules suppresses benign high-volume false positives, which directly alleviates alert fatigue and enables analysts to focus on actionable threats. Disabling endpoint telemetry creates severe visibility blind spots, while escalating low alerts or dumping raw firewall drop logs dramatically increases fatigue.",
+      "topic": "Security Operations",
+      "subtopic": "Explain the importance of efficiency and process improvement in security operations",
+      "difficulty": "medium",
+      "source": "CompTIA CySA+ CS0-004 Objective 1.5: Explain the importance of efficiency and process improvement in security operations"
+    },
+    {
+      "stem": "An organization is deploying a zero trust architecture across hybrid cloud environments. Which of the following architectural components evaluates real-time contextual signals, such as user identity and device posture, to determine whether access to an application should be granted?",
+      "options": [
+        "Policy enforcement point",
+        "Cloud access security broker",
+        "Policy decision point",
+        "Web application firewall"
+      ],
+      "answer": "C",
+      "explanation": "Under the zero trust architecture model (NIST SP 800-207), the Policy Decision Point (PDP) is responsible for evaluating identity, device health, and environmental context against authorization policies to grant or deny access. The Policy Enforcement Point (PEP), which may be realized through gateways or CASBs, enforces the decisions made by the PDP. Web application firewalls inspect application-layer traffic for web exploits rather than serving as centralized zero trust decision engines.",
+      "topic": "Security Operations",
+      "subtopic": "Explain concepts related to system and network architecture in security operations",
+      "difficulty": "medium",
+      "source": "CompTIA CySA+ CS0-004 Objective 1.1: Explain concepts related to system and network architecture in security operations"
+    },
+    {
+      "stem": "During an active incident investigation, an analyst identifies Windows Event ID 4624 with Logon Type 9 (NewCredentials) on a compromised jump host, followed immediately by Kerberos TGS requests for administrative services across the domain. The host does not have stored plaintext credentials. Which of the following attacks is most likely occurring?",
+      "options": [
+        "Kerberoasting attack",
+        "AS-REP roasting attack",
+        "Pass-the-Hash attack",
+        "Overpass-the-Hash attack"
+      ],
+      "answer": "D",
+      "explanation": "Overpass-the-Hash (also known as Pass-the-Key) injects an extracted NTLM hash or AES key into Kerberos authentication routines to request a Ticket Granting Ticket (TGT), typically creating a Logon Type 9 (NewCredentials) session. This allows an attacker to pivot from NTLM credentials to legitimate Kerberos ticket requests without cracking passwords offline. Standard Pass-the-Hash relies directly on NTLM over SMB, whereas Kerberoasting requests service tickets to crack service account passwords offline.",
+      "topic": "Security Operations",
+      "subtopic": "Given a scenario, analyze indicators of potential malicious activity",
+      "difficulty": "hard",
+      "source": "CompTIA CySA+ CS0-004 Objective 1.2: Given a scenario, analyze indicators of potential malicious activity"
+    },
+    {
+      "stem": "A systems administrator needs to discover missing operating system patches and local registry misconfigurations on remote workstations without transmitting administrative credentials over the network. Which of the following scanning methods is best suited to meet this requirement?",
+      "options": [
+        "Agent-based vulnerability scanning",
+        "Uncredentialed network vulnerability scanning",
+        "Passive network vulnerability sniffing",
+        "Dynamic application security testing"
+      ],
+      "answer": "A",
+      "explanation": "Agent-based scanning executes locally on endpoints, allowing thorough authenticated inspection of installed patches, software inventories, and registry configurations without transmitting administrative credentials across the network. Uncredentialed network scans cannot inspect internal configuration registries or local patch files. Passive sniffing monitors transit traffic without active system interrogation, and DAST evaluates running web applications.",
+      "topic": "Vulnerability Management",
+      "subtopic": "Given a scenario, implement the appropriate vulnerability scanning method",
+      "difficulty": "easy",
+      "source": "CompTIA CySA+ CS0-004 Objective 2.1: Given a scenario, implement the appropriate vulnerability scanning method"
+    },
+    {
+      "stem": "A security analyst examines a vulnerability report containing the vector string CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H. Which of the following statements accurately characterizes the operational risk of this vulnerability?",
+      "options": [
+        "Exploitation requires high complexity and local physical access, resulting only in data loss",
+        "Exploitation requires administrative credentials on an adjacent network to trigger a denial of service",
+        "The vulnerability is remotely exploitable without authentication and leads to full host compromise",
+        "The vulnerability requires user interaction over an internal network and impacts unauthorized components"
+      ],
+      "answer": "C",
+      "explanation": "The CVSS v3.1 vector string indicates Network vector (AV:N), Low attack complexity (AC:L), No privileges required (PR:N), and No user interaction required (UI:N). The high ratings across Confidentiality (C:H), Integrity (I:H), and Availability (A:H) denote total compromise of the target system. Scope Unchanged (S:U) indicates the impact is limited to the vulnerable component itself, representing a critical severity vulnerability.",
+      "topic": "Vulnerability Management",
+      "subtopic": "Given a scenario, analyze output from vulnerability assessment tools",
+      "difficulty": "medium",
+      "source": "CompTIA CySA+ CS0-004 Objective 2.2: Given a scenario, analyze output from vulnerability assessment tools"
+    },
+    {
+      "stem": "A security analyst must prioritize remediation for multiple critical findings within a strict 48-hour service level agreement window. Which of the following vulnerabilities should the analyst prioritize for immediate remediation?",
+      "options": [
+        "A CVSS 7.5 vulnerability with an EPSS score of 0.89 that is listed in the CISA KEV catalog",
+        "A CVSS 9.8 vulnerability with an EPSS score of 0.02 that is not listed in the CISA KEV catalog",
+        "A CVSS 9.0 vulnerability with an EPSS score of 0.15 that has a theoretical exploit concept published",
+        "A CVSS 8.4 vulnerability with an EPSS score of 0.35 that affects an internal isolated testing server"
+      ],
+      "answer": "A",
+      "explanation": "In modern vulnerability prioritization, confirmed real-world threat activity takes precedence over theoretical base severity. Being cataloged in the CISA Known Exploited Vulnerabilities (KEV) list confirms active weaponization in the wild, and an EPSS score of 0.89 indicates an 89% probability of exploitation in the next 30 days. Prioritizing unexploited CVSS 9.8 flaws ahead of actively exploited vulnerabilities leaves organizations vulnerable to active adversary campaigns.",
+      "topic": "Vulnerability Management",
+      "subtopic": "Given a scenario, analyze data to prioritize and mitigate vulnerabilities",
+      "difficulty": "hard",
+      "source": "CompTIA CySA+ CS0-004 Objective 2.3: Given a scenario, analyze data to prioritize and mitigate vulnerabilities"
+    },
+    {
+      "stem": "A manufacturing plant operates legacy supervisory control and data acquisition hardware with a known unpatchable remote execution flaw. Decommissioning the system would shut down production. Which of the following compensating controls should the security team implement?",
+      "options": [
+        "Accept the operational risk formally and disable all logging to prevent storage exhaustion",
+        "Deploy an automated endpoint detection agent configured to terminate running processes",
+        "Purchase cybersecurity risk insurance to transfer all financial liability from potential downtime",
+        "Isolate the hardware on a dedicated network segment with strict ingress filtering rules"
+      ],
+      "answer": "D",
+      "explanation": "Compensating controls provide supplemental safeguards when primary controls, such as vendor security patches, cannot be applied. Placing the vulnerable legacy hardware into an isolated, dedicated VLAN protected by strict unidirectional firewall rules restricts network exposure and blocks exploit vectors without impacting production. Simply accepting risk without safeguards maintains severe exposure, and legacy SCADA systems often cannot support modern EDR agents.",
+      "topic": "Vulnerability Management",
+      "subtopic": "Explain concepts related to control types, risks, and vulnerability management",
+      "difficulty": "medium",
+      "source": "CompTIA CySA+ CS0-004 Objective 2.4: Explain concepts related to control types, risks, and vulnerability management"
+    },
+    {
+      "stem": "An analyst reviews automated web application scan results and notes that unvalidated user parameters submitted in an HTTP GET request are reflected verbatim within the application's HTML response. Which of the following vulnerabilities has been identified?",
+      "options": [
+        "Insecure direct object reference",
+        "Reflected cross-site scripting",
+        "Server-side request forgery",
+        "SQL command injection"
+      ],
+      "answer": "B",
+      "explanation": "Reflected cross-site scripting (XSS) occurs when unvalidated or unencoded user input from an HTTP request is immediately embedded into the server's HTTP response page. When executed in a victim's browser, the reflected script can hijack sessions or steal sensitive cookies. Insecure direct object references involve unauthorized access to internal resources by altering record IDs, SSRF abuses backend server requests, and SQL injection manipulates database queries.",
+      "topic": "Vulnerability Management",
+      "subtopic": "Given a scenario, analyze output from vulnerability assessment tools",
+      "difficulty": "easy",
+      "source": "CompTIA CySA+ CS0-004 Objective 2.2: Given a scenario, analyze output from vulnerability assessment tools"
+    },
+    {
+      "stem": "A security analyst reviewing an ongoing intrusion maps adversary commands that enumerate local user accounts, domain trust relationships, and network shares to the MITRE ATT&CK framework. Under which of the following tactics do these activities fall?",
+      "options": [
+        "Initial Access",
+        "Lateral Movement",
+        "Discovery",
+        "Exfiltration"
+      ],
+      "answer": "C",
+      "explanation": "The Discovery tactic in the MITRE ATT&CK framework comprises techniques that adversaries use to observe and obtain knowledge about the internal system, user permissions, and network environment. Querying local accounts, domain trusts, and network shares directly aligns with discovery techniques (e.g., T1087 and T1482). Initial Access describes initial entry vectors, Lateral Movement involves traversing network systems, and Exfiltration covers stealing data.",
+      "topic": "Incident Response and Management",
+      "subtopic": "Summarize concepts related to attack methodology frameworks",
+      "difficulty": "easy",
+      "source": "CompTIA CySA+ CS0-004 Objective 3.1: Summarize concepts related to attack methodology frameworks"
+    },
+    {
+      "stem": "A security analyst detects that an internal production server is actively communicating with a known adversary command-and-control IP address. Which of the following containment actions should the analyst execute to isolate the host while preserving volatile memory for forensics? (Choose TWO.)",
+      "options": [
+        "Power off the physical server immediately by pulling the power cable from the supply",
+        "Move the affected virtual network adapter to an isolated quarantine network segment",
+        "Reimage the operating system partition immediately using a verified baseline image",
+        "Apply host-based firewall rules that drop all inbound and outbound traffic except forensic management",
+        "Delete the user accounts and temporary directory files associated with the malicious execution"
+      ],
+      "answer": "BD",
+      "explanation": "Moving the virtual network adapter to an isolated quarantine VLAN and applying restrictive host-based firewall rules effectively sever malicious command-and-control channels while keeping the operating system running. Preserving system uptime is vital because it protects volatile RAM artifacts, active network connections, and unencrypted memory keys required for forensic triage. Pulling the power cord, reimaging, or deleting files destroys essential volatile digital evidence.",
+      "topic": "Incident Response and Management",
+      "subtopic": "Given a scenario, implement incident response techniques",
+      "difficulty": "medium",
+      "source": "CompTIA CySA+ CS0-004 Objective 3.3: Given a scenario, implement incident response techniques"
+    },
+    {
+      "stem": "A forensic analyst is preparing to acquire digital evidence from a live workstation compromised by memory-only malware. According to the standard order of volatility defined in RFC 3227, which of the following sequences correctly prioritizes evidence collection from most volatile to least volatile?",
+      "options": [
+        "Hard disk drive, swap file, main memory, processor cache",
+        "Processor cache, main memory, swap file, hard disk drive",
+        "Main memory, processor cache, hard disk drive, swap file",
+        "Swap file, hard disk drive, processor cache, main memory"
+      ],
+      "answer": "B",
+      "explanation": "RFC 3227 establishes the order of volatility based on the expected lifetime of digital data. The collection order begins with the most transient data: CPU registers and processor cache, followed by main memory (RAM), network state and kernel tables, swap files and temporary file systems, non-volatile magnetic or solid-state disk storage, and finally remote archival media. Capturing disk storage or swap files before main memory risks overwriting or losing critical in-memory forensic evidence.",
+      "topic": "Incident Response and Management",
+      "subtopic": "Given a scenario, implement incident response techniques",
+      "difficulty": "hard",
+      "source": "CompTIA CySA+ CS0-004 Objective 3.3: Given a scenario, implement incident response techniques"
+    },
+    {
+      "stem": "Following a ransomware incident, an incident response team restores database servers from clean offline backups, installs missing patches, and verifies that enhanced endpoint telemetry is actively monitoring the restored systems. In which phase of the NIST SP 800-61 Rev. 2 lifecycle is the team operating?",
+      "options": [
+        "Preparation",
+        "Detection and Analysis",
+        "Containment, Eradication, and Recovery",
+        "Post-Incident Activity"
+      ],
+      "answer": "C",
+      "explanation": "NIST SP 800-61 Rev. 2 groups Containment, Eradication, and Recovery into a single operational phase. Eliminating malware components, rebuilding systems from verified clean backups, applying security patches, and monitoring restored assets to ensure normal functionality are the definitive steps of eradication and recovery. Preparation occurs prior to an event, and Post-Incident Activity focuses on lessons learned after recovery is complete.",
+      "topic": "Incident Response and Management",
+      "subtopic": "Summarize the incident response process",
+      "difficulty": "medium",
+      "source": "CompTIA CySA+ CS0-004 Objective 3.2: Summarize the incident response process"
+    },
+    {
+      "stem": "A forensic examiner creating a bit-stream disk image computes a SHA-256 hash of the evidence drive immediately upon imaging and logs every transfer of the physical drive in a secured register. Which of the following legal concepts is the examiner primarily preserving?",
+      "options": [
+        "Non-repudiation of origin",
+        "Right-to-audit clause",
+        "Separation of duties",
+        "Chain of custody"
+      ],
+      "answer": "D",
+      "explanation": "Chain of custody is the chronological documentation and legal tracking showing the custody, control, transfer, analysis, and disposition of evidence. Computing cryptographic hashes proves that the digital evidence remained unaltered (integrity), and logging every transfer ensures accountability and legal admissibility in judicial proceedings. Separation of duties prevents single-party fraud, and non-repudiation guarantees that an author cannot deny sending a message.",
+      "topic": "Incident Response and Management",
+      "subtopic": "Summarize the incident response process",
+      "difficulty": "easy",
+      "source": "CompTIA CySA+ CS0-004 Objective 3.2: Summarize the incident response process"
+    },
+    {
+      "stem": "A security analyst is preparing a quarterly vulnerability management briefing for the Board of Directors and senior executives. Which of the following presentation formats is most appropriate for this audience?",
+      "options": [
+        "High-level trend charts illustrating organizational risk reduction and SLA compliance rates",
+        "A comprehensive spreadsheet of open port numbers, service banners, and CVSS vector strings",
+        "A raw export of Common Vulnerabilities and Exposures identifiers with remediation scripts",
+        "Detailed terminal output traces showing proof-of-concept exploits against internal hosts"
+      ],
+      "answer": "A",
+      "explanation": "Executive leadership and board members require high-level strategic metrics that communicate organizational risk posture, compliance with vulnerability remediation Service Level Agreements (SLAs), and overall trend direction. Low-level technical data, such as port banners, raw CVE dumps, and terminal exploitation traces, are appropriate for systems administrators and engineering teams, but they obscure strategic decision-making for executive audiences.",
+      "topic": "Reporting and Communication",
+      "subtopic": "Explain the importance of vulnerability management reporting and communication",
+      "difficulty": "easy",
+      "source": "CompTIA CySA+ CS0-004 Objective 4.1: Explain the importance of vulnerability management reporting and communication"
+    },
+    {
+      "stem": "A hospital security team confirms that an external attacker breached an internal file share containing unencrypted protected health information (PHI). In accordance with mandatory regulatory compliance frameworks, which of the following actions must the incident response team prioritize?",
+      "options": [
+        "Publish technical vulnerability write-ups on the corporate public website within 24 hours",
+        "Request source code modifications from third-party software vendors within 48 hours",
+        "Coordinate with legal counsel to notify regulatory authorities and affected patients within statutory deadlines",
+        "Issue an all-hands internal email explaining the root cause of the incident to all hospital employees"
+      ],
+      "answer": "C",
+      "explanation": "Data protection and healthcare regulations (such as HIPAA and state breach notification statutes) mandate formal notification to government regulators and impacted individuals within strict legal timeframes when protected health information is compromised. Engaging corporate legal counsel ensures that forensic findings are appropriately synthesized into legally compliant notifications. Public blogging or internal company-wide emails do not satisfy regulatory notification mandates.",
+      "topic": "Reporting and Communication",
+      "subtopic": "Explain the importance of security operations and incident response reporting and communication",
+      "difficulty": "medium",
+      "source": "CompTIA CySA+ CS0-004 Objective 4.2: Explain the importance of security operations and incident response reporting and communication"
+    },
+    {
+      "stem": "Following the containment and eradication of a widespread malware infection, the incident response coordinator facilitates a structured retrospective meeting with technical stakeholders and management to review response timelines and revise playbooks. Which of the following deliverables is the primary output of this meeting?",
+      "options": [
+        "Service level agreement",
+        "Lessons learned report",
+        "Non-disclosure agreement",
+        "Business impact analysis"
+      ],
+      "answer": "B",
+      "explanation": "A lessons learned report (or post-incident review report) is the central deliverable produced during the post-incident phase of the incident response lifecycle. It documents what transpired, evaluates how effectively teams responded, identifies procedural bottlenecks, and records actionable recommendations to update response playbooks and defense postures. SLAs define performance baselines, NDAs protect confidential data, and BIAs evaluate critical business processes prior to disasters.",
+      "topic": "Reporting and Communication",
+      "subtopic": "Explain the importance of security operations and incident response reporting and communication",
+      "difficulty": "medium",
+      "source": "CompTIA CySA+ CS0-004 Objective 4.2: Explain the importance of security operations and incident response reporting and communication"
+    }
+  ]
+}

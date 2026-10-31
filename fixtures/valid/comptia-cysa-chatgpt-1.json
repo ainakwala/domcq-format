@@ -1,0 +1,311 @@
+{
+  "format": "domcq/1",
+  "exam": "comptia-cysa",
+  "set": "CompTIA CySA+ (CS0-004) practice – Security Analyst Scenarios 01",
+  "questions": [
+    {
+      "stem": "A security analyst is investigating a suspected lateral movement incident. The SIEM shows authentication events from three servers, but their timestamps differ by several minutes despite the events occurring within seconds of one another. Which of the following should the analyst recommend to improve the accuracy of future investigations?",
+      "options": [
+        "Increase the retention period for authentication logs on all servers.",
+        "Configure all servers to forward authentication logs directly to the SIEM.",
+        "Synchronize the system clocks using a common trusted NTP source.",
+        "Enable additional authentication auditing on the affected servers."
+      ],
+      "answer": "C",
+      "explanation": "Consistent time synchronization allows analysts to correlate events across systems and reconstruct an accurate incident timeline. A common trusted Network Time Protocol source reduces timestamp discrepancies that could otherwise distort the sequence of attacker activity. Additional logging and retention improve visibility but do not correct inconsistent system clocks.",
+      "topic": "Security Operations",
+      "subtopic": "Explain concepts related to system and network architecture in security operations",
+      "difficulty": "medium",
+      "source": "CompTIA CySA+ CS0-004 objectives 1.1 — Logging concepts: time synchronization"
+    },
+    {
+      "stem": "A security analyst reviews DNS traffic from an internal workstation and observes thousands of queries containing long, apparently encoded strings as unique subdomains of the same external domain. The queries occur at regular intervals, frequently request TXT records, and produce unusually large DNS responses. No other workstation exhibits similar behavior. Which of the following attacks has most likely occurred?",
+      "options": [
+        "A fast-flux operation that rotates the IP addresses associated with a malicious domain.",
+        "A DNS tunneling operation that transfers data through encoded DNS queries and responses.",
+        "A domain generation algorithm that produces candidate domains for command-and-control access.",
+        "A domain-fronting operation that conceals the destination of encrypted HTTPS connections."
+      ],
+      "answer": "B",
+      "explanation": "DNS tunneling can encode data within query names and DNS responses to establish a covert communication or exfiltration channel. Large volumes of unique encoded subdomains and unusual TXT record activity are strong indicators. Fast flux typically involves rapidly changing IP mappings, while domain generation algorithms produce candidate domain names for locating attacker infrastructure.",
+      "topic": "Security Operations",
+      "subtopic": "Given a scenario, analyze indicators of potential malicious activity",
+      "difficulty": "hard",
+      "source": "CompTIA CySA+ CS0-004 objectives 1.2 — Network-related indicators and data exfiltration"
+    },
+    {
+      "stem": "An endpoint detection and response tool reports that rundll32.exe executed on a Windows workstation. The analyst needs to determine whether the legitimate Windows utility was misused to execute malicious code. Which TWO additional observations provide the strongest evidence of suspicious activity? Choose TWO.",
+      "options": [
+        "The rundll32.exe process was launched by WINWORD.EXE immediately after a document was opened.",
+        "The rundll32.exe executable was loaded from the Windows System32 directory.",
+        "The rundll32.exe executable has a valid Microsoft digital signature.",
+        "The rundll32.exe process loaded an unsigned DLL from a user-writable temporary directory.",
+        "The rundll32.exe process executed using the interactive user's security token."
+      ],
+      "answer": "AD",
+      "explanation": "An Office application launching rundll32.exe can indicate that a malicious document initiated execution of a Windows utility. Loading an unsigned DLL from a user-writable temporary directory provides additional evidence of possible living-off-the-land binary abuse. A legitimate file location, valid Microsoft signature, or ordinary user token does not independently establish malicious activity.",
+      "topic": "Security Operations",
+      "subtopic": "Given a scenario, use tools to determine malicious activity",
+      "difficulty": "medium",
+      "source": "CompTIA CySA+ CS0-004 objectives 1.2–1.3 — LOLBins, suspicious processes, and EDR"
+    },
+    {
+      "stem": "A threat-hunting team wants to develop detections that remain effective even when attackers change malware hashes, command-and-control IP addresses, and domain names. According to the Pyramid of Pain, which of the following detection approaches would be MOST difficult for an attacker to evade?",
+      "options": [
+        "Alerting when traffic connects to a previously identified malicious IP address.",
+        "Blocking files whose SHA-256 hashes appear in a malware intelligence feed.",
+        "Detecting sequences of credential dumping and unauthorized remote execution behavior.",
+        "Filtering requests to domains appearing on a recently updated threat-intelligence list."
+      ],
+      "answer": "C",
+      "explanation": "Behavior-based detections targeting attacker tactics, techniques, and procedures are generally more difficult to evade because adversaries must change how they conduct operations. File hashes, IP addresses, and domains can often be replaced with relatively little effort. The Pyramid of Pain illustrates why detecting higher-level attacker behaviors can impose greater costs on adversaries.",
+      "topic": "Security Operations",
+      "subtopic": "Explain threat intelligence and threat-hunting concepts",
+      "difficulty": "easy",
+      "source": "CompTIA CySA+ CS0-004 objectives 1.4 — TTPs and Pyramid of Pain"
+    },
+    {
+      "stem": "A security operations center receives hundreds of repetitive phishing alerts each day. Analysts currently collect URL reputation information, enrich alerts with threat intelligence, create investigation tickets, and request approval before removing suspicious messages. Management wants these activities coordinated automatically while preserving human approval for disruptive actions. Which of the following technologies BEST meets this requirement?",
+      "options": [
+        "A SOAR platform executing an automated response playbook with approval gates.",
+        "A vulnerability scanner performing scheduled credentialed endpoint assessments.",
+        "A network intrusion detection sensor generating additional signature-based alerts.",
+        "A forensic imaging utility collecting endpoint evidence for later examination."
+      ],
+      "answer": "A",
+      "explanation": "Security orchestration, automation, and response platforms coordinate workflows across security tools and can automate repetitive enrichment, ticketing, and response tasks. Playbooks can include human approval steps before potentially disruptive actions occur. This reduces analyst workload while maintaining oversight of sensitive decisions.",
+      "topic": "Security Operations",
+      "subtopic": "Explain the importance of efficiency and process improvement in security operations",
+      "difficulty": "easy",
+      "source": "CompTIA CySA+ CS0-004 objectives 1.5 — SOAR, automation, and playbooks"
+    },
+    {
+      "stem": "A security operations team uses an AI assistant to summarize external threat-intelligence reports. One report contains embedded instructions telling the assistant to ignore its normal task and include confidential SOC configuration details in its response. The instructions originate from the untrusted report rather than an authorized user. Which of the following AI security threats does this scenario BEST illustrate?",
+      "options": [
+        "Model poisoning through unauthorized modification of the training dataset.",
+        "Model hallucination through generation of unsupported security findings.",
+        "Model drift through changes in classification accuracy over time.",
+        "Prompt injection through malicious instructions embedded in retrieved content."
+      ],
+      "answer": "D",
+      "explanation": "Prompt injection occurs when attacker-controlled content attempts to redirect an AI system away from its authorized instructions. In this scenario, an untrusted document tries to make the assistant disclose confidential information. Controls include treating retrieved content as untrusted, restricting access to sensitive data, and validating outputs before sensitive actions.",
+      "topic": "Security Operations",
+      "subtopic": "Summarize concepts related to the use of AI in security operations",
+      "difficulty": "medium",
+      "source": "CompTIA CySA+ CS0-004 objectives 1.6 — AI risks: malicious prompts and data exposure"
+    },
+    {
+      "stem": "An organization allows external contractors to access a sensitive internal web application. Security requirements specify that users must authenticate, their device security posture must be evaluated, and access must be granted only to the authorized application rather than the entire internal network. Which of the following approaches BEST satisfies these requirements?",
+      "options": [
+        "Deploy a conventional VPN that provides network-level connectivity after authentication.",
+        "Implement Zero Trust Network Access with identity-based and device-aware application policies.",
+        "Place the application in a screened subnet and allow access from contractor IP ranges.",
+        "Create a site-to-site VPN between each contractor's network and the internal application subnet."
+      ],
+      "answer": "B",
+      "explanation": "Zero Trust Network Access applies granular access policies using identity, device posture, and other contextual attributes. It can grant access to specific applications without exposing broader network connectivity. Traditional VPN connections and IP-based network restrictions generally provide less application-specific control.",
+      "topic": "Security Operations",
+      "subtopic": "Explain concepts related to system and network architecture in security operations",
+      "difficulty": "medium",
+      "source": "CompTIA CySA+ CS0-004 objectives 1.1 — Zero Trust Network Architecture and IAM"
+    },
+    {
+      "stem": "A vulnerability analyst must assess 120 organization-managed Windows servers for missing security patches, insecure registry settings, and vulnerable installed software. The analyst has approved administrative credentials for the servers. Which of the following scanning approaches will provide the MOST comprehensive assessment of these conditions?",
+      "options": [
+        "Perform an external unauthenticated network scan of the servers.",
+        "Conduct a passive network traffic assessment of the servers.",
+        "Perform an internal credentialed vulnerability scan of the servers.",
+        "Run an unauthenticated TCP port discovery scan of the servers."
+      ],
+      "answer": "C",
+      "explanation": "Credentialed vulnerability scans authenticate to target systems and can inspect installed patches, software inventories, configurations, and registry settings. Unauthenticated scanning generally relies on externally observable services and may miss host-level vulnerabilities. Using approved credentials improves assessment coverage when access is properly configured.",
+      "topic": "Vulnerability Management",
+      "subtopic": "Given a scenario, implement the appropriate vulnerability scanning method",
+      "difficulty": "easy",
+      "source": "CompTIA CySA+ CS0-004 objectives 2.1 — Credentialed vs. non-credentialed scanning"
+    },
+    {
+      "stem": "A vulnerability scanner reports that a Linux server is affected by a known OpenSSH vulnerability based on the version string exposed by its SSH service. The server uses a vendor-maintained package that may contain security fixes backported without changing the upstream version number. Which of the following should the analyst do NEXT?",
+      "options": [
+        "Compare the installed package revision with the vendor's security advisory and fixed-build information.",
+        "Classify the finding as a confirmed vulnerability because the detected version matches the advisory.",
+        "Disable the SSH service permanently before checking whether the vulnerable code remains present.",
+        "Exclude the server from subsequent scans because vendor-maintained packages are generally secure."
+      ],
+      "answer": "A",
+      "explanation": "Vendor backporting can apply security fixes while retaining an older upstream software version string. The analyst should verify the installed package revision against the vendor's advisory to determine whether the vulnerability is actually present. This helps distinguish a genuine vulnerability from a scanner false positive caused by version-based detection.",
+      "topic": "Vulnerability Management",
+      "subtopic": "Given a scenario, analyze output from vulnerability assessment tools",
+      "difficulty": "medium",
+      "source": "CompTIA CySA+ CS0-004 objectives 2.2–2.3 — Scanner output and false positives"
+    },
+    {
+      "stem": "A vulnerability management team has one emergency maintenance window and must prioritize two findings. Server A is isolated on a restricted internal network and has a vulnerability with CVSS 9.8 and EPSS 0.01. Server B hosts a critical internet-facing business application and has a vulnerability with CVSS 8.1 and EPSS 0.94. Threat intelligence confirms active exploitation of Server B's vulnerability, and the organization has observed matching exploit attempts against its own application. Both findings are confirmed, and patches are available. Which of the following is the BEST remediation decision?",
+      "options": [
+        "Patch Server A first because its CVSS base score indicates the highest technical severity.",
+        "Delay both patches until the next routine maintenance cycle to avoid disrupting operations.",
+        "Patch Server A first because internally isolated servers can be exploited without public exposure.",
+        "Patch Server B first because active exploitation, exposure, and business impact indicate greater immediate risk."
+      ],
+      "answer": "D",
+      "explanation": "Risk-based prioritization considers active exploitation, exposure, asset criticality, and business impact rather than CVSS alone. Server B faces observed exploitation attempts, has a high predicted exploitation likelihood, and supports a critical internet-facing service. EPSS estimates exploitation likelihood, while CVSS measures vulnerability severity; both should be interpreted within the organization's risk context.",
+      "topic": "Vulnerability Management",
+      "subtopic": "Given a scenario, analyze data to prioritize and mitigate vulnerabilities",
+      "difficulty": "hard",
+      "source": "CompTIA CySA+ CS0-004 objectives 2.3 — CVSS, EPSS, active exploitation, and asset value"
+    },
+    {
+      "stem": "A security analyst must test a running web application for SQL injection vulnerabilities. The analyst does not have access to the application's source code but can submit requests to an authorized preproduction instance and examine its responses. Which of the following testing methods is MOST appropriate?",
+      "options": [
+        "Static application security testing against the application's source files.",
+        "Dynamic application security testing against the running application.",
+        "Software composition analysis against the application's dependency manifest.",
+        "Security baseline scanning against the application's operating system."
+      ],
+      "answer": "B",
+      "explanation": "Dynamic application security testing examines a running application by interacting with its exposed functionality and evaluating responses. It can identify vulnerabilities such as SQL injection without requiring source code access. Static analysis examines code, while software composition analysis focuses on dependencies and their associated risks.",
+      "topic": "Vulnerability Management",
+      "subtopic": "Explain concepts related to control types, risks, and vulnerability management",
+      "difficulty": "easy",
+      "source": "CompTIA CySA+ CS0-004 objectives 2.4 — SAST, DAST, and application security"
+    },
+    {
+      "stem": "A legacy industrial control system uses an outdated SMB implementation with a known remotely exploitable vulnerability. The vendor has no available patch, and replacing the system will take six months. The SMB service must remain available to a small set of approved management hosts. Which TWO compensating controls would MOST directly reduce the likelihood of successful exploitation during this period? Choose TWO.",
+      "options": [
+        "Configure encrypted nightly backups of the system's operational data.",
+        "Extend security event log retention from 90 days to two years.",
+        "Restrict inbound SMB traffic to approved management hosts using firewall rules.",
+        "Configure a redundant server to improve the system's service availability.",
+        "Deploy a network intrusion prevention rule to block known SMB exploit patterns."
+      ],
+      "answer": "CE",
+      "explanation": "Restricting SMB access reduces the number of systems capable of reaching the vulnerable service, while an intrusion prevention rule can block traffic matching known exploit patterns. These controls reduce exposure and exploitability while the underlying vulnerability remains unpatched. Backups and redundancy support resilience, while log retention supports investigations, but they do not directly prevent exploitation.",
+      "topic": "Vulnerability Management",
+      "subtopic": "Given a scenario, analyze data to prioritize and mitigate vulnerabilities",
+      "difficulty": "medium",
+      "source": "CompTIA CySA+ CS0-004 objectives 2.3 — Compensating controls and mitigation strategies"
+    },
+    {
+      "stem": "During an investigation, a security analyst discovers that an attacker created a scheduled task on a compromised workstation. The task launches an unauthorized executable every time a user signs in, allowing the attacker to regain execution after the workstation restarts. According to the MITRE ATT&CK framework, which of the following tactics BEST describes the attacker's primary objective?",
+      "options": [
+        "Persistence",
+        "Reconnaissance",
+        "Collection",
+        "Lateral Movement"
+      ],
+      "answer": "A",
+      "explanation": "Persistence involves maintaining access or execution capabilities across interruptions such as restarts, logouts, or credential changes. A scheduled task that automatically relaunches attacker-controlled code is a common persistence technique. MITRE ATT&CK distinguishes the attacker's objective, or tactic, from the specific technique used to achieve it.",
+      "topic": "Incident Response and Management",
+      "subtopic": "Summarize concepts related to attack methodology frameworks",
+      "difficulty": "medium",
+      "source": "CompTIA CySA+ CS0-004 objectives 3.1 — MITRE ATT&CK tactics and techniques"
+    },
+    {
+      "stem": "An incident responder is examining a powered-on Windows workstation suspected of running fileless malware. The analyst needs to preserve evidence of injected code and active malicious processes before the workstation is restarted. Which of the following evidence sources should the analyst collect FIRST?",
+      "options": [
+        "A copy of the workstation's installed application inventory.",
+        "A backup of the workstation's persistent user profile files.",
+        "A copy of the workstation's saved browser bookmarks.",
+        "A forensic acquisition of the workstation's volatile system memory."
+      ],
+      "answer": "D",
+      "explanation": "Volatile memory can contain running processes, injected code, decrypted content, and other artifacts that disappear when a system is restarted or powered off. Acquiring RAM before shutdown preserves evidence that may not exist on persistent storage. Collection should follow approved incident-response procedures and include documentation of evidence handling.",
+      "topic": "Incident Response and Management",
+      "subtopic": "Given a scenario, implement incident response techniques",
+      "difficulty": "medium",
+      "source": "CompTIA CySA+ CS0-004 objectives 3.3 — Evidence gathering and preservation"
+    },
+    {
+      "stem": "A cloud security analyst confirms that an API access key belonging to an application service account has been exposed in a public code repository. Cloud audit logs show that an unauthorized IP address is actively using the key to enumerate storage resources. Which of the following containment actions should the analyst take FIRST?",
+      "options": [
+        "Increase storage audit logging and observe the service account for additional suspicious requests.",
+        "Revoke the exposed API key and provision a replacement through an approved secure process.",
+        "Delete all cloud audit logs associated with the service account to prevent additional exposure.",
+        "Wait until the next application deployment to rotate the API key and update its permissions."
+      ],
+      "answer": "B",
+      "explanation": "An exposed credential that is actively being misused should be revoked promptly to stop further unauthorized access. A replacement credential can then be issued securely, with the application updated and access permissions reviewed. Additional investigation and evidence preservation remain important, but monitoring alone does not contain ongoing credential abuse.",
+      "topic": "Incident Response and Management",
+      "subtopic": "Given a scenario, implement incident response techniques",
+      "difficulty": "medium",
+      "source": "CompTIA CySA+ CS0-004 objectives 3.2–3.3 — Containment, isolation, and remediation"
+    },
+    {
+      "stem": "An organization has isolated several compromised servers following a ransomware intrusion. Investigators removed the identified malware and confirmed that the attackers initially entered through an unpatched internet-facing gateway. The investigation also revealed a compromised administrative credential that was used to move between servers. Clean backups are available, but the gateway vulnerability and compromised credential have not yet been remediated. Which of the following is the BEST next step before reconnecting restored servers to production?",
+      "options": [
+        "Restore the servers from clean backups and reconnect them immediately to minimize business downtime.",
+        "Reconnect the servers under enhanced monitoring and defer gateway patching until the next maintenance window.",
+        "Remediate the gateway vulnerability, invalidate the compromised credential, and verify security controls before reconnection.",
+        "Restore the servers with their existing credentials and schedule an additional vulnerability scan after normal operations resume."
+      ],
+      "answer": "C",
+      "explanation": "Recovery should not reintroduce systems into an environment where the original entry point and compromised credentials remain usable. The team must address the exploited gateway vulnerability and invalidate the abused credentials before safely restoring normal connectivity. Verification of remediation and monitoring controls helps reduce the likelihood of immediate reinfection.",
+      "topic": "Incident Response and Management",
+      "subtopic": "Summarize the incident response process",
+      "difficulty": "hard",
+      "source": "CompTIA CySA+ CS0-004 objectives 3.2–3.3 — Eradication, recovery, and verification"
+    },
+    {
+      "stem": "A security incident involving a potentially compromised financial server is expected to result in legal proceedings. Investigators must acquire and preserve the server's persistent storage as digital evidence. Which THREE actions are MOST appropriate to maintain forensic integrity and a defensible chain of custody? Choose THREE.",
+      "options": [
+        "Document each evidence transfer, including the individuals involved and the date and time.",
+        "Conduct the primary forensic examination directly on the original drive with write access enabled.",
+        "Remove suspicious executables from the original drive before creating a forensic image.",
+        "Create a bit-for-bit forensic image using validated acquisition methods and write protection where applicable.",
+        "Allow system administrators to access the original evidence without recording individual access.",
+        "Calculate and record cryptographic hashes to verify the integrity of the acquired forensic image."
+      ],
+      "answer": "ADF",
+      "explanation": "A defensible forensic process documents evidence custody, uses acquisition methods designed to preserve the original evidence, and verifies integrity with cryptographic hashes. A bit-for-bit image allows investigators to examine a copy without modifying the original storage. Uncontrolled access, deletion of suspicious files, or direct modification of original evidence can compromise evidentiary integrity.",
+      "topic": "Incident Response and Management",
+      "subtopic": "Given a scenario, implement incident response techniques",
+      "difficulty": "hard",
+      "source": "CompTIA CySA+ CS0-004 objectives 3.3 — Chain of custody, data integrity validation, and preservation"
+    },
+    {
+      "stem": "A vulnerability management director wants a monthly dashboard showing how consistently the security team meets its contractual requirement to remediate critical vulnerabilities within 15 calendar days of confirmed detection. Which of the following metrics BEST measures compliance with this requirement?",
+      "options": [
+        "The total number of hosts included in the monthly vulnerability scanning schedule.",
+        "The percentage of critical vulnerabilities remediated within the required 15-day SLA.",
+        "The average number of vulnerability scanner plugins updated during the month.",
+        "The total number of informational vulnerabilities identified across managed assets."
+      ],
+      "answer": "B",
+      "explanation": "The percentage of critical vulnerabilities resolved within the agreed remediation period directly measures compliance with the service-level agreement. Tracking this metric over time reveals whether remediation performance is improving or deteriorating. Scan coverage and total vulnerability counts provide useful context but do not directly establish SLA compliance.",
+      "topic": "Reporting and Communication",
+      "subtopic": "Explain the importance of vulnerability management reporting and communication",
+      "difficulty": "easy",
+      "source": "CompTIA CySA+ CS0-004 objectives 4.1 — SLAs, remediation metrics, and risk reporting"
+    },
+    {
+      "stem": "An incident response team confirms unauthorized access to a customer database and suspects that personally identifiable information may have been exposed. The investigation is ongoing, and the precise scope of disclosure has not yet been established. The public relations department requests an immediate public statement, while the legal team has not determined applicable notification requirements. Which of the following communication approaches is MOST appropriate?",
+      "options": [
+        "Release a public statement confirming that all customer records were exposed to ensure transparency.",
+        "Allow each department to communicate its preliminary findings independently to interested stakeholders.",
+        "Delay all internal and external communications until the forensic investigation has completely finished.",
+        "Coordinate with legal and public relations through the incident communication plan and disclose verified information as required."
+      ],
+      "answer": "D",
+      "explanation": "Incident communications should follow an established plan that identifies authorized spokespersons, stakeholders, and legal or regulatory obligations. Coordinating with legal and public relations helps ensure that notifications are timely, accurate, and based on confirmed facts. Uncoordinated or speculative disclosures can cause confusion, while delaying every communication may violate required notification deadlines.",
+      "topic": "Reporting and Communication",
+      "subtopic": "Explain the importance of security operations and incident response reporting and communication",
+      "difficulty": "medium",
+      "source": "CompTIA CySA+ CS0-004 objectives 4.2 — Communication plans and stakeholder coordination"
+    },
+    {
+      "stem": "A security operations center is investigating a confirmed intrusion when the current analyst's shift ends. Several endpoints remain isolated, forensic collection is incomplete, and the incident severity has been escalated. Which of the following information should be prioritized during the shift handover?",
+      "options": [
+        "The current incident scope, containment status, outstanding actions, evidence locations, and assigned responsibilities.",
+        "The analyst's general observations about recent attack trends and the team's routine operational workload.",
+        "The full historical inventory of security tools and previously completed vulnerability management projects.",
+        "The previous shift's total alert count and a summary of all routine authentication events."
+      ],
+      "answer": "A",
+      "explanation": "An effective incident handover provides the incoming analyst with actionable information needed to continue response activities without losing context. Current scope, completed containment actions, pending tasks, evidence references, and ownership are particularly important. Accurate handovers reduce delays, prevent duplicated work, and support continuity during active investigations.",
+      "topic": "Reporting and Communication",
+      "subtopic": "Explain the importance of security operations and incident response reporting and communication",
+      "difficulty": "easy",
+      "source": "CompTIA CySA+ CS0-004 objectives 4.2 — Shift and incident handover"
+    }
+  ]
+}
