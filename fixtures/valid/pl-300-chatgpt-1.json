@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "pl-300",
+  "set": "PL-300: Microsoft Power BI Data Analyst practice – Applied Skills Set 1",
+  "questions": [
+    {
+      "stem": "A company stores monthly sales data in 24 CSV files in a single network folder. All files have the same column structure. You need to combine the files into one table in Power BI Desktop and include new monthly files during subsequent refreshes. Which connector should you use?",
+      "options": [
+        "SQL Server connector",
+        "Folder connector",
+        "OData Feed connector",
+        "Excel Workbook connector"
+      ],
+      "answer": "B",
+      "explanation": "The Folder connector can access multiple files in a directory and combine files that have a consistent structure. When new compatible CSV files are added to the folder, they can be included during refresh without manually importing each file.",
+      "topic": "Prepare the data",
+      "subtopic": "Get or connect to data",
+      "difficulty": "easy",
+      "source": "PL-300 study guide, Prepare the data: Get or connect to data"
+    },
+    {
+      "stem": "A retailer maintains transaction data in an on-premises SQL Server database. A Power BI report must query the database when users interact with visuals, and transaction rows must not be imported into the Power BI semantic model. The SQL Server source is accessible through a configured gateway. Which storage mode should you select?",
+      "options": [
+        "Import",
+        "DirectLake",
+        "DirectQuery",
+        "Live connection to a Power BI semantic model"
+      ],
+      "answer": "C",
+      "explanation": "DirectQuery keeps the transaction data in the source database and sends queries to that source when report visuals require data. Import mode stores a copy in the semantic model, while DirectLake is designed for supported data in OneLake rather than direct querying of an on-premises SQL Server database.",
+      "topic": "Prepare the data",
+      "subtopic": "Get or connect to data",
+      "difficulty": "medium",
+      "source": "PL-300 study guide, Prepare the data: Get or connect to data"
+    },
+    {
+      "stem": "You are examining an imported customer table in Power Query Editor. Before cleaning the table, you want to see the percentages of valid, error, and empty values displayed for each column. Which data profiling feature should you enable?",
+      "options": [
+        "Column quality",
+        "Column distribution",
+        "Column profile",
+        "Query dependencies"
+      ],
+      "answer": "A",
+      "explanation": "Column quality displays indicators and percentages for valid, error, and empty values in columns. Column distribution focuses on value frequencies and distinct or unique values, while Column profile provides more detailed statistics for a selected column.",
+      "topic": "Prepare the data",
+      "subtopic": "Profile and clean the data",
+      "difficulty": "easy",
+      "source": "PL-300 study guide, Prepare the data: Profile and clean the data"
+    },
+    {
+      "stem": "A sales table contains the columns ProductID, January, February, and March. Each month column contains a sales amount. You need to transform the table so that it contains ProductID, Month, and SalesAmount, with a separate row for each product and month. Which Power Query transformation should you use?",
+      "options": [
+        "Pivot the January, February, and March columns",
+        "Transpose the entire sales table",
+        "Group the rows by ProductID and month",
+        "Unpivot the January, February, and March columns"
+      ],
+      "answer": "D",
+      "explanation": "Unpivot converts multiple columns into attribute-value rows. The month names become values in a Month column, and their corresponding sales figures become values in a SalesAmount column, making the data suitable for filtering and aggregation.",
+      "topic": "Prepare the data",
+      "subtopic": "Transform and load the data",
+      "difficulty": "medium",
+      "source": "PL-300 study guide, Prepare the data: Transform and load the data"
+    },
+    {
+      "stem": "You have two Power Query tables named Sales2025 and Sales2026. Both contain the same columns: OrderID, OrderDate, ProductID, and Amount. You need to create one table containing all rows from both years, preserving the existing columns. Which operation should you use?",
+      "options": [
+        "Merge the two queries using OrderID",
+        "Append the two queries into one table",
+        "Group the two queries by OrderDate",
+        "Transpose the two queries into columns"
+      ],
+      "answer": "B",
+      "explanation": "Append combines tables vertically by adding rows from one query to another and aligning columns by name. Merge combines tables horizontally through matching keys, which is not appropriate when the requirement is to stack records from identically structured tables.",
+      "topic": "Prepare the data",
+      "subtopic": "Transform and load the data",
+      "difficulty": "medium",
+      "source": "PL-300 study guide, Prepare the data: Transform and load the data"
+    },
+    {
+      "stem": "You have a Power Query query named StagingSales that connects to a database and performs common cleaning transformations. You need to create two loaded tables, DomesticSales and InternationalSales, using different filters applied after those common transformations. Future changes to StagingSales must flow into both tables, and StagingSales must not appear as a separate table in the semantic model. Which TWO actions should you perform? Choose TWO.",
+      "options": [
+        "Create DomesticSales and InternationalSales as reference queries of StagingSales",
+        "Create DomesticSales and InternationalSales as independent duplicates of StagingSales",
+        "Disable Enable load for the StagingSales query",
+        "Disable Enable load for both final sales queries"
+      ],
+      "answer": "AC",
+      "explanation": "Reference queries depend on the original query, so changes to the common transformations in StagingSales flow into both downstream queries. Disabling load for StagingSales prevents its result from becoming a separate model table while allowing the referenced queries to load. Duplicating the query creates independent transformation logic instead.",
+      "topic": "Prepare the data",
+      "subtopic": "Transform and load the data",
+      "difficulty": "hard",
+      "source": "PL-300 study guide, Prepare the data: Transform and load the data"
+    },
+    {
+      "stem": "A Power BI semantic model contains a Products table with exactly one row per ProductID and a Sales table with multiple transactions for each ProductID. You want users to filter sales by product attributes using a standard star schema. Which relationship configuration should you use?",
+      "options": [
+        "Many-to-many cardinality with Both cross-filter direction",
+        "One-to-one cardinality with Single cross-filter direction",
+        "One-to-many cardinality with Both cross-filter direction",
+        "One-to-many cardinality with Single cross-filter direction from Products to Sales"
+      ],
+      "answer": "D",
+      "explanation": "Products is a dimension table with unique product keys, while Sales is a fact table containing repeated product keys. A one-to-many relationship with single-direction filtering from Products to Sales supports the star schema and avoids unnecessary bidirectional filter propagation.",
+      "topic": "Model the data",
+      "subtopic": "Design and implement a data model",
+      "difficulty": "easy",
+      "source": "PL-300 study guide, Model the data: Design and implement a data model"
+    },
+    {
+      "stem": "A Power BI model contains related Product, Region, Date, and Sales tables. The measure [Total Sales] is defined as SUM(Sales[Amount]). A report uses slicers from all three dimension tables. You need a measure that ignores every filter coming from the Product table but continues to respect Region and Date filters. Which DAX expression should you use?",
+      "options": [
+        "CALCULATE([Total Sales], REMOVEFILTERS(Product))",
+        "CALCULATE([Total Sales], REMOVEFILTERS('Date'))",
+        "CALCULATE([Total Sales], REMOVEFILTERS(Region))",
+        "CALCULATE([Total Sales], ALLSELECTED(Product))"
+      ],
+      "answer": "A",
+      "explanation": "CALCULATE modifies the filter context used to evaluate a measure. REMOVEFILTERS(Product) removes filters originating from the entire Product table while preserving the existing Region and Date filters. ALLSELECTED does not simply remove every product filter because it can retain externally applied selections.",
+      "topic": "Model the data",
+      "subtopic": "Create model calculations by using DAX",
+      "difficulty": "medium",
+      "source": "PL-300 study guide, Model the data: Create model calculations by using DAX"
+    },
+    {
+      "stem": "A Sales table contains OrderDate and ShipDate columns. A Date table has an active relationship to Sales[OrderDate] and an inactive relationship to Sales[ShipDate]. You need to create a measure that calculates shipped sales using the inactive ShipDate relationship without changing the model's active relationship. Which DAX function should you use within CALCULATE?",
+      "options": [
+        "CROSSFILTER",
+        "RELATED",
+        "USERELATIONSHIP",
+        "RELATEDTABLE"
+      ],
+      "answer": "C",
+      "explanation": "USERELATIONSHIP instructs CALCULATE to use an existing relationship for a particular calculation, including a relationship that is inactive by default. This allows shipped sales to be evaluated by ShipDate while ordinary sales measures continue to use the active OrderDate relationship.",
+      "topic": "Model the data",
+      "subtopic": "Create model calculations by using DAX",
+      "difficulty": "medium",
+      "source": "PL-300 study guide, Model the data: Create model calculations by using DAX"
+    },
+    {
+      "stem": "A Sales table contains numeric Profit and Revenue columns, and Revenue is positive for every transaction. You need to display profit margin as total profit divided by total revenue, with the result recalculated correctly when users filter by product, region, or year. Which calculation should you create?",
+      "options": [
+        "A calculated column dividing Profit by Revenue and then averaging the ratios",
+        "A measure using DIVIDE(SUM(Sales[Profit]), SUM(Sales[Revenue]))",
+        "A calculated table containing one fixed profit margin per product",
+        "A Power Query column dividing Profit by Revenue before importing the table"
+      ],
+      "answer": "B",
+      "explanation": "A DAX measure evaluates within the current filter context, so the ratio of total profit to total revenue adjusts to report selections. Averaging transaction-level ratios can produce a different result because individual transactions may have different revenue amounts.",
+      "topic": "Model the data",
+      "subtopic": "Create model calculations by using DAX",
+      "difficulty": "easy",
+      "source": "PL-300 study guide, Model the data: Create model calculations by using DAX"
+    },
+    {
+      "stem": "A financial model contains an AccountBalances table with daily account balance snapshots. Some dates have no snapshot, and the latest available snapshot must be used to represent the closing balance for any selected month. A report must show monthly closing balances rather than totals or averages of daily balances. Which calculation approach is appropriate?",
+      "options": [
+        "Sum all daily account balances recorded within the selected month",
+        "Average all available daily balances within the selected month",
+        "Use the first recorded account balance within the selected month",
+        "Find the last date with a recorded balance in the selected month and evaluate the balance on that date"
+      ],
+      "answer": "D",
+      "explanation": "Account balances are semi-additive measures: they can be aggregated across accounts but should not be summed across dates to calculate a closing balance. Finding the last date with recorded data and evaluating the balance on that date also handles months where the final calendar day has no snapshot.",
+      "topic": "Model the data",
+      "subtopic": "Create model calculations by using DAX",
+      "difficulty": "hard",
+      "source": "PL-300 study guide, Model the data: Create model calculations by using DAX"
+    },
+    {
+      "stem": "An Import-mode Power BI semantic model contains 80 million sales transaction rows. Business users only analyze total sales by product and calendar month; transaction-level details, customer attributes, and individual transaction identifiers are not required. You need to reduce model size without losing any information needed for these reports. Which TWO changes should you make? Choose TWO.",
+      "options": [
+        "Aggregate sales amounts by product and month in Power Query before loading",
+        "Keep transaction identifiers as distinct text values in the loaded fact table",
+        "Remove unused customer attributes and transaction-level detail columns from the loaded model",
+        "Enable bidirectional filtering on every relationship in the model"
+      ],
+      "answer": "AC",
+      "explanation": "Aggregating transactions to the granularity required for analysis substantially reduces the number of fact rows. Removing unused columns also decreases memory consumption and improves model efficiency, especially when the columns contain many distinct values. Bidirectional filtering does not solve excessive model size.",
+      "topic": "Model the data",
+      "subtopic": "Optimize model performance",
+      "difficulty": "hard",
+      "source": "PL-300 study guide, Model the data: Optimize model performance"
+    },
+    {
+      "stem": "A sales manager wants to compare total revenue across 12 product categories in a Power BI report. Category names vary in length, and the main objective is to make differences in revenue easy to compare. Which visual should you use?",
+      "options": [
+        "Pie chart",
+        "Clustered bar chart",
+        "Gauge visual",
+        "Scatter chart"
+      ],
+      "answer": "B",
+      "explanation": "A clustered bar chart displays categories on a categorical axis and values as horizontal bars, making comparisons across numerous categories straightforward. Horizontal bars also provide space for longer category labels, while pie charts become harder to interpret when many categories are present.",
+      "topic": "Visualize and analyze the data",
+      "subtopic": "Create reports",
+      "difficulty": "easy",
+      "source": "PL-300 study guide, Visualize and analyze the data: Create reports"
+    },
+    {
+      "stem": "A Power BI report has three pages: Revenue, Expenses, and Profitability. Each page contains visuals that use the same Date table. You want a Year slicer selection made on one page to automatically apply to all three pages, while allowing the slicer to remain visible on each page. Which feature should you configure?",
+      "options": [
+        "Sync slicers",
+        "Edit interactions",
+        "Drillthrough filters",
+        "Visual-level filters"
+      ],
+      "answer": "A",
+      "explanation": "Sync slicers allows a slicer's selected values to remain synchronized across specified report pages. You can independently configure whether the slicer is visible on each page while keeping its filtering behavior synchronized.",
+      "topic": "Visualize and analyze the data",
+      "subtopic": "Enhance reports for usability and storytelling",
+      "difficulty": "medium",
+      "source": "PL-300 study guide, Visualize and analyze the data: Enhance reports for usability and storytelling"
+    },
+    {
+      "stem": "A Power BI report contains a summary page with sales by customer and a separate Customer Details page showing individual orders. Users must be able to right-click a customer in the summary visual, navigate to the details page, and see only orders for that selected customer. What should you configure on the Customer Details page?",
+      "options": [
+        "Apply a fixed page-level filter for one customer",
+        "Create a report page tooltip using CustomerID",
+        "Synchronize a customer slicer across both pages",
+        "Add CustomerID to the drillthrough filters"
+      ],
+      "answer": "D",
+      "explanation": "Adding CustomerID to the drillthrough filters of the destination page enables context-sensitive navigation from a source visual. The selected customer's value is passed to the destination page, filtering the order details to that customer.",
+      "topic": "Visualize and analyze the data",
+      "subtopic": "Enhance reports for usability and storytelling",
+      "difficulty": "medium",
+      "source": "PL-300 study guide, Visualize and analyze the data: Enhance reports for usability and storytelling"
+    },
+    {
+      "stem": "A logistics dashboard contains a column chart displaying total shipping cost by region. When users hover over a region's column, they should see a compact breakdown of shipping cost by carrier and delivery method without navigating away from the dashboard's report page. Which Power BI feature should you use?",
+      "options": [
+        "Create a drillthrough page containing carrier details",
+        "Create a report page tooltip with the required breakdown",
+        "Add a report bookmark that hides the main chart",
+        "Configure a page navigation button to show carrier details"
+      ],
+      "answer": "B",
+      "explanation": "Report page tooltips allow a specially designed report page to appear when a user hovers over a compatible visual data point. The tooltip can contain multiple visuals that show the relevant breakdown within the hovered data context without requiring page navigation.",
+      "topic": "Visualize and analyze the data",
+      "subtopic": "Enhance reports for usability and storytelling",
+      "difficulty": "medium",
+      "source": "PL-300 study guide, Visualize and analyze the data: Enhance reports for usability and storytelling"
+    },
+    {
+      "stem": "A Power BI report includes a line chart showing daily website visits for the previous 12 months. The horizontal axis uses a continuous Date field, and the vertical axis shows the daily visit count. The marketing team wants Power BI to automatically identify unusually high or low observations relative to the historical pattern. Which feature should you use?",
+      "options": [
+        "Add a constant reference line to the chart",
+        "Add a standard trend line to the chart",
+        "Enable anomaly detection on the line chart",
+        "Replace the line chart with a decomposition tree"
+      ],
+      "answer": "C",
+      "explanation": "Power BI's anomaly detection feature can identify unexpected observations in time-series line charts and highlight them for investigation. A trend line or constant reference line provides a visual benchmark but does not automatically identify statistically unusual points.",
+      "topic": "Visualize and analyze the data",
+      "subtopic": "Identify patterns and trends",
+      "difficulty": "medium",
+      "source": "PL-300 study guide, Visualize and analyze the data: Identify patterns and trends"
+    },
+    {
+      "stem": "You publish a Power BI Import-mode semantic model that retrieves data from a SQL Server database hosted on a company's internal network. The database is not publicly accessible. You need the Power BI service to refresh the model automatically every morning. What should you configure to provide connectivity to the database?",
+      "options": [
+        "An on-premises data gateway",
+        "A report page subscription",
+        "A Power BI deployment pipeline",
+        "A sensitivity label on the model"
+      ],
+      "answer": "A",
+      "explanation": "An on-premises data gateway provides the Power BI service with a secure connection to supported data sources inside a private network. After configuring the gateway connection and credentials, scheduled refresh can retrieve current data without exposing the SQL Server database publicly.",
+      "topic": "Manage and secure Power BI",
+      "subtopic": "Create and manage workspaces and assets",
+      "difficulty": "easy",
+      "source": "PL-300 study guide, Manage and secure Power BI: Create and manage workspaces and assets"
+    },
+    {
+      "stem": "An organization maintains several approved Power BI reports in a workspace. You need to distribute a curated collection to hundreds of employees, display different report collections to Finance and Operations users, and prevent those users from editing the workspace content. Which distribution approach is most appropriate?",
+      "options": [
+        "Assign all employees the Contributor role in the workspace",
+        "Export all reports as PBIX files and distribute them",
+        "Publish the reports individually to each employee's workspace",
+        "Publish a Power BI workspace app with separate audiences"
+      ],
+      "answer": "D",
+      "explanation": "A Power BI workspace app packages approved content for distribution to consumers without giving them workspace editing permissions. App audiences allow different groups to see curated collections of reports and dashboards while creators continue managing the underlying workspace content.",
+      "topic": "Manage and secure Power BI",
+      "subtopic": "Create and manage workspaces and assets",
+      "difficulty": "medium",
+      "source": "PL-300 study guide, Manage and secure Power BI: Create and manage workspaces and assets"
+    },
+    {
+      "stem": "A company publishes an Import-mode Power BI semantic model containing sales data for five regions. Row-level security roles have already been defined in the semantic model using DAX filters that restrict sales rows by region. Regional managers must open and browse reports directly in the workspace and see only their authorized region's data. They must not have permission to edit the semantic model. Which TWO actions are necessary to enforce the defined RLS restrictions for these managers? Choose TWO.",
+      "options": [
+        "Assign the managers the Member role in the workspace",
+        "Assign the managers the Viewer role in the workspace",
+        "Add the managers to their appropriate RLS roles in the Power BI service",
+        "Grant the managers Build permission on the semantic model"
+      ],
+      "answer": "BC",
+      "explanation": "RLS restrictions apply to users with the Viewer workspace role, but not to users with Admin, Member, or Contributor roles. After publishing the semantic model, authorized managers must also be assigned to the appropriate RLS roles in the Power BI service. Build permission is not required merely to view reports and does not replace RLS role membership.",
+      "topic": "Manage and secure Power BI",
+      "subtopic": "Secure and govern Power BI items",
+      "difficulty": "hard",
+      "source": "PL-300 study guide, Manage and secure Power BI: Secure and govern Power BI items"
+    }
+  ]
+}
