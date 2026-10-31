@@ -381,6 +381,10 @@
     { "file": "valid/pl-300-claude-5.md", "errors": [], "fenced": true },
     { "file": "valid/pl-300-claude-7.md", "errors": [], "fenced": true },
     { "file": "valid/pl-300-claude-8.md", "errors": [], "fenced": true },
+    { "file": "valid/pl-300-claude-9.md", "errors": [], "fenced": true },
+    { "file": "valid/pl-300-claude-10.md", "errors": [], "fenced": true },
+    { "file": "valid/pl-300-claude-11.md", "errors": [], "fenced": true },
+    { "file": "valid/pl-300-claude-12.md", "errors": [], "fenced": true },
 
     { "file": "invalid/empty.txt", "errors": ["E001"] },
     { "file": "invalid/not-json.txt", "errors": ["E002"] },
