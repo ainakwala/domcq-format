@@ -1,0 +1,104 @@
+{
+  "id": "caia-l1",
+  "display_name": "CAIA Level I Exam",
+  "body": "CAIA Association",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by the Chartered Alternative Investment Analyst Association® (CAIA Association®), and it is not a licensed CAIA prep provider; the names are used only to identify the exam. The CAIA Association® does not endorse, promote, review or warrant the accuracy of DoMcq or its services. CAIA® is a registered certification mark owned and administered by the Chartered Alternative Investment Analyst Association®.",
+  "taxonomy": {
+    "CAIA Ethical Principles": [
+      "Ethics, Professionalism and Fiduciary Responsibilities"
+    ],
+    "Introduction to Alternative Investments": [
+      "Derivatives and Risk-Neutral Valuation",
+      "Financial Economics Foundations",
+      "Measures of Risk and Performance",
+      "Quantitative Foundations",
+      "Statistical Foundations",
+      "The Environment of Alternative Investments",
+      "What is An Alternative Investment?"
+    ],
+    "Real Assets": [
+      "Commodities",
+      "Natural Resources and Land",
+      "Infrastructure",
+      "Overview of Real Estate",
+      "Real Estate Assets",
+      "Real Estate Methods"
+    ],
+    "Private Equity": [
+      "Buyout",
+      "Private Equity Investing",
+      "Venture Capital & Growth Equity"
+    ],
+    "Private Debt": [
+      "Credit Risk and Credit Derivatives",
+      "Insurance Linked Strategies",
+      "Introduction to Structuring",
+      "Private Credit and Asset Based Strategies",
+      "Private Credit and Cash Based Strategies"
+    ],
+    "Hedge Funds": [
+      "Equity Hedge Funds",
+      "Event-Driven Hedge Funds",
+      "Macro and Managed Futures Funds",
+      "Relative Value Hedge Funds",
+      "The Hedge Fund Industry"
+    ],
+    "Digital Assets": [
+      "Allocating to Cryptocurrencies",
+      "Distributed Ledger Technology"
+    ]
+  },
+  "weights": {
+    "CAIA Ethical Principles": {
+      "min": 7,
+      "max": 13
+    },
+    "Introduction to Alternative Investments": {
+      "min": 21,
+      "max": 27
+    },
+    "Real Assets": {
+      "min": 16,
+      "max": 22
+    },
+    "Private Equity": {
+      "min": 8,
+      "max": 14
+    },
+    "Private Debt": {
+      "min": 10,
+      "max": 16
+    },
+    "Hedge Funds": {
+      "min": 15,
+      "max": 21
+    },
+    "Digital Assets": {
+      "min": 3,
+      "max": 9
+    }
+  },
+  "options": {
+    "min": 3,
+    "max": 4
+  },
+  "multi_select": true,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [
+    "BEST"
+  ],
+  "uncovered_item_types": [
+    "item set (a scenario or vignette followed by several related questions)"
+  ],
+  "exam_mode": {
+    "questions": 200,
+    "minutes": 260,
+    "sections": 2
+  },
+  "verified_outline": "2027 CAIA Exam Handbook and 2027 Level I Companion Guide (March and September 2027 exams)",
+  "verified_on": "2026-10-31",
+  "next_review": "2027-10-01"
+}
