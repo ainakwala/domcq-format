@@ -1,0 +1,82 @@
+{
+  "id": "azure-az104",
+  "display_name": "AZ-104: Microsoft Azure Administrator",
+  "body": "Microsoft",
+  "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, or authorized, sponsored, endorsed or approved by, Microsoft Corporation; the names are used only to identify the exam. Microsoft, Azure, Microsoft Defender, Microsoft Entra, Microsoft Purview and Microsoft Sentinel are trademarks of the Microsoft group of companies. All other trademarks are the property of their respective owners.",
+  "taxonomy": {
+    "Manage Azure identities and governance": [
+      "Manage Microsoft Entra users and groups",
+      "Manage access to Azure resources",
+      "Manage Azure subscriptions and governance"
+    ],
+    "Implement and manage storage": [
+      "Configure access to storage",
+      "Configure and manage storage accounts",
+      "Configure Azure Files and Azure Blob Storage"
+    ],
+    "Deploy and manage Azure compute resources": [
+      "Automate deployment of resources by using Azure Resource Manager (ARM) templates or Bicep files",
+      "Create and configure virtual machines",
+      "Provision and manage containers in the Azure portal",
+      "Create and configure Azure App Service"
+    ],
+    "Implement and manage virtual networking": [
+      "Configure and manage virtual networks in Azure",
+      "Configure secure access to virtual networks",
+      "Configure name resolution and load balancing"
+    ],
+    "Monitor and maintain Azure resources": [
+      "Monitor resources in Azure",
+      "Implement backup and recovery"
+    ]
+  },
+  "weights": {
+    "Manage Azure identities and governance": {
+      "min": 20,
+      "max": 25
+    },
+    "Implement and manage storage": {
+      "min": 15,
+      "max": 20
+    },
+    "Deploy and manage Azure compute resources": {
+      "min": 20,
+      "max": 25
+    },
+    "Implement and manage virtual networking": {
+      "min": 15,
+      "max": 20
+    },
+    "Monitor and maintain Azure resources": {
+      "min": 10,
+      "max": 15
+    }
+  },
+  "options": {
+    "min": 4,
+    "max": 4
+  },
+  "multi_select": true,
+  "banned_option_text": [
+    "all of the above",
+    "none of the above"
+  ],
+  "stem_hints": [],
+  "uncovered_item_types": [
+    "active screen",
+    "build list",
+    "case study",
+    "drag and drop",
+    "hot area",
+    "lab",
+    "yes/no question"
+  ],
+  "exam_mode": {
+    "questions": 60,
+    "minutes": 100,
+    "note": "Microsoft does not publish the AZ-104 question count: the real exam is 100 minutes, and Microsoft's pages say most of its exams have 40 to 60 questions."
+  },
+  "verified_outline": "Study guide for Exam AZ-104: Microsoft Azure Administrator, skills measured as of April 17, 2026",
+  "verified_on": "2026-10-31",
+  "next_review": "2027-10-31"
+}

@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "azure-az104",
+  "set": "AZ-104: Microsoft Azure Administrator practice – Core Administration Set 1",
+  "questions": [
+    {
+      "stem": "Your organization uses Microsoft Entra ID to manage employee identities. An external consultant must collaborate with employees by accessing applications shared through your organization's tenant. The consultant must continue using an existing identity from another organization. Which action should you take?",
+      "options": [
+        "Create a new managed identity for the consultant in your tenant.",
+        "Invite the consultant as an external guest user through Microsoft Entra ID.",
+        "Create a new member account with a password managed by your organization.",
+        "Assign the consultant an Azure subscription through Cost Management."
+      ],
+      "answer": "B",
+      "explanation": "Microsoft Entra B2B collaboration allows external users to access applications and resources in your tenant while authenticating with their existing identities. Inviting the consultant creates a guest user representation in your directory without requiring a separate organization-managed password. Access to specific applications or resources must still be granted.",
+      "topic": "Manage Azure identities and governance",
+      "subtopic": "Manage Microsoft Entra users and groups",
+      "difficulty": "easy",
+      "source": "Microsoft Learn: Microsoft Entra B2B collaboration overview"
+    },
+    {
+      "stem": "A company has 600 employees in Microsoft Entra ID. All employees in a security group named FinanceUsers require the same Microsoft 365 product license. When employees are added to or removed from FinanceUsers, their license assignments should update automatically without individual administrator actions. What should you configure?",
+      "options": [
+        "Create an Azure Policy assignment targeting the FinanceUsers group.",
+        "Assign a subscription-level Contributor role to the FinanceUsers group.",
+        "Configure a management group containing the FinanceUsers group.",
+        "Assign the product license to the FinanceUsers group using group-based licensing."
+      ],
+      "answer": "D",
+      "explanation": "Microsoft Entra group-based licensing allows administrators to assign product licenses to groups rather than individual users. Eligible users who join the group receive the assigned licenses automatically, while users removed from the group lose licenses inherited solely through that membership. The organization must have sufficient available licenses and meet applicable licensing prerequisites.",
+      "topic": "Manage Azure identities and governance",
+      "subtopic": "Manage Microsoft Entra users and groups",
+      "difficulty": "medium",
+      "source": "Microsoft Learn: Group-based licensing in Microsoft Entra ID"
+    },
+    {
+      "stem": "An administrator must manage virtual machines in a resource group named RG-Production. The administrator must be able to start, stop, and reconfigure the virtual machines and assign Azure RBAC roles to other users at the resource-group scope. The administrator must not receive permissions over the entire subscription. Which TWO built-in roles should you assign at the RG-Production scope? Choose TWO.",
+      "options": [
+        "Reader",
+        "Virtual Machine Contributor",
+        "User Access Administrator",
+        "Monitoring Reader"
+      ],
+      "answer": "BC",
+      "explanation": "Virtual Machine Contributor provides permissions to manage virtual machines, including starting and stopping them, without granting general role-assignment permissions. User Access Administrator provides permissions to manage access through Azure RBAC. Assigning both roles at the resource-group scope limits these permissions to that resource group and its descendants.",
+      "topic": "Manage Azure identities and governance",
+      "subtopic": "Manage access to Azure resources",
+      "difficulty": "medium",
+      "source": "Microsoft Learn: Azure built-in roles; Understand scope for Azure RBAC"
+    },
+    {
+      "stem": "A production resource group contains several Azure virtual machines and storage accounts. Administrators must be allowed to modify these resources but must be prevented from accidentally deleting them, even when they have the Owner role. Which resource lock should you apply to the resource group?",
+      "options": [
+        "CanNotDelete",
+        "ReadOnly",
+        "DenyAssignment",
+        "AuditOnly"
+      ],
+      "answer": "A",
+      "explanation": "A CanNotDelete lock prevents deletion of the locked resource and its descendants while generally allowing modifications. Resource locks apply independently of Azure RBAC permissions, so even an Owner cannot delete a protected resource without removing the lock first. A ReadOnly lock would impose broader restrictions on management operations.",
+      "topic": "Manage Azure identities and governance",
+      "subtopic": "Manage Azure subscriptions and governance",
+      "difficulty": "easy",
+      "source": "Microsoft Learn: Lock your Azure resources to protect your infrastructure"
+    },
+    {
+      "stem": "Your organization assigns an Azure Policy definition with the modify effect to automatically add a required CostCenter tag to resources. The assignment identifies 200 existing resources without the tag as noncompliant. Newly created resources receive the tag correctly, but the existing resources remain unchanged. You must correct the existing resources through Azure Policy without manually editing each resource. Which TWO actions are required? Choose TWO.",
+      "options": [
+        "Change the policy effect from modify to audit before the next compliance evaluation.",
+        "Apply a ReadOnly resource lock to every resource identified as noncompliant.",
+        "Create a remediation task targeting the noncompliant existing resources.",
+        "Ensure the policy assignment's managed identity has the required permissions."
+      ],
+      "answer": "CD",
+      "explanation": "The modify effect can change applicable incoming resource requests, but compliance evaluation does not automatically update existing resources. A remediation task is needed to apply the policy's modification operations to existing noncompliant resources. The policy assignment's managed identity must have appropriate role permissions to perform those changes.",
+      "topic": "Manage Azure identities and governance",
+      "subtopic": "Manage Azure subscriptions and governance",
+      "difficulty": "hard",
+      "source": "Microsoft Learn: Azure Policy modify effect; Remediate noncompliant resources"
+    },
+    {
+      "stem": "A storage account contains confidential documents in Azure Blob Storage. An external application needs temporary read access to a single blob without receiving the storage account access key. Your organization wants the shared access signature to be authorized using Microsoft Entra credentials rather than Shared Key authorization. Which access method should you use?",
+      "options": [
+        "A user delegation shared access signature",
+        "An account shared access signature",
+        "A service shared access signature",
+        "A storage account access key"
+      ],
+      "answer": "A",
+      "explanation": "A user delegation SAS is secured using Microsoft Entra credentials and a user delegation key rather than a storage account key. Its permissions and validity period can be restricted to the required blob operation and duration. Microsoft recommends user delegation SAS over Shared Key-signed SAS tokens when supported.",
+      "topic": "Implement and manage storage",
+      "subtopic": "Configure access to storage",
+      "difficulty": "medium",
+      "source": "Microsoft Learn: Create a user delegation SAS; Shared access signatures overview"
+    },
+    {
+      "stem": "An organization is creating a general-purpose v2 Azure Storage account. The storage account must synchronously replicate data across availability zones in the primary region, asynchronously replicate data to a geographically separate secondary region, and allow read access to the secondary region without initiating an account failover. Which redundancy option meets all three requirements?",
+      "options": [
+        "Locally redundant storage (LRS)",
+        "Zone-redundant storage (ZRS)",
+        "Read-access geo-zone-redundant storage (RA-GZRS)",
+        "Geo-redundant storage (GRS)"
+      ],
+      "answer": "C",
+      "explanation": "RA-GZRS combines synchronous replication across availability zones in the primary region with asynchronous replication to a secondary region. The read-access capability permits reads from the secondary endpoint without requiring an account failover. ZRS lacks geographic replication, while standard GRS does not provide primary-region zone redundancy or normal secondary read access.",
+      "topic": "Implement and manage storage",
+      "subtopic": "Configure and manage storage accounts",
+      "difficulty": "medium",
+      "source": "Microsoft Learn: Azure Storage redundancy"
+    },
+    {
+      "stem": "An application stores reports as block blobs in Azure Blob Storage. A developer occasionally overwrites an existing blob with an incorrect version of a report. You want Azure Storage to retain previous versions automatically so that an administrator can recover the content that existed before the overwrite. Which feature should you enable?",
+      "options": [
+        "Blob container soft delete",
+        "Azure Files share snapshots",
+        "Blob immutability policies",
+        "Blob versioning"
+      ],
+      "answer": "D",
+      "explanation": "Blob versioning automatically preserves previous versions when a blob is modified or overwritten. An administrator can access an earlier version and restore its contents when necessary. Blob container soft delete primarily protects deleted containers, while Azure Files snapshots apply to file shares rather than blobs.",
+      "topic": "Implement and manage storage",
+      "subtopic": "Configure Azure Files and Azure Blob Storage",
+      "difficulty": "easy",
+      "source": "Microsoft Learn: Blob versioning; Manage and restore blob versions"
+    },
+    {
+      "stem": "A storage account has public network access enabled from selected networks only, with a default network rule that denies other traffic. Azure virtual machines in a subnet named AppSubnet must access the storage account through its public service endpoint, using the subnet's virtual network identity rather than a private endpoint. The subnet has no service endpoints configured. Which TWO configuration changes are required to permit the network connection? Choose TWO.",
+      "options": [
+        "Add AppSubnet's private IPv4 address range to the storage account's IP network rules.",
+        "Enable the Microsoft.Storage virtual network service endpoint on AppSubnet.",
+        "Add a virtual network rule allowing AppSubnet in the storage account firewall.",
+        "Create a private DNS A record without deploying a private endpoint."
+      ],
+      "answer": "BC",
+      "explanation": "A storage service endpoint enables traffic from the subnet to reach Azure Storage using the subnet's virtual network identity. The storage account firewall must also explicitly allow the subnet through a virtual network rule. Enabling a service endpoint alone does not grant access, and private IP address ranges are not valid substitutes for storage firewall virtual network rules.",
+      "topic": "Implement and manage storage",
+      "subtopic": "Configure access to storage",
+      "difficulty": "hard",
+      "source": "Microsoft Learn: Azure Storage firewall rules and virtual network service endpoints"
+    },
+    {
+      "stem": "A Bicep file declares an Azure virtual network resource with the symbolic name vnet. The file also declares a subnet resource with the property parent: vnet. The subnet declaration does not include an explicit dependsOn property. What happens when you deploy the Bicep file?",
+      "options": [
+        "The subnet is deployed before the virtual network because it is a child resource.",
+        "The deployment fails because every child resource requires an explicit dependsOn property.",
+        "The subnet and virtual network are deployed independently in an unspecified order.",
+        "Bicep infers a dependency so the virtual network is created before its subnet."
+      ],
+      "answer": "D",
+      "explanation": "Bicep determines certain resource dependencies automatically when one resource references another resource's symbolic name. Declaring the virtual network as the subnet's parent establishes an implicit dependency. An additional dependsOn declaration is unnecessary for that relationship.",
+      "topic": "Deploy and manage Azure compute resources",
+      "subtopic": "Automate deployment of resources by using Azure Resource Manager (ARM) templates or Bicep files",
+      "difficulty": "medium",
+      "source": "Microsoft Learn: Resource dependencies in Bicep"
+    },
+    {
+      "stem": "A company deploys three Azure virtual machines in a region that supports availability zones. The company wants the machines distributed across physically separate datacenter groups within the same region to reduce the impact of a datacenter-level failure. Which Azure feature should the administrator use?",
+      "options": [
+        "An availability set",
+        "Availability zones",
+        "A proximity placement group",
+        "A single virtual machine scale set instance"
+      ],
+      "answer": "B",
+      "explanation": "Availability zones are physically separate groups of datacenters within an Azure region, each with independent power, cooling, and networking infrastructure. Deploying virtual machines across zones helps protect against the failure of an individual zone. Availability sets provide fault and update domain separation but do not guarantee distribution across different availability zones.",
+      "topic": "Deploy and manage Azure compute resources",
+      "subtopic": "Create and configure virtual machines",
+      "difficulty": "easy",
+      "source": "Microsoft Learn: Availability options for Azure virtual machines"
+    },
+    {
+      "stem": "A development team has a container image stored in Azure Container Registry. The team needs to run the image as a short-lived containerized batch task in Azure without provisioning virtual machines or managing a container orchestration platform. The task does not require event-driven scaling, revisions, or a persistent application endpoint. Which service is the most appropriate?",
+      "options": [
+        "Azure Container Instances",
+        "Azure Virtual Machine Scale Sets",
+        "Azure App Service deployment slots",
+        "Azure Kubernetes Service"
+      ],
+      "answer": "A",
+      "explanation": "Azure Container Instances provides a straightforward way to run containers on demand without managing underlying virtual machines or Kubernetes clusters. It is suitable for isolated tasks, batch processing, and other simple container workloads. More sophisticated orchestration platforms introduce functionality that is unnecessary for the stated requirements.",
+      "topic": "Deploy and manage Azure compute resources",
+      "subtopic": "Provision and manage containers in the Azure portal",
+      "difficulty": "medium",
+      "source": "Microsoft Learn: Azure Container Instances overview"
+    },
+    {
+      "stem": "A company hosts a production website in Azure App Service using a Standard App Service plan. Administrators need to deploy a new application version, test it through a separate URL, and then promote it to production with minimal downtime without redeploying the application package. Which feature should they configure?",
+      "options": [
+        "Azure App Service custom domains",
+        "Azure App Service scale-out rules",
+        "Azure App Service deployment slots",
+        "Azure App Service access restrictions"
+      ],
+      "answer": "C",
+      "explanation": "Deployment slots provide separate live environments for an Azure App Service application. Administrators can deploy and test a new version in a staging slot before swapping it into production. The swap process supports application warm-up and helps minimize interruption during release.",
+      "topic": "Deploy and manage Azure compute resources",
+      "subtopic": "Create and configure Azure App Service",
+      "difficulty": "easy",
+      "source": "Microsoft Learn: Set up staging environments in Azure App Service"
+    },
+    {
+      "stem": "A Windows-based Azure App Service application has production and staging deployment slots. Each slot uses a different database connection string, and these connection strings must remain associated with their respective environments after a slot swap. The administrator also wants to validate the staging application after it has been prepared with production settings but before completing the swap. Which TWO actions should the administrator take? Choose TWO.",
+      "options": [
+        "Mark the environment-specific connection strings as deployment slot settings.",
+        "Use swap with preview to validate the staged application before completing the swap.",
+        "Enable automatic swapping from staging to production for every new deployment.",
+        "Configure the connection strings as ordinary settings that are swapped between slots."
+      ],
+      "answer": "AB",
+      "explanation": "Marking connection strings as deployment slot settings makes them sticky, so their values remain with their respective slots during a swap. Swap with preview applies the target slot's applicable settings to the source slot and allows administrators to validate the prepared application before completing the operation. Automatic swap does not provide the same manual validation stage, and non-sticky connection strings would move during the swap.",
+      "topic": "Deploy and manage Azure compute resources",
+      "subtopic": "Create and configure Azure App Service",
+      "difficulty": "hard",
+      "source": "Microsoft Learn: Azure App Service deployment slots; Swap with preview"
+    },
+    {
+      "stem": "An Azure environment contains three virtual networks with nonoverlapping address spaces: HubVNet, SpokeA, and SpokeB. HubVNet is peered with SpokeA and SpokeB, but the spokes are not peered with each other. There are no VPN gateways, network virtual appliances, or other routing services connecting the spokes. Virtual machines in SpokeA must communicate privately and directly with virtual machines in SpokeB using virtual network peering. What must you configure?",
+      "options": [
+        "Enable network security group flow logs on the HubVNet subnets.",
+        "Enable a public IP address on each virtual machine in SpokeB.",
+        "Create a custom Azure DNS zone for the virtual machines in SpokeA.",
+        "Create direct virtual network peering connections between SpokeA and SpokeB."
+      ],
+      "answer": "D",
+      "explanation": "Azure virtual network peering is not transitive. Two spoke networks do not automatically gain connectivity through a common peered hub. Direct peering between SpokeA and SpokeB provides the required private connectivity without introducing additional routing infrastructure.",
+      "topic": "Implement and manage virtual networking",
+      "subtopic": "Configure and manage virtual networks in Azure",
+      "difficulty": "medium",
+      "source": "Microsoft Learn: Azure virtual network peering overview"
+    },
+    {
+      "stem": "An Azure virtual machine has a network security group associated with its subnet and another network security group associated with its network interface. For inbound TCP port 443 traffic from 203.0.113.0/24, the subnet NSG has a matching Deny rule with priority 200, while the network interface NSG has a matching Allow rule with priority 100. No other relevant rules apply. What happens to matching inbound traffic?",
+      "options": [
+        "The traffic is allowed because the network interface NSG has the numerically lower priority.",
+        "The traffic is blocked because the subnet NSG denies it before the network interface NSG.",
+        "The traffic is allowed because an explicit Allow rule always overrides an explicit Deny rule.",
+        "The traffic is blocked only when both network security groups contain matching Deny rules."
+      ],
+      "answer": "B",
+      "explanation": "For inbound traffic, Azure evaluates the subnet-level NSG before the network interface-level NSG. Traffic must be permitted by both NSGs to reach the virtual machine. Rule priorities are compared within an individual NSG, not across different NSGs, so the subnet-level Deny rule blocks the connection despite the NIC-level Allow rule.",
+      "topic": "Implement and manage virtual networking",
+      "subtopic": "Configure secure access to virtual networks",
+      "difficulty": "hard",
+      "source": "Microsoft Learn: How network security groups filter network traffic"
+    },
+    {
+      "stem": "A company creates an Azure Private Endpoint for the Blob service of a storage account. Virtual machines in VNet1 must access the storage account through the private endpoint while continuing to use the normal storage account hostname. The private endpoint is correctly deployed, but the virtual machines still resolve the storage account hostname to a public IP address. Which DNS configuration should you implement?",
+      "options": [
+        "Create a public Azure DNS zone for the storage account's public IP address.",
+        "Configure a DNS zone for azurewebsites.net and link it to VNet1.",
+        "Configure the privatelink.blob.core.windows.net private DNS zone and link it to VNet1.",
+        "Configure an Azure DNS private resolver without any private DNS zone records."
+      ],
+      "answer": "C",
+      "explanation": "Azure Blob Storage private endpoints use the privatelink.blob.core.windows.net private DNS namespace. A correctly configured private DNS zone, linked to the virtual network and containing the appropriate endpoint record, allows the normal storage account hostname to resolve to the private endpoint address. This enables private connectivity without requiring applications to use a different storage account hostname.",
+      "topic": "Implement and manage virtual networking",
+      "subtopic": "Configure secure access to virtual networks",
+      "difficulty": "medium",
+      "source": "Microsoft Learn: Azure Private Endpoint DNS configuration"
+    },
+    {
+      "stem": "Three Azure virtual machines host an internal application that accepts TCP connections on port 443. The application must distribute incoming connections across the virtual machines at Layer 4, and the load-balancing endpoint must be reachable only through a private IP address inside an Azure virtual network. Which service should you configure?",
+      "options": [
+        "An internal Azure Load Balancer",
+        "A public Azure Load Balancer",
+        "An Azure Traffic Manager profile",
+        "An Azure Front Door endpoint"
+      ],
+      "answer": "A",
+      "explanation": "An internal Azure Load Balancer distributes TCP or UDP traffic to backend resources using a private frontend IP address. This provides Layer 4 load balancing for applications accessible through the virtual network or connected private networks. Public load-balancing services are not appropriate when the frontend must remain private.",
+      "topic": "Implement and manage virtual networking",
+      "subtopic": "Configure name resolution and load balancing",
+      "difficulty": "easy",
+      "source": "Microsoft Learn: Azure Load Balancer overview; Internal load balancer"
+    },
+    {
+      "stem": "An Azure administrator needs to investigate Blob Storage authorization failures over the past seven days. The storage account is not currently sending resource logs to a workspace. The administrator wants to collect detailed Blob service operation logs centrally and search them using Kusto Query Language (KQL). Which TWO actions should the administrator perform? Choose TWO.",
+      "options": [
+        "Enable only the default platform metrics without configuring resource log collection.",
+        "Configure Blob service diagnostic settings to send relevant resource logs to a Log Analytics workspace.",
+        "Review Azure Advisor cost optimization recommendations for the storage account.",
+        "Query the collected log records using KQL in Azure Monitor Logs."
+      ],
+      "answer": "BD",
+      "explanation": "Diagnostic settings can route supported Azure Blob Storage resource logs to a Log Analytics workspace, where they can be analyzed using KQL. These logs provide operation details useful for investigating authorization failures. Diagnostic settings do not backfill logs from before collection was enabled, so the administrator can analyze the requested historical period only to the extent that those records were already retained elsewhere; new log collection begins after configuration.",
+      "topic": "Monitor and maintain Azure resources",
+      "subtopic": "Monitor resources in Azure",
+      "difficulty": "medium",
+      "source": "Microsoft Learn: Monitor Azure Blob Storage; Azure Monitor diagnostic settings"
+    },
+    {
+      "stem": "A company runs a critical application on several Azure virtual machines in East US. Its disaster recovery requirement is to maintain continuous replication of the virtual machines to West US and orchestrate failover to the secondary region if East US becomes unavailable. The company also needs to test its recovery plan without disrupting production workloads. Which Azure service should the administrator configure?",
+      "options": [
+        "Azure Backup with a daily recovery point schedule",
+        "Azure Monitor with availability metric alerts",
+        "Azure Site Recovery with Azure-to-Azure replication",
+        "Azure Storage object replication between storage accounts"
+      ],
+      "answer": "C",
+      "explanation": "Azure Site Recovery provides disaster recovery orchestration for Azure virtual machines, including replication between regions, recovery plans, failover, and failback. It also supports test failovers that allow recovery procedures to be validated without disrupting production workloads. Azure Backup primarily provides point-in-time data protection and restoration rather than continuous VM replication and coordinated regional failover.",
+      "topic": "Monitor and maintain Azure resources",
+      "subtopic": "Implement backup and recovery",
+      "difficulty": "medium",
+      "source": "Microsoft Learn: Set up Azure VM disaster recovery to a secondary region with Azure Site Recovery"
+    }
+  ]
+}
