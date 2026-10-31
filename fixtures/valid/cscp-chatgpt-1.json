@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "cscp",
+  "set": "APICS CSCP Practice – Integrated Supply Chain Decisions",
+  "questions": [
+    {
+      "stem": "A manufacturer uses a three-month simple moving average to forecast demand. Actual demand for the last three months was 900, 1,050, and 1,200 units, respectively. What is the forecast for the next month?",
+      "options": [
+        "1,050 units",
+        "1,100 units",
+        "1,150 units",
+        "1,200 units"
+      ],
+      "answer": "A",
+      "explanation": "A simple moving average assigns equal weight to each observation in the specified period. The forecast is (900 + 1,050 + 1,200) / 3 = 1,050 units. This method smooths short-term fluctuations but may lag when demand follows a sustained upward or downward trend.",
+      "topic": "Forecast and Manage Demand",
+      "subtopic": "Build the Forecast",
+      "difficulty": "easy",
+      "source": "ASCM CSCP ECM v5.0, Section I.C: Build the Forecast"
+    },
+    {
+      "stem": "A manufacturer experiences a sudden increase in orders after a distributor announces a temporary price discount. Historical sales data show no comparable increase in underlying consumer consumption. During the next sales and operations planning cycle, which action is MOST appropriate?",
+      "options": [
+        "Increase the statistical baseline forecast to match the latest distributor orders",
+        "Separate promotion-related demand from baseline demand before reconciling the forecast",
+        "Extend the moving-average period until the promotional increase disappears",
+        "Increase finished goods safety stock permanently to reflect the higher order volume"
+      ],
+      "answer": "B",
+      "explanation": "Temporary promotions can create demand spikes that do not represent a lasting change in underlying consumption. Identifying promotional demand separately helps prevent the statistical baseline from being distorted and supports more accurate supply planning. The sales and operations planning process should reconcile the promotion's expected effects with available capacity and inventory.",
+      "topic": "Forecast and Manage Demand",
+      "subtopic": "Align Supply with Demand",
+      "difficulty": "medium",
+      "source": "ASCM CSCP ECM v5.0, Sections I.B–I.D: Influence Demand, Build the Forecast, Align Supply with Demand"
+    },
+    {
+      "stem": "A global manufacturer is designing a distribution network. It wants to shorten customer delivery lead times while minimizing total supply chain cost. Which approach is MOST appropriate for selecting warehouse locations?",
+      "options": [
+        "Place every warehouse near the manufacturer's largest production facility",
+        "Select locations offering the lowest warehouse rental rates",
+        "Evaluate facility, inventory, transportation, and service costs across alternative networks",
+        "Locate warehouses in every major sales territory regardless of demand volume"
+      ],
+      "answer": "C",
+      "explanation": "Supply chain network design requires evaluating total landed and operating costs together with service requirements. A low-cost warehouse location may increase transportation expenses or customer lead times, while additional facilities can increase inventory and fixed costs. Network optimization considers these interdependencies to identify an appropriate configuration.",
+      "topic": "Manage the Global Supply Chain Network and Information",
+      "subtopic": "Define and Manage the Supply Chain Network",
+      "difficulty": "easy",
+      "source": "ASCM CSCP ECM v5.0, Section II.A: Define and Manage the Supply Chain Network"
+    },
+    {
+      "stem": "A multinational company has implemented a centralized supply chain planning system. However, different regional facilities maintain inconsistent product identifiers, units of measure, and supplier lead times. Automated replenishment recommendations frequently contain errors. Which initiative should management prioritize?",
+      "options": [
+        "Increase inventory buffers at each regional facility",
+        "Introduce additional forecasting algorithms in each region",
+        "Replace centralized planning with independent regional systems",
+        "Establish master data governance with standardized definitions and validation controls"
+      ],
+      "answer": "D",
+      "explanation": "Accurate master data are essential for reliable planning and execution across an integrated supply chain. Standardizing identifiers, units of measure, lead times, and validation rules reduces transaction errors and inconsistent calculations. Data ownership and governance processes help preserve accuracy as information changes.",
+      "topic": "Manage the Global Supply Chain Network and Information",
+      "subtopic": "Manage Customer, Supplier, Product/Item, Engineering, and Logistics Master Data",
+      "difficulty": "medium",
+      "source": "ASCM CSCP ECM v5.0, Section II.B: Manage Master Data"
+    },
+    {
+      "stem": "A procurement manager is purchasing a standard component from a supplier that offers a unit price of $40. Annual demand is 10,000 units. Freight costs $20,000 annually, incoming inspection costs $8,000 annually, and annual inventory carrying costs attributable to the component are $12,000. Assuming no other relevant costs, what is the annual total cost of ownership?",
+      "options": [
+        "$440,000",
+        "$420,000",
+        "$428,000",
+        "$452,000"
+      ],
+      "answer": "A",
+      "explanation": "Total cost of ownership includes costs beyond the supplier's quoted purchase price. Annual purchase expenditure is 10,000 × $40 = $400,000, and the additional relevant costs total $40,000. Therefore, annual total cost of ownership is $440,000.",
+      "topic": "Source Products and Services",
+      "subtopic": "Supplier Selection and Total Cost of Ownership",
+      "difficulty": "easy",
+      "source": "ASCM CSCP Learning System, Module 3: Supplier Selection, Contracting, and Use"
+    },
+    {
+      "stem": "A manufacturer is developing a sourcing strategy for a specialized electronic component. The component has a high impact on profitability, only two qualified suppliers exist worldwide, and switching suppliers requires lengthy engineering approval. Under the Kraljic purchasing portfolio approach, which strategy is MOST appropriate?",
+      "options": [
+        "Use competitive spot purchasing to obtain the lowest available unit price",
+        "Develop strategic supplier partnerships and contingency plans to protect continuity",
+        "Reduce procurement involvement because supplier competition is limited",
+        "Standardize purchase orders while avoiding long-term supplier commitments"
+      ],
+      "answer": "B",
+      "explanation": "An item with high profit impact and high supply risk is classified as strategic under the Kraljic portfolio model. Such items generally require close supplier collaboration, long-term planning, and active supply risk management rather than purely transactional purchasing. Contingency plans are particularly important when alternative sources are difficult to qualify.",
+      "topic": "Source Products and Services",
+      "subtopic": "Category Strategy for Sourcing",
+      "difficulty": "hard",
+      "source": "ASCM CSCP Learning System, Module 3: Category Strategy for Sourcing"
+    },
+    {
+      "stem": "A manufacturer is preparing to outsource production of a newly designed component. Engineering changes are frequent, the component has strict performance specifications, and late discovery of manufacturing problems would be expensive. What should the sourcing team do FIRST to reduce supplier-related design and manufacturing risks?",
+      "options": [
+        "Award the contract based on the supplier's initial quoted unit price",
+        "Complete the product design before involving potential suppliers",
+        "Involve qualified suppliers early in design reviews and manufacturability assessments",
+        "Increase incoming inspection after the first commercial production shipment"
+      ],
+      "answer": "C",
+      "explanation": "Early supplier involvement allows manufacturing capabilities, process limitations, material availability, and quality requirements to be considered during product development. This can reduce costly redesigns, improve manufacturability, and shorten time to market. Inspection after production begins cannot recover all the benefits of resolving design problems earlier.",
+      "topic": "Source Products and Services",
+      "subtopic": "Product Design Influence",
+      "difficulty": "medium",
+      "source": "ASCM CSCP Learning System, Module 3: Product Design Influence"
+    },
+    {
+      "stem": "A factory has four sequential operations with sustainable capacities of 120, 100, 80, and 110 units per hour. All products must pass through all four operations, and no additional parallel capacity is available. What is the maximum sustainable throughput of the production line?",
+      "options": [
+        "100 units per hour",
+        "110 units per hour",
+        "120 units per hour",
+        "80 units per hour"
+      ],
+      "answer": "D",
+      "explanation": "The maximum sustainable throughput of a serial production process is constrained by its lowest-capacity operation. The third operation can process only 80 units per hour, making it the bottleneck. Increasing capacity at non-bottleneck operations alone will not increase overall throughput.",
+      "topic": "Manage Internal Operations and Inventory",
+      "subtopic": "Capacity and Production Activity Control",
+      "difficulty": "easy",
+      "source": "ASCM CSCP Learning System, Module 4: Capacity and Production Activity Control"
+    },
+    {
+      "stem": "A distributor uses a continuous-review inventory system. Annual demand is 24,000 units, annual holding cost is $6 per unit, and the cost of placing an order is $75. Demand is stable, replenishment is instantaneous, and quantity discounts are unavailable. What is the approximate economic order quantity?",
+      "options": [
+        "775 units",
+        "600 units",
+        "950 units",
+        "1,200 units"
+      ],
+      "answer": "A",
+      "explanation": "The economic order quantity is the square root of (2 × annual demand × ordering cost / annual holding cost). Substituting the values gives the square root of (2 × 24,000 × 75 / 6), which is approximately 775 units. EOQ balances annual ordering costs with inventory holding costs under the stated assumptions.",
+      "topic": "Manage Internal Operations and Inventory",
+      "subtopic": "Economic Order Quantity",
+      "difficulty": "medium",
+      "source": "ASCM CSCP Learning System, Module 4: Inventory"
+    },
+    {
+      "stem": "A company uses a continuous-review inventory system for a purchased component. Average daily demand is 200 units, replenishment lead time is eight days, and safety stock is 500 units. Demand and lead time assumptions remain unchanged. At what inventory position should a replenishment order be triggered?",
+      "options": [
+        "1,600 units",
+        "2,100 units",
+        "2,600 units",
+        "4,000 units"
+      ],
+      "answer": "B",
+      "explanation": "The reorder point equals expected demand during replenishment lead time plus safety stock. Expected lead-time demand is 200 × 8 = 1,600 units, and adding 500 units of safety stock gives 2,100 units. Inventory position includes on-hand inventory and outstanding orders, less backorders.",
+      "topic": "Manage Internal Operations and Inventory",
+      "subtopic": "Reorder Point and Safety Stock",
+      "difficulty": "medium",
+      "source": "ASCM CSCP Learning System, Module 4: Inventory"
+    },
+    {
+      "stem": "A company has two warehouses supplied from the same central distribution center. Daily demands at both warehouses are independent and normally distributed. Warehouse A has a daily demand standard deviation of 40 units, while Warehouse B has a daily demand standard deviation of 30 units. If inventory is centralized and replenishment lead time is unchanged, what is the combined daily demand standard deviation used to calculate centralized safety stock?",
+      "options": [
+        "35 units",
+        "70 units",
+        "50 units",
+        "10 units"
+      ],
+      "answer": "C",
+      "explanation": "For independent demand streams, variances are additive rather than standard deviations. Combined standard deviation is the square root of (40 squared + 30 squared), giving 50 units. This risk-pooling effect can reduce the safety stock needed to achieve a common service target when inventory is centralized.",
+      "topic": "Manage Internal Operations and Inventory",
+      "subtopic": "Inventory Risk Pooling",
+      "difficulty": "hard",
+      "source": "ASCM CSCP Learning System, Module 4: Inventory"
+    },
+    {
+      "stem": "An electronics manufacturer sells products internationally and must manage customer returns for defective devices. It wants to recover usable value, minimize disposal costs, and meet environmental requirements. Which process should it establish?",
+      "options": [
+        "A forward distribution process focused on expedited replacement shipments",
+        "A cross-docking process that transfers inbound units directly to outbound vehicles",
+        "A freight consolidation process that combines shipments from multiple suppliers",
+        "A reverse logistics process covering collection, inspection, repair, recovery, and disposal"
+      ],
+      "answer": "D",
+      "explanation": "Reverse logistics manages products and materials moving back through the supply chain after sale or use. It encompasses returns authorization, transportation, assessment, repair, refurbishment, recycling, and appropriate disposal. A structured process improves value recovery and helps satisfy environmental and customer service requirements.",
+      "topic": "Manage Supply Chain Logistics",
+      "subtopic": "Reverse Logistics",
+      "difficulty": "easy",
+      "source": "ASCM CSCP Learning System, Module 5: Reverse Flow"
+    },
+    {
+      "stem": "A retailer imports containers of seasonal merchandise and must choose a transportation mode. Ocean freight costs $12,000 and requires 30 days of transit, while air freight costs $42,000 and requires five days. The shipment's inventory value is $600,000 and its annual inventory carrying rate is 24%. Assume a 365-day year, equal costs outside transportation and in-transit carrying costs, and no stockout or obsolescence risk. Which statement is correct?",
+      "options": [
+        "Ocean freight has a lower combined transportation and in-transit carrying cost",
+        "Air freight has a lower combined transportation and in-transit carrying cost",
+        "Both modes have the same combined cost after accounting for transit time",
+        "Air freight saves enough carrying cost to offset its higher freight charge"
+      ],
+      "answer": "A",
+      "explanation": "Daily in-transit carrying cost is $600,000 × 24% / 365, or approximately $394.52. Ocean freight's combined cost is about $23,836, compared with about $43,973 for air freight. Although air freight reduces inventory carrying cost by shortening transit, the savings are insufficient to offset its $30,000 higher transportation charge.",
+      "topic": "Manage Supply Chain Logistics",
+      "subtopic": "Distribution Services and Transportation Choices",
+      "difficulty": "medium",
+      "source": "ASCM CSCP Learning System, Module 5: Distribution Services and Transportation Choices"
+    },
+    {
+      "stem": "A supplier consistently delivers products meeting specifications but frequently misses agreed delivery dates. The buying organization wants to monitor improvement in delivery reliability. Which performance metric is MOST directly relevant?",
+      "options": [
+        "Supplier defect rate",
+        "Supplier on-time delivery percentage",
+        "Supplier inventory turnover",
+        "Supplier purchase price variance"
+      ],
+      "answer": "B",
+      "explanation": "On-time delivery percentage measures the proportion of shipments arriving by the agreed delivery date and directly assesses delivery reliability. Defect rate measures quality, while inventory turnover and purchase price variance evaluate different aspects of performance. Tracking the relevant metric supports targeted corrective actions.",
+      "topic": "Manage Customer and Supplier Relationships",
+      "subtopic": "Supplier Performance Management",
+      "difficulty": "easy",
+      "source": "ASCM CSCP Learning System, Module 6: Supplier and Supply Chain Relationships"
+    },
+    {
+      "stem": "A consumer goods manufacturer wants to strengthen its relationship with a major retailer. The retailer shares point-of-sale data, but the two companies still prepare separate forecasts and frequently experience mismatches between promotional demand and replenishment quantities. Which collaborative approach is MOST appropriate?",
+      "options": [
+        "Vendor-managed inventory without sharing promotional schedules",
+        "Independent reorder-point planning with larger minimum order quantities",
+        "Collaborative planning, forecasting, and replenishment using shared forecasts and exception resolution",
+        "Supplier-managed production scheduling based solely on historical manufacturer shipments"
+      ],
+      "answer": "C",
+      "explanation": "Collaborative planning, forecasting, and replenishment integrates trading partners' business plans, forecasts, and replenishment activities. Sharing promotional information and resolving forecast exceptions jointly helps align replenishment with actual consumer demand. It can reduce stockouts, excess inventory, and disagreements between trading partners.",
+      "topic": "Manage Customer and Supplier Relationships",
+      "subtopic": "Collaborative Planning, Forecasting, and Replenishment",
+      "difficulty": "medium",
+      "source": "ASCM CSCP Learning System, Module 6: Customer Relationships"
+    },
+    {
+      "stem": "A manufacturer and a strategic supplier are negotiating a five-year agreement for a customized component. Demand is uncertain, and the supplier must invest in dedicated production equipment. Both organizations want to encourage innovation, preserve supply continuity, and avoid disputes over unexpected demand changes. Which contracting approach is MOST appropriate?",
+      "options": [
+        "A fixed purchase quantity with no mechanism for forecast revisions",
+        "A spot-purchase arrangement requiring competitive bidding for every order",
+        "A unilateral agreement allowing the buyer to revise prices without supplier approval",
+        "A collaborative contract defining capacity commitments, forecast flexibility, and risk-sharing mechanisms"
+      ],
+      "answer": "D",
+      "explanation": "Long-term supplier relationships involving asset-specific investment benefit from clearly defined mutual commitments and risk allocation. Capacity provisions, forecast flexibility, and mechanisms for addressing changes in demand reduce uncertainty for both parties. This structure also supports joint innovation and continuity more effectively than purely transactional arrangements.",
+      "topic": "Manage Customer and Supplier Relationships",
+      "subtopic": "Strategic Supplier Relationships and Contracting",
+      "difficulty": "hard",
+      "source": "ASCM CSCP Learning System, Module 6: Supplier and Supply Chain Relationships"
+    },
+    {
+      "stem": "A company relies on a single supplier for a critical raw material. The supplier operates in a region prone to earthquakes, and an extended disruption would halt production. Which action BEST reduces the company's exposure to this supply risk?",
+      "options": [
+        "Qualify an alternative supplier in a geographically separate region",
+        "Negotiate a lower purchase price with the current supplier",
+        "Increase the frequency of routine purchase order confirmations",
+        "Reduce the frequency of supplier performance evaluations"
+      ],
+      "answer": "A",
+      "explanation": "Qualifying a geographically diversified alternative source reduces dependency on a single facility or region. This provides a potential supply route if a major disruption affects the primary supplier. Price negotiations and routine order monitoring do not directly eliminate the underlying concentration risk.",
+      "topic": "Manage Supply Chain Risk",
+      "subtopic": "Supply Risk Mitigation and Business Continuity",
+      "difficulty": "medium",
+      "source": "ASCM CSCP Learning System, Module 7: Risk Management and Supply Chain Risks"
+    },
+    {
+      "stem": "A supply chain risk team identifies four potential disruptions and scores each using a five-point likelihood scale and a five-point impact scale. The scores are: Risk A, likelihood 2 and impact 5; Risk B, likelihood 4 and impact 3; Risk C, likelihood 3 and impact 5; Risk D, likelihood 5 and impact 2. Under a risk-prioritization method that multiplies likelihood by impact, which risk should receive the highest priority?",
+      "options": [
+        "Risk A",
+        "Risk C",
+        "Risk B",
+        "Risk D"
+      ],
+      "answer": "B",
+      "explanation": "Multiplying likelihood by impact gives Risk A a score of 10, Risk B a score of 12, Risk C a score of 15, and Risk D a score of 10. Risk C therefore has the highest score under the specified method. This type of risk matrix provides a screening tool for prioritization, although organizations should also consider factors such as detectability, interdependencies, and risk tolerance.",
+      "topic": "Manage Supply Chain Risk",
+      "subtopic": "Risk Analysis and Prioritization",
+      "difficulty": "medium",
+      "source": "ASCM CSCP Learning System, Module 7: Risk Analysis and Response"
+    },
+    {
+      "stem": "A manufacturer wants to evaluate its cash-to-cash cycle time. Its days inventory outstanding is 58 days, days sales outstanding is 37 days, and days payable outstanding is 42 days. What is its cash-to-cash cycle time?",
+      "options": [
+        "63 days",
+        "79 days",
+        "53 days",
+        "137 days"
+      ],
+      "answer": "C",
+      "explanation": "Cash-to-cash cycle time measures the interval between paying suppliers and receiving payment from customers. It is calculated as days inventory outstanding plus days sales outstanding minus days payable outstanding. Therefore, 58 + 37 - 42 = 53 days, indicating how long cash is tied up in the operating cycle.",
+      "topic": "Evaluate and Optimize the Supply Chain",
+      "subtopic": "Supply Chain Financial Performance",
+      "difficulty": "medium",
+      "source": "ASCM CSCP Learning System, Module 8: Optimizing Supply Chain Strategy and Tactics"
+    },
+    {
+      "stem": "A global manufacturer is evaluating two supply chain improvement projects. Project A is expected to reduce annual logistics costs by $1.2 million but increase annual carbon emissions by 800 metric tons. Project B is expected to reduce annual logistics costs by $900,000 and annual carbon emissions by 500 metric tons. Both require identical investments and provide equivalent service levels. The company has committed to reducing emissions by at least 400 metric tons annually while improving financial performance. Which decision BEST satisfies its stated objectives?",
+      "options": [
+        "Select Project A because it produces the largest annual logistics cost reduction",
+        "Select Project A because its financial savings exceed those of Project B",
+        "Reject both projects because neither eliminates all supply chain emissions",
+        "Select Project B because it reduces both logistics costs and carbon emissions"
+      ],
+      "answer": "D",
+      "explanation": "Project B satisfies both the financial improvement objective and the requirement to reduce annual emissions by at least 400 metric tons. Project A provides greater cost savings but increases emissions and therefore fails the stated sustainability constraint. Supply chain optimization should evaluate financial outcomes alongside explicit environmental and strategic requirements.",
+      "topic": "Evaluate and Optimize the Supply Chain",
+      "subtopic": "Sustainability and Supply Chain Optimization",
+      "difficulty": "hard",
+      "source": "ASCM CSCP Learning System, Module 8: Sustainability and Optimizing Supply Chain Strategy and Tactics"
+    }
+  ]
+}
